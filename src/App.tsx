@@ -19,7 +19,7 @@ export function App(){
  const values={intervalSeconds:parseNumber(s.interval),xpPerAction:parseNumber(s.xp),expectedQuantityPerAction:parseNumber(s.items),sellPriceGp:parseNumber(s.price)};
  const validManual=values.intervalSeconds!==null&&values.intervalSeconds>0&&values.xpPerAction!==null&&values.xpPerAction>=0&&values.expectedQuantityPerAction!==null&&values.expectedQuantityPerAction>0&&values.sellPriceGp!==null&&values.sellPriceGp>=0;
  const calculated=validManual&&validLevel&&validTarget?rates(values):null;
- const fmt=(v:number|null|undefined)=>v==null?'—':new Intl.NumberFormat(s.lang,{maximumFractionDigits:2}).format(v);
+ const fmt=(v:number|null|undefined)=>v==null||!Number.isFinite(v)?'—':new Intl.NumberFormat(s.lang,{maximumFractionDigits:2}).format(v);
  const verified=dataErrors.length?[]:eligible(trees,available&&validLevel?level!:Number.MAX_SAFE_INTEGER,s.channel,s.version);
  const rows=verified.filter(v=>!available||validLevel&&v.requiredLevel<=level!).filter(v=>(v.name.en+' '+(v.name.ru??'')).toLowerCase().includes(search.toLowerCase())).sort((a,b)=>{const ra=rates(a),rb=rates(b);return sort==='level'?a.requiredLevel-b.requiredLevel:((sort==='gp'?rb?.grossGpPerHour:rb?.xpPerHour)??-1)-((sort==='gp'?ra?.grossGpPerHour:ra?.xpPerHour)??-1);});
  const issue=(tree?:Tree)=>'https://github.com/knsk45/melvor-idle-2-tools/issues/new?'+new URLSearchParams({template:'data-error.yml',title:'[Data] '+(tree?.name.en??'Woodcutting'),object:tree?.id??'Woodcutting',build:tree?tree.channel+' / '+tree.gameVersion:s.channel+' / '+(s.version||'unknown'),observed:'',expected:'',source:''});
