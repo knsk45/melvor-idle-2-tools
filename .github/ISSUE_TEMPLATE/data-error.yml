@@ -1,0 +1,34 @@
+name: Data error
+description: Report a Melvor Idle 2 data discrepancy
+title: "[Data] "
+body:
+  - type: input
+    id: object
+    attributes:
+      label: Object / дерево
+    validations:
+      required: true
+  - type: input
+    id: build
+    attributes:
+      label: Channel and exact build
+    validations:
+      required: true
+  - type: textarea
+    id: observed
+    attributes:
+      label: Observed / ошибочное значение
+    validations:
+      required: true
+  - type: textarea
+    id: expected
+    attributes:
+      label: Expected value and active bonuses
+    validations:
+      required: true
+  - type: textarea
+    id: source
+    attributes:
+      label: Source, screenshot and date
+    validations:
+      required: true

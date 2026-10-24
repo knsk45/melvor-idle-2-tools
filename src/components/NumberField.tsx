@@ -1,0 +1,1 @@
+export function NumberField({label,value,onChange,min=0,step='any'}:{label:string;value:string;onChange:(v:string)=>void;min?:number;step?:string}) {return <label>{label}<input type="number" min={min} step={step} value={value} onChange={e=>onChange(e.target.value)} /></label>;}

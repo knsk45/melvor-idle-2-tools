@@ -1,0 +1,16 @@
+[
+  {
+    "id": "steam",
+    "url": "https://store.steampowered.com/app/3218350/Melvor_Idle_2/",
+    "title": "Official Steam page",
+    "checkedAt": "2026-10-24",
+    "scope": "Product identity and demo availability; no numerical woodcutting data."
+  },
+  {
+    "id": "demo-announcement",
+    "url": "https://news.melvoridle.com/the-melvor-idle-2-demo-is-now-live/",
+    "title": "Official demo announcement, 19 October 2026",
+    "checkedAt": "2026-10-24",
+    "scope": "Demo availability and level cap; no numerical woodcutting data."
+  }
+]
