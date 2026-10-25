@@ -1,0 +1,995 @@
+{
+  "id": "mining",
+  "gameVersion": "0.11.2-alpha.4",
+  "steamBuildId": "26074343",
+  "packageSha256": "2b43f26ce76d86178f56a72c8dced08a0ae545779786cccdcac868bdc3478474",
+  "checkedAt": "2026-10-25",
+  "method": "docs/BASE_SKILL_FORMULAS.md#mining",
+  "rows": [
+    {
+      "id": "Stone",
+      "gameId": "MelvorBase:Stone",
+      "name": "Stone",
+      "requiredLevel": 1,
+      "availability": "demo",
+      "conditions": [
+        "Mining level 1"
+      ],
+      "intervalSeconds": 2.94,
+      "intervalLabel": "1.5s / hit · at most 3 hits",
+      "baseXp": 3,
+      "successChance": 0.4,
+      "xpPerHour": 3673.4693877551026,
+      "itemsPerHour": 1224.4897959183675,
+      "gpPerHour": 2448.979591836735,
+      "products": [
+        {
+          "id": "MelvorBase:Stone",
+          "name": "Stone",
+          "role": "primary",
+          "basis": "rock break",
+          "probability": 1,
+          "quantity": 1,
+          "itemsPerHour": 1224.4897959183675,
+          "gpPerHour": 2448.979591836735
+        }
+      ],
+      "sourcePointer": "/Objects/MiningRecipe/0",
+      "notes": [
+        "The base break chance is per hit. Failed hits accumulate prospecting progress; the cap forces a break.",
+        "Base XP is awarded only on a break. Bar/stone/essence bonus drops, shatter and early break modifiers are excluded."
+      ]
+    },
+    {
+      "id": "Clay",
+      "gameId": "MelvorBase:Clay",
+      "name": "Clay",
+      "requiredLevel": 3,
+      "availability": "demo",
+      "conditions": [
+        "Mining level 3"
+      ],
+      "intervalSeconds": 3.1667833350000003,
+      "intervalLabel": "1.5s / hit · at most 3 hits",
+      "baseXp": 4,
+      "successChance": 0.3333,
+      "xpPerHour": 4547.200890205518,
+      "itemsPerHour": 1136.8002225513794,
+      "gpPerHour": 1136.8002225513794,
+      "products": [
+        {
+          "id": "MelvorBase:Clay",
+          "name": "Clay",
+          "role": "primary",
+          "basis": "rock break",
+          "probability": 1,
+          "quantity": 1,
+          "itemsPerHour": 1136.8002225513794,
+          "gpPerHour": 1136.8002225513794
+        }
+      ],
+      "sourcePointer": "/Objects/MiningRecipe/1",
+      "notes": [
+        "The base break chance is per hit. Failed hits accumulate prospecting progress; the cap forces a break.",
+        "Base XP is awarded only on a break. Bar/stone/essence bonus drops, shatter and early break modifiers are excluded."
+      ]
+    },
+    {
+      "id": "CopperOre",
+      "gameId": "MelvorBase:CopperOre",
+      "name": "Copper Ore",
+      "requiredLevel": 5,
+      "availability": "demo",
+      "conditions": [
+        "Mining level 5"
+      ],
+      "intervalSeconds": 3.7995,
+      "intervalLabel": "1.5s / hit · at most 4 hits",
+      "baseXp": 6,
+      "successChance": 0.3,
+      "xpPerHour": 5684.95854717726,
+      "itemsPerHour": 947.49309119621,
+      "gpPerHour": 3010.47927358863,
+      "products": [
+        {
+          "id": "MelvorBase:CopperOre",
+          "name": "Copper Ore",
+          "role": "primary",
+          "basis": "rock break",
+          "probability": 1,
+          "quantity": 1,
+          "itemsPerHour": 947.49309119621,
+          "gpPerHour": 2842.47927358863
+        },
+        {
+          "id": "MelvorBase:Geode",
+          "name": "Geode",
+          "role": "side",
+          "basis": "mining hit",
+          "probability": 0.0025,
+          "quantity": 1,
+          "itemsPerHour": 6.0,
+          "gpPerHour": 168.0
+        }
+      ],
+      "sourcePointer": "/Objects/MiningRecipe/2",
+      "notes": [
+        "The base break chance is per hit. Failed hits accumulate prospecting progress; the cap forces a break.",
+        "Base XP is awarded only on a break. Bar/stone/essence bonus drops, shatter and early break modifiers are excluded."
+      ]
+    },
+    {
+      "id": "RuneEssence",
+      "gameId": "MelvorBase:RuneEssence",
+      "name": "Rune Essence",
+      "requiredLevel": 8,
+      "availability": "demo",
+      "conditions": [
+        "Mining level 8"
+      ],
+      "intervalSeconds": 3.1667833350000003,
+      "intervalLabel": "1.5s / hit · at most 3 hits",
+      "baseXp": 5,
+      "successChance": 0.3333,
+      "xpPerHour": 5684.001112756897,
+      "itemsPerHour": 2273.600445102759,
+      "gpPerHour": 2273.600445102759,
+      "products": [
+        {
+          "id": "MelvorBase:RuneEssence",
+          "name": "Rune Essence",
+          "role": "primary",
+          "basis": "rock break",
+          "probability": 1,
+          "quantity": 2,
+          "itemsPerHour": 2273.600445102759,
+          "gpPerHour": 2273.600445102759
+        }
+      ],
+      "sourcePointer": "/Objects/MiningRecipe/3",
+      "notes": [
+        "The base break chance is per hit. Failed hits accumulate prospecting progress; the cap forces a break.",
+        "Base XP is awarded only on a break. Bar/stone/essence bonus drops, shatter and early break modifiers are excluded."
+      ]
+    },
+    {
+      "id": "Topaz",
+      "gameId": "MelvorBase:Topaz",
+      "name": "Topaz Vein",
+      "requiredLevel": 12,
+      "availability": "demo",
+      "conditions": [
+        "Mining level 12"
+      ],
+      "intervalSeconds": 12.407754812953284,
+      "intervalLabel": "1.5s / hit · at most 13 hits",
+      "baseXp": 29,
+      "successChance": 0.08,
+      "xpPerHour": 8414.092764873938,
+      "itemsPerHour": 290.1411298232392,
+      "gpPerHour": 5802.8225964647845,
+      "products": [
+        {
+          "id": "MelvorBase:UncutTopaz",
+          "name": "Uncut Topaz",
+          "role": "primary",
+          "basis": "rock break",
+          "probability": 1,
+          "quantity": 1,
+          "itemsPerHour": 290.1411298232392,
+          "gpPerHour": 5802.8225964647845
+        }
+      ],
+      "sourcePointer": "/Objects/MiningRecipe/4",
+      "notes": [
+        "The base break chance is per hit. Failed hits accumulate prospecting progress; the cap forces a break.",
+        "Base XP is awarded only on a break. Bar/stone/essence bonus drops, shatter and early break modifiers are excluded."
+      ]
+    },
+    {
+      "id": "IronOre",
+      "gameId": "MelvorBase:IronOre",
+      "name": "Iron Ore",
+      "requiredLevel": 10,
+      "availability": "demo",
+      "conditions": [
+        "Mining level 10"
+      ],
+      "intervalSeconds": 4.66529664,
+      "intervalLabel": "1.5s / hit · at most 5 hits",
+      "baseXp": 10,
+      "successChance": 0.24,
+      "xpPerHour": 7716.551117315446,
+      "itemsPerHour": 771.6551117315446,
+      "gpPerHour": 4797.930670389267,
+      "products": [
+        {
+          "id": "MelvorBase:IronOre",
+          "name": "Iron Ore",
+          "role": "primary",
+          "basis": "rock break",
+          "probability": 1,
+          "quantity": 1,
+          "itemsPerHour": 771.6551117315446,
+          "gpPerHour": 4629.930670389267
+        },
+        {
+          "id": "MelvorBase:Geode",
+          "name": "Geode",
+          "role": "side",
+          "basis": "mining hit",
+          "probability": 0.0025,
+          "quantity": 1,
+          "itemsPerHour": 6.0,
+          "gpPerHour": 168.0
+        }
+      ],
+      "sourcePointer": "/Objects/MiningRecipe/5",
+      "notes": [
+        "The base break chance is per hit. Failed hits accumulate prospecting progress; the cap forces a break.",
+        "Base XP is awarded only on a break. Bar/stone/essence bonus drops, shatter and early break modifiers are excluded."
+      ]
+    },
+    {
+      "id": "SilverOre",
+      "gameId": "MelvorBase:SilverOre",
+      "name": "Silver Ore",
+      "requiredLevel": 18,
+      "availability": "demo",
+      "conditions": [
+        "Mining level 18"
+      ],
+      "intervalSeconds": 4.84965384,
+      "intervalLabel": "1.5s / hit · at most 5 hits",
+      "baseXp": 12,
+      "successChance": 0.22,
+      "xpPerHour": 8907.852276730744,
+      "itemsPerHour": 742.3210230608954,
+      "gpPerHour": 7591.210230608955,
+      "products": [
+        {
+          "id": "MelvorBase:SilverOre",
+          "name": "Silver Ore",
+          "role": "primary",
+          "basis": "rock break",
+          "probability": 1,
+          "quantity": 1,
+          "itemsPerHour": 742.3210230608954,
+          "gpPerHour": 7423.210230608955
+        },
+        {
+          "id": "MelvorBase:Geode",
+          "name": "Geode",
+          "role": "side",
+          "basis": "mining hit",
+          "probability": 0.0025,
+          "quantity": 1,
+          "itemsPerHour": 6.0,
+          "gpPerHour": 168.0
+        }
+      ],
+      "sourcePointer": "/Objects/MiningRecipe/6",
+      "notes": [
+        "The base break chance is per hit. Failed hits accumulate prospecting progress; the cap forces a break.",
+        "Base XP is awarded only on a break. Bar/stone/essence bonus drops, shatter and early break modifiers are excluded."
+      ]
+    },
+    {
+      "id": "Coal",
+      "gameId": "MelvorBase:Coal",
+      "name": "Coal",
+      "requiredLevel": 25,
+      "availability": "demo",
+      "conditions": [
+        "Mining level 25"
+      ],
+      "intervalSeconds": 3.6294945,
+      "intervalLabel": "1.5s / hit · at most 4 hits",
+      "baseXp": 10,
+      "successChance": 0.33,
+      "xpPerHour": 9918.73661745458,
+      "itemsPerHour": 991.873661745458,
+      "gpPerHour": 4959.36830872729,
+      "products": [
+        {
+          "id": "MelvorBase:Coal",
+          "name": "Coal",
+          "role": "primary",
+          "basis": "rock break",
+          "probability": 1,
+          "quantity": 1,
+          "itemsPerHour": 991.873661745458,
+          "gpPerHour": 4959.36830872729
+        }
+      ],
+      "sourcePointer": "/Objects/MiningRecipe/7",
+      "notes": [
+        "The base break chance is per hit. Failed hits accumulate prospecting progress; the cap forces a break.",
+        "Base XP is awarded only on a break. Bar/stone/essence bonus drops, shatter and early break modifiers are excluded."
+      ]
+    },
+    {
+      "id": "Sapphire",
+      "gameId": "MelvorBase:Sapphire",
+      "name": "Sapphire Vein",
+      "requiredLevel": 32,
+      "availability": "demo",
+      "conditions": [
+        "Mining level 32"
+      ],
+      "intervalSeconds": 14.213552956036834,
+      "intervalLabel": "1.5s / hit · at most 15 hits",
+      "baseXp": 46,
+      "successChance": 0.07,
+      "xpPerHour": 11650.85186738378,
+      "itemsPerHour": 253.27938842138653,
+      "gpPerHour": 9118.057983169914,
+      "products": [
+        {
+          "id": "MelvorBase:UncutSapphire",
+          "name": "Uncut Sapphire",
+          "role": "primary",
+          "basis": "rock break",
+          "probability": 1,
+          "quantity": 1,
+          "itemsPerHour": 253.27938842138653,
+          "gpPerHour": 9118.057983169914
+        }
+      ],
+      "sourcePointer": "/Objects/MiningRecipe/8",
+      "notes": [
+        "The base break chance is per hit. Failed hits accumulate prospecting progress; the cap forces a break.",
+        "Base XP is awarded only on a break. Bar/stone/essence bonus drops, shatter and early break modifiers are excluded."
+      ]
+    },
+    {
+      "id": "GoldOre",
+      "gameId": "MelvorBase:GoldOre",
+      "name": "Gold Ore",
+      "requiredLevel": 38,
+      "availability": "demo",
+      "conditions": [
+        "Mining level 38"
+      ],
+      "intervalSeconds": 5.7999444048000015,
+      "intervalLabel": "1.5s / hit · at most 6 hits",
+      "baseXp": 20,
+      "successChance": 0.18,
+      "xpPerHour": 12413.912095504435,
+      "itemsPerHour": 620.6956047752217,
+      "gpPerHour": 10099.129676403547,
+      "products": [
+        {
+          "id": "MelvorBase:GoldOre",
+          "name": "Gold Ore",
+          "role": "primary",
+          "basis": "rock break",
+          "probability": 1,
+          "quantity": 1,
+          "itemsPerHour": 620.6956047752217,
+          "gpPerHour": 9931.129676403547
+        },
+        {
+          "id": "MelvorBase:Geode",
+          "name": "Geode",
+          "role": "side",
+          "basis": "mining hit",
+          "probability": 0.0025,
+          "quantity": 1,
+          "itemsPerHour": 6.0,
+          "gpPerHour": 168.0
+        }
+      ],
+      "sourcePointer": "/Objects/MiningRecipe/9",
+      "notes": [
+        "The base break chance is per hit. Failed hits accumulate prospecting progress; the cap forces a break.",
+        "Base XP is awarded only on a break. Bar/stone/essence bonus drops, shatter and early break modifiers are excluded."
+      ]
+    },
+    {
+      "id": "MithrilOre",
+      "gameId": "MelvorBase:MithrilOre",
+      "name": "Mithril Ore",
+      "requiredLevel": 35,
+      "availability": "demo",
+      "conditions": [
+        "Mining level 35"
+      ],
+      "intervalSeconds": 6.7942291171874984,
+      "intervalLabel": "1.5s / hit · at most 7 hits",
+      "baseXp": 22,
+      "successChance": 0.15,
+      "xpPerHour": 11656.951603184261,
+      "itemsPerHour": 529.8614365083755,
+      "gpPerHour": 9705.50585715076,
+      "products": [
+        {
+          "id": "MelvorBase:MithrilOre",
+          "name": "Mithril Ore",
+          "role": "primary",
+          "basis": "rock break",
+          "probability": 1,
+          "quantity": 1,
+          "itemsPerHour": 529.8614365083755,
+          "gpPerHour": 9537.50585715076
+        },
+        {
+          "id": "MelvorBase:Geode",
+          "name": "Geode",
+          "role": "side",
+          "basis": "mining hit",
+          "probability": 0.0025,
+          "quantity": 1,
+          "itemsPerHour": 6.0,
+          "gpPerHour": 168.0
+        }
+      ],
+      "sourcePointer": "/Objects/MiningRecipe/10",
+      "notes": [
+        "The base break chance is per hit. Failed hits accumulate prospecting progress; the cap forces a break.",
+        "Base XP is awarded only on a break. Bar/stone/essence bonus drops, shatter and early break modifiers are excluded."
+      ]
+    },
+    {
+      "id": "Ruby",
+      "gameId": "MelvorBase:Ruby",
+      "name": "Ruby Vein",
+      "requiredLevel": 47,
+      "availability": "demo",
+      "conditions": [
+        "Mining level 47"
+      ],
+      "intervalSeconds": 19.245422327743725,
+      "intervalLabel": "1.5s / hit · at most 20 hits",
+      "baseXp": 92,
+      "successChance": 0.05,
+      "xpPerHour": 17209.287193586304,
+      "itemsPerHour": 187.0574694955033,
+      "gpPerHour": 11223.448169730198,
+      "products": [
+        {
+          "id": "MelvorBase:UncutRuby",
+          "name": "Uncut Ruby",
+          "role": "primary",
+          "basis": "rock break",
+          "probability": 1,
+          "quantity": 1,
+          "itemsPerHour": 187.0574694955033,
+          "gpPerHour": 11223.448169730198
+        }
+      ],
+      "sourcePointer": "/Objects/MiningRecipe/11",
+      "notes": [
+        "The base break chance is per hit. Failed hits accumulate prospecting progress; the cap forces a break.",
+        "Base XP is awarded only on a break. Bar/stone/essence bonus drops, shatter and early break modifiers are excluded."
+      ]
+    },
+    {
+      "id": "AdamantiteOre",
+      "gameId": "MelvorBase:AdamantiteOre",
+      "name": "Adamantite Ore",
+      "requiredLevel": 45,
+      "availability": "demo",
+      "conditions": [
+        "Mining level 45"
+      ],
+      "intervalSeconds": 7.8766930103302,
+      "intervalLabel": "1.5s / hit · at most 8 hits",
+      "baseXp": 34,
+      "successChance": 0.125,
+      "xpPerHour": 15539.51637311162,
+      "itemsPerHour": 457.0445992091653,
+      "gpPerHour": 10222.981182601638,
+      "products": [
+        {
+          "id": "MelvorBase:AdamantiteOre",
+          "name": "Adamantite Ore",
+          "role": "primary",
+          "basis": "rock break",
+          "probability": 1,
+          "quantity": 1,
+          "itemsPerHour": 457.0445992091653,
+          "gpPerHour": 10054.981182601638
+        },
+        {
+          "id": "MelvorBase:Geode",
+          "name": "Geode",
+          "role": "side",
+          "basis": "mining hit",
+          "probability": 0.0025,
+          "quantity": 1,
+          "itemsPerHour": 6.0,
+          "gpPerHour": 168.0
+        }
+      ],
+      "sourcePointer": "/Objects/MiningRecipe/12",
+      "notes": [
+        "The base break chance is per hit. Failed hits accumulate prospecting progress; the cap forces a break.",
+        "Base XP is awarded only on a break. Bar/stone/essence bonus drops, shatter and early break modifiers are excluded."
+      ]
+    },
+    {
+      "id": "Emerald",
+      "gameId": "MelvorBase:Emerald",
+      "name": "Emerald Vein",
+      "requiredLevel": null,
+      "availability": "locked",
+      "conditions": [
+        "Not available in this demo build"
+      ],
+      "intervalSeconds": 15.0,
+      "intervalLabel": "10.0s / hit · at most 2 hits",
+      "baseXp": 1,
+      "successChance": 0.5,
+      "xpPerHour": 240.0,
+      "itemsPerHour": 240.0,
+      "gpPerHour": 0.0,
+      "products": [
+        {
+          "id": "MelvorBase:DemoPlaceholderItem",
+          "name": "DemoPlaceholderItem",
+          "role": "primary",
+          "basis": "rock break",
+          "probability": 1,
+          "quantity": 1,
+          "itemsPerHour": 240.0,
+          "gpPerHour": 0.0
+        }
+      ],
+      "sourcePointer": "/Objects/MiningRecipe/13",
+      "notes": [
+        "The base break chance is per hit. Failed hits accumulate prospecting progress; the cap forces a break.",
+        "Base XP is awarded only on a break. Bar/stone/essence bonus drops, shatter and early break modifiers are excluded."
+      ]
+    },
+    {
+      "id": "RuniteOre",
+      "gameId": "MelvorBase:RuniteOre",
+      "name": "Runite Ore",
+      "requiredLevel": null,
+      "availability": "locked",
+      "conditions": [
+        "Not available in this demo build"
+      ],
+      "intervalSeconds": 15.0,
+      "intervalLabel": "10.0s / hit · at most 2 hits",
+      "baseXp": 1,
+      "successChance": 0.5,
+      "xpPerHour": 240.0,
+      "itemsPerHour": 240.0,
+      "gpPerHour": 0.0,
+      "products": [
+        {
+          "id": "MelvorBase:DemoPlaceholderItem",
+          "name": "DemoPlaceholderItem",
+          "role": "primary",
+          "basis": "rock break",
+          "probability": 1,
+          "quantity": 1,
+          "itemsPerHour": 240.0,
+          "gpPerHour": 0.0
+        }
+      ],
+      "sourcePointer": "/Objects/MiningRecipe/14",
+      "notes": [
+        "The base break chance is per hit. Failed hits accumulate prospecting progress; the cap forces a break.",
+        "Base XP is awarded only on a break. Bar/stone/essence bonus drops, shatter and early break modifiers are excluded."
+      ]
+    },
+    {
+      "id": "PureEssence",
+      "gameId": "MelvorBase:PureEssence",
+      "name": "Pure Essence",
+      "requiredLevel": null,
+      "availability": "locked",
+      "conditions": [
+        "Not available in this demo build"
+      ],
+      "intervalSeconds": 15.0,
+      "intervalLabel": "10.0s / hit · at most 2 hits",
+      "baseXp": 1,
+      "successChance": 0.5,
+      "xpPerHour": 240.0,
+      "itemsPerHour": 240.0,
+      "gpPerHour": 0.0,
+      "products": [
+        {
+          "id": "MelvorBase:DemoPlaceholderItem",
+          "name": "DemoPlaceholderItem",
+          "role": "primary",
+          "basis": "rock break",
+          "probability": 1,
+          "quantity": 1,
+          "itemsPerHour": 240.0,
+          "gpPerHour": 0.0
+        }
+      ],
+      "sourcePointer": "/Objects/MiningRecipe/15",
+      "notes": [
+        "The base break chance is per hit. Failed hits accumulate prospecting progress; the cap forces a break.",
+        "Base XP is awarded only on a break. Bar/stone/essence bonus drops, shatter and early break modifiers are excluded."
+      ]
+    },
+    {
+      "id": "DawnsteelOre",
+      "gameId": "MelvorBase:DawnsteelOre",
+      "name": "Dawnsteel Ore",
+      "requiredLevel": null,
+      "availability": "locked",
+      "conditions": [
+        "Not available in this demo build"
+      ],
+      "intervalSeconds": 15.0,
+      "intervalLabel": "10.0s / hit · at most 2 hits",
+      "baseXp": 1,
+      "successChance": 0.5,
+      "xpPerHour": 240.0,
+      "itemsPerHour": 240.0,
+      "gpPerHour": 0.0,
+      "products": [
+        {
+          "id": "MelvorBase:DemoPlaceholderItem",
+          "name": "DemoPlaceholderItem",
+          "role": "primary",
+          "basis": "rock break",
+          "probability": 1,
+          "quantity": 1,
+          "itemsPerHour": 240.0,
+          "gpPerHour": 0.0
+        }
+      ],
+      "sourcePointer": "/Objects/MiningRecipe/16",
+      "notes": [
+        "The base break chance is per hit. Failed hits accumulate prospecting progress; the cap forces a break.",
+        "Base XP is awarded only on a break. Bar/stone/essence bonus drops, shatter and early break modifiers are excluded."
+      ]
+    },
+    {
+      "id": "Diamond",
+      "gameId": "MelvorBase:Diamond",
+      "name": "Diamond Vein",
+      "requiredLevel": null,
+      "availability": "locked",
+      "conditions": [
+        "Not available in this demo build"
+      ],
+      "intervalSeconds": 15.0,
+      "intervalLabel": "10.0s / hit · at most 2 hits",
+      "baseXp": 1,
+      "successChance": 0.5,
+      "xpPerHour": 240.0,
+      "itemsPerHour": 240.0,
+      "gpPerHour": 0.0,
+      "products": [
+        {
+          "id": "MelvorBase:DemoPlaceholderItem",
+          "name": "DemoPlaceholderItem",
+          "role": "primary",
+          "basis": "rock break",
+          "probability": 1,
+          "quantity": 1,
+          "itemsPerHour": 240.0,
+          "gpPerHour": 0.0
+        }
+      ],
+      "sourcePointer": "/Objects/MiningRecipe/17",
+      "notes": [
+        "The base break chance is per hit. Failed hits accumulate prospecting progress; the cap forces a break.",
+        "Base XP is awarded only on a break. Bar/stone/essence bonus drops, shatter and early break modifiers are excluded."
+      ]
+    },
+    {
+      "id": "DragoniteOre",
+      "gameId": "MelvorBase:DragoniteOre",
+      "name": "Dragonite Ore",
+      "requiredLevel": null,
+      "availability": "locked",
+      "conditions": [
+        "Not available in this demo build"
+      ],
+      "intervalSeconds": 15.0,
+      "intervalLabel": "10.0s / hit · at most 2 hits",
+      "baseXp": 1,
+      "successChance": 0.5,
+      "xpPerHour": 240.0,
+      "itemsPerHour": 240.0,
+      "gpPerHour": 0.0,
+      "products": [
+        {
+          "id": "MelvorBase:DemoPlaceholderItem",
+          "name": "DemoPlaceholderItem",
+          "role": "primary",
+          "basis": "rock break",
+          "probability": 1,
+          "quantity": 1,
+          "itemsPerHour": 240.0,
+          "gpPerHour": 0.0
+        }
+      ],
+      "sourcePointer": "/Objects/MiningRecipe/18",
+      "notes": [
+        "The base break chance is per hit. Failed hits accumulate prospecting progress; the cap forces a break.",
+        "Base XP is awarded only on a break. Bar/stone/essence bonus drops, shatter and early break modifiers are excluded."
+      ]
+    },
+    {
+      "id": "Jadestone",
+      "gameId": "MelvorBase:Jadestone",
+      "name": "Jadestone Vein",
+      "requiredLevel": null,
+      "availability": "locked",
+      "conditions": [
+        "Not available in this demo build"
+      ],
+      "intervalSeconds": 15.0,
+      "intervalLabel": "10.0s / hit · at most 2 hits",
+      "baseXp": 1,
+      "successChance": 0.5,
+      "xpPerHour": 240.0,
+      "itemsPerHour": 240.0,
+      "gpPerHour": 0.0,
+      "products": [
+        {
+          "id": "MelvorBase:DemoPlaceholderItem",
+          "name": "DemoPlaceholderItem",
+          "role": "primary",
+          "basis": "rock break",
+          "probability": 1,
+          "quantity": 1,
+          "itemsPerHour": 240.0,
+          "gpPerHour": 0.0
+        }
+      ],
+      "sourcePointer": "/Objects/MiningRecipe/19",
+      "notes": [
+        "The base break chance is per hit. Failed hits accumulate prospecting progress; the cap forces a break.",
+        "Base XP is awarded only on a break. Bar/stone/essence bonus drops, shatter and early break modifiers are excluded."
+      ]
+    },
+    {
+      "id": "DenseCoal",
+      "gameId": "MelvorBase:DenseCoal",
+      "name": "Dense Coal",
+      "requiredLevel": null,
+      "availability": "locked",
+      "conditions": [
+        "Not available in this demo build"
+      ],
+      "intervalSeconds": 15.0,
+      "intervalLabel": "10.0s / hit · at most 2 hits",
+      "baseXp": 1,
+      "successChance": 0.5,
+      "xpPerHour": 240.0,
+      "itemsPerHour": 240.0,
+      "gpPerHour": 0.0,
+      "products": [
+        {
+          "id": "MelvorBase:DemoPlaceholderItem",
+          "name": "DemoPlaceholderItem",
+          "role": "primary",
+          "basis": "rock break",
+          "probability": 1,
+          "quantity": 1,
+          "itemsPerHour": 240.0,
+          "gpPerHour": 0.0
+        }
+      ],
+      "sourcePointer": "/Objects/MiningRecipe/20",
+      "notes": [
+        "The base break chance is per hit. Failed hits accumulate prospecting progress; the cap forces a break.",
+        "Base XP is awarded only on a break. Bar/stone/essence bonus drops, shatter and early break modifiers are excluded."
+      ]
+    },
+    {
+      "id": "AttunedEssence",
+      "gameId": "MelvorBase:AttunedEssence",
+      "name": "Attuned Essence",
+      "requiredLevel": 42,
+      "availability": "demo",
+      "conditions": [
+        "Mining level 42"
+      ],
+      "intervalSeconds": 5.042400000000001,
+      "intervalLabel": "1.5s / hit · at most 5 hits",
+      "baseXp": 13,
+      "successChance": 0.2,
+      "xpPerHour": 9281.294621608757,
+      "itemsPerHour": 713.9457401237505,
+      "gpPerHour": 713.9457401237505,
+      "products": [
+        {
+          "id": "MelvorBase:AttunedEssence",
+          "name": "Attuned Essence",
+          "role": "primary",
+          "basis": "rock break",
+          "probability": 1,
+          "quantity": 1,
+          "itemsPerHour": 713.9457401237505,
+          "gpPerHour": 713.9457401237505
+        }
+      ],
+      "sourcePointer": "/Objects/MiningRecipe/21",
+      "notes": [
+        "The base break chance is per hit. Failed hits accumulate prospecting progress; the cap forces a break.",
+        "Base XP is awarded only on a break. Bar/stone/essence bonus drops, shatter and early break modifiers are excluded."
+      ]
+    },
+    {
+      "id": "MeteoriteOre",
+      "gameId": "MelvorBase:MeteoriteOre",
+      "name": "Meteorite Ore",
+      "requiredLevel": null,
+      "availability": "locked",
+      "conditions": [
+        "Not available in this demo build"
+      ],
+      "intervalSeconds": 15.0,
+      "intervalLabel": "10.0s / hit · at most 2 hits",
+      "baseXp": 1,
+      "successChance": 0.5,
+      "xpPerHour": 240.0,
+      "itemsPerHour": 240.0,
+      "gpPerHour": 0.0,
+      "products": [
+        {
+          "id": "MelvorBase:DemoPlaceholderItem",
+          "name": "DemoPlaceholderItem",
+          "role": "primary",
+          "basis": "rock break",
+          "probability": 1,
+          "quantity": 1,
+          "itemsPerHour": 240.0,
+          "gpPerHour": 0.0
+        }
+      ],
+      "sourcePointer": "/Objects/MiningRecipe/22",
+      "notes": [
+        "The base break chance is per hit. Failed hits accumulate prospecting progress; the cap forces a break.",
+        "Base XP is awarded only on a break. Bar/stone/essence bonus drops, shatter and early break modifiers are excluded."
+      ]
+    },
+    {
+      "id": "FallenStar",
+      "gameId": "MelvorBase:FallenStar",
+      "name": "Fallen Star",
+      "requiredLevel": null,
+      "availability": "locked",
+      "conditions": [
+        "Not available in this demo build"
+      ],
+      "intervalSeconds": 15.0,
+      "intervalLabel": "10.0s / hit · at most 2 hits",
+      "baseXp": 1,
+      "successChance": 0.5,
+      "xpPerHour": 240.0,
+      "itemsPerHour": 240.0,
+      "gpPerHour": 0.0,
+      "products": [
+        {
+          "id": "MelvorBase:DemoPlaceholderItem",
+          "name": "DemoPlaceholderItem",
+          "role": "primary",
+          "basis": "rock break",
+          "probability": 1,
+          "quantity": 1,
+          "itemsPerHour": 240.0,
+          "gpPerHour": 0.0
+        }
+      ],
+      "sourcePointer": "/Objects/MiningRecipe/23",
+      "notes": [
+        "The base break chance is per hit. Failed hits accumulate prospecting progress; the cap forces a break.",
+        "Base XP is awarded only on a break. Bar/stone/essence bonus drops, shatter and early break modifiers are excluded."
+      ]
+    },
+    {
+      "id": "GoldenFallenStar",
+      "gameId": "MelvorBase:GoldenFallenStar",
+      "name": "Golden Fallen Star",
+      "requiredLevel": null,
+      "availability": "locked",
+      "conditions": [
+        "Not available in this demo build"
+      ],
+      "intervalSeconds": 15.0,
+      "intervalLabel": "10.0s / hit · at most 2 hits",
+      "baseXp": 1,
+      "successChance": 0.5,
+      "xpPerHour": 240.0,
+      "itemsPerHour": 240.0,
+      "gpPerHour": 0.0,
+      "products": [
+        {
+          "id": "MelvorBase:DemoPlaceholderItem",
+          "name": "DemoPlaceholderItem",
+          "role": "primary",
+          "basis": "rock break",
+          "probability": 1,
+          "quantity": 1,
+          "itemsPerHour": 240.0,
+          "gpPerHour": 0.0
+        }
+      ],
+      "sourcePointer": "/Objects/MiningRecipe/24",
+      "notes": [
+        "The base break chance is per hit. Failed hits accumulate prospecting progress; the cap forces a break.",
+        "Base XP is awarded only on a break. Bar/stone/essence bonus drops, shatter and early break modifiers are excluded."
+      ]
+    },
+    {
+      "id": "StoneDebris",
+      "gameId": "MelvorBase:StoneDebris",
+      "name": "Stone Debris",
+      "requiredLevel": 10,
+      "availability": "conditional",
+      "conditions": [
+        "Mining level 10",
+        "Conditional visibility: quest or progression state"
+      ],
+      "intervalSeconds": 47.687273993466206,
+      "intervalLabel": "1.5s / hit · at most 50 hits",
+      "baseXp": 25,
+      "successChance": 0.02,
+      "xpPerHour": 1887.2959694095996,
+      "itemsPerHour": 1509.8367755276797,
+      "gpPerHour": 3019.6735510553594,
+      "products": [
+        {
+          "id": "MelvorBase:Stone",
+          "name": "Stone",
+          "role": "primary",
+          "basis": "rock break",
+          "probability": 1,
+          "quantity": 20,
+          "itemsPerHour": 1509.8367755276797,
+          "gpPerHour": 3019.6735510553594
+        }
+      ],
+      "sourcePointer": "/Objects/MiningRecipe/25",
+      "notes": [
+        "The base break chance is per hit. Failed hits accumulate prospecting progress; the cap forces a break.",
+        "Base XP is awarded only on a break. Bar/stone/essence bonus drops, shatter and early break modifiers are excluded."
+      ]
+    },
+    {
+      "id": "Sulfur",
+      "gameId": "MelvorBase:Sulfur",
+      "name": "Sulfur",
+      "requiredLevel": 18,
+      "availability": "conditional",
+      "conditions": [
+        "Mining level 18",
+        "ToolbeltItemEquipped: Sulfur Protection Gloves",
+        "Conditional visibility: quest or progression state"
+      ],
+      "intervalSeconds": 9.769823398500002,
+      "intervalLabel": "1.5s / hit · at most 10 hits",
+      "baseXp": 13,
+      "successChance": 0.1,
+      "xpPerHour": 4790.260590297403,
+      "itemsPerHour": 368.481583869031,
+      "gpPerHour": 368.481583869031,
+      "products": [
+        {
+          "id": "MelvorBase:Sulfur",
+          "name": "Sulfur",
+          "role": "primary",
+          "basis": "rock break",
+          "probability": 1,
+          "quantity": 1,
+          "itemsPerHour": 368.481583869031,
+          "gpPerHour": 368.481583869031
+        }
+      ],
+      "sourcePointer": "/Objects/MiningRecipe/26",
+      "notes": [
+        "The base break chance is per hit. Failed hits accumulate prospecting progress; the cap forces a break.",
+        "Base XP is awarded only on a break. Bar/stone/essence bonus drops, shatter and early break modifiers are excluded."
+      ]
+    }
+  ],
+  "notes": [
+    "Base model includes the game’s built-in prospecting progress. A simple hits/hour × break chance would understate throughput.",
+    "Expected hits are the finite geometric sum up to the forced-break cap; starting prospecting is zero without modifiers."
+  ]
+}

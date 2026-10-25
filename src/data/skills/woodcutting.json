@@ -1,0 +1,819 @@
+{
+  "id": "woodcutting",
+  "gameVersion": "0.11.2-alpha.4",
+  "steamBuildId": "26074343",
+  "packageSha256": "2b43f26ce76d86178f56a72c8dced08a0ae545779786cccdcac868bdc3478474",
+  "checkedAt": "2026-10-25",
+  "method": "docs/BASE_SKILL_FORMULAS.md#woodcutting",
+  "rows": [
+    {
+      "id": "NormalTree",
+      "gameId": "MelvorBase:NormalTree",
+      "name": "Normal Tree",
+      "requiredLevel": 1,
+      "availability": "demo",
+      "conditions": [
+        "Woodcutting level 1"
+      ],
+      "intervalSeconds": 3.0,
+      "intervalLabel": "3 HP · 1.0s / hit",
+      "baseXp": 3,
+      "successChance": 1,
+      "xpPerHour": 3600.0,
+      "itemsPerHour": 1200.0,
+      "gpPerHour": 3852.0,
+      "products": [
+        {
+          "id": "MelvorBase:NormalLog",
+          "name": "Normal Log",
+          "role": "primary",
+          "basis": "full cut",
+          "probability": 1,
+          "quantity": 1,
+          "itemsPerHour": 1200.0,
+          "gpPerHour": 3600.0
+        },
+        {
+          "id": "MelvorBase:BirdNest",
+          "name": "Bird Nest",
+          "role": "side",
+          "basis": "hit",
+          "probability": 0.0025,
+          "quantity": 1,
+          "itemsPerHour": 9.0,
+          "gpPerHour": 252.0
+        }
+      ],
+      "sourcePointer": "/Objects/WoodcuttingRecipe/0",
+      "notes": [
+        "Base XP and primary product are awarded on a completed cut. One damage per hit; no bonus damage."
+      ]
+    },
+    {
+      "id": "FlaxBush",
+      "gameId": "MelvorBase:FlaxBush",
+      "name": "Flax Bush",
+      "requiredLevel": 5,
+      "availability": "demo",
+      "conditions": [
+        "Woodcutting level 5"
+      ],
+      "intervalSeconds": 2.0,
+      "intervalLabel": "2 HP · 1.0s / hit",
+      "baseXp": 3,
+      "successChance": 1,
+      "xpPerHour": 5400.0,
+      "itemsPerHour": 1800.0,
+      "gpPerHour": 2700.0,
+      "products": [
+        {
+          "id": "MelvorBase:Flax",
+          "name": "Flax",
+          "role": "primary",
+          "basis": "full cut",
+          "probability": 1,
+          "quantity": 1,
+          "itemsPerHour": 1800.0,
+          "gpPerHour": 1800.0
+        },
+        {
+          "id": "MelvorBase:Stick",
+          "name": "Stick",
+          "role": "side",
+          "basis": "hit",
+          "probability": 0.25,
+          "quantity": 1,
+          "itemsPerHour": 900.0,
+          "gpPerHour": 900.0
+        }
+      ],
+      "sourcePointer": "/Objects/WoodcuttingRecipe/1",
+      "notes": [
+        "Base XP and primary product are awarded on a completed cut. One damage per hit; no bonus damage."
+      ]
+    },
+    {
+      "id": "OakTree",
+      "gameId": "MelvorBase:OakTree",
+      "name": "Oak Tree",
+      "requiredLevel": 10,
+      "availability": "demo",
+      "conditions": [
+        "Woodcutting level 10"
+      ],
+      "intervalSeconds": 4.0,
+      "intervalLabel": "4 HP · 1.0s / hit",
+      "baseXp": 8,
+      "successChance": 1,
+      "xpPerHour": 7200.0,
+      "itemsPerHour": 900.0,
+      "gpPerHour": 6089.4,
+      "products": [
+        {
+          "id": "MelvorBase:OakLog",
+          "name": "Oak Log",
+          "role": "primary",
+          "basis": "full cut",
+          "probability": 1,
+          "quantity": 1,
+          "itemsPerHour": 900.0,
+          "gpPerHour": 5400.0
+        },
+        {
+          "id": "MelvorBase:BirdNest",
+          "name": "Bird Nest",
+          "role": "side",
+          "basis": "hit",
+          "probability": 0.0025,
+          "quantity": 1,
+          "itemsPerHour": 9.0,
+          "gpPerHour": 252.0
+        },
+        {
+          "id": "MelvorBase:OakTreeSeed",
+          "name": "Oak Tree Seed",
+          "role": "side",
+          "basis": "full cut",
+          "probability": 0.001,
+          "quantity": 1,
+          "itemsPerHour": 0.9,
+          "gpPerHour": 437.40000000000003
+        }
+      ],
+      "sourcePointer": "/Objects/WoodcuttingRecipe/2",
+      "notes": [
+        "Base XP and primary product are awarded on a completed cut. One damage per hit; no bonus damage."
+      ]
+    },
+    {
+      "id": "AmbervineBush",
+      "gameId": "MelvorBase:AmbervineBush",
+      "name": "Ambervine Bush",
+      "requiredLevel": 20,
+      "availability": "demo",
+      "conditions": [
+        "Woodcutting level 20"
+      ],
+      "intervalSeconds": 2.0,
+      "intervalLabel": "2 HP · 1.0s / hit",
+      "baseXp": 4,
+      "successChance": 1,
+      "xpPerHour": 7200.0,
+      "itemsPerHour": 1800.0,
+      "gpPerHour": 7200.0,
+      "products": [
+        {
+          "id": "MelvorBase:AmbervineLeaf",
+          "name": "Ambervine Leaf",
+          "role": "primary",
+          "basis": "full cut",
+          "probability": 1,
+          "quantity": 1,
+          "itemsPerHour": 1800.0,
+          "gpPerHour": 5400.0
+        },
+        {
+          "id": "MelvorBase:Stick",
+          "name": "Stick",
+          "role": "side",
+          "basis": "hit",
+          "probability": 0.5,
+          "quantity": 1,
+          "itemsPerHour": 1800.0,
+          "gpPerHour": 1800.0
+        }
+      ],
+      "sourcePointer": "/Objects/WoodcuttingRecipe/3",
+      "notes": [
+        "Base XP and primary product are awarded on a completed cut. One damage per hit; no bonus damage."
+      ]
+    },
+    {
+      "id": "WillowTree",
+      "gameId": "MelvorBase:WillowTree",
+      "name": "Willow Tree",
+      "requiredLevel": 25,
+      "availability": "demo",
+      "conditions": [
+        "Woodcutting level 25"
+      ],
+      "intervalSeconds": 5.0,
+      "intervalLabel": "5 HP · 1.0s / hit",
+      "baseXp": 17,
+      "successChance": 1,
+      "xpPerHour": 12240.0,
+      "itemsPerHour": 720.0,
+      "gpPerHour": 13129.632,
+      "products": [
+        {
+          "id": "MelvorBase:WillowLog",
+          "name": "Willow Log",
+          "role": "primary",
+          "basis": "full cut",
+          "probability": 1,
+          "quantity": 1,
+          "itemsPerHour": 720.0,
+          "gpPerHour": 12240.0
+        },
+        {
+          "id": "MelvorBase:BirdNest",
+          "name": "Bird Nest",
+          "role": "side",
+          "basis": "hit",
+          "probability": 0.0025,
+          "quantity": 1,
+          "itemsPerHour": 9.0,
+          "gpPerHour": 252.0
+        },
+        {
+          "id": "MelvorBase:WillowTreeSeed",
+          "name": "Willow Tree Seed",
+          "role": "side",
+          "basis": "full cut",
+          "probability": 0.0009,
+          "quantity": 1,
+          "itemsPerHour": 0.648,
+          "gpPerHour": 637.6320000000001
+        }
+      ],
+      "sourcePointer": "/Objects/WoodcuttingRecipe/4",
+      "notes": [
+        "Base XP and primary product are awarded on a completed cut. One damage per hit; no bonus damage."
+      ]
+    },
+    {
+      "id": "TeakTree",
+      "gameId": "MelvorBase:TeakTree",
+      "name": "Teak Tree",
+      "requiredLevel": 35,
+      "availability": "demo",
+      "conditions": [
+        "Woodcutting level 35"
+      ],
+      "intervalSeconds": 6.0,
+      "intervalLabel": "6 HP · 1.0s / hit",
+      "baseXp": 22,
+      "successChance": 1,
+      "xpPerHour": 13200.0,
+      "itemsPerHour": 600.0,
+      "gpPerHour": 16134.9,
+      "products": [
+        {
+          "id": "MelvorBase:TeakLog",
+          "name": "Teak Log",
+          "role": "primary",
+          "basis": "full cut",
+          "probability": 1,
+          "quantity": 1,
+          "itemsPerHour": 600.0,
+          "gpPerHour": 15000.0
+        },
+        {
+          "id": "MelvorBase:BirdNest",
+          "name": "Bird Nest",
+          "role": "side",
+          "basis": "hit",
+          "probability": 0.0025,
+          "quantity": 1,
+          "itemsPerHour": 9.0,
+          "gpPerHour": 252.0
+        },
+        {
+          "id": "MelvorBase:TeakTreeSeed",
+          "name": "Teak Tree Seed",
+          "role": "side",
+          "basis": "full cut",
+          "probability": 0.0009,
+          "quantity": 1,
+          "itemsPerHour": 0.54,
+          "gpPerHour": 882.9000000000001
+        }
+      ],
+      "sourcePointer": "/Objects/WoodcuttingRecipe/5",
+      "notes": [
+        "Base XP and primary product are awarded on a completed cut. One damage per hit; no bonus damage."
+      ]
+    },
+    {
+      "id": "MapleTree",
+      "gameId": "MelvorBase:MapleTree",
+      "name": "Maple Tree",
+      "requiredLevel": 45,
+      "availability": "demo",
+      "conditions": [
+        "Woodcutting level 45"
+      ],
+      "intervalSeconds": 8.0,
+      "intervalLabel": "8 HP · 1.0s / hit",
+      "baseXp": 35,
+      "successChance": 1,
+      "xpPerHour": 15750.0,
+      "itemsPerHour": 450.0,
+      "gpPerHour": 15779.565,
+      "products": [
+        {
+          "id": "MelvorBase:MapleLog",
+          "name": "Maple Log",
+          "role": "primary",
+          "basis": "full cut",
+          "probability": 1,
+          "quantity": 1,
+          "itemsPerHour": 450.0,
+          "gpPerHour": 14850.0
+        },
+        {
+          "id": "MelvorBase:BirdNest",
+          "name": "Bird Nest",
+          "role": "side",
+          "basis": "hit",
+          "probability": 0.0025,
+          "quantity": 1,
+          "itemsPerHour": 9.0,
+          "gpPerHour": 252.0
+        },
+        {
+          "id": "MelvorBase:MapleTreeSeed",
+          "name": "Maple Tree Seed",
+          "role": "side",
+          "basis": "full cut",
+          "probability": 0.0009,
+          "quantity": 1,
+          "itemsPerHour": 0.40499999999999997,
+          "gpPerHour": 677.5649999999999
+        }
+      ],
+      "sourcePointer": "/Objects/WoodcuttingRecipe/6",
+      "notes": [
+        "Base XP and primary product are awarded on a completed cut. One damage per hit; no bonus damage."
+      ]
+    },
+    {
+      "id": "SpikemossShrub",
+      "gameId": "MelvorBase:SpikemossShrub",
+      "name": "Spikemoss Shrub",
+      "requiredLevel": 50,
+      "availability": "demo",
+      "conditions": [
+        "Woodcutting level 50"
+      ],
+      "intervalSeconds": 2.0,
+      "intervalLabel": "2 HP · 1.0s / hit",
+      "baseXp": 8,
+      "successChance": 1,
+      "xpPerHour": 14400.0,
+      "itemsPerHour": 1800.0,
+      "gpPerHour": 11700.0,
+      "products": [
+        {
+          "id": "MelvorBase:SpikemossLeaf",
+          "name": "Spikemoss Leaf",
+          "role": "primary",
+          "basis": "full cut",
+          "probability": 1,
+          "quantity": 1,
+          "itemsPerHour": 1800.0,
+          "gpPerHour": 9000.0
+        },
+        {
+          "id": "MelvorBase:Stick",
+          "name": "Stick",
+          "role": "side",
+          "basis": "hit",
+          "probability": 0.75,
+          "quantity": 1,
+          "itemsPerHour": 2700.0,
+          "gpPerHour": 2700.0
+        }
+      ],
+      "sourcePointer": "/Objects/WoodcuttingRecipe/7",
+      "notes": [
+        "Base XP and primary product are awarded on a completed cut. One damage per hit; no bonus damage."
+      ]
+    },
+    {
+      "id": "MahoganyTree",
+      "gameId": "MelvorBase:MahoganyTree",
+      "name": "Mahogany Tree",
+      "requiredLevel": 55,
+      "availability": "demo",
+      "conditions": [
+        "Woodcutting level 55"
+      ],
+      "intervalSeconds": 10.0,
+      "intervalLabel": "10 HP · 1.0s / hit",
+      "baseXp": 51,
+      "successChance": 1,
+      "xpPerHour": 18360.0,
+      "itemsPerHour": 360.0,
+      "gpPerHour": 17687.124,
+      "products": [
+        {
+          "id": "MelvorBase:MahoganyLog",
+          "name": "Mahogany Log",
+          "role": "primary",
+          "basis": "full cut",
+          "probability": 1,
+          "quantity": 1,
+          "itemsPerHour": 360.0,
+          "gpPerHour": 16560.0
+        },
+        {
+          "id": "MelvorBase:BirdNest",
+          "name": "Bird Nest",
+          "role": "side",
+          "basis": "hit",
+          "probability": 0.0025,
+          "quantity": 1,
+          "itemsPerHour": 9.0,
+          "gpPerHour": 252.0
+        },
+        {
+          "id": "MelvorBase:MahoganyTreeSeed",
+          "name": "Mahogany Tree Seed",
+          "role": "side",
+          "basis": "full cut",
+          "probability": 0.0009,
+          "quantity": 1,
+          "itemsPerHour": 0.324,
+          "gpPerHour": 875.124
+        }
+      ],
+      "sourcePointer": "/Objects/WoodcuttingRecipe/8",
+      "notes": [
+        "Base XP and primary product are awarded on a completed cut. One damage per hit; no bonus damage."
+      ]
+    },
+    {
+      "id": "YewTree",
+      "gameId": "MelvorBase:YewTree",
+      "name": "Yew Tree",
+      "requiredLevel": null,
+      "availability": "locked",
+      "conditions": [
+        "Not available in this demo build"
+      ],
+      "intervalSeconds": 140.0,
+      "intervalLabel": "14 HP · 10.0s / hit",
+      "baseXp": 1,
+      "successChance": 1,
+      "xpPerHour": 25.714285714285715,
+      "itemsPerHour": 25.714285714285715,
+      "gpPerHour": 0.0,
+      "products": [
+        {
+          "id": "MelvorBase:DemoPlaceholderItem",
+          "name": "DemoPlaceholderItem",
+          "role": "primary",
+          "basis": "full cut",
+          "probability": 1,
+          "quantity": 1,
+          "itemsPerHour": 25.714285714285715,
+          "gpPerHour": 0.0
+        }
+      ],
+      "sourcePointer": "/Objects/WoodcuttingRecipe/9",
+      "notes": [
+        "Base XP and primary product are awarded on a completed cut. One damage per hit; no bonus damage."
+      ]
+    },
+    {
+      "id": "MagicTree",
+      "gameId": "MelvorBase:MagicTree",
+      "name": "Magic Tree",
+      "requiredLevel": null,
+      "availability": "locked",
+      "conditions": [
+        "Not available in this demo build"
+      ],
+      "intervalSeconds": 200.0,
+      "intervalLabel": "20 HP · 10.0s / hit",
+      "baseXp": 1,
+      "successChance": 1,
+      "xpPerHour": 18.0,
+      "itemsPerHour": 18.0,
+      "gpPerHour": 0.0,
+      "products": [
+        {
+          "id": "MelvorBase:DemoPlaceholderItem",
+          "name": "DemoPlaceholderItem",
+          "role": "primary",
+          "basis": "full cut",
+          "probability": 1,
+          "quantity": 1,
+          "itemsPerHour": 18.0,
+          "gpPerHour": 0.0
+        }
+      ],
+      "sourcePointer": "/Objects/WoodcuttingRecipe/10",
+      "notes": [
+        "Base XP and primary product are awarded on a completed cut. One damage per hit; no bonus damage."
+      ]
+    },
+    {
+      "id": "DuskleafBush",
+      "gameId": "MelvorBase:DuskleafBush",
+      "name": "Duskleaf Bush",
+      "requiredLevel": null,
+      "availability": "locked",
+      "conditions": [
+        "Not available in this demo build"
+      ],
+      "intervalSeconds": 20.0,
+      "intervalLabel": "2 HP · 10.0s / hit",
+      "baseXp": 1,
+      "successChance": 1,
+      "xpPerHour": 180.0,
+      "itemsPerHour": 180.0,
+      "gpPerHour": 0.0,
+      "products": [
+        {
+          "id": "MelvorBase:DemoPlaceholderItem",
+          "name": "DemoPlaceholderItem",
+          "role": "primary",
+          "basis": "full cut",
+          "probability": 1,
+          "quantity": 1,
+          "itemsPerHour": 180.0,
+          "gpPerHour": 0.0
+        }
+      ],
+      "sourcePointer": "/Objects/WoodcuttingRecipe/11",
+      "notes": [
+        "Base XP and primary product are awarded on a completed cut. One damage per hit; no bonus damage."
+      ]
+    },
+    {
+      "id": "HardOakTree",
+      "gameId": "MelvorBase:HardOakTree",
+      "name": "Hard Oak Tree",
+      "requiredLevel": null,
+      "availability": "locked",
+      "conditions": [
+        "Not available in this demo build"
+      ],
+      "intervalSeconds": 220.0,
+      "intervalLabel": "22 HP · 10.0s / hit",
+      "baseXp": 1,
+      "successChance": 1,
+      "xpPerHour": 16.363636363636363,
+      "itemsPerHour": 16.363636363636363,
+      "gpPerHour": 0.0,
+      "products": [
+        {
+          "id": "MelvorBase:DemoPlaceholderItem",
+          "name": "DemoPlaceholderItem",
+          "role": "primary",
+          "basis": "full cut",
+          "probability": 1,
+          "quantity": 1,
+          "itemsPerHour": 16.363636363636363,
+          "gpPerHour": 0.0
+        }
+      ],
+      "sourcePointer": "/Objects/WoodcuttingRecipe/12",
+      "notes": [
+        "Base XP and primary product are awarded on a completed cut. One damage per hit; no bonus damage."
+      ]
+    },
+    {
+      "id": "RedwoodTree",
+      "gameId": "MelvorBase:RedwoodTree",
+      "name": "Redwood Tree",
+      "requiredLevel": null,
+      "availability": "locked",
+      "conditions": [
+        "Not available in this demo build"
+      ],
+      "intervalSeconds": 260.0,
+      "intervalLabel": "26 HP · 10.0s / hit",
+      "baseXp": 1,
+      "successChance": 1,
+      "xpPerHour": 13.846153846153847,
+      "itemsPerHour": 13.846153846153847,
+      "gpPerHour": 0.0,
+      "products": [
+        {
+          "id": "MelvorBase:DemoPlaceholderItem",
+          "name": "DemoPlaceholderItem",
+          "role": "primary",
+          "basis": "full cut",
+          "probability": 1,
+          "quantity": 1,
+          "itemsPerHour": 13.846153846153847,
+          "gpPerHour": 0.0
+        }
+      ],
+      "sourcePointer": "/Objects/WoodcuttingRecipe/13",
+      "notes": [
+        "Base XP and primary product are awarded on a completed cut. One damage per hit; no bonus damage."
+      ]
+    },
+    {
+      "id": "AshenTree",
+      "gameId": "MelvorBase:AshenTree",
+      "name": "Ashen Tree",
+      "requiredLevel": null,
+      "availability": "locked",
+      "conditions": [
+        "Not available in this demo build"
+      ],
+      "intervalSeconds": 140.0,
+      "intervalLabel": "14 HP · 10.0s / hit",
+      "baseXp": 1,
+      "successChance": 1,
+      "xpPerHour": 25.714285714285715,
+      "itemsPerHour": 25.714285714285715,
+      "gpPerHour": 0.0,
+      "products": [
+        {
+          "id": "MelvorBase:DemoPlaceholderItem",
+          "name": "DemoPlaceholderItem",
+          "role": "primary",
+          "basis": "full cut",
+          "probability": 1,
+          "quantity": 1,
+          "itemsPerHour": 25.714285714285715,
+          "gpPerHour": 0.0
+        }
+      ],
+      "sourcePointer": "/Objects/WoodcuttingRecipe/14",
+      "notes": [
+        "Base XP and primary product are awarded on a completed cut. One damage per hit; no bonus damage."
+      ]
+    },
+    {
+      "id": "WoodDebris",
+      "gameId": "MelvorBase:WoodDebris",
+      "name": "Wood Debris",
+      "requiredLevel": 10,
+      "availability": "conditional",
+      "conditions": [
+        "Woodcutting level 10",
+        "Conditional visibility: quest or progression state"
+      ],
+      "intervalSeconds": 30.0,
+      "intervalLabel": "30 HP · 1.0s / hit",
+      "baseXp": 50,
+      "successChance": 1,
+      "xpPerHour": 6000.0,
+      "itemsPerHour": 1200.0,
+      "gpPerHour": 7200.0,
+      "products": [
+        {
+          "id": "MelvorBase:OakLog",
+          "name": "Oak Log",
+          "role": "primary",
+          "basis": "full cut",
+          "probability": 1,
+          "quantity": 10,
+          "itemsPerHour": 1200.0,
+          "gpPerHour": 7200.0
+        }
+      ],
+      "sourcePointer": "/Objects/WoodcuttingRecipe/15",
+      "notes": [
+        "Base XP and primary product are awarded on a completed cut. One damage per hit; no bonus damage."
+      ]
+    },
+    {
+      "id": "FortressWall1",
+      "gameId": "MelvorBase:FortressWall1",
+      "name": "Fortress Wall",
+      "requiredLevel": 25,
+      "availability": "conditional",
+      "conditions": [
+        "Woodcutting level 25",
+        "Conditional visibility: quest or progression state"
+      ],
+      "intervalSeconds": 50.0,
+      "intervalLabel": "50 HP · 1.0s / hit",
+      "baseXp": 42,
+      "successChance": 1,
+      "xpPerHour": 3024.0,
+      "itemsPerHour": 1440.0,
+      "gpPerHour": 24480.0,
+      "products": [
+        {
+          "id": "MelvorBase:WillowLog",
+          "name": "Willow Log",
+          "role": "primary",
+          "basis": "full cut",
+          "probability": 1,
+          "quantity": 20,
+          "itemsPerHour": 1440.0,
+          "gpPerHour": 24480.0
+        }
+      ],
+      "sourcePointer": "/Objects/WoodcuttingRecipe/16",
+      "notes": [
+        "Base XP and primary product are awarded on a completed cut. One damage per hit; no bonus damage."
+      ]
+    },
+    {
+      "id": "FortressWall2",
+      "gameId": "MelvorBase:FortressWall2",
+      "name": "Damaged Fortress Wall",
+      "requiredLevel": 25,
+      "availability": "conditional",
+      "conditions": [
+        "Woodcutting level 25",
+        "ToolbeltItemEquipped: Reinforced Woodcutter's Axe",
+        "Conditional visibility: quest or progression state"
+      ],
+      "intervalSeconds": 50.0,
+      "intervalLabel": "50 HP · 1.0s / hit",
+      "baseXp": 42,
+      "successChance": 1,
+      "xpPerHour": 3024.0,
+      "itemsPerHour": 1440.0,
+      "gpPerHour": 24480.0,
+      "products": [
+        {
+          "id": "MelvorBase:WillowLog",
+          "name": "Willow Log",
+          "role": "primary",
+          "basis": "full cut",
+          "probability": 1,
+          "quantity": 20,
+          "itemsPerHour": 1440.0,
+          "gpPerHour": 24480.0
+        }
+      ],
+      "sourcePointer": "/Objects/WoodcuttingRecipe/17",
+      "notes": [
+        "Base XP and primary product are awarded on a completed cut. One damage per hit; no bonus damage."
+      ]
+    },
+    {
+      "id": "TreantRemains",
+      "gameId": "MelvorBase:TreantRemains",
+      "name": "Treant Remains",
+      "requiredLevel": 30,
+      "availability": "conditional",
+      "conditions": [
+        "Woodcutting level 30",
+        "Conditional visibility: quest or progression state"
+      ],
+      "intervalSeconds": 12.0,
+      "intervalLabel": "12 HP · 1.0s / hit",
+      "baseXp": 50,
+      "successChance": 1,
+      "xpPerHour": 15000.0,
+      "itemsPerHour": 300.0,
+      "gpPerHour": 300.0,
+      "products": [
+        {
+          "id": "MelvorBase:TreantRemains",
+          "name": "Treant Remains",
+          "role": "primary",
+          "basis": "full cut",
+          "probability": 1,
+          "quantity": 1,
+          "itemsPerHour": 300.0,
+          "gpPerHour": 300.0
+        }
+      ],
+      "sourcePointer": "/Objects/WoodcuttingRecipe/18",
+      "notes": [
+        "Base XP and primary product are awarded on a completed cut. One damage per hit; no bonus damage."
+      ]
+    },
+    {
+      "id": "FortGate",
+      "gameId": "MelvorBase:FortGate",
+      "name": "Fort Gate",
+      "requiredLevel": 39,
+      "availability": "conditional",
+      "conditions": [
+        "Woodcutting level 39",
+        "Conditional visibility: quest or progression state"
+      ],
+      "intervalSeconds": 100.0,
+      "intervalLabel": "100 HP · 1.0s / hit",
+      "baseXp": 59,
+      "successChance": 1,
+      "xpPerHour": 2124.0,
+      "itemsPerHour": 1080.0,
+      "gpPerHour": 27000.0,
+      "products": [
+        {
+          "id": "MelvorBase:TeakLog",
+          "name": "Teak Log",
+          "role": "primary",
+          "basis": "full cut",
+          "probability": 1,
+          "quantity": 30,
+          "itemsPerHour": 1080.0,
+          "gpPerHour": 27000.0
+        }
+      ],
+      "sourcePointer": "/Objects/WoodcuttingRecipe/19",
+      "notes": [
+        "Base XP and primary product are awarded on a completed cut. One damage per hit; no bonus damage."
+      ]
+    }
+  ],
+  "notes": [
+    "A full cut requires the tree’s base health in hits. Per-hit and per-cut drops have separate roll frequencies."
+  ]
+}

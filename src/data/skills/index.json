@@ -1,0 +1,4928 @@
+{
+  "sourcePackageSha256": "2b43f26ce76d86178f56a72c8dced08a0ae545779786cccdcac868bdc3478474",
+  "gameVersion": "0.11.2-alpha.4",
+  "skills": [
+    {
+      "id": "attack",
+      "gameId": "MelvorBase:Attack",
+      "name": "Attack",
+      "requirements": [],
+      "recipeIds": [],
+      "definitionCount": 0,
+      "status": "planned",
+      "demoLocked": false
+    },
+    {
+      "id": "strength",
+      "gameId": "MelvorBase:Strength",
+      "name": "Strength",
+      "requirements": [],
+      "recipeIds": [],
+      "definitionCount": 0,
+      "status": "planned",
+      "demoLocked": false
+    },
+    {
+      "id": "defence",
+      "gameId": "MelvorBase:Defence",
+      "name": "Defence",
+      "requirements": [],
+      "recipeIds": [],
+      "definitionCount": 0,
+      "status": "planned",
+      "demoLocked": false
+    },
+    {
+      "id": "hitpoints",
+      "gameId": "MelvorBase:Hitpoints",
+      "name": "Hitpoints",
+      "requirements": [],
+      "recipeIds": [],
+      "definitionCount": 0,
+      "status": "planned",
+      "demoLocked": false
+    },
+    {
+      "id": "ranged",
+      "gameId": "MelvorBase:Ranged",
+      "name": "Ranged",
+      "requirements": [],
+      "recipeIds": [],
+      "definitionCount": 0,
+      "status": "planned",
+      "demoLocked": false
+    },
+    {
+      "id": "magic",
+      "gameId": "MelvorBase:Magic",
+      "name": "Magic",
+      "requirements": [],
+      "recipeIds": [],
+      "definitionCount": 0,
+      "status": "planned",
+      "demoLocked": false
+    },
+    {
+      "id": "prayer",
+      "gameId": "MelvorBase:Prayer",
+      "name": "Prayer",
+      "requirements": [],
+      "recipeIds": [],
+      "definitionCount": 0,
+      "status": "planned",
+      "demoLocked": false
+    },
+    {
+      "id": "slayer",
+      "gameId": "MelvorBase:Slayer",
+      "name": "Slayer",
+      "requirements": [],
+      "recipeIds": [],
+      "definitionCount": 0,
+      "status": "planned",
+      "demoLocked": false
+    },
+    {
+      "id": "agility",
+      "gameId": "MelvorBase:Agility",
+      "name": "Agility",
+      "requirements": [
+        {
+          "Type": "MelvorBase:DemoLocked",
+          "Data": {
+            "Component": {
+              "Entity": "MelvorBase:CompletionLog",
+              "Component": "Completion"
+            },
+            "IsOr": false
+          }
+        }
+      ],
+      "recipeIds": [],
+      "definitionCount": 0,
+      "status": "planned",
+      "demoLocked": true
+    },
+    {
+      "id": "beastcrafting",
+      "gameId": "MelvorBase:Beastcrafting",
+      "name": "Beastcrafting",
+      "requirements": [
+        {
+          "Type": "MelvorBase:Level",
+          "Data": {
+            "IsOr": false,
+            "Component": {
+              "Entity": "MelvorBase:Hunting",
+              "Component": "Experience"
+            },
+            "Level": 15
+          }
+        },
+        {
+          "Type": "MelvorBase:HuntingAnimalStatistic",
+          "Data": {
+            "IsOr": false,
+            "Value": 1,
+            "Statistic": "MelvorBase:HuntingAnimalTrapped",
+            "Animal": "MelvorBase:BushlandRabbit"
+          }
+        }
+      ],
+      "recipeIds": [
+        {
+          "Priority": 0,
+          "Id": "MelvorBase:FurCamoHat"
+        },
+        {
+          "Priority": 10000,
+          "Id": "MelvorBase:FurCamoLegs"
+        },
+        {
+          "Priority": 20000,
+          "Id": "MelvorBase:FeathersFlaxBasket"
+        },
+        {
+          "Priority": 30000,
+          "Id": "MelvorBase:BoneCasing"
+        },
+        {
+          "Priority": 40000,
+          "Id": "MelvorBase:FurCamoBody"
+        },
+        {
+          "Priority": 50000,
+          "Id": "MelvorBase:FurTrappingSatchel"
+        },
+        {
+          "Priority": 60000,
+          "Id": "MelvorBase:RabbitFootNecklace"
+        },
+        {
+          "Priority": 70000,
+          "Id": "MelvorBase:RabbitOvenMitts"
+        },
+        {
+          "Priority": 80000,
+          "Id": "MelvorBase:ThornbackSpikedNails"
+        },
+        {
+          "Priority": 90000,
+          "Id": "MelvorBase:ThornbackShaftCutter"
+        },
+        {
+          "Priority": 100000,
+          "Id": "MelvorBase:CrushedBone"
+        },
+        {
+          "Priority": 110000,
+          "Id": "MelvorBase:TrackersBandI"
+        },
+        {
+          "Priority": 120000,
+          "Id": "MelvorBase:ToadskinTrapGloves"
+        },
+        {
+          "Priority": 130000,
+          "Id": "MelvorBase:ThornbackCamoHat"
+        },
+        {
+          "Priority": 140000,
+          "Id": "MelvorBase:ThornbackCamoLegs"
+        },
+        {
+          "Priority": 150000,
+          "Id": "MelvorBase:ThornbackCamoBody"
+        },
+        {
+          "Priority": 160000,
+          "Id": "MelvorBase:SnakeskinFarmGloves"
+        },
+        {
+          "Priority": 170000,
+          "Id": "MelvorBase:TrackersBandII"
+        },
+        {
+          "Priority": 180000,
+          "Id": "MelvorBase:SnakeFangRing"
+        },
+        {
+          "Priority": 190000,
+          "Id": "MelvorBase:SnakeskinCoinbag"
+        },
+        {
+          "Priority": 200000,
+          "Id": "MelvorBase:SnakeskinMageShield"
+        },
+        {
+          "Priority": 210000,
+          "Id": "MelvorBase:SnakeskinTrappingSatchel"
+        },
+        {
+          "Priority": 220000,
+          "Id": "MelvorBase:SnakeskinCape"
+        },
+        {
+          "Priority": 230000,
+          "Id": "MelvorBase:GreenToadskinShield"
+        },
+        {
+          "Priority": 240000,
+          "Id": "MelvorBase:ToadskinAmulet"
+        },
+        {
+          "Priority": 250000,
+          "Id": "MelvorBase:CrushedBigBone"
+        },
+        {
+          "Priority": 260000,
+          "Id": "MelvorBase:ElkAntlerHelmet"
+        },
+        {
+          "Priority": 270000,
+          "Id": "MelvorBase:ElkAntlerChisel"
+        },
+        {
+          "Priority": 280000,
+          "Id": "MelvorBase:FireflyNooseWand"
+        },
+        {
+          "Priority": 290000,
+          "Id": "MelvorBase:ElkAntlerCarver"
+        },
+        {
+          "Priority": 300000,
+          "Id": "MelvorBase:GreenDragonscaleShield"
+        },
+        {
+          "Priority": 310000,
+          "Id": "MelvorBase:TrackersBandIII"
+        },
+        {
+          "Priority": 320000,
+          "Id": "MelvorBase:WolfFangKnife"
+        },
+        {
+          "Priority": 330000,
+          "Id": "MelvorBase:WolfFangAmulet"
+        },
+        {
+          "Priority": 340000,
+          "Id": "MelvorBase:SpiderSilkTrappingSatchel"
+        },
+        {
+          "Priority": 350000,
+          "Id": "MelvorBase:BlackFangCamoHat"
+        },
+        {
+          "Priority": 360000,
+          "Id": "MelvorBase:DragonboneOffhandGlaive"
+        },
+        {
+          "Priority": 370000,
+          "Id": "MelvorBase:HarpyBow"
+        },
+        {
+          "Priority": 380000,
+          "Id": "MelvorBase:MonsterLure"
+        },
+        {
+          "Priority": 390000,
+          "Id": "MelvorBase:BlackFangCamoLegs"
+        },
+        {
+          "Priority": 400000,
+          "Id": "MelvorBase:GreenDragonhideCowl"
+        },
+        {
+          "Priority": 410000,
+          "Id": "MelvorBase:BeastslayerHelmetI"
+        },
+        {
+          "Priority": 420000,
+          "Id": "MelvorBase:HarpyCrossbow"
+        },
+        {
+          "Priority": 430000,
+          "Id": "MelvorBase:BlueDragonscaleShield"
+        },
+        {
+          "Priority": 440000,
+          "Id": "MelvorBase:Harpy2HCrossbow"
+        },
+        {
+          "Priority": 450000,
+          "Id": "MelvorBase:IronsteelFoodPouch"
+        },
+        {
+          "Priority": 460000,
+          "Id": "MelvorBase:BlackFangCamoBody"
+        },
+        {
+          "Priority": 470000,
+          "Id": "MelvorBase:GreenDragonhideChaps"
+        },
+        {
+          "Priority": 480000,
+          "Id": "MelvorBase:BeastslayerBottomsI"
+        },
+        {
+          "Priority": 490000,
+          "Id": "MelvorBase:SkullsWand"
+        },
+        {
+          "Priority": 500000,
+          "Id": "MelvorBase:BlackFangDagger"
+        },
+        {
+          "Priority": 510000,
+          "Id": "MelvorBase:SkullsStaff"
+        },
+        {
+          "Priority": 520000,
+          "Id": "MelvorBase:BlackFangClaws"
+        },
+        {
+          "Priority": 530000,
+          "Id": "MelvorBase:BlackFangRing"
+        },
+        {
+          "Priority": 540000,
+          "Id": "MelvorBase:GreenDragonhideBody"
+        },
+        {
+          "Priority": 550000,
+          "Id": "MelvorBase:BeastslayerBodyI"
+        },
+        {
+          "Priority": 560000,
+          "Id": "MelvorBase:BlackFangMallet"
+        },
+        {
+          "Priority": 570000,
+          "Id": "MelvorBase:TrackersBandIV"
+        },
+        {
+          "Priority": 580000,
+          "Id": "MelvorBase:CrushedLargeBone"
+        },
+        {
+          "Priority": 590000,
+          "Id": "MelvorBase:StripedFurBoots"
+        },
+        {
+          "Priority": 600000,
+          "Id": "MelvorBase:BlueDragonhideCowl"
+        },
+        {
+          "Priority": 610000,
+          "Id": "MelvorBase:BeastslayerHelmetII"
+        },
+        {
+          "Priority": 620000,
+          "Id": "MelvorBase:BlueDragonhideChaps"
+        },
+        {
+          "Priority": 630000,
+          "Id": "MelvorBase:BeastslayerBottomsII"
+        },
+        {
+          "Priority": 640000,
+          "Id": "MelvorBase:StripedCape"
+        },
+        {
+          "Priority": 650000,
+          "Id": "MelvorBase:BlueDragonhideBody"
+        },
+        {
+          "Priority": 660000,
+          "Id": "MelvorBase:BeastslayerBodyII"
+        },
+        {
+          "Priority": 670000,
+          "Id": "MelvorBase:WildebeastDagger"
+        },
+        {
+          "Priority": 680000,
+          "Id": "MelvorBase:WildebeastClaws"
+        },
+        {
+          "Priority": 690000,
+          "Id": "MelvorBase:RaptorBow"
+        },
+        {
+          "Priority": 700000,
+          "Id": "MelvorBase:RaptorCrossbow"
+        },
+        {
+          "Priority": 710000,
+          "Id": "MelvorBase:WildebeastStake"
+        },
+        {
+          "Priority": 720000,
+          "Id": "MelvorBase:WildebeastMallet"
+        },
+        {
+          "Priority": 730000,
+          "Id": "MelvorBase:Raptor2HCrossbow"
+        },
+        {
+          "Priority": 740000,
+          "Id": "MelvorBase:PhantomWand"
+        },
+        {
+          "Priority": 750000,
+          "Id": "MelvorBase:WildebeastRing"
+        },
+        {
+          "Priority": 760000,
+          "Id": "MelvorBase:PhantomShield"
+        },
+        {
+          "Priority": 770000,
+          "Id": "MelvorBase:PhantomStaff"
+        },
+        {
+          "Priority": 780000,
+          "Id": "MelvorBase:RedDragonhideCowl"
+        },
+        {
+          "Priority": 790000,
+          "Id": "MelvorBase:BeastslayerHelmetIII"
+        },
+        {
+          "Priority": 800000,
+          "Id": "MelvorBase:RedDragonscaleShield"
+        },
+        {
+          "Priority": 810000,
+          "Id": "MelvorBase:PhantomAmulet"
+        },
+        {
+          "Priority": 820000,
+          "Id": "MelvorBase:BloodhawkAmulet"
+        },
+        {
+          "Priority": 830000,
+          "Id": "MelvorBase:RedDragonhideChaps"
+        },
+        {
+          "Priority": 840000,
+          "Id": "MelvorBase:BeastslayerBottomsIII"
+        },
+        {
+          "Priority": 850000,
+          "Id": "MelvorBase:RedDragonhideBody"
+        },
+        {
+          "Priority": 860000,
+          "Id": "MelvorBase:BeastslayerBodyIII"
+        },
+        {
+          "Priority": 870000,
+          "Id": "MelvorBase:TrackersBandV"
+        },
+        {
+          "Priority": 880000,
+          "Id": "MelvorBase:CaribouAntlerHelmet"
+        },
+        {
+          "Priority": 890000,
+          "Id": "MelvorBase:CrushedDragonBone"
+        },
+        {
+          "Priority": 900000,
+          "Id": "MelvorBase:ScabjawBeastGauntlets"
+        },
+        {
+          "Priority": 910000,
+          "Id": "MelvorBase:CaribouAntlerChisel"
+        },
+        {
+          "Priority": 920000,
+          "Id": "MelvorBase:SpectreMitts"
+        },
+        {
+          "Priority": 930000,
+          "Id": "MelvorBase:ScabjawBeastDagger"
+        },
+        {
+          "Priority": 940000,
+          "Id": "MelvorBase:ScabjawBeastAmulet"
+        },
+        {
+          "Priority": 950000,
+          "Id": "MelvorBase:GriffinVambraces"
+        },
+        {
+          "Priority": 960000,
+          "Id": "MelvorBase:ScabjawBeastMallet"
+        },
+        {
+          "Priority": 970000,
+          "Id": "MelvorBase:SpectreWand"
+        },
+        {
+          "Priority": 980000,
+          "Id": "MelvorBase:SpectreAmulet"
+        },
+        {
+          "Priority": 990000,
+          "Id": "MelvorBase:CaribouAntlerCarver"
+        },
+        {
+          "Priority": 1000000,
+          "Id": "MelvorBase:StripedBeastCamoHat"
+        },
+        {
+          "Priority": 1010000,
+          "Id": "MelvorBase:BlackDragonhideCowl"
+        },
+        {
+          "Priority": 1020000,
+          "Id": "MelvorBase:BeastslayerHelmetIV"
+        },
+        {
+          "Priority": 1030000,
+          "Id": "MelvorBase:GriffinCloak"
+        },
+        {
+          "Priority": 1040000,
+          "Id": "MelvorBase:BlackDragonscaleShield"
+        },
+        {
+          "Priority": 1050000,
+          "Id": "MelvorBase:SpectreStaff"
+        },
+        {
+          "Priority": 1060000,
+          "Id": "MelvorBase:GriffinBow"
+        },
+        {
+          "Priority": 1070000,
+          "Id": "MelvorBase:GriffinCrossbow"
+        },
+        {
+          "Priority": 1080000,
+          "Id": "MelvorBase:GriffinClaws"
+        },
+        {
+          "Priority": 1090000,
+          "Id": "MelvorBase:NightscaleHat"
+        },
+        {
+          "Priority": 1100000,
+          "Id": "MelvorBase:Griffin2HCrossbow"
+        },
+        {
+          "Priority": 1110000,
+          "Id": "MelvorBase:StripedBeastCamoLegs"
+        },
+        {
+          "Priority": 1120000,
+          "Id": "MelvorBase:GriffinTrappingSatchel"
+        },
+        {
+          "Priority": 1130000,
+          "Id": "MelvorBase:BlackDragonhideChaps"
+        },
+        {
+          "Priority": 1140000,
+          "Id": "MelvorBase:BeastslayerBottomsIV"
+        },
+        {
+          "Priority": 1150000,
+          "Id": "MelvorBase:NightscaleBottoms"
+        },
+        {
+          "Priority": 1160000,
+          "Id": "MelvorBase:BlackDragonSpear"
+        },
+        {
+          "Priority": 1170000,
+          "Id": "MelvorBase:NightscaleRobes"
+        },
+        {
+          "Priority": 1180000,
+          "Id": "MelvorBase:StripedBeastCamoBody"
+        },
+        {
+          "Priority": 1190000,
+          "Id": "MelvorBase:BlackDragonhideBody"
+        },
+        {
+          "Priority": 1200000,
+          "Id": "MelvorBase:BeastslayerBodyIV"
+        },
+        {
+          "Priority": 1210000,
+          "Id": "MelvorBase:BlackDragonBow"
+        },
+        {
+          "Priority": 1220000,
+          "Id": "MelvorBase:BlackDragonStaff"
+        },
+        {
+          "Priority": 1230000,
+          "Id": "MelvorBase:GarBelraRing"
+        },
+        {
+          "Priority": 1240000,
+          "Id": "MelvorBase:StormDragonhideCowl"
+        },
+        {
+          "Priority": 1250000,
+          "Id": "MelvorBase:BeastslayerHelmetV"
+        },
+        {
+          "Priority": 1260000,
+          "Id": "MelvorBase:FinBelraRing"
+        },
+        {
+          "Priority": 1270000,
+          "Id": "MelvorBase:MoonscaleNet"
+        },
+        {
+          "Priority": 1280000,
+          "Id": "MelvorBase:DragonruneFoodPouch"
+        },
+        {
+          "Priority": 1290000,
+          "Id": "MelvorBase:StormDragonhideChaps"
+        },
+        {
+          "Priority": 1300000,
+          "Id": "MelvorBase:BeastslayerBottomsV"
+        },
+        {
+          "Priority": 1310000,
+          "Id": "MelvorBase:StormLynx2HCrossbow"
+        },
+        {
+          "Priority": 1320000,
+          "Id": "MelvorBase:CulBelraRing"
+        },
+        {
+          "Priority": 1330000,
+          "Id": "MelvorBase:StormDragonhideBody"
+        },
+        {
+          "Priority": 1340000,
+          "Id": "MelvorBase:BeastslayerBodyV"
+        },
+        {
+          "Priority": 1350000,
+          "Id": "MelvorBase:StormFang2HSword"
+        },
+        {
+          "Priority": 1360000,
+          "Id": "MelvorBase:DracolithRavagerAmulet"
+        },
+        {
+          "Priority": 1370000,
+          "Id": "MelvorBase:CloakofShadows"
+        },
+        {
+          "Priority": 1380000,
+          "Id": "MelvorBase:StormElementalStaff"
+        },
+        {
+          "Priority": 1390000,
+          "Id": "MelvorBase:DracolithSpitfireAmulet"
+        },
+        {
+          "Priority": 1400000,
+          "Id": "MelvorBase:ShadowflameTinderbox"
+        },
+        {
+          "Priority": 1410000,
+          "Id": "MelvorBase:DracolithTyrantAmulet"
+        },
+        {
+          "Priority": 1420000,
+          "Id": "MelvorBase:ShadowTailPants"
+        }
+      ],
+      "definitionCount": 143,
+      "status": "planned",
+      "demoLocked": false
+    },
+    {
+      "id": "cooking",
+      "gameId": "MelvorBase:Cooking",
+      "name": "Cooking",
+      "requirements": [
+        {
+          "Type": "MelvorBase:ItemStatistic",
+          "Data": {
+            "IsOr": false,
+            "Value": 20,
+            "Statistic": "MelvorBase:FishingItemGained",
+            "Item": "MelvorBase:RawShrimp"
+          }
+        }
+      ],
+      "recipeIds": [
+        {
+          "Priority": 0,
+          "Id": "MelvorBase:Shrimp"
+        },
+        {
+          "Priority": 10000,
+          "Id": "MelvorBase:Sardine"
+        },
+        {
+          "Priority": 20000,
+          "Id": "MelvorBase:Beef"
+        },
+        {
+          "Priority": 30000,
+          "Id": "MelvorBase:Herring"
+        },
+        {
+          "Priority": 40000,
+          "Id": "MelvorBase:Chicken"
+        },
+        {
+          "Priority": 50000,
+          "Id": "MelvorBase:Perch"
+        },
+        {
+          "Priority": 60000,
+          "Id": "MelvorBase:Trout"
+        },
+        {
+          "Priority": 70000,
+          "Id": "MelvorBase:Mackerel"
+        },
+        {
+          "Priority": 80000,
+          "Id": "MelvorBase:Pike"
+        },
+        {
+          "Priority": 90000,
+          "Id": "MelvorBase:Salmon"
+        },
+        {
+          "Priority": 100000,
+          "Id": "MelvorBase:Lobster"
+        },
+        {
+          "Priority": 110000,
+          "Id": "MelvorBase:Glowfin"
+        },
+        {
+          "Priority": 120000,
+          "Id": "MelvorBase:SeaBream"
+        },
+        {
+          "Priority": 130000,
+          "Id": "MelvorBase:Cod"
+        },
+        {
+          "Priority": 140000,
+          "Id": "MelvorBase:SeaBass"
+        },
+        {
+          "Priority": 145000,
+          "Id": "MelvorBase:GriffinSteak"
+        },
+        {
+          "Priority": 150000,
+          "Id": "MelvorBase:Lionfish"
+        },
+        {
+          "Priority": 160000,
+          "Id": "MelvorBase:GlowingJellyfish"
+        },
+        {
+          "Priority": 170000,
+          "Id": "MelvorBase:Tuna"
+        },
+        {
+          "Priority": 180000,
+          "Id": "MelvorBase:Shark"
+        },
+        {
+          "Priority": 190000,
+          "Id": "MelvorBase:GlowingSquid"
+        },
+        {
+          "Priority": 200000,
+          "Id": "MelvorBase:GiantEel"
+        },
+        {
+          "Priority": 210000,
+          "Id": "MelvorBase:MantaRay"
+        },
+        {
+          "Priority": 220000,
+          "Id": "MelvorBase:Whale"
+        },
+        {
+          "Priority": 230000,
+          "Id": "MelvorBase:Cheese"
+        },
+        {
+          "Priority": 240000,
+          "Id": "MelvorBase:Bread"
+        },
+        {
+          "Priority": 250000,
+          "Id": "MelvorBase:SweetDough"
+        },
+        {
+          "Priority": 260000,
+          "Id": "MelvorBase:CakeBase"
+        },
+        {
+          "Priority": 270000,
+          "Id": "MelvorBase:SoupBase"
+        },
+        {
+          "Priority": 280000,
+          "Id": "MelvorBase:SushiBase"
+        },
+        {
+          "Priority": 290000,
+          "Id": "MelvorBase:BeefSandwich"
+        },
+        {
+          "Priority": 300000,
+          "Id": "MelvorBase:ChickenSandwich"
+        },
+        {
+          "Priority": 310000,
+          "Id": "MelvorBase:LobsterSandwich"
+        },
+        {
+          "Priority": 320000,
+          "Id": "MelvorBase:TunaSandwich"
+        },
+        {
+          "Priority": 330000,
+          "Id": "MelvorBase:BananaPancake"
+        },
+        {
+          "Priority": 340000,
+          "Id": "MelvorBase:ApplePancake"
+        },
+        {
+          "Priority": 350000,
+          "Id": "MelvorBase:CherryPancake"
+        },
+        {
+          "Priority": 360000,
+          "Id": "MelvorBase:MangoPancake"
+        },
+        {
+          "Priority": 370000,
+          "Id": "MelvorBase:StrawberryCake"
+        },
+        {
+          "Priority": 380000,
+          "Id": "MelvorBase:CarrotCake"
+        },
+        {
+          "Priority": 390000,
+          "Id": "MelvorBase:OrangeCake"
+        },
+        {
+          "Priority": 400000,
+          "Id": "MelvorBase:ApplePie"
+        },
+        {
+          "Priority": 410000,
+          "Id": "MelvorBase:CherryPie"
+        },
+        {
+          "Priority": 420000,
+          "Id": "MelvorBase:PumpkinPie"
+        },
+        {
+          "Priority": 430000,
+          "Id": "MelvorBase:SalmonSoup"
+        },
+        {
+          "Priority": 440000,
+          "Id": "MelvorBase:SeaBreamSoup"
+        },
+        {
+          "Priority": 450000,
+          "Id": "MelvorBase:LionfishSoup"
+        },
+        {
+          "Priority": 460000,
+          "Id": "MelvorBase:SharkSoup"
+        },
+        {
+          "Priority": 470000,
+          "Id": "MelvorBase:VegetableSoup"
+        },
+        {
+          "Priority": 480000,
+          "Id": "MelvorBase:TroutSushi"
+        },
+        {
+          "Priority": 490000,
+          "Id": "MelvorBase:SalmonSushi"
+        },
+        {
+          "Priority": 500000,
+          "Id": "MelvorBase:CodSushi"
+        },
+        {
+          "Priority": 510000,
+          "Id": "MelvorBase:GlowingSushi"
+        },
+        {
+          "Priority": 520000,
+          "Id": "MelvorBase:TunaSharkSushi"
+        },
+        {
+          "Priority": 530000,
+          "Id": "MelvorBase:VegetableSushi"
+        },
+        {
+          "Priority": 540000,
+          "Id": "MelvorBase:Cheeseburger"
+        },
+        {
+          "Priority": 550000,
+          "Id": "MelvorBase:Lasagna"
+        },
+        {
+          "Priority": 560000,
+          "Id": "MelvorBase:CombinationPizza"
+        },
+        {
+          "Priority": 570000,
+          "Id": "MelvorBase:GlowingSoup"
+        },
+        {
+          "Priority": 580000,
+          "Id": "MelvorBase:BasicBait"
+        },
+        {
+          "Priority": 590000,
+          "Id": "MelvorBase:MackerelBait"
+        },
+        {
+          "Priority": 600000,
+          "Id": "MelvorBase:GlowfinBait"
+        },
+        {
+          "Priority": 610000,
+          "Id": "MelvorBase:GiantFishBait"
+        },
+        {
+          "Priority": 620000,
+          "Id": "MelvorBase:SeedBait"
+        },
+        {
+          "Priority": 630000,
+          "Id": "MelvorBase:VegeBait"
+        },
+        {
+          "Priority": 640000,
+          "Id": "MelvorBase:HoneyBarkBait"
+        },
+        {
+          "Priority": 650000,
+          "Id": "MelvorBase:MeatBait"
+        },
+        {
+          "Priority": 660000,
+          "Id": "MelvorBase:BonemealBait"
+        },
+        {
+          "Priority": 670000,
+          "Id": "MelvorBase:SparklingBait"
+        },
+        {
+          "Priority": 680000,
+          "Id": "MelvorBase:BasicDough"
+        },
+        {
+          "Priority": 85000,
+          "Id": "MelvorBase:MoonlightMinnow"
+        },
+        {
+          "Priority": 146000,
+          "Id": "MelvorBase:StripedMullet"
+        },
+        {
+          "Priority": 200000,
+          "Id": "MelvorBase:MinnowPie"
+        },
+        {
+          "Priority": 555000,
+          "Id": "MelvorBase:MulletStew"
+        }
+      ],
+      "definitionCount": 74,
+      "status": "planned",
+      "demoLocked": false
+    },
+    {
+      "id": "crafting",
+      "gameId": "MelvorBase:Crafting",
+      "name": "Crafting",
+      "requirements": [
+        {
+          "Type": "MelvorBase:Level",
+          "Data": {
+            "Component": {
+              "Entity": "MelvorBase:Woodcutting",
+              "Component": "Experience"
+            },
+            "IsOr": false,
+            "Level": 5
+          }
+        }
+      ],
+      "recipeIds": [
+        {
+          "Priority": 0,
+          "Id": "MelvorBase:LeatherVambraces"
+        },
+        {
+          "Priority": 10000,
+          "Id": "MelvorBase:Bowstring"
+        },
+        {
+          "Priority": 20000,
+          "Id": "MelvorBase:Leather"
+        },
+        {
+          "Priority": 30000,
+          "Id": "MelvorBase:LeatherBoots"
+        },
+        {
+          "Priority": 40000,
+          "Id": "MelvorBase:String"
+        },
+        {
+          "Priority": 50000,
+          "Id": "MelvorBase:BasicSnare"
+        },
+        {
+          "Priority": 60000,
+          "Id": "MelvorBase:LeatherCowl"
+        },
+        {
+          "Priority": 70000,
+          "Id": "MelvorBase:UnpoweredOrb"
+        },
+        {
+          "Priority": 80000,
+          "Id": "MelvorBase:LeatherShield"
+        },
+        {
+          "Priority": 90000,
+          "Id": "MelvorBase:LeatherChaps"
+        },
+        {
+          "Priority": 100000,
+          "Id": "MelvorBase:EmptyVial"
+        },
+        {
+          "Priority": 110000,
+          "Id": "MelvorBase:BasicSmallBirdCatcher"
+        },
+        {
+          "Priority": 120000,
+          "Id": "MelvorBase:LeatherBody"
+        },
+        {
+          "Priority": 130000,
+          "Id": "MelvorBase:Topaz"
+        },
+        {
+          "Priority": 140000,
+          "Id": "MelvorBase:HardLeatherVambraces"
+        },
+        {
+          "Priority": 150000,
+          "Id": "MelvorBase:HardLeatherBoots"
+        },
+        {
+          "Priority": 160000,
+          "Id": "MelvorBase:HardLeatherCowl"
+        },
+        {
+          "Priority": 170000,
+          "Id": "MelvorBase:HardLeatherShield"
+        },
+        {
+          "Priority": 180000,
+          "Id": "MelvorBase:SilverTopazRing"
+        },
+        {
+          "Priority": 190000,
+          "Id": "MelvorBase:SilverTopazAmulet"
+        },
+        {
+          "Priority": 200000,
+          "Id": "MelvorBase:HardLeatherChaps"
+        },
+        {
+          "Priority": 210000,
+          "Id": "MelvorBase:BasicButterflyKit"
+        },
+        {
+          "Priority": 220000,
+          "Id": "MelvorBase:GlassJar"
+        },
+        {
+          "Priority": 230000,
+          "Id": "MelvorBase:HardLeatherBody"
+        },
+        {
+          "Priority": 240000,
+          "Id": "MelvorBase:BasicNet"
+        },
+        {
+          "Priority": 250000,
+          "Id": "MelvorBase:Rope"
+        },
+        {
+          "Priority": 260000,
+          "Id": "MelvorBase:StuddedLeatherVambraces"
+        },
+        {
+          "Priority": 270000,
+          "Id": "MelvorBase:StuddedLeatherBoots"
+        },
+        {
+          "Priority": 280000,
+          "Id": "MelvorBase:StuddedLeatherCowl"
+        },
+        {
+          "Priority": 290000,
+          "Id": "MelvorBase:EmptyLantern"
+        },
+        {
+          "Priority": 300000,
+          "Id": "MelvorBase:StuddedLeatherShield"
+        },
+        {
+          "Priority": 310000,
+          "Id": "MelvorBase:SilverSapphireRing"
+        },
+        {
+          "Priority": 320000,
+          "Id": "MelvorBase:SilverSapphireAmulet"
+        },
+        {
+          "Priority": 330000,
+          "Id": "MelvorBase:Sapphire"
+        },
+        {
+          "Priority": 340000,
+          "Id": "MelvorBase:StuddedLeatherChaps"
+        },
+        {
+          "Priority": 350000,
+          "Id": "MelvorBase:StuddedLeatherBody"
+        },
+        {
+          "Priority": 360000,
+          "Id": "MelvorBase:ChainmailVambraces"
+        },
+        {
+          "Priority": 370000,
+          "Id": "MelvorBase:ChainmailBoots"
+        },
+        {
+          "Priority": 380000,
+          "Id": "MelvorBase:GoldTopazRing"
+        },
+        {
+          "Priority": 390000,
+          "Id": "MelvorBase:GoldTopazAmulet"
+        },
+        {
+          "Priority": 400000,
+          "Id": "MelvorBase:ChainmailCowl"
+        },
+        {
+          "Priority": 410000,
+          "Id": "MelvorBase:ChainmailShield"
+        },
+        {
+          "Priority": 420000,
+          "Id": "MelvorBase:ChainmailChaps"
+        },
+        {
+          "Priority": 430000,
+          "Id": "MelvorBase:ReinforcedString"
+        },
+        {
+          "Priority": 440000,
+          "Id": "MelvorBase:ReinforcedSnare"
+        },
+        {
+          "Priority": 450000,
+          "Id": "MelvorBase:ChainmailBody"
+        },
+        {
+          "Priority": 460000,
+          "Id": "MelvorBase:BasicPitfallTrap"
+        },
+        {
+          "Priority": 470000,
+          "Id": "MelvorBase:SilverRubyRing"
+        },
+        {
+          "Priority": 480000,
+          "Id": "MelvorBase:SilverRubyAmulet"
+        },
+        {
+          "Priority": 490000,
+          "Id": "MelvorBase:Ruby"
+        },
+        {
+          "Priority": 500000,
+          "Id": "MelvorBase:ReinforcedSmallBirdCatcher"
+        },
+        {
+          "Priority": 510000,
+          "Id": "MelvorBase:GoldSapphireRing"
+        },
+        {
+          "Priority": 520000,
+          "Id": "MelvorBase:GoldSapphireAmulet"
+        },
+        {
+          "Priority": 530000,
+          "Id": "MelvorBase:ReinforcedNet"
+        },
+        {
+          "Priority": 540000,
+          "Id": "MelvorBase:BasicLargeBirdNet"
+        },
+        {
+          "Priority": 550000,
+          "Id": "MelvorBase:GreenDragonhideLeather"
+        },
+        {
+          "Priority": 560000,
+          "Id": "MelvorBase:ElkLeatherVambraces"
+        },
+        {
+          "Priority": 570000,
+          "Id": "MelvorBase:ReinforcedButterflyKit"
+        },
+        {
+          "Priority": 580000,
+          "Id": "MelvorBase:ElkLeather"
+        },
+        {
+          "Priority": 590000,
+          "Id": "MelvorBase:ElkLeatherBoots"
+        },
+        {
+          "Priority": 600000,
+          "Id": "MelvorBase:GoldRubyRing"
+        },
+        {
+          "Priority": 610000,
+          "Id": "MelvorBase:GoldRubyAmulet"
+        },
+        {
+          "Priority": 620000,
+          "Id": "MelvorBase:ElkLeatherCowl"
+        },
+        {
+          "Priority": 630000,
+          "Id": "MelvorBase:ElkLeatherShield"
+        },
+        {
+          "Priority": 640000,
+          "Id": "MelvorBase:ElkLeatherChaps"
+        },
+        {
+          "Priority": 650000,
+          "Id": "MelvorBase:ElkLeatherBody"
+        },
+        {
+          "Priority": 660000,
+          "Id": "MelvorBase:HardElkLeatherVambraces"
+        },
+        {
+          "Priority": 670000,
+          "Id": "MelvorBase:SilverEmeraldRing"
+        },
+        {
+          "Priority": 680000,
+          "Id": "MelvorBase:SilverEmeraldAmulet"
+        },
+        {
+          "Priority": 690000,
+          "Id": "MelvorBase:Emerald"
+        },
+        {
+          "Priority": 700000,
+          "Id": "MelvorBase:BlueDragonhideLeather"
+        },
+        {
+          "Priority": 710000,
+          "Id": "MelvorBase:ReinforcedPitfallTrap"
+        },
+        {
+          "Priority": 720000,
+          "Id": "MelvorBase:StripedHyenaLeather"
+        },
+        {
+          "Priority": 730000,
+          "Id": "MelvorBase:HardElkLeatherBoots"
+        },
+        {
+          "Priority": 740000,
+          "Id": "MelvorBase:HardElkLeatherCowl"
+        },
+        {
+          "Priority": 750000,
+          "Id": "MelvorBase:HardElkLeatherShield"
+        },
+        {
+          "Priority": 760000,
+          "Id": "MelvorBase:HardElkLeatherChaps"
+        },
+        {
+          "Priority": 770000,
+          "Id": "MelvorBase:ReinforcedLargeBirdNet"
+        },
+        {
+          "Priority": 780000,
+          "Id": "MelvorBase:BasicSpiritBox"
+        },
+        {
+          "Priority": 790000,
+          "Id": "MelvorBase:RedDragonhideLeather"
+        },
+        {
+          "Priority": 800000,
+          "Id": "MelvorBase:HardElkLeatherBody"
+        },
+        {
+          "Priority": 810000,
+          "Id": "MelvorBase:StuddedElkLeatherVambraces"
+        },
+        {
+          "Priority": 820000,
+          "Id": "MelvorBase:StuddedElkLeatherBoots"
+        },
+        {
+          "Priority": 830000,
+          "Id": "MelvorBase:GoldEmeraldRing"
+        },
+        {
+          "Priority": 840000,
+          "Id": "MelvorBase:GoldEmeraldAmulet"
+        },
+        {
+          "Priority": 850000,
+          "Id": "MelvorBase:StuddedElkLeatherCowl"
+        },
+        {
+          "Priority": 860000,
+          "Id": "MelvorBase:FortifiedString"
+        },
+        {
+          "Priority": 870000,
+          "Id": "MelvorBase:FortifiedSnare"
+        },
+        {
+          "Priority": 880000,
+          "Id": "MelvorBase:StuddedElkLeatherShield"
+        },
+        {
+          "Priority": 890000,
+          "Id": "MelvorBase:ReinforcedSpiritBox"
+        },
+        {
+          "Priority": 900000,
+          "Id": "MelvorBase:FortifiedSmallBirdCatcher"
+        },
+        {
+          "Priority": 910000,
+          "Id": "MelvorBase:StuddedElkLeatherChaps"
+        },
+        {
+          "Priority": 920000,
+          "Id": "MelvorBase:BlackDragonhideLeather"
+        },
+        {
+          "Priority": 930000,
+          "Id": "MelvorBase:FortifiedNet"
+        },
+        {
+          "Priority": 940000,
+          "Id": "MelvorBase:StuddedElkLeatherBody"
+        },
+        {
+          "Priority": 950000,
+          "Id": "MelvorBase:CaribouLeatherVambraces"
+        },
+        {
+          "Priority": 960000,
+          "Id": "MelvorBase:FortifiedButterflyKit"
+        },
+        {
+          "Priority": 970000,
+          "Id": "MelvorBase:CaribouLeather"
+        },
+        {
+          "Priority": 980000,
+          "Id": "MelvorBase:FortifiedLargeBirdNet"
+        },
+        {
+          "Priority": 990000,
+          "Id": "MelvorBase:CaribouLeatherBoots"
+        },
+        {
+          "Priority": 1000000,
+          "Id": "MelvorBase:FortifiedPitfallTrap"
+        },
+        {
+          "Priority": 1010000,
+          "Id": "MelvorBase:CaribouLeatherCowl"
+        },
+        {
+          "Priority": 1020000,
+          "Id": "MelvorBase:SilverDiamondRing"
+        },
+        {
+          "Priority": 1030000,
+          "Id": "MelvorBase:SilverDiamondAmulet"
+        },
+        {
+          "Priority": 1040000,
+          "Id": "MelvorBase:Diamond"
+        },
+        {
+          "Priority": 1050000,
+          "Id": "MelvorBase:FortifiedSpiritBox"
+        },
+        {
+          "Priority": 1060000,
+          "Id": "MelvorBase:ToragLeather"
+        },
+        {
+          "Priority": 1070000,
+          "Id": "MelvorBase:BasicToragTrap"
+        },
+        {
+          "Priority": 1080000,
+          "Id": "MelvorBase:CaribouLeatherShield"
+        },
+        {
+          "Priority": 1090000,
+          "Id": "MelvorBase:GoldDiamondRing"
+        },
+        {
+          "Priority": 1100000,
+          "Id": "MelvorBase:GoldDiamondAmulet"
+        },
+        {
+          "Priority": 1110000,
+          "Id": "MelvorBase:StormDragonhideLeather"
+        },
+        {
+          "Priority": 1120000,
+          "Id": "MelvorBase:SandWurmLeather"
+        },
+        {
+          "Priority": 1130000,
+          "Id": "MelvorBase:StormLynxLeather"
+        },
+        {
+          "Priority": 1140000,
+          "Id": "MelvorBase:CaribouLeatherChaps"
+        },
+        {
+          "Priority": 1150000,
+          "Id": "MelvorBase:ReinforcedToragTrap"
+        },
+        {
+          "Priority": 1160000,
+          "Id": "MelvorBase:CaribouLeatherBody"
+        },
+        {
+          "Priority": 1170000,
+          "Id": "MelvorBase:SilverJadestoneRing"
+        },
+        {
+          "Priority": 1180000,
+          "Id": "MelvorBase:SilverJadestoneAmulet"
+        },
+        {
+          "Priority": 1190000,
+          "Id": "MelvorBase:Jadestone"
+        },
+        {
+          "Priority": 1200000,
+          "Id": "MelvorBase:FortifiedToragTrap"
+        },
+        {
+          "Priority": 1210000,
+          "Id": "MelvorBase:GoldJadestoneRing"
+        },
+        {
+          "Priority": 1220000,
+          "Id": "MelvorBase:GoldJadestoneAmulet"
+        },
+        {
+          "Id": "MelvorBase:AstralSilverTopazRing",
+          "Priority": 1230000
+        },
+        {
+          "Id": "MelvorBase:AstralSilverSapphireRing",
+          "Priority": 1240000
+        },
+        {
+          "Id": "MelvorBase:AstralSilverRubyRing",
+          "Priority": 1250000
+        },
+        {
+          "Id": "MelvorBase:AstralSilverEmeraldRing",
+          "Priority": 1260000
+        },
+        {
+          "Id": "MelvorBase:AstralSilverDiamondRing",
+          "Priority": 1270000
+        },
+        {
+          "Id": "MelvorBase:AstralSilverJadestoneRing",
+          "Priority": 1280000
+        },
+        {
+          "Id": "MelvorBase:AstralGoldTopazRing",
+          "Priority": 1290000
+        },
+        {
+          "Id": "MelvorBase:AstralGoldSapphireRing",
+          "Priority": 1300000
+        },
+        {
+          "Id": "MelvorBase:AstralGoldRubyRing",
+          "Priority": 1310000
+        },
+        {
+          "Id": "MelvorBase:AstralGoldEmeraldRing",
+          "Priority": 1320000
+        },
+        {
+          "Id": "MelvorBase:AstralGoldDiamondRing",
+          "Priority": 1330000
+        },
+        {
+          "Id": "MelvorBase:AstralGoldJadestoneRing",
+          "Priority": 1340000
+        },
+        {
+          "Id": "MelvorBase:AstralSilverTopazAmulet",
+          "Priority": 1350000
+        },
+        {
+          "Id": "MelvorBase:AstralSilverSapphireAmulet",
+          "Priority": 1360000
+        },
+        {
+          "Id": "MelvorBase:AstralSilverRubyAmulet",
+          "Priority": 1370000
+        },
+        {
+          "Id": "MelvorBase:AstralSilverEmeraldAmulet",
+          "Priority": 1380000
+        },
+        {
+          "Id": "MelvorBase:AstralSilverDiamondAmulet",
+          "Priority": 1390000
+        },
+        {
+          "Id": "MelvorBase:AstralSilverJadestoneAmulet",
+          "Priority": 1400000
+        },
+        {
+          "Id": "MelvorBase:AstralGoldTopazAmulet",
+          "Priority": 1410000
+        },
+        {
+          "Id": "MelvorBase:AstralGoldSapphireAmulet",
+          "Priority": 1420000
+        },
+        {
+          "Id": "MelvorBase:AstralGoldRubyAmulet",
+          "Priority": 1430000
+        },
+        {
+          "Id": "MelvorBase:AstralGoldEmeraldAmulet",
+          "Priority": 1440000
+        },
+        {
+          "Id": "MelvorBase:AstralGoldDiamondAmulet",
+          "Priority": 1450000
+        },
+        {
+          "Id": "MelvorBase:AstralGoldJadestoneAmulet",
+          "Priority": 1460000
+        },
+        {
+          "Priority": 705000,
+          "Id": "MelvorBase:IronsteelPitfallTrap"
+        },
+        {
+          "Priority": 1480000,
+          "Id": "MelvorBase:DragonruneSnare"
+        },
+        {
+          "Priority": 435000,
+          "Id": "MelvorBase:NightreedBraid"
+        },
+        {
+          "Priority": 1025000,
+          "Id": "MelvorBase:SilverBlackOpalRing"
+        },
+        {
+          "Priority": 1035000,
+          "Id": "MelvorBase:SilverBlackOpalAmulet"
+        },
+        {
+          "Priority": 1095000,
+          "Id": "MelvorBase:GoldBlackOpalRing"
+        },
+        {
+          "Priority": 1105000,
+          "Id": "MelvorBase:GoldBlackOpalAmulet"
+        },
+        {
+          "Priority": 895000,
+          "Id": "MelvorBase:BlackSpiritBox"
+        },
+        {
+          "Priority": 1110000,
+          "Id": "MelvorBase:ClimbingGloves"
+        },
+        {
+          "Priority": 1110000,
+          "Id": "MelvorBase:ClimbingBoots"
+        },
+        {
+          "Priority": 1110000,
+          "Id": "MelvorBase:ClimbingRope"
+        },
+        {
+          "Priority": 1110000,
+          "Id": "MelvorBase:ClimbingHarness"
+        },
+        {
+          "Priority": 1110000,
+          "Id": "MelvorBase:SulfurProtectionGloves"
+        },
+        {
+          "Priority": 1110000,
+          "Id": "MelvorBase:CanyonSupport"
+        }
+      ],
+      "definitionCount": 161,
+      "status": "planned",
+      "demoLocked": false
+    },
+    {
+      "id": "farming",
+      "gameId": "MelvorBase:Farming",
+      "name": "Farming",
+      "requirements": [
+        {
+          "Type": "MelvorBase:ItemStatistic",
+          "Data": {
+            "IsOr": false,
+            "Value": 1,
+            "Statistic": "MelvorBase:WoodcuttingItemGained",
+            "Item": "MelvorBase:BirdNest"
+          }
+        },
+        {
+          "Type": "MelvorBase:ItemStatistic",
+          "Data": {
+            "IsOr": false,
+            "Value": 3,
+            "Statistic": "MelvorBase:BankItemFound",
+            "Item": "MelvorBase:PotatoSeed"
+          }
+        }
+      ],
+      "recipeIds": [
+        {
+          "Priority": 0,
+          "Id": "MelvorBase:Potato"
+        },
+        {
+          "Priority": 10000,
+          "Id": "MelvorBase:Onion"
+        },
+        {
+          "Priority": 20000,
+          "Id": "MelvorBase:PenrilHerb"
+        },
+        {
+          "Priority": 30000,
+          "Id": "MelvorBase:Compost"
+        },
+        {
+          "Priority": 40000,
+          "Id": "MelvorBase:Wheat"
+        },
+        {
+          "Priority": 50000,
+          "Id": "MelvorBase:Lettuce"
+        },
+        {
+          "Priority": 60000,
+          "Id": "MelvorBase:SourweedHerb"
+        },
+        {
+          "Priority": 70000,
+          "Id": "MelvorBase:OakTree"
+        },
+        {
+          "Priority": 80000,
+          "Id": "MelvorBase:Sugarcane"
+        },
+        {
+          "Priority": 90000,
+          "Id": "MelvorBase:Strawberry"
+        },
+        {
+          "Priority": 100000,
+          "Id": "MelvorBase:MantalymeHerb"
+        },
+        {
+          "Priority": 110000,
+          "Id": "MelvorBase:WillowTree"
+        },
+        {
+          "Priority": 120000,
+          "Id": "MelvorBase:Sunflower"
+        },
+        {
+          "Priority": 130000,
+          "Id": "MelvorBase:Garlic"
+        },
+        {
+          "Priority": 140000,
+          "Id": "MelvorBase:NomelHerb"
+        },
+        {
+          "Priority": 150000,
+          "Id": "MelvorBase:BananaTree"
+        },
+        {
+          "Priority": 160000,
+          "Id": "MelvorBase:Corn"
+        },
+        {
+          "Priority": 170000,
+          "Id": "MelvorBase:SuperCompost"
+        },
+        {
+          "Priority": 180000,
+          "Id": "MelvorBase:TeakTree"
+        },
+        {
+          "Priority": 190000,
+          "Id": "MelvorBase:Marigold"
+        },
+        {
+          "Priority": 200000,
+          "Id": "MelvorBase:Nightreed"
+        },
+        {
+          "Priority": 210000,
+          "Id": "MelvorBase:Watermelon"
+        },
+        {
+          "Priority": 220000,
+          "Id": "MelvorBase:OxilymeHerb"
+        },
+        {
+          "Priority": 230000,
+          "Id": "MelvorBase:AppleTree"
+        },
+        {
+          "Priority": 240000,
+          "Id": "MelvorBase:SnapeGrass"
+        },
+        {
+          "Priority": 250000,
+          "Id": "MelvorBase:MahoganyTree"
+        },
+        {
+          "Priority": 260000,
+          "Id": "MelvorBase:Nasturtium"
+        },
+        {
+          "Priority": 270000,
+          "Id": "MelvorBase:YewTree"
+        },
+        {
+          "Priority": 280000,
+          "Id": "MelvorBase:CherryTree"
+        },
+        {
+          "Priority": 290000,
+          "Id": "MelvorBase:Tomato"
+        },
+        {
+          "Priority": 300000,
+          "Id": "MelvorBase:SporlyleHerb"
+        },
+        {
+          "Priority": 310000,
+          "Id": "MelvorBase:Rosemary"
+        },
+        {
+          "Priority": 320000,
+          "Id": "MelvorBase:Carrot"
+        },
+        {
+          "Priority": 330000,
+          "Id": "MelvorBase:Coalmpost"
+        },
+        {
+          "Priority": 340000,
+          "Id": "MelvorBase:PeachTree"
+        },
+        {
+          "Priority": 350000,
+          "Id": "MelvorBase:Pumpkin"
+        },
+        {
+          "Priority": 360000,
+          "Id": "MelvorBase:LarxHerb"
+        },
+        {
+          "Priority": 370000,
+          "Id": "MelvorBase:MagicTree"
+        },
+        {
+          "Priority": 380000,
+          "Id": "MelvorBase:WhiteLily"
+        },
+        {
+          "Priority": 390000,
+          "Id": "MelvorBase:Cabbage"
+        },
+        {
+          "Priority": 400000,
+          "Id": "MelvorBase:HardOakTree"
+        },
+        {
+          "Priority": 410000,
+          "Id": "MelvorBase:OrangeTree"
+        },
+        {
+          "Priority": 420000,
+          "Id": "MelvorBase:UltraCompost"
+        },
+        {
+          "Priority": 430000,
+          "Id": "MelvorBase:AshenTree"
+        },
+        {
+          "Priority": 440000,
+          "Id": "MelvorBase:Chamomile"
+        },
+        {
+          "Priority": 450000,
+          "Id": "MelvorBase:Cauliflower"
+        },
+        {
+          "Priority": 460000,
+          "Id": "MelvorBase:BarrentoeHerb"
+        },
+        {
+          "Priority": 470000,
+          "Id": "MelvorBase:RedwoodTree"
+        },
+        {
+          "Priority": 480000,
+          "Id": "MelvorBase:MangoTree"
+        }
+      ],
+      "definitionCount": 49,
+      "status": "planned",
+      "demoLocked": false
+    },
+    {
+      "id": "firemaking",
+      "gameId": "MelvorBase:Firemaking",
+      "name": "Firemaking",
+      "requirements": [
+        {
+          "Type": "MelvorBase:ItemStatistic",
+          "Data": {
+            "IsOr": false,
+            "Value": 50,
+            "Statistic": "MelvorBase:WoodcuttingItemGained",
+            "Item": "MelvorBase:NormalLog"
+          }
+        }
+      ],
+      "recipeIds": [
+        {
+          "Priority": 0,
+          "Id": "MelvorBase:NormalLog"
+        },
+        {
+          "Priority": 100000,
+          "Id": "MelvorBase:OakLog"
+        },
+        {
+          "Priority": 200000,
+          "Id": "MelvorBase:WillowLog"
+        },
+        {
+          "Priority": 300000,
+          "Id": "MelvorBase:TeakLog"
+        },
+        {
+          "Priority": 400000,
+          "Id": "MelvorBase:MapleLog"
+        },
+        {
+          "Priority": 500000,
+          "Id": "MelvorBase:MahoganyLog"
+        },
+        {
+          "Priority": 600000,
+          "Id": "MelvorBase:YewLog"
+        },
+        {
+          "Priority": 700000,
+          "Id": "MelvorBase:MagicLog"
+        },
+        {
+          "Priority": 800000,
+          "Id": "MelvorBase:HardOakLog"
+        },
+        {
+          "Priority": 900000,
+          "Id": "MelvorBase:RedwoodLog"
+        },
+        {
+          "Priority": 1000000,
+          "Id": "MelvorBase:BlessedLog"
+        },
+        {
+          "Priority": 1100000,
+          "Id": "MelvorBase:BlessedOakLog"
+        },
+        {
+          "Priority": 1200000,
+          "Id": "MelvorBase:BlessedWillowLog"
+        },
+        {
+          "Priority": 750000,
+          "Id": "MelvorBase:AshenLog"
+        },
+        {
+          "Priority": 1300000,
+          "Id": "MelvorBase:SteelLanternLit"
+        },
+        {
+          "Priority": 1400000,
+          "Id": "MelvorBase:MithrilLanternLit"
+        },
+        {
+          "Priority": 1500000,
+          "Id": "MelvorBase:AdamantLanternLit"
+        },
+        {
+          "Priority": 1600000,
+          "Id": "MelvorBase:RuneLanternLit"
+        },
+        {
+          "Priority": 1700000,
+          "Id": "MelvorBase:DawnsteelLanternLit"
+        },
+        {
+          "Priority": 1800000,
+          "Id": "MelvorBase:DragonLanternLit"
+        },
+        {
+          "Priority": 1900000,
+          "Id": "MelvorBase:DragonruneLanternLit"
+        },
+        {
+          "Priority": 2000000,
+          "Id": "MelvorBase:TreantRemains"
+        },
+        {
+          "Priority": 2100000,
+          "Id": "MelvorBase:Brazier1"
+        },
+        {
+          "Priority": 2200000,
+          "Id": "MelvorBase:Brazier2"
+        },
+        {
+          "Priority": 2300000,
+          "Id": "MelvorBase:Brazier3"
+        }
+      ],
+      "definitionCount": 25,
+      "status": "planned",
+      "demoLocked": false
+    },
+    {
+      "id": "fishing",
+      "gameId": "MelvorBase:Fishing",
+      "name": "Fishing",
+      "requirements": [
+        {
+          "Type": "MelvorBase:Level",
+          "Data": {
+            "Component": {
+              "Entity": "MelvorBase:Woodcutting",
+              "Component": "Experience"
+            },
+            "IsOr": false,
+            "Level": 2
+          }
+        }
+      ],
+      "recipeIds": [
+        {
+          "Priority": 0,
+          "Id": "MelvorBase:ShallowPools"
+        },
+        {
+          "Priority": 100000,
+          "Id": "MelvorBase:CalmShallows"
+        },
+        {
+          "Priority": 200000,
+          "Id": "MelvorBase:RockyShores"
+        },
+        {
+          "Priority": 300000,
+          "Id": "MelvorBase:QuietBend"
+        },
+        {
+          "Priority": 400000,
+          "Id": "MelvorBase:PebbleBank"
+        },
+        {
+          "Priority": 500000,
+          "Id": "MelvorBase:RapidRuns"
+        },
+        {
+          "Priority": 600000,
+          "Id": "MelvorBase:DockWaters"
+        },
+        {
+          "Priority": 700000,
+          "Id": "MelvorBase:PierWalk"
+        },
+        {
+          "Priority": 800000,
+          "Id": "MelvorBase:SeaEdge"
+        },
+        {
+          "Priority": 900000,
+          "Id": "MelvorBase:WindsweptShores"
+        },
+        {
+          "Priority": 1000000,
+          "Id": "MelvorBase:WindyBay"
+        },
+        {
+          "Priority": 1100000,
+          "Id": "MelvorBase:GustyCliffside"
+        },
+        {
+          "Priority": 1200000,
+          "Id": "MelvorBase:ShimmeringDepths"
+        },
+        {
+          "Priority": 1300000,
+          "Id": "MelvorBase:GlowingRift"
+        },
+        {
+          "Priority": 1400000,
+          "Id": "MelvorBase:LuminousAbyss"
+        },
+        {
+          "Priority": 1500000,
+          "Id": "MelvorBase:VibrantShallows"
+        },
+        {
+          "Priority": 1600000,
+          "Id": "MelvorBase:SharkCove"
+        },
+        {
+          "Priority": 1700000,
+          "Id": "MelvorBase:BountifulCorals"
+        },
+        {
+          "Priority": 1800000,
+          "Id": "MelvorBase:TunaRun"
+        },
+        {
+          "Priority": 1900000,
+          "Id": "MelvorBase:SunlitStretch"
+        },
+        {
+          "Priority": 2000000,
+          "Id": "MelvorBase:DeepBlue"
+        },
+        {
+          "Priority": 2100000,
+          "Id": "MelvorBase:MoonlitStream"
+        },
+        {
+          "Priority": 2200000,
+          "Id": "MelvorBase:MidnightCove"
+        }
+      ],
+      "definitionCount": 23,
+      "status": "ready",
+      "demoLocked": false
+    },
+    {
+      "id": "fletching",
+      "gameId": "MelvorBase:Fletching",
+      "name": "Fletching",
+      "requirements": [
+        {
+          "Type": "MelvorBase:EnemyStatistic",
+          "Data": {
+            "IsOr": false,
+            "Value": 1,
+            "Statistic": "MelvorBase:CombatEnemyKilled",
+            "Enemy": "MelvorBase:Golbin"
+          }
+        }
+      ],
+      "recipeIds": [
+        {
+          "Priority": 0,
+          "Id": "MelvorBase:ArrowShaft"
+        },
+        {
+          "Priority": 10000,
+          "Id": "MelvorBase:HeadlessArrows"
+        },
+        {
+          "Priority": 20000,
+          "Id": "MelvorBase:NormalBow"
+        },
+        {
+          "Priority": 30000,
+          "Id": "MelvorBase:StoneArrows"
+        },
+        {
+          "Priority": 40000,
+          "Id": "MelvorBase:CopperJavelin"
+        },
+        {
+          "Priority": 50000,
+          "Id": "MelvorBase:CopperArrows"
+        },
+        {
+          "Priority": 60000,
+          "Id": "MelvorBase:IronJavelin"
+        },
+        {
+          "Priority": 70000,
+          "Id": "MelvorBase:IronArrows"
+        },
+        {
+          "Priority": 80000,
+          "Id": "MelvorBase:IronCrossbow"
+        },
+        {
+          "Priority": 90000,
+          "Id": "MelvorBase:TopazBolts"
+        },
+        {
+          "Priority": 100000,
+          "Id": "MelvorBase:OakBow"
+        },
+        {
+          "Priority": 110000,
+          "Id": "MelvorBase:OakBoomerang"
+        },
+        {
+          "Priority": 120000,
+          "Id": "MelvorBase:Iron2HCrossbow"
+        },
+        {
+          "Priority": 130000,
+          "Id": "MelvorBase:SteelArrows"
+        },
+        {
+          "Priority": 140000,
+          "Id": "MelvorBase:SapphireBolts"
+        },
+        {
+          "Priority": 150000,
+          "Id": "MelvorBase:SteelJavelin"
+        },
+        {
+          "Priority": 160000,
+          "Id": "MelvorBase:SteelCrossbow"
+        },
+        {
+          "Priority": 170000,
+          "Id": "MelvorBase:WillowBow"
+        },
+        {
+          "Priority": 180000,
+          "Id": "MelvorBase:WillowBoomerang"
+        },
+        {
+          "Priority": 190000,
+          "Id": "MelvorBase:SteelSpear"
+        },
+        {
+          "Priority": 200000,
+          "Id": "MelvorBase:Steel2HCrossbow"
+        },
+        {
+          "Priority": 210000,
+          "Id": "MelvorBase:MithrilArrows"
+        },
+        {
+          "Priority": 220000,
+          "Id": "MelvorBase:MithrilJavelin"
+        },
+        {
+          "Priority": 230000,
+          "Id": "MelvorBase:MithrilCrossbow"
+        },
+        {
+          "Priority": 240000,
+          "Id": "MelvorBase:MithrilSpear"
+        },
+        {
+          "Priority": 250000,
+          "Id": "MelvorBase:Mithril2HCrossbow"
+        },
+        {
+          "Priority": 260000,
+          "Id": "MelvorBase:AdamantArrows"
+        },
+        {
+          "Priority": 270000,
+          "Id": "MelvorBase:RubyBolts"
+        },
+        {
+          "Priority": 280000,
+          "Id": "MelvorBase:AdamantJavelin"
+        },
+        {
+          "Priority": 290000,
+          "Id": "MelvorBase:AdamantCrossbow"
+        },
+        {
+          "Priority": 300000,
+          "Id": "MelvorBase:MapleBow"
+        },
+        {
+          "Priority": 310000,
+          "Id": "MelvorBase:MapleBoomerang"
+        },
+        {
+          "Priority": 320000,
+          "Id": "MelvorBase:AdamantSpear"
+        },
+        {
+          "Priority": 330000,
+          "Id": "MelvorBase:Adamant2HCrossbow"
+        },
+        {
+          "Priority": 340000,
+          "Id": "MelvorBase:RuneArrows"
+        },
+        {
+          "Priority": 350000,
+          "Id": "MelvorBase:RuneJavelin"
+        },
+        {
+          "Priority": 360000,
+          "Id": "MelvorBase:RuneCrossbow"
+        },
+        {
+          "Priority": 370000,
+          "Id": "MelvorBase:RuneSpear"
+        },
+        {
+          "Priority": 380000,
+          "Id": "MelvorBase:YewBow"
+        },
+        {
+          "Priority": 390000,
+          "Id": "MelvorBase:YewBoomerang"
+        },
+        {
+          "Priority": 400000,
+          "Id": "MelvorBase:DawnsteelArrows"
+        },
+        {
+          "Priority": 410000,
+          "Id": "MelvorBase:EmeraldBolts"
+        },
+        {
+          "Priority": 420000,
+          "Id": "MelvorBase:Rune2HCrossbow"
+        },
+        {
+          "Priority": 430000,
+          "Id": "MelvorBase:DawnsteelJavelin"
+        },
+        {
+          "Priority": 440000,
+          "Id": "MelvorBase:DawnsteelCrossbow"
+        },
+        {
+          "Priority": 450000,
+          "Id": "MelvorBase:DawnsteelSpear"
+        },
+        {
+          "Priority": 460000,
+          "Id": "MelvorBase:MagicBow"
+        },
+        {
+          "Priority": 470000,
+          "Id": "MelvorBase:MagicBoomerang"
+        },
+        {
+          "Priority": 480000,
+          "Id": "MelvorBase:DragonArrows"
+        },
+        {
+          "Priority": 490000,
+          "Id": "MelvorBase:DiamondBolts"
+        },
+        {
+          "Priority": 500000,
+          "Id": "MelvorBase:DragonJavelin"
+        },
+        {
+          "Priority": 505000,
+          "Id": "MelvorBase:RefinedMeteoriteJavelin"
+        },
+        {
+          "Priority": 510000,
+          "Id": "MelvorBase:Dawnsteel2HCrossbow"
+        },
+        {
+          "Priority": 520000,
+          "Id": "MelvorBase:HardOakBow"
+        },
+        {
+          "Priority": 530000,
+          "Id": "MelvorBase:HardOakBoomerang"
+        },
+        {
+          "Priority": 540000,
+          "Id": "MelvorBase:DragonCrossbow"
+        },
+        {
+          "Priority": 550000,
+          "Id": "MelvorBase:DragonSpear"
+        },
+        {
+          "Priority": 560000,
+          "Id": "MelvorBase:Dragon2HCrossbow"
+        },
+        {
+          "Priority": 570000,
+          "Id": "MelvorBase:RedwoodBow"
+        },
+        {
+          "Priority": 575000,
+          "Id": "MelvorBase:RefinedMeteoriteBow"
+        },
+        {
+          "Priority": 580000,
+          "Id": "MelvorBase:RedwoodBoomerang"
+        },
+        {
+          "Priority": 590000,
+          "Id": "MelvorBase:JadestoneBolts"
+        },
+        {
+          "Priority": 465000,
+          "Id": "MelvorBase:MeteoriteBow"
+        },
+        {
+          "Priority": 460000,
+          "Id": "MelvorBase:MeteoriteJavelin"
+        },
+        {
+          "Priority": 495000,
+          "Id": "MelvorBase:BlackOpalBolts"
+        },
+        {
+          "Priority": 600000,
+          "Id": "MelvorBase:SeaGriffinArrows"
+        }
+      ],
+      "definitionCount": 66,
+      "status": "planned",
+      "demoLocked": false
+    },
+    {
+      "id": "herblore",
+      "gameId": "MelvorBase:Herblore",
+      "name": "Herblore",
+      "requirements": [
+        {
+          "Type": "MelvorBase:DemoLocked",
+          "Data": {
+            "Component": {
+              "Entity": "MelvorBase:CompletionLog",
+              "Component": "Completion"
+            },
+            "IsOr": false
+          }
+        }
+      ],
+      "recipeIds": [
+        {
+          "Priority": 0,
+          "Id": "MelvorBase:WoodcuttingPotionP1A"
+        },
+        {
+          "Priority": 10000,
+          "Id": "MelvorBase:WoodcuttingPotionP2A"
+        },
+        {
+          "Priority": 20000,
+          "Id": "MelvorBase:WoodcuttingPotionP2B"
+        },
+        {
+          "Priority": 30000,
+          "Id": "MelvorBase:FishingPotionP1A"
+        },
+        {
+          "Priority": 40000,
+          "Id": "MelvorBase:FishingPotionP2A"
+        },
+        {
+          "Priority": 50000,
+          "Id": "MelvorBase:FishingPotionP2B"
+        },
+        {
+          "Priority": 60000,
+          "Id": "MelvorBase:MiningPotionP1A"
+        },
+        {
+          "Priority": 70000,
+          "Id": "MelvorBase:MiningPotionP2A"
+        },
+        {
+          "Priority": 80000,
+          "Id": "MelvorBase:MiningPotionP2B"
+        },
+        {
+          "Priority": 90000,
+          "Id": "MelvorBase:FiremakingPotionP1A"
+        },
+        {
+          "Priority": 100000,
+          "Id": "MelvorBase:FiremakingPotionP2A"
+        },
+        {
+          "Priority": 110000,
+          "Id": "MelvorBase:FiremakingPotionP2B"
+        },
+        {
+          "Priority": 120000,
+          "Id": "MelvorBase:CookingPotionP1A"
+        },
+        {
+          "Priority": 130000,
+          "Id": "MelvorBase:CookingPotionP2A"
+        },
+        {
+          "Priority": 140000,
+          "Id": "MelvorBase:CookingPotionP2B"
+        },
+        {
+          "Priority": 150000,
+          "Id": "MelvorBase:SmithingPotionP1A"
+        },
+        {
+          "Priority": 160000,
+          "Id": "MelvorBase:SmithingPotionP2A"
+        },
+        {
+          "Priority": 170000,
+          "Id": "MelvorBase:SmithingPotionP2B"
+        },
+        {
+          "Priority": 180000,
+          "Id": "MelvorBase:CraftingPotionP1A"
+        },
+        {
+          "Priority": 190000,
+          "Id": "MelvorBase:CraftingPotionP2A"
+        },
+        {
+          "Priority": 200000,
+          "Id": "MelvorBase:CraftingPotionP2B"
+        },
+        {
+          "Priority": 210000,
+          "Id": "MelvorBase:FletchingPotionP1A"
+        },
+        {
+          "Priority": 220000,
+          "Id": "MelvorBase:FletchingPotionP2A"
+        },
+        {
+          "Priority": 230000,
+          "Id": "MelvorBase:FletchingPotionP2B"
+        },
+        {
+          "Priority": 240000,
+          "Id": "MelvorBase:RunecraftingPotionP1A"
+        },
+        {
+          "Priority": 250000,
+          "Id": "MelvorBase:RunecraftingPotionP2A"
+        },
+        {
+          "Priority": 260000,
+          "Id": "MelvorBase:RunecraftingPotionP2B"
+        },
+        {
+          "Priority": 270000,
+          "Id": "MelvorBase:HuntingPotionP1A"
+        },
+        {
+          "Priority": 280000,
+          "Id": "MelvorBase:HuntingPotionP2A"
+        },
+        {
+          "Priority": 290000,
+          "Id": "MelvorBase:HuntingPotionP2B"
+        },
+        {
+          "Priority": 300000,
+          "Id": "MelvorBase:FarmingPotionP1A"
+        },
+        {
+          "Priority": 310000,
+          "Id": "MelvorBase:FarmingPotionP2A"
+        },
+        {
+          "Priority": 320000,
+          "Id": "MelvorBase:FarmingPotionP2B"
+        },
+        {
+          "Priority": 330000,
+          "Id": "MelvorBase:RanchingPotionP1A"
+        },
+        {
+          "Priority": 340000,
+          "Id": "MelvorBase:RanchingPotionP2A"
+        },
+        {
+          "Priority": 350000,
+          "Id": "MelvorBase:RanchingPotionP2B"
+        },
+        {
+          "Priority": 360000,
+          "Id": "MelvorBase:HerblorePotionP1A"
+        },
+        {
+          "Priority": 370000,
+          "Id": "MelvorBase:HerblorePotionP2A"
+        },
+        {
+          "Priority": 380000,
+          "Id": "MelvorBase:HerblorePotionP2B"
+        },
+        {
+          "Priority": 385000,
+          "Id": "MelvorBase:AstrologyPotionP1A"
+        },
+        {
+          "Priority": 385500,
+          "Id": "MelvorBase:AstrologyPotionP2A"
+        },
+        {
+          "Priority": 386000,
+          "Id": "MelvorBase:AstrologyPotionP2B"
+        },
+        {
+          "Priority": 390000,
+          "Id": "MelvorBase:BeastcraftingPotionP1A"
+        },
+        {
+          "Priority": 400000,
+          "Id": "MelvorBase:BeastcraftingPotionP2A"
+        },
+        {
+          "Priority": 410000,
+          "Id": "MelvorBase:BeastcraftingPotionP2B"
+        },
+        {
+          "Priority": 420000,
+          "Id": "MelvorBase:AgilityPotionP1A"
+        },
+        {
+          "Priority": 430000,
+          "Id": "MelvorBase:AgilityPotionP2A"
+        },
+        {
+          "Priority": 440000,
+          "Id": "MelvorBase:AgilityPotionP2B"
+        },
+        {
+          "Priority": 450000,
+          "Id": "MelvorBase:ThievingPotionP1A"
+        },
+        {
+          "Priority": 460000,
+          "Id": "MelvorBase:ThievingPotionP2A"
+        },
+        {
+          "Priority": 470000,
+          "Id": "MelvorBase:ThievingPotionP2B"
+        },
+        {
+          "Priority": 480000,
+          "Id": "MelvorBase:SuperWoodcuttingPotionP1A"
+        },
+        {
+          "Priority": 490000,
+          "Id": "MelvorBase:SuperWoodcuttingPotionP2A"
+        },
+        {
+          "Priority": 500000,
+          "Id": "MelvorBase:SuperWoodcuttingPotionP2B"
+        },
+        {
+          "Priority": 510000,
+          "Id": "MelvorBase:SuperFishingPotionP1A"
+        },
+        {
+          "Priority": 520000,
+          "Id": "MelvorBase:SuperFishingPotionP2A"
+        },
+        {
+          "Priority": 530000,
+          "Id": "MelvorBase:SuperFishingPotionP2B"
+        },
+        {
+          "Priority": 540000,
+          "Id": "MelvorBase:SuperMiningPotionP1A"
+        },
+        {
+          "Priority": 550000,
+          "Id": "MelvorBase:SuperMiningPotionP2A"
+        },
+        {
+          "Priority": 560000,
+          "Id": "MelvorBase:SuperMiningPotionP2B"
+        },
+        {
+          "Priority": 570000,
+          "Id": "MelvorBase:SuperFiremakingPotionP1A"
+        },
+        {
+          "Priority": 580000,
+          "Id": "MelvorBase:SuperFiremakingPotionP2A"
+        },
+        {
+          "Priority": 590000,
+          "Id": "MelvorBase:SuperFiremakingPotionP2B"
+        },
+        {
+          "Priority": 600000,
+          "Id": "MelvorBase:SuperCookingPotionP1A"
+        },
+        {
+          "Priority": 610000,
+          "Id": "MelvorBase:SuperCookingPotionP2A"
+        },
+        {
+          "Priority": 620000,
+          "Id": "MelvorBase:SuperCookingPotionP2B"
+        },
+        {
+          "Priority": 630000,
+          "Id": "MelvorBase:SuperSmithingPotionP1A"
+        },
+        {
+          "Priority": 640000,
+          "Id": "MelvorBase:SuperSmithingPotionP2A"
+        },
+        {
+          "Priority": 650000,
+          "Id": "MelvorBase:SuperSmithingPotionP2B"
+        },
+        {
+          "Priority": 660000,
+          "Id": "MelvorBase:SuperCraftingPotionP1A"
+        },
+        {
+          "Priority": 670000,
+          "Id": "MelvorBase:SuperCraftingPotionP2A"
+        },
+        {
+          "Priority": 680000,
+          "Id": "MelvorBase:SuperCraftingPotionP2B"
+        },
+        {
+          "Priority": 690000,
+          "Id": "MelvorBase:SuperFletchingPotionP1A"
+        },
+        {
+          "Priority": 700000,
+          "Id": "MelvorBase:SuperFletchingPotionP2A"
+        },
+        {
+          "Priority": 710000,
+          "Id": "MelvorBase:SuperFletchingPotionP2B"
+        },
+        {
+          "Priority": 720000,
+          "Id": "MelvorBase:SuperRunecraftingPotionP1A"
+        },
+        {
+          "Priority": 730000,
+          "Id": "MelvorBase:SuperRunecraftingPotionP2A"
+        },
+        {
+          "Priority": 740000,
+          "Id": "MelvorBase:SuperRunecraftingPotionP2B"
+        },
+        {
+          "Priority": 750000,
+          "Id": "MelvorBase:SuperHuntingPotionP1A"
+        },
+        {
+          "Priority": 760000,
+          "Id": "MelvorBase:SuperHuntingPotionP2A"
+        },
+        {
+          "Priority": 770000,
+          "Id": "MelvorBase:SuperHuntingPotionP2B"
+        },
+        {
+          "Priority": 780000,
+          "Id": "MelvorBase:SuperFarmingPotionP1A"
+        },
+        {
+          "Priority": 790000,
+          "Id": "MelvorBase:SuperFarmingPotionP2A"
+        },
+        {
+          "Priority": 800000,
+          "Id": "MelvorBase:SuperFarmingPotionP2B"
+        },
+        {
+          "Priority": 810000,
+          "Id": "MelvorBase:SuperRanchingPotionP1A"
+        },
+        {
+          "Priority": 820000,
+          "Id": "MelvorBase:SuperRanchingPotionP2A"
+        },
+        {
+          "Priority": 830000,
+          "Id": "MelvorBase:SuperRanchingPotionP2B"
+        },
+        {
+          "Priority": 840000,
+          "Id": "MelvorBase:SuperHerblorePotionP1A"
+        },
+        {
+          "Priority": 850000,
+          "Id": "MelvorBase:SuperHerblorePotionP2A"
+        },
+        {
+          "Priority": 860000,
+          "Id": "MelvorBase:SuperHerblorePotionP2B"
+        },
+        {
+          "Priority": 865000,
+          "Id": "MelvorBase:SuperAstrologyPotionP1A"
+        },
+        {
+          "Priority": 865500,
+          "Id": "MelvorBase:SuperAstrologyPotionP2A"
+        },
+        {
+          "Priority": 866000,
+          "Id": "MelvorBase:SuperAstrologyPotionP2B"
+        },
+        {
+          "Priority": 870000,
+          "Id": "MelvorBase:SuperBeastcraftingPotionP1A"
+        },
+        {
+          "Priority": 880000,
+          "Id": "MelvorBase:SuperBeastcraftingPotionP2A"
+        },
+        {
+          "Priority": 890000,
+          "Id": "MelvorBase:SuperBeastcraftingPotionP2B"
+        },
+        {
+          "Priority": 900000,
+          "Id": "MelvorBase:SuperAgilityPotionP1A"
+        },
+        {
+          "Priority": 910000,
+          "Id": "MelvorBase:SuperAgilityPotionP2A"
+        },
+        {
+          "Priority": 920000,
+          "Id": "MelvorBase:SuperAgilityPotionP2B"
+        },
+        {
+          "Priority": 930000,
+          "Id": "MelvorBase:SuperThievingPotionP1A"
+        },
+        {
+          "Priority": 940000,
+          "Id": "MelvorBase:SuperThievingPotionP2A"
+        },
+        {
+          "Priority": 950000,
+          "Id": "MelvorBase:SuperThievingPotionP2B"
+        },
+        {
+          "Priority": 960000,
+          "Id": "MelvorBase:MeleePotionP1A"
+        },
+        {
+          "Priority": 970000,
+          "Id": "MelvorBase:MeleePotionP2A"
+        },
+        {
+          "Priority": 980000,
+          "Id": "MelvorBase:MeleePotionP2B"
+        },
+        {
+          "Priority": 990000,
+          "Id": "MelvorBase:RangedPotionP1A"
+        },
+        {
+          "Priority": 1000000,
+          "Id": "MelvorBase:RangedPotionP2A"
+        },
+        {
+          "Priority": 1010000,
+          "Id": "MelvorBase:RangedPotionP2B"
+        },
+        {
+          "Priority": 1020000,
+          "Id": "MelvorBase:MagicPotionP1A"
+        },
+        {
+          "Priority": 1030000,
+          "Id": "MelvorBase:MagicPotionP2A"
+        },
+        {
+          "Priority": 1040000,
+          "Id": "MelvorBase:MagicPotionP2B"
+        },
+        {
+          "Priority": 1050000,
+          "Id": "MelvorBase:SlowPotionP1A"
+        },
+        {
+          "Priority": 1060000,
+          "Id": "MelvorBase:SlowPotionP2A"
+        },
+        {
+          "Priority": 1070000,
+          "Id": "MelvorBase:SlowPotionP2B"
+        },
+        {
+          "Priority": 1080000,
+          "Id": "MelvorBase:ResiliencePotionP1A"
+        },
+        {
+          "Priority": 1090000,
+          "Id": "MelvorBase:ResiliencePotionP2A"
+        },
+        {
+          "Priority": 1100000,
+          "Id": "MelvorBase:ResiliencePotionP2B"
+        },
+        {
+          "Priority": 1110000,
+          "Id": "MelvorBase:SlayerPotionP1A"
+        },
+        {
+          "Priority": 1120000,
+          "Id": "MelvorBase:SlayerPotionP2A"
+        },
+        {
+          "Priority": 1130000,
+          "Id": "MelvorBase:SlayerPotionP2B"
+        },
+        {
+          "Priority": 1140000,
+          "Id": "MelvorBase:PrayerPotionP1A"
+        },
+        {
+          "Priority": 1150000,
+          "Id": "MelvorBase:PrayerPotionP2A"
+        },
+        {
+          "Priority": 1160000,
+          "Id": "MelvorBase:PrayerPotionP2B"
+        },
+        {
+          "Priority": 1165000,
+          "Id": "MelvorBase:WardBreakerPotionP1A"
+        },
+        {
+          "Priority": 1165500,
+          "Id": "MelvorBase:WardBreakerPotionP2A"
+        },
+        {
+          "Priority": 1166000,
+          "Id": "MelvorBase:WardBreakerPotionP2B"
+        },
+        {
+          "Priority": 1170000,
+          "Id": "MelvorBase:SuperMeleePotionP1A"
+        },
+        {
+          "Priority": 1180000,
+          "Id": "MelvorBase:SuperMeleePotionP2A"
+        },
+        {
+          "Priority": 1190000,
+          "Id": "MelvorBase:SuperMeleePotionP2B"
+        },
+        {
+          "Priority": 1200000,
+          "Id": "MelvorBase:SuperRangedPotionP1A"
+        },
+        {
+          "Priority": 1210000,
+          "Id": "MelvorBase:SuperRangedPotionP2A"
+        },
+        {
+          "Priority": 1220000,
+          "Id": "MelvorBase:SuperRangedPotionP2B"
+        },
+        {
+          "Priority": 1230000,
+          "Id": "MelvorBase:SuperMagicPotionP1A"
+        },
+        {
+          "Priority": 1240000,
+          "Id": "MelvorBase:SuperMagicPotionP2A"
+        },
+        {
+          "Priority": 1250000,
+          "Id": "MelvorBase:SuperMagicPotionP2B"
+        },
+        {
+          "Priority": 1260000,
+          "Id": "MelvorBase:SuperSlowPotionP1A"
+        },
+        {
+          "Priority": 1270000,
+          "Id": "MelvorBase:SuperSlowPotionP2A"
+        },
+        {
+          "Priority": 1280000,
+          "Id": "MelvorBase:SuperSlowPotionP2B"
+        },
+        {
+          "Priority": 1290000,
+          "Id": "MelvorBase:SuperResiliencePotionP1A"
+        },
+        {
+          "Priority": 1300000,
+          "Id": "MelvorBase:SuperResiliencePotionP2A"
+        },
+        {
+          "Priority": 1310000,
+          "Id": "MelvorBase:SuperResiliencePotionP2B"
+        },
+        {
+          "Priority": 1320000,
+          "Id": "MelvorBase:SuperSlayerPotionP1A"
+        },
+        {
+          "Priority": 1330000,
+          "Id": "MelvorBase:SuperSlayerPotionP2A"
+        },
+        {
+          "Priority": 1340000,
+          "Id": "MelvorBase:SuperSlayerPotionP2B"
+        },
+        {
+          "Priority": 1350000,
+          "Id": "MelvorBase:SuperPrayerPotionP1A"
+        },
+        {
+          "Priority": 1360000,
+          "Id": "MelvorBase:SuperPrayerPotionP2A"
+        },
+        {
+          "Priority": 1370000,
+          "Id": "MelvorBase:SuperPrayerPotionP2B"
+        },
+        {
+          "Priority": 1380000,
+          "Id": "MelvorBase:IllnessCurePotionP1A"
+        },
+        {
+          "Priority": 1390000,
+          "Id": "MelvorBase:PoisonFishPotionP1A"
+        },
+        {
+          "Priority": 1430000,
+          "Id": "MelvorBase:SuperWardBreakerPotionP1A"
+        },
+        {
+          "Priority": 1440000,
+          "Id": "MelvorBase:SuperWardBreakerPotionP2A"
+        },
+        {
+          "Priority": 1450000,
+          "Id": "MelvorBase:SuperWardBreakerPotionP2B"
+        }
+      ],
+      "definitionCount": 152,
+      "status": "planned",
+      "demoLocked": true
+    },
+    {
+      "id": "hunting",
+      "gameId": "MelvorBase:Hunting",
+      "name": "Hunting",
+      "requirements": [
+        {
+          "Type": "MelvorBase:Level",
+          "Data": {
+            "IsOr": false,
+            "Component": {
+              "Entity": "MelvorBase:Crafting",
+              "Component": "Experience"
+            },
+            "Level": 3
+          }
+        },
+        {
+          "Type": "MelvorBase:ItemStatistic",
+          "Data": {
+            "IsOr": false,
+            "Value": 5,
+            "Statistic": "MelvorBase:CraftingItemGained",
+            "Item": "MelvorBase:BasicSnare"
+          }
+        }
+      ],
+      "recipeIds": [],
+      "definitionCount": 0,
+      "status": "planned",
+      "demoLocked": false
+    },
+    {
+      "id": "mining",
+      "gameId": "MelvorBase:Mining",
+      "name": "Mining",
+      "requirements": [
+        {
+          "Type": "MelvorBase:Level",
+          "Data": {
+            "IsOr": false,
+            "Component": {
+              "Entity": "MelvorBase:Woodcutting",
+              "Component": "Experience"
+            },
+            "Level": 2
+          }
+        }
+      ],
+      "recipeIds": [
+        {
+          "Priority": 0,
+          "Id": "MelvorBase:StoneDebris"
+        },
+        {
+          "Priority": 0,
+          "Id": "MelvorBase:Sulfur"
+        },
+        {
+          "Priority": 25000,
+          "Id": "MelvorBase:Stone"
+        },
+        {
+          "Priority": 50000,
+          "Id": "MelvorBase:Clay"
+        },
+        {
+          "Priority": 100000,
+          "Id": "MelvorBase:CopperOre"
+        },
+        {
+          "Priority": 200000,
+          "Id": "MelvorBase:RuneEssence"
+        },
+        {
+          "Priority": 300000,
+          "Id": "MelvorBase:IronOre"
+        },
+        {
+          "Priority": 400000,
+          "Id": "MelvorBase:Topaz"
+        },
+        {
+          "Priority": 500000,
+          "Id": "MelvorBase:SilverOre"
+        },
+        {
+          "Priority": 600000,
+          "Id": "MelvorBase:Coal"
+        },
+        {
+          "Priority": 650000,
+          "Id": "MelvorBase:FallenStar"
+        },
+        {
+          "Priority": 700000,
+          "Id": "MelvorBase:Sapphire"
+        },
+        {
+          "Priority": 800000,
+          "Id": "MelvorBase:MithrilOre"
+        },
+        {
+          "Priority": 900000,
+          "Id": "MelvorBase:GoldOre"
+        },
+        {
+          "Priority": 950000,
+          "Id": "MelvorBase:AttunedEssence"
+        },
+        {
+          "Priority": 1000000,
+          "Id": "MelvorBase:AdamantiteOre"
+        },
+        {
+          "Priority": 1100000,
+          "Id": "MelvorBase:Ruby"
+        },
+        {
+          "Priority": 1150000,
+          "Id": "MelvorBase:GoldenFallenStar"
+        },
+        {
+          "Priority": 1200000,
+          "Id": "MelvorBase:RuniteOre"
+        },
+        {
+          "Priority": 1300000,
+          "Id": "MelvorBase:Emerald"
+        },
+        {
+          "Priority": 1400000,
+          "Id": "MelvorBase:DawnsteelOre"
+        },
+        {
+          "Priority": 1450000,
+          "Id": "MelvorBase:MeteoriteOre"
+        },
+        {
+          "Priority": 1500000,
+          "Id": "MelvorBase:PureEssence"
+        },
+        {
+          "Priority": 1550000,
+          "Id": "MelvorBase:DenseCoal"
+        },
+        {
+          "Priority": 1600000,
+          "Id": "MelvorBase:DragoniteOre"
+        },
+        {
+          "Priority": 1700000,
+          "Id": "MelvorBase:Diamond"
+        },
+        {
+          "Priority": 1800000,
+          "Id": "MelvorBase:Jadestone"
+        }
+      ],
+      "definitionCount": 27,
+      "status": "ready",
+      "demoLocked": false
+    },
+    {
+      "id": "runecrafting",
+      "gameId": "MelvorBase:Runecrafting",
+      "name": "Runecrafting",
+      "requirements": [
+        {
+          "Type": "MelvorBase:Level",
+          "Data": {
+            "IsOr": false,
+            "Component": {
+              "Entity": "MelvorBase:Mining",
+              "Component": "Experience"
+            },
+            "Level": 8
+          }
+        },
+        {
+          "Type": "MelvorBase:Level",
+          "Data": {
+            "IsOr": false,
+            "Component": {
+              "Entity": "MelvorBase:Crafting",
+              "Component": "Experience"
+            },
+            "Level": 5
+          }
+        },
+        {
+          "Type": "MelvorBase:EnemyStatistic",
+          "Data": {
+            "IsOr": false,
+            "Value": 5,
+            "Statistic": "MelvorBase:CombatEnemyKilled",
+            "Enemy": "MelvorBase:MindGolbin"
+          }
+        }
+      ],
+      "recipeIds": [
+        {
+          "Id": "MelvorBase:DustRunePack",
+          "Priority": 0
+        },
+        {
+          "Id": "MelvorBase:SteamRunePack",
+          "Priority": 0
+        },
+        {
+          "Id": "MelvorBase:MudRunePack",
+          "Priority": 0
+        },
+        {
+          "Id": "MelvorBase:SmokeRunePack",
+          "Priority": 0
+        },
+        {
+          "Id": "MelvorBase:MistRunePack",
+          "Priority": 0
+        },
+        {
+          "Id": "MelvorBase:LavaRunePack",
+          "Priority": 0
+        },
+        {
+          "Id": "MelvorBase:ElementalRunePack",
+          "Priority": 0
+        },
+        {
+          "Priority": 0,
+          "Id": "MelvorBase:AirRune"
+        },
+        {
+          "Priority": 10000,
+          "Id": "MelvorBase:MindRune"
+        },
+        {
+          "Priority": 20000,
+          "Id": "MelvorBase:AirWand"
+        },
+        {
+          "Priority": 30000,
+          "Id": "MelvorBase:BasicWizardHat"
+        },
+        {
+          "Priority": 40000,
+          "Id": "MelvorBase:BasicWizardBoots"
+        },
+        {
+          "Priority": 50000,
+          "Id": "MelvorBase:WaterRune"
+        },
+        {
+          "Priority": 60000,
+          "Id": "MelvorBase:WaterWand"
+        },
+        {
+          "Priority": 70000,
+          "Id": "MelvorBase:BasicWizardBottoms"
+        },
+        {
+          "Priority": 80000,
+          "Id": "MelvorBase:BasicWizardRobes"
+        },
+        {
+          "Priority": 90000,
+          "Id": "MelvorBase:EarthRune"
+        },
+        {
+          "Priority": 100000,
+          "Id": "MelvorBase:EarthWand"
+        },
+        {
+          "Priority": 110000,
+          "Id": "MelvorBase:AdeptWizardHat"
+        },
+        {
+          "Priority": 120000,
+          "Id": "MelvorBase:AdeptWizardBoots"
+        },
+        {
+          "Priority": 130000,
+          "Id": "MelvorBase:AdeptWizardBottoms"
+        },
+        {
+          "Priority": 140000,
+          "Id": "MelvorBase:AdeptWizardRobes"
+        },
+        {
+          "Priority": 150000,
+          "Id": "MelvorBase:FireRune"
+        },
+        {
+          "Priority": 160000,
+          "Id": "MelvorBase:FireWand"
+        },
+        {
+          "Priority": 170000,
+          "Id": "MelvorBase:ChaosRune"
+        },
+        {
+          "Priority": 180000,
+          "Id": "MelvorBase:AirStaff"
+        },
+        {
+          "Priority": 190000,
+          "Id": "MelvorBase:AirWizardHat"
+        },
+        {
+          "Priority": 200000,
+          "Id": "MelvorBase:WaterWizardHat"
+        },
+        {
+          "Priority": 210000,
+          "Id": "MelvorBase:EarthWizardHat"
+        },
+        {
+          "Priority": 220000,
+          "Id": "MelvorBase:FireWizardHat"
+        },
+        {
+          "Priority": 230000,
+          "Id": "MelvorBase:WaterStaff"
+        },
+        {
+          "Priority": 240000,
+          "Id": "MelvorBase:AirWizardBoots"
+        },
+        {
+          "Priority": 250000,
+          "Id": "MelvorBase:WaterWizardBoots"
+        },
+        {
+          "Priority": 260000,
+          "Id": "MelvorBase:EarthWizardBoots"
+        },
+        {
+          "Priority": 270000,
+          "Id": "MelvorBase:FireWizardBoots"
+        },
+        {
+          "Priority": 280000,
+          "Id": "MelvorBase:EarthStaff"
+        },
+        {
+          "Priority": 290000,
+          "Id": "MelvorBase:AirWizardBottoms"
+        },
+        {
+          "Priority": 300000,
+          "Id": "MelvorBase:WaterWizardBottoms"
+        },
+        {
+          "Priority": 310000,
+          "Id": "MelvorBase:EarthWizardBottoms"
+        },
+        {
+          "Priority": 320000,
+          "Id": "MelvorBase:FireWizardBottoms"
+        },
+        {
+          "Priority": 330000,
+          "Id": "MelvorBase:FireStaff"
+        },
+        {
+          "Priority": 340000,
+          "Id": "MelvorBase:AirWizardRobes"
+        },
+        {
+          "Priority": 350000,
+          "Id": "MelvorBase:WaterWizardRobes"
+        },
+        {
+          "Priority": 360000,
+          "Id": "MelvorBase:EarthWizardRobes"
+        },
+        {
+          "Priority": 370000,
+          "Id": "MelvorBase:FireWizardRobes"
+        },
+        {
+          "Priority": 380000,
+          "Id": "MelvorBase:BodyRune"
+        },
+        {
+          "Priority": 390000,
+          "Id": "MelvorBase:AirBattlewand"
+        },
+        {
+          "Priority": 400000,
+          "Id": "MelvorBase:WaterBattlewand"
+        },
+        {
+          "Priority": 410000,
+          "Id": "MelvorBase:EarthBattlewand"
+        },
+        {
+          "Priority": 420000,
+          "Id": "MelvorBase:FireBattlewand"
+        },
+        {
+          "Priority": 430000,
+          "Id": "MelvorBase:DeathRune"
+        },
+        {
+          "Priority": 440000,
+          "Id": "MelvorBase:AirBattlestaff"
+        },
+        {
+          "Priority": 450000,
+          "Id": "MelvorBase:DustWizardHat"
+        },
+        {
+          "Priority": 460000,
+          "Id": "MelvorBase:SteamWizardHat"
+        },
+        {
+          "Priority": 470000,
+          "Id": "MelvorBase:WaterBattlestaff"
+        },
+        {
+          "Priority": 480000,
+          "Id": "MelvorBase:DustWizardBoots"
+        },
+        {
+          "Priority": 490000,
+          "Id": "MelvorBase:SteamWizardBoots"
+        },
+        {
+          "Priority": 500000,
+          "Id": "MelvorBase:EarthBattlestaff"
+        },
+        {
+          "Priority": 510000,
+          "Id": "MelvorBase:DustWizardBottoms"
+        },
+        {
+          "Priority": 520000,
+          "Id": "MelvorBase:SteamWizardBottoms"
+        },
+        {
+          "Priority": 530000,
+          "Id": "MelvorBase:FireBattlestaff"
+        },
+        {
+          "Priority": 540000,
+          "Id": "MelvorBase:DustWizardRobes"
+        },
+        {
+          "Priority": 550000,
+          "Id": "MelvorBase:SteamWizardRobes"
+        },
+        {
+          "Priority": 560000,
+          "Id": "MelvorBase:MysticAirWand"
+        },
+        {
+          "Priority": 570000,
+          "Id": "MelvorBase:MudWizardHat"
+        },
+        {
+          "Priority": 580000,
+          "Id": "MelvorBase:SmokeWizardHat"
+        },
+        {
+          "Priority": 590000,
+          "Id": "MelvorBase:MysticWaterWand"
+        },
+        {
+          "Priority": 600000,
+          "Id": "MelvorBase:MudWizardBoots"
+        },
+        {
+          "Priority": 610000,
+          "Id": "MelvorBase:SmokeWizardBoots"
+        },
+        {
+          "Priority": 620000,
+          "Id": "MelvorBase:MysticEarthWand"
+        },
+        {
+          "Priority": 630000,
+          "Id": "MelvorBase:MudWizardBottoms"
+        },
+        {
+          "Priority": 640000,
+          "Id": "MelvorBase:SmokeWizardBottoms"
+        },
+        {
+          "Priority": 650000,
+          "Id": "MelvorBase:MysticFireWand"
+        },
+        {
+          "Priority": 660000,
+          "Id": "MelvorBase:MudWizardRobes"
+        },
+        {
+          "Priority": 670000,
+          "Id": "MelvorBase:SmokeWizardRobes"
+        },
+        {
+          "Priority": 680000,
+          "Id": "MelvorBase:DecayRune"
+        },
+        {
+          "Priority": 690000,
+          "Id": "MelvorBase:MysticAirStaff"
+        },
+        {
+          "Priority": 700000,
+          "Id": "MelvorBase:MistWizardHat"
+        },
+        {
+          "Priority": 710000,
+          "Id": "MelvorBase:LavaWizardHat"
+        },
+        {
+          "Priority": 720000,
+          "Id": "MelvorBase:MysticWaterStaff"
+        },
+        {
+          "Priority": 730000,
+          "Id": "MelvorBase:MistWizardBoots"
+        },
+        {
+          "Priority": 740000,
+          "Id": "MelvorBase:LavaWizardBoots"
+        },
+        {
+          "Priority": 750000,
+          "Id": "MelvorBase:MysticEarthStaff"
+        },
+        {
+          "Priority": 760000,
+          "Id": "MelvorBase:MistWizardBottoms"
+        },
+        {
+          "Priority": 770000,
+          "Id": "MelvorBase:LavaWizardBottoms"
+        },
+        {
+          "Priority": 780000,
+          "Id": "MelvorBase:MysticFireStaff"
+        },
+        {
+          "Priority": 790000,
+          "Id": "MelvorBase:MistWizardRobes"
+        },
+        {
+          "Priority": 800000,
+          "Id": "MelvorBase:LavaWizardRobes"
+        },
+        {
+          "Priority": 810000,
+          "Id": "MelvorBase:BloodRune"
+        },
+        {
+          "Priority": 820000,
+          "Id": "MelvorBase:AirFuryWand"
+        },
+        {
+          "Priority": 830000,
+          "Id": "MelvorBase:ElementalWizardHat"
+        },
+        {
+          "Priority": 840000,
+          "Id": "MelvorBase:WaterFuryWand"
+        },
+        {
+          "Priority": 850000,
+          "Id": "MelvorBase:EarthFuryWand"
+        },
+        {
+          "Priority": 860000,
+          "Id": "MelvorBase:FireFuryWand"
+        },
+        {
+          "Priority": 870000,
+          "Id": "MelvorBase:ElementalWizardBoots"
+        },
+        {
+          "Priority": 880000,
+          "Id": "MelvorBase:AirFuryStaff"
+        },
+        {
+          "Priority": 890000,
+          "Id": "MelvorBase:WaterFuryStaff"
+        },
+        {
+          "Priority": 900000,
+          "Id": "MelvorBase:EarthFuryStaff"
+        },
+        {
+          "Priority": 910000,
+          "Id": "MelvorBase:ElementalWizardBottoms"
+        },
+        {
+          "Priority": 920000,
+          "Id": "MelvorBase:FireFuryStaff"
+        },
+        {
+          "Priority": 930000,
+          "Id": "MelvorBase:SoulRune"
+        },
+        {
+          "Priority": 940000,
+          "Id": "MelvorBase:ElementalWizardRobes"
+        },
+        {
+          "Priority": 685000,
+          "Id": "MelvorBase:AstralRune"
+        },
+        {
+          "Priority": 990000,
+          "Id": "MelvorBase:MeteoriteAirSceptre"
+        },
+        {
+          "Priority": 1000000,
+          "Id": "MelvorBase:MeteoriteWaterSceptre"
+        },
+        {
+          "Priority": 1010000,
+          "Id": "MelvorBase:MeteoriteEarthSceptre"
+        },
+        {
+          "Priority": 1020000,
+          "Id": "MelvorBase:MeteoriteFireSceptre"
+        },
+        {
+          "Priority": 1030000,
+          "Id": "MelvorBase:BasicMageshield"
+        },
+        {
+          "Priority": 1040000,
+          "Id": "MelvorBase:IntermediateMageshield"
+        },
+        {
+          "Priority": 1050000,
+          "Id": "MelvorBase:AdvancedMageshield"
+        },
+        {
+          "Priority": 1060000,
+          "Id": "MelvorBase:NightreedCloak"
+        },
+        {
+          "Priority": 1070000,
+          "Id": "MelvorBase:AstralCloak"
+        },
+        {
+          "Priority": 1080000,
+          "Id": "MelvorBase:MeteoriteRunegrafter"
+        },
+        {
+          "Priority": 1090000,
+          "Id": "MelvorBase:NightreedMitts"
+        },
+        {
+          "Priority": 1100000,
+          "Id": "MelvorBase:BattlemageMitts"
+        },
+        {
+          "Priority": 1110000,
+          "Id": "MelvorBase:RefinedMeteoriteAirSceptre"
+        },
+        {
+          "Priority": 1120000,
+          "Id": "MelvorBase:RefinedMeteoriteWaterSceptre"
+        },
+        {
+          "Priority": 1130000,
+          "Id": "MelvorBase:RefinedMeteoriteEarthSceptre"
+        },
+        {
+          "Priority": 1140000,
+          "Id": "MelvorBase:RefinedMeteoriteFireSceptre"
+        },
+        {
+          "Priority": 1150000,
+          "Id": "MelvorBase:VolatileFireRune"
+        }
+      ],
+      "definitionCount": 120,
+      "status": "planned",
+      "demoLocked": false
+    },
+    {
+      "id": "smithing",
+      "gameId": "MelvorBase:Smithing",
+      "name": "Smithing",
+      "requirements": [
+        {
+          "Type": "MelvorBase:Level",
+          "Data": {
+            "IsOr": false,
+            "Component": {
+              "Entity": "MelvorBase:Mining",
+              "Component": "Experience"
+            },
+            "Level": 2
+          }
+        }
+      ],
+      "recipeIds": [
+        {
+          "Priority": 0,
+          "Id": "MelvorBase:StoneSword"
+        },
+        {
+          "Priority": 100000,
+          "Id": "MelvorBase:StoneArrowtips"
+        },
+        {
+          "Priority": 200000,
+          "Id": "MelvorBase:StoneGloves"
+        },
+        {
+          "Priority": 300000,
+          "Id": "MelvorBase:StoneHelmet"
+        },
+        {
+          "Priority": 400000,
+          "Id": "MelvorBase:StoneBoots"
+        },
+        {
+          "Priority": 500000,
+          "Id": "MelvorBase:StoneSpearHead"
+        },
+        {
+          "Priority": 600000,
+          "Id": "MelvorBase:StoneMallet"
+        },
+        {
+          "Priority": 700000,
+          "Id": "MelvorBase:StonePlatelegs"
+        },
+        {
+          "Priority": 800000,
+          "Id": "MelvorBase:StonePlatebody"
+        },
+        {
+          "Priority": 850000,
+          "Id": "MelvorBase:MoltenGlass"
+        },
+        {
+          "Priority": 900000,
+          "Id": "MelvorBase:CopperBar"
+        },
+        {
+          "Priority": 1000000,
+          "Id": "MelvorBase:CopperDagger"
+        },
+        {
+          "Priority": 1100000,
+          "Id": "MelvorBase:CopperDefender"
+        },
+        {
+          "Priority": 1200000,
+          "Id": "MelvorBase:CopperArrowtips"
+        },
+        {
+          "Priority": 1300000,
+          "Id": "MelvorBase:CopperJavelinHeads"
+        },
+        {
+          "Priority": 1400000,
+          "Id": "MelvorBase:CopperSword"
+        },
+        {
+          "Priority": 1500000,
+          "Id": "MelvorBase:CopperGloves"
+        },
+        {
+          "Priority": 1600000,
+          "Id": "MelvorBase:CopperScimitar"
+        },
+        {
+          "Priority": 1700000,
+          "Id": "MelvorBase:CopperHelmet"
+        },
+        {
+          "Priority": 1800000,
+          "Id": "MelvorBase:CopperBoots"
+        },
+        {
+          "Priority": 2000000,
+          "Id": "MelvorBase:CopperShield"
+        },
+        {
+          "Priority": 2200000,
+          "Id": "MelvorBase:Copper2HSword"
+        },
+        {
+          "Priority": 2300000,
+          "Id": "MelvorBase:CopperMallet"
+        },
+        {
+          "Priority": 2400000,
+          "Id": "MelvorBase:CopperPlatelegs"
+        },
+        {
+          "Priority": 2500000,
+          "Id": "MelvorBase:CopperPlatebody"
+        },
+        {
+          "Priority": 2600000,
+          "Id": "MelvorBase:IronBar"
+        },
+        {
+          "Priority": 2700000,
+          "Id": "MelvorBase:IronDagger"
+        },
+        {
+          "Priority": 2800000,
+          "Id": "MelvorBase:IronDefender"
+        },
+        {
+          "Priority": 2900000,
+          "Id": "MelvorBase:IronArrowtips"
+        },
+        {
+          "Priority": 3000000,
+          "Id": "MelvorBase:HeadlessBolts"
+        },
+        {
+          "Priority": 3100000,
+          "Id": "MelvorBase:IronJavelinHeads"
+        },
+        {
+          "Priority": 3200000,
+          "Id": "MelvorBase:IronSword"
+        },
+        {
+          "Priority": 3300000,
+          "Id": "MelvorBase:IronGloves"
+        },
+        {
+          "Priority": 3400000,
+          "Id": "MelvorBase:IronScimitar"
+        },
+        {
+          "Priority": 3500000,
+          "Id": "MelvorBase:IronHelmet"
+        },
+        {
+          "Priority": 3600000,
+          "Id": "MelvorBase:IronBoots"
+        },
+        {
+          "Priority": 3700000,
+          "Id": "MelvorBase:IronCrossbowHead"
+        },
+        {
+          "Priority": 3800000,
+          "Id": "MelvorBase:IronShield"
+        },
+        {
+          "Priority": 4000000,
+          "Id": "MelvorBase:Iron2HSword"
+        },
+        {
+          "Priority": 4100000,
+          "Id": "MelvorBase:IronMallet"
+        },
+        {
+          "Priority": 4200000,
+          "Id": "MelvorBase:IronPlatelegs"
+        },
+        {
+          "Priority": 4300000,
+          "Id": "MelvorBase:IronPlatebody"
+        },
+        {
+          "Priority": 4400000,
+          "Id": "MelvorBase:SilverBar"
+        },
+        {
+          "Priority": 4600000,
+          "Id": "MelvorBase:SteelBar"
+        },
+        {
+          "Priority": 4700000,
+          "Id": "MelvorBase:SteelDagger"
+        },
+        {
+          "Priority": 4800000,
+          "Id": "MelvorBase:SteelDefender"
+        },
+        {
+          "Priority": 4900000,
+          "Id": "MelvorBase:SteelArrowtips"
+        },
+        {
+          "Priority": 5000000,
+          "Id": "MelvorBase:SteelJavelinHeads"
+        },
+        {
+          "Priority": 5100000,
+          "Id": "MelvorBase:SteelSword"
+        },
+        {
+          "Priority": 5200000,
+          "Id": "MelvorBase:SteelGloves"
+        },
+        {
+          "Priority": 5300000,
+          "Id": "MelvorBase:SteelScimitar"
+        },
+        {
+          "Priority": 5400000,
+          "Id": "MelvorBase:SteelHelmet"
+        },
+        {
+          "Priority": 5500000,
+          "Id": "MelvorBase:SteelBoots"
+        },
+        {
+          "Priority": 5600000,
+          "Id": "MelvorBase:SteelCrossbowHead"
+        },
+        {
+          "Priority": 5700000,
+          "Id": "MelvorBase:SteelShield"
+        },
+        {
+          "Priority": 5800000,
+          "Id": "MelvorBase:SteelSpearHead"
+        },
+        {
+          "Priority": 5900000,
+          "Id": "MelvorBase:Steel2HSword"
+        },
+        {
+          "Priority": 6000000,
+          "Id": "MelvorBase:SteelMallet"
+        },
+        {
+          "Priority": 6100000,
+          "Id": "MelvorBase:SteelPlatelegs"
+        },
+        {
+          "Priority": 6200000,
+          "Id": "MelvorBase:SteelPlatebody"
+        },
+        {
+          "Priority": 6300000,
+          "Id": "MelvorBase:MithrilBar"
+        },
+        {
+          "Priority": 6350000,
+          "Id": "MelvorBase:GoldBar"
+        },
+        {
+          "Priority": 6400000,
+          "Id": "MelvorBase:MithrilDagger"
+        },
+        {
+          "Priority": 6500000,
+          "Id": "MelvorBase:MithrilDefender"
+        },
+        {
+          "Priority": 6600000,
+          "Id": "MelvorBase:MithrilArrowtips"
+        },
+        {
+          "Priority": 6700000,
+          "Id": "MelvorBase:MithrilJavelinHeads"
+        },
+        {
+          "Priority": 6800000,
+          "Id": "MelvorBase:MithrilSword"
+        },
+        {
+          "Priority": 6900000,
+          "Id": "MelvorBase:MithrilGloves"
+        },
+        {
+          "Priority": 7000000,
+          "Id": "MelvorBase:MithrilScimitar"
+        },
+        {
+          "Priority": 7100000,
+          "Id": "MelvorBase:MithrilHelmet"
+        },
+        {
+          "Priority": 7200000,
+          "Id": "MelvorBase:MithrilBoots"
+        },
+        {
+          "Priority": 7300000,
+          "Id": "MelvorBase:MithrilCrossbowHead"
+        },
+        {
+          "Priority": 7400000,
+          "Id": "MelvorBase:MithrilShield"
+        },
+        {
+          "Priority": 7500000,
+          "Id": "MelvorBase:MithrilSpearHead"
+        },
+        {
+          "Priority": 7600000,
+          "Id": "MelvorBase:Mithril2HSword"
+        },
+        {
+          "Priority": 7700000,
+          "Id": "MelvorBase:MithrilMallet"
+        },
+        {
+          "Priority": 7800000,
+          "Id": "MelvorBase:Mithril2HThrowHammer"
+        },
+        {
+          "Priority": 7900000,
+          "Id": "MelvorBase:MithrilPlatelegs"
+        },
+        {
+          "Priority": 8000000,
+          "Id": "MelvorBase:MithrilPlatebody"
+        },
+        {
+          "Priority": 8100000,
+          "Id": "MelvorBase:AdamantiteBar"
+        },
+        {
+          "Priority": 8200000,
+          "Id": "MelvorBase:AdamantDagger"
+        },
+        {
+          "Priority": 8300000,
+          "Id": "MelvorBase:AdamantDefender"
+        },
+        {
+          "Priority": 8400000,
+          "Id": "MelvorBase:AdamantArrowtips"
+        },
+        {
+          "Priority": 8500000,
+          "Id": "MelvorBase:AdamantJavelinHeads"
+        },
+        {
+          "Priority": 8600000,
+          "Id": "MelvorBase:AdamantSword"
+        },
+        {
+          "Priority": 8700000,
+          "Id": "MelvorBase:AdamantGloves"
+        },
+        {
+          "Priority": 8800000,
+          "Id": "MelvorBase:AdamantScimitar"
+        },
+        {
+          "Priority": 8900000,
+          "Id": "MelvorBase:AdamantHelmet"
+        },
+        {
+          "Priority": 9000000,
+          "Id": "MelvorBase:AdamantBoots"
+        },
+        {
+          "Priority": 9100000,
+          "Id": "MelvorBase:AdamantCrossbowHead"
+        },
+        {
+          "Priority": 9200000,
+          "Id": "MelvorBase:AdamantShield"
+        },
+        {
+          "Priority": 9300000,
+          "Id": "MelvorBase:AdamantSpearHead"
+        },
+        {
+          "Priority": 9400000,
+          "Id": "MelvorBase:Adamant2HSword"
+        },
+        {
+          "Priority": 9500000,
+          "Id": "MelvorBase:AdamantMallet"
+        },
+        {
+          "Priority": 9600000,
+          "Id": "MelvorBase:Adamant2HThrowHammer"
+        },
+        {
+          "Priority": 9700000,
+          "Id": "MelvorBase:AdamantPlatelegs"
+        },
+        {
+          "Priority": 9800000,
+          "Id": "MelvorBase:AdamantPlatebody"
+        },
+        {
+          "Priority": 9900000,
+          "Id": "MelvorBase:RuniteBar"
+        },
+        {
+          "Priority": 10000000,
+          "Id": "MelvorBase:RuneDagger"
+        },
+        {
+          "Priority": 10100000,
+          "Id": "MelvorBase:RuneDefender"
+        },
+        {
+          "Priority": 10200000,
+          "Id": "MelvorBase:RuneArrowtips"
+        },
+        {
+          "Priority": 10300000,
+          "Id": "MelvorBase:RuneJavelinHeads"
+        },
+        {
+          "Priority": 10400000,
+          "Id": "MelvorBase:RuneSword"
+        },
+        {
+          "Priority": 10500000,
+          "Id": "MelvorBase:RuneGloves"
+        },
+        {
+          "Priority": 10600000,
+          "Id": "MelvorBase:RuneScimitar"
+        },
+        {
+          "Priority": 10700000,
+          "Id": "MelvorBase:RuneHelmet"
+        },
+        {
+          "Priority": 10800000,
+          "Id": "MelvorBase:RuneBoots"
+        },
+        {
+          "Priority": 10900000,
+          "Id": "MelvorBase:RuneCrossbowHead"
+        },
+        {
+          "Priority": 11000000,
+          "Id": "MelvorBase:RuneShield"
+        },
+        {
+          "Priority": 11100000,
+          "Id": "MelvorBase:RuneSpearHead"
+        },
+        {
+          "Priority": 11200000,
+          "Id": "MelvorBase:Rune2HSword"
+        },
+        {
+          "Priority": 11300000,
+          "Id": "MelvorBase:RuneMallet"
+        },
+        {
+          "Priority": 11400000,
+          "Id": "MelvorBase:Rune2HThrowHammer"
+        },
+        {
+          "Priority": 11500000,
+          "Id": "MelvorBase:RunePlatelegs"
+        },
+        {
+          "Priority": 11600000,
+          "Id": "MelvorBase:RunePlatebody"
+        },
+        {
+          "Priority": 11700000,
+          "Id": "MelvorBase:DawnsteelBar"
+        },
+        {
+          "Priority": 11800000,
+          "Id": "MelvorBase:DawnsteelDagger"
+        },
+        {
+          "Priority": 11900000,
+          "Id": "MelvorBase:DawnsteelDefender"
+        },
+        {
+          "Priority": 12000000,
+          "Id": "MelvorBase:DawnsteelArrowtips"
+        },
+        {
+          "Priority": 12100000,
+          "Id": "MelvorBase:DawnsteelJavelinHeads"
+        },
+        {
+          "Priority": 12200000,
+          "Id": "MelvorBase:DawnsteelSword"
+        },
+        {
+          "Priority": 12300000,
+          "Id": "MelvorBase:DawnsteelGloves"
+        },
+        {
+          "Priority": 12400000,
+          "Id": "MelvorBase:DawnsteelScimitar"
+        },
+        {
+          "Priority": 12500000,
+          "Id": "MelvorBase:DawnsteelHelmet"
+        },
+        {
+          "Priority": 12600000,
+          "Id": "MelvorBase:DawnsteelBoots"
+        },
+        {
+          "Priority": 12700000,
+          "Id": "MelvorBase:DawnsteelCrossbowHead"
+        },
+        {
+          "Priority": 12800000,
+          "Id": "MelvorBase:DawnsteelShield"
+        },
+        {
+          "Priority": 12900000,
+          "Id": "MelvorBase:DawnsteelSpearHead"
+        },
+        {
+          "Priority": 13000000,
+          "Id": "MelvorBase:Dawnsteel2HSword"
+        },
+        {
+          "Priority": 13100000,
+          "Id": "MelvorBase:DawnsteelMallet"
+        },
+        {
+          "Priority": 13200000,
+          "Id": "MelvorBase:Dawnsteel2HThrowHammer"
+        },
+        {
+          "Priority": 13300000,
+          "Id": "MelvorBase:DawnsteelPlatelegs"
+        },
+        {
+          "Priority": 13400000,
+          "Id": "MelvorBase:DawnsteelPlatebody"
+        },
+        {
+          "Priority": 13500000,
+          "Id": "MelvorBase:DragoniteBar"
+        },
+        {
+          "Priority": 13600000,
+          "Id": "MelvorBase:DragonDagger"
+        },
+        {
+          "Priority": 13700000,
+          "Id": "MelvorBase:DragonDefender"
+        },
+        {
+          "Priority": 13800000,
+          "Id": "MelvorBase:DragonArrowtips"
+        },
+        {
+          "Priority": 13900000,
+          "Id": "MelvorBase:DragonJavelinHeads"
+        },
+        {
+          "Priority": 14000000,
+          "Id": "MelvorBase:DragonSword"
+        },
+        {
+          "Priority": 14100000,
+          "Id": "MelvorBase:DragonGloves"
+        },
+        {
+          "Priority": 14200000,
+          "Id": "MelvorBase:DragonScimitar"
+        },
+        {
+          "Priority": 14300000,
+          "Id": "MelvorBase:DragonHelmet"
+        },
+        {
+          "Priority": 14400000,
+          "Id": "MelvorBase:DragonBoots"
+        },
+        {
+          "Priority": 14500000,
+          "Id": "MelvorBase:DragonCrossbowHead"
+        },
+        {
+          "Priority": 14600000,
+          "Id": "MelvorBase:DragonShield"
+        },
+        {
+          "Priority": 14700000,
+          "Id": "MelvorBase:DragonSpearHead"
+        },
+        {
+          "Priority": 14800000,
+          "Id": "MelvorBase:Dragon2HSword"
+        },
+        {
+          "Priority": 14900000,
+          "Id": "MelvorBase:DragonMallet"
+        },
+        {
+          "Priority": 15000000,
+          "Id": "MelvorBase:Dragon2HThrowHammer"
+        },
+        {
+          "Priority": 15100000,
+          "Id": "MelvorBase:DragonPlatelegs"
+        },
+        {
+          "Priority": 15200000,
+          "Id": "MelvorBase:DragonPlatebody"
+        },
+        {
+          "Priority": 5550000,
+          "Id": "MelvorBase:SteelLantern"
+        },
+        {
+          "Priority": 7250000,
+          "Id": "MelvorBase:MithrilLantern"
+        },
+        {
+          "Priority": 9050000,
+          "Id": "MelvorBase:AdamantLantern"
+        },
+        {
+          "Priority": 10850000,
+          "Id": "MelvorBase:RuneLantern"
+        },
+        {
+          "Priority": 12650000,
+          "Id": "MelvorBase:DawnsteelLantern"
+        },
+        {
+          "Priority": 14450000,
+          "Id": "MelvorBase:DragonLantern"
+        },
+        {
+          "Priority": 14700000,
+          "Id": "MelvorBase:StonersPickaxe"
+        },
+        {
+          "Priority": 14800000,
+          "Id": "MelvorBase:EssenceImbuedPickaxe"
+        },
+        {
+          "Priority": 14900000,
+          "Id": "MelvorBase:InfernalPickaxe"
+        },
+        {
+          "Priority": 15050000,
+          "Id": "MelvorBase:IronsteelBar"
+        },
+        {
+          "Priority": 15100000,
+          "Id": "MelvorBase:MeteoriteBar"
+        },
+        {
+          "Priority": 15200000,
+          "Id": "MelvorBase:MeteoriteRod"
+        },
+        {
+          "Priority": 15300000,
+          "Id": "MelvorBase:MeteoriteMorningStar"
+        },
+        {
+          "Priority": 15400000,
+          "Id": "MelvorBase:MeteoriteJavelinHead"
+        },
+        {
+          "Priority": 15500000,
+          "Id": "MelvorBase:MeteoriteGloves"
+        },
+        {
+          "Priority": 15600000,
+          "Id": "MelvorBase:MeteoriteHelmet"
+        },
+        {
+          "Priority": 15700000,
+          "Id": "MelvorBase:MeteoriteBoots"
+        },
+        {
+          "Priority": 15800000,
+          "Id": "MelvorBase:MeteoriteTwinBlades"
+        },
+        {
+          "Priority": 15900000,
+          "Id": "MelvorBase:MeteoritePlatelegs"
+        },
+        {
+          "Priority": 16000000,
+          "Id": "MelvorBase:MeteoritePlatebody"
+        },
+        {
+          "Priority": 16200000,
+          "Id": "MelvorBase:HeadlessBoltPack"
+        },
+        {
+          "Priority": 16300000,
+          "Id": "MelvorBase:IronsteelGloves"
+        },
+        {
+          "Priority": 16400000,
+          "Id": "MelvorBase:IronsteelHelmet"
+        },
+        {
+          "Priority": 16500000,
+          "Id": "MelvorBase:IronsteelBoots"
+        },
+        {
+          "Priority": 16600000,
+          "Id": "MelvorBase:IronsteelSpike"
+        },
+        {
+          "Priority": 16700000,
+          "Id": "MelvorBase:IronsteelSpikeShield"
+        },
+        {
+          "Priority": 16800000,
+          "Id": "MelvorBase:IronsteelPolearm"
+        },
+        {
+          "Priority": 16900000,
+          "Id": "MelvorBase:IronsteelPlatelegs"
+        },
+        {
+          "Priority": 17000000,
+          "Id": "MelvorBase:IronsteelPlatebody"
+        },
+        {
+          "Priority": 17100000,
+          "Id": "MelvorBase:DragonruneBar"
+        },
+        {
+          "Priority": 17200000,
+          "Id": "MelvorBase:DragonArrowtipsPack"
+        },
+        {
+          "Priority": 17300000,
+          "Id": "MelvorBase:DragonruneGloves"
+        },
+        {
+          "Priority": 17400000,
+          "Id": "MelvorBase:DragonruneHelmet"
+        },
+        {
+          "Priority": 17500000,
+          "Id": "MelvorBase:DragonruneBoots"
+        },
+        {
+          "Priority": 17600000,
+          "Id": "MelvorBase:DragonruneGreatsword"
+        },
+        {
+          "Priority": 17700000,
+          "Id": "MelvorBase:DragonruneLantern"
+        },
+        {
+          "Priority": 17800000,
+          "Id": "MelvorBase:DragonrunePlatelegs"
+        },
+        {
+          "Priority": 17900000,
+          "Id": "MelvorBase:DragonrunePlatebody"
+        },
+        {
+          "Priority": 18000000,
+          "Id": "MelvorBase:RefinedMeteoriteBar"
+        },
+        {
+          "Priority": 18100000,
+          "Id": "MelvorBase:RefinedMeteoriteRod"
+        },
+        {
+          "Priority": 18200000,
+          "Id": "MelvorBase:RefinedMeteoriteMorningStar"
+        },
+        {
+          "Priority": 18300000,
+          "Id": "MelvorBase:RefinedMeteoriteJavelinHead"
+        },
+        {
+          "Priority": 18400000,
+          "Id": "MelvorBase:RefinedMeteoriteGloves"
+        },
+        {
+          "Priority": 18500000,
+          "Id": "MelvorBase:RefinedMeteoriteHelmet"
+        },
+        {
+          "Priority": 18600000,
+          "Id": "MelvorBase:RefinedMeteoriteBoots"
+        },
+        {
+          "Priority": 18700000,
+          "Id": "MelvorBase:RefinedMeteoriteTwinBlades"
+        },
+        {
+          "Priority": 18800000,
+          "Id": "MelvorBase:RefinedMeteoritePlatelegs"
+        },
+        {
+          "Priority": 18900000,
+          "Id": "MelvorBase:RefinedMeteoritePlatebody"
+        },
+        {
+          "Priority": 16850000,
+          "Id": "MelvorBase:IronsteelRepairKit"
+        },
+        {
+          "Priority": 17550000,
+          "Id": "MelvorBase:DragonruneRepairKit"
+        },
+        {
+          "Priority": 17560000,
+          "Id": "MelvorBase:DragonruneSkillet"
+        },
+        {
+          "Priority": 14850000,
+          "Id": "MelvorBase:GemstonePickaxe"
+        },
+        {
+          "Priority": 19000000,
+          "Id": "MelvorBase:ClimbingHook"
+        },
+        {
+          "Priority": 19000000,
+          "Id": "MelvorBase:SteelRockAnchor"
+        },
+        {
+          "Priority": 19000000,
+          "Id": "MelvorBase:ReinforcedWoodcuttersAxe"
+        }
+      ],
+      "definitionCount": 206,
+      "status": "planned",
+      "demoLocked": false
+    },
+    {
+      "id": "thieving",
+      "gameId": "MelvorBase:Thieving",
+      "name": "Thieving",
+      "requirements": [
+        {
+          "Type": "MelvorBase:Level",
+          "Data": {
+            "IsOr": false,
+            "Component": {
+              "Entity": "MelvorBase:Cooking",
+              "Component": "Experience"
+            },
+            "Level": 10
+          }
+        }
+      ],
+      "recipeIds": [
+        {
+          "Priority": 0,
+          "Id": "MelvorBase:Citizen"
+        },
+        {
+          "Priority": 10000,
+          "Id": "MelvorBase:Thug"
+        },
+        {
+          "Priority": 20000,
+          "Id": "MelvorBase:LockedThugChest"
+        },
+        {
+          "Priority": 30000,
+          "Id": "MelvorBase:ThugChief"
+        },
+        {
+          "Priority": 40000,
+          "Id": "MelvorBase:CookingStall"
+        },
+        {
+          "Priority": 50000,
+          "Id": "MelvorBase:Craftsman"
+        },
+        {
+          "Priority": 60000,
+          "Id": "MelvorBase:Fisherman"
+        },
+        {
+          "Priority": 70000,
+          "Id": "MelvorBase:Chef"
+        },
+        {
+          "Priority": 80000,
+          "Id": "MelvorBase:Farmer"
+        },
+        {
+          "Priority": 90000,
+          "Id": "MelvorBase:LockedRanchersChest"
+        },
+        {
+          "Priority": 100000,
+          "Id": "MelvorBase:MarketSeedStall"
+        },
+        {
+          "Priority": 110000,
+          "Id": "MelvorBase:Herbalist"
+        },
+        {
+          "Priority": 120000,
+          "Id": "MelvorBase:WizardScholar"
+        },
+        {
+          "Priority": 130000,
+          "Id": "MelvorBase:Runecrafter"
+        },
+        {
+          "Priority": 140000,
+          "Id": "MelvorBase:Wizard"
+        },
+        {
+          "Priority": 150000,
+          "Id": "MelvorBase:ForbiddenLibrary"
+        },
+        {
+          "Priority": 160000,
+          "Id": "MelvorBase:Bandit"
+        },
+        {
+          "Priority": 170000,
+          "Id": "MelvorBase:BanditFletcher"
+        },
+        {
+          "Priority": 180000,
+          "Id": "MelvorBase:BanditWoodcutter"
+        },
+        {
+          "Priority": 190000,
+          "Id": "MelvorBase:BanditLeader"
+        },
+        {
+          "Priority": 200000,
+          "Id": "MelvorBase:StolenGoods"
+        },
+        {
+          "Priority": 210000,
+          "Id": "MelvorBase:Blacksmith"
+        },
+        {
+          "Priority": 220000,
+          "Id": "MelvorBase:CraftingStall"
+        },
+        {
+          "Priority": 230000,
+          "Id": "MelvorBase:LockedBankChest"
+        },
+        {
+          "Priority": 240000,
+          "Id": "MelvorBase:CapitalCitizen"
+        },
+        {
+          "Priority": 250000,
+          "Id": "MelvorBase:CapitalSeedStall"
+        },
+        {
+          "Priority": 260000,
+          "Id": "MelvorBase:Miner"
+        },
+        {
+          "Priority": 270000,
+          "Id": "MelvorBase:StoneMason"
+        },
+        {
+          "Priority": 280000,
+          "Id": "MelvorBase:Carpenter"
+        },
+        {
+          "Priority": 290000,
+          "Id": "MelvorBase:OreStall"
+        },
+        {
+          "Priority": 300000,
+          "Id": "MelvorBase:DeepMine"
+        },
+        {
+          "Priority": 310000,
+          "Id": "MelvorBase:PalaceCitizen"
+        },
+        {
+          "Priority": 320000,
+          "Id": "MelvorBase:GemStall"
+        },
+        {
+          "Priority": 330000,
+          "Id": "MelvorBase:PalaceGuard"
+        },
+        {
+          "Priority": 340000,
+          "Id": "MelvorBase:PalaceBattlemage"
+        },
+        {
+          "Priority": 350000,
+          "Id": "MelvorBase:PalaceVault"
+        },
+        {
+          "Priority": 360000,
+          "Id": "MelvorBase:LockedBeastChest"
+        },
+        {
+          "Priority": 370000,
+          "Id": "MelvorBase:Hunter"
+        },
+        {
+          "Priority": 380000,
+          "Id": "MelvorBase:Chieftain"
+        },
+        {
+          "Priority": 125000,
+          "Id": "MelvorBase:Astrologer"
+        }
+      ],
+      "definitionCount": 40,
+      "status": "planned",
+      "demoLocked": false
+    },
+    {
+      "id": "woodcutting",
+      "gameId": "MelvorBase:Woodcutting",
+      "name": "Woodcutting",
+      "requirements": [],
+      "recipeIds": [
+        {
+          "Priority": 0,
+          "Id": "MelvorBase:WoodDebris"
+        },
+        {
+          "Priority": 0,
+          "Id": "MelvorBase:FortressWall1"
+        },
+        {
+          "Priority": 0,
+          "Id": "MelvorBase:FortressWall2"
+        },
+        {
+          "Priority": 0,
+          "Id": "MelvorBase:TreantRemains"
+        },
+        {
+          "Priority": 0,
+          "Id": "MelvorBase:FortGate"
+        },
+        {
+          "Priority": 50000,
+          "Id": "MelvorBase:NormalTree"
+        },
+        {
+          "Priority": 100000,
+          "Id": "MelvorBase:FlaxBush"
+        },
+        {
+          "Priority": 200000,
+          "Id": "MelvorBase:OakTree"
+        },
+        {
+          "Priority": 300000,
+          "Id": "MelvorBase:AmbervineBush"
+        },
+        {
+          "Priority": 400000,
+          "Id": "MelvorBase:WillowTree"
+        },
+        {
+          "Priority": 500000,
+          "Id": "MelvorBase:TeakTree"
+        },
+        {
+          "Priority": 600000,
+          "Id": "MelvorBase:MapleTree"
+        },
+        {
+          "Priority": 700000,
+          "Id": "MelvorBase:SpikemossShrub"
+        },
+        {
+          "Priority": 800000,
+          "Id": "MelvorBase:MahoganyTree"
+        },
+        {
+          "Priority": 900000,
+          "Id": "MelvorBase:YewTree"
+        },
+        {
+          "Priority": 1000000,
+          "Id": "MelvorBase:MagicTree"
+        },
+        {
+          "Priority": 1100000,
+          "Id": "MelvorBase:DuskleafBush"
+        },
+        {
+          "Priority": 1200000,
+          "Id": "MelvorBase:HardOakTree"
+        },
+        {
+          "Priority": 1300000,
+          "Id": "MelvorBase:RedwoodTree"
+        },
+        {
+          "Priority": 1150000,
+          "Id": "MelvorBase:AshenTree"
+        }
+      ],
+      "definitionCount": 20,
+      "status": "ready",
+      "demoLocked": false
+    },
+    {
+      "id": "ranching",
+      "gameId": "MelvorBase:Ranching",
+      "name": "Ranching",
+      "requirements": [
+        {
+          "Type": "MelvorBase:ItemStatistic",
+          "Data": {
+            "IsOr": false,
+            "Value": 200,
+            "Statistic": "MelvorBase:WoodcuttingItemGained",
+            "Item": "MelvorBase:NormalLog"
+          }
+        },
+        {
+          "Type": "MelvorBase:CurrencyStatistic",
+          "Data": {
+            "IsOr": false,
+            "Value": 20000,
+            "Statistic": "MelvorBase:BankCurrencyFromSale",
+            "Currency": "MelvorBase:GoldPieces"
+          }
+        }
+      ],
+      "recipeIds": [],
+      "definitionCount": 0,
+      "status": "planned",
+      "demoLocked": false
+    },
+    {
+      "id": "astrology",
+      "gameId": "MelvorBase:Astrology",
+      "name": "Astrology",
+      "requirements": [
+        {
+          "Type": "MelvorBase:DemoLocked",
+          "Data": {
+            "Component": {
+              "Entity": "MelvorBase:CompletionLog",
+              "Component": "Completion"
+            },
+            "IsOr": false
+          }
+        }
+      ],
+      "recipeIds": [],
+      "definitionCount": 0,
+      "status": "planned",
+      "demoLocked": true
+    }
+  ]
+}

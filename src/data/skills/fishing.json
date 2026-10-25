@@ -1,0 +1,1199 @@
+{
+  "id": "fishing",
+  "gameVersion": "0.11.2-alpha.4",
+  "steamBuildId": "26074343",
+  "packageSha256": "2b43f26ce76d86178f56a72c8dced08a0ae545779786cccdcac868bdc3478474",
+  "checkedAt": "2026-10-25",
+  "method": "docs/BASE_SKILL_FORMULAS.md#fishing",
+  "rows": [
+    {
+      "id": "ShallowPools",
+      "gameId": "MelvorBase:ShallowPools",
+      "name": "Shallow Pools",
+      "requiredLevel": 1,
+      "availability": "demo",
+      "conditions": [
+        "Fishing level 1"
+      ],
+      "intervalSeconds": 6.0,
+      "intervalLabel": "4.0–8.0s · Shallow Shores",
+      "baseXp": 8,
+      "successChance": 0.8,
+      "xpPerHour": 4800.0,
+      "itemsPerHour": 480.0,
+      "gpPerHour": 3006.0,
+      "products": [
+        {
+          "id": "MelvorBase:RawShrimp",
+          "name": "Raw Shrimp",
+          "role": "primary",
+          "basis": "fishing action",
+          "probability": 0.8,
+          "quantity": 1.0,
+          "itemsPerHour": 480.0,
+          "gpPerHour": 2400.0
+        },
+        {
+          "id": "MelvorBase:Junk",
+          "name": "Junk",
+          "role": "junk",
+          "basis": "fishing action",
+          "probability": 0.19999999999999996,
+          "quantity": 1,
+          "itemsPerHour": 119.99999999999997,
+          "gpPerHour": 599.9999999999999
+        },
+        {
+          "id": "MelvorBase:BaitBox",
+          "name": "Bait Box",
+          "role": "side",
+          "basis": "first successful special roll",
+          "probability": 0.01,
+          "quantity": 1,
+          "itemsPerHour": 6.0,
+          "gpPerHour": 6.0
+        }
+      ],
+      "sourcePointer": "/Objects/FishingRecipe/0",
+      "notes": [
+        "Base XP is awarded on every fishing action, including junk. Primary items/hour counts fish only.",
+        "Special probabilities include the chance that earlier special rolls failed. No bait, priority selection or rerolls."
+      ]
+    },
+    {
+      "id": "CalmShallows",
+      "gameId": "MelvorBase:CalmShallows",
+      "name": "Calm Shallows",
+      "requiredLevel": 6,
+      "availability": "demo",
+      "conditions": [
+        "Fishing level 6",
+        "Fishing level 1"
+      ],
+      "intervalSeconds": 8.0,
+      "intervalLabel": "5.0–11.0s · Shallow Shores",
+      "baseXp": 13,
+      "successChance": 0.8,
+      "xpPerHour": 5850.0,
+      "itemsPerHour": 360.0,
+      "gpPerHour": 5528.25,
+      "products": [
+        {
+          "id": "MelvorBase:RawSardine",
+          "name": "Raw Sardine",
+          "role": "primary",
+          "basis": "fishing action",
+          "probability": 0.4,
+          "quantity": 1.0,
+          "itemsPerHour": 180.0,
+          "gpPerHour": 2340.0
+        },
+        {
+          "id": "MelvorBase:RawShrimp",
+          "name": "Raw Shrimp",
+          "role": "primary",
+          "basis": "fishing action",
+          "probability": 0.4,
+          "quantity": 1.0,
+          "itemsPerHour": 180.0,
+          "gpPerHour": 900.0
+        },
+        {
+          "id": "MelvorBase:Junk",
+          "name": "Junk",
+          "role": "junk",
+          "basis": "fishing action",
+          "probability": 0.19999999999999996,
+          "quantity": 1,
+          "itemsPerHour": 89.99999999999999,
+          "gpPerHour": 449.99999999999994
+        },
+        {
+          "id": "MelvorBase:PearlClam",
+          "name": "Pearl Clam",
+          "role": "side",
+          "basis": "first successful special roll",
+          "probability": 0.005,
+          "quantity": 1,
+          "itemsPerHour": 2.25,
+          "gpPerHour": 1838.25
+        }
+      ],
+      "sourcePointer": "/Objects/FishingRecipe/1",
+      "notes": [
+        "Base XP is awarded on every fishing action, including junk. Primary items/hour counts fish only.",
+        "Special probabilities include the chance that earlier special rolls failed. No bait, priority selection or rerolls."
+      ]
+    },
+    {
+      "id": "RockyShores",
+      "gameId": "MelvorBase:RockyShores",
+      "name": "Rocky Shores",
+      "requiredLevel": 44,
+      "availability": "demo",
+      "conditions": [
+        "Fishing level 44",
+        "Fishing level 1"
+      ],
+      "intervalSeconds": 14.0,
+      "intervalLabel": "6.0–22.0s · Shallow Shores",
+      "baseXp": 68,
+      "successChance": 0.9,
+      "xpPerHour": 17485.714285714286,
+      "itemsPerHour": 231.42857142857144,
+      "gpPerHour": 14001.428571428572,
+      "products": [
+        {
+          "id": "MelvorBase:RawSardine",
+          "name": "Raw Sardine",
+          "role": "primary",
+          "basis": "fishing action",
+          "probability": 0.4,
+          "quantity": 1.0,
+          "itemsPerHour": 102.85714285714288,
+          "gpPerHour": 1337.1428571428573
+        },
+        {
+          "id": "MelvorBase:RawLobster",
+          "name": "Raw Lobster",
+          "role": "primary",
+          "basis": "fishing action",
+          "probability": 0.5,
+          "quantity": 1.0,
+          "itemsPerHour": 128.57142857142858,
+          "gpPerHour": 10285.714285714286
+        },
+        {
+          "id": "MelvorBase:Junk",
+          "name": "Junk",
+          "role": "junk",
+          "basis": "fishing action",
+          "probability": 0.09999999999999998,
+          "quantity": 1,
+          "itemsPerHour": 25.71428571428571,
+          "gpPerHour": 128.57142857142856
+        },
+        {
+          "id": "MelvorBase:SeashellNecklace",
+          "name": "Seashell Necklace",
+          "role": "side",
+          "basis": "first successful special roll",
+          "probability": 0.001,
+          "quantity": 1,
+          "itemsPerHour": 0.2571428571428572,
+          "gpPerHour": 2250.0000000000005
+        }
+      ],
+      "sourcePointer": "/Objects/FishingRecipe/2",
+      "notes": [
+        "Base XP is awarded on every fishing action, including junk. Primary items/hour counts fish only.",
+        "Special probabilities include the chance that earlier special rolls failed. No bait, priority selection or rerolls."
+      ]
+    },
+    {
+      "id": "QuietBend",
+      "gameId": "MelvorBase:QuietBend",
+      "name": "Quiet Bend",
+      "requiredLevel": 12,
+      "availability": "demo",
+      "conditions": [
+        "Fishing level 12"
+      ],
+      "intervalSeconds": 9.0,
+      "intervalLabel": "6.0–12.0s · Shrapnel River",
+      "baseXp": 17,
+      "successChance": 0.8,
+      "xpPerHour": 6800.0,
+      "itemsPerHour": 320.0,
+      "gpPerHour": 5200.0,
+      "products": [
+        {
+          "id": "MelvorBase:RawHerring",
+          "name": "Raw Herring",
+          "role": "primary",
+          "basis": "fishing action",
+          "probability": 0.8,
+          "quantity": 1.0,
+          "itemsPerHour": 320.0,
+          "gpPerHour": 4800.0
+        },
+        {
+          "id": "MelvorBase:Junk",
+          "name": "Junk",
+          "role": "junk",
+          "basis": "fishing action",
+          "probability": 0.19999999999999996,
+          "quantity": 1,
+          "itemsPerHour": 79.99999999999999,
+          "gpPerHour": 399.99999999999994
+        }
+      ],
+      "sourcePointer": "/Objects/FishingRecipe/3",
+      "notes": [
+        "Base XP is awarded on every fishing action, including junk. Primary items/hour counts fish only.",
+        "Special probabilities include the chance that earlier special rolls failed. No bait, priority selection or rerolls."
+      ]
+    },
+    {
+      "id": "PebbleBank",
+      "gameId": "MelvorBase:PebbleBank",
+      "name": "Pebble Bank",
+      "requiredLevel": 23,
+      "availability": "demo",
+      "conditions": [
+        "Fishing level 23",
+        "Fishing level 12"
+      ],
+      "intervalSeconds": 12.0,
+      "intervalLabel": "8.0–16.0s · Shrapnel River",
+      "baseXp": 35,
+      "successChance": 0.9,
+      "xpPerHour": 10500.0,
+      "itemsPerHour": 270.0,
+      "gpPerHour": 13150.5,
+      "products": [
+        {
+          "id": "MelvorBase:RawHerring",
+          "name": "Raw Herring",
+          "role": "primary",
+          "basis": "fishing action",
+          "probability": 0.4,
+          "quantity": 1.0,
+          "itemsPerHour": 120.0,
+          "gpPerHour": 1800.0
+        },
+        {
+          "id": "MelvorBase:RawTrout",
+          "name": "Raw Trout",
+          "role": "primary",
+          "basis": "fishing action",
+          "probability": 0.5,
+          "quantity": 1.0,
+          "itemsPerHour": 150.0,
+          "gpPerHour": 6300.0
+        },
+        {
+          "id": "MelvorBase:Junk",
+          "name": "Junk",
+          "role": "junk",
+          "basis": "fishing action",
+          "probability": 0.09999999999999998,
+          "quantity": 1,
+          "itemsPerHour": 29.999999999999993,
+          "gpPerHour": 149.99999999999997
+        },
+        {
+          "id": "MelvorBase:RustyAncientDagger",
+          "name": "Rusty Ancient Dagger",
+          "role": "side",
+          "basis": "first successful special roll",
+          "probability": 0.005,
+          "quantity": 1,
+          "itemsPerHour": 1.5,
+          "gpPerHour": 4900.5
+        }
+      ],
+      "sourcePointer": "/Objects/FishingRecipe/4",
+      "notes": [
+        "Base XP is awarded on every fishing action, including junk. Primary items/hour counts fish only.",
+        "Special probabilities include the chance that earlier special rolls failed. No bait, priority selection or rerolls."
+      ]
+    },
+    {
+      "id": "RapidRuns",
+      "gameId": "MelvorBase:RapidRuns",
+      "name": "Rapid Runs",
+      "requiredLevel": 39,
+      "availability": "demo",
+      "conditions": [
+        "Fishing level 39",
+        "Fishing level 12"
+      ],
+      "intervalSeconds": 13.0,
+      "intervalLabel": "9.0–17.0s · Shrapnel River",
+      "baseXp": 54,
+      "successChance": 0.9,
+      "xpPerHour": 14953.846153846152,
+      "itemsPerHour": 249.23076923076923,
+      "gpPerHour": 15430.153846153846,
+      "products": [
+        {
+          "id": "MelvorBase:RawTrout",
+          "name": "Raw Trout",
+          "role": "primary",
+          "basis": "fishing action",
+          "probability": 0.36,
+          "quantity": 1.0,
+          "itemsPerHour": 99.69230769230768,
+          "gpPerHour": 4187.076923076923
+        },
+        {
+          "id": "MelvorBase:RawSalmon",
+          "name": "Raw Salmon",
+          "role": "primary",
+          "basis": "fishing action",
+          "probability": 0.54,
+          "quantity": 1.0,
+          "itemsPerHour": 149.53846153846155,
+          "gpPerHour": 9720.0
+        },
+        {
+          "id": "MelvorBase:Junk",
+          "name": "Junk",
+          "role": "junk",
+          "basis": "fishing action",
+          "probability": 0.09999999999999998,
+          "quantity": 1,
+          "itemsPerHour": 27.692307692307683,
+          "gpPerHour": 138.46153846153842
+        },
+        {
+          "id": "MelvorBase:ShrapnelRepellentGloves",
+          "name": "Shrapnel Repellent Gloves",
+          "role": "side",
+          "basis": "first successful special roll",
+          "probability": 0.002,
+          "quantity": 1,
+          "itemsPerHour": 0.5538461538461539,
+          "gpPerHour": 1384.6153846153848
+        }
+      ],
+      "sourcePointer": "/Objects/FishingRecipe/5",
+      "notes": [
+        "Base XP is awarded on every fishing action, including junk. Primary items/hour counts fish only.",
+        "Special probabilities include the chance that earlier special rolls failed. No bait, priority selection or rerolls."
+      ]
+    },
+    {
+      "id": "DockWaters",
+      "gameId": "MelvorBase:DockWaters",
+      "name": "Dock Waters",
+      "requiredLevel": 18,
+      "availability": "demo",
+      "conditions": [
+        "Fishing level 18"
+      ],
+      "intervalSeconds": 11.0,
+      "intervalLabel": "5.0–17.0s · Lemvor Pier",
+      "baseXp": 25,
+      "successChance": 0.8,
+      "xpPerHour": 8181.818181818181,
+      "itemsPerHour": 261.8181818181818,
+      "gpPerHour": 7612.226181818181,
+      "products": [
+        {
+          "id": "MelvorBase:RawPerch",
+          "name": "Raw Perch",
+          "role": "primary",
+          "basis": "fishing action",
+          "probability": 0.8,
+          "quantity": 1.0,
+          "itemsPerHour": 261.8181818181818,
+          "gpPerHour": 6807.272727272727
+        },
+        {
+          "id": "MelvorBase:Junk",
+          "name": "Junk",
+          "role": "junk",
+          "basis": "fishing action",
+          "probability": 0.19999999999999996,
+          "quantity": 1,
+          "itemsPerHour": 65.45454545454544,
+          "gpPerHour": 327.2727272727272
+        },
+        {
+          "id": "MelvorBase:SeaweedClump",
+          "name": "Seaweed Clump",
+          "role": "side",
+          "basis": "first successful special roll",
+          "probability": 0.007,
+          "quantity": 1,
+          "itemsPerHour": 2.290909090909091,
+          "gpPerHour": 458.1818181818182
+        },
+        {
+          "id": "MelvorBase:BaitBox",
+          "name": "Bait Box",
+          "role": "side",
+          "basis": "first successful special roll",
+          "probability": 0.01986,
+          "quantity": 3,
+          "itemsPerHour": 19.498909090909088,
+          "gpPerHour": 19.498909090909088
+        }
+      ],
+      "sourcePointer": "/Objects/FishingRecipe/6",
+      "notes": [
+        "Base XP is awarded on every fishing action, including junk. Primary items/hour counts fish only.",
+        "Special probabilities include the chance that earlier special rolls failed. No bait, priority selection or rerolls."
+      ]
+    },
+    {
+      "id": "PierWalk",
+      "gameId": "MelvorBase:PierWalk",
+      "name": "Pier Walk",
+      "requiredLevel": 32,
+      "availability": "demo",
+      "conditions": [
+        "Fishing level 32",
+        "Fishing level 18"
+      ],
+      "intervalSeconds": 12.0,
+      "intervalLabel": "6.0–18.0s · Lemvor Pier",
+      "baseXp": 42,
+      "successChance": 0.8,
+      "xpPerHour": 12600.0,
+      "itemsPerHour": 240.0,
+      "gpPerHour": 12904.5,
+      "products": [
+        {
+          "id": "MelvorBase:RawPerch",
+          "name": "Raw Perch",
+          "role": "primary",
+          "basis": "fishing action",
+          "probability": 0.4,
+          "quantity": 1.0,
+          "itemsPerHour": 120.0,
+          "gpPerHour": 3120.0
+        },
+        {
+          "id": "MelvorBase:RawPike",
+          "name": "Raw Pike",
+          "role": "primary",
+          "basis": "fishing action",
+          "probability": 0.4,
+          "quantity": 1.0,
+          "itemsPerHour": 120.0,
+          "gpPerHour": 7800.0
+        },
+        {
+          "id": "MelvorBase:Junk",
+          "name": "Junk",
+          "role": "junk",
+          "basis": "fishing action",
+          "probability": 0.19999999999999996,
+          "quantity": 1,
+          "itemsPerHour": 59.999999999999986,
+          "gpPerHour": 299.99999999999994
+        },
+        {
+          "id": "MelvorBase:LemonChest",
+          "name": "Lemon Chest",
+          "role": "side",
+          "basis": "first successful special roll",
+          "probability": 0.005,
+          "quantity": 1,
+          "itemsPerHour": 1.5,
+          "gpPerHour": 1684.5
+        }
+      ],
+      "sourcePointer": "/Objects/FishingRecipe/7",
+      "notes": [
+        "Base XP is awarded on every fishing action, including junk. Primary items/hour counts fish only.",
+        "Special probabilities include the chance that earlier special rolls failed. No bait, priority selection or rerolls."
+      ]
+    },
+    {
+      "id": "SeaEdge",
+      "gameId": "MelvorBase:SeaEdge",
+      "name": "Sea Edge",
+      "requiredLevel": 55,
+      "availability": "demo",
+      "conditions": [
+        "Fishing level 55",
+        "Fishing level 18"
+      ],
+      "intervalSeconds": 14.0,
+      "intervalLabel": "9.0–19.0s · Lemvor Pier",
+      "baseXp": 96,
+      "successChance": 0.9,
+      "xpPerHour": 24685.71428571429,
+      "itemsPerHour": 231.42857142857144,
+      "gpPerHour": 21111.428571428572,
+      "products": [
+        {
+          "id": "MelvorBase:RawSeaBream",
+          "name": "Raw Sea Bream",
+          "role": "primary",
+          "basis": "fishing action",
+          "probability": 0.9,
+          "quantity": 1.0,
+          "itemsPerHour": 231.42857142857144,
+          "gpPerHour": 19440.0
+        },
+        {
+          "id": "MelvorBase:Junk",
+          "name": "Junk",
+          "role": "junk",
+          "basis": "fishing action",
+          "probability": 0.09999999999999998,
+          "quantity": 1,
+          "itemsPerHour": 25.71428571428571,
+          "gpPerHour": 128.57142857142856
+        },
+        {
+          "id": "MelvorBase:SeaweedClump",
+          "name": "Seaweed Clump",
+          "role": "side",
+          "basis": "first successful special roll",
+          "probability": 0.03,
+          "quantity": 1,
+          "itemsPerHour": 7.714285714285714,
+          "gpPerHour": 1542.857142857143
+        }
+      ],
+      "sourcePointer": "/Objects/FishingRecipe/8",
+      "notes": [
+        "Base XP is awarded on every fishing action, including junk. Primary items/hour counts fish only.",
+        "Special probabilities include the chance that earlier special rolls failed. No bait, priority selection or rerolls."
+      ]
+    },
+    {
+      "id": "WindsweptShores",
+      "gameId": "MelvorBase:WindsweptShores",
+      "name": "Windswept Shores",
+      "requiredLevel": 27,
+      "availability": "demo",
+      "conditions": [
+        "Fishing level 27"
+      ],
+      "intervalSeconds": 6.0,
+      "intervalLabel": "2.0–10.0s · Windy Coastline",
+      "baseXp": 16,
+      "successChance": 0.9,
+      "xpPerHour": 9600.0,
+      "itemsPerHour": 540.0,
+      "gpPerHour": 10276.8,
+      "products": [
+        {
+          "id": "MelvorBase:RawMackerel",
+          "name": "Raw Mackerel",
+          "role": "primary",
+          "basis": "fishing action",
+          "probability": 0.9,
+          "quantity": 1.0,
+          "itemsPerHour": 540.0,
+          "gpPerHour": 8640.0
+        },
+        {
+          "id": "MelvorBase:Junk",
+          "name": "Junk",
+          "role": "junk",
+          "basis": "fishing action",
+          "probability": 0.09999999999999998,
+          "quantity": 1,
+          "itemsPerHour": 59.999999999999986,
+          "gpPerHour": 299.99999999999994
+        },
+        {
+          "id": "MelvorBase:SteadfastNet",
+          "name": "Steadfast Net",
+          "role": "side",
+          "basis": "first successful special roll",
+          "probability": 0.002,
+          "quantity": 1,
+          "itemsPerHour": 1.2,
+          "gpPerHour": 1336.8
+        }
+      ],
+      "sourcePointer": "/Objects/FishingRecipe/9",
+      "notes": [
+        "Base XP is awarded on every fishing action, including junk. Primary items/hour counts fish only.",
+        "Special probabilities include the chance that earlier special rolls failed. No bait, priority selection or rerolls."
+      ]
+    },
+    {
+      "id": "WindyBay",
+      "gameId": "MelvorBase:WindyBay",
+      "name": "Windy Bay",
+      "requiredLevel": 27,
+      "availability": "locked",
+      "conditions": [
+        "Not available in this demo build",
+        "Fishing level 27"
+      ],
+      "intervalSeconds": 10.0,
+      "intervalLabel": "5.0–15.0s · Windy Coastline",
+      "baseXp": 1,
+      "successChance": 0.9,
+      "xpPerHour": 360.0,
+      "itemsPerHour": 324.0,
+      "gpPerHour": 179.99999999999997,
+      "products": [
+        {
+          "id": "MelvorBase:DemoPlaceholderItem",
+          "name": "DemoPlaceholderItem",
+          "role": "primary",
+          "basis": "fishing action",
+          "probability": 0.9,
+          "quantity": 1.0,
+          "itemsPerHour": 324.0,
+          "gpPerHour": 0.0
+        },
+        {
+          "id": "MelvorBase:Junk",
+          "name": "Junk",
+          "role": "junk",
+          "basis": "fishing action",
+          "probability": 0.09999999999999998,
+          "quantity": 1,
+          "itemsPerHour": 35.99999999999999,
+          "gpPerHour": 179.99999999999997
+        }
+      ],
+      "sourcePointer": "/Objects/FishingRecipe/10",
+      "notes": [
+        "Base XP is awarded on every fishing action, including junk. Primary items/hour counts fish only.",
+        "Special probabilities include the chance that earlier special rolls failed. No bait, priority selection or rerolls."
+      ]
+    },
+    {
+      "id": "GustyCliffside",
+      "gameId": "MelvorBase:GustyCliffside",
+      "name": "Gusty Cliffside",
+      "requiredLevel": 27,
+      "availability": "locked",
+      "conditions": [
+        "Not available in this demo build",
+        "Fishing level 27"
+      ],
+      "intervalSeconds": 14.0,
+      "intervalLabel": "10.0–18.0s · Windy Coastline",
+      "baseXp": 1,
+      "successChance": 0.9,
+      "xpPerHour": 257.14285714285717,
+      "itemsPerHour": 231.42857142857144,
+      "gpPerHour": 128.57142857142856,
+      "products": [
+        {
+          "id": "MelvorBase:DemoPlaceholderItem",
+          "name": "DemoPlaceholderItem",
+          "role": "primary",
+          "basis": "fishing action",
+          "probability": 0.9,
+          "quantity": 1.0,
+          "itemsPerHour": 231.42857142857144,
+          "gpPerHour": 0.0
+        },
+        {
+          "id": "MelvorBase:Junk",
+          "name": "Junk",
+          "role": "junk",
+          "basis": "fishing action",
+          "probability": 0.09999999999999998,
+          "quantity": 1,
+          "itemsPerHour": 25.71428571428571,
+          "gpPerHour": 128.57142857142856
+        }
+      ],
+      "sourcePointer": "/Objects/FishingRecipe/11",
+      "notes": [
+        "Base XP is awarded on every fishing action, including junk. Primary items/hour counts fish only.",
+        "Special probabilities include the chance that earlier special rolls failed. No bait, priority selection or rerolls."
+      ]
+    },
+    {
+      "id": "ShimmeringDepths",
+      "gameId": "MelvorBase:ShimmeringDepths",
+      "name": "Shimmering Depths",
+      "requiredLevel": 49,
+      "availability": "demo",
+      "conditions": [
+        "Fishing level 49"
+      ],
+      "intervalSeconds": 7.0,
+      "intervalLabel": "4.0–10.0s · Glowing Depths",
+      "baseXp": 34,
+      "successChance": 1,
+      "xpPerHour": 17485.714285714286,
+      "itemsPerHour": 514.2857142857143,
+      "gpPerHour": 17897.14285714286,
+      "products": [
+        {
+          "id": "MelvorBase:RawGlowfin",
+          "name": "Raw Glowfin",
+          "role": "primary",
+          "basis": "fishing action",
+          "probability": 1.0,
+          "quantity": 1.0,
+          "itemsPerHour": 514.2857142857143,
+          "gpPerHour": 14400.000000000002
+        },
+        {
+          "id": "MelvorBase:Junk",
+          "name": "Junk",
+          "role": "junk",
+          "basis": "fishing action",
+          "probability": 0,
+          "quantity": 1,
+          "itemsPerHour": 0.0,
+          "gpPerHour": 0.0
+        },
+        {
+          "id": "MelvorBase:GlowstoneRing",
+          "name": "Glowstone Ring",
+          "role": "side",
+          "basis": "first successful special roll",
+          "probability": 0.0002,
+          "quantity": 1,
+          "itemsPerHour": 0.10285714285714287,
+          "gpPerHour": 3497.1428571428573
+        }
+      ],
+      "sourcePointer": "/Objects/FishingRecipe/12",
+      "notes": [
+        "Base XP is awarded on every fishing action, including junk. Primary items/hour counts fish only.",
+        "Special probabilities include the chance that earlier special rolls failed. No bait, priority selection or rerolls."
+      ]
+    },
+    {
+      "id": "GlowingRift",
+      "gameId": "MelvorBase:GlowingRift",
+      "name": "Glowing Rift",
+      "requiredLevel": 49,
+      "availability": "locked",
+      "conditions": [
+        "Not available in this demo build",
+        "Fishing level 49"
+      ],
+      "intervalSeconds": 18.0,
+      "intervalLabel": "13.0–23.0s · Glowing Depths",
+      "baseXp": 1,
+      "successChance": 1,
+      "xpPerHour": 200.0,
+      "itemsPerHour": 200.0,
+      "gpPerHour": 0.0,
+      "products": [
+        {
+          "id": "MelvorBase:DemoPlaceholderItem",
+          "name": "DemoPlaceholderItem",
+          "role": "primary",
+          "basis": "fishing action",
+          "probability": 1.0,
+          "quantity": 1.0,
+          "itemsPerHour": 200.0,
+          "gpPerHour": 0.0
+        },
+        {
+          "id": "MelvorBase:Junk",
+          "name": "Junk",
+          "role": "junk",
+          "basis": "fishing action",
+          "probability": 0,
+          "quantity": 1,
+          "itemsPerHour": 0.0,
+          "gpPerHour": 0.0
+        }
+      ],
+      "sourcePointer": "/Objects/FishingRecipe/13",
+      "notes": [
+        "Base XP is awarded on every fishing action, including junk. Primary items/hour counts fish only.",
+        "Special probabilities include the chance that earlier special rolls failed. No bait, priority selection or rerolls."
+      ]
+    },
+    {
+      "id": "LuminousAbyss",
+      "gameId": "MelvorBase:LuminousAbyss",
+      "name": "Luminous Abyss",
+      "requiredLevel": 49,
+      "availability": "locked",
+      "conditions": [
+        "Not available in this demo build",
+        "Fishing level 49"
+      ],
+      "intervalSeconds": 20.0,
+      "intervalLabel": "14.0–26.0s · Glowing Depths",
+      "baseXp": 1,
+      "successChance": 1,
+      "xpPerHour": 180.0,
+      "itemsPerHour": 180.0,
+      "gpPerHour": 0.0,
+      "products": [
+        {
+          "id": "MelvorBase:DemoPlaceholderItem",
+          "name": "DemoPlaceholderItem",
+          "role": "primary",
+          "basis": "fishing action",
+          "probability": 1.0,
+          "quantity": 1.0,
+          "itemsPerHour": 180.0,
+          "gpPerHour": 0.0
+        },
+        {
+          "id": "MelvorBase:Junk",
+          "name": "Junk",
+          "role": "junk",
+          "basis": "fishing action",
+          "probability": 0,
+          "quantity": 1,
+          "itemsPerHour": 0.0,
+          "gpPerHour": 0.0
+        }
+      ],
+      "sourcePointer": "/Objects/FishingRecipe/14",
+      "notes": [
+        "Base XP is awarded on every fishing action, including junk. Primary items/hour counts fish only.",
+        "Special probabilities include the chance that earlier special rolls failed. No bait, priority selection or rerolls."
+      ]
+    },
+    {
+      "id": "VibrantShallows",
+      "gameId": "MelvorBase:VibrantShallows",
+      "name": "Vibrant Shallows",
+      "requiredLevel": null,
+      "availability": "locked",
+      "conditions": [
+        "Not available in this demo build"
+      ],
+      "intervalSeconds": 15.0,
+      "intervalLabel": "11.0–19.0s · Coral Reef",
+      "baseXp": 1,
+      "successChance": 0.9,
+      "xpPerHour": 240.0,
+      "itemsPerHour": 216.0,
+      "gpPerHour": 119.99999999999997,
+      "products": [
+        {
+          "id": "MelvorBase:DemoPlaceholderItem",
+          "name": "DemoPlaceholderItem",
+          "role": "primary",
+          "basis": "fishing action",
+          "probability": 0.9,
+          "quantity": 1.0,
+          "itemsPerHour": 216.0,
+          "gpPerHour": 0.0
+        },
+        {
+          "id": "MelvorBase:Junk",
+          "name": "Junk",
+          "role": "junk",
+          "basis": "fishing action",
+          "probability": 0.09999999999999998,
+          "quantity": 1,
+          "itemsPerHour": 23.999999999999993,
+          "gpPerHour": 119.99999999999997
+        }
+      ],
+      "sourcePointer": "/Objects/FishingRecipe/15",
+      "notes": [
+        "Base XP is awarded on every fishing action, including junk. Primary items/hour counts fish only.",
+        "Special probabilities include the chance that earlier special rolls failed. No bait, priority selection or rerolls."
+      ]
+    },
+    {
+      "id": "SharkCove",
+      "gameId": "MelvorBase:SharkCove",
+      "name": "Shark Cove",
+      "requiredLevel": null,
+      "availability": "locked",
+      "conditions": [
+        "Not available in this demo build"
+      ],
+      "intervalSeconds": 21.0,
+      "intervalLabel": "17.0–25.0s · Coral Reef",
+      "baseXp": 1,
+      "successChance": 0.9,
+      "xpPerHour": 171.42857142857142,
+      "itemsPerHour": 154.28571428571428,
+      "gpPerHour": 85.7142857142857,
+      "products": [
+        {
+          "id": "MelvorBase:DemoPlaceholderItem",
+          "name": "DemoPlaceholderItem",
+          "role": "primary",
+          "basis": "fishing action",
+          "probability": 0.9,
+          "quantity": 1.0,
+          "itemsPerHour": 154.28571428571428,
+          "gpPerHour": 0.0
+        },
+        {
+          "id": "MelvorBase:Junk",
+          "name": "Junk",
+          "role": "junk",
+          "basis": "fishing action",
+          "probability": 0.09999999999999998,
+          "quantity": 1,
+          "itemsPerHour": 17.14285714285714,
+          "gpPerHour": 85.7142857142857
+        }
+      ],
+      "sourcePointer": "/Objects/FishingRecipe/16",
+      "notes": [
+        "Base XP is awarded on every fishing action, including junk. Primary items/hour counts fish only.",
+        "Special probabilities include the chance that earlier special rolls failed. No bait, priority selection or rerolls."
+      ]
+    },
+    {
+      "id": "BountifulCorals",
+      "gameId": "MelvorBase:BountifulCorals",
+      "name": "Bountiful Corals",
+      "requiredLevel": null,
+      "availability": "locked",
+      "conditions": [
+        "Not available in this demo build"
+      ],
+      "intervalSeconds": 22.0,
+      "intervalLabel": "18.0–26.0s · Coral Reef",
+      "baseXp": 1,
+      "successChance": 0.9,
+      "xpPerHour": 163.63636363636363,
+      "itemsPerHour": 147.27272727272728,
+      "gpPerHour": 81.8181818181818,
+      "products": [
+        {
+          "id": "MelvorBase:DemoPlaceholderItem",
+          "name": "DemoPlaceholderItem",
+          "role": "primary",
+          "basis": "fishing action",
+          "probability": 0.9,
+          "quantity": 1.0,
+          "itemsPerHour": 147.27272727272728,
+          "gpPerHour": 0.0
+        },
+        {
+          "id": "MelvorBase:Junk",
+          "name": "Junk",
+          "role": "junk",
+          "basis": "fishing action",
+          "probability": 0.09999999999999998,
+          "quantity": 1,
+          "itemsPerHour": 16.36363636363636,
+          "gpPerHour": 81.8181818181818
+        }
+      ],
+      "sourcePointer": "/Objects/FishingRecipe/17",
+      "notes": [
+        "Base XP is awarded on every fishing action, including junk. Primary items/hour counts fish only.",
+        "Special probabilities include the chance that earlier special rolls failed. No bait, priority selection or rerolls."
+      ]
+    },
+    {
+      "id": "TunaRun",
+      "gameId": "MelvorBase:TunaRun",
+      "name": "Tuna Run",
+      "requiredLevel": null,
+      "availability": "locked",
+      "conditions": [
+        "Not available in this demo build"
+      ],
+      "intervalSeconds": 17.0,
+      "intervalLabel": "12.0–22.0s · Open Ocean",
+      "baseXp": 1,
+      "successChance": 0.8,
+      "xpPerHour": 211.76470588235293,
+      "itemsPerHour": 169.41176470588235,
+      "gpPerHour": 211.76470588235287,
+      "products": [
+        {
+          "id": "MelvorBase:DemoPlaceholderItem",
+          "name": "DemoPlaceholderItem",
+          "role": "primary",
+          "basis": "fishing action",
+          "probability": 0.8,
+          "quantity": 1.0,
+          "itemsPerHour": 169.41176470588235,
+          "gpPerHour": 0.0
+        },
+        {
+          "id": "MelvorBase:Junk",
+          "name": "Junk",
+          "role": "junk",
+          "basis": "fishing action",
+          "probability": 0.19999999999999996,
+          "quantity": 1,
+          "itemsPerHour": 42.35294117647057,
+          "gpPerHour": 211.76470588235287
+        }
+      ],
+      "sourcePointer": "/Objects/FishingRecipe/18",
+      "notes": [
+        "Base XP is awarded on every fishing action, including junk. Primary items/hour counts fish only.",
+        "Special probabilities include the chance that earlier special rolls failed. No bait, priority selection or rerolls."
+      ]
+    },
+    {
+      "id": "SunlitStretch",
+      "gameId": "MelvorBase:SunlitStretch",
+      "name": "Sunlit Stretch",
+      "requiredLevel": null,
+      "availability": "locked",
+      "conditions": [
+        "Not available in this demo build"
+      ],
+      "intervalSeconds": 24.0,
+      "intervalLabel": "19.0–29.0s · Open Ocean",
+      "baseXp": 1,
+      "successChance": 0.9,
+      "xpPerHour": 150.0,
+      "itemsPerHour": 135.0,
+      "gpPerHour": 74.99999999999999,
+      "products": [
+        {
+          "id": "MelvorBase:DemoPlaceholderItem",
+          "name": "DemoPlaceholderItem",
+          "role": "primary",
+          "basis": "fishing action",
+          "probability": 0.9,
+          "quantity": 1.0,
+          "itemsPerHour": 135.0,
+          "gpPerHour": 0.0
+        },
+        {
+          "id": "MelvorBase:Junk",
+          "name": "Junk",
+          "role": "junk",
+          "basis": "fishing action",
+          "probability": 0.09999999999999998,
+          "quantity": 1,
+          "itemsPerHour": 14.999999999999996,
+          "gpPerHour": 74.99999999999999
+        }
+      ],
+      "sourcePointer": "/Objects/FishingRecipe/19",
+      "notes": [
+        "Base XP is awarded on every fishing action, including junk. Primary items/hour counts fish only.",
+        "Special probabilities include the chance that earlier special rolls failed. No bait, priority selection or rerolls."
+      ]
+    },
+    {
+      "id": "DeepBlue",
+      "gameId": "MelvorBase:DeepBlue",
+      "name": "Deep Blue",
+      "requiredLevel": null,
+      "availability": "locked",
+      "conditions": [
+        "Not available in this demo build"
+      ],
+      "intervalSeconds": 26.0,
+      "intervalLabel": "22.0–30.0s · Open Ocean",
+      "baseXp": 1,
+      "successChance": 1,
+      "xpPerHour": 138.46153846153845,
+      "itemsPerHour": 138.46153846153845,
+      "gpPerHour": 0.0,
+      "products": [
+        {
+          "id": "MelvorBase:DemoPlaceholderItem",
+          "name": "DemoPlaceholderItem",
+          "role": "primary",
+          "basis": "fishing action",
+          "probability": 1.0,
+          "quantity": 1.0,
+          "itemsPerHour": 138.46153846153845,
+          "gpPerHour": 0.0
+        },
+        {
+          "id": "MelvorBase:Junk",
+          "name": "Junk",
+          "role": "junk",
+          "basis": "fishing action",
+          "probability": 0,
+          "quantity": 1,
+          "itemsPerHour": 0.0,
+          "gpPerHour": 0.0
+        }
+      ],
+      "sourcePointer": "/Objects/FishingRecipe/20",
+      "notes": [
+        "Base XP is awarded on every fishing action, including junk. Primary items/hour counts fish only.",
+        "Special probabilities include the chance that earlier special rolls failed. No bait, priority selection or rerolls."
+      ]
+    },
+    {
+      "id": "MoonlitStream",
+      "gameId": "MelvorBase:MoonlitStream",
+      "name": "Moonlit Stream",
+      "requiredLevel": 12,
+      "availability": "locked",
+      "conditions": [
+        "Not available in this demo build",
+        "Fishing level 12"
+      ],
+      "intervalSeconds": 9.0,
+      "intervalLabel": "6.0–12.0s · Shrapnel River",
+      "baseXp": 1,
+      "successChance": 0.9,
+      "xpPerHour": 400.0,
+      "itemsPerHour": 360.0,
+      "gpPerHour": 199.99999999999997,
+      "products": [
+        {
+          "id": "MelvorBase:DemoPlaceholderItem",
+          "name": "DemoPlaceholderItem",
+          "role": "primary",
+          "basis": "fishing action",
+          "probability": 0.9,
+          "quantity": 1.0,
+          "itemsPerHour": 360.0,
+          "gpPerHour": 0.0
+        },
+        {
+          "id": "MelvorBase:Junk",
+          "name": "Junk",
+          "role": "junk",
+          "basis": "fishing action",
+          "probability": 0.09999999999999998,
+          "quantity": 1,
+          "itemsPerHour": 39.99999999999999,
+          "gpPerHour": 199.99999999999997
+        }
+      ],
+      "sourcePointer": "/Objects/FishingRecipe/21",
+      "notes": [
+        "Base XP is awarded on every fishing action, including junk. Primary items/hour counts fish only.",
+        "Special probabilities include the chance that earlier special rolls failed. No bait, priority selection or rerolls."
+      ]
+    },
+    {
+      "id": "MidnightCove",
+      "gameId": "MelvorBase:MidnightCove",
+      "name": "Midnight Cove",
+      "requiredLevel": 27,
+      "availability": "locked",
+      "conditions": [
+        "Not available in this demo build",
+        "Fishing level 27"
+      ],
+      "intervalSeconds": 13.5,
+      "intervalLabel": "10.0–17.0s · Windy Coastline",
+      "baseXp": 1,
+      "successChance": 0.8,
+      "xpPerHour": 266.6666666666667,
+      "itemsPerHour": 213.33333333333337,
+      "gpPerHour": 266.66666666666663,
+      "products": [
+        {
+          "id": "MelvorBase:DemoPlaceholderItem",
+          "name": "DemoPlaceholderItem",
+          "role": "primary",
+          "basis": "fishing action",
+          "probability": 0.8,
+          "quantity": 1.0,
+          "itemsPerHour": 213.33333333333337,
+          "gpPerHour": 0.0
+        },
+        {
+          "id": "MelvorBase:Junk",
+          "name": "Junk",
+          "role": "junk",
+          "basis": "fishing action",
+          "probability": 0.19999999999999996,
+          "quantity": 1,
+          "itemsPerHour": 53.33333333333333,
+          "gpPerHour": 266.66666666666663
+        }
+      ],
+      "sourcePointer": "/Objects/FishingRecipe/22",
+      "notes": [
+        "Base XP is awarded on every fishing action, including junk. Primary items/hour counts fish only.",
+        "Special probabilities include the chance that earlier special rolls failed. No bait, priority selection or rerolls."
+      ]
+    }
+  ],
+  "notes": [
+    "Uniform interval: hourly rates use expected reward divided by mean duration, not the mean of inverse intervals.",
+    "All packaged interval bounds align to whole seconds; symmetric tick rounding preserves their mean.",
+    "Both action and location requirements are retained. Gross GP includes junk and listed special drops."
+  ]
+}

@@ -1,29 +1,11 @@
-# Методика
+# Reference methodology
 
-## Единица действия — полный сруб
+The current product is a fixed base reference, replacing the former character calculator on 25 October 2026. Historical observation documents describe the earlier interface and are not current product instructions.
 
-Вdemo0.11.2-alpha.4деревоимеетздоровье,каждыйударегоуменьшает,основнаядобыча выдаётся при здоровье0. Указанные игрой1сотносятсякудару, а неполномусрубу.
+The browser reads precomputed JSON. Users can search, select a skill/content scope and sort by XP/hour, primary items/hour or gross sale GP/hour. No personal modifiers, levels or targets are accepted. Only language is persisted under settings schema 2; the old calculator settings are ignored.
 
-Baseline:урон1заудар,безбонусов,непрерывнаяработа. fullCutSeconds = health × hitIntervalSeconds. src/dataсохраняетобаисходныхполяирасчётныйintervalSeconds;валидаторпроверяетсогласованность. xpPerAction/expectedQuantityPerActionотносятсякполному срубу. Не подставлять1свместоздоровья×1с.
+Rates use expected rewards divided by expected duration in nominal game time, without intermediate display rounding. Unknown values remain null and sort last. Prices are direct gold sale values, including listed secondary rewards; containers are not opened. Costs, downtime and offline limits are outside this reference.
 
-## Формулы
+See [the complete formula verification](BASE_SKILL_FORMULAS.md) for mechanics, assumptions, source hashes, method tokens and examples. The offline generator `scripts/build_base_reference.py` reads the selected numerical catalog and supplemental navigation/location metadata from the installed package. It rejects a changed package SHA-256. Run `python scripts/build_base_reference.py --exe <installed-Melvor2.exe>` from the project after reviewing provenance. Python standard library only; it neither executes nor modifies game files.
 
-Дляполныхсрубовспостоянныминтерваломt>0: actions/h=3600/t;XP/h=actions/h×XP/cut;items/h=actions/h×expected items/cut;grossGP/h=items/h×sellprice. Expectedseconds=target/itemsperhour×3600.
-
-Промежуточныечисланеокругляются;отображение—додвухзнаков.Это долгосрочное ожидание, не гарантия времени случайной добычи. Выручка не прибыль. Побочныепредметы/расходы/простои/переключения/офлайн-лимитыисключены. Номинальное игровое время не равно замеру настенных часов в наблюдённой сессии с ускоренным прогрессом; причинаускорениянеисследовалась.
-
-NormalTree:3HP×1с=3с/сруб→1200брёвен/ч,3600XP/ч,3600GP/ч;100брёвенза300номинальныхсекунд. Mahogany:10с→360брёвен/ч,18360XP/ч,16560GP/ч.
-
-## Бонусы и достоверность
-
-Ручнойрежимпринимаетготовыеэффективныезначениязаполныйсруб,неудар.Порядокбонусовнепредполагается. Базовыйрежимнеиспользуетручныеполя. Текущиебонусысохраненияиусловнаястохастическаясверкаописаныв[протоколе](DEMO_OBSERVATION_20261024.md);автоматическогопримененияпока нет.
-
-Неизвестное=null;нулеваяценадопустима;невалидныйинтервалинеконечныерезультатыотклоняются. Канал/buildсравниваютсяточно,другой/пустойbuildнедаётсовпадений.Втаблице—verifiedсисточникомидатой.Покрытие—6деревьев+3кустадемо,недругиесборки;сравнение—«лучшесредипроверенных».
-
-## Настройки и языки
-
-localStorage:melvor2.settings.v1/schemaVersion1.Повреждённая/неизвестнаяверсиявосстанавливаетdefaults,неподходящиеполяигнорируются. Недоступныйstorageнемешаетрасчёту. ПоумолчаниюEnglish;явныйвыборRussianсохраняется. Начальнаяверсиятаблицы0.11.2-alpha.4. Ранееявносохранённыеполя(втомчислепустойbuild)неперезаписываются—ихможносброситькнопкойResetsettings.
-
-## 25.10.2026 — побочные награды
-
-ПрежнееисключениепобочнойдобычисохраненотолькодлястолбцаосновнойGP/ч. НовыйотдельныйстолбецGP/чспобочнымипредметамиучитываетпроверенныеbaseшансыизпакета. OnHitроллвключаетпоследнийудар,OnCut—толькозавершённыйсруб;обаоснованияхранятсявданных. Наградывгнёздахневскрываются,оцениваетсяпрямаяпродажасамогогнезда. Уровеньдоступа—Requirements,неrawLevel. Полныеформулы/ограничения:[EXTRACTED_DATA.md](EXTRACTED_DATA.md).
+Coverage: 3 verified skill tables, 25 navigation sections. Other skill sections remain pending until their reward timing, requirements and mechanics are verified. Presence in the catalog is not proof of demo availability.

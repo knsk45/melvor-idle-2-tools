@@ -1,39 +1,47 @@
 import {useEffect,useState} from 'react';
 import {messages} from './i18n/messages';
-import {rates,secondsForQuantity,eligible,validateData,type Tree} from './domain/calculations';
-import {defaults,parseNumber,restore,storageKey,type Settings} from './domain/settings';
-import {totalBaselineGp} from './domain/woodcutting';
-import {SideDrops} from './components/SideDrops';
-import {NumberField} from './components/NumberField';
-import treesJson from './data/woodcutting.json';
-import sources from './data/sources.json';
-const trees=treesJson as Tree[];
-const dataErrors=validateData(trees,sources);
+import {defaults,restore,storageKey,type Settings} from './domain/settings';
+import {selectRows,type SkillTable,type SortKey} from './domain/reference';
+import index from './data/skills/index.json';
+import woodcutting from './data/skills/woodcutting.json';
+import fishing from './data/skills/fishing.json';
+import mining from './data/skills/mining.json';
+const tables:Record<string,SkillTable>={woodcutting:woodcutting as SkillTable,fishing:fishing as SkillTable,mining:mining as SkillTable};
+const knownSkills=new Set(index.skills.map(s=>s.id));
+const fromHash=()=>{const id=window.location.hash.slice(1);return knownSkills.has(id)?id:'woodcutting';};
+const skillRu:Record<string,string>={woodcutting:'Рубка дерева',fishing:'Рыбалка',mining:'Добыча руды',cooking:'Кулинария',crafting:'Ремесло',farming:'Земледелие',firemaking:'Разведение огня',fletching:'Изготовление стрел',herblore:'Травничество',hunting:'Охота',runecrafting:'Изготовление рун',smithing:'Кузнечное дело',thieving:'Воровство',ranching:'Животноводство',astrology:'Астрология',agility:'Ловкость',beastcrafting:'Beastcrafting',attack:'Атака',strength:'Сила',defence:'Защита',hitpoints:'Здоровье',ranged:'Дальний бой',magic:'Магия',prayer:'Молитва',slayer:'Slayer'};
+const ordered=[...index.skills].sort((a,b)=>(a.status==='ready'?0:1)-(b.status==='ready'?0:1)||a.name.localeCompare(b.name));
 export function App(){
- const [s,set]=useState<Settings>(()=>{try{return restore(localStorage.getItem(storageKey));}catch{return {...defaults};}});
- const [storageError,setStorageError]=useState(false);
- const [search,setSearch]=useState('');const [available,setAvailable]=useState(true);const [sort,setSort]=useState('xp');
- const t=messages[s.lang];const update=(k:keyof Settings,v:string)=>set(old=>({...old,[k]:v}));
- useEffect(()=>{document.documentElement.lang=s.lang;try{localStorage.setItem(storageKey,JSON.stringify(s));setStorageError(false);}catch{setStorageError(true);}},[s]);
- const level=parseNumber(s.level),target=parseNumber(s.target);
- const validLevel=level!==null&&Number.isInteger(level)&&level>=1;
- const validTarget=target!==null&&target>=0;
- const values={intervalSeconds:parseNumber(s.interval),xpPerAction:parseNumber(s.xp),expectedQuantityPerAction:parseNumber(s.items),sellPriceGp:parseNumber(s.price)};
- const validManual=values.intervalSeconds!==null&&values.intervalSeconds>0&&values.xpPerAction!==null&&values.xpPerAction>=0&&values.expectedQuantityPerAction!==null&&values.expectedQuantityPerAction>0&&values.sellPriceGp!==null&&values.sellPriceGp>=0;
- const calculated=validManual&&validLevel&&validTarget?rates(values):null;
- const fmt=(v:number|null|undefined)=>v==null||!Number.isFinite(v)?'—':new Intl.NumberFormat(s.lang,{maximumFractionDigits:2}).format(v);
- const verified=dataErrors.length?[]:eligible(trees,available&&validLevel?level!:Number.MAX_SAFE_INTEGER,s.channel,s.version);
- const rows=verified.filter(v=>!available||validLevel&&v.requiredLevel<=level!).filter(v=>(v.name.en+' '+(v.name.ru??'')).toLowerCase().includes(search.toLowerCase())).sort((a,b)=>{const ra=rates(a),rb=rates(b);return sort==='allgp'?(totalBaselineGp(b)??-1)-(totalBaselineGp(a)??-1):sort==='level'?a.requiredLevel-b.requiredLevel:((sort==='gp'?rb?.grossGpPerHour:rb?.xpPerHour)??-1)-((sort==='gp'?ra?.grossGpPerHour:ra?.xpPerHour)??-1);});
- const issue=(tree?:Tree)=>'https://github.com/knsk45/melvor-idle-2-tools/issues/new?'+new URLSearchParams({template:'data-error.yml',title:'[Data] '+(tree?.name.en??'Woodcutting'),object:tree?.id??'Woodcutting',build:tree?tree.channel+' / '+tree.gameVersion:s.channel+' / '+(s.version||'unknown'),observed:'',expected:'',source:''});
- return <><header><a className="brand" href="./"><span className="brand-icon" aria-hidden="true">M₂</span> MELVOR IDLE 2 <span className="brand-sub">/ TOOLS</span></a><nav aria-label="Language"><button className="language" onClick={()=>update('lang',s.lang==='ru'?'en':'ru')}>{s.lang==='ru'?'EN':'RU'}</button><a href="https://github.com/knsk45/melvor-idle-2-tools">GitHub ↗</a></nav></header>
- <main><section className="hero"><p className="eyebrow">01 / {t.skill}</p><h1>{t.title}<br/><em>{t.accent}</em></h1><p className="intro">{t.intro}</p><div className="status"><span/> {s.lang==='ru'?'Базовые данные демо • без бонусов':'Demo baseline • no bonuses'}</div></section>
- <section className="workspace" aria-label={t.skill}><div className="tabs"><button aria-pressed={s.mode==='base'} onClick={()=>update('mode','base')}>{t.verified}</button><button aria-pressed={s.mode==='manual'} onClick={()=>update('mode','manual')}>{t.manual}</button></div>
- <div className="settings"><NumberField label={t.level} min={1} step="1" value={s.level} onChange={v=>update('level',v)}/><NumberField label={t.target} value={s.target} onChange={v=>update('target',v)}/><label>{t.channel}<select value={s.channel} onChange={e=>update('channel',e.target.value)}><option value="demo">Demo</option><option value="patreon-alpha">Patreon alpha</option><option value="release">Release</option></select></label><label>{t.version}<input placeholder="—" value={s.version} onChange={e=>update('version',e.target.value)} /></label></div>
- {(!validLevel||!validTarget)&&<p role="alert" className="warning">{t.invalid}</p>}
- {s.mode==='manual'?<div className="manual"><h2>{t.manualTitle}</h2><p>{t.manualNote}</p><div className="settings">{(['interval','xp','items','price'] as const).map(k=><NumberField key={k} label={t[k]} value={s[k]} onChange={v=>update(k,v)}/>)}</div><div className="metrics">{[[t.xpHr,calculated?.xpPerHour],[t.itemsHr,calculated?.itemsPerHour],[t.gpHr,calculated?.grossGpPerHour],[t.time,calculated&&validTarget?(secondsForQuantity(target!,calculated.itemsPerHour)??NaN)/3600:null]].map(([label,value])=><div key={label as string}><span>{label}</span><strong>{fmt(typeof value==='number'&&Number.isFinite(value)?value:null)}</strong></div>)}</div>{!calculated&&<p className="warning" role="status">{t.invalid}</p>}</div>:<><div className="toolbar"><label>{t.search}<input type="search" value={search} onChange={e=>setSearch(e.target.value)}/></label><label>{t.sort}<select value={sort} onChange={e=>setSort(e.target.value)}><option value="xp">{t.xpHr}</option><option value="gp">{t.gpHr}</option><option value="allgp">{t.allGpHr}</option><option value="level">{t.required}</option></select></label><label className="check"><input type="checkbox" checked={available} onChange={e=>setAvailable(e.target.checked)}/>{t.available}</label></div>
- <div className="table-wrap"><table><caption>{t.verified} · {s.channel} / {s.version||'—'}</caption><thead><tr>{[t.name,t.required,t.health,t.hitInterval,t.interval,t.xp,t.items,t.price,t.xpHr,t.itemsHr,t.gpHr,t.allGpHr,t.drops,t.time,t.source].map(x=><th key={x} scope="col">{x}</th>)}</tr></thead><tbody>{rows.map(tree=>{const r=rates(tree);return <tr key={tree.id}><th scope="row">{s.lang==='ru'?tree.name.ru??tree.name.en:tree.name.en}<small>{s.lang==='ru'?tree.name.en+' · ':''}{tree.primaryItem}</small></th>{[tree.requiredLevel,tree.health,tree.hitIntervalSeconds,tree.intervalSeconds,tree.xpPerAction,tree.expectedQuantityPerAction,tree.sellPriceGp,r?.xpPerHour,r?.itemsPerHour,r?.grossGpPerHour,totalBaselineGp(tree)].map((x,i)=><td key={i}>{fmt(x)}</td>)}<td><SideDrops tree={tree} lang={s.lang}/></td>{[validTarget?(secondsForQuantity(target!,r?.itemsPerHour??null)??NaN)/3600:null].map((x,i)=><td key={i}>{fmt(x)}</td>)}<td><small>{tree.channel} / {tree.gameVersion} · {tree.checkedAt}</small>{tree.sourceRefs.map(id=><a key={id} href={sources.find(s=>s.id===id)?.url}>{id} </a>)}<a href={issue(tree)}>{t.report}</a></td></tr>;})}</tbody></table></div>
- {rows.length===0?<div className="empty"><span className="tree-symbol" aria-hidden="true">♧</span><h2>{trees.length?t.filtered:t.empty}</h2><p>{trees.length?t.filteredBody:t.emptyBody}</p><a className="button" href={issue()}>{t.report} ↗</a></div>:<p>{t.proven} · {rows.length}</p>}
- <p className="coverage">{t.coverage} {trees.length} · {t.proven} · {verified.length}</p></>}
- <div className="workspace-foot"><p>{t.limits}</p><button className="reset" onClick={()=>set({...defaults,lang:s.lang})}>{t.reset}</button></div>{storageError&&<p role="status">{t.storage}</p>}
- </section><section className="notes"><article><p className="eyebrow">02 / {t.source}</p><h2>{t.source}</h2><p>25.10.2026 · Demo v0.11.2-alpha.4 · Steam 26074343</p>{sources.map(source=><p key={source.id}><a href={source.url}>{source.title} ↗</a></p>)}<small>{s.lang==='ru'?'9 объектов сверены с таблицами сборки; 20 определений рубки сохранены в каталоге. Уровень доступа берётся из Requirements. Полный сруб учитывает здоровье. Побочные предметы показаны отдельно.':'9 objects cross-checked against shipped data; all 20 woodcutting definitions retained in the catalog. Unlock level comes from Requirements. Full-cut time accounts for health. Side drops shown separately.'}</small>{dataErrors.length>0&&<p role="alert">{dataErrors.join('; ')}</p>}</article><article><p className="eyebrow">03 / COMMUNITY</p><h2>{t.next}</h2><p>{t.nextBody}</p><a href="https://github.com/knsk45/melvor-idle-2-tools/blob/main/CONTRIBUTING.md">CONTRIBUTING ↗</a></article></section></main><footer><span>Melvor Idle 2 Tools · 0.1</span><p>{t.footer}</p></footer></>;
+  const [settings,setSettings]=useState<Settings>(()=>{try{return restore(localStorage.getItem(storageKey));}catch{return {...defaults};}});
+  const [skill,setSkill]=useState(fromHash);
+  const [search,setSearch]=useState('');
+  const [sort,setSort]=useState<SortKey>('xp');
+  const [scope,setScope]=useState<'demo'|'all'>('demo');
+  const t=messages[settings.lang];
+  useEffect(()=>{document.documentElement.lang=settings.lang;try{localStorage.setItem(storageKey,JSON.stringify(settings));}catch{/* Reading the reference remains possible without storage. */}},[settings]);
+  useEffect(()=>{const handle=()=>{setSkill(fromHash());setSearch('');};window.addEventListener('hashchange',handle);return()=>window.removeEventListener('hashchange',handle);},[]);
+  const selected=index.skills.find(s=>s.id===skill)!;
+  const name=settings.lang==='ru'?skillRu[skill]??selected.name:selected.name;
+  const table=tables[skill];
+  const rows=table?selectRows(table.rows,search,scope,sort):[];
+  const f=(n:number|null,digits=2)=>n===null||!Number.isFinite(n)?'—':new Intl.NumberFormat(settings.lang,{maximumFractionDigits:digits}).format(n);
+  const availability=(status:string)=>status==='locked'?t.locked:status==='conditional'?t.conditional:t.demo;
+  return <>
+    <header><a className="brand" href="#woodcutting"><span className="brand-icon" aria-hidden="true">M₂</span><span>MELVOR IDLE 2 <small>BASE REFERENCE</small></span></a><nav aria-label="Language"><button className="language" onClick={()=>setSettings(s=>({...s,lang:s.lang==='en'?'ru':'en'}))}>{settings.lang==='en'?'RU':'EN'}</button><a href="https://github.com/knsk45/melvor-idle-2-tools">GitHub ↗</a></nav></header>
+    <div className="app-layout">
+      <aside><p className="eyebrow">{t.skills} / {index.skills.length}</p><nav aria-label={t.skills}>{ordered.map(s=><a key={s.id} href={'#'+s.id} aria-current={s.id===skill?'page':undefined}><span>{settings.lang==='ru'?skillRu[s.id]??s.name:s.name}</span><small>{s.status==='ready'?'●':'○'}</small></a>)}</nav></aside>
+      <main>
+        <div className="mobile-skill"><label>{t.skillLabel}<select value={skill} onChange={e=>{window.location.hash=e.target.value;}}>{ordered.map(s=><option value={s.id} key={s.id}>{settings.lang==='ru'?skillRu[s.id]??s.name:s.name}{s.status==='ready'?'':' · '+t.planned}</option>)}</select></label></div>
+        <section className="page-heading"><p className="coverage-notice">{t.notice}</p><p className="eyebrow">{t.title}</p><h1>{name}</h1><p>{t.description}</p><div className="source-badge"><span aria-hidden="true"/> {t.build}</div></section>
+        {table?<section className="workspace" aria-label={name}>
+          <div className="workspace-heading"><strong>{t.baseline}</strong><span>{rows.length} / {table.rows.length} {settings.lang==='en'?'actions':'действий'}</span></div>
+          <div className="toolbar"><label>{t.search}<input type="search" value={search} onChange={e=>setSearch(e.target.value)}/></label><label>{t.sort}<select value={sort} onChange={e=>setSort(e.target.value as SortKey)}><option value="xp">{t.xp}</option><option value="items">{t.items}</option><option value="gold">{t.gold}</option><option value="level">{t.level}</option></select></label><label>{t.scope}<select value={scope} onChange={e=>setScope(e.target.value as 'demo'|'all')}><option value="demo">{t.demo}</option><option value="all">{t.all}</option></select></label></div>
+          <div className="table-wrap" tabIndex={0} role="region" aria-label={name+' '+t.title}><table><caption>{name} · {t.nominal}</caption><thead><tr>{[t.action,t.level,t.interval,t.baseXp,t.chance,t.xp,t.items,t.gold,t.details].map((label,i)=><th key={label} scope="col" aria-sort={i===5&&sort==='xp'||i===6&&sort==='items'||i===7&&sort==='gold'?'descending':i===1&&sort==='level'?'ascending':undefined}>{label}</th>)}</tr></thead><tbody>{rows.map(row=><tr key={row.id} className={row.availability==='demo'?'':'unavailable'}><th scope="row">{row.name}<small className={row.availability==='demo'?'':'content-status'}>{availability(row.availability)}</small></th><td>{f(row.requiredLevel)}</td><td>{f(row.intervalSeconds,4)}<small>{row.intervalLabel}</small></td><td>{f(row.baseXp,4)}</td><td>{row.successChance===null?'—':f(row.successChance*100,3)+'%'}</td><td className={sort==='xp'?'sorted':''}>{f(row.xpPerHour)}</td><td className={sort==='items'?'sorted':''}>{f(row.itemsPerHour)}</td><td className={sort==='gold'?'sorted':''}>{f(row.gpPerHour)}</td><td><details><summary>{t.products}</summary><ul className="drop-list">{row.products.map((p,i)=><li key={p.id+i}><strong>{p.name}</strong><br/>{f(p.itemsPerHour,4)} {t.hour} · {f(p.gpPerHour,4)} GP/h<small>{p.basis} · {t.probability}: {p.probability===null?'—':f(p.probability*100,4)+'%'} · {t.quantity}: {f(p.quantity,4)}</small></li>)}</ul><strong>{t.conditions}</strong><ul>{row.conditions.map((c,i)=><li key={i}>{c}</li>)}</ul>{row.notes.map((n,i)=><p key={i}>{n}</p>)}<small>{row.gameId}<br/>{t.sourceRecord}: {row.sourcePointer}</small></details></td></tr>)}</tbody></table></div>
+          {rows.length===0&&<div className="empty"><h2>{t.empty}</h2><p>{t.noResult}</p></div>}
+          <div className="workspace-foot"><p>{t.rules}</p><p>{t.noResult}</p></div>
+        </section>:<section className="workspace planned"><span className="planned-mark" aria-hidden="true">○</span><h2>{t.plannedTitle}</h2><p>{t.plannedBody}</p><p>{selected.definitionCount?selected.definitionCount+' '+t.definitions:t.noRecipes}</p>{selected.demoLocked&&<p className="content-status">{t.locked}</p>}</section>}
+        <section className="notes"><article><p className="eyebrow">{t.source}</p><h2>{t.build}</h2><p>{t.coverage}</p>{table?.notes.map((note,i)=><p key={i}>{note}</p>)}<a href="https://github.com/knsk45/melvor-idle-2-tools/blob/main/docs/BASE_SKILL_FORMULAS.md">{t.methods} ↗</a></article><article><p className="eyebrow">{t.modifiers}</p><h2>{t.baseline}</h2><p>{t.modifiersText}</p><a href="https://github.com/knsk45/melvor-idle-2-tools/blob/main/docs/MODIFIERS_ARTICLE_PLAN.md">{t.modifiers} ↗</a></article></section>
+      </main>
+    </div><footer><span>Melvor Idle 2 · Base Reference</span><p>{t.footer}</p></footer>
+  </>;
 }

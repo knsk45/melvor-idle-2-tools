@@ -1,3 +1,9 @@
+# Current source status — 25 October 2026
+
+Current coverage and verified mechanics are documented in [BASE_SKILL_FORMULAS.md](BASE_SKILL_FORMULAS.md). Three skill tables are ready; all 25 navigation sections are present, with 22 pending. The product is a fixed reference; historical mentions of manual mode, targets and future calculator work below are superseded.
+
+## Historical observations and earlier extraction
+
 # Источники и качество данных
 
 Текущая проверка:24.10.2026,Asia/Krasnoyarsk.

@@ -1,13 +1,15 @@
 # Roadmap
 
-- [x] React/TypeScript/Vite, RU/EN, таблица и честное пустое состояние.
-- [x] Ручные эффективные значения, цели, versioned localStorage.
-- [x] Формулы, валидация, unit-тесты, CI и ручной Pages workflow.
-- [x] Получить и проверить первый набор: 6 деревьев + 3 куста, demo v0.11.2-alpha.4, Steam build26074343.
-- [ ] Подтвердить модель бонусов и вероятностной добычи перед автоматизацией.
-- [x] Выполнить приёмку таблицы на реальных данных; English default / Russian switch.❕Публикация Pages остаётся отдельной задачей.
-- [ ] Добавить рыбалку и добычу руды, затем производственные навыки.
+## Current
 
-Не входят в MVP: аккаунты, сервер, импорт сохранений, боевые симуляторы, маршруты прокачки и цепочки крафта.
+- English default and Russian switch.
+- Fixed reference tables for Woodcutting, Fishing and Mining, checked against the shipped demo package and managed methods.
+- Ordering by base XP/hour, primary items/hour and gross GP/hour; search and explicit content scope.
+- All 25 actual skill sections in navigation; 22 clearly pending.
+- No character calculator, manual numeric inputs, targets or modifier settings.
 
-25.10.2026:статическийкаталогподготовлен(664предмета,1120рецептов);side-dropмодельрубкиреализована. Рыбалка/добыча/крафтпокаимеюттолькоподготовленныеданные,неэкраныкалькуляторов. Следующаязадача—выбратьнавык,проверитьсемантикуегоформул/доступностиипостроитьэкран.
+## Next
+
+Implement the remaining skills individually. For each: inspect reward timing, costs, requirements and random mechanics; preserve provenance; add fixed base rates and meaningful regression checks; then mark the section ready. Recipe count alone cannot establish coverage, especially for combat and separate activity models.
+
+Develop a separate, source-backed modifiers article. Pages publication is a separate owner decision; the manual workflow has not been run.
