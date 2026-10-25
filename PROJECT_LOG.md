@@ -82,3 +82,9 @@ Navigation: 12 готовых таблиц из 25 навыков; Agility, Farm
 REA-backed static CIL review added Thieving: 40 definitions, 20 ordinary demo rows. `GetSuccessChance 0x06007925` uses stealth/perception; the fixed table evaluates at each target's unlock level. Action failures can start the constructor's 2,000 ms base stun (`0x06007899`); completion XP and pickpocket rewards are staged. Weighted item throughput remains null where a universal expected item rate would require action-specific reward-state handling, while direct GP expectation is retained. `scripts/import_thieving_reference.py` verifies package SHA before generating the table.
 
 `pnpm check` passed again (27 tests, lint, TypeScript, build). Ready sections: 14/25. Remaining audited sections: Agility has no configured activities; Hunting/Ranching require persistent animal/trap/care state; combat skills require a target, player stats and stance. No game files or external servers changed.
+
+## 25.10.2026 — Ranching data and table design
+
+Подготовлен нормализованный каталог 20 животных Ranching из `package-selected.json` и статической сверки REA: цена, уровень, XP, взросление, срок жизни, часовой цикл, продукты, корм, лакомства, требования питомца и варианты. Добавлены `data/catalog/ranching-base.json` и воспроизводимый `scripts/extract-ranching-base.py`.
+
+Добавлена `docs/RANCHING_TABLE_DESIGN.md`: базовая карточка животного, отдельный сценарий здорового взрослого животного, независимые сортировки XP/ч, предметы/ч и золото/ч, раскрытие вариантов и таблица чувствительности ухода. Зафиксированы формулы счастья и производства из статического CIL; универсальные XP/ч и чистое золото/ч не заявляются без состояния и цен расходов. Игра, сохранения и серверы не менялись; публикация будет после проверки и push.

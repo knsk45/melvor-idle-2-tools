@@ -1,0 +1,1128 @@
+{
+  "source": "Melvor Idle 2 Demo package-selected.json",
+  "animals": [
+    {
+      "id": "Chicken",
+      "displayName": "Chicken",
+      "unlockLevel": 5,
+      "purchaseGold": 6000,
+      "baseExperience": 31,
+      "maturityHours": 9.6,
+      "lifespanHours": 96.0,
+      "productCycleHours": 1.0,
+      "products": [
+        {
+          "Item": "MelvorBase:Egg",
+          "Quantity": 2
+        },
+        {
+          "Item": "MelvorBase:Feathers",
+          "Quantity": 4
+        },
+        {
+          "Item": "MelvorBase:RawChicken",
+          "Quantity": 1
+        },
+        {
+          "Item": "MelvorBase:Fertiliser",
+          "Quantity": 1
+        }
+      ],
+      "feed": [
+        {
+          "Item": "MelvorBase:Grain",
+          "Quantity": 10
+        }
+      ],
+      "treats": [
+        {
+          "Item": "MelvorBase:Corn",
+          "Quantity": 1,
+          "Satisfaction": 0.1
+        }
+      ],
+      "requiresPets": true,
+      "variants": [
+        {
+          "Variant": "MelvorBase:ChickenAdult",
+          "Weight": 5940
+        },
+        {
+          "Variant": "MelvorBase:ChickenAussie",
+          "Weight": 66
+        },
+        {
+          "Variant": "MelvorBase:ChickenRoyal",
+          "Weight": 66
+        },
+        {
+          "Variant": "MelvorBase:ChickenBirthday",
+          "Weight": 66
+        },
+        {
+          "Variant": "MelvorBase:ChickenChonky",
+          "Weight": 33
+        },
+        {
+          "Variant": "MelvorBase:ChickenGolden",
+          "Weight": 6
+        },
+        {
+          "Variant": "MelvorBase:ChickenRainbow",
+          "Weight": 6
+        },
+        {
+          "Variant": "MelvorBase:ChickenShiny",
+          "Weight": 1
+        }
+      ]
+    },
+    {
+      "id": "Sheep",
+      "displayName": "Sheep",
+      "unlockLevel": 1,
+      "purchaseGold": 13000,
+      "baseExperience": 34,
+      "maturityHours": 12.8,
+      "lifespanHours": 128.0,
+      "productCycleHours": 1.0,
+      "products": [
+        {
+          "Item": "MelvorBase:Wool",
+          "Quantity": 4
+        },
+        {
+          "Item": "MelvorBase:RawMeat",
+          "Quantity": 2
+        },
+        {
+          "Item": "MelvorBase:Fertiliser",
+          "Quantity": 2
+        }
+      ],
+      "feed": [],
+      "treats": [
+        {
+          "Item": "MelvorBase:Apple",
+          "Quantity": 1,
+          "Satisfaction": 0.1
+        }
+      ],
+      "requiresPets": true,
+      "variants": [
+        {
+          "Variant": "MelvorBase:SheepAdult",
+          "Weight": 4860
+        },
+        {
+          "Variant": "MelvorBase:SheepAussie",
+          "Weight": 54
+        },
+        {
+          "Variant": "MelvorBase:SheepRoyal",
+          "Weight": 54
+        },
+        {
+          "Variant": "MelvorBase:SheepBirthday",
+          "Weight": 54
+        },
+        {
+          "Variant": "MelvorBase:SheepChonky",
+          "Weight": 27
+        },
+        {
+          "Variant": "MelvorBase:SheepWoolie",
+          "Weight": 27
+        },
+        {
+          "Variant": "MelvorBase:SheepGolden",
+          "Weight": 5
+        },
+        {
+          "Variant": "MelvorBase:SheepShiny",
+          "Weight": 1
+        }
+      ]
+    },
+    {
+      "id": "Cow",
+      "displayName": "Cow",
+      "unlockLevel": 15,
+      "purchaseGold": 24000,
+      "baseExperience": 37,
+      "maturityHours": 19.2,
+      "lifespanHours": 192.0,
+      "productCycleHours": 1.0,
+      "products": [
+        {
+          "Item": "MelvorBase:Milk",
+          "Quantity": 3
+        },
+        {
+          "Item": "MelvorBase:Cowhide",
+          "Quantity": 2
+        },
+        {
+          "Item": "MelvorBase:RawBeef",
+          "Quantity": 2
+        },
+        {
+          "Item": "MelvorBase:Fertiliser",
+          "Quantity": 3
+        }
+      ],
+      "feed": [],
+      "treats": [
+        {
+          "Item": "MelvorBase:SnapeGrass",
+          "Quantity": 1,
+          "Satisfaction": 0.1
+        },
+        {
+          "Item": "MelvorBase:Pumpkin",
+          "Quantity": 1,
+          "Satisfaction": 0.1
+        }
+      ],
+      "requiresPets": true,
+      "variants": [
+        {
+          "Variant": "MelvorBase:CowAdult",
+          "Weight": 4860
+        },
+        {
+          "Variant": "MelvorBase:CowAussie",
+          "Weight": 54
+        },
+        {
+          "Variant": "MelvorBase:CowRoyal",
+          "Weight": 54
+        },
+        {
+          "Variant": "MelvorBase:CowBirthday",
+          "Weight": 54
+        },
+        {
+          "Variant": "MelvorBase:CowChonky",
+          "Weight": 27
+        },
+        {
+          "Variant": "MelvorBase:CowGolden",
+          "Weight": 5
+        },
+        {
+          "Variant": "MelvorBase:CowBrown",
+          "Weight": 5
+        },
+        {
+          "Variant": "MelvorBase:CowShiny",
+          "Weight": 1
+        }
+      ]
+    },
+    {
+      "id": "Pig",
+      "displayName": "Pig",
+      "unlockLevel": 35,
+      "purchaseGold": 3000,
+      "baseExperience": 40,
+      "maturityHours": 12.8,
+      "lifespanHours": 128.0,
+      "productCycleHours": 1.0,
+      "products": [
+        {
+          "Item": "MelvorBase:RawMeat",
+          "Quantity": 6
+        },
+        {
+          "Item": "MelvorBase:Fertiliser",
+          "Quantity": 2
+        }
+      ],
+      "feed": [
+        {
+          "Item": "MelvorBase:Grain",
+          "Quantity": 30
+        }
+      ],
+      "treats": [
+        {
+          "Item": "MelvorBase:Lobster",
+          "Quantity": 1,
+          "Satisfaction": 0.1
+        }
+      ],
+      "requiresPets": true,
+      "variants": [
+        {
+          "Variant": "MelvorBase:PigAdult",
+          "Weight": 4860
+        },
+        {
+          "Variant": "MelvorBase:PigAussie",
+          "Weight": 54
+        },
+        {
+          "Variant": "MelvorBase:PigRoyal",
+          "Weight": 54
+        },
+        {
+          "Variant": "MelvorBase:PigBirthday",
+          "Weight": 54
+        },
+        {
+          "Variant": "MelvorBase:PigChonky",
+          "Weight": 27
+        },
+        {
+          "Variant": "MelvorBase:PigGolden",
+          "Weight": 5
+        },
+        {
+          "Variant": "MelvorBase:PigShiny",
+          "Weight": 1
+        }
+      ]
+    },
+    {
+      "id": "Bee",
+      "displayName": "Bee",
+      "unlockLevel": 25,
+      "purchaseGold": 2000,
+      "baseExperience": 6,
+      "maturityHours": 6.4,
+      "lifespanHours": 64.0,
+      "productCycleHours": 1.0,
+      "products": [
+        {
+          "Item": "MelvorBase:Honey",
+          "Quantity": 1
+        },
+        {
+          "Item": "MelvorBase:Beeswax",
+          "Quantity": 2
+        }
+      ],
+      "feed": [
+        {
+          "Item": "MelvorBase:AmbervineLeaf",
+          "Quantity": 2
+        }
+      ],
+      "treats": [
+        {
+          "Item": "MelvorBase:Sunflower",
+          "Quantity": 1,
+          "Satisfaction": 0.04
+        },
+        {
+          "Item": "MelvorBase:MarigoldFlower",
+          "Quantity": 1,
+          "Satisfaction": 0.06
+        },
+        {
+          "Item": "MelvorBase:RosemaryFlower",
+          "Quantity": 1,
+          "Satisfaction": 0.08
+        }
+      ],
+      "requiresPets": false,
+      "variants": [
+        {
+          "Variant": "MelvorBase:BeeAdult",
+          "Weight": 18900
+        },
+        {
+          "Variant": "MelvorBase:BeeAussie",
+          "Weight": 210
+        },
+        {
+          "Variant": "MelvorBase:BeeRoyal",
+          "Weight": 210
+        },
+        {
+          "Variant": "MelvorBase:BeeBirthday",
+          "Weight": 210
+        },
+        {
+          "Variant": "MelvorBase:BeeGolden",
+          "Weight": 50
+        },
+        {
+          "Variant": "MelvorBase:BeeShiny",
+          "Weight": 10
+        }
+      ]
+    },
+    {
+      "id": "Silkworm",
+      "displayName": "Silkworm",
+      "unlockLevel": 45,
+      "purchaseGold": 1000,
+      "baseExperience": 8,
+      "maturityHours": 6.4,
+      "lifespanHours": 64.0,
+      "productCycleHours": 1.0,
+      "products": [
+        {
+          "Item": "MelvorBase:Silk",
+          "Quantity": 3
+        }
+      ],
+      "feed": [
+        {
+          "Item": "MelvorBase:AmbervineLeaf",
+          "Quantity": 2
+        }
+      ],
+      "treats": [
+        {
+          "Item": "MelvorBase:SpikemossLeaf",
+          "Quantity": 1,
+          "Satisfaction": 0.12
+        }
+      ],
+      "requiresPets": false,
+      "variants": [
+        {
+          "Variant": "MelvorBase:SilkwormAdult",
+          "Weight": 8100
+        },
+        {
+          "Variant": "MelvorBase:SilkwormAussie",
+          "Weight": 90
+        },
+        {
+          "Variant": "MelvorBase:SilkwormRoyal",
+          "Weight": 90
+        },
+        {
+          "Variant": "MelvorBase:SilkwormBirthday",
+          "Weight": 90
+        },
+        {
+          "Variant": "MelvorBase:SilkwormGolden",
+          "Weight": 10
+        },
+        {
+          "Variant": "MelvorBase:SilkwormShiny",
+          "Weight": 2
+        }
+      ]
+    },
+    {
+      "id": "Mealworm",
+      "displayName": "Mealworm",
+      "unlockLevel": null,
+      "purchaseGold": 1000,
+      "baseExperience": 1,
+      "maturityHours": 6.4,
+      "lifespanHours": 64.0,
+      "productCycleHours": 1.0,
+      "products": [
+        {
+          "Item": "MelvorBase:DemoPlaceholderItem",
+          "Quantity": 1,
+          "Chance": 1
+        }
+      ],
+      "feed": [
+        {
+          "Item": "MelvorBase:SpikemossLeaf",
+          "Quantity": 2
+        }
+      ],
+      "treats": [],
+      "requiresPets": false,
+      "variants": [
+        {
+          "Variant": "MelvorBase:MealwormAdult",
+          "Weight": 8100
+        },
+        {
+          "Variant": "MelvorBase:MealwormAussie",
+          "Weight": 90
+        },
+        {
+          "Variant": "MelvorBase:MealwormRoyal",
+          "Weight": 90
+        },
+        {
+          "Variant": "MelvorBase:MealwormBirthday",
+          "Weight": 90
+        },
+        {
+          "Variant": "MelvorBase:MealwormGolden",
+          "Weight": 10
+        },
+        {
+          "Variant": "MelvorBase:MealwormShiny",
+          "Weight": 2
+        }
+      ]
+    },
+    {
+      "id": "Elk",
+      "displayName": "Elk",
+      "unlockLevel": 55,
+      "purchaseGold": 100000,
+      "baseExperience": 52,
+      "maturityHours": 28.8,
+      "lifespanHours": 288.0,
+      "productCycleHours": 1.0,
+      "products": [
+        {
+          "Item": "MelvorBase:ElkHide",
+          "Quantity": 1
+        },
+        {
+          "Item": "MelvorBase:ElkAntler",
+          "Quantity": 1
+        },
+        {
+          "Item": "MelvorBase:RawMeat",
+          "Quantity": 2
+        },
+        {
+          "Item": "MelvorBase:Fertiliser",
+          "Quantity": 3
+        }
+      ],
+      "feed": [],
+      "treats": [],
+      "requiresPets": true,
+      "variants": [
+        {
+          "Variant": "MelvorBase:ElkAdult",
+          "Weight": 4860
+        },
+        {
+          "Variant": "MelvorBase:ElkAussie",
+          "Weight": 54
+        },
+        {
+          "Variant": "MelvorBase:ElkRoyal",
+          "Weight": 54
+        },
+        {
+          "Variant": "MelvorBase:ElkBirthday",
+          "Weight": 54
+        },
+        {
+          "Variant": "MelvorBase:ElkChonky",
+          "Weight": 27
+        },
+        {
+          "Variant": "MelvorBase:ElkGolden",
+          "Weight": 5
+        },
+        {
+          "Variant": "MelvorBase:ElkShiny",
+          "Weight": 1
+        }
+      ]
+    },
+    {
+      "id": "Wolf",
+      "displayName": "Wolf",
+      "unlockLevel": null,
+      "purchaseGold": 63000,
+      "baseExperience": 1,
+      "maturityHours": 19.2,
+      "lifespanHours": 192.0,
+      "productCycleHours": 1.0,
+      "products": [
+        {
+          "Item": "MelvorBase:DemoPlaceholderItem",
+          "Quantity": 1,
+          "Chance": 1
+        }
+      ],
+      "feed": [
+        {
+          "Item": "MelvorBase:RawMeat",
+          "Quantity": 4
+        }
+      ],
+      "treats": [
+        {
+          "Item": "MelvorBase:Bone",
+          "Quantity": 1,
+          "Satisfaction": 0.1
+        },
+        {
+          "Item": "MelvorBase:RabbitMeat",
+          "Quantity": 1,
+          "Satisfaction": 0.12
+        }
+      ],
+      "requiresPets": true,
+      "variants": [
+        {
+          "Variant": "MelvorBase:WolfAdult",
+          "Weight": 900
+        },
+        {
+          "Variant": "MelvorBase:WolfAussie",
+          "Weight": 10
+        },
+        {
+          "Variant": "MelvorBase:WolfRoyal",
+          "Weight": 10
+        },
+        {
+          "Variant": "MelvorBase:WolfBirthday",
+          "Weight": 10
+        },
+        {
+          "Variant": "MelvorBase:WolfGolden",
+          "Weight": 5
+        },
+        {
+          "Variant": "MelvorBase:WolfShiny",
+          "Weight": 1
+        },
+        {
+          "Variant": "MelvorBase:WolfWhite",
+          "Weight": 5
+        }
+      ]
+    },
+    {
+      "id": "GreenDragon",
+      "displayName": "Green Dragon",
+      "unlockLevel": null,
+      "purchaseGold": 255000,
+      "baseExperience": 1,
+      "maturityHours": 38.4,
+      "lifespanHours": 384.0,
+      "productCycleHours": 1.0,
+      "products": [
+        {
+          "Item": "MelvorBase:DemoPlaceholderItem",
+          "Quantity": 1,
+          "Chance": 1
+        }
+      ],
+      "feed": [
+        {
+          "Item": "MelvorBase:RawMeat",
+          "Quantity": 10
+        }
+      ],
+      "treats": [],
+      "requiresPets": true,
+      "variants": [
+        {
+          "Variant": "MelvorBase:GreenDragonAdult",
+          "Weight": 900
+        },
+        {
+          "Variant": "MelvorBase:GreenDragonAussie",
+          "Weight": 10
+        },
+        {
+          "Variant": "MelvorBase:GreenDragonRoyal",
+          "Weight": 10
+        },
+        {
+          "Variant": "MelvorBase:GreenDragonBirthday",
+          "Weight": 10
+        },
+        {
+          "Variant": "MelvorBase:DragonGolden",
+          "Weight": 5
+        },
+        {
+          "Variant": "MelvorBase:DragonShiny",
+          "Weight": 1
+        }
+      ]
+    },
+    {
+      "id": "BlueDragon",
+      "displayName": "Blue Dragon",
+      "unlockLevel": null,
+      "purchaseGold": 420000,
+      "baseExperience": 1,
+      "maturityHours": 38.4,
+      "lifespanHours": 384.0,
+      "productCycleHours": 1.0,
+      "products": [
+        {
+          "Item": "MelvorBase:DemoPlaceholderItem",
+          "Quantity": 1,
+          "Chance": 1
+        }
+      ],
+      "feed": [
+        {
+          "Item": "MelvorBase:RawMeat",
+          "Quantity": 10
+        }
+      ],
+      "treats": [],
+      "requiresPets": true,
+      "variants": [
+        {
+          "Variant": "MelvorBase:BlueDragonAdult",
+          "Weight": 900
+        },
+        {
+          "Variant": "MelvorBase:BlueDragonAussie",
+          "Weight": 10
+        },
+        {
+          "Variant": "MelvorBase:BlueDragonRoyal",
+          "Weight": 10
+        },
+        {
+          "Variant": "MelvorBase:BlueDragonBirthday",
+          "Weight": 10
+        },
+        {
+          "Variant": "MelvorBase:DragonGolden",
+          "Weight": 5
+        },
+        {
+          "Variant": "MelvorBase:DragonShiny",
+          "Weight": 1
+        }
+      ]
+    },
+    {
+      "id": "RedDragon",
+      "displayName": "Red Dragon",
+      "unlockLevel": null,
+      "purchaseGold": 590000,
+      "baseExperience": 1,
+      "maturityHours": 38.4,
+      "lifespanHours": 384.0,
+      "productCycleHours": 1.0,
+      "products": [
+        {
+          "Item": "MelvorBase:DemoPlaceholderItem",
+          "Quantity": 1,
+          "Chance": 1
+        }
+      ],
+      "feed": [
+        {
+          "Item": "MelvorBase:RawMeat",
+          "Quantity": 10
+        }
+      ],
+      "treats": [],
+      "requiresPets": true,
+      "variants": [
+        {
+          "Variant": "MelvorBase:RedDragonAdult",
+          "Weight": 900
+        },
+        {
+          "Variant": "MelvorBase:RedDragonAussie",
+          "Weight": 10
+        },
+        {
+          "Variant": "MelvorBase:RedDragonRoyal",
+          "Weight": 10
+        },
+        {
+          "Variant": "MelvorBase:RedDragonBirthday",
+          "Weight": 10
+        },
+        {
+          "Variant": "MelvorBase:DragonGolden",
+          "Weight": 5
+        },
+        {
+          "Variant": "MelvorBase:DragonShiny",
+          "Weight": 1
+        }
+      ]
+    },
+    {
+      "id": "BlackDragon",
+      "displayName": "Black Dragon",
+      "unlockLevel": null,
+      "purchaseGold": 1470000,
+      "baseExperience": 1,
+      "maturityHours": 38.4,
+      "lifespanHours": 384.0,
+      "productCycleHours": 1.0,
+      "products": [
+        {
+          "Item": "MelvorBase:DemoPlaceholderItem",
+          "Quantity": 1,
+          "Chance": 1
+        }
+      ],
+      "feed": [
+        {
+          "Item": "MelvorBase:RawMeat",
+          "Quantity": 10
+        }
+      ],
+      "treats": [],
+      "requiresPets": true,
+      "variants": [
+        {
+          "Variant": "MelvorBase:BlackDragonAdult",
+          "Weight": 900
+        },
+        {
+          "Variant": "MelvorBase:BlackDragonAussie",
+          "Weight": 10
+        },
+        {
+          "Variant": "MelvorBase:BlackDragonRoyal",
+          "Weight": 10
+        },
+        {
+          "Variant": "MelvorBase:BlackDragonBirthday",
+          "Weight": 10
+        },
+        {
+          "Variant": "MelvorBase:DragonGolden",
+          "Weight": 5
+        },
+        {
+          "Variant": "MelvorBase:DragonShiny",
+          "Weight": 1
+        }
+      ]
+    },
+    {
+      "id": "Caribou",
+      "displayName": "Caribou",
+      "unlockLevel": null,
+      "purchaseGold": 460000,
+      "baseExperience": 1,
+      "maturityHours": 30.0,
+      "lifespanHours": 300.0,
+      "productCycleHours": 1.0,
+      "products": [
+        {
+          "Item": "MelvorBase:DemoPlaceholderItem",
+          "Quantity": 1,
+          "Chance": 1
+        }
+      ],
+      "feed": [],
+      "treats": [],
+      "requiresPets": true,
+      "variants": [
+        {
+          "Variant": "MelvorBase:CaribouAdult",
+          "Weight": 900
+        }
+      ]
+    },
+    {
+      "id": "TopazGolem",
+      "displayName": "Topaz Golem",
+      "unlockLevel": null,
+      "purchaseGold": 1000000,
+      "baseExperience": 1,
+      "maturityHours": 48.0,
+      "lifespanHours": 480.0,
+      "productCycleHours": 1.0,
+      "products": [
+        {
+          "Item": "MelvorBase:DemoPlaceholderItem",
+          "Quantity": 1,
+          "Chance": 1
+        }
+      ],
+      "feed": [
+        {
+          "Item": "MelvorBase:GeodeDust",
+          "Quantity": 1
+        }
+      ],
+      "treats": [],
+      "requiresPets": true,
+      "variants": [
+        {
+          "Variant": "MelvorBase:TopazGolemAdult",
+          "Weight": 900
+        },
+        {
+          "Variant": "MelvorBase:TopazGolemAussie",
+          "Weight": 10
+        },
+        {
+          "Variant": "MelvorBase:TopazGolemRoyal",
+          "Weight": 10
+        },
+        {
+          "Variant": "MelvorBase:TopazGolemBirthday",
+          "Weight": 10
+        },
+        {
+          "Variant": "MelvorBase:TopazGolemGolden",
+          "Weight": 5
+        },
+        {
+          "Variant": "MelvorBase:TopazGolemShiny",
+          "Weight": 1
+        }
+      ]
+    },
+    {
+      "id": "SapphireGolem",
+      "displayName": "Sapphire Golem",
+      "unlockLevel": null,
+      "purchaseGold": 1100000,
+      "baseExperience": 1,
+      "maturityHours": 48.0,
+      "lifespanHours": 480.0,
+      "productCycleHours": 1.0,
+      "products": [
+        {
+          "Item": "MelvorBase:DemoPlaceholderItem",
+          "Quantity": 1,
+          "Chance": 1
+        }
+      ],
+      "feed": [
+        {
+          "Item": "MelvorBase:GeodeDust",
+          "Quantity": 1
+        }
+      ],
+      "treats": [],
+      "requiresPets": true,
+      "variants": [
+        {
+          "Variant": "MelvorBase:SapphireGolemAdult",
+          "Weight": 900
+        },
+        {
+          "Variant": "MelvorBase:SapphireGolemAussie",
+          "Weight": 10
+        },
+        {
+          "Variant": "MelvorBase:SapphireGolemRoyal",
+          "Weight": 10
+        },
+        {
+          "Variant": "MelvorBase:SapphireGolemBirthday",
+          "Weight": 10
+        },
+        {
+          "Variant": "MelvorBase:SapphireGolemGolden",
+          "Weight": 5
+        },
+        {
+          "Variant": "MelvorBase:SapphireGolemShiny",
+          "Weight": 1
+        }
+      ]
+    },
+    {
+      "id": "RubyGolem",
+      "displayName": "Ruby Golem",
+      "unlockLevel": null,
+      "purchaseGold": 1135000,
+      "baseExperience": 1,
+      "maturityHours": 48.0,
+      "lifespanHours": 480.0,
+      "productCycleHours": 1.0,
+      "products": [
+        {
+          "Item": "MelvorBase:DemoPlaceholderItem",
+          "Quantity": 1,
+          "Chance": 1
+        }
+      ],
+      "feed": [
+        {
+          "Item": "MelvorBase:GeodeDust",
+          "Quantity": 1
+        }
+      ],
+      "treats": [],
+      "requiresPets": true,
+      "variants": [
+        {
+          "Variant": "MelvorBase:RubyGolemAdult",
+          "Weight": 900
+        },
+        {
+          "Variant": "MelvorBase:RubyGolemAussie",
+          "Weight": 10
+        },
+        {
+          "Variant": "MelvorBase:RubyGolemRoyal",
+          "Weight": 10
+        },
+        {
+          "Variant": "MelvorBase:RubyGolemBirthday",
+          "Weight": 10
+        },
+        {
+          "Variant": "MelvorBase:RubyGolemGolden",
+          "Weight": 5
+        },
+        {
+          "Variant": "MelvorBase:RubyGolemShiny",
+          "Weight": 1
+        }
+      ]
+    },
+    {
+      "id": "EmeraldGolem",
+      "displayName": "Emerald Golem",
+      "unlockLevel": null,
+      "purchaseGold": 1225000,
+      "baseExperience": 1,
+      "maturityHours": 48.0,
+      "lifespanHours": 480.0,
+      "productCycleHours": 1.0,
+      "products": [
+        {
+          "Item": "MelvorBase:DemoPlaceholderItem",
+          "Quantity": 1,
+          "Chance": 1
+        }
+      ],
+      "feed": [
+        {
+          "Item": "MelvorBase:GeodeDust",
+          "Quantity": 1
+        }
+      ],
+      "treats": [],
+      "requiresPets": true,
+      "variants": [
+        {
+          "Variant": "MelvorBase:EmeraldGolemAdult",
+          "Weight": 900
+        },
+        {
+          "Variant": "MelvorBase:EmeraldGolemAussie",
+          "Weight": 10
+        },
+        {
+          "Variant": "MelvorBase:EmeraldGolemRoyal",
+          "Weight": 10
+        },
+        {
+          "Variant": "MelvorBase:EmeraldGolemBirthday",
+          "Weight": 10
+        },
+        {
+          "Variant": "MelvorBase:EmeraldGolemGolden",
+          "Weight": 5
+        },
+        {
+          "Variant": "MelvorBase:EmeraldGolemShiny",
+          "Weight": 1
+        }
+      ]
+    },
+    {
+      "id": "DiamondGolem",
+      "displayName": "Diamond Golem",
+      "unlockLevel": null,
+      "purchaseGold": 1850000,
+      "baseExperience": 1,
+      "maturityHours": 48.0,
+      "lifespanHours": 480.0,
+      "productCycleHours": 1.0,
+      "products": [
+        {
+          "Item": "MelvorBase:DemoPlaceholderItem",
+          "Quantity": 1,
+          "Chance": 1
+        }
+      ],
+      "feed": [
+        {
+          "Item": "MelvorBase:GeodeDust",
+          "Quantity": 1
+        }
+      ],
+      "treats": [],
+      "requiresPets": true,
+      "variants": [
+        {
+          "Variant": "MelvorBase:DiamondGolemAdult",
+          "Weight": 900
+        },
+        {
+          "Variant": "MelvorBase:DiamondGolemAussie",
+          "Weight": 10
+        },
+        {
+          "Variant": "MelvorBase:DiamondGolemRoyal",
+          "Weight": 10
+        },
+        {
+          "Variant": "MelvorBase:DiamondGolemBirthday",
+          "Weight": 10
+        },
+        {
+          "Variant": "MelvorBase:DiamondGolemGolden",
+          "Weight": 5
+        },
+        {
+          "Variant": "MelvorBase:DiamondGolemShiny",
+          "Weight": 1
+        }
+      ]
+    },
+    {
+      "id": "JadestoneGolem",
+      "displayName": "Jadestone Golem",
+      "unlockLevel": null,
+      "purchaseGold": 2160000,
+      "baseExperience": 1,
+      "maturityHours": 48.0,
+      "lifespanHours": 480.0,
+      "productCycleHours": 1.0,
+      "products": [
+        {
+          "Item": "MelvorBase:DemoPlaceholderItem",
+          "Quantity": 1,
+          "Chance": 1
+        }
+      ],
+      "feed": [
+        {
+          "Item": "MelvorBase:GeodeDust",
+          "Quantity": 1
+        }
+      ],
+      "treats": [],
+      "requiresPets": true,
+      "variants": [
+        {
+          "Variant": "MelvorBase:JadestoneGolemAdult",
+          "Weight": 900
+        },
+        {
+          "Variant": "MelvorBase:JadestoneGolemAussie",
+          "Weight": 10
+        },
+        {
+          "Variant": "MelvorBase:JadestoneGolemRoyal",
+          "Weight": 10
+        },
+        {
+          "Variant": "MelvorBase:JadestoneGolemBirthday",
+          "Weight": 10
+        },
+        {
+          "Variant": "MelvorBase:JadestoneGolemGolden",
+          "Weight": 5
+        },
+        {
+          "Variant": "MelvorBase:JadestoneGolemShiny",
+          "Weight": 1
+        }
+      ]
+    }
+  ]
+}
