@@ -20,8 +20,9 @@ Open a skill and order actions by **XP/hour, primary items/hour or gross GP/hour
 | Cooking | 36 | 74 |
 | Firemaking | 11 | 25 |
 | Herblore | 0 | 152 (locked placeholders) |
+| Farming | 26 | 49 |
 
-Navigation includes all **25 skills** from the shipped package. Twelve sections now have fixed tables; the remaining sections are pending verification, with no fabricated rates. Locked and conditional definitions are labelled and excluded by default. Recipe definitions do not prove playability.
+Navigation includes all **25 skills** from the shipped package. Thirteen sections now have fixed tables; the remaining sections are pending verification, with no fabricated rates. Locked and conditional definitions are labelled and excluded by default. Recipe definitions do not prove playability.
 
 Source: demo **v0.11.2-alpha.4**, Steam build **26074343**, checked 25 October 2026. Mining includes built-in prospecting progress; fishing includes junk, weighted fish and sequential special rolls. See [verified formulas](docs/BASE_SKILL_FORMULAS.md) and [extraction provenance](docs/EXTRACTED_DATA.md). Gold includes direct sale of listed drops, without opening containers or deducting costs; it is revenue, not profit. Item throughput counts primary products only.
 

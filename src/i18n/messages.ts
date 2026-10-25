@@ -11,7 +11,7 @@ export const messages={
     products:'Expected drops',hour:'items / hour',nominal:'One game hour = 3,600 seconds',noResult:'Unknown values are shown as — and are never ranked as zero.',
     methods:'View formula verification',modifiers:'About modifiers',modifiersText:'Equipment and other improvements will be covered separately in an article. They do not alter these tables.',
     footer:'Unofficial reference. Melvor Idle 2 and its related content belong to their respective owners.',
-    skillLabel:'Choose a skill',sourceRecord:'Source record',conditions:'Unlock conditions',notice:'12 verified tables · 25 skill sections',
+    skillLabel:'Choose a skill',sourceRecord:'Source record',conditions:'Unlock conditions',notice:'13 verified tables · 25 skill sections',
     unknown:'Not established',quantity:'Mean quantity / roll',probability:'Base probability',
   },
   ru:{
@@ -26,7 +26,7 @@ export const messages={
     products:'Ожидаемая добыча',hour:'предметов / час',nominal:'Игровой час = 3600 секунд',noResult:'Неизвестные значения показаны знаком — и не считаются нулём при сортировке.',
     methods:'Проверка формул',modifiers:'О модификаторах',modifiersText:'Экипировка и другие улучшения будут разобраны в отдельной статье. Эти таблицы они не изменяют.',
     footer:'Неофициальный справочник. Melvor Idle 2 и связанные материалы принадлежат своим правообладателям.',
-    skillLabel:'Выбрать навык',sourceRecord:'Запись источника',conditions:'Условия открытия',notice:'12 проверенных таблиц · 25 разделов навыков',
+    skillLabel:'Выбрать навык',sourceRecord:'Запись источника',conditions:'Условия открытия',notice:'13 проверенных таблиц · 25 разделов навыков',
     unknown:'Не установлено',quantity:'Среднее количество за бросок',probability:'Базовая вероятность',
   },
 } as const;

@@ -1,0 +1,1633 @@
+{
+  "id": "farming",
+  "gameVersion": "0.11.2-alpha.4",
+  "steamBuildId": "26074343",
+  "packageSha256": "2b43f26ce76d86178f56a72c8dced08a0ae545779786cccdcac868bdc3478474",
+  "checkedAt": "2026-10-25",
+  "method": "docs/BASE_SKILL_FORMULAS.md#farming",
+  "rows": [
+    {
+      "id": "Potato",
+      "gameId": "MelvorBase:Potato",
+      "name": "Potato",
+      "requiredLevel": 1,
+      "availability": "demo",
+      "conditions": [
+        "Farming level 1"
+      ],
+      "intervalSeconds": 5400.0,
+      "intervalLabel": "5400s growth + 0 regrowths",
+      "baseXp": 34,
+      "successChance": 1,
+      "xpPerHour": 22.666666666666664,
+      "itemsPerHour": 33.33333333333333,
+      "gpPerHour": 66.66666666666666,
+      "products": [
+        {
+          "id": "MelvorBase:Potato",
+          "name": "Potato",
+          "role": "primary",
+          "basis": "healthy plot harvests",
+          "probability": 1,
+          "quantity": 50,
+          "itemsPerHour": 33.33333333333333,
+          "gpPerHour": 66.66666666666666
+        }
+      ],
+      "sourcePointer": "/Objects/FarmingRecipe/0",
+      "notes": [
+        "Healthy plot baseline: no disease or pest reduction; water/compost and automation are excluded.",
+        "Regrowths are amortized across the first harvest cycle; seed and plot costs are shown as conditions only, not deducted from gross GP."
+      ]
+    },
+    {
+      "id": "Onion",
+      "gameId": "MelvorBase:Onion",
+      "name": "Onion",
+      "requiredLevel": 5,
+      "availability": "demo",
+      "conditions": [
+        "Farming level 5"
+      ],
+      "intervalSeconds": 7200.0,
+      "intervalLabel": "7200s growth + 0 regrowths",
+      "baseXp": 49,
+      "successChance": 1,
+      "xpPerHour": 24.5,
+      "itemsPerHour": 25.0,
+      "gpPerHour": 75.0,
+      "products": [
+        {
+          "id": "MelvorBase:Onion",
+          "name": "Onion",
+          "role": "primary",
+          "basis": "healthy plot harvests",
+          "probability": 1,
+          "quantity": 50,
+          "itemsPerHour": 25.0,
+          "gpPerHour": 75.0
+        }
+      ],
+      "sourcePointer": "/Objects/FarmingRecipe/1",
+      "notes": [
+        "Healthy plot baseline: no disease or pest reduction; water/compost and automation are excluded.",
+        "Regrowths are amortized across the first harvest cycle; seed and plot costs are shown as conditions only, not deducted from gross GP."
+      ]
+    },
+    {
+      "id": "Cabbage",
+      "gameId": "MelvorBase:Cabbage",
+      "name": "Cabbage",
+      "requiredLevel": null,
+      "availability": "locked",
+      "conditions": [],
+      "intervalSeconds": 10.0,
+      "intervalLabel": "10s growth + 0 regrowths",
+      "baseXp": 1,
+      "successChance": 1,
+      "xpPerHour": 360.0,
+      "itemsPerHour": 360.0,
+      "gpPerHour": 0.0,
+      "products": [
+        {
+          "id": "MelvorBase:DemoPlaceholderItem",
+          "name": "DemoPlaceholderItem",
+          "role": "primary",
+          "basis": "healthy plot harvests",
+          "probability": 1,
+          "quantity": 1,
+          "itemsPerHour": 360.0,
+          "gpPerHour": 0.0
+        }
+      ],
+      "sourcePointer": "/Objects/FarmingRecipe/2",
+      "notes": [
+        "Healthy plot baseline: no disease or pest reduction; water/compost and automation are excluded.",
+        "Regrowths are amortized across the first harvest cycle; seed and plot costs are shown as conditions only, not deducted from gross GP."
+      ]
+    },
+    {
+      "id": "Wheat",
+      "gameId": "MelvorBase:Wheat",
+      "name": "Wheat",
+      "requiredLevel": 10,
+      "availability": "demo",
+      "conditions": [
+        "Farming level 10"
+      ],
+      "intervalSeconds": 14400.0,
+      "intervalLabel": "14400s growth + 0 regrowths",
+      "baseXp": 30,
+      "successChance": 1,
+      "xpPerHour": 7.5,
+      "itemsPerHour": 125.0,
+      "gpPerHour": 125.0,
+      "products": [
+        {
+          "id": "MelvorBase:Wheat",
+          "name": "Wheat",
+          "role": "primary",
+          "basis": "healthy plot harvests",
+          "probability": 1,
+          "quantity": 500,
+          "itemsPerHour": 125.0,
+          "gpPerHour": 125.0
+        }
+      ],
+      "sourcePointer": "/Objects/FarmingRecipe/3",
+      "notes": [
+        "Healthy plot baseline: no disease or pest reduction; water/compost and automation are excluded.",
+        "Regrowths are amortized across the first harvest cycle; seed and plot costs are shown as conditions only, not deducted from gross GP."
+      ]
+    },
+    {
+      "id": "Sugarcane",
+      "gameId": "MelvorBase:Sugarcane",
+      "name": "Sugarcane",
+      "requiredLevel": 20,
+      "availability": "demo",
+      "conditions": [
+        "Farming level 20"
+      ],
+      "intervalSeconds": 7200.0,
+      "intervalLabel": "7200s growth + 0 regrowths",
+      "baseXp": 23,
+      "successChance": 1,
+      "xpPerHour": 11.5,
+      "itemsPerHour": 125.0,
+      "gpPerHour": 125.0,
+      "products": [
+        {
+          "id": "MelvorBase:Sugarcane",
+          "name": "Sugarcane",
+          "role": "primary",
+          "basis": "healthy plot harvests",
+          "probability": 1,
+          "quantity": 250,
+          "itemsPerHour": 125.0,
+          "gpPerHour": 125.0
+        }
+      ],
+      "sourcePointer": "/Objects/FarmingRecipe/4",
+      "notes": [
+        "Healthy plot baseline: no disease or pest reduction; water/compost and automation are excluded.",
+        "Regrowths are amortized across the first harvest cycle; seed and plot costs are shown as conditions only, not deducted from gross GP."
+      ]
+    },
+    {
+      "id": "Strawberry",
+      "gameId": "MelvorBase:Strawberry",
+      "name": "Strawberry",
+      "requiredLevel": 21,
+      "availability": "demo",
+      "conditions": [
+        "Farming level 21"
+      ],
+      "intervalSeconds": 10800.0,
+      "intervalLabel": "10800s growth + 0 regrowths",
+      "baseXp": 95,
+      "successChance": 1,
+      "xpPerHour": 31.666666666666664,
+      "itemsPerHour": 16.666666666666664,
+      "gpPerHour": 99.99999999999999,
+      "products": [
+        {
+          "id": "MelvorBase:Strawberry",
+          "name": "Strawberry",
+          "role": "primary",
+          "basis": "healthy plot harvests",
+          "probability": 1,
+          "quantity": 50,
+          "itemsPerHour": 16.666666666666664,
+          "gpPerHour": 99.99999999999999
+        }
+      ],
+      "sourcePointer": "/Objects/FarmingRecipe/5",
+      "notes": [
+        "Healthy plot baseline: no disease or pest reduction; water/compost and automation are excluded.",
+        "Regrowths are amortized across the first harvest cycle; seed and plot costs are shown as conditions only, not deducted from gross GP."
+      ]
+    },
+    {
+      "id": "Lettuce",
+      "gameId": "MelvorBase:Lettuce",
+      "name": "Lettuce",
+      "requiredLevel": 15,
+      "availability": "demo",
+      "conditions": [
+        "Farming level 15"
+      ],
+      "intervalSeconds": 9000.0,
+      "intervalLabel": "9000s growth + 0 regrowths",
+      "baseXp": 75,
+      "successChance": 1,
+      "xpPerHour": 30.0,
+      "itemsPerHour": 20.0,
+      "gpPerHour": 80.0,
+      "products": [
+        {
+          "id": "MelvorBase:Lettuce",
+          "name": "Lettuce",
+          "role": "primary",
+          "basis": "healthy plot harvests",
+          "probability": 1,
+          "quantity": 50,
+          "itemsPerHour": 20.0,
+          "gpPerHour": 80.0
+        }
+      ],
+      "sourcePointer": "/Objects/FarmingRecipe/6",
+      "notes": [
+        "Healthy plot baseline: no disease or pest reduction; water/compost and automation are excluded.",
+        "Regrowths are amortized across the first harvest cycle; seed and plot costs are shown as conditions only, not deducted from gross GP."
+      ]
+    },
+    {
+      "id": "Garlic",
+      "gameId": "MelvorBase:Garlic",
+      "name": "Garlic",
+      "requiredLevel": 33,
+      "availability": "demo",
+      "conditions": [
+        "Farming level 33"
+      ],
+      "intervalSeconds": 14400.0,
+      "intervalLabel": "14400s growth + 0 regrowths",
+      "baseXp": 146,
+      "successChance": 1,
+      "xpPerHour": 36.5,
+      "itemsPerHour": 15.0,
+      "gpPerHour": 90.0,
+      "products": [
+        {
+          "id": "MelvorBase:Garlic",
+          "name": "Garlic",
+          "role": "primary",
+          "basis": "healthy plot harvests",
+          "probability": 1,
+          "quantity": 60,
+          "itemsPerHour": 15.0,
+          "gpPerHour": 90.0
+        }
+      ],
+      "sourcePointer": "/Objects/FarmingRecipe/7",
+      "notes": [
+        "Healthy plot baseline: no disease or pest reduction; water/compost and automation are excluded.",
+        "Regrowths are amortized across the first harvest cycle; seed and plot costs are shown as conditions only, not deducted from gross GP."
+      ]
+    },
+    {
+      "id": "Corn",
+      "gameId": "MelvorBase:Corn",
+      "name": "Corn",
+      "requiredLevel": 40,
+      "availability": "demo",
+      "conditions": [
+        "Farming level 40"
+      ],
+      "intervalSeconds": 16200.0,
+      "intervalLabel": "16200s growth + 0 regrowths",
+      "baseXp": 219,
+      "successChance": 1,
+      "xpPerHour": 48.666666666666664,
+      "itemsPerHour": 8.88888888888889,
+      "gpPerHour": 71.11111111111111,
+      "products": [
+        {
+          "id": "MelvorBase:Corn",
+          "name": "Corn",
+          "role": "primary",
+          "basis": "healthy plot harvests",
+          "probability": 1,
+          "quantity": 40,
+          "itemsPerHour": 8.88888888888889,
+          "gpPerHour": 71.11111111111111
+        }
+      ],
+      "sourcePointer": "/Objects/FarmingRecipe/8",
+      "notes": [
+        "Healthy plot baseline: no disease or pest reduction; water/compost and automation are excluded.",
+        "Regrowths are amortized across the first harvest cycle; seed and plot costs are shown as conditions only, not deducted from gross GP."
+      ]
+    },
+    {
+      "id": "Watermelon",
+      "gameId": "MelvorBase:Watermelon",
+      "name": "Watermelon",
+      "requiredLevel": 48,
+      "availability": "demo",
+      "conditions": [
+        "Farming level 48"
+      ],
+      "intervalSeconds": 18000.0,
+      "intervalLabel": "18000s growth + 0 regrowths",
+      "baseXp": 297,
+      "successChance": 1,
+      "xpPerHour": 59.400000000000006,
+      "itemsPerHour": 4.0,
+      "gpPerHour": 72.0,
+      "products": [
+        {
+          "id": "MelvorBase:Watermelon",
+          "name": "Watermelon",
+          "role": "primary",
+          "basis": "healthy plot harvests",
+          "probability": 1,
+          "quantity": 20,
+          "itemsPerHour": 4.0,
+          "gpPerHour": 72.0
+        }
+      ],
+      "sourcePointer": "/Objects/FarmingRecipe/9",
+      "notes": [
+        "Healthy plot baseline: no disease or pest reduction; water/compost and automation are excluded.",
+        "Regrowths are amortized across the first harvest cycle; seed and plot costs are shown as conditions only, not deducted from gross GP."
+      ]
+    },
+    {
+      "id": "SnapeGrass",
+      "gameId": "MelvorBase:SnapeGrass",
+      "name": "Snape Grass",
+      "requiredLevel": 54,
+      "availability": "demo",
+      "conditions": [
+        "Farming level 54"
+      ],
+      "intervalSeconds": 19800.0,
+      "intervalLabel": "19800s growth + 0 regrowths",
+      "baseXp": 383,
+      "successChance": 1,
+      "xpPerHour": 69.63636363636364,
+      "itemsPerHour": 7.272727272727273,
+      "gpPerHour": 80.0,
+      "products": [
+        {
+          "id": "MelvorBase:SnapeGrass",
+          "name": "Snape Grass",
+          "role": "primary",
+          "basis": "healthy plot harvests",
+          "probability": 1,
+          "quantity": 40,
+          "itemsPerHour": 7.272727272727273,
+          "gpPerHour": 80.0
+        }
+      ],
+      "sourcePointer": "/Objects/FarmingRecipe/10",
+      "notes": [
+        "Healthy plot baseline: no disease or pest reduction; water/compost and automation are excluded.",
+        "Regrowths are amortized across the first harvest cycle; seed and plot costs are shown as conditions only, not deducted from gross GP."
+      ]
+    },
+    {
+      "id": "Tomato",
+      "gameId": "MelvorBase:Tomato",
+      "name": "Tomato",
+      "requiredLevel": null,
+      "availability": "locked",
+      "conditions": [],
+      "intervalSeconds": 10.0,
+      "intervalLabel": "10s growth + 0 regrowths",
+      "baseXp": 1,
+      "successChance": 1,
+      "xpPerHour": 360.0,
+      "itemsPerHour": 360.0,
+      "gpPerHour": 0.0,
+      "products": [
+        {
+          "id": "MelvorBase:DemoPlaceholderItem",
+          "name": "DemoPlaceholderItem",
+          "role": "primary",
+          "basis": "healthy plot harvests",
+          "probability": 1,
+          "quantity": 1,
+          "itemsPerHour": 360.0,
+          "gpPerHour": 0.0
+        }
+      ],
+      "sourcePointer": "/Objects/FarmingRecipe/11",
+      "notes": [
+        "Healthy plot baseline: no disease or pest reduction; water/compost and automation are excluded.",
+        "Regrowths are amortized across the first harvest cycle; seed and plot costs are shown as conditions only, not deducted from gross GP."
+      ]
+    },
+    {
+      "id": "Carrot",
+      "gameId": "MelvorBase:Carrot",
+      "name": "Carrot",
+      "requiredLevel": null,
+      "availability": "locked",
+      "conditions": [],
+      "intervalSeconds": 10.0,
+      "intervalLabel": "10s growth + 0 regrowths",
+      "baseXp": 1,
+      "successChance": 1,
+      "xpPerHour": 360.0,
+      "itemsPerHour": 360.0,
+      "gpPerHour": 0.0,
+      "products": [
+        {
+          "id": "MelvorBase:DemoPlaceholderItem",
+          "name": "DemoPlaceholderItem",
+          "role": "primary",
+          "basis": "healthy plot harvests",
+          "probability": 1,
+          "quantity": 1,
+          "itemsPerHour": 360.0,
+          "gpPerHour": 0.0
+        }
+      ],
+      "sourcePointer": "/Objects/FarmingRecipe/12",
+      "notes": [
+        "Healthy plot baseline: no disease or pest reduction; water/compost and automation are excluded.",
+        "Regrowths are amortized across the first harvest cycle; seed and plot costs are shown as conditions only, not deducted from gross GP."
+      ]
+    },
+    {
+      "id": "Pumpkin",
+      "gameId": "MelvorBase:Pumpkin",
+      "name": "Pumpkin",
+      "requiredLevel": null,
+      "availability": "locked",
+      "conditions": [],
+      "intervalSeconds": 10.0,
+      "intervalLabel": "10s growth + 0 regrowths",
+      "baseXp": 1,
+      "successChance": 1,
+      "xpPerHour": 360.0,
+      "itemsPerHour": 360.0,
+      "gpPerHour": 0.0,
+      "products": [
+        {
+          "id": "MelvorBase:DemoPlaceholderItem",
+          "name": "DemoPlaceholderItem",
+          "role": "primary",
+          "basis": "healthy plot harvests",
+          "probability": 1,
+          "quantity": 1,
+          "itemsPerHour": 360.0,
+          "gpPerHour": 0.0
+        }
+      ],
+      "sourcePointer": "/Objects/FarmingRecipe/13",
+      "notes": [
+        "Healthy plot baseline: no disease or pest reduction; water/compost and automation are excluded.",
+        "Regrowths are amortized across the first harvest cycle; seed and plot costs are shown as conditions only, not deducted from gross GP."
+      ]
+    },
+    {
+      "id": "Cauliflower",
+      "gameId": "MelvorBase:Cauliflower",
+      "name": "Cauliflower",
+      "requiredLevel": null,
+      "availability": "locked",
+      "conditions": [],
+      "intervalSeconds": 10.0,
+      "intervalLabel": "10s growth + 0 regrowths",
+      "baseXp": 1,
+      "successChance": 1,
+      "xpPerHour": 360.0,
+      "itemsPerHour": 360.0,
+      "gpPerHour": 0.0,
+      "products": [
+        {
+          "id": "MelvorBase:DemoPlaceholderItem",
+          "name": "DemoPlaceholderItem",
+          "role": "primary",
+          "basis": "healthy plot harvests",
+          "probability": 1,
+          "quantity": 1,
+          "itemsPerHour": 360.0,
+          "gpPerHour": 0.0
+        }
+      ],
+      "sourcePointer": "/Objects/FarmingRecipe/14",
+      "notes": [
+        "Healthy plot baseline: no disease or pest reduction; water/compost and automation are excluded.",
+        "Regrowths are amortized across the first harvest cycle; seed and plot costs are shown as conditions only, not deducted from gross GP."
+      ]
+    },
+    {
+      "id": "PenrilHerb",
+      "gameId": "MelvorBase:PenrilHerb",
+      "name": "Penril Herb",
+      "requiredLevel": 5,
+      "availability": "demo",
+      "conditions": [
+        "Farming level 5"
+      ],
+      "intervalSeconds": 7200.0,
+      "intervalLabel": "7200s growth + 0 regrowths",
+      "baseXp": 47,
+      "successChance": 1,
+      "xpPerHour": 23.5,
+      "itemsPerHour": 50.0,
+      "gpPerHour": 250.0,
+      "products": [
+        {
+          "id": "MelvorBase:PenrilHerb",
+          "name": "Penril Herb",
+          "role": "primary",
+          "basis": "healthy plot harvests",
+          "probability": 1,
+          "quantity": 100,
+          "itemsPerHour": 50.0,
+          "gpPerHour": 250.0
+        }
+      ],
+      "sourcePointer": "/Objects/FarmingRecipe/15",
+      "notes": [
+        "Healthy plot baseline: no disease or pest reduction; water/compost and automation are excluded.",
+        "Regrowths are amortized across the first harvest cycle; seed and plot costs are shown as conditions only, not deducted from gross GP."
+      ]
+    },
+    {
+      "id": "SourweedHerb",
+      "gameId": "MelvorBase:SourweedHerb",
+      "name": "Sourweed Herb",
+      "requiredLevel": 15,
+      "availability": "demo",
+      "conditions": [
+        "Farming level 15"
+      ],
+      "intervalSeconds": 10800.0,
+      "intervalLabel": "10800s growth + 0 regrowths",
+      "baseXp": 86,
+      "successChance": 1,
+      "xpPerHour": 28.666666666666664,
+      "itemsPerHour": 33.33333333333333,
+      "gpPerHour": 233.33333333333331,
+      "products": [
+        {
+          "id": "MelvorBase:SourweedHerb",
+          "name": "Sourweed Herb",
+          "role": "primary",
+          "basis": "healthy plot harvests",
+          "probability": 1,
+          "quantity": 100,
+          "itemsPerHour": 33.33333333333333,
+          "gpPerHour": 233.33333333333331
+        }
+      ],
+      "sourcePointer": "/Objects/FarmingRecipe/16",
+      "notes": [
+        "Healthy plot baseline: no disease or pest reduction; water/compost and automation are excluded.",
+        "Regrowths are amortized across the first harvest cycle; seed and plot costs are shown as conditions only, not deducted from gross GP."
+      ]
+    },
+    {
+      "id": "MantalymeHerb",
+      "gameId": "MelvorBase:MantalymeHerb",
+      "name": "Mantalyme Herb",
+      "requiredLevel": 25,
+      "availability": "demo",
+      "conditions": [
+        "Farming level 25"
+      ],
+      "intervalSeconds": 14400.0,
+      "intervalLabel": "14400s growth + 0 regrowths",
+      "baseXp": 133,
+      "successChance": 1,
+      "xpPerHour": 33.25,
+      "itemsPerHour": 25.0,
+      "gpPerHour": 225.0,
+      "products": [
+        {
+          "id": "MelvorBase:MantalymeHerb",
+          "name": "Mantalyme Herb",
+          "role": "primary",
+          "basis": "healthy plot harvests",
+          "probability": 1,
+          "quantity": 100,
+          "itemsPerHour": 25.0,
+          "gpPerHour": 225.0
+        }
+      ],
+      "sourcePointer": "/Objects/FarmingRecipe/17",
+      "notes": [
+        "Healthy plot baseline: no disease or pest reduction; water/compost and automation are excluded.",
+        "Regrowths are amortized across the first harvest cycle; seed and plot costs are shown as conditions only, not deducted from gross GP."
+      ]
+    },
+    {
+      "id": "NomelHerb",
+      "gameId": "MelvorBase:NomelHerb",
+      "name": "Nomel Herb",
+      "requiredLevel": 35,
+      "availability": "demo",
+      "conditions": [
+        "Farming level 35"
+      ],
+      "intervalSeconds": 18000.0,
+      "intervalLabel": "18000s growth + 0 regrowths",
+      "baseXp": 185,
+      "successChance": 1,
+      "xpPerHour": 37.0,
+      "itemsPerHour": 20.0,
+      "gpPerHour": 180.0,
+      "products": [
+        {
+          "id": "MelvorBase:NomelHerb",
+          "name": "Nomel Herb",
+          "role": "primary",
+          "basis": "healthy plot harvests",
+          "probability": 1,
+          "quantity": 100,
+          "itemsPerHour": 20.0,
+          "gpPerHour": 180.0
+        }
+      ],
+      "sourcePointer": "/Objects/FarmingRecipe/18",
+      "notes": [
+        "Healthy plot baseline: no disease or pest reduction; water/compost and automation are excluded.",
+        "Regrowths are amortized across the first harvest cycle; seed and plot costs are shown as conditions only, not deducted from gross GP."
+      ]
+    },
+    {
+      "id": "OxilymeHerb",
+      "gameId": "MelvorBase:OxilymeHerb",
+      "name": "Oxilyme Herb",
+      "requiredLevel": 50,
+      "availability": "demo",
+      "conditions": [
+        "Farming level 50"
+      ],
+      "intervalSeconds": 21600.0,
+      "intervalLabel": "21600s growth + 0 regrowths",
+      "baseXp": 392,
+      "successChance": 1,
+      "xpPerHour": 65.33333333333333,
+      "itemsPerHour": 16.666666666666664,
+      "gpPerHour": 133.33333333333331,
+      "products": [
+        {
+          "id": "MelvorBase:OxilymeHerb",
+          "name": "Oxilyme Herb",
+          "role": "primary",
+          "basis": "healthy plot harvests",
+          "probability": 1,
+          "quantity": 100,
+          "itemsPerHour": 16.666666666666664,
+          "gpPerHour": 133.33333333333331
+        }
+      ],
+      "sourcePointer": "/Objects/FarmingRecipe/19",
+      "notes": [
+        "Healthy plot baseline: no disease or pest reduction; water/compost and automation are excluded.",
+        "Regrowths are amortized across the first harvest cycle; seed and plot costs are shown as conditions only, not deducted from gross GP."
+      ]
+    },
+    {
+      "id": "SporlyleHerb",
+      "gameId": "MelvorBase:SporlyleHerb",
+      "name": "Sporlyle Herb",
+      "requiredLevel": null,
+      "availability": "locked",
+      "conditions": [],
+      "intervalSeconds": 10.0,
+      "intervalLabel": "10s growth + 0 regrowths",
+      "baseXp": 1,
+      "successChance": 1,
+      "xpPerHour": 360.0,
+      "itemsPerHour": 360.0,
+      "gpPerHour": 0.0,
+      "products": [
+        {
+          "id": "MelvorBase:DemoPlaceholderItem",
+          "name": "DemoPlaceholderItem",
+          "role": "primary",
+          "basis": "healthy plot harvests",
+          "probability": 1,
+          "quantity": 1,
+          "itemsPerHour": 360.0,
+          "gpPerHour": 0.0
+        }
+      ],
+      "sourcePointer": "/Objects/FarmingRecipe/20",
+      "notes": [
+        "Healthy plot baseline: no disease or pest reduction; water/compost and automation are excluded.",
+        "Regrowths are amortized across the first harvest cycle; seed and plot costs are shown as conditions only, not deducted from gross GP."
+      ]
+    },
+    {
+      "id": "LarxHerb",
+      "gameId": "MelvorBase:LarxHerb",
+      "name": "Larx Herb",
+      "requiredLevel": null,
+      "availability": "locked",
+      "conditions": [],
+      "intervalSeconds": 10.0,
+      "intervalLabel": "10s growth + 0 regrowths",
+      "baseXp": 1,
+      "successChance": 1,
+      "xpPerHour": 360.0,
+      "itemsPerHour": 360.0,
+      "gpPerHour": 0.0,
+      "products": [
+        {
+          "id": "MelvorBase:DemoPlaceholderItem",
+          "name": "DemoPlaceholderItem",
+          "role": "primary",
+          "basis": "healthy plot harvests",
+          "probability": 1,
+          "quantity": 1,
+          "itemsPerHour": 360.0,
+          "gpPerHour": 0.0
+        }
+      ],
+      "sourcePointer": "/Objects/FarmingRecipe/21",
+      "notes": [
+        "Healthy plot baseline: no disease or pest reduction; water/compost and automation are excluded.",
+        "Regrowths are amortized across the first harvest cycle; seed and plot costs are shown as conditions only, not deducted from gross GP."
+      ]
+    },
+    {
+      "id": "BarrentoeHerb",
+      "gameId": "MelvorBase:BarrentoeHerb",
+      "name": "Barrentoe Herb",
+      "requiredLevel": null,
+      "availability": "locked",
+      "conditions": [],
+      "intervalSeconds": 10.0,
+      "intervalLabel": "10s growth + 0 regrowths",
+      "baseXp": 1,
+      "successChance": 1,
+      "xpPerHour": 360.0,
+      "itemsPerHour": 360.0,
+      "gpPerHour": 0.0,
+      "products": [
+        {
+          "id": "MelvorBase:DemoPlaceholderItem",
+          "name": "DemoPlaceholderItem",
+          "role": "primary",
+          "basis": "healthy plot harvests",
+          "probability": 1,
+          "quantity": 1,
+          "itemsPerHour": 360.0,
+          "gpPerHour": 0.0
+        }
+      ],
+      "sourcePointer": "/Objects/FarmingRecipe/22",
+      "notes": [
+        "Healthy plot baseline: no disease or pest reduction; water/compost and automation are excluded.",
+        "Regrowths are amortized across the first harvest cycle; seed and plot costs are shown as conditions only, not deducted from gross GP."
+      ]
+    },
+    {
+      "id": "OakTree",
+      "gameId": "MelvorBase:OakTree",
+      "name": "Oak Tree",
+      "requiredLevel": 15,
+      "availability": "demo",
+      "conditions": [
+        "Farming level 15"
+      ],
+      "intervalSeconds": 28800.0,
+      "intervalLabel": "28800s growth + 0 regrowths",
+      "baseXp": 799,
+      "successChance": 1,
+      "xpPerHour": 99.875,
+      "itemsPerHour": 31.25,
+      "gpPerHour": 187.5,
+      "products": [
+        {
+          "id": "MelvorBase:OakLog",
+          "name": "Oak Log",
+          "role": "primary",
+          "basis": "healthy plot harvests",
+          "probability": 1,
+          "quantity": 250,
+          "itemsPerHour": 31.25,
+          "gpPerHour": 187.5
+        }
+      ],
+      "sourcePointer": "/Objects/FarmingRecipe/23",
+      "notes": [
+        "Healthy plot baseline: no disease or pest reduction; water/compost and automation are excluded.",
+        "Regrowths are amortized across the first harvest cycle; seed and plot costs are shown as conditions only, not deducted from gross GP."
+      ]
+    },
+    {
+      "id": "WillowTree",
+      "gameId": "MelvorBase:WillowTree",
+      "name": "Willow Tree",
+      "requiredLevel": 30,
+      "availability": "demo",
+      "conditions": [
+        "Farming level 30"
+      ],
+      "intervalSeconds": 43200.0,
+      "intervalLabel": "43200s growth + 0 regrowths",
+      "baseXp": 1391,
+      "successChance": 1,
+      "xpPerHour": 115.91666666666666,
+      "itemsPerHour": 20.833333333333332,
+      "gpPerHour": 354.16666666666663,
+      "products": [
+        {
+          "id": "MelvorBase:WillowLog",
+          "name": "Willow Log",
+          "role": "primary",
+          "basis": "healthy plot harvests",
+          "probability": 1,
+          "quantity": 250,
+          "itemsPerHour": 20.833333333333332,
+          "gpPerHour": 354.16666666666663
+        }
+      ],
+      "sourcePointer": "/Objects/FarmingRecipe/24",
+      "notes": [
+        "Healthy plot baseline: no disease or pest reduction; water/compost and automation are excluded.",
+        "Regrowths are amortized across the first harvest cycle; seed and plot costs are shown as conditions only, not deducted from gross GP."
+      ]
+    },
+    {
+      "id": "TeakTree",
+      "gameId": "MelvorBase:TeakTree",
+      "name": "Teak Tree",
+      "requiredLevel": 45,
+      "availability": "demo",
+      "conditions": [
+        "Farming level 45"
+      ],
+      "intervalSeconds": 57600.0,
+      "intervalLabel": "57600s growth + 0 regrowths",
+      "baseXp": 2949,
+      "successChance": 1,
+      "xpPerHour": 184.3125,
+      "itemsPerHour": 15.625,
+      "gpPerHour": 390.625,
+      "products": [
+        {
+          "id": "MelvorBase:TeakLog",
+          "name": "Teak Log",
+          "role": "primary",
+          "basis": "healthy plot harvests",
+          "probability": 1,
+          "quantity": 250,
+          "itemsPerHour": 15.625,
+          "gpPerHour": 390.625
+        }
+      ],
+      "sourcePointer": "/Objects/FarmingRecipe/25",
+      "notes": [
+        "Healthy plot baseline: no disease or pest reduction; water/compost and automation are excluded.",
+        "Regrowths are amortized across the first harvest cycle; seed and plot costs are shown as conditions only, not deducted from gross GP."
+      ]
+    },
+    {
+      "id": "MahoganyTree",
+      "gameId": "MelvorBase:MahoganyTree",
+      "name": "Mahogany Tree",
+      "requiredLevel": 55,
+      "availability": "demo",
+      "conditions": [
+        "Farming level 55"
+      ],
+      "intervalSeconds": 86400.0,
+      "intervalLabel": "86400s growth + 0 regrowths",
+      "baseXp": 5973,
+      "successChance": 1,
+      "xpPerHour": 248.875,
+      "itemsPerHour": 10.416666666666666,
+      "gpPerHour": 479.16666666666663,
+      "products": [
+        {
+          "id": "MelvorBase:MahoganyLog",
+          "name": "Mahogany Log",
+          "role": "primary",
+          "basis": "healthy plot harvests",
+          "probability": 1,
+          "quantity": 250,
+          "itemsPerHour": 10.416666666666666,
+          "gpPerHour": 479.16666666666663
+        }
+      ],
+      "sourcePointer": "/Objects/FarmingRecipe/26",
+      "notes": [
+        "Healthy plot baseline: no disease or pest reduction; water/compost and automation are excluded.",
+        "Regrowths are amortized across the first harvest cycle; seed and plot costs are shown as conditions only, not deducted from gross GP."
+      ]
+    },
+    {
+      "id": "YewTree",
+      "gameId": "MelvorBase:YewTree",
+      "name": "Yew Tree",
+      "requiredLevel": null,
+      "availability": "locked",
+      "conditions": [],
+      "intervalSeconds": 10.0,
+      "intervalLabel": "10s growth + 0 regrowths",
+      "baseXp": 1,
+      "successChance": 1,
+      "xpPerHour": 360.0,
+      "itemsPerHour": 360.0,
+      "gpPerHour": 0.0,
+      "products": [
+        {
+          "id": "MelvorBase:DemoPlaceholderItem",
+          "name": "DemoPlaceholderItem",
+          "role": "primary",
+          "basis": "healthy plot harvests",
+          "probability": 1,
+          "quantity": 1,
+          "itemsPerHour": 360.0,
+          "gpPerHour": 0.0
+        }
+      ],
+      "sourcePointer": "/Objects/FarmingRecipe/27",
+      "notes": [
+        "Healthy plot baseline: no disease or pest reduction; water/compost and automation are excluded.",
+        "Regrowths are amortized across the first harvest cycle; seed and plot costs are shown as conditions only, not deducted from gross GP."
+      ]
+    },
+    {
+      "id": "MagicTree",
+      "gameId": "MelvorBase:MagicTree",
+      "name": "Magic Tree",
+      "requiredLevel": null,
+      "availability": "locked",
+      "conditions": [],
+      "intervalSeconds": 10.0,
+      "intervalLabel": "10s growth + 0 regrowths",
+      "baseXp": 1,
+      "successChance": 1,
+      "xpPerHour": 360.0,
+      "itemsPerHour": 360.0,
+      "gpPerHour": 0.0,
+      "products": [
+        {
+          "id": "MelvorBase:DemoPlaceholderItem",
+          "name": "DemoPlaceholderItem",
+          "role": "primary",
+          "basis": "healthy plot harvests",
+          "probability": 1,
+          "quantity": 1,
+          "itemsPerHour": 360.0,
+          "gpPerHour": 0.0
+        }
+      ],
+      "sourcePointer": "/Objects/FarmingRecipe/28",
+      "notes": [
+        "Healthy plot baseline: no disease or pest reduction; water/compost and automation are excluded.",
+        "Regrowths are amortized across the first harvest cycle; seed and plot costs are shown as conditions only, not deducted from gross GP."
+      ]
+    },
+    {
+      "id": "HardOakTree",
+      "gameId": "MelvorBase:HardOakTree",
+      "name": "Hard Oak Tree",
+      "requiredLevel": null,
+      "availability": "locked",
+      "conditions": [],
+      "intervalSeconds": 10.0,
+      "intervalLabel": "10s growth + 0 regrowths",
+      "baseXp": 1,
+      "successChance": 1,
+      "xpPerHour": 360.0,
+      "itemsPerHour": 360.0,
+      "gpPerHour": 0.0,
+      "products": [
+        {
+          "id": "MelvorBase:DemoPlaceholderItem",
+          "name": "DemoPlaceholderItem",
+          "role": "primary",
+          "basis": "healthy plot harvests",
+          "probability": 1,
+          "quantity": 1,
+          "itemsPerHour": 360.0,
+          "gpPerHour": 0.0
+        }
+      ],
+      "sourcePointer": "/Objects/FarmingRecipe/29",
+      "notes": [
+        "Healthy plot baseline: no disease or pest reduction; water/compost and automation are excluded.",
+        "Regrowths are amortized across the first harvest cycle; seed and plot costs are shown as conditions only, not deducted from gross GP."
+      ]
+    },
+    {
+      "id": "RedwoodTree",
+      "gameId": "MelvorBase:RedwoodTree",
+      "name": "Redwood Tree",
+      "requiredLevel": null,
+      "availability": "locked",
+      "conditions": [],
+      "intervalSeconds": 10.0,
+      "intervalLabel": "10s growth + 0 regrowths",
+      "baseXp": 1,
+      "successChance": 1,
+      "xpPerHour": 360.0,
+      "itemsPerHour": 360.0,
+      "gpPerHour": 0.0,
+      "products": [
+        {
+          "id": "MelvorBase:DemoPlaceholderItem",
+          "name": "DemoPlaceholderItem",
+          "role": "primary",
+          "basis": "healthy plot harvests",
+          "probability": 1,
+          "quantity": 1,
+          "itemsPerHour": 360.0,
+          "gpPerHour": 0.0
+        }
+      ],
+      "sourcePointer": "/Objects/FarmingRecipe/30",
+      "notes": [
+        "Healthy plot baseline: no disease or pest reduction; water/compost and automation are excluded.",
+        "Regrowths are amortized across the first harvest cycle; seed and plot costs are shown as conditions only, not deducted from gross GP."
+      ]
+    },
+    {
+      "id": "BananaTree",
+      "gameId": "MelvorBase:BananaTree",
+      "name": "Banana Tree",
+      "requiredLevel": 35,
+      "availability": "demo",
+      "conditions": [
+        "Farming level 35"
+      ],
+      "intervalSeconds": 604800.0,
+      "intervalLabel": "172800s growth + 15 regrowths",
+      "baseXp": 691,
+      "successChance": 1,
+      "xpPerHour": 4.113095238095238,
+      "itemsPerHour": 19.047619047619047,
+      "gpPerHour": 438.0952380952381,
+      "products": [
+        {
+          "id": "MelvorBase:Banana",
+          "name": "Banana",
+          "role": "primary",
+          "basis": "healthy plot harvests",
+          "probability": 1,
+          "quantity": 3200,
+          "itemsPerHour": 19.047619047619047,
+          "gpPerHour": 438.0952380952381
+        }
+      ],
+      "sourcePointer": "/Objects/FarmingRecipe/31",
+      "notes": [
+        "Healthy plot baseline: no disease or pest reduction; water/compost and automation are excluded.",
+        "Regrowths are amortized across the first harvest cycle; seed and plot costs are shown as conditions only, not deducted from gross GP."
+      ]
+    },
+    {
+      "id": "AppleTree",
+      "gameId": "MelvorBase:AppleTree",
+      "name": "Apple Tree",
+      "requiredLevel": 50,
+      "availability": "demo",
+      "conditions": [
+        "Farming level 50"
+      ],
+      "intervalSeconds": 604800.0,
+      "intervalLabel": "172800s growth + 15 regrowths",
+      "baseXp": 1218,
+      "successChance": 1,
+      "xpPerHour": 7.25,
+      "itemsPerHour": 19.047619047619047,
+      "gpPerHour": 266.6666666666667,
+      "products": [
+        {
+          "id": "MelvorBase:Apple",
+          "name": "Apple",
+          "role": "primary",
+          "basis": "healthy plot harvests",
+          "probability": 1,
+          "quantity": 3200,
+          "itemsPerHour": 19.047619047619047,
+          "gpPerHour": 266.6666666666667
+        }
+      ],
+      "sourcePointer": "/Objects/FarmingRecipe/32",
+      "notes": [
+        "Healthy plot baseline: no disease or pest reduction; water/compost and automation are excluded.",
+        "Regrowths are amortized across the first harvest cycle; seed and plot costs are shown as conditions only, not deducted from gross GP."
+      ]
+    },
+    {
+      "id": "CherryTree",
+      "gameId": "MelvorBase:CherryTree",
+      "name": "Cherry Tree",
+      "requiredLevel": null,
+      "availability": "locked",
+      "conditions": [],
+      "intervalSeconds": 432010.0,
+      "intervalLabel": "10s growth + 15 regrowths",
+      "baseXp": 1,
+      "successChance": 1,
+      "xpPerHour": 0.008333140436563968,
+      "itemsPerHour": 0.1333302469850235,
+      "gpPerHour": 0.0,
+      "products": [
+        {
+          "id": "MelvorBase:DemoPlaceholderItem",
+          "name": "DemoPlaceholderItem",
+          "role": "primary",
+          "basis": "healthy plot harvests",
+          "probability": 1,
+          "quantity": 16,
+          "itemsPerHour": 0.1333302469850235,
+          "gpPerHour": 0.0
+        }
+      ],
+      "sourcePointer": "/Objects/FarmingRecipe/33",
+      "notes": [
+        "Healthy plot baseline: no disease or pest reduction; water/compost and automation are excluded.",
+        "Regrowths are amortized across the first harvest cycle; seed and plot costs are shown as conditions only, not deducted from gross GP."
+      ]
+    },
+    {
+      "id": "PeachTree",
+      "gameId": "MelvorBase:PeachTree",
+      "name": "Peach Tree",
+      "requiredLevel": null,
+      "availability": "locked",
+      "conditions": [],
+      "intervalSeconds": 432010.0,
+      "intervalLabel": "10s growth + 15 regrowths",
+      "baseXp": 1,
+      "successChance": 1,
+      "xpPerHour": 0.008333140436563968,
+      "itemsPerHour": 0.1333302469850235,
+      "gpPerHour": 0.0,
+      "products": [
+        {
+          "id": "MelvorBase:DemoPlaceholderItem",
+          "name": "DemoPlaceholderItem",
+          "role": "primary",
+          "basis": "healthy plot harvests",
+          "probability": 1,
+          "quantity": 16,
+          "itemsPerHour": 0.1333302469850235,
+          "gpPerHour": 0.0
+        }
+      ],
+      "sourcePointer": "/Objects/FarmingRecipe/34",
+      "notes": [
+        "Healthy plot baseline: no disease or pest reduction; water/compost and automation are excluded.",
+        "Regrowths are amortized across the first harvest cycle; seed and plot costs are shown as conditions only, not deducted from gross GP."
+      ]
+    },
+    {
+      "id": "OrangeTree",
+      "gameId": "MelvorBase:OrangeTree",
+      "name": "Orange Tree",
+      "requiredLevel": null,
+      "availability": "locked",
+      "conditions": [],
+      "intervalSeconds": 432010.0,
+      "intervalLabel": "10s growth + 15 regrowths",
+      "baseXp": 1,
+      "successChance": 1,
+      "xpPerHour": 0.008333140436563968,
+      "itemsPerHour": 0.1333302469850235,
+      "gpPerHour": 0.0,
+      "products": [
+        {
+          "id": "MelvorBase:DemoPlaceholderItem",
+          "name": "DemoPlaceholderItem",
+          "role": "primary",
+          "basis": "healthy plot harvests",
+          "probability": 1,
+          "quantity": 16,
+          "itemsPerHour": 0.1333302469850235,
+          "gpPerHour": 0.0
+        }
+      ],
+      "sourcePointer": "/Objects/FarmingRecipe/35",
+      "notes": [
+        "Healthy plot baseline: no disease or pest reduction; water/compost and automation are excluded.",
+        "Regrowths are amortized across the first harvest cycle; seed and plot costs are shown as conditions only, not deducted from gross GP."
+      ]
+    },
+    {
+      "id": "MangoTree",
+      "gameId": "MelvorBase:MangoTree",
+      "name": "Mango Tree",
+      "requiredLevel": null,
+      "availability": "locked",
+      "conditions": [],
+      "intervalSeconds": 432010.0,
+      "intervalLabel": "10s growth + 15 regrowths",
+      "baseXp": 1,
+      "successChance": 1,
+      "xpPerHour": 0.008333140436563968,
+      "itemsPerHour": 0.1333302469850235,
+      "gpPerHour": 0.0,
+      "products": [
+        {
+          "id": "MelvorBase:DemoPlaceholderItem",
+          "name": "DemoPlaceholderItem",
+          "role": "primary",
+          "basis": "healthy plot harvests",
+          "probability": 1,
+          "quantity": 16,
+          "itemsPerHour": 0.1333302469850235,
+          "gpPerHour": 0.0
+        }
+      ],
+      "sourcePointer": "/Objects/FarmingRecipe/36",
+      "notes": [
+        "Healthy plot baseline: no disease or pest reduction; water/compost and automation are excluded.",
+        "Regrowths are amortized across the first harvest cycle; seed and plot costs are shown as conditions only, not deducted from gross GP."
+      ]
+    },
+    {
+      "id": "Compost",
+      "gameId": "MelvorBase:Compost",
+      "name": "Compost",
+      "requiredLevel": 5,
+      "availability": "demo",
+      "conditions": [
+        "Farming level 5"
+      ],
+      "intervalSeconds": 86400.0,
+      "intervalLabel": "86400s growth + 0 regrowths",
+      "baseXp": 5,
+      "successChance": 1,
+      "xpPerHour": 0.20833333333333331,
+      "itemsPerHour": 0.625,
+      "gpPerHour": 0.625,
+      "products": [
+        {
+          "id": "MelvorBase:Compost",
+          "name": "Compost",
+          "role": "primary",
+          "basis": "healthy plot harvests",
+          "probability": 1,
+          "quantity": 15,
+          "itemsPerHour": 0.625,
+          "gpPerHour": 0.625
+        }
+      ],
+      "sourcePointer": "/Objects/FarmingRecipe/37",
+      "notes": [
+        "Healthy plot baseline: no disease or pest reduction; water/compost and automation are excluded.",
+        "Regrowths are amortized across the first harvest cycle; seed and plot costs are shown as conditions only, not deducted from gross GP."
+      ]
+    },
+    {
+      "id": "SuperCompost",
+      "gameId": "MelvorBase:SuperCompost",
+      "name": "Super Compost",
+      "requiredLevel": 40,
+      "availability": "demo",
+      "conditions": [
+        "Farming level 40"
+      ],
+      "intervalSeconds": 86400.0,
+      "intervalLabel": "86400s growth + 0 regrowths",
+      "baseXp": 9,
+      "successChance": 1,
+      "xpPerHour": 0.375,
+      "itemsPerHour": 0.625,
+      "gpPerHour": 0.625,
+      "products": [
+        {
+          "id": "MelvorBase:SuperCompost",
+          "name": "Super Compost",
+          "role": "primary",
+          "basis": "healthy plot harvests",
+          "probability": 1,
+          "quantity": 15,
+          "itemsPerHour": 0.625,
+          "gpPerHour": 0.625
+        }
+      ],
+      "sourcePointer": "/Objects/FarmingRecipe/38",
+      "notes": [
+        "Healthy plot baseline: no disease or pest reduction; water/compost and automation are excluded.",
+        "Regrowths are amortized across the first harvest cycle; seed and plot costs are shown as conditions only, not deducted from gross GP."
+      ]
+    },
+    {
+      "id": "UltraCompost",
+      "gameId": "MelvorBase:UltraCompost",
+      "name": "Ultra Compost",
+      "requiredLevel": null,
+      "availability": "locked",
+      "conditions": [],
+      "intervalSeconds": 10.0,
+      "intervalLabel": "10s growth + 0 regrowths",
+      "baseXp": 1,
+      "successChance": 1,
+      "xpPerHour": 360.0,
+      "itemsPerHour": 360.0,
+      "gpPerHour": 0.0,
+      "products": [
+        {
+          "id": "MelvorBase:DemoPlaceholderItem",
+          "name": "DemoPlaceholderItem",
+          "role": "primary",
+          "basis": "healthy plot harvests",
+          "probability": 1,
+          "quantity": 1,
+          "itemsPerHour": 360.0,
+          "gpPerHour": 0.0
+        }
+      ],
+      "sourcePointer": "/Objects/FarmingRecipe/39",
+      "notes": [
+        "Healthy plot baseline: no disease or pest reduction; water/compost and automation are excluded.",
+        "Regrowths are amortized across the first harvest cycle; seed and plot costs are shown as conditions only, not deducted from gross GP."
+      ]
+    },
+    {
+      "id": "Coalmpost",
+      "gameId": "MelvorBase:Coalmpost",
+      "name": "Coalmpost",
+      "requiredLevel": null,
+      "availability": "locked",
+      "conditions": [],
+      "intervalSeconds": 10.0,
+      "intervalLabel": "10s growth + 0 regrowths",
+      "baseXp": 1,
+      "successChance": 1,
+      "xpPerHour": 360.0,
+      "itemsPerHour": 360.0,
+      "gpPerHour": 0.0,
+      "products": [
+        {
+          "id": "MelvorBase:DemoPlaceholderItem",
+          "name": "DemoPlaceholderItem",
+          "role": "primary",
+          "basis": "healthy plot harvests",
+          "probability": 1,
+          "quantity": 1,
+          "itemsPerHour": 360.0,
+          "gpPerHour": 0.0
+        }
+      ],
+      "sourcePointer": "/Objects/FarmingRecipe/40",
+      "notes": [
+        "Healthy plot baseline: no disease or pest reduction; water/compost and automation are excluded.",
+        "Regrowths are amortized across the first harvest cycle; seed and plot costs are shown as conditions only, not deducted from gross GP."
+      ]
+    },
+    {
+      "id": "Sunflower",
+      "gameId": "MelvorBase:Sunflower",
+      "name": "Sunflower",
+      "requiredLevel": 30,
+      "availability": "demo",
+      "conditions": [
+        "Farming level 30"
+      ],
+      "intervalSeconds": 86400.0,
+      "intervalLabel": "86400s growth + 0 regrowths",
+      "baseXp": 28,
+      "successChance": 1,
+      "xpPerHour": 1.1666666666666665,
+      "itemsPerHour": 0.0,
+      "gpPerHour": 0.0,
+      "products": [
+        {
+          "id": "MelvorBase:NormalLog",
+          "name": "Normal Log",
+          "role": "primary",
+          "basis": "healthy plot harvests",
+          "probability": 1,
+          "quantity": 0,
+          "itemsPerHour": 0.0,
+          "gpPerHour": 0.0
+        }
+      ],
+      "sourcePointer": "/Objects/FarmingRecipe/41",
+      "notes": [
+        "Healthy plot baseline: no disease or pest reduction; water/compost and automation are excluded.",
+        "Regrowths are amortized across the first harvest cycle; seed and plot costs are shown as conditions only, not deducted from gross GP."
+      ]
+    },
+    {
+      "id": "Marigold",
+      "gameId": "MelvorBase:Marigold",
+      "name": "Marigold",
+      "requiredLevel": 45,
+      "availability": "demo",
+      "conditions": [
+        "Farming level 45"
+      ],
+      "intervalSeconds": 86400.0,
+      "intervalLabel": "86400s growth + 0 regrowths",
+      "baseXp": 40,
+      "successChance": 1,
+      "xpPerHour": 1.6666666666666665,
+      "itemsPerHour": 0.0,
+      "gpPerHour": 0.0,
+      "products": [
+        {
+          "id": "MelvorBase:NormalLog",
+          "name": "Normal Log",
+          "role": "primary",
+          "basis": "healthy plot harvests",
+          "probability": 1,
+          "quantity": 0,
+          "itemsPerHour": 0.0,
+          "gpPerHour": 0.0
+        }
+      ],
+      "sourcePointer": "/Objects/FarmingRecipe/42",
+      "notes": [
+        "Healthy plot baseline: no disease or pest reduction; water/compost and automation are excluded.",
+        "Regrowths are amortized across the first harvest cycle; seed and plot costs are shown as conditions only, not deducted from gross GP."
+      ]
+    },
+    {
+      "id": "Nasturtium",
+      "gameId": "MelvorBase:Nasturtium",
+      "name": "Nasturtium",
+      "requiredLevel": 55,
+      "availability": "demo",
+      "conditions": [
+        "Farming level 55"
+      ],
+      "intervalSeconds": 86400.0,
+      "intervalLabel": "86400s growth + 0 regrowths",
+      "baseXp": 46,
+      "successChance": 1,
+      "xpPerHour": 1.9166666666666665,
+      "itemsPerHour": 0.0,
+      "gpPerHour": 0.0,
+      "products": [
+        {
+          "id": "MelvorBase:NormalLog",
+          "name": "Normal Log",
+          "role": "primary",
+          "basis": "healthy plot harvests",
+          "probability": 1,
+          "quantity": 0,
+          "itemsPerHour": 0.0,
+          "gpPerHour": 0.0
+        }
+      ],
+      "sourcePointer": "/Objects/FarmingRecipe/43",
+      "notes": [
+        "Healthy plot baseline: no disease or pest reduction; water/compost and automation are excluded.",
+        "Regrowths are amortized across the first harvest cycle; seed and plot costs are shown as conditions only, not deducted from gross GP."
+      ]
+    },
+    {
+      "id": "Rosemary",
+      "gameId": "MelvorBase:Rosemary",
+      "name": "Rosemary",
+      "requiredLevel": null,
+      "availability": "locked",
+      "conditions": [],
+      "intervalSeconds": 10.0,
+      "intervalLabel": "10s growth + 0 regrowths",
+      "baseXp": 1,
+      "successChance": 1,
+      "xpPerHour": 360.0,
+      "itemsPerHour": 360.0,
+      "gpPerHour": 0.0,
+      "products": [
+        {
+          "id": "MelvorBase:DemoPlaceholderItem",
+          "name": "DemoPlaceholderItem",
+          "role": "primary",
+          "basis": "healthy plot harvests",
+          "probability": 1,
+          "quantity": 1,
+          "itemsPerHour": 360.0,
+          "gpPerHour": 0.0
+        }
+      ],
+      "sourcePointer": "/Objects/FarmingRecipe/44",
+      "notes": [
+        "Healthy plot baseline: no disease or pest reduction; water/compost and automation are excluded.",
+        "Regrowths are amortized across the first harvest cycle; seed and plot costs are shown as conditions only, not deducted from gross GP."
+      ]
+    },
+    {
+      "id": "WhiteLily",
+      "gameId": "MelvorBase:WhiteLily",
+      "name": "White Lily",
+      "requiredLevel": null,
+      "availability": "locked",
+      "conditions": [],
+      "intervalSeconds": 10.0,
+      "intervalLabel": "10s growth + 0 regrowths",
+      "baseXp": 1,
+      "successChance": 1,
+      "xpPerHour": 360.0,
+      "itemsPerHour": 360.0,
+      "gpPerHour": 0.0,
+      "products": [
+        {
+          "id": "MelvorBase:DemoPlaceholderItem",
+          "name": "DemoPlaceholderItem",
+          "role": "primary",
+          "basis": "healthy plot harvests",
+          "probability": 1,
+          "quantity": 1,
+          "itemsPerHour": 360.0,
+          "gpPerHour": 0.0
+        }
+      ],
+      "sourcePointer": "/Objects/FarmingRecipe/45",
+      "notes": [
+        "Healthy plot baseline: no disease or pest reduction; water/compost and automation are excluded.",
+        "Regrowths are amortized across the first harvest cycle; seed and plot costs are shown as conditions only, not deducted from gross GP."
+      ]
+    },
+    {
+      "id": "Chamomile",
+      "gameId": "MelvorBase:Chamomile",
+      "name": "Chamomile",
+      "requiredLevel": null,
+      "availability": "locked",
+      "conditions": [],
+      "intervalSeconds": 10.0,
+      "intervalLabel": "10s growth + 0 regrowths",
+      "baseXp": 1,
+      "successChance": 1,
+      "xpPerHour": 360.0,
+      "itemsPerHour": 360.0,
+      "gpPerHour": 0.0,
+      "products": [
+        {
+          "id": "MelvorBase:DemoPlaceholderItem",
+          "name": "DemoPlaceholderItem",
+          "role": "primary",
+          "basis": "healthy plot harvests",
+          "probability": 1,
+          "quantity": 1,
+          "itemsPerHour": 360.0,
+          "gpPerHour": 0.0
+        }
+      ],
+      "sourcePointer": "/Objects/FarmingRecipe/46",
+      "notes": [
+        "Healthy plot baseline: no disease or pest reduction; water/compost and automation are excluded.",
+        "Regrowths are amortized across the first harvest cycle; seed and plot costs are shown as conditions only, not deducted from gross GP."
+      ]
+    },
+    {
+      "id": "AshenTree",
+      "gameId": "MelvorBase:AshenTree",
+      "name": "Ashen Tree",
+      "requiredLevel": null,
+      "availability": "locked",
+      "conditions": [],
+      "intervalSeconds": 10.0,
+      "intervalLabel": "10s growth + 0 regrowths",
+      "baseXp": 1,
+      "successChance": 1,
+      "xpPerHour": 360.0,
+      "itemsPerHour": 360.0,
+      "gpPerHour": 0.0,
+      "products": [
+        {
+          "id": "MelvorBase:DemoPlaceholderItem",
+          "name": "DemoPlaceholderItem",
+          "role": "primary",
+          "basis": "healthy plot harvests",
+          "probability": 1,
+          "quantity": 1,
+          "itemsPerHour": 360.0,
+          "gpPerHour": 0.0
+        }
+      ],
+      "sourcePointer": "/Objects/FarmingRecipe/47",
+      "notes": [
+        "Healthy plot baseline: no disease or pest reduction; water/compost and automation are excluded.",
+        "Regrowths are amortized across the first harvest cycle; seed and plot costs are shown as conditions only, not deducted from gross GP."
+      ]
+    },
+    {
+      "id": "Nightreed",
+      "gameId": "MelvorBase:Nightreed",
+      "name": "Nightreed",
+      "requiredLevel": null,
+      "availability": "locked",
+      "conditions": [],
+      "intervalSeconds": 10.0,
+      "intervalLabel": "10s growth + 0 regrowths",
+      "baseXp": 1,
+      "successChance": 1,
+      "xpPerHour": 360.0,
+      "itemsPerHour": 360.0,
+      "gpPerHour": 0.0,
+      "products": [
+        {
+          "id": "MelvorBase:DemoPlaceholderItem",
+          "name": "DemoPlaceholderItem",
+          "role": "primary",
+          "basis": "healthy plot harvests",
+          "probability": 1,
+          "quantity": 1,
+          "itemsPerHour": 360.0,
+          "gpPerHour": 0.0
+        }
+      ],
+      "sourcePointer": "/Objects/FarmingRecipe/48",
+      "notes": [
+        "Healthy plot baseline: no disease or pest reduction; water/compost and automation are excluded.",
+        "Regrowths are amortized across the first harvest cycle; seed and plot costs are shown as conditions only, not deducted from gross GP."
+      ]
+    }
+  ],
+  "notes": [
+    "Rates use a healthy plot baseline. Disease/pest state can only reduce quantity and is not a user input."
+  ]
+}

@@ -79,6 +79,10 @@ Cooking uses one interval per attempt and a level-dependent success probability 
 
 Astrology study actions use a fixed 3-second interval (`ActionTimerFiredHandler 0x0600bb57`). The 12 constellation rows grant their base XP every study cycle and have no configured constellation or global events (`GetAllEvents 0x0600bbb9`), so base items/hour and GP/hour are zero. Secondary requirements are preserved as an OR group rather than flattened into an incorrect AND. The six constellations at or below the documented demo level cap are ordinary demo rows; the six higher-level definitions remain locked in the reference.
 
+## Farming
+
+Farming is represented as a fixed healthy-plot baseline from the 49 shipped plant definitions. A harvest grants its base XP once and yields the product quantity; regrowing plants amortize the first growth interval plus each `RegrowInterval` across `1 + Regrows` harvests. The table therefore uses `cycleSeconds = (BaseInterval + Regrows × RegrowInterval) / 1000`, then multiplies XP and total harvest quantity by `3600 / cycleSeconds`. Disease and pest state can only reduce quantity in the inspected path; no disease/pest penalty, watering, compost, automation or plot/input cost is applied to this base table. Gross GP is direct sale revenue, not profit. This convention is explicit in every Farming row so later stateful modifiers can be documented separately.
+
 ## Reproduction and verification
 
 `scripts/build_base_reference.py` regenerates `src/data/skills/{index,woodcutting,fishing,mining}.json` and location metadata. It verifies the embedded package SHA-256 before writing selected facts. It requires only Python's standard library and the read-only installed EXE; no assembly execution is involved.
