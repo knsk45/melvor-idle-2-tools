@@ -1,0 +1,893 @@
+{
+  "id": "thieving",
+  "gameVersion": "0.11.2-alpha.4",
+  "steamBuildId": "26074343",
+  "packageSha256": "2b43f26ce76d86178f56a72c8dced08a0ae545779786cccdcac868bdc3478474",
+  "checkedAt": "2026-10-25",
+  "method": "docs/BASE_SKILL_FORMULAS.md#thieving",
+  "rows": [
+    {
+      "id": "Citizen",
+      "gameId": "MelvorBase:Citizen",
+      "name": "Citizen",
+      "requiredLevel": 1,
+      "availability": "demo",
+      "conditions": [
+        "Thieving level 1"
+      ],
+      "intervalSeconds": 3.613861386138614,
+      "intervalLabel": "3s expected stage+stun cycle at unlock level",
+      "baseXp": 7,
+      "successChance": 0.7651515151515151,
+      "xpPerHour": 6973.1506849315065,
+      "itemsPerHour": null,
+      "gpPerHour": 7740.595726027398,
+      "products": [],
+      "sourcePointer": "/Objects/ThievingRecipe/0",
+      "notes": [
+        "Fixed at the recipe unlock level with zero modifiers. Success chance is (100 + Thieving level) / (100 + perception).",
+        "Failures inflict the base 2-second stun; XP is granted on completion, while pickpocket currency/loot rolls occur on successful stages. Item quantities are kept null because weighted drop tables are action-specific."
+      ]
+    },
+    {
+      "id": "Thug",
+      "gameId": "MelvorBase:Thug",
+      "name": "Thug",
+      "requiredLevel": 5,
+      "availability": "demo",
+      "conditions": [
+        "Thieving level 5"
+      ],
+      "intervalSeconds": 3.6666666666666665,
+      "intervalLabel": "3s expected stage+stun cycle at unlock level",
+      "baseXp": 9,
+      "successChance": 0.75,
+      "xpPerHour": 8836.363636363636,
+      "itemsPerHour": null,
+      "gpPerHour": 11884.418181818184,
+      "products": [],
+      "sourcePointer": "/Objects/ThievingRecipe/1",
+      "notes": [
+        "Fixed at the recipe unlock level with zero modifiers. Success chance is (100 + Thieving level) / (100 + perception).",
+        "Failures inflict the base 2-second stun; XP is granted on completion, while pickpocket currency/loot rolls occur on successful stages. Item quantities are kept null because weighted drop tables are action-specific."
+      ]
+    },
+    {
+      "id": "LockedThugChest",
+      "gameId": "MelvorBase:LockedThugChest",
+      "name": "Locked Thug Chest",
+      "requiredLevel": 10,
+      "availability": "demo",
+      "conditions": [
+        "Thieving level 10"
+      ],
+      "intervalSeconds": 11.50909090909091,
+      "intervalLabel": "8s expected stage+stun cycle at unlock level",
+      "baseXp": 38,
+      "successChance": 0.36303630363036304,
+      "xpPerHour": 11886.255924170615,
+      "itemsPerHour": null,
+      "gpPerHour": 40462.605055292246,
+      "products": [],
+      "sourcePointer": "/Objects/ThievingRecipe/2",
+      "notes": [
+        "Fixed at the recipe unlock level with zero modifiers. Success chance is (100 + Thieving level) / (100 + perception).",
+        "Failures inflict the base 2-second stun; XP is granted on completion, while pickpocket currency/loot rolls occur on successful stages. Item quantities are kept null because weighted drop tables are action-specific."
+      ]
+    },
+    {
+      "id": "ThugChief",
+      "gameId": "MelvorBase:ThugChief",
+      "name": "Thug Chief",
+      "requiredLevel": 15,
+      "availability": "demo",
+      "conditions": [
+        "Thieving level 15"
+      ],
+      "intervalSeconds": 4.826086956521739,
+      "intervalLabel": "3s expected stage+stun cycle at unlock level",
+      "baseXp": 13,
+      "successChance": 0.5227272727272727,
+      "xpPerHour": 9697.297297297297,
+      "itemsPerHour": null,
+      "gpPerHour": 17457.37297297297,
+      "products": [],
+      "sourcePointer": "/Objects/ThievingRecipe/3",
+      "notes": [
+        "Fixed at the recipe unlock level with zero modifiers. Success chance is (100 + Thieving level) / (100 + perception).",
+        "Failures inflict the base 2-second stun; XP is granted on completion, while pickpocket currency/loot rolls occur on successful stages. Item quantities are kept null because weighted drop tables are action-specific."
+      ]
+    },
+    {
+      "id": "CookingStall",
+      "gameId": "MelvorBase:CookingStall",
+      "name": "Cooking Stall",
+      "requiredLevel": 12,
+      "availability": "demo",
+      "conditions": [
+        "Thieving level 12"
+      ],
+      "intervalSeconds": 6.857142857142858,
+      "intervalLabel": "6s expected stage+stun cycle at unlock level",
+      "baseXp": 10,
+      "successChance": 0.7,
+      "xpPerHour": 5250.0,
+      "itemsPerHour": null,
+      "gpPerHour": 2913.75,
+      "products": [],
+      "sourcePointer": "/Objects/ThievingRecipe/4",
+      "notes": [
+        "Fixed at the recipe unlock level with zero modifiers. Success chance is (100 + Thieving level) / (100 + perception).",
+        "Failures inflict the base 2-second stun; XP is granted on completion, while pickpocket currency/loot rolls occur on successful stages. Item quantities are kept null because weighted drop tables are action-specific."
+      ]
+    },
+    {
+      "id": "Craftsman",
+      "gameId": "MelvorBase:Craftsman",
+      "name": "Craftsman",
+      "requiredLevel": 17,
+      "availability": "demo",
+      "conditions": [
+        "Thieving level 17"
+      ],
+      "intervalSeconds": 4.829059829059829,
+      "intervalLabel": "3s expected stage+stun cycle at unlock level",
+      "baseXp": 14,
+      "successChance": 0.5223214285714286,
+      "xpPerHour": 10436.814159292035,
+      "itemsPerHour": null,
+      "gpPerHour": 18974.79515603167,
+      "products": [],
+      "sourcePointer": "/Objects/ThievingRecipe/5",
+      "notes": [
+        "Fixed at the recipe unlock level with zero modifiers. Success chance is (100 + Thieving level) / (100 + perception).",
+        "Failures inflict the base 2-second stun; XP is granted on completion, while pickpocket currency/loot rolls occur on successful stages. Item quantities are kept null because weighted drop tables are action-specific."
+      ]
+    },
+    {
+      "id": "Fisherman",
+      "gameId": "MelvorBase:Fisherman",
+      "name": "Fisherman",
+      "requiredLevel": 20,
+      "availability": "demo",
+      "conditions": [
+        "Thieving level 20"
+      ],
+      "intervalSeconds": 5.616666666666667,
+      "intervalLabel": "3s expected stage+stun cycle at unlock level",
+      "baseXp": 17,
+      "successChance": 0.4332129963898917,
+      "xpPerHour": 10896.14243323442,
+      "itemsPerHour": null,
+      "gpPerHour": 17726.42136498516,
+      "products": [],
+      "sourcePointer": "/Objects/ThievingRecipe/6",
+      "notes": [
+        "Fixed at the recipe unlock level with zero modifiers. Success chance is (100 + Thieving level) / (100 + perception).",
+        "Failures inflict the base 2-second stun; XP is granted on completion, while pickpocket currency/loot rolls occur on successful stages. Item quantities are kept null because weighted drop tables are action-specific."
+      ]
+    },
+    {
+      "id": "Chef",
+      "gameId": "MelvorBase:Chef",
+      "name": "Chef",
+      "requiredLevel": 30,
+      "availability": "demo",
+      "conditions": [
+        "Thieving level 30"
+      ],
+      "intervalSeconds": 6.2,
+      "intervalLabel": "3s expected stage+stun cycle at unlock level",
+      "baseXp": 22,
+      "successChance": 0.38461538461538464,
+      "xpPerHour": 12774.193548387097,
+      "itemsPerHour": null,
+      "gpPerHour": 22496.22580645161,
+      "products": [],
+      "sourcePointer": "/Objects/ThievingRecipe/7",
+      "notes": [
+        "Fixed at the recipe unlock level with zero modifiers. Success chance is (100 + Thieving level) / (100 + perception).",
+        "Failures inflict the base 2-second stun; XP is granted on completion, while pickpocket currency/loot rolls occur on successful stages. Item quantities are kept null because weighted drop tables are action-specific."
+      ]
+    },
+    {
+      "id": "Farmer",
+      "gameId": "MelvorBase:Farmer",
+      "name": "Farmer",
+      "requiredLevel": 25,
+      "availability": "demo",
+      "conditions": [
+        "Thieving level 25"
+      ],
+      "intervalSeconds": 5.5600000000000005,
+      "intervalLabel": "3s expected stage+stun cycle at unlock level",
+      "baseXp": 19,
+      "successChance": 0.43859649122807015,
+      "xpPerHour": 12302.158273381294,
+      "itemsPerHour": null,
+      "gpPerHour": 20404.58633093525,
+      "products": [],
+      "sourcePointer": "/Objects/ThievingRecipe/8",
+      "notes": [
+        "Fixed at the recipe unlock level with zero modifiers. Success chance is (100 + Thieving level) / (100 + perception).",
+        "Failures inflict the base 2-second stun; XP is granted on completion, while pickpocket currency/loot rolls occur on successful stages. Item quantities are kept null because weighted drop tables are action-specific."
+      ]
+    },
+    {
+      "id": "LockedRanchersChest",
+      "gameId": "MelvorBase:LockedRanchersChest",
+      "name": "Locked Ranchers Chest",
+      "requiredLevel": 33,
+      "availability": "demo",
+      "conditions": [
+        "Thieving level 33"
+      ],
+      "intervalSeconds": 14.721804511278197,
+      "intervalLabel": "8s expected stage+stun cycle at unlock level",
+      "baseXp": 74,
+      "successChance": 0.2293103448275862,
+      "xpPerHour": 18095.60776302349,
+      "itemsPerHour": null,
+      "gpPerHour": 29174.27681307456,
+      "products": [],
+      "sourcePointer": "/Objects/ThievingRecipe/9",
+      "notes": [
+        "Fixed at the recipe unlock level with zero modifiers. Success chance is (100 + Thieving level) / (100 + perception).",
+        "Failures inflict the base 2-second stun; XP is granted on completion, while pickpocket currency/loot rolls occur on successful stages. Item quantities are kept null because weighted drop tables are action-specific."
+      ]
+    },
+    {
+      "id": "MarketSeedStall",
+      "gameId": "MelvorBase:MarketSeedStall",
+      "name": "Market Seed Stall",
+      "requiredLevel": 35,
+      "availability": "demo",
+      "conditions": [
+        "Thieving level 35"
+      ],
+      "intervalSeconds": 7.911111111111111,
+      "intervalLabel": "6s expected stage+stun cycle at unlock level",
+      "baseXp": 20,
+      "successChance": 0.5113636363636364,
+      "xpPerHour": 9101.123595505618,
+      "itemsPerHour": null,
+      "gpPerHour": 5292.853263543162,
+      "products": [],
+      "sourcePointer": "/Objects/ThievingRecipe/10",
+      "notes": [
+        "Fixed at the recipe unlock level with zero modifiers. Success chance is (100 + Thieving level) / (100 + perception).",
+        "Failures inflict the base 2-second stun; XP is granted on completion, while pickpocket currency/loot rolls occur on successful stages. Item quantities are kept null because weighted drop tables are action-specific."
+      ]
+    },
+    {
+      "id": "Herbalist",
+      "gameId": "MelvorBase:Herbalist",
+      "name": "Herbalist",
+      "requiredLevel": null,
+      "availability": "locked",
+      "conditions": [],
+      "intervalSeconds": 10.02,
+      "intervalLabel": "10s expected stage+stun cycle at unlock level",
+      "baseXp": 1,
+      "successChance": 0.9900990099009901,
+      "xpPerHour": 359.28143712574854,
+      "itemsPerHour": null,
+      "gpPerHour": 10311.377245508982,
+      "products": [],
+      "sourcePointer": "/Objects/ThievingRecipe/11",
+      "notes": [
+        "Fixed at the recipe unlock level with zero modifiers. Success chance is (100 + Thieving level) / (100 + perception).",
+        "Failures inflict the base 2-second stun; XP is granted on completion, while pickpocket currency/loot rolls occur on successful stages. Item quantities are kept null because weighted drop tables are action-specific."
+      ]
+    },
+    {
+      "id": "WizardScholar",
+      "gameId": "MelvorBase:WizardScholar",
+      "name": "Wizard Scholar",
+      "requiredLevel": 28,
+      "availability": "demo",
+      "conditions": [
+        "Thieving level 28"
+      ],
+      "intervalSeconds": 5.515625,
+      "intervalLabel": "3s expected stage+stun cycle at unlock level",
+      "baseXp": 20,
+      "successChance": 0.4429065743944637,
+      "xpPerHour": 13053.824362606232,
+      "itemsPerHour": null,
+      "gpPerHour": 20834.491104815865,
+      "products": [],
+      "sourcePointer": "/Objects/ThievingRecipe/12",
+      "notes": [
+        "Fixed at the recipe unlock level with zero modifiers. Success chance is (100 + Thieving level) / (100 + perception).",
+        "Failures inflict the base 2-second stun; XP is granted on completion, while pickpocket currency/loot rolls occur on successful stages. Item quantities are kept null because weighted drop tables are action-specific."
+      ]
+    },
+    {
+      "id": "Runecrafter",
+      "gameId": "MelvorBase:Runecrafter",
+      "name": "Runecrafter",
+      "requiredLevel": 47,
+      "availability": "demo",
+      "conditions": [
+        "Thieving level 47"
+      ],
+      "intervalSeconds": 7.217687074829932,
+      "intervalLabel": "3s expected stage+stun cycle at unlock level",
+      "baseXp": 35,
+      "successChance": 0.32166301969365424,
+      "xpPerHour": 17457.11592836946,
+      "itemsPerHour": null,
+      "gpPerHour": 24686.284283694626,
+      "products": [],
+      "sourcePointer": "/Objects/ThievingRecipe/13",
+      "notes": [
+        "Fixed at the recipe unlock level with zero modifiers. Success chance is (100 + Thieving level) / (100 + perception).",
+        "Failures inflict the base 2-second stun; XP is granted on completion, while pickpocket currency/loot rolls occur on successful stages. Item quantities are kept null because weighted drop tables are action-specific."
+      ]
+    },
+    {
+      "id": "Wizard",
+      "gameId": "MelvorBase:Wizard",
+      "name": "Wizard",
+      "requiredLevel": 53,
+      "availability": "demo",
+      "conditions": [
+        "Thieving level 53"
+      ],
+      "intervalSeconds": 8.294117647058824,
+      "intervalLabel": "3s expected stage+stun cycle at unlock level",
+      "baseXp": 42,
+      "successChance": 0.27419354838709675,
+      "xpPerHour": 18229.787234042553,
+      "itemsPerHour": null,
+      "gpPerHour": 25125.05234042553,
+      "products": [],
+      "sourcePointer": "/Objects/ThievingRecipe/14",
+      "notes": [
+        "Fixed at the recipe unlock level with zero modifiers. Success chance is (100 + Thieving level) / (100 + perception).",
+        "Failures inflict the base 2-second stun; XP is granted on completion, while pickpocket currency/loot rolls occur on successful stages. Item quantities are kept null because weighted drop tables are action-specific."
+      ]
+    },
+    {
+      "id": "ForbiddenLibrary",
+      "gameId": "MelvorBase:ForbiddenLibrary",
+      "name": "Forbidden Library",
+      "requiredLevel": 50,
+      "availability": "demo",
+      "conditions": [
+        "Thieving level 50"
+      ],
+      "intervalSeconds": 222.66666666666669,
+      "intervalLabel": "4s expected stage+stun cycle at unlock level",
+      "baseXp": 1213,
+      "successChance": 0.09868421052631579,
+      "xpPerHour": 19611.37724550898,
+      "itemsPerHour": null,
+      "gpPerHour": 1912.0284431137723,
+      "products": [],
+      "sourcePointer": "/Objects/ThievingRecipe/15",
+      "notes": [
+        "Fixed at the recipe unlock level with zero modifiers. Success chance is (100 + Thieving level) / (100 + perception).",
+        "Failures inflict the base 2-second stun; XP is granted on completion, while pickpocket currency/loot rolls occur on successful stages. Item quantities are kept null because weighted drop tables are action-specific."
+      ]
+    },
+    {
+      "id": "Bandit",
+      "gameId": "MelvorBase:Bandit",
+      "name": "Bandit",
+      "requiredLevel": 33,
+      "availability": "demo",
+      "conditions": [
+        "Thieving level 33"
+      ],
+      "intervalSeconds": 6.157894736842105,
+      "intervalLabel": "3s expected stage+stun cycle at unlock level",
+      "baseXp": 22,
+      "successChance": 0.3877551020408163,
+      "xpPerHour": 12861.538461538463,
+      "itemsPerHour": null,
+      "gpPerHour": 24092.724549918166,
+      "products": [],
+      "sourcePointer": "/Objects/ThievingRecipe/16",
+      "notes": [
+        "Fixed at the recipe unlock level with zero modifiers. Success chance is (100 + Thieving level) / (100 + perception).",
+        "Failures inflict the base 2-second stun; XP is granted on completion, while pickpocket currency/loot rolls occur on successful stages. Item quantities are kept null because weighted drop tables are action-specific."
+      ]
+    },
+    {
+      "id": "BanditFletcher",
+      "gameId": "MelvorBase:BanditFletcher",
+      "name": "Bandit Fletcher",
+      "requiredLevel": 42,
+      "availability": "demo",
+      "conditions": [
+        "Thieving level 42"
+      ],
+      "intervalSeconds": 7.323943661971832,
+      "intervalLabel": "3s expected stage+stun cycle at unlock level",
+      "baseXp": 30,
+      "successChance": 0.31625835189309576,
+      "xpPerHour": 14746.153846153844,
+      "itemsPerHour": null,
+      "gpPerHour": 23271.88846153846,
+      "products": [],
+      "sourcePointer": "/Objects/ThievingRecipe/17",
+      "notes": [
+        "Fixed at the recipe unlock level with zero modifiers. Success chance is (100 + Thieving level) / (100 + perception).",
+        "Failures inflict the base 2-second stun; XP is granted on completion, while pickpocket currency/loot rolls occur on successful stages. Item quantities are kept null because weighted drop tables are action-specific."
+      ]
+    },
+    {
+      "id": "BanditWoodcutter",
+      "gameId": "MelvorBase:BanditWoodcutter",
+      "name": "Bandit Woodcutter",
+      "requiredLevel": 50,
+      "availability": "demo",
+      "conditions": [
+        "Thieving level 50"
+      ],
+      "intervalSeconds": 8.386666666666667,
+      "intervalLabel": "3s expected stage+stun cycle at unlock level",
+      "baseXp": 41,
+      "successChance": 0.27075812274368233,
+      "xpPerHour": 17599.364069952306,
+      "itemsPerHour": null,
+      "gpPerHour": 31371.30643879173,
+      "products": [],
+      "sourcePointer": "/Objects/ThievingRecipe/18",
+      "notes": [
+        "Fixed at the recipe unlock level with zero modifiers. Success chance is (100 + Thieving level) / (100 + perception).",
+        "Failures inflict the base 2-second stun; XP is granted on completion, while pickpocket currency/loot rolls occur on successful stages. Item quantities are kept null because weighted drop tables are action-specific."
+      ]
+    },
+    {
+      "id": "BanditLeader",
+      "gameId": "MelvorBase:BanditLeader",
+      "name": "Bandit Leader",
+      "requiredLevel": null,
+      "availability": "locked",
+      "conditions": [],
+      "intervalSeconds": 10.02,
+      "intervalLabel": "10s expected stage+stun cycle at unlock level",
+      "baseXp": 1,
+      "successChance": 0.9900990099009901,
+      "xpPerHour": 359.28143712574854,
+      "itemsPerHour": null,
+      "gpPerHour": 20119.760479041917,
+      "products": [],
+      "sourcePointer": "/Objects/ThievingRecipe/19",
+      "notes": [
+        "Fixed at the recipe unlock level with zero modifiers. Success chance is (100 + Thieving level) / (100 + perception).",
+        "Failures inflict the base 2-second stun; XP is granted on completion, while pickpocket currency/loot rolls occur on successful stages. Item quantities are kept null because weighted drop tables are action-specific."
+      ]
+    },
+    {
+      "id": "StolenGoods",
+      "gameId": "MelvorBase:StolenGoods",
+      "name": "Stolen Goods",
+      "requiredLevel": null,
+      "availability": "locked",
+      "conditions": [],
+      "intervalSeconds": 10.02,
+      "intervalLabel": "10s expected stage+stun cycle at unlock level",
+      "baseXp": 1,
+      "successChance": 0.9900990099009901,
+      "xpPerHour": 359.28143712574854,
+      "itemsPerHour": null,
+      "gpPerHour": 49580.838323353295,
+      "products": [],
+      "sourcePointer": "/Objects/ThievingRecipe/20",
+      "notes": [
+        "Fixed at the recipe unlock level with zero modifiers. Success chance is (100 + Thieving level) / (100 + perception).",
+        "Failures inflict the base 2-second stun; XP is granted on completion, while pickpocket currency/loot rolls occur on successful stages. Item quantities are kept null because weighted drop tables are action-specific."
+      ]
+    },
+    {
+      "id": "Blacksmith",
+      "gameId": "MelvorBase:Blacksmith",
+      "name": "Blacksmith",
+      "requiredLevel": 53,
+      "availability": "demo",
+      "conditions": [
+        "Thieving level 53"
+      ],
+      "intervalSeconds": 8.294117647058824,
+      "intervalLabel": "3s expected stage+stun cycle at unlock level",
+      "baseXp": 42,
+      "successChance": 0.27419354838709675,
+      "xpPerHour": 18229.787234042553,
+      "itemsPerHour": null,
+      "gpPerHour": 29075.85957446808,
+      "products": [],
+      "sourcePointer": "/Objects/ThievingRecipe/21",
+      "notes": [
+        "Fixed at the recipe unlock level with zero modifiers. Success chance is (100 + Thieving level) / (100 + perception).",
+        "Failures inflict the base 2-second stun; XP is granted on completion, while pickpocket currency/loot rolls occur on successful stages. Item quantities are kept null because weighted drop tables are action-specific."
+      ]
+    },
+    {
+      "id": "CraftingStall",
+      "gameId": "MelvorBase:CraftingStall",
+      "name": "Crafting Stall",
+      "requiredLevel": 55,
+      "availability": "demo",
+      "conditions": [
+        "Thieving level 55"
+      ],
+      "intervalSeconds": 9.664516129032258,
+      "intervalLabel": "6s expected stage+stun cycle at unlock level",
+      "baseXp": 39,
+      "successChance": 0.3530751708428246,
+      "xpPerHour": 14527.369826435248,
+      "itemsPerHour": null,
+      "gpPerHour": 13994.699599465956,
+      "products": [],
+      "sourcePointer": "/Objects/ThievingRecipe/22",
+      "notes": [
+        "Fixed at the recipe unlock level with zero modifiers. Success chance is (100 + Thieving level) / (100 + perception).",
+        "Failures inflict the base 2-second stun; XP is granted on completion, while pickpocket currency/loot rolls occur on successful stages. Item quantities are kept null because weighted drop tables are action-specific."
+      ]
+    },
+    {
+      "id": "LockedBankChest",
+      "gameId": "MelvorBase:LockedBankChest",
+      "name": "Locked Bank Chest",
+      "requiredLevel": null,
+      "availability": "locked",
+      "conditions": [],
+      "intervalSeconds": 10.02,
+      "intervalLabel": "10s expected stage+stun cycle at unlock level",
+      "baseXp": 1,
+      "successChance": 0.9900990099009901,
+      "xpPerHour": 359.28143712574854,
+      "itemsPerHour": null,
+      "gpPerHour": 24143.712574850302,
+      "products": [],
+      "sourcePointer": "/Objects/ThievingRecipe/23",
+      "notes": [
+        "Fixed at the recipe unlock level with zero modifiers. Success chance is (100 + Thieving level) / (100 + perception).",
+        "Failures inflict the base 2-second stun; XP is granted on completion, while pickpocket currency/loot rolls occur on successful stages. Item quantities are kept null because weighted drop tables are action-specific."
+      ]
+    },
+    {
+      "id": "CapitalCitizen",
+      "gameId": "MelvorBase:CapitalCitizen",
+      "name": "Capital Citizen",
+      "requiredLevel": null,
+      "availability": "locked",
+      "conditions": [],
+      "intervalSeconds": 10.02,
+      "intervalLabel": "10s expected stage+stun cycle at unlock level",
+      "baseXp": 1,
+      "successChance": 0.9900990099009901,
+      "xpPerHour": 359.28143712574854,
+      "itemsPerHour": null,
+      "gpPerHour": 25401.197604790425,
+      "products": [],
+      "sourcePointer": "/Objects/ThievingRecipe/24",
+      "notes": [
+        "Fixed at the recipe unlock level with zero modifiers. Success chance is (100 + Thieving level) / (100 + perception).",
+        "Failures inflict the base 2-second stun; XP is granted on completion, while pickpocket currency/loot rolls occur on successful stages. Item quantities are kept null because weighted drop tables are action-specific."
+      ]
+    },
+    {
+      "id": "CapitalSeedStall",
+      "gameId": "MelvorBase:CapitalSeedStall",
+      "name": "Capital Seed Stall",
+      "requiredLevel": null,
+      "availability": "locked",
+      "conditions": [],
+      "intervalSeconds": 10.02,
+      "intervalLabel": "10s expected stage+stun cycle at unlock level",
+      "baseXp": 1,
+      "successChance": 0.9900990099009901,
+      "xpPerHour": 359.28143712574854,
+      "itemsPerHour": null,
+      "gpPerHour": 0.0,
+      "products": [],
+      "sourcePointer": "/Objects/ThievingRecipe/25",
+      "notes": [
+        "Fixed at the recipe unlock level with zero modifiers. Success chance is (100 + Thieving level) / (100 + perception).",
+        "Failures inflict the base 2-second stun; XP is granted on completion, while pickpocket currency/loot rolls occur on successful stages. Item quantities are kept null because weighted drop tables are action-specific."
+      ]
+    },
+    {
+      "id": "Miner",
+      "gameId": "MelvorBase:Miner",
+      "name": "Miner",
+      "requiredLevel": null,
+      "availability": "locked",
+      "conditions": [],
+      "intervalSeconds": 10.02,
+      "intervalLabel": "10s expected stage+stun cycle at unlock level",
+      "baseXp": 1,
+      "successChance": 0.9900990099009901,
+      "xpPerHour": 359.28143712574854,
+      "itemsPerHour": null,
+      "gpPerHour": 22760.47904191617,
+      "products": [],
+      "sourcePointer": "/Objects/ThievingRecipe/26",
+      "notes": [
+        "Fixed at the recipe unlock level with zero modifiers. Success chance is (100 + Thieving level) / (100 + perception).",
+        "Failures inflict the base 2-second stun; XP is granted on completion, while pickpocket currency/loot rolls occur on successful stages. Item quantities are kept null because weighted drop tables are action-specific."
+      ]
+    },
+    {
+      "id": "StoneMason",
+      "gameId": "MelvorBase:StoneMason",
+      "name": "Stone Mason",
+      "requiredLevel": null,
+      "availability": "locked",
+      "conditions": [],
+      "intervalSeconds": 10.02,
+      "intervalLabel": "10s expected stage+stun cycle at unlock level",
+      "baseXp": 1,
+      "successChance": 0.9900990099009901,
+      "xpPerHour": 359.28143712574854,
+      "itemsPerHour": null,
+      "gpPerHour": 26281.437125748507,
+      "products": [],
+      "sourcePointer": "/Objects/ThievingRecipe/27",
+      "notes": [
+        "Fixed at the recipe unlock level with zero modifiers. Success chance is (100 + Thieving level) / (100 + perception).",
+        "Failures inflict the base 2-second stun; XP is granted on completion, while pickpocket currency/loot rolls occur on successful stages. Item quantities are kept null because weighted drop tables are action-specific."
+      ]
+    },
+    {
+      "id": "Carpenter",
+      "gameId": "MelvorBase:Carpenter",
+      "name": "Carpenter",
+      "requiredLevel": null,
+      "availability": "locked",
+      "conditions": [],
+      "intervalSeconds": 10.02,
+      "intervalLabel": "10s expected stage+stun cycle at unlock level",
+      "baseXp": 1,
+      "successChance": 0.9900990099009901,
+      "xpPerHour": 359.28143712574854,
+      "itemsPerHour": null,
+      "gpPerHour": 30682.63473053892,
+      "products": [],
+      "sourcePointer": "/Objects/ThievingRecipe/28",
+      "notes": [
+        "Fixed at the recipe unlock level with zero modifiers. Success chance is (100 + Thieving level) / (100 + perception).",
+        "Failures inflict the base 2-second stun; XP is granted on completion, while pickpocket currency/loot rolls occur on successful stages. Item quantities are kept null because weighted drop tables are action-specific."
+      ]
+    },
+    {
+      "id": "OreStall",
+      "gameId": "MelvorBase:OreStall",
+      "name": "Ore Stall",
+      "requiredLevel": null,
+      "availability": "locked",
+      "conditions": [],
+      "intervalSeconds": 10.02,
+      "intervalLabel": "10s expected stage+stun cycle at unlock level",
+      "baseXp": 1,
+      "successChance": 0.9900990099009901,
+      "xpPerHour": 359.28143712574854,
+      "itemsPerHour": null,
+      "gpPerHour": 0.0,
+      "products": [],
+      "sourcePointer": "/Objects/ThievingRecipe/29",
+      "notes": [
+        "Fixed at the recipe unlock level with zero modifiers. Success chance is (100 + Thieving level) / (100 + perception).",
+        "Failures inflict the base 2-second stun; XP is granted on completion, while pickpocket currency/loot rolls occur on successful stages. Item quantities are kept null because weighted drop tables are action-specific."
+      ]
+    },
+    {
+      "id": "DeepMine",
+      "gameId": "MelvorBase:DeepMine",
+      "name": "Deep Mine",
+      "requiredLevel": null,
+      "availability": "locked",
+      "conditions": [],
+      "intervalSeconds": 10.02,
+      "intervalLabel": "10s expected stage+stun cycle at unlock level",
+      "baseXp": 1,
+      "successChance": 0.9900990099009901,
+      "xpPerHour": 359.28143712574854,
+      "itemsPerHour": null,
+      "gpPerHour": 64850.29940119761,
+      "products": [],
+      "sourcePointer": "/Objects/ThievingRecipe/30",
+      "notes": [
+        "Fixed at the recipe unlock level with zero modifiers. Success chance is (100 + Thieving level) / (100 + perception).",
+        "Failures inflict the base 2-second stun; XP is granted on completion, while pickpocket currency/loot rolls occur on successful stages. Item quantities are kept null because weighted drop tables are action-specific."
+      ]
+    },
+    {
+      "id": "PalaceCitizen",
+      "gameId": "MelvorBase:PalaceCitizen",
+      "name": "Palace Citizen",
+      "requiredLevel": null,
+      "availability": "locked",
+      "conditions": [],
+      "intervalSeconds": 10.02,
+      "intervalLabel": "10s expected stage+stun cycle at unlock level",
+      "baseXp": 1,
+      "successChance": 0.9900990099009901,
+      "xpPerHour": 359.28143712574854,
+      "itemsPerHour": null,
+      "gpPerHour": 37221.55688622755,
+      "products": [],
+      "sourcePointer": "/Objects/ThievingRecipe/31",
+      "notes": [
+        "Fixed at the recipe unlock level with zero modifiers. Success chance is (100 + Thieving level) / (100 + perception).",
+        "Failures inflict the base 2-second stun; XP is granted on completion, while pickpocket currency/loot rolls occur on successful stages. Item quantities are kept null because weighted drop tables are action-specific."
+      ]
+    },
+    {
+      "id": "GemStall",
+      "gameId": "MelvorBase:GemStall",
+      "name": "Gem Stall",
+      "requiredLevel": null,
+      "availability": "locked",
+      "conditions": [],
+      "intervalSeconds": 10.02,
+      "intervalLabel": "10s expected stage+stun cycle at unlock level",
+      "baseXp": 1,
+      "successChance": 0.9900990099009901,
+      "xpPerHour": 359.28143712574854,
+      "itemsPerHour": null,
+      "gpPerHour": 0.0,
+      "products": [],
+      "sourcePointer": "/Objects/ThievingRecipe/32",
+      "notes": [
+        "Fixed at the recipe unlock level with zero modifiers. Success chance is (100 + Thieving level) / (100 + perception).",
+        "Failures inflict the base 2-second stun; XP is granted on completion, while pickpocket currency/loot rolls occur on successful stages. Item quantities are kept null because weighted drop tables are action-specific."
+      ]
+    },
+    {
+      "id": "PalaceGuard",
+      "gameId": "MelvorBase:PalaceGuard",
+      "name": "Palace Guard",
+      "requiredLevel": null,
+      "availability": "locked",
+      "conditions": [],
+      "intervalSeconds": 10.02,
+      "intervalLabel": "10s expected stage+stun cycle at unlock level",
+      "baseXp": 1,
+      "successChance": 0.9900990099009901,
+      "xpPerHour": 359.28143712574854,
+      "itemsPerHour": null,
+      "gpPerHour": 45395.209580838324,
+      "products": [],
+      "sourcePointer": "/Objects/ThievingRecipe/33",
+      "notes": [
+        "Fixed at the recipe unlock level with zero modifiers. Success chance is (100 + Thieving level) / (100 + perception).",
+        "Failures inflict the base 2-second stun; XP is granted on completion, while pickpocket currency/loot rolls occur on successful stages. Item quantities are kept null because weighted drop tables are action-specific."
+      ]
+    },
+    {
+      "id": "PalaceBattlemage",
+      "gameId": "MelvorBase:PalaceBattlemage",
+      "name": "Palace Battlemage",
+      "requiredLevel": null,
+      "availability": "locked",
+      "conditions": [],
+      "intervalSeconds": 10.02,
+      "intervalLabel": "10s expected stage+stun cycle at unlock level",
+      "baseXp": 1,
+      "successChance": 0.9900990099009901,
+      "xpPerHour": 359.28143712574854,
+      "itemsPerHour": null,
+      "gpPerHour": 48413.17365269462,
+      "products": [],
+      "sourcePointer": "/Objects/ThievingRecipe/34",
+      "notes": [
+        "Fixed at the recipe unlock level with zero modifiers. Success chance is (100 + Thieving level) / (100 + perception).",
+        "Failures inflict the base 2-second stun; XP is granted on completion, while pickpocket currency/loot rolls occur on successful stages. Item quantities are kept null because weighted drop tables are action-specific."
+      ]
+    },
+    {
+      "id": "PalaceVault",
+      "gameId": "MelvorBase:PalaceVault",
+      "name": "Palace Vault",
+      "requiredLevel": null,
+      "availability": "locked",
+      "conditions": [],
+      "intervalSeconds": 10.02,
+      "intervalLabel": "10s expected stage+stun cycle at unlock level",
+      "baseXp": 1,
+      "successChance": 0.9900990099009901,
+      "xpPerHour": 359.28143712574854,
+      "itemsPerHour": null,
+      "gpPerHour": 106886.22754491019,
+      "products": [],
+      "sourcePointer": "/Objects/ThievingRecipe/35",
+      "notes": [
+        "Fixed at the recipe unlock level with zero modifiers. Success chance is (100 + Thieving level) / (100 + perception).",
+        "Failures inflict the base 2-second stun; XP is granted on completion, while pickpocket currency/loot rolls occur on successful stages. Item quantities are kept null because weighted drop tables are action-specific."
+      ]
+    },
+    {
+      "id": "LockedBeastChest",
+      "gameId": "MelvorBase:LockedBeastChest",
+      "name": "Locked Beast Chest",
+      "requiredLevel": null,
+      "availability": "locked",
+      "conditions": [],
+      "intervalSeconds": 10.02,
+      "intervalLabel": "10s expected stage+stun cycle at unlock level",
+      "baseXp": 1,
+      "successChance": 0.9900990099009901,
+      "xpPerHour": 359.28143712574854,
+      "itemsPerHour": null,
+      "gpPerHour": 46401.197604790425,
+      "products": [],
+      "sourcePointer": "/Objects/ThievingRecipe/36",
+      "notes": [
+        "Fixed at the recipe unlock level with zero modifiers. Success chance is (100 + Thieving level) / (100 + perception).",
+        "Failures inflict the base 2-second stun; XP is granted on completion, while pickpocket currency/loot rolls occur on successful stages. Item quantities are kept null because weighted drop tables are action-specific."
+      ]
+    },
+    {
+      "id": "Hunter",
+      "gameId": "MelvorBase:Hunter",
+      "name": "Hunter",
+      "requiredLevel": null,
+      "availability": "locked",
+      "conditions": [],
+      "intervalSeconds": 10.02,
+      "intervalLabel": "10s expected stage+stun cycle at unlock level",
+      "baseXp": 1,
+      "successChance": 0.9900990099009901,
+      "xpPerHour": 359.28143712574854,
+      "itemsPerHour": null,
+      "gpPerHour": 50299.4011976048,
+      "products": [],
+      "sourcePointer": "/Objects/ThievingRecipe/37",
+      "notes": [
+        "Fixed at the recipe unlock level with zero modifiers. Success chance is (100 + Thieving level) / (100 + perception).",
+        "Failures inflict the base 2-second stun; XP is granted on completion, while pickpocket currency/loot rolls occur on successful stages. Item quantities are kept null because weighted drop tables are action-specific."
+      ]
+    },
+    {
+      "id": "Chieftain",
+      "gameId": "MelvorBase:Chieftain",
+      "name": "Chieftain",
+      "requiredLevel": null,
+      "availability": "locked",
+      "conditions": [],
+      "intervalSeconds": 10.02,
+      "intervalLabel": "10s expected stage+stun cycle at unlock level",
+      "baseXp": 1,
+      "successChance": 0.9900990099009901,
+      "xpPerHour": 359.28143712574854,
+      "itemsPerHour": null,
+      "gpPerHour": 53443.11377245509,
+      "products": [],
+      "sourcePointer": "/Objects/ThievingRecipe/38",
+      "notes": [
+        "Fixed at the recipe unlock level with zero modifiers. Success chance is (100 + Thieving level) / (100 + perception).",
+        "Failures inflict the base 2-second stun; XP is granted on completion, while pickpocket currency/loot rolls occur on successful stages. Item quantities are kept null because weighted drop tables are action-specific."
+      ]
+    },
+    {
+      "id": "Astrologer",
+      "gameId": "MelvorBase:Astrologer",
+      "name": "Astrologer",
+      "requiredLevel": null,
+      "availability": "locked",
+      "conditions": [],
+      "intervalSeconds": 10.02,
+      "intervalLabel": "10s expected stage+stun cycle at unlock level",
+      "baseXp": 1,
+      "successChance": 0.9900990099009901,
+      "xpPerHour": 359.28143712574854,
+      "itemsPerHour": null,
+      "gpPerHour": 9556.88622754491,
+      "products": [],
+      "sourcePointer": "/Objects/ThievingRecipe/39",
+      "notes": [
+        "Fixed at the recipe unlock level with zero modifiers. Success chance is (100 + Thieving level) / (100 + perception).",
+        "Failures inflict the base 2-second stun; XP is granted on completion, while pickpocket currency/loot rolls occur on successful stages. Item quantities are kept null because weighted drop tables are action-specific."
+      ]
+    }
+  ],
+  "notes": [
+    "Unlock-level baseline; no player level or equipment controls. Unknown item throughput remains null."
+  ]
+}

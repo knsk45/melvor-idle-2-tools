@@ -12,7 +12,7 @@ describe('Fixed versioned base reference',()=>{
   expect(table.rows).toHaveLength(total);expect(selectRows(table.rows,'','demo','xp')).toHaveLength(demo);
   expect(table.gameVersion).toBe('0.11.2-alpha.4');expect(table.packageSha256).toBe('2b43f26ce76d86178f56a72c8dced08a0ae545779786cccdcac868bdc3478474');
  });
- it('has 25 real skill sections, with the verified static rate tables',()=>{expect(index.skills).toHaveLength(25);expect(index.skills.filter(s=>s.status==='ready').map(s=>s.id).sort()).toEqual(['astrology','beastcrafting','cooking','crafting','farming','firemaking','fishing','fletching','herblore','mining','runecrafting','smithing','woodcutting']);});
+ it('has 25 real skill sections, with the verified static rate tables',()=>{expect(index.skills).toHaveLength(25);expect(index.skills.filter(s=>s.status==='ready').map(s=>s.id).sort()).toEqual(['astrology','beastcrafting','cooking','crafting','farming','firemaking','fishing','fletching','herblore','mining','runecrafting','smithing','thieving','woodcutting']);});
  it.each([wood,fish,mine])('has unique source-bound actions and valid finite values',table=>{
   expect(new Set(table.rows.map(r=>r.id)).size).toBe(table.rows.length);
   for(const row of table.rows){expect(row.sourcePointer).toMatch(/^\/Objects\//);expect(row.gameId).toMatch(/^MelvorBase:/);

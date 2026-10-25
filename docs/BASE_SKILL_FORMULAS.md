@@ -83,6 +83,10 @@ Astrology study actions use a fixed 3-second interval (`ActionTimerFiredHandler 
 
 Farming is represented as a fixed healthy-plot baseline from the 49 shipped plant definitions. A harvest grants its base XP once and yields the product quantity; regrowing plants amortize the first growth interval plus each `RegrowInterval` across `1 + Regrows` harvests. The table therefore uses `cycleSeconds = (BaseInterval + Regrows × RegrowInterval) / 1000`, then multiplies XP and total harvest quantity by `3600 / cycleSeconds`. Disease and pest state can only reduce quantity in the inspected path; no disease/pest penalty, watering, compost, automation or plot/input cost is applied to this base table. Gross GP is direct sale revenue, not profit. This convention is explicit in every Farming row so later stateful modifiers can be documented separately.
 
+## Thieving
+
+Thieving has a fixed unlock-level baseline in the table because success intrinsically depends on the skill level. `GetSuccessChance 0x06007925` returns `min(1, (100 + stealth) / (100 + perception))`; at zero modifiers the inspected stealth path uses the unlock level. The action handler (`0x0600789a`) grants XP and pickpocket rewards only on successful completion/stages, while a failed attempt can start the base stun interval. The constructor sets that base stun to 2,000 ms (`0x06007899`), and interval modifiers use floor arithmetic (`0x0600791f`/`0x06007920`). Rates amortize expected successful stages and failed attempts plus their stun time at the unlock level. Item throughput remains null where the reward tables require action-specific weighted quantities; gross GP includes expected direct currency and saleable common/rare drops. No equipment, damage, evasion, distractions or player inputs are applied.
+
 ## Reproduction and verification
 
 `scripts/build_base_reference.py` regenerates `src/data/skills/{index,woodcutting,fishing,mining}.json` and location metadata. It verifies the embedded package SHA-256 before writing selected facts. It requires only Python's standard library and the read-only installed EXE; no assembly execution is involved.
