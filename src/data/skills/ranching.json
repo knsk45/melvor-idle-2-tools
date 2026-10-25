@@ -1,0 +1,843 @@
+{
+  "id": "ranching",
+  "gameVersion": "0.11.2-alpha.4",
+  "steamBuildId": "26074343",
+  "packageSha256": "2b43f26ce76d86178f56a72c8dced08a0ae545779786cccdcac868bdc3478474",
+  "checkedAt": "2026-10-25",
+  "method": "docs/RANCHING_TABLE_DESIGN.md",
+  "rows": [
+    {
+      "id": "Chicken",
+      "gameId": "MelvorBase:Chicken",
+      "name": "Chicken",
+      "requiredLevel": 5,
+      "availability": "demo",
+      "conditions": [
+        "Healthy adult baseline",
+        "Full food and repaired enclosure"
+      ],
+      "intervalSeconds": 3600,
+      "intervalLabel": "1h product cycle",
+      "baseXp": 31,
+      "successChance": 1,
+      "xpPerHour": null,
+      "itemsPerHour": 8,
+      "gpPerHour": null,
+      "products": [
+        {
+          "id": "MelvorBase:Egg",
+          "name": "Egg",
+          "role": "primary",
+          "basis": "healthy adult, happiness 1.0",
+          "probability": 1,
+          "quantity": 2,
+          "itemsPerHour": 2,
+          "gpPerHour": null
+        },
+        {
+          "id": "MelvorBase:Feathers",
+          "name": "Feathers",
+          "role": "primary",
+          "basis": "healthy adult, happiness 1.0",
+          "probability": 1,
+          "quantity": 4,
+          "itemsPerHour": 4,
+          "gpPerHour": null
+        },
+        {
+          "id": "MelvorBase:RawChicken",
+          "name": "RawChicken",
+          "role": "primary",
+          "basis": "healthy adult, happiness 1.0",
+          "probability": 1,
+          "quantity": 1,
+          "itemsPerHour": 1,
+          "gpPerHour": null
+        },
+        {
+          "id": "MelvorBase:Fertiliser",
+          "name": "Fertiliser",
+          "role": "primary",
+          "basis": "healthy adult, happiness 1.0",
+          "probability": 1,
+          "quantity": 1,
+          "itemsPerHour": 1,
+          "gpPerHour": null
+        }
+      ],
+      "sourcePointer": "package-selected.json#/RanchingAnimal/Chicken",
+      "notes": [
+        "XP/ч and gold/ч require state-dependent XpToAdd and item price data; intentionally not estimated.",
+        "Product rates are base quantities at happiness 1.0; variant and care modifiers are excluded."
+      ]
+    },
+    {
+      "id": "Sheep",
+      "gameId": "MelvorBase:Sheep",
+      "name": "Sheep",
+      "requiredLevel": 1,
+      "availability": "demo",
+      "conditions": [
+        "Healthy adult baseline",
+        "Full food and repaired enclosure"
+      ],
+      "intervalSeconds": 3600,
+      "intervalLabel": "1h product cycle",
+      "baseXp": 34,
+      "successChance": 1,
+      "xpPerHour": null,
+      "itemsPerHour": 8,
+      "gpPerHour": null,
+      "products": [
+        {
+          "id": "MelvorBase:Wool",
+          "name": "Wool",
+          "role": "primary",
+          "basis": "healthy adult, happiness 1.0",
+          "probability": 1,
+          "quantity": 4,
+          "itemsPerHour": 4,
+          "gpPerHour": null
+        },
+        {
+          "id": "MelvorBase:RawMeat",
+          "name": "RawMeat",
+          "role": "primary",
+          "basis": "healthy adult, happiness 1.0",
+          "probability": 1,
+          "quantity": 2,
+          "itemsPerHour": 2,
+          "gpPerHour": null
+        },
+        {
+          "id": "MelvorBase:Fertiliser",
+          "name": "Fertiliser",
+          "role": "primary",
+          "basis": "healthy adult, happiness 1.0",
+          "probability": 1,
+          "quantity": 2,
+          "itemsPerHour": 2,
+          "gpPerHour": null
+        }
+      ],
+      "sourcePointer": "package-selected.json#/RanchingAnimal/Sheep",
+      "notes": [
+        "XP/ч and gold/ч require state-dependent XpToAdd and item price data; intentionally not estimated.",
+        "Product rates are base quantities at happiness 1.0; variant and care modifiers are excluded."
+      ]
+    },
+    {
+      "id": "Cow",
+      "gameId": "MelvorBase:Cow",
+      "name": "Cow",
+      "requiredLevel": 15,
+      "availability": "demo",
+      "conditions": [
+        "Healthy adult baseline",
+        "Full food and repaired enclosure"
+      ],
+      "intervalSeconds": 3600,
+      "intervalLabel": "1h product cycle",
+      "baseXp": 37,
+      "successChance": 1,
+      "xpPerHour": null,
+      "itemsPerHour": 10,
+      "gpPerHour": null,
+      "products": [
+        {
+          "id": "MelvorBase:Milk",
+          "name": "Milk",
+          "role": "primary",
+          "basis": "healthy adult, happiness 1.0",
+          "probability": 1,
+          "quantity": 3,
+          "itemsPerHour": 3,
+          "gpPerHour": null
+        },
+        {
+          "id": "MelvorBase:Cowhide",
+          "name": "Cowhide",
+          "role": "primary",
+          "basis": "healthy adult, happiness 1.0",
+          "probability": 1,
+          "quantity": 2,
+          "itemsPerHour": 2,
+          "gpPerHour": null
+        },
+        {
+          "id": "MelvorBase:RawBeef",
+          "name": "RawBeef",
+          "role": "primary",
+          "basis": "healthy adult, happiness 1.0",
+          "probability": 1,
+          "quantity": 2,
+          "itemsPerHour": 2,
+          "gpPerHour": null
+        },
+        {
+          "id": "MelvorBase:Fertiliser",
+          "name": "Fertiliser",
+          "role": "primary",
+          "basis": "healthy adult, happiness 1.0",
+          "probability": 1,
+          "quantity": 3,
+          "itemsPerHour": 3,
+          "gpPerHour": null
+        }
+      ],
+      "sourcePointer": "package-selected.json#/RanchingAnimal/Cow",
+      "notes": [
+        "XP/ч and gold/ч require state-dependent XpToAdd and item price data; intentionally not estimated.",
+        "Product rates are base quantities at happiness 1.0; variant and care modifiers are excluded."
+      ]
+    },
+    {
+      "id": "Pig",
+      "gameId": "MelvorBase:Pig",
+      "name": "Pig",
+      "requiredLevel": 35,
+      "availability": "demo",
+      "conditions": [
+        "Healthy adult baseline",
+        "Full food and repaired enclosure"
+      ],
+      "intervalSeconds": 3600,
+      "intervalLabel": "1h product cycle",
+      "baseXp": 40,
+      "successChance": 1,
+      "xpPerHour": null,
+      "itemsPerHour": 8,
+      "gpPerHour": null,
+      "products": [
+        {
+          "id": "MelvorBase:RawMeat",
+          "name": "RawMeat",
+          "role": "primary",
+          "basis": "healthy adult, happiness 1.0",
+          "probability": 1,
+          "quantity": 6,
+          "itemsPerHour": 6,
+          "gpPerHour": null
+        },
+        {
+          "id": "MelvorBase:Fertiliser",
+          "name": "Fertiliser",
+          "role": "primary",
+          "basis": "healthy adult, happiness 1.0",
+          "probability": 1,
+          "quantity": 2,
+          "itemsPerHour": 2,
+          "gpPerHour": null
+        }
+      ],
+      "sourcePointer": "package-selected.json#/RanchingAnimal/Pig",
+      "notes": [
+        "XP/ч and gold/ч require state-dependent XpToAdd and item price data; intentionally not estimated.",
+        "Product rates are base quantities at happiness 1.0; variant and care modifiers are excluded."
+      ]
+    },
+    {
+      "id": "Bee",
+      "gameId": "MelvorBase:Bee",
+      "name": "Bee",
+      "requiredLevel": 25,
+      "availability": "demo",
+      "conditions": [
+        "Healthy adult baseline",
+        "Full food and repaired enclosure"
+      ],
+      "intervalSeconds": 3600,
+      "intervalLabel": "1h product cycle",
+      "baseXp": 6,
+      "successChance": 1,
+      "xpPerHour": null,
+      "itemsPerHour": 3,
+      "gpPerHour": null,
+      "products": [
+        {
+          "id": "MelvorBase:Honey",
+          "name": "Honey",
+          "role": "primary",
+          "basis": "healthy adult, happiness 1.0",
+          "probability": 1,
+          "quantity": 1,
+          "itemsPerHour": 1,
+          "gpPerHour": null
+        },
+        {
+          "id": "MelvorBase:Beeswax",
+          "name": "Beeswax",
+          "role": "primary",
+          "basis": "healthy adult, happiness 1.0",
+          "probability": 1,
+          "quantity": 2,
+          "itemsPerHour": 2,
+          "gpPerHour": null
+        }
+      ],
+      "sourcePointer": "package-selected.json#/RanchingAnimal/Bee",
+      "notes": [
+        "XP/ч and gold/ч require state-dependent XpToAdd and item price data; intentionally not estimated.",
+        "Product rates are base quantities at happiness 1.0; variant and care modifiers are excluded."
+      ]
+    },
+    {
+      "id": "Silkworm",
+      "gameId": "MelvorBase:Silkworm",
+      "name": "Silkworm",
+      "requiredLevel": 45,
+      "availability": "demo",
+      "conditions": [
+        "Healthy adult baseline",
+        "Full food and repaired enclosure"
+      ],
+      "intervalSeconds": 3600,
+      "intervalLabel": "1h product cycle",
+      "baseXp": 8,
+      "successChance": 1,
+      "xpPerHour": null,
+      "itemsPerHour": 3,
+      "gpPerHour": null,
+      "products": [
+        {
+          "id": "MelvorBase:Silk",
+          "name": "Silk",
+          "role": "primary",
+          "basis": "healthy adult, happiness 1.0",
+          "probability": 1,
+          "quantity": 3,
+          "itemsPerHour": 3,
+          "gpPerHour": null
+        }
+      ],
+      "sourcePointer": "package-selected.json#/RanchingAnimal/Silkworm",
+      "notes": [
+        "XP/ч and gold/ч require state-dependent XpToAdd and item price data; intentionally not estimated.",
+        "Product rates are base quantities at happiness 1.0; variant and care modifiers are excluded."
+      ]
+    },
+    {
+      "id": "Mealworm",
+      "gameId": "MelvorBase:Mealworm",
+      "name": "Mealworm",
+      "requiredLevel": null,
+      "availability": "demo",
+      "conditions": [
+        "Healthy adult baseline",
+        "Full food and repaired enclosure"
+      ],
+      "intervalSeconds": 3600,
+      "intervalLabel": "1h product cycle",
+      "baseXp": 1,
+      "successChance": 1,
+      "xpPerHour": null,
+      "itemsPerHour": 1,
+      "gpPerHour": null,
+      "products": [
+        {
+          "id": "MelvorBase:DemoPlaceholderItem",
+          "name": "DemoPlaceholderItem",
+          "role": "primary",
+          "basis": "healthy adult, happiness 1.0",
+          "probability": 1,
+          "quantity": 1,
+          "itemsPerHour": 1,
+          "gpPerHour": null
+        }
+      ],
+      "sourcePointer": "package-selected.json#/RanchingAnimal/Mealworm",
+      "notes": [
+        "XP/ч and gold/ч require state-dependent XpToAdd and item price data; intentionally not estimated.",
+        "Product rates are base quantities at happiness 1.0; variant and care modifiers are excluded."
+      ]
+    },
+    {
+      "id": "Elk",
+      "gameId": "MelvorBase:Elk",
+      "name": "Elk",
+      "requiredLevel": 55,
+      "availability": "demo",
+      "conditions": [
+        "Healthy adult baseline",
+        "Full food and repaired enclosure"
+      ],
+      "intervalSeconds": 3600,
+      "intervalLabel": "1h product cycle",
+      "baseXp": 52,
+      "successChance": 1,
+      "xpPerHour": null,
+      "itemsPerHour": 7,
+      "gpPerHour": null,
+      "products": [
+        {
+          "id": "MelvorBase:ElkHide",
+          "name": "ElkHide",
+          "role": "primary",
+          "basis": "healthy adult, happiness 1.0",
+          "probability": 1,
+          "quantity": 1,
+          "itemsPerHour": 1,
+          "gpPerHour": null
+        },
+        {
+          "id": "MelvorBase:ElkAntler",
+          "name": "ElkAntler",
+          "role": "primary",
+          "basis": "healthy adult, happiness 1.0",
+          "probability": 1,
+          "quantity": 1,
+          "itemsPerHour": 1,
+          "gpPerHour": null
+        },
+        {
+          "id": "MelvorBase:RawMeat",
+          "name": "RawMeat",
+          "role": "primary",
+          "basis": "healthy adult, happiness 1.0",
+          "probability": 1,
+          "quantity": 2,
+          "itemsPerHour": 2,
+          "gpPerHour": null
+        },
+        {
+          "id": "MelvorBase:Fertiliser",
+          "name": "Fertiliser",
+          "role": "primary",
+          "basis": "healthy adult, happiness 1.0",
+          "probability": 1,
+          "quantity": 3,
+          "itemsPerHour": 3,
+          "gpPerHour": null
+        }
+      ],
+      "sourcePointer": "package-selected.json#/RanchingAnimal/Elk",
+      "notes": [
+        "XP/ч and gold/ч require state-dependent XpToAdd and item price data; intentionally not estimated.",
+        "Product rates are base quantities at happiness 1.0; variant and care modifiers are excluded."
+      ]
+    },
+    {
+      "id": "Wolf",
+      "gameId": "MelvorBase:Wolf",
+      "name": "Wolf",
+      "requiredLevel": null,
+      "availability": "demo",
+      "conditions": [
+        "Healthy adult baseline",
+        "Full food and repaired enclosure"
+      ],
+      "intervalSeconds": 3600,
+      "intervalLabel": "1h product cycle",
+      "baseXp": 1,
+      "successChance": 1,
+      "xpPerHour": null,
+      "itemsPerHour": 1,
+      "gpPerHour": null,
+      "products": [
+        {
+          "id": "MelvorBase:DemoPlaceholderItem",
+          "name": "DemoPlaceholderItem",
+          "role": "primary",
+          "basis": "healthy adult, happiness 1.0",
+          "probability": 1,
+          "quantity": 1,
+          "itemsPerHour": 1,
+          "gpPerHour": null
+        }
+      ],
+      "sourcePointer": "package-selected.json#/RanchingAnimal/Wolf",
+      "notes": [
+        "XP/ч and gold/ч require state-dependent XpToAdd and item price data; intentionally not estimated.",
+        "Product rates are base quantities at happiness 1.0; variant and care modifiers are excluded."
+      ]
+    },
+    {
+      "id": "GreenDragon",
+      "gameId": "MelvorBase:GreenDragon",
+      "name": "Green Dragon",
+      "requiredLevel": null,
+      "availability": "demo",
+      "conditions": [
+        "Healthy adult baseline",
+        "Full food and repaired enclosure"
+      ],
+      "intervalSeconds": 3600,
+      "intervalLabel": "1h product cycle",
+      "baseXp": 1,
+      "successChance": 1,
+      "xpPerHour": null,
+      "itemsPerHour": 1,
+      "gpPerHour": null,
+      "products": [
+        {
+          "id": "MelvorBase:DemoPlaceholderItem",
+          "name": "DemoPlaceholderItem",
+          "role": "primary",
+          "basis": "healthy adult, happiness 1.0",
+          "probability": 1,
+          "quantity": 1,
+          "itemsPerHour": 1,
+          "gpPerHour": null
+        }
+      ],
+      "sourcePointer": "package-selected.json#/RanchingAnimal/GreenDragon",
+      "notes": [
+        "XP/ч and gold/ч require state-dependent XpToAdd and item price data; intentionally not estimated.",
+        "Product rates are base quantities at happiness 1.0; variant and care modifiers are excluded."
+      ]
+    },
+    {
+      "id": "BlueDragon",
+      "gameId": "MelvorBase:BlueDragon",
+      "name": "Blue Dragon",
+      "requiredLevel": null,
+      "availability": "demo",
+      "conditions": [
+        "Healthy adult baseline",
+        "Full food and repaired enclosure"
+      ],
+      "intervalSeconds": 3600,
+      "intervalLabel": "1h product cycle",
+      "baseXp": 1,
+      "successChance": 1,
+      "xpPerHour": null,
+      "itemsPerHour": 1,
+      "gpPerHour": null,
+      "products": [
+        {
+          "id": "MelvorBase:DemoPlaceholderItem",
+          "name": "DemoPlaceholderItem",
+          "role": "primary",
+          "basis": "healthy adult, happiness 1.0",
+          "probability": 1,
+          "quantity": 1,
+          "itemsPerHour": 1,
+          "gpPerHour": null
+        }
+      ],
+      "sourcePointer": "package-selected.json#/RanchingAnimal/BlueDragon",
+      "notes": [
+        "XP/ч and gold/ч require state-dependent XpToAdd and item price data; intentionally not estimated.",
+        "Product rates are base quantities at happiness 1.0; variant and care modifiers are excluded."
+      ]
+    },
+    {
+      "id": "RedDragon",
+      "gameId": "MelvorBase:RedDragon",
+      "name": "Red Dragon",
+      "requiredLevel": null,
+      "availability": "demo",
+      "conditions": [
+        "Healthy adult baseline",
+        "Full food and repaired enclosure"
+      ],
+      "intervalSeconds": 3600,
+      "intervalLabel": "1h product cycle",
+      "baseXp": 1,
+      "successChance": 1,
+      "xpPerHour": null,
+      "itemsPerHour": 1,
+      "gpPerHour": null,
+      "products": [
+        {
+          "id": "MelvorBase:DemoPlaceholderItem",
+          "name": "DemoPlaceholderItem",
+          "role": "primary",
+          "basis": "healthy adult, happiness 1.0",
+          "probability": 1,
+          "quantity": 1,
+          "itemsPerHour": 1,
+          "gpPerHour": null
+        }
+      ],
+      "sourcePointer": "package-selected.json#/RanchingAnimal/RedDragon",
+      "notes": [
+        "XP/ч and gold/ч require state-dependent XpToAdd and item price data; intentionally not estimated.",
+        "Product rates are base quantities at happiness 1.0; variant and care modifiers are excluded."
+      ]
+    },
+    {
+      "id": "BlackDragon",
+      "gameId": "MelvorBase:BlackDragon",
+      "name": "Black Dragon",
+      "requiredLevel": null,
+      "availability": "demo",
+      "conditions": [
+        "Healthy adult baseline",
+        "Full food and repaired enclosure"
+      ],
+      "intervalSeconds": 3600,
+      "intervalLabel": "1h product cycle",
+      "baseXp": 1,
+      "successChance": 1,
+      "xpPerHour": null,
+      "itemsPerHour": 1,
+      "gpPerHour": null,
+      "products": [
+        {
+          "id": "MelvorBase:DemoPlaceholderItem",
+          "name": "DemoPlaceholderItem",
+          "role": "primary",
+          "basis": "healthy adult, happiness 1.0",
+          "probability": 1,
+          "quantity": 1,
+          "itemsPerHour": 1,
+          "gpPerHour": null
+        }
+      ],
+      "sourcePointer": "package-selected.json#/RanchingAnimal/BlackDragon",
+      "notes": [
+        "XP/ч and gold/ч require state-dependent XpToAdd and item price data; intentionally not estimated.",
+        "Product rates are base quantities at happiness 1.0; variant and care modifiers are excluded."
+      ]
+    },
+    {
+      "id": "Caribou",
+      "gameId": "MelvorBase:Caribou",
+      "name": "Caribou",
+      "requiredLevel": null,
+      "availability": "demo",
+      "conditions": [
+        "Healthy adult baseline",
+        "Full food and repaired enclosure"
+      ],
+      "intervalSeconds": 3600,
+      "intervalLabel": "1h product cycle",
+      "baseXp": 1,
+      "successChance": 1,
+      "xpPerHour": null,
+      "itemsPerHour": 1,
+      "gpPerHour": null,
+      "products": [
+        {
+          "id": "MelvorBase:DemoPlaceholderItem",
+          "name": "DemoPlaceholderItem",
+          "role": "primary",
+          "basis": "healthy adult, happiness 1.0",
+          "probability": 1,
+          "quantity": 1,
+          "itemsPerHour": 1,
+          "gpPerHour": null
+        }
+      ],
+      "sourcePointer": "package-selected.json#/RanchingAnimal/Caribou",
+      "notes": [
+        "XP/ч and gold/ч require state-dependent XpToAdd and item price data; intentionally not estimated.",
+        "Product rates are base quantities at happiness 1.0; variant and care modifiers are excluded."
+      ]
+    },
+    {
+      "id": "TopazGolem",
+      "gameId": "MelvorBase:TopazGolem",
+      "name": "Topaz Golem",
+      "requiredLevel": null,
+      "availability": "demo",
+      "conditions": [
+        "Healthy adult baseline",
+        "Full food and repaired enclosure"
+      ],
+      "intervalSeconds": 3600,
+      "intervalLabel": "1h product cycle",
+      "baseXp": 1,
+      "successChance": 1,
+      "xpPerHour": null,
+      "itemsPerHour": 1,
+      "gpPerHour": null,
+      "products": [
+        {
+          "id": "MelvorBase:DemoPlaceholderItem",
+          "name": "DemoPlaceholderItem",
+          "role": "primary",
+          "basis": "healthy adult, happiness 1.0",
+          "probability": 1,
+          "quantity": 1,
+          "itemsPerHour": 1,
+          "gpPerHour": null
+        }
+      ],
+      "sourcePointer": "package-selected.json#/RanchingAnimal/TopazGolem",
+      "notes": [
+        "XP/ч and gold/ч require state-dependent XpToAdd and item price data; intentionally not estimated.",
+        "Product rates are base quantities at happiness 1.0; variant and care modifiers are excluded."
+      ]
+    },
+    {
+      "id": "SapphireGolem",
+      "gameId": "MelvorBase:SapphireGolem",
+      "name": "Sapphire Golem",
+      "requiredLevel": null,
+      "availability": "demo",
+      "conditions": [
+        "Healthy adult baseline",
+        "Full food and repaired enclosure"
+      ],
+      "intervalSeconds": 3600,
+      "intervalLabel": "1h product cycle",
+      "baseXp": 1,
+      "successChance": 1,
+      "xpPerHour": null,
+      "itemsPerHour": 1,
+      "gpPerHour": null,
+      "products": [
+        {
+          "id": "MelvorBase:DemoPlaceholderItem",
+          "name": "DemoPlaceholderItem",
+          "role": "primary",
+          "basis": "healthy adult, happiness 1.0",
+          "probability": 1,
+          "quantity": 1,
+          "itemsPerHour": 1,
+          "gpPerHour": null
+        }
+      ],
+      "sourcePointer": "package-selected.json#/RanchingAnimal/SapphireGolem",
+      "notes": [
+        "XP/ч and gold/ч require state-dependent XpToAdd and item price data; intentionally not estimated.",
+        "Product rates are base quantities at happiness 1.0; variant and care modifiers are excluded."
+      ]
+    },
+    {
+      "id": "RubyGolem",
+      "gameId": "MelvorBase:RubyGolem",
+      "name": "Ruby Golem",
+      "requiredLevel": null,
+      "availability": "demo",
+      "conditions": [
+        "Healthy adult baseline",
+        "Full food and repaired enclosure"
+      ],
+      "intervalSeconds": 3600,
+      "intervalLabel": "1h product cycle",
+      "baseXp": 1,
+      "successChance": 1,
+      "xpPerHour": null,
+      "itemsPerHour": 1,
+      "gpPerHour": null,
+      "products": [
+        {
+          "id": "MelvorBase:DemoPlaceholderItem",
+          "name": "DemoPlaceholderItem",
+          "role": "primary",
+          "basis": "healthy adult, happiness 1.0",
+          "probability": 1,
+          "quantity": 1,
+          "itemsPerHour": 1,
+          "gpPerHour": null
+        }
+      ],
+      "sourcePointer": "package-selected.json#/RanchingAnimal/RubyGolem",
+      "notes": [
+        "XP/ч and gold/ч require state-dependent XpToAdd and item price data; intentionally not estimated.",
+        "Product rates are base quantities at happiness 1.0; variant and care modifiers are excluded."
+      ]
+    },
+    {
+      "id": "EmeraldGolem",
+      "gameId": "MelvorBase:EmeraldGolem",
+      "name": "Emerald Golem",
+      "requiredLevel": null,
+      "availability": "demo",
+      "conditions": [
+        "Healthy adult baseline",
+        "Full food and repaired enclosure"
+      ],
+      "intervalSeconds": 3600,
+      "intervalLabel": "1h product cycle",
+      "baseXp": 1,
+      "successChance": 1,
+      "xpPerHour": null,
+      "itemsPerHour": 1,
+      "gpPerHour": null,
+      "products": [
+        {
+          "id": "MelvorBase:DemoPlaceholderItem",
+          "name": "DemoPlaceholderItem",
+          "role": "primary",
+          "basis": "healthy adult, happiness 1.0",
+          "probability": 1,
+          "quantity": 1,
+          "itemsPerHour": 1,
+          "gpPerHour": null
+        }
+      ],
+      "sourcePointer": "package-selected.json#/RanchingAnimal/EmeraldGolem",
+      "notes": [
+        "XP/ч and gold/ч require state-dependent XpToAdd and item price data; intentionally not estimated.",
+        "Product rates are base quantities at happiness 1.0; variant and care modifiers are excluded."
+      ]
+    },
+    {
+      "id": "DiamondGolem",
+      "gameId": "MelvorBase:DiamondGolem",
+      "name": "Diamond Golem",
+      "requiredLevel": null,
+      "availability": "demo",
+      "conditions": [
+        "Healthy adult baseline",
+        "Full food and repaired enclosure"
+      ],
+      "intervalSeconds": 3600,
+      "intervalLabel": "1h product cycle",
+      "baseXp": 1,
+      "successChance": 1,
+      "xpPerHour": null,
+      "itemsPerHour": 1,
+      "gpPerHour": null,
+      "products": [
+        {
+          "id": "MelvorBase:DemoPlaceholderItem",
+          "name": "DemoPlaceholderItem",
+          "role": "primary",
+          "basis": "healthy adult, happiness 1.0",
+          "probability": 1,
+          "quantity": 1,
+          "itemsPerHour": 1,
+          "gpPerHour": null
+        }
+      ],
+      "sourcePointer": "package-selected.json#/RanchingAnimal/DiamondGolem",
+      "notes": [
+        "XP/ч and gold/ч require state-dependent XpToAdd and item price data; intentionally not estimated.",
+        "Product rates are base quantities at happiness 1.0; variant and care modifiers are excluded."
+      ]
+    },
+    {
+      "id": "JadestoneGolem",
+      "gameId": "MelvorBase:JadestoneGolem",
+      "name": "Jadestone Golem",
+      "requiredLevel": null,
+      "availability": "demo",
+      "conditions": [
+        "Healthy adult baseline",
+        "Full food and repaired enclosure"
+      ],
+      "intervalSeconds": 3600,
+      "intervalLabel": "1h product cycle",
+      "baseXp": 1,
+      "successChance": 1,
+      "xpPerHour": null,
+      "itemsPerHour": 1,
+      "gpPerHour": null,
+      "products": [
+        {
+          "id": "MelvorBase:DemoPlaceholderItem",
+          "name": "DemoPlaceholderItem",
+          "role": "primary",
+          "basis": "healthy adult, happiness 1.0",
+          "probability": 1,
+          "quantity": 1,
+          "itemsPerHour": 1,
+          "gpPerHour": null
+        }
+      ],
+      "sourcePointer": "package-selected.json#/RanchingAnimal/JadestoneGolem",
+      "notes": [
+        "XP/ч and gold/ч require state-dependent XpToAdd and item price data; intentionally not estimated.",
+        "Product rates are base quantities at happiness 1.0; variant and care modifiers are excluded."
+      ]
+    }
+  ],
+  "notes": [
+    "Healthy adult baseline. See Ranching table design for state formulas."
+  ]
+}
