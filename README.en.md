@@ -32,6 +32,6 @@ Open http://127.0.0.1:5173/melvor-idle-2-tools/ . Checks run ESLint, Vitest, Typ
 
 Modifiers belong in a [separate future article](docs/MODIFIERS_ARTICLE_PLAN.md). See [roadmap](docs/ROADMAP.md), [contributing](CONTRIBUTING.md) and [continuation](CONTINUE_HERE.md).
 
-GitHub Pages remains unpublished; its manual workflow requires a separate publication request. MIT covers original code. Game binaries, assets and source code are not bundled.
+Published site: https://knsk45.github.io/melvor-idle-2-tools/ . Pushes to main run checks before updating GitHub Pages; publication was authorized on 25 October 2026. MIT covers original code. Game binaries, assets and source code are not bundled.
 
 [Русский](README.ru.md)

@@ -12,4 +12,4 @@
 
 Implement the remaining skills individually. For each: inspect reward timing, costs, requirements and random mechanics; preserve provenance; add fixed base rates and meaningful regression checks; then mark the section ready. Recipe count alone cannot establish coverage, especially for combat and separate activity models.
 
-Develop a separate, source-backed modifiers article. Pages publication is a separate owner decision; the manual workflow has not been run.
+Develop a separate, source-backed modifiers article. Pages publication and continued updates were authorized on 25 October 2026. Main pushes publish after successful checks.
