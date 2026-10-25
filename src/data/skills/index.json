@@ -704,7 +704,7 @@
         }
       ],
       "definitionCount": 143,
-      "status": "planned",
+      "status": "ready",
       "demoLocked": false
     },
     {
@@ -1021,7 +1021,7 @@
         }
       ],
       "definitionCount": 74,
-      "status": "planned",
+      "status": "ready",
       "demoLocked": false
     },
     {
@@ -1688,7 +1688,7 @@
         }
       ],
       "definitionCount": 161,
-      "status": "planned",
+      "status": "ready",
       "demoLocked": false
     },
     {
@@ -2035,7 +2035,7 @@
         }
       ],
       "definitionCount": 25,
-      "status": "planned",
+      "status": "ready",
       "demoLocked": false
     },
     {
@@ -2435,7 +2435,7 @@
         }
       ],
       "definitionCount": 66,
-      "status": "planned",
+      "status": "ready",
       "demoLocked": false
     },
     {
@@ -3065,7 +3065,7 @@
         }
       ],
       "definitionCount": 152,
-      "status": "planned",
+      "status": "ready",
       "demoLocked": true
     },
     {
@@ -3750,7 +3750,7 @@
         }
       ],
       "definitionCount": 120,
-      "status": "planned",
+      "status": "ready",
       "demoLocked": false
     },
     {
@@ -4597,7 +4597,7 @@
         }
       ],
       "definitionCount": 206,
-      "status": "planned",
+      "status": "ready",
       "demoLocked": false
     },
     {
@@ -4921,7 +4921,7 @@
       ],
       "recipeIds": [],
       "definitionCount": 0,
-      "status": "planned",
+      "status": "ready",
       "demoLocked": true
     }
   ]

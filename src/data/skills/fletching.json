@@ -1,0 +1,2296 @@
+{
+  "id": "fletching",
+  "gameVersion": "0.11.2-alpha.4",
+  "steamBuildId": "26074343",
+  "packageSha256": "2b43f26ce76d86178f56a72c8dced08a0ae545779786cccdcac868bdc3478474",
+  "checkedAt": "2026-10-25",
+  "method": "docs/BASE_SKILL_FORMULAS.md#artisan-production",
+  "rows": [
+    {
+      "id": "ArrowShaft",
+      "gameId": "MelvorBase:ArrowShaft",
+      "name": "Arrow Shaft",
+      "requiredLevel": 1,
+      "availability": "demo",
+      "conditions": [
+        "Fletching level 1",
+        "Consumes NormalLog × 1 per completed action"
+      ],
+      "intervalSeconds": 2.0,
+      "intervalLabel": "2.0s base cycle",
+      "baseXp": 2,
+      "successChance": 1,
+      "xpPerHour": 3600.0,
+      "itemsPerHour": 36000.0,
+      "gpPerHour": 0.0,
+      "products": [
+        {
+          "id": "MelvorBase:ArrowShaft",
+          "name": "Arrow Shaft",
+          "role": "primary",
+          "basis": "completed action",
+          "probability": 1,
+          "quantity": 20,
+          "itemsPerHour": 36000.0,
+          "gpPerHour": 0.0
+        }
+      ],
+      "sourcePointer": "/Objects/ArtisanRecipe/151",
+      "notes": [
+        "Fixed base reference; no equipment, bonuses, preservation or downtime."
+      ]
+    },
+    {
+      "id": "HeadlessArrows",
+      "gameId": "MelvorBase:HeadlessArrows",
+      "name": "Headless Arrows",
+      "requiredLevel": 1,
+      "availability": "demo",
+      "conditions": [
+        "Fletching level 1",
+        "Consumes ArrowShaft × 10 per completed action",
+        "Consumes Feathers × 1 per completed action"
+      ],
+      "intervalSeconds": 2.0,
+      "intervalLabel": "2.0s base cycle",
+      "baseXp": 3,
+      "successChance": 1,
+      "xpPerHour": 5400.0,
+      "itemsPerHour": 18000.0,
+      "gpPerHour": 18000.0,
+      "products": [
+        {
+          "id": "MelvorBase:HeadlessArrows",
+          "name": "Headless Arrows",
+          "role": "primary",
+          "basis": "completed action",
+          "probability": 1,
+          "quantity": 10,
+          "itemsPerHour": 18000.0,
+          "gpPerHour": 18000.0
+        }
+      ],
+      "sourcePointer": "/Objects/ArtisanRecipe/152",
+      "notes": [
+        "Fixed base reference; no equipment, bonuses, preservation or downtime."
+      ]
+    },
+    {
+      "id": "NormalBow",
+      "gameId": "MelvorBase:NormalBow",
+      "name": "Normal Bow",
+      "requiredLevel": 1,
+      "availability": "demo",
+      "conditions": [
+        "Fletching level 1",
+        "Consumes NormalLog × 2 per completed action",
+        "Consumes Bowstring × 1 per completed action"
+      ],
+      "intervalSeconds": 6.0,
+      "intervalLabel": "6.0s base cycle",
+      "baseXp": 7,
+      "successChance": 1,
+      "xpPerHour": 4200.0,
+      "itemsPerHour": 600.0,
+      "gpPerHour": 7200.0,
+      "products": [
+        {
+          "id": "MelvorBase:NormalBow",
+          "name": "Normal Bow",
+          "role": "primary",
+          "basis": "completed action",
+          "probability": 1,
+          "quantity": 1,
+          "itemsPerHour": 600.0,
+          "gpPerHour": 7200.0
+        }
+      ],
+      "sourcePointer": "/Objects/ArtisanRecipe/153",
+      "notes": [
+        "Fixed base reference; no equipment, bonuses, preservation or downtime."
+      ]
+    },
+    {
+      "id": "OakBow",
+      "gameId": "MelvorBase:OakBow",
+      "name": "Oak Bow",
+      "requiredLevel": 15,
+      "availability": "demo",
+      "conditions": [
+        "Fletching level 15",
+        "Consumes OakLog × 2 per completed action",
+        "Consumes Bowstring × 1 per completed action"
+      ],
+      "intervalSeconds": 8.0,
+      "intervalLabel": "8.0s base cycle",
+      "baseXp": 16,
+      "successChance": 1,
+      "xpPerHour": 7200.0,
+      "itemsPerHour": 450.0,
+      "gpPerHour": 21600.0,
+      "products": [
+        {
+          "id": "MelvorBase:OakBow",
+          "name": "Oak Bow",
+          "role": "primary",
+          "basis": "completed action",
+          "probability": 1,
+          "quantity": 1,
+          "itemsPerHour": 450.0,
+          "gpPerHour": 21600.0
+        }
+      ],
+      "sourcePointer": "/Objects/ArtisanRecipe/154",
+      "notes": [
+        "Fixed base reference; no equipment, bonuses, preservation or downtime."
+      ]
+    },
+    {
+      "id": "WillowBow",
+      "gameId": "MelvorBase:WillowBow",
+      "name": "Willow Bow",
+      "requiredLevel": 30,
+      "availability": "demo",
+      "conditions": [
+        "Fletching level 30",
+        "Consumes WillowLog × 2 per completed action",
+        "Consumes Bowstring × 1 per completed action"
+      ],
+      "intervalSeconds": 10.0,
+      "intervalLabel": "10.0s base cycle",
+      "baseXp": 32,
+      "successChance": 1,
+      "xpPerHour": 11520.0,
+      "itemsPerHour": 360.0,
+      "gpPerHour": 30600.0,
+      "products": [
+        {
+          "id": "MelvorBase:WillowBow",
+          "name": "Willow Bow",
+          "role": "primary",
+          "basis": "completed action",
+          "probability": 1,
+          "quantity": 1,
+          "itemsPerHour": 360.0,
+          "gpPerHour": 30600.0
+        }
+      ],
+      "sourcePointer": "/Objects/ArtisanRecipe/155",
+      "notes": [
+        "Fixed base reference; no equipment, bonuses, preservation or downtime."
+      ]
+    },
+    {
+      "id": "MapleBow",
+      "gameId": "MelvorBase:MapleBow",
+      "name": "Maple Bow",
+      "requiredLevel": 45,
+      "availability": "demo",
+      "conditions": [
+        "Fletching level 45",
+        "Consumes MapleLog × 2 per completed action",
+        "Consumes Bowstring × 1 per completed action"
+      ],
+      "intervalSeconds": 12.0,
+      "intervalLabel": "12.0s base cycle",
+      "baseXp": 58,
+      "successChance": 1,
+      "xpPerHour": 17400.0,
+      "itemsPerHour": 300.0,
+      "gpPerHour": 43500.0,
+      "products": [
+        {
+          "id": "MelvorBase:MapleBow",
+          "name": "Maple Bow",
+          "role": "primary",
+          "basis": "completed action",
+          "probability": 1,
+          "quantity": 1,
+          "itemsPerHour": 300.0,
+          "gpPerHour": 43500.0
+        }
+      ],
+      "sourcePointer": "/Objects/ArtisanRecipe/156",
+      "notes": [
+        "Fixed base reference; no equipment, bonuses, preservation or downtime."
+      ]
+    },
+    {
+      "id": "YewBow",
+      "gameId": "MelvorBase:YewBow",
+      "name": "Yew Bow",
+      "requiredLevel": null,
+      "availability": "locked",
+      "conditions": [
+        "Consumes DemoPlaceholderItem × 1 per completed action"
+      ],
+      "intervalSeconds": 70.0,
+      "intervalLabel": "70.0s base cycle",
+      "baseXp": 1,
+      "successChance": 1,
+      "xpPerHour": 51.42857142857143,
+      "itemsPerHour": 51.42857142857143,
+      "gpPerHour": 0.0,
+      "products": [
+        {
+          "id": "MelvorBase:DemoPlaceholderItem",
+          "name": "DemoPlaceholderItem",
+          "role": "primary",
+          "basis": "completed action",
+          "probability": 1,
+          "quantity": 1,
+          "itemsPerHour": 51.42857142857143,
+          "gpPerHour": 0.0
+        }
+      ],
+      "sourcePointer": "/Objects/ArtisanRecipe/157",
+      "notes": [
+        "Fixed base reference; no equipment, bonuses, preservation or downtime.",
+        "Locked demo placeholder definition; not a playable potion baseline."
+      ]
+    },
+    {
+      "id": "MagicBow",
+      "gameId": "MelvorBase:MagicBow",
+      "name": "Magic Bow",
+      "requiredLevel": null,
+      "availability": "locked",
+      "conditions": [
+        "Consumes DemoPlaceholderItem × 1 per completed action"
+      ],
+      "intervalSeconds": 80.0,
+      "intervalLabel": "80.0s base cycle",
+      "baseXp": 1,
+      "successChance": 1,
+      "xpPerHour": 45.0,
+      "itemsPerHour": 45.0,
+      "gpPerHour": 0.0,
+      "products": [
+        {
+          "id": "MelvorBase:DemoPlaceholderItem",
+          "name": "DemoPlaceholderItem",
+          "role": "primary",
+          "basis": "completed action",
+          "probability": 1,
+          "quantity": 1,
+          "itemsPerHour": 45.0,
+          "gpPerHour": 0.0
+        }
+      ],
+      "sourcePointer": "/Objects/ArtisanRecipe/158",
+      "notes": [
+        "Fixed base reference; no equipment, bonuses, preservation or downtime.",
+        "Locked demo placeholder definition; not a playable potion baseline."
+      ]
+    },
+    {
+      "id": "HardOakBow",
+      "gameId": "MelvorBase:HardOakBow",
+      "name": "Hard Oak Bow",
+      "requiredLevel": null,
+      "availability": "locked",
+      "conditions": [
+        "Consumes DemoPlaceholderItem × 1 per completed action"
+      ],
+      "intervalSeconds": 90.0,
+      "intervalLabel": "90.0s base cycle",
+      "baseXp": 1,
+      "successChance": 1,
+      "xpPerHour": 40.0,
+      "itemsPerHour": 40.0,
+      "gpPerHour": 0.0,
+      "products": [
+        {
+          "id": "MelvorBase:DemoPlaceholderItem",
+          "name": "DemoPlaceholderItem",
+          "role": "primary",
+          "basis": "completed action",
+          "probability": 1,
+          "quantity": 1,
+          "itemsPerHour": 40.0,
+          "gpPerHour": 0.0
+        }
+      ],
+      "sourcePointer": "/Objects/ArtisanRecipe/159",
+      "notes": [
+        "Fixed base reference; no equipment, bonuses, preservation or downtime.",
+        "Locked demo placeholder definition; not a playable potion baseline."
+      ]
+    },
+    {
+      "id": "RedwoodBow",
+      "gameId": "MelvorBase:RedwoodBow",
+      "name": "Redwood Bow",
+      "requiredLevel": null,
+      "availability": "locked",
+      "conditions": [
+        "Consumes DemoPlaceholderItem × 1 per completed action"
+      ],
+      "intervalSeconds": 100.0,
+      "intervalLabel": "100.0s base cycle",
+      "baseXp": 1,
+      "successChance": 1,
+      "xpPerHour": 36.0,
+      "itemsPerHour": 36.0,
+      "gpPerHour": 0.0,
+      "products": [
+        {
+          "id": "MelvorBase:DemoPlaceholderItem",
+          "name": "DemoPlaceholderItem",
+          "role": "primary",
+          "basis": "completed action",
+          "probability": 1,
+          "quantity": 1,
+          "itemsPerHour": 36.0,
+          "gpPerHour": 0.0
+        }
+      ],
+      "sourcePointer": "/Objects/ArtisanRecipe/160",
+      "notes": [
+        "Fixed base reference; no equipment, bonuses, preservation or downtime.",
+        "Locked demo placeholder definition; not a playable potion baseline."
+      ]
+    },
+    {
+      "id": "OakBoomerang",
+      "gameId": "MelvorBase:OakBoomerang",
+      "name": "Oak Boomerang",
+      "requiredLevel": 18,
+      "availability": "demo",
+      "conditions": [
+        "Fletching level 18",
+        "Consumes OakLog × 2 per completed action"
+      ],
+      "intervalSeconds": 4.0,
+      "intervalLabel": "4.0s base cycle",
+      "baseXp": 9,
+      "successChance": 1,
+      "xpPerHour": 8100.0,
+      "itemsPerHour": 2700.0,
+      "gpPerHour": 27000.0,
+      "products": [
+        {
+          "id": "MelvorBase:OakBoomerang",
+          "name": "Oak Boomerang",
+          "role": "primary",
+          "basis": "completed action",
+          "probability": 1,
+          "quantity": 3,
+          "itemsPerHour": 2700.0,
+          "gpPerHour": 27000.0
+        }
+      ],
+      "sourcePointer": "/Objects/ArtisanRecipe/161",
+      "notes": [
+        "Fixed base reference; no equipment, bonuses, preservation or downtime."
+      ]
+    },
+    {
+      "id": "WillowBoomerang",
+      "gameId": "MelvorBase:WillowBoomerang",
+      "name": "Willow Boomerang",
+      "requiredLevel": 33,
+      "availability": "demo",
+      "conditions": [
+        "Fletching level 33",
+        "Consumes WillowLog × 2 per completed action"
+      ],
+      "intervalSeconds": 4.0,
+      "intervalLabel": "4.0s base cycle",
+      "baseXp": 14,
+      "successChance": 1,
+      "xpPerHour": 12600.0,
+      "itemsPerHour": 2700.0,
+      "gpPerHour": 35100.0,
+      "products": [
+        {
+          "id": "MelvorBase:WillowBoomerang",
+          "name": "Willow Boomerang",
+          "role": "primary",
+          "basis": "completed action",
+          "probability": 1,
+          "quantity": 3,
+          "itemsPerHour": 2700.0,
+          "gpPerHour": 35100.0
+        }
+      ],
+      "sourcePointer": "/Objects/ArtisanRecipe/162",
+      "notes": [
+        "Fixed base reference; no equipment, bonuses, preservation or downtime."
+      ]
+    },
+    {
+      "id": "MapleBoomerang",
+      "gameId": "MelvorBase:MapleBoomerang",
+      "name": "Maple Boomerang",
+      "requiredLevel": 48,
+      "availability": "demo",
+      "conditions": [
+        "Fletching level 48",
+        "Consumes MapleLog × 2 per completed action"
+      ],
+      "intervalSeconds": 4.0,
+      "intervalLabel": "4.0s base cycle",
+      "baseXp": 26,
+      "successChance": 1,
+      "xpPerHour": 23400.0,
+      "itemsPerHour": 2700.0,
+      "gpPerHour": 48600.0,
+      "products": [
+        {
+          "id": "MelvorBase:MapleBoomerang",
+          "name": "Maple Boomerang",
+          "role": "primary",
+          "basis": "completed action",
+          "probability": 1,
+          "quantity": 3,
+          "itemsPerHour": 2700.0,
+          "gpPerHour": 48600.0
+        }
+      ],
+      "sourcePointer": "/Objects/ArtisanRecipe/163",
+      "notes": [
+        "Fixed base reference; no equipment, bonuses, preservation or downtime."
+      ]
+    },
+    {
+      "id": "YewBoomerang",
+      "gameId": "MelvorBase:YewBoomerang",
+      "name": "Yew Boomerang",
+      "requiredLevel": null,
+      "availability": "locked",
+      "conditions": [
+        "Consumes DemoPlaceholderItem × 1 per completed action"
+      ],
+      "intervalSeconds": 20.0,
+      "intervalLabel": "20.0s base cycle",
+      "baseXp": 1,
+      "successChance": 1,
+      "xpPerHour": 180.0,
+      "itemsPerHour": 180.0,
+      "gpPerHour": 0.0,
+      "products": [
+        {
+          "id": "MelvorBase:DemoPlaceholderItem",
+          "name": "DemoPlaceholderItem",
+          "role": "primary",
+          "basis": "completed action",
+          "probability": 1,
+          "quantity": 1,
+          "itemsPerHour": 180.0,
+          "gpPerHour": 0.0
+        }
+      ],
+      "sourcePointer": "/Objects/ArtisanRecipe/164",
+      "notes": [
+        "Fixed base reference; no equipment, bonuses, preservation or downtime.",
+        "Locked demo placeholder definition; not a playable potion baseline."
+      ]
+    },
+    {
+      "id": "MagicBoomerang",
+      "gameId": "MelvorBase:MagicBoomerang",
+      "name": "Magic Boomerang",
+      "requiredLevel": null,
+      "availability": "locked",
+      "conditions": [
+        "Consumes DemoPlaceholderItem × 1 per completed action"
+      ],
+      "intervalSeconds": 20.0,
+      "intervalLabel": "20.0s base cycle",
+      "baseXp": 1,
+      "successChance": 1,
+      "xpPerHour": 180.0,
+      "itemsPerHour": 180.0,
+      "gpPerHour": 0.0,
+      "products": [
+        {
+          "id": "MelvorBase:DemoPlaceholderItem",
+          "name": "DemoPlaceholderItem",
+          "role": "primary",
+          "basis": "completed action",
+          "probability": 1,
+          "quantity": 1,
+          "itemsPerHour": 180.0,
+          "gpPerHour": 0.0
+        }
+      ],
+      "sourcePointer": "/Objects/ArtisanRecipe/165",
+      "notes": [
+        "Fixed base reference; no equipment, bonuses, preservation or downtime.",
+        "Locked demo placeholder definition; not a playable potion baseline."
+      ]
+    },
+    {
+      "id": "HardOakBoomerang",
+      "gameId": "MelvorBase:HardOakBoomerang",
+      "name": "Hard Oak Boomerang",
+      "requiredLevel": null,
+      "availability": "locked",
+      "conditions": [
+        "Consumes DemoPlaceholderItem × 1 per completed action"
+      ],
+      "intervalSeconds": 20.0,
+      "intervalLabel": "20.0s base cycle",
+      "baseXp": 1,
+      "successChance": 1,
+      "xpPerHour": 180.0,
+      "itemsPerHour": 180.0,
+      "gpPerHour": 0.0,
+      "products": [
+        {
+          "id": "MelvorBase:DemoPlaceholderItem",
+          "name": "DemoPlaceholderItem",
+          "role": "primary",
+          "basis": "completed action",
+          "probability": 1,
+          "quantity": 1,
+          "itemsPerHour": 180.0,
+          "gpPerHour": 0.0
+        }
+      ],
+      "sourcePointer": "/Objects/ArtisanRecipe/166",
+      "notes": [
+        "Fixed base reference; no equipment, bonuses, preservation or downtime.",
+        "Locked demo placeholder definition; not a playable potion baseline."
+      ]
+    },
+    {
+      "id": "RedwoodBoomerang",
+      "gameId": "MelvorBase:RedwoodBoomerang",
+      "name": "Redwood Boomerang",
+      "requiredLevel": null,
+      "availability": "locked",
+      "conditions": [
+        "Consumes DemoPlaceholderItem × 1 per completed action"
+      ],
+      "intervalSeconds": 20.0,
+      "intervalLabel": "20.0s base cycle",
+      "baseXp": 1,
+      "successChance": 1,
+      "xpPerHour": 180.0,
+      "itemsPerHour": 180.0,
+      "gpPerHour": 0.0,
+      "products": [
+        {
+          "id": "MelvorBase:DemoPlaceholderItem",
+          "name": "DemoPlaceholderItem",
+          "role": "primary",
+          "basis": "completed action",
+          "probability": 1,
+          "quantity": 1,
+          "itemsPerHour": 180.0,
+          "gpPerHour": 0.0
+        }
+      ],
+      "sourcePointer": "/Objects/ArtisanRecipe/167",
+      "notes": [
+        "Fixed base reference; no equipment, bonuses, preservation or downtime.",
+        "Locked demo placeholder definition; not a playable potion baseline."
+      ]
+    },
+    {
+      "id": "CopperJavelin",
+      "gameId": "MelvorBase:CopperJavelin",
+      "name": "Copper Javelin",
+      "requiredLevel": 5,
+      "availability": "demo",
+      "conditions": [
+        "Fletching level 5",
+        "Consumes NormalLog × 1 per completed action",
+        "Consumes CopperJavelinHeads × 3 per completed action"
+      ],
+      "intervalSeconds": 4.0,
+      "intervalLabel": "4.0s base cycle",
+      "baseXp": 5,
+      "successChance": 1,
+      "xpPerHour": 4500.0,
+      "itemsPerHour": 2700.0,
+      "gpPerHour": 13500.0,
+      "products": [
+        {
+          "id": "MelvorBase:CopperJavelin",
+          "name": "Copper Javelin",
+          "role": "primary",
+          "basis": "completed action",
+          "probability": 1,
+          "quantity": 3,
+          "itemsPerHour": 2700.0,
+          "gpPerHour": 13500.0
+        }
+      ],
+      "sourcePointer": "/Objects/ArtisanRecipe/168",
+      "notes": [
+        "Fixed base reference; no equipment, bonuses, preservation or downtime."
+      ]
+    },
+    {
+      "id": "IronJavelin",
+      "gameId": "MelvorBase:IronJavelin",
+      "name": "Iron Javelin",
+      "requiredLevel": 10,
+      "availability": "demo",
+      "conditions": [
+        "Fletching level 10",
+        "Consumes OakLog × 1 per completed action",
+        "Consumes IronJavelinHeads × 3 per completed action"
+      ],
+      "intervalSeconds": 4.0,
+      "intervalLabel": "4.0s base cycle",
+      "baseXp": 7,
+      "successChance": 1,
+      "xpPerHour": 6300.0,
+      "itemsPerHour": 2700.0,
+      "gpPerHour": 21600.0,
+      "products": [
+        {
+          "id": "MelvorBase:IronJavelin",
+          "name": "Iron Javelin",
+          "role": "primary",
+          "basis": "completed action",
+          "probability": 1,
+          "quantity": 3,
+          "itemsPerHour": 2700.0,
+          "gpPerHour": 21600.0
+        }
+      ],
+      "sourcePointer": "/Objects/ArtisanRecipe/169",
+      "notes": [
+        "Fixed base reference; no equipment, bonuses, preservation or downtime."
+      ]
+    },
+    {
+      "id": "SteelJavelin",
+      "gameId": "MelvorBase:SteelJavelin",
+      "name": "Steel Javelin",
+      "requiredLevel": 26,
+      "availability": "demo",
+      "conditions": [
+        "Fletching level 26",
+        "Consumes WillowLog × 1 per completed action",
+        "Consumes SteelJavelinHeads × 3 per completed action"
+      ],
+      "intervalSeconds": 4.0,
+      "intervalLabel": "4.0s base cycle",
+      "baseXp": 13,
+      "successChance": 1,
+      "xpPerHour": 11700.0,
+      "itemsPerHour": 2700.0,
+      "gpPerHour": 32400.0,
+      "products": [
+        {
+          "id": "MelvorBase:SteelJavelin",
+          "name": "Steel Javelin",
+          "role": "primary",
+          "basis": "completed action",
+          "probability": 1,
+          "quantity": 3,
+          "itemsPerHour": 2700.0,
+          "gpPerHour": 32400.0
+        }
+      ],
+      "sourcePointer": "/Objects/ArtisanRecipe/170",
+      "notes": [
+        "Fixed base reference; no equipment, bonuses, preservation or downtime."
+      ]
+    },
+    {
+      "id": "MithrilJavelin",
+      "gameId": "MelvorBase:MithrilJavelin",
+      "name": "Mithril Javelin",
+      "requiredLevel": 36,
+      "availability": "demo",
+      "conditions": [
+        "Fletching level 36",
+        "Consumes TeakLog × 1 per completed action",
+        "Consumes MithrilJavelinHeads × 3 per completed action"
+      ],
+      "intervalSeconds": 4.0,
+      "intervalLabel": "4.0s base cycle",
+      "baseXp": 16,
+      "successChance": 1,
+      "xpPerHour": 14400.0,
+      "itemsPerHour": 2700.0,
+      "gpPerHour": 51300.0,
+      "products": [
+        {
+          "id": "MelvorBase:MithrilJavelin",
+          "name": "Mithril Javelin",
+          "role": "primary",
+          "basis": "completed action",
+          "probability": 1,
+          "quantity": 3,
+          "itemsPerHour": 2700.0,
+          "gpPerHour": 51300.0
+        }
+      ],
+      "sourcePointer": "/Objects/ArtisanRecipe/171",
+      "notes": [
+        "Fixed base reference; no equipment, bonuses, preservation or downtime."
+      ]
+    },
+    {
+      "id": "AdamantJavelin",
+      "gameId": "MelvorBase:AdamantJavelin",
+      "name": "Adamant Javelin",
+      "requiredLevel": 46,
+      "availability": "demo",
+      "conditions": [
+        "Fletching level 46",
+        "Consumes MapleLog × 1 per completed action",
+        "Consumes AdamantJavelinHeads × 3 per completed action"
+      ],
+      "intervalSeconds": 4.0,
+      "intervalLabel": "4.0s base cycle",
+      "baseXp": 24,
+      "successChance": 1,
+      "xpPerHour": 21600.0,
+      "itemsPerHour": 2700.0,
+      "gpPerHour": 45900.0,
+      "products": [
+        {
+          "id": "MelvorBase:AdamantJavelin",
+          "name": "Adamant Javelin",
+          "role": "primary",
+          "basis": "completed action",
+          "probability": 1,
+          "quantity": 3,
+          "itemsPerHour": 2700.0,
+          "gpPerHour": 45900.0
+        }
+      ],
+      "sourcePointer": "/Objects/ArtisanRecipe/172",
+      "notes": [
+        "Fixed base reference; no equipment, bonuses, preservation or downtime."
+      ]
+    },
+    {
+      "id": "RuneJavelin",
+      "gameId": "MelvorBase:RuneJavelin",
+      "name": "Rune Javelin",
+      "requiredLevel": null,
+      "availability": "locked",
+      "conditions": [
+        "Consumes DemoPlaceholderItem × 1 per completed action"
+      ],
+      "intervalSeconds": 20.0,
+      "intervalLabel": "20.0s base cycle",
+      "baseXp": 1,
+      "successChance": 1,
+      "xpPerHour": 180.0,
+      "itemsPerHour": 180.0,
+      "gpPerHour": 0.0,
+      "products": [
+        {
+          "id": "MelvorBase:DemoPlaceholderItem",
+          "name": "DemoPlaceholderItem",
+          "role": "primary",
+          "basis": "completed action",
+          "probability": 1,
+          "quantity": 1,
+          "itemsPerHour": 180.0,
+          "gpPerHour": 0.0
+        }
+      ],
+      "sourcePointer": "/Objects/ArtisanRecipe/173",
+      "notes": [
+        "Fixed base reference; no equipment, bonuses, preservation or downtime.",
+        "Locked demo placeholder definition; not a playable potion baseline."
+      ]
+    },
+    {
+      "id": "DawnsteelJavelin",
+      "gameId": "MelvorBase:DawnsteelJavelin",
+      "name": "Dawnsteel Javelin",
+      "requiredLevel": null,
+      "availability": "locked",
+      "conditions": [
+        "Consumes DemoPlaceholderItem × 1 per completed action"
+      ],
+      "intervalSeconds": 20.0,
+      "intervalLabel": "20.0s base cycle",
+      "baseXp": 1,
+      "successChance": 1,
+      "xpPerHour": 180.0,
+      "itemsPerHour": 180.0,
+      "gpPerHour": 0.0,
+      "products": [
+        {
+          "id": "MelvorBase:DemoPlaceholderItem",
+          "name": "DemoPlaceholderItem",
+          "role": "primary",
+          "basis": "completed action",
+          "probability": 1,
+          "quantity": 1,
+          "itemsPerHour": 180.0,
+          "gpPerHour": 0.0
+        }
+      ],
+      "sourcePointer": "/Objects/ArtisanRecipe/174",
+      "notes": [
+        "Fixed base reference; no equipment, bonuses, preservation or downtime.",
+        "Locked demo placeholder definition; not a playable potion baseline."
+      ]
+    },
+    {
+      "id": "DragonJavelin",
+      "gameId": "MelvorBase:DragonJavelin",
+      "name": "Dragon Javelin",
+      "requiredLevel": null,
+      "availability": "locked",
+      "conditions": [
+        "Consumes DemoPlaceholderItem × 1 per completed action"
+      ],
+      "intervalSeconds": 20.0,
+      "intervalLabel": "20.0s base cycle",
+      "baseXp": 1,
+      "successChance": 1,
+      "xpPerHour": 180.0,
+      "itemsPerHour": 180.0,
+      "gpPerHour": 0.0,
+      "products": [
+        {
+          "id": "MelvorBase:DemoPlaceholderItem",
+          "name": "DemoPlaceholderItem",
+          "role": "primary",
+          "basis": "completed action",
+          "probability": 1,
+          "quantity": 1,
+          "itemsPerHour": 180.0,
+          "gpPerHour": 0.0
+        }
+      ],
+      "sourcePointer": "/Objects/ArtisanRecipe/175",
+      "notes": [
+        "Fixed base reference; no equipment, bonuses, preservation or downtime.",
+        "Locked demo placeholder definition; not a playable potion baseline."
+      ]
+    },
+    {
+      "id": "IronCrossbow",
+      "gameId": "MelvorBase:IronCrossbow",
+      "name": "Iron Crossbow",
+      "requiredLevel": 13,
+      "availability": "demo",
+      "conditions": [
+        "Fletching level 13",
+        "Consumes OakLog × 3 per completed action",
+        "Consumes IronCrossbowHead × 1 per completed action",
+        "Consumes Bowstring × 1 per completed action"
+      ],
+      "intervalSeconds": 8.0,
+      "intervalLabel": "8.0s base cycle",
+      "baseXp": 26,
+      "successChance": 1,
+      "xpPerHour": 11700.0,
+      "itemsPerHour": 450.0,
+      "gpPerHour": 55800.0,
+      "products": [
+        {
+          "id": "MelvorBase:IronCrossbow",
+          "name": "Iron Crossbow",
+          "role": "primary",
+          "basis": "completed action",
+          "probability": 1,
+          "quantity": 1,
+          "itemsPerHour": 450.0,
+          "gpPerHour": 55800.0
+        }
+      ],
+      "sourcePointer": "/Objects/ArtisanRecipe/176",
+      "notes": [
+        "Fixed base reference; no equipment, bonuses, preservation or downtime."
+      ]
+    },
+    {
+      "id": "SteelCrossbow",
+      "gameId": "MelvorBase:SteelCrossbow",
+      "name": "Steel Crossbow",
+      "requiredLevel": 29,
+      "availability": "demo",
+      "conditions": [
+        "Fletching level 29",
+        "Consumes WillowLog × 3 per completed action",
+        "Consumes SteelCrossbowHead × 1 per completed action",
+        "Consumes Bowstring × 1 per completed action"
+      ],
+      "intervalSeconds": 10.0,
+      "intervalLabel": "10.0s base cycle",
+      "baseXp": 57,
+      "successChance": 1,
+      "xpPerHour": 20520.0,
+      "itemsPerHour": 360.0,
+      "gpPerHour": 83160.0,
+      "products": [
+        {
+          "id": "MelvorBase:SteelCrossbow",
+          "name": "Steel Crossbow",
+          "role": "primary",
+          "basis": "completed action",
+          "probability": 1,
+          "quantity": 1,
+          "itemsPerHour": 360.0,
+          "gpPerHour": 83160.0
+        }
+      ],
+      "sourcePointer": "/Objects/ArtisanRecipe/177",
+      "notes": [
+        "Fixed base reference; no equipment, bonuses, preservation or downtime."
+      ]
+    },
+    {
+      "id": "MithrilCrossbow",
+      "gameId": "MelvorBase:MithrilCrossbow",
+      "name": "Mithril Crossbow",
+      "requiredLevel": 39,
+      "availability": "demo",
+      "conditions": [
+        "Fletching level 39",
+        "Consumes TeakLog × 3 per completed action",
+        "Consumes MithrilCrossbowHead × 1 per completed action",
+        "Consumes Bowstring × 1 per completed action"
+      ],
+      "intervalSeconds": 12.0,
+      "intervalLabel": "12.0s base cycle",
+      "baseXp": 85,
+      "successChance": 1,
+      "xpPerHour": 25500.0,
+      "itemsPerHour": 300.0,
+      "gpPerHour": 116400.0,
+      "products": [
+        {
+          "id": "MelvorBase:MithrilCrossbow",
+          "name": "Mithril Crossbow",
+          "role": "primary",
+          "basis": "completed action",
+          "probability": 1,
+          "quantity": 1,
+          "itemsPerHour": 300.0,
+          "gpPerHour": 116400.0
+        }
+      ],
+      "sourcePointer": "/Objects/ArtisanRecipe/178",
+      "notes": [
+        "Fixed base reference; no equipment, bonuses, preservation or downtime."
+      ]
+    },
+    {
+      "id": "AdamantCrossbow",
+      "gameId": "MelvorBase:AdamantCrossbow",
+      "name": "Adamant Crossbow",
+      "requiredLevel": 49,
+      "availability": "demo",
+      "conditions": [
+        "Fletching level 49",
+        "Consumes MapleLog × 3 per completed action",
+        "Consumes AdamantCrossbowHead × 1 per completed action",
+        "Consumes Bowstring × 1 per completed action"
+      ],
+      "intervalSeconds": 14.0,
+      "intervalLabel": "14.0s base cycle",
+      "baseXp": 145,
+      "successChance": 1,
+      "xpPerHour": 37285.71428571429,
+      "itemsPerHour": 257.14285714285717,
+      "gpPerHour": 113142.85714285716,
+      "products": [
+        {
+          "id": "MelvorBase:AdamantCrossbow",
+          "name": "Adamant Crossbow",
+          "role": "primary",
+          "basis": "completed action",
+          "probability": 1,
+          "quantity": 1,
+          "itemsPerHour": 257.14285714285717,
+          "gpPerHour": 113142.85714285716
+        }
+      ],
+      "sourcePointer": "/Objects/ArtisanRecipe/179",
+      "notes": [
+        "Fixed base reference; no equipment, bonuses, preservation or downtime."
+      ]
+    },
+    {
+      "id": "RuneCrossbow",
+      "gameId": "MelvorBase:RuneCrossbow",
+      "name": "Rune Crossbow",
+      "requiredLevel": null,
+      "availability": "locked",
+      "conditions": [
+        "Consumes DemoPlaceholderItem × 1 per completed action"
+      ],
+      "intervalSeconds": 80.0,
+      "intervalLabel": "80.0s base cycle",
+      "baseXp": 1,
+      "successChance": 1,
+      "xpPerHour": 45.0,
+      "itemsPerHour": 45.0,
+      "gpPerHour": 0.0,
+      "products": [
+        {
+          "id": "MelvorBase:DemoPlaceholderItem",
+          "name": "DemoPlaceholderItem",
+          "role": "primary",
+          "basis": "completed action",
+          "probability": 1,
+          "quantity": 1,
+          "itemsPerHour": 45.0,
+          "gpPerHour": 0.0
+        }
+      ],
+      "sourcePointer": "/Objects/ArtisanRecipe/180",
+      "notes": [
+        "Fixed base reference; no equipment, bonuses, preservation or downtime.",
+        "Locked demo placeholder definition; not a playable potion baseline."
+      ]
+    },
+    {
+      "id": "DawnsteelCrossbow",
+      "gameId": "MelvorBase:DawnsteelCrossbow",
+      "name": "Dawnsteel Crossbow",
+      "requiredLevel": null,
+      "availability": "locked",
+      "conditions": [
+        "Consumes DemoPlaceholderItem × 1 per completed action"
+      ],
+      "intervalSeconds": 90.0,
+      "intervalLabel": "90.0s base cycle",
+      "baseXp": 1,
+      "successChance": 1,
+      "xpPerHour": 40.0,
+      "itemsPerHour": 40.0,
+      "gpPerHour": 0.0,
+      "products": [
+        {
+          "id": "MelvorBase:DemoPlaceholderItem",
+          "name": "DemoPlaceholderItem",
+          "role": "primary",
+          "basis": "completed action",
+          "probability": 1,
+          "quantity": 1,
+          "itemsPerHour": 40.0,
+          "gpPerHour": 0.0
+        }
+      ],
+      "sourcePointer": "/Objects/ArtisanRecipe/181",
+      "notes": [
+        "Fixed base reference; no equipment, bonuses, preservation or downtime.",
+        "Locked demo placeholder definition; not a playable potion baseline."
+      ]
+    },
+    {
+      "id": "DragonCrossbow",
+      "gameId": "MelvorBase:DragonCrossbow",
+      "name": "Dragon Crossbow",
+      "requiredLevel": null,
+      "availability": "locked",
+      "conditions": [
+        "Consumes DemoPlaceholderItem × 1 per completed action"
+      ],
+      "intervalSeconds": 100.0,
+      "intervalLabel": "100.0s base cycle",
+      "baseXp": 1,
+      "successChance": 1,
+      "xpPerHour": 36.0,
+      "itemsPerHour": 36.0,
+      "gpPerHour": 0.0,
+      "products": [
+        {
+          "id": "MelvorBase:DemoPlaceholderItem",
+          "name": "DemoPlaceholderItem",
+          "role": "primary",
+          "basis": "completed action",
+          "probability": 1,
+          "quantity": 1,
+          "itemsPerHour": 36.0,
+          "gpPerHour": 0.0
+        }
+      ],
+      "sourcePointer": "/Objects/ArtisanRecipe/182",
+      "notes": [
+        "Fixed base reference; no equipment, bonuses, preservation or downtime.",
+        "Locked demo placeholder definition; not a playable potion baseline."
+      ]
+    },
+    {
+      "id": "Iron2HCrossbow",
+      "gameId": "MelvorBase:Iron2HCrossbow",
+      "name": "Iron 2H Crossbow",
+      "requiredLevel": 20,
+      "availability": "demo",
+      "conditions": [
+        "Fletching level 20",
+        "Consumes OakLog × 6 per completed action",
+        "Consumes IronCrossbowHead × 2 per completed action",
+        "Consumes Bowstring × 1 per completed action"
+      ],
+      "intervalSeconds": 14.0,
+      "intervalLabel": "14.0s base cycle",
+      "baseXp": 75,
+      "successChance": 1,
+      "xpPerHour": 19285.714285714286,
+      "itemsPerHour": 257.14285714285717,
+      "gpPerHour": 84085.71428571429,
+      "products": [
+        {
+          "id": "MelvorBase:Iron2HCrossbow",
+          "name": "Iron 2H Crossbow",
+          "role": "primary",
+          "basis": "completed action",
+          "probability": 1,
+          "quantity": 1,
+          "itemsPerHour": 257.14285714285717,
+          "gpPerHour": 84085.71428571429
+        }
+      ],
+      "sourcePointer": "/Objects/ArtisanRecipe/183",
+      "notes": [
+        "Fixed base reference; no equipment, bonuses, preservation or downtime."
+      ]
+    },
+    {
+      "id": "Steel2HCrossbow",
+      "gameId": "MelvorBase:Steel2HCrossbow",
+      "name": "Steel 2H Crossbow",
+      "requiredLevel": 35,
+      "availability": "demo",
+      "conditions": [
+        "Fletching level 35",
+        "Consumes WillowLog × 6 per completed action",
+        "Consumes SteelCrossbowHead × 2 per completed action",
+        "Consumes Bowstring × 1 per completed action"
+      ],
+      "intervalSeconds": 16.0,
+      "intervalLabel": "16.0s base cycle",
+      "baseXp": 121,
+      "successChance": 1,
+      "xpPerHour": 27225.0,
+      "itemsPerHour": 225.0,
+      "gpPerHour": 129825.0,
+      "products": [
+        {
+          "id": "MelvorBase:Steel2HCrossbow",
+          "name": "Steel 2H Crossbow",
+          "role": "primary",
+          "basis": "completed action",
+          "probability": 1,
+          "quantity": 1,
+          "itemsPerHour": 225.0,
+          "gpPerHour": 129825.0
+        }
+      ],
+      "sourcePointer": "/Objects/ArtisanRecipe/184",
+      "notes": [
+        "Fixed base reference; no equipment, bonuses, preservation or downtime."
+      ]
+    },
+    {
+      "id": "Mithril2HCrossbow",
+      "gameId": "MelvorBase:Mithril2HCrossbow",
+      "name": "Mithril 2H Crossbow",
+      "requiredLevel": 44,
+      "availability": "demo",
+      "conditions": [
+        "Fletching level 44",
+        "Consumes TeakLog × 6 per completed action",
+        "Consumes MithrilCrossbowHead × 2 per completed action",
+        "Consumes Bowstring × 1 per completed action"
+      ],
+      "intervalSeconds": 18.0,
+      "intervalLabel": "18.0s base cycle",
+      "baseXp": 193,
+      "successChance": 1,
+      "xpPerHour": 38600.0,
+      "itemsPerHour": 200.0,
+      "gpPerHour": 131200.0,
+      "products": [
+        {
+          "id": "MelvorBase:Mithril2HCrossbow",
+          "name": "Mithril 2H Crossbow",
+          "role": "primary",
+          "basis": "completed action",
+          "probability": 1,
+          "quantity": 1,
+          "itemsPerHour": 200.0,
+          "gpPerHour": 131200.0
+        }
+      ],
+      "sourcePointer": "/Objects/ArtisanRecipe/185",
+      "notes": [
+        "Fixed base reference; no equipment, bonuses, preservation or downtime."
+      ]
+    },
+    {
+      "id": "Adamant2HCrossbow",
+      "gameId": "MelvorBase:Adamant2HCrossbow",
+      "name": "Adamant 2H Crossbow",
+      "requiredLevel": 55,
+      "availability": "demo",
+      "conditions": [
+        "Fletching level 55",
+        "Consumes MahoganyLog × 6 per completed action",
+        "Consumes AdamantCrossbowHead × 2 per completed action",
+        "Consumes Bowstring × 1 per completed action"
+      ],
+      "intervalSeconds": 20.0,
+      "intervalLabel": "20.0s base cycle",
+      "baseXp": 345,
+      "successChance": 1,
+      "xpPerHour": 62100.0,
+      "itemsPerHour": 180.0,
+      "gpPerHour": 221040.0,
+      "products": [
+        {
+          "id": "MelvorBase:Adamant2HCrossbow",
+          "name": "Adamant 2H Crossbow",
+          "role": "primary",
+          "basis": "completed action",
+          "probability": 1,
+          "quantity": 1,
+          "itemsPerHour": 180.0,
+          "gpPerHour": 221040.0
+        }
+      ],
+      "sourcePointer": "/Objects/ArtisanRecipe/186",
+      "notes": [
+        "Fixed base reference; no equipment, bonuses, preservation or downtime."
+      ]
+    },
+    {
+      "id": "Rune2HCrossbow",
+      "gameId": "MelvorBase:Rune2HCrossbow",
+      "name": "Rune 2H Crossbow",
+      "requiredLevel": null,
+      "availability": "locked",
+      "conditions": [
+        "Consumes DemoPlaceholderItem × 1 per completed action"
+      ],
+      "intervalSeconds": 110.0,
+      "intervalLabel": "110.0s base cycle",
+      "baseXp": 1,
+      "successChance": 1,
+      "xpPerHour": 32.72727272727273,
+      "itemsPerHour": 32.72727272727273,
+      "gpPerHour": 0.0,
+      "products": [
+        {
+          "id": "MelvorBase:DemoPlaceholderItem",
+          "name": "DemoPlaceholderItem",
+          "role": "primary",
+          "basis": "completed action",
+          "probability": 1,
+          "quantity": 1,
+          "itemsPerHour": 32.72727272727273,
+          "gpPerHour": 0.0
+        }
+      ],
+      "sourcePointer": "/Objects/ArtisanRecipe/187",
+      "notes": [
+        "Fixed base reference; no equipment, bonuses, preservation or downtime.",
+        "Locked demo placeholder definition; not a playable potion baseline."
+      ]
+    },
+    {
+      "id": "Dawnsteel2HCrossbow",
+      "gameId": "MelvorBase:Dawnsteel2HCrossbow",
+      "name": "Dawnsteel 2H Crossbow",
+      "requiredLevel": null,
+      "availability": "locked",
+      "conditions": [
+        "Consumes DemoPlaceholderItem × 1 per completed action"
+      ],
+      "intervalSeconds": 120.0,
+      "intervalLabel": "120.0s base cycle",
+      "baseXp": 1,
+      "successChance": 1,
+      "xpPerHour": 30.0,
+      "itemsPerHour": 30.0,
+      "gpPerHour": 0.0,
+      "products": [
+        {
+          "id": "MelvorBase:DemoPlaceholderItem",
+          "name": "DemoPlaceholderItem",
+          "role": "primary",
+          "basis": "completed action",
+          "probability": 1,
+          "quantity": 1,
+          "itemsPerHour": 30.0,
+          "gpPerHour": 0.0
+        }
+      ],
+      "sourcePointer": "/Objects/ArtisanRecipe/188",
+      "notes": [
+        "Fixed base reference; no equipment, bonuses, preservation or downtime.",
+        "Locked demo placeholder definition; not a playable potion baseline."
+      ]
+    },
+    {
+      "id": "Dragon2HCrossbow",
+      "gameId": "MelvorBase:Dragon2HCrossbow",
+      "name": "Dragon 2H Crossbow",
+      "requiredLevel": null,
+      "availability": "locked",
+      "conditions": [
+        "Consumes DemoPlaceholderItem × 1 per completed action"
+      ],
+      "intervalSeconds": 130.0,
+      "intervalLabel": "130.0s base cycle",
+      "baseXp": 1,
+      "successChance": 1,
+      "xpPerHour": 27.692307692307693,
+      "itemsPerHour": 27.692307692307693,
+      "gpPerHour": 0.0,
+      "products": [
+        {
+          "id": "MelvorBase:DemoPlaceholderItem",
+          "name": "DemoPlaceholderItem",
+          "role": "primary",
+          "basis": "completed action",
+          "probability": 1,
+          "quantity": 1,
+          "itemsPerHour": 27.692307692307693,
+          "gpPerHour": 0.0
+        }
+      ],
+      "sourcePointer": "/Objects/ArtisanRecipe/189",
+      "notes": [
+        "Fixed base reference; no equipment, bonuses, preservation or downtime.",
+        "Locked demo placeholder definition; not a playable potion baseline."
+      ]
+    },
+    {
+      "id": "StoneArrows",
+      "gameId": "MelvorBase:StoneArrows",
+      "name": "Stone Arrows",
+      "requiredLevel": 1,
+      "availability": "demo",
+      "conditions": [
+        "Fletching level 1",
+        "Consumes StoneArrowtips × 4 per completed action",
+        "Consumes HeadlessArrows × 4 per completed action"
+      ],
+      "intervalSeconds": 4.0,
+      "intervalLabel": "4.0s base cycle",
+      "baseXp": 4,
+      "successChance": 1,
+      "xpPerHour": 3600.0,
+      "itemsPerHour": 3600.0,
+      "gpPerHour": 10800.0,
+      "products": [
+        {
+          "id": "MelvorBase:StoneArrows",
+          "name": "Stone Arrows",
+          "role": "primary",
+          "basis": "completed action",
+          "probability": 1,
+          "quantity": 4,
+          "itemsPerHour": 3600.0,
+          "gpPerHour": 10800.0
+        }
+      ],
+      "sourcePointer": "/Objects/ArtisanRecipe/190",
+      "notes": [
+        "Fixed base reference; no equipment, bonuses, preservation or downtime."
+      ]
+    },
+    {
+      "id": "CopperArrows",
+      "gameId": "MelvorBase:CopperArrows",
+      "name": "Copper Arrows",
+      "requiredLevel": 5,
+      "availability": "demo",
+      "conditions": [
+        "Fletching level 5",
+        "Consumes CopperArrowtips × 4 per completed action",
+        "Consumes HeadlessArrows × 4 per completed action"
+      ],
+      "intervalSeconds": 4.0,
+      "intervalLabel": "4.0s base cycle",
+      "baseXp": 6,
+      "successChance": 1,
+      "xpPerHour": 5400.0,
+      "itemsPerHour": 3600.0,
+      "gpPerHour": 10800.0,
+      "products": [
+        {
+          "id": "MelvorBase:CopperArrows",
+          "name": "Copper Arrows",
+          "role": "primary",
+          "basis": "completed action",
+          "probability": 1,
+          "quantity": 4,
+          "itemsPerHour": 3600.0,
+          "gpPerHour": 10800.0
+        }
+      ],
+      "sourcePointer": "/Objects/ArtisanRecipe/191",
+      "notes": [
+        "Fixed base reference; no equipment, bonuses, preservation or downtime."
+      ]
+    },
+    {
+      "id": "IronArrows",
+      "gameId": "MelvorBase:IronArrows",
+      "name": "Iron Arrows",
+      "requiredLevel": 10,
+      "availability": "demo",
+      "conditions": [
+        "Fletching level 10",
+        "Consumes IronArrowtips × 4 per completed action",
+        "Consumes HeadlessArrows × 4 per completed action"
+      ],
+      "intervalSeconds": 4.0,
+      "intervalLabel": "4.0s base cycle",
+      "baseXp": 7,
+      "successChance": 1,
+      "xpPerHour": 6300.0,
+      "itemsPerHour": 3600.0,
+      "gpPerHour": 18000.0,
+      "products": [
+        {
+          "id": "MelvorBase:IronArrows",
+          "name": "Iron Arrows",
+          "role": "primary",
+          "basis": "completed action",
+          "probability": 1,
+          "quantity": 4,
+          "itemsPerHour": 3600.0,
+          "gpPerHour": 18000.0
+        }
+      ],
+      "sourcePointer": "/Objects/ArtisanRecipe/192",
+      "notes": [
+        "Fixed base reference; no equipment, bonuses, preservation or downtime."
+      ]
+    },
+    {
+      "id": "SteelArrows",
+      "gameId": "MelvorBase:SteelArrows",
+      "name": "Steel Arrows",
+      "requiredLevel": 25,
+      "availability": "demo",
+      "conditions": [
+        "Fletching level 25",
+        "Consumes SteelArrowtips × 4 per completed action",
+        "Consumes HeadlessArrows × 4 per completed action"
+      ],
+      "intervalSeconds": 4.0,
+      "intervalLabel": "4.0s base cycle",
+      "baseXp": 12,
+      "successChance": 1,
+      "xpPerHour": 10800.0,
+      "itemsPerHour": 3600.0,
+      "gpPerHour": 25200.0,
+      "products": [
+        {
+          "id": "MelvorBase:SteelArrows",
+          "name": "Steel Arrows",
+          "role": "primary",
+          "basis": "completed action",
+          "probability": 1,
+          "quantity": 4,
+          "itemsPerHour": 3600.0,
+          "gpPerHour": 25200.0
+        }
+      ],
+      "sourcePointer": "/Objects/ArtisanRecipe/193",
+      "notes": [
+        "Fixed base reference; no equipment, bonuses, preservation or downtime."
+      ]
+    },
+    {
+      "id": "MithrilArrows",
+      "gameId": "MelvorBase:MithrilArrows",
+      "name": "Mithril Arrows",
+      "requiredLevel": 35,
+      "availability": "demo",
+      "conditions": [
+        "Fletching level 35",
+        "Consumes MithrilArrowtips × 4 per completed action",
+        "Consumes HeadlessArrows × 4 per completed action"
+      ],
+      "intervalSeconds": 4.0,
+      "intervalLabel": "4.0s base cycle",
+      "baseXp": 14,
+      "successChance": 1,
+      "xpPerHour": 12600.0,
+      "itemsPerHour": 3600.0,
+      "gpPerHour": 39600.0,
+      "products": [
+        {
+          "id": "MelvorBase:MithrilArrows",
+          "name": "Mithril Arrows",
+          "role": "primary",
+          "basis": "completed action",
+          "probability": 1,
+          "quantity": 4,
+          "itemsPerHour": 3600.0,
+          "gpPerHour": 39600.0
+        }
+      ],
+      "sourcePointer": "/Objects/ArtisanRecipe/194",
+      "notes": [
+        "Fixed base reference; no equipment, bonuses, preservation or downtime."
+      ]
+    },
+    {
+      "id": "AdamantArrows",
+      "gameId": "MelvorBase:AdamantArrows",
+      "name": "Adamant Arrows",
+      "requiredLevel": 45,
+      "availability": "demo",
+      "conditions": [
+        "Fletching level 45",
+        "Consumes AdamantArrowtips × 4 per completed action",
+        "Consumes HeadlessArrows × 4 per completed action"
+      ],
+      "intervalSeconds": 4.0,
+      "intervalLabel": "4.0s base cycle",
+      "baseXp": 21,
+      "successChance": 1,
+      "xpPerHour": 18900.0,
+      "itemsPerHour": 3600.0,
+      "gpPerHour": 36000.0,
+      "products": [
+        {
+          "id": "MelvorBase:AdamantArrows",
+          "name": "Adamant Arrows",
+          "role": "primary",
+          "basis": "completed action",
+          "probability": 1,
+          "quantity": 4,
+          "itemsPerHour": 3600.0,
+          "gpPerHour": 36000.0
+        }
+      ],
+      "sourcePointer": "/Objects/ArtisanRecipe/195",
+      "notes": [
+        "Fixed base reference; no equipment, bonuses, preservation or downtime."
+      ]
+    },
+    {
+      "id": "RuneArrows",
+      "gameId": "MelvorBase:RuneArrows",
+      "name": "Rune Arrows",
+      "requiredLevel": null,
+      "availability": "locked",
+      "conditions": [
+        "Consumes DemoPlaceholderItem × 1 per completed action"
+      ],
+      "intervalSeconds": 20.0,
+      "intervalLabel": "20.0s base cycle",
+      "baseXp": 1,
+      "successChance": 1,
+      "xpPerHour": 180.0,
+      "itemsPerHour": 180.0,
+      "gpPerHour": 0.0,
+      "products": [
+        {
+          "id": "MelvorBase:DemoPlaceholderItem",
+          "name": "DemoPlaceholderItem",
+          "role": "primary",
+          "basis": "completed action",
+          "probability": 1,
+          "quantity": 1,
+          "itemsPerHour": 180.0,
+          "gpPerHour": 0.0
+        }
+      ],
+      "sourcePointer": "/Objects/ArtisanRecipe/196",
+      "notes": [
+        "Fixed base reference; no equipment, bonuses, preservation or downtime.",
+        "Locked demo placeholder definition; not a playable potion baseline."
+      ]
+    },
+    {
+      "id": "DawnsteelArrows",
+      "gameId": "MelvorBase:DawnsteelArrows",
+      "name": "Dawnsteel Arrows",
+      "requiredLevel": null,
+      "availability": "locked",
+      "conditions": [
+        "Consumes DemoPlaceholderItem × 1 per completed action"
+      ],
+      "intervalSeconds": 20.0,
+      "intervalLabel": "20.0s base cycle",
+      "baseXp": 1,
+      "successChance": 1,
+      "xpPerHour": 180.0,
+      "itemsPerHour": 180.0,
+      "gpPerHour": 0.0,
+      "products": [
+        {
+          "id": "MelvorBase:DemoPlaceholderItem",
+          "name": "DemoPlaceholderItem",
+          "role": "primary",
+          "basis": "completed action",
+          "probability": 1,
+          "quantity": 1,
+          "itemsPerHour": 180.0,
+          "gpPerHour": 0.0
+        }
+      ],
+      "sourcePointer": "/Objects/ArtisanRecipe/197",
+      "notes": [
+        "Fixed base reference; no equipment, bonuses, preservation or downtime.",
+        "Locked demo placeholder definition; not a playable potion baseline."
+      ]
+    },
+    {
+      "id": "DragonArrows",
+      "gameId": "MelvorBase:DragonArrows",
+      "name": "Dragon Arrows",
+      "requiredLevel": null,
+      "availability": "locked",
+      "conditions": [
+        "Consumes DemoPlaceholderItem × 1 per completed action"
+      ],
+      "intervalSeconds": 20.0,
+      "intervalLabel": "20.0s base cycle",
+      "baseXp": 1,
+      "successChance": 1,
+      "xpPerHour": 180.0,
+      "itemsPerHour": 180.0,
+      "gpPerHour": 0.0,
+      "products": [
+        {
+          "id": "MelvorBase:DemoPlaceholderItem",
+          "name": "DemoPlaceholderItem",
+          "role": "primary",
+          "basis": "completed action",
+          "probability": 1,
+          "quantity": 1,
+          "itemsPerHour": 180.0,
+          "gpPerHour": 0.0
+        }
+      ],
+      "sourcePointer": "/Objects/ArtisanRecipe/198",
+      "notes": [
+        "Fixed base reference; no equipment, bonuses, preservation or downtime.",
+        "Locked demo placeholder definition; not a playable potion baseline."
+      ]
+    },
+    {
+      "id": "TopazBolts",
+      "gameId": "MelvorBase:TopazBolts",
+      "name": "Topaz Bolts",
+      "requiredLevel": 13,
+      "availability": "demo",
+      "conditions": [
+        "Fletching level 13",
+        "Consumes Topaz × 1 per completed action",
+        "Consumes HeadlessBolts × 3 per completed action"
+      ],
+      "intervalSeconds": 4.0,
+      "intervalLabel": "4.0s base cycle",
+      "baseXp": 10,
+      "successChance": 1,
+      "xpPerHour": 9000.0,
+      "itemsPerHour": 2700.0,
+      "gpPerHour": 56700.0,
+      "products": [
+        {
+          "id": "MelvorBase:TopazBolts",
+          "name": "Topaz Bolts",
+          "role": "primary",
+          "basis": "completed action",
+          "probability": 1,
+          "quantity": 3,
+          "itemsPerHour": 2700.0,
+          "gpPerHour": 56700.0
+        }
+      ],
+      "sourcePointer": "/Objects/ArtisanRecipe/199",
+      "notes": [
+        "Fixed base reference; no equipment, bonuses, preservation or downtime."
+      ]
+    },
+    {
+      "id": "SapphireBolts",
+      "gameId": "MelvorBase:SapphireBolts",
+      "name": "Sapphire Bolts",
+      "requiredLevel": 25,
+      "availability": "demo",
+      "conditions": [
+        "Fletching level 25",
+        "Consumes Sapphire × 1 per completed action",
+        "Consumes HeadlessBolts × 3 per completed action"
+      ],
+      "intervalSeconds": 4.0,
+      "intervalLabel": "4.0s base cycle",
+      "baseXp": 17,
+      "successChance": 1,
+      "xpPerHour": 15300.0,
+      "itemsPerHour": 2700.0,
+      "gpPerHour": 54000.0,
+      "products": [
+        {
+          "id": "MelvorBase:SapphireBolts",
+          "name": "Sapphire Bolts",
+          "role": "primary",
+          "basis": "completed action",
+          "probability": 1,
+          "quantity": 3,
+          "itemsPerHour": 2700.0,
+          "gpPerHour": 54000.0
+        }
+      ],
+      "sourcePointer": "/Objects/ArtisanRecipe/200",
+      "notes": [
+        "Fixed base reference; no equipment, bonuses, preservation or downtime."
+      ]
+    },
+    {
+      "id": "RubyBolts",
+      "gameId": "MelvorBase:RubyBolts",
+      "name": "Ruby Bolts",
+      "requiredLevel": 45,
+      "availability": "demo",
+      "conditions": [
+        "Fletching level 45",
+        "Consumes Ruby × 1 per completed action",
+        "Consumes HeadlessBolts × 3 per completed action"
+      ],
+      "intervalSeconds": 4.0,
+      "intervalLabel": "4.0s base cycle",
+      "baseXp": 29,
+      "successChance": 1,
+      "xpPerHour": 26100.0,
+      "itemsPerHour": 2700.0,
+      "gpPerHour": 59400.0,
+      "products": [
+        {
+          "id": "MelvorBase:RubyBolts",
+          "name": "Ruby Bolts",
+          "role": "primary",
+          "basis": "completed action",
+          "probability": 1,
+          "quantity": 3,
+          "itemsPerHour": 2700.0,
+          "gpPerHour": 59400.0
+        }
+      ],
+      "sourcePointer": "/Objects/ArtisanRecipe/201",
+      "notes": [
+        "Fixed base reference; no equipment, bonuses, preservation or downtime."
+      ]
+    },
+    {
+      "id": "EmeraldBolts",
+      "gameId": "MelvorBase:EmeraldBolts",
+      "name": "Emerald Bolts",
+      "requiredLevel": null,
+      "availability": "locked",
+      "conditions": [
+        "Consumes DemoPlaceholderItem × 1 per completed action"
+      ],
+      "intervalSeconds": 20.0,
+      "intervalLabel": "20.0s base cycle",
+      "baseXp": 1,
+      "successChance": 1,
+      "xpPerHour": 180.0,
+      "itemsPerHour": 180.0,
+      "gpPerHour": 0.0,
+      "products": [
+        {
+          "id": "MelvorBase:DemoPlaceholderItem",
+          "name": "DemoPlaceholderItem",
+          "role": "primary",
+          "basis": "completed action",
+          "probability": 1,
+          "quantity": 1,
+          "itemsPerHour": 180.0,
+          "gpPerHour": 0.0
+        }
+      ],
+      "sourcePointer": "/Objects/ArtisanRecipe/202",
+      "notes": [
+        "Fixed base reference; no equipment, bonuses, preservation or downtime.",
+        "Locked demo placeholder definition; not a playable potion baseline."
+      ]
+    },
+    {
+      "id": "DiamondBolts",
+      "gameId": "MelvorBase:DiamondBolts",
+      "name": "Diamond Bolts",
+      "requiredLevel": null,
+      "availability": "locked",
+      "conditions": [
+        "Consumes DemoPlaceholderItem × 1 per completed action"
+      ],
+      "intervalSeconds": 20.0,
+      "intervalLabel": "20.0s base cycle",
+      "baseXp": 1,
+      "successChance": 1,
+      "xpPerHour": 180.0,
+      "itemsPerHour": 180.0,
+      "gpPerHour": 0.0,
+      "products": [
+        {
+          "id": "MelvorBase:DemoPlaceholderItem",
+          "name": "DemoPlaceholderItem",
+          "role": "primary",
+          "basis": "completed action",
+          "probability": 1,
+          "quantity": 1,
+          "itemsPerHour": 180.0,
+          "gpPerHour": 0.0
+        }
+      ],
+      "sourcePointer": "/Objects/ArtisanRecipe/203",
+      "notes": [
+        "Fixed base reference; no equipment, bonuses, preservation or downtime.",
+        "Locked demo placeholder definition; not a playable potion baseline."
+      ]
+    },
+    {
+      "id": "JadestoneBolts",
+      "gameId": "MelvorBase:JadestoneBolts",
+      "name": "Jadestone Bolts",
+      "requiredLevel": null,
+      "availability": "locked",
+      "conditions": [
+        "Consumes DemoPlaceholderItem × 1 per completed action"
+      ],
+      "intervalSeconds": 20.0,
+      "intervalLabel": "20.0s base cycle",
+      "baseXp": 1,
+      "successChance": 1,
+      "xpPerHour": 180.0,
+      "itemsPerHour": 180.0,
+      "gpPerHour": 0.0,
+      "products": [
+        {
+          "id": "MelvorBase:DemoPlaceholderItem",
+          "name": "DemoPlaceholderItem",
+          "role": "primary",
+          "basis": "completed action",
+          "probability": 1,
+          "quantity": 1,
+          "itemsPerHour": 180.0,
+          "gpPerHour": 0.0
+        }
+      ],
+      "sourcePointer": "/Objects/ArtisanRecipe/204",
+      "notes": [
+        "Fixed base reference; no equipment, bonuses, preservation or downtime.",
+        "Locked demo placeholder definition; not a playable potion baseline."
+      ]
+    },
+    {
+      "id": "SteelSpear",
+      "gameId": "MelvorBase:SteelSpear",
+      "name": "Steel Spear",
+      "requiredLevel": 31,
+      "availability": "demo",
+      "conditions": [
+        "Fletching level 31",
+        "Consumes SteelSpearHead × 1 per completed action",
+        "Consumes WillowLog × 1 per completed action"
+      ],
+      "intervalSeconds": 8.0,
+      "intervalLabel": "8.0s base cycle",
+      "baseXp": 44,
+      "successChance": 1,
+      "xpPerHour": 19800.0,
+      "itemsPerHour": 450.0,
+      "gpPerHour": 92700.0,
+      "products": [
+        {
+          "id": "MelvorBase:SteelSpear",
+          "name": "Steel Spear",
+          "role": "primary",
+          "basis": "completed action",
+          "probability": 1,
+          "quantity": 1,
+          "itemsPerHour": 450.0,
+          "gpPerHour": 92700.0
+        }
+      ],
+      "sourcePointer": "/Objects/ArtisanRecipe/205",
+      "notes": [
+        "Fixed base reference; no equipment, bonuses, preservation or downtime."
+      ]
+    },
+    {
+      "id": "MithrilSpear",
+      "gameId": "MelvorBase:MithrilSpear",
+      "name": "Mithril Spear",
+      "requiredLevel": 41,
+      "availability": "demo",
+      "conditions": [
+        "Fletching level 41",
+        "Consumes MithrilSpearHead × 1 per completed action",
+        "Consumes TeakLog × 1 per completed action"
+      ],
+      "intervalSeconds": 10.0,
+      "intervalLabel": "10.0s base cycle",
+      "baseXp": 75,
+      "successChance": 1,
+      "xpPerHour": 27000.0,
+      "itemsPerHour": 360.0,
+      "gpPerHour": 89280.0,
+      "products": [
+        {
+          "id": "MelvorBase:MithrilSpear",
+          "name": "Mithril Spear",
+          "role": "primary",
+          "basis": "completed action",
+          "probability": 1,
+          "quantity": 1,
+          "itemsPerHour": 360.0,
+          "gpPerHour": 89280.0
+        }
+      ],
+      "sourcePointer": "/Objects/ArtisanRecipe/206",
+      "notes": [
+        "Fixed base reference; no equipment, bonuses, preservation or downtime."
+      ]
+    },
+    {
+      "id": "AdamantSpear",
+      "gameId": "MelvorBase:AdamantSpear",
+      "name": "Adamant Spear",
+      "requiredLevel": 51,
+      "availability": "demo",
+      "conditions": [
+        "Fletching level 51",
+        "Consumes AdamantSpearHead × 1 per completed action",
+        "Consumes MapleLog × 1 per completed action"
+      ],
+      "intervalSeconds": 12.0,
+      "intervalLabel": "12.0s base cycle",
+      "baseXp": 128,
+      "successChance": 1,
+      "xpPerHour": 38400.0,
+      "itemsPerHour": 300.0,
+      "gpPerHour": 126300.0,
+      "products": [
+        {
+          "id": "MelvorBase:AdamantSpear",
+          "name": "Adamant Spear",
+          "role": "primary",
+          "basis": "completed action",
+          "probability": 1,
+          "quantity": 1,
+          "itemsPerHour": 300.0,
+          "gpPerHour": 126300.0
+        }
+      ],
+      "sourcePointer": "/Objects/ArtisanRecipe/207",
+      "notes": [
+        "Fixed base reference; no equipment, bonuses, preservation or downtime."
+      ]
+    },
+    {
+      "id": "RuneSpear",
+      "gameId": "MelvorBase:RuneSpear",
+      "name": "Rune Spear",
+      "requiredLevel": null,
+      "availability": "locked",
+      "conditions": [
+        "Consumes DemoPlaceholderItem × 1 per completed action"
+      ],
+      "intervalSeconds": 70.0,
+      "intervalLabel": "70.0s base cycle",
+      "baseXp": 1,
+      "successChance": 1,
+      "xpPerHour": 51.42857142857143,
+      "itemsPerHour": 51.42857142857143,
+      "gpPerHour": 0.0,
+      "products": [
+        {
+          "id": "MelvorBase:DemoPlaceholderItem",
+          "name": "DemoPlaceholderItem",
+          "role": "primary",
+          "basis": "completed action",
+          "probability": 1,
+          "quantity": 1,
+          "itemsPerHour": 51.42857142857143,
+          "gpPerHour": 0.0
+        }
+      ],
+      "sourcePointer": "/Objects/ArtisanRecipe/208",
+      "notes": [
+        "Fixed base reference; no equipment, bonuses, preservation or downtime.",
+        "Locked demo placeholder definition; not a playable potion baseline."
+      ]
+    },
+    {
+      "id": "DawnsteelSpear",
+      "gameId": "MelvorBase:DawnsteelSpear",
+      "name": "Dawnsteel Spear",
+      "requiredLevel": null,
+      "availability": "locked",
+      "conditions": [
+        "Consumes DemoPlaceholderItem × 1 per completed action"
+      ],
+      "intervalSeconds": 80.0,
+      "intervalLabel": "80.0s base cycle",
+      "baseXp": 1,
+      "successChance": 1,
+      "xpPerHour": 45.0,
+      "itemsPerHour": 45.0,
+      "gpPerHour": 0.0,
+      "products": [
+        {
+          "id": "MelvorBase:DemoPlaceholderItem",
+          "name": "DemoPlaceholderItem",
+          "role": "primary",
+          "basis": "completed action",
+          "probability": 1,
+          "quantity": 1,
+          "itemsPerHour": 45.0,
+          "gpPerHour": 0.0
+        }
+      ],
+      "sourcePointer": "/Objects/ArtisanRecipe/209",
+      "notes": [
+        "Fixed base reference; no equipment, bonuses, preservation or downtime.",
+        "Locked demo placeholder definition; not a playable potion baseline."
+      ]
+    },
+    {
+      "id": "DragonSpear",
+      "gameId": "MelvorBase:DragonSpear",
+      "name": "Dragon Spear",
+      "requiredLevel": null,
+      "availability": "locked",
+      "conditions": [
+        "Consumes DemoPlaceholderItem × 1 per completed action"
+      ],
+      "intervalSeconds": 90.0,
+      "intervalLabel": "90.0s base cycle",
+      "baseXp": 1,
+      "successChance": 1,
+      "xpPerHour": 40.0,
+      "itemsPerHour": 40.0,
+      "gpPerHour": 0.0,
+      "products": [
+        {
+          "id": "MelvorBase:DemoPlaceholderItem",
+          "name": "DemoPlaceholderItem",
+          "role": "primary",
+          "basis": "completed action",
+          "probability": 1,
+          "quantity": 1,
+          "itemsPerHour": 40.0,
+          "gpPerHour": 0.0
+        }
+      ],
+      "sourcePointer": "/Objects/ArtisanRecipe/210",
+      "notes": [
+        "Fixed base reference; no equipment, bonuses, preservation or downtime.",
+        "Locked demo placeholder definition; not a playable potion baseline."
+      ]
+    },
+    {
+      "id": "MeteoriteBow",
+      "gameId": "MelvorBase:MeteoriteBow",
+      "name": "Meteorite Bow",
+      "requiredLevel": null,
+      "availability": "locked",
+      "conditions": [
+        "Consumes DemoPlaceholderItem × 1 per completed action"
+      ],
+      "intervalSeconds": 100.0,
+      "intervalLabel": "100.0s base cycle",
+      "baseXp": 1,
+      "successChance": 1,
+      "xpPerHour": 36.0,
+      "itemsPerHour": 36.0,
+      "gpPerHour": 0.0,
+      "products": [
+        {
+          "id": "MelvorBase:DemoPlaceholderItem",
+          "name": "DemoPlaceholderItem",
+          "role": "primary",
+          "basis": "completed action",
+          "probability": 1,
+          "quantity": 1,
+          "itemsPerHour": 36.0,
+          "gpPerHour": 0.0
+        }
+      ],
+      "sourcePointer": "/Objects/ArtisanRecipe/651",
+      "notes": [
+        "Fixed base reference; no equipment, bonuses, preservation or downtime.",
+        "Locked demo placeholder definition; not a playable potion baseline."
+      ]
+    },
+    {
+      "id": "MeteoriteJavelin",
+      "gameId": "MelvorBase:MeteoriteJavelin",
+      "name": "Meteorite Javelin",
+      "requiredLevel": null,
+      "availability": "locked",
+      "conditions": [
+        "Consumes DemoPlaceholderItem × 1 per completed action"
+      ],
+      "intervalSeconds": 30.0,
+      "intervalLabel": "30.0s base cycle",
+      "baseXp": 1,
+      "successChance": 1,
+      "xpPerHour": 120.0,
+      "itemsPerHour": 120.0,
+      "gpPerHour": 0.0,
+      "products": [
+        {
+          "id": "MelvorBase:DemoPlaceholderItem",
+          "name": "DemoPlaceholderItem",
+          "role": "primary",
+          "basis": "completed action",
+          "probability": 1,
+          "quantity": 1,
+          "itemsPerHour": 120.0,
+          "gpPerHour": 0.0
+        }
+      ],
+      "sourcePointer": "/Objects/ArtisanRecipe/652",
+      "notes": [
+        "Fixed base reference; no equipment, bonuses, preservation or downtime.",
+        "Locked demo placeholder definition; not a playable potion baseline."
+      ]
+    },
+    {
+      "id": "RefinedMeteoriteBow",
+      "gameId": "MelvorBase:RefinedMeteoriteBow",
+      "name": "Refined Meteorite Bow",
+      "requiredLevel": null,
+      "availability": "locked",
+      "conditions": [
+        "Consumes DemoPlaceholderItem × 1 per completed action"
+      ],
+      "intervalSeconds": 140.0,
+      "intervalLabel": "140.0s base cycle",
+      "baseXp": 1,
+      "successChance": 1,
+      "xpPerHour": 25.714285714285715,
+      "itemsPerHour": 25.714285714285715,
+      "gpPerHour": 0.0,
+      "products": [
+        {
+          "id": "MelvorBase:DemoPlaceholderItem",
+          "name": "DemoPlaceholderItem",
+          "role": "primary",
+          "basis": "completed action",
+          "probability": 1,
+          "quantity": 1,
+          "itemsPerHour": 25.714285714285715,
+          "gpPerHour": 0.0
+        }
+      ],
+      "sourcePointer": "/Objects/ArtisanRecipe/653",
+      "notes": [
+        "Fixed base reference; no equipment, bonuses, preservation or downtime.",
+        "Locked demo placeholder definition; not a playable potion baseline."
+      ]
+    },
+    {
+      "id": "RefinedMeteoriteJavelin",
+      "gameId": "MelvorBase:RefinedMeteoriteJavelin",
+      "name": "Refined Meteorite Javelin",
+      "requiredLevel": null,
+      "availability": "locked",
+      "conditions": [
+        "Consumes DemoPlaceholderItem × 1 per completed action"
+      ],
+      "intervalSeconds": 30.0,
+      "intervalLabel": "30.0s base cycle",
+      "baseXp": 1,
+      "successChance": 1,
+      "xpPerHour": 120.0,
+      "itemsPerHour": 120.0,
+      "gpPerHour": 0.0,
+      "products": [
+        {
+          "id": "MelvorBase:DemoPlaceholderItem",
+          "name": "DemoPlaceholderItem",
+          "role": "primary",
+          "basis": "completed action",
+          "probability": 1,
+          "quantity": 1,
+          "itemsPerHour": 120.0,
+          "gpPerHour": 0.0
+        }
+      ],
+      "sourcePointer": "/Objects/ArtisanRecipe/654",
+      "notes": [
+        "Fixed base reference; no equipment, bonuses, preservation or downtime.",
+        "Locked demo placeholder definition; not a playable potion baseline."
+      ]
+    },
+    {
+      "id": "BlackOpalBolts",
+      "gameId": "MelvorBase:BlackOpalBolts",
+      "name": "Black Opal Bolts",
+      "requiredLevel": null,
+      "availability": "locked",
+      "conditions": [
+        "Consumes DemoPlaceholderItem × 1 per completed action"
+      ],
+      "intervalSeconds": 20.0,
+      "intervalLabel": "20.0s base cycle",
+      "baseXp": 1,
+      "successChance": 1,
+      "xpPerHour": 180.0,
+      "itemsPerHour": 180.0,
+      "gpPerHour": 0.0,
+      "products": [
+        {
+          "id": "MelvorBase:DemoPlaceholderItem",
+          "name": "DemoPlaceholderItem",
+          "role": "primary",
+          "basis": "completed action",
+          "probability": 1,
+          "quantity": 1,
+          "itemsPerHour": 180.0,
+          "gpPerHour": 0.0
+        }
+      ],
+      "sourcePointer": "/Objects/ArtisanRecipe/681",
+      "notes": [
+        "Fixed base reference; no equipment, bonuses, preservation or downtime.",
+        "Locked demo placeholder definition; not a playable potion baseline."
+      ]
+    },
+    {
+      "id": "SeaGriffinArrows",
+      "gameId": "MelvorBase:SeaGriffinArrows",
+      "name": "Sea Griffin Arrows",
+      "requiredLevel": null,
+      "availability": "locked",
+      "conditions": [
+        "Consumes DemoPlaceholderItem × 1 per completed action"
+      ],
+      "intervalSeconds": 20.0,
+      "intervalLabel": "20.0s base cycle",
+      "baseXp": 1,
+      "successChance": 1,
+      "xpPerHour": 180.0,
+      "itemsPerHour": 180.0,
+      "gpPerHour": 0.0,
+      "products": [
+        {
+          "id": "MelvorBase:DemoPlaceholderItem",
+          "name": "DemoPlaceholderItem",
+          "role": "primary",
+          "basis": "completed action",
+          "probability": 1,
+          "quantity": 1,
+          "itemsPerHour": 180.0,
+          "gpPerHour": 0.0
+        }
+      ],
+      "sourcePointer": "/Objects/ArtisanRecipe/703",
+      "notes": [
+        "Fixed base reference; no equipment, bonuses, preservation or downtime.",
+        "Locked demo placeholder definition; not a playable potion baseline."
+      ]
+    }
+  ],
+  "notes": [
+    "Rates are fixed offline from independently verified base facts.",
+    "Ingredient consumption and gross sale value are shown; costs are not deducted."
+  ]
+}

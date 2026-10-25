@@ -1,0 +1,2638 @@
+{
+  "id": "cooking",
+  "gameVersion": "0.11.2-alpha.4",
+  "steamBuildId": "26074343",
+  "packageSha256": "2b43f26ce76d86178f56a72c8dced08a0ae545779786cccdcac868bdc3478474",
+  "checkedAt": "2026-10-25",
+  "method": "docs/BASE_SKILL_FORMULAS.md#artisan-production",
+  "rows": [
+    {
+      "id": "Shrimp",
+      "gameId": "MelvorBase:Shrimp",
+      "name": "Shrimp",
+      "requiredLevel": 1,
+      "availability": "demo",
+      "conditions": [
+        "Cooking level 1",
+        "Consumes RawShrimp × 1 per completed action",
+        "Cooking success is evaluated at this recipe's unlock level"
+      ],
+      "intervalSeconds": 3.0,
+      "intervalLabel": "3.0s base cycle",
+      "baseXp": 5,
+      "successChance": 0.7,
+      "xpPerHour": 4200.0,
+      "itemsPerHour": 840.0,
+      "gpPerHour": 6720.0,
+      "products": [
+        {
+          "id": "MelvorBase:Shrimp",
+          "name": "Shrimp",
+          "role": "primary",
+          "basis": "completed action",
+          "probability": 0.7,
+          "quantity": 1,
+          "itemsPerHour": 840.0,
+          "gpPerHour": 6720.0
+        }
+      ],
+      "sourcePointer": "/Objects/CookingRecipe/0",
+      "notes": [
+        "Fixed base reference; no equipment, bonuses, preservation or downtime."
+      ]
+    },
+    {
+      "id": "Sardine",
+      "gameId": "MelvorBase:Sardine",
+      "name": "Sardine",
+      "requiredLevel": 6,
+      "availability": "demo",
+      "conditions": [
+        "Cooking level 6",
+        "Consumes RawSardine × 1 per completed action",
+        "Cooking success is evaluated at this recipe's unlock level"
+      ],
+      "intervalSeconds": 3.0,
+      "intervalLabel": "3.0s base cycle",
+      "baseXp": 10,
+      "successChance": 0.7009345794392523,
+      "xpPerHour": 8411.214953271028,
+      "itemsPerHour": 841.1214953271028,
+      "gpPerHour": 18504.672897196262,
+      "products": [
+        {
+          "id": "MelvorBase:Sardine",
+          "name": "Sardine",
+          "role": "primary",
+          "basis": "completed action",
+          "probability": 0.7009345794392523,
+          "quantity": 1,
+          "itemsPerHour": 841.1214953271028,
+          "gpPerHour": 18504.672897196262
+        }
+      ],
+      "sourcePointer": "/Objects/CookingRecipe/1",
+      "notes": [
+        "Fixed base reference; no equipment, bonuses, preservation or downtime."
+      ]
+    },
+    {
+      "id": "Beef",
+      "gameId": "MelvorBase:Beef",
+      "name": "Beef",
+      "requiredLevel": 10,
+      "availability": "demo",
+      "conditions": [
+        "Cooking level 10",
+        "Consumes RawBeef × 1 per completed action",
+        "Cooking success is evaluated at this recipe's unlock level"
+      ],
+      "intervalSeconds": 3.0,
+      "intervalLabel": "3.0s base cycle",
+      "baseXp": 4,
+      "successChance": 0.5602836879432624,
+      "xpPerHour": 2689.3617021276596,
+      "itemsPerHour": 672.3404255319149,
+      "gpPerHour": 6723.404255319148,
+      "products": [
+        {
+          "id": "MelvorBase:Beef",
+          "name": "Beef",
+          "role": "primary",
+          "basis": "completed action",
+          "probability": 0.5602836879432624,
+          "quantity": 1,
+          "itemsPerHour": 672.3404255319149,
+          "gpPerHour": 6723.404255319148
+        }
+      ],
+      "sourcePointer": "/Objects/CookingRecipe/2",
+      "notes": [
+        "Fixed base reference; no equipment, bonuses, preservation or downtime."
+      ]
+    },
+    {
+      "id": "Herring",
+      "gameId": "MelvorBase:Herring",
+      "name": "Herring",
+      "requiredLevel": 12,
+      "availability": "demo",
+      "conditions": [
+        "Cooking level 12",
+        "Consumes RawHerring × 1 per completed action",
+        "Cooking success is evaluated at this recipe's unlock level"
+      ],
+      "intervalSeconds": 3.0,
+      "intervalLabel": "3.0s base cycle",
+      "baseXp": 10,
+      "successChance": 0.5625,
+      "xpPerHour": 6750.0,
+      "itemsPerHour": 675.0,
+      "gpPerHour": 18900.0,
+      "products": [
+        {
+          "id": "MelvorBase:Herring",
+          "name": "Herring",
+          "role": "primary",
+          "basis": "completed action",
+          "probability": 0.5625,
+          "quantity": 1,
+          "itemsPerHour": 675.0,
+          "gpPerHour": 18900.0
+        }
+      ],
+      "sourcePointer": "/Objects/CookingRecipe/3",
+      "notes": [
+        "Fixed base reference; no equipment, bonuses, preservation or downtime."
+      ]
+    },
+    {
+      "id": "Chicken",
+      "gameId": "MelvorBase:Chicken",
+      "name": "Chicken",
+      "requiredLevel": 15,
+      "availability": "demo",
+      "conditions": [
+        "Cooking level 15",
+        "Consumes RawChicken × 1 per completed action",
+        "Cooking success is evaluated at this recipe's unlock level"
+      ],
+      "intervalSeconds": 3.0,
+      "intervalLabel": "3.0s base cycle",
+      "baseXp": 5,
+      "successChance": 0.5637583892617449,
+      "xpPerHour": 3382.5503355704695,
+      "itemsPerHour": 676.5100671140939,
+      "gpPerHour": 13530.201342281878,
+      "products": [
+        {
+          "id": "MelvorBase:Chicken",
+          "name": "Chicken",
+          "role": "primary",
+          "basis": "completed action",
+          "probability": 0.5637583892617449,
+          "quantity": 1,
+          "itemsPerHour": 676.5100671140939,
+          "gpPerHour": 13530.201342281878
+        }
+      ],
+      "sourcePointer": "/Objects/CookingRecipe/4",
+      "notes": [
+        "Fixed base reference; no equipment, bonuses, preservation or downtime."
+      ]
+    },
+    {
+      "id": "Perch",
+      "gameId": "MelvorBase:Perch",
+      "name": "Perch",
+      "requiredLevel": 18,
+      "availability": "demo",
+      "conditions": [
+        "Cooking level 18",
+        "Consumes RawPerch × 1 per completed action",
+        "Cooking success is evaluated at this recipe's unlock level"
+      ],
+      "intervalSeconds": 3.0,
+      "intervalLabel": "3.0s base cycle",
+      "baseXp": 14,
+      "successChance": 0.5686274509803921,
+      "xpPerHour": 9552.941176470587,
+      "itemsPerHour": 682.3529411764706,
+      "gpPerHour": 32752.941176470587,
+      "products": [
+        {
+          "id": "MelvorBase:Perch",
+          "name": "Perch",
+          "role": "primary",
+          "basis": "completed action",
+          "probability": 0.5686274509803921,
+          "quantity": 1,
+          "itemsPerHour": 682.3529411764706,
+          "gpPerHour": 32752.941176470587
+        }
+      ],
+      "sourcePointer": "/Objects/CookingRecipe/5",
+      "notes": [
+        "Fixed base reference; no equipment, bonuses, preservation or downtime."
+      ]
+    },
+    {
+      "id": "Trout",
+      "gameId": "MelvorBase:Trout",
+      "name": "Trout",
+      "requiredLevel": 23,
+      "availability": "demo",
+      "conditions": [
+        "Cooking level 23",
+        "Consumes RawTrout × 1 per completed action",
+        "Cooking success is evaluated at this recipe's unlock level"
+      ],
+      "intervalSeconds": 3.0,
+      "intervalLabel": "3.0s base cycle",
+      "baseXp": 21,
+      "successChance": 0.5082872928176796,
+      "xpPerHour": 12808.839779005526,
+      "itemsPerHour": 609.9447513812155,
+      "gpPerHour": 40256.35359116022,
+      "products": [
+        {
+          "id": "MelvorBase:Trout",
+          "name": "Trout",
+          "role": "primary",
+          "basis": "completed action",
+          "probability": 0.5082872928176796,
+          "quantity": 1,
+          "itemsPerHour": 609.9447513812155,
+          "gpPerHour": 40256.35359116022
+        }
+      ],
+      "sourcePointer": "/Objects/CookingRecipe/6",
+      "notes": [
+        "Fixed base reference; no equipment, bonuses, preservation or downtime."
+      ]
+    },
+    {
+      "id": "Mackerel",
+      "gameId": "MelvorBase:Mackerel",
+      "name": "Mackerel",
+      "requiredLevel": 27,
+      "availability": "demo",
+      "conditions": [
+        "Cooking level 27",
+        "Consumes RawMackerel × 1 per completed action",
+        "Cooking success is evaluated at this recipe's unlock level"
+      ],
+      "intervalSeconds": 3.0,
+      "intervalLabel": "3.0s base cycle",
+      "baseXp": 11,
+      "successChance": 0.5133689839572193,
+      "xpPerHour": 6776.470588235295,
+      "itemsPerHour": 616.0427807486632,
+      "gpPerHour": 20945.454545454548,
+      "products": [
+        {
+          "id": "MelvorBase:Mackerel",
+          "name": "Mackerel",
+          "role": "primary",
+          "basis": "completed action",
+          "probability": 0.5133689839572193,
+          "quantity": 1,
+          "itemsPerHour": 616.0427807486632,
+          "gpPerHour": 20945.454545454548
+        }
+      ],
+      "sourcePointer": "/Objects/CookingRecipe/7",
+      "notes": [
+        "Fixed base reference; no equipment, bonuses, preservation or downtime."
+      ]
+    },
+    {
+      "id": "Pike",
+      "gameId": "MelvorBase:Pike",
+      "name": "Pike",
+      "requiredLevel": 32,
+      "availability": "demo",
+      "conditions": [
+        "Cooking level 32",
+        "Consumes RawPike × 1 per completed action",
+        "Cooking success is evaluated at this recipe's unlock level"
+      ],
+      "intervalSeconds": 3.0,
+      "intervalLabel": "3.0s base cycle",
+      "baseXp": 28,
+      "successChance": 0.4675925925925926,
+      "xpPerHour": 15711.111111111111,
+      "itemsPerHour": 561.1111111111111,
+      "gpPerHour": 55550.0,
+      "products": [
+        {
+          "id": "MelvorBase:Pike",
+          "name": "Pike",
+          "role": "primary",
+          "basis": "completed action",
+          "probability": 0.4675925925925926,
+          "quantity": 1,
+          "itemsPerHour": 561.1111111111111,
+          "gpPerHour": 55550.0
+        }
+      ],
+      "sourcePointer": "/Objects/CookingRecipe/8",
+      "notes": [
+        "Fixed base reference; no equipment, bonuses, preservation or downtime."
+      ]
+    },
+    {
+      "id": "Salmon",
+      "gameId": "MelvorBase:Salmon",
+      "name": "Salmon",
+      "requiredLevel": 39,
+      "availability": "demo",
+      "conditions": [
+        "Cooking level 39",
+        "Consumes RawSalmon × 1 per completed action",
+        "Cooking success is evaluated at this recipe's unlock level"
+      ],
+      "intervalSeconds": 3.0,
+      "intervalLabel": "3.0s base cycle",
+      "baseXp": 29,
+      "successChance": 0.4778761061946903,
+      "xpPerHour": 16630.088495575223,
+      "itemsPerHour": 573.4513274336283,
+      "gpPerHour": 59065.486725663715,
+      "products": [
+        {
+          "id": "MelvorBase:Salmon",
+          "name": "Salmon",
+          "role": "primary",
+          "basis": "completed action",
+          "probability": 0.4778761061946903,
+          "quantity": 1,
+          "itemsPerHour": 573.4513274336283,
+          "gpPerHour": 59065.486725663715
+        }
+      ],
+      "sourcePointer": "/Objects/CookingRecipe/9",
+      "notes": [
+        "Fixed base reference; no equipment, bonuses, preservation or downtime."
+      ]
+    },
+    {
+      "id": "Lobster",
+      "gameId": "MelvorBase:Lobster",
+      "name": "Lobster",
+      "requiredLevel": 44,
+      "availability": "demo",
+      "conditions": [
+        "Cooking level 44",
+        "Consumes RawLobster × 1 per completed action",
+        "Cooking success is evaluated at this recipe's unlock level"
+      ],
+      "intervalSeconds": 3.0,
+      "intervalLabel": "3.0s base cycle",
+      "baseXp": 39,
+      "successChance": 0.4448818897637795,
+      "xpPerHour": 20820.472440944883,
+      "itemsPerHour": 533.8582677165355,
+      "gpPerHour": 60325.984251968504,
+      "products": [
+        {
+          "id": "MelvorBase:Lobster",
+          "name": "Lobster",
+          "role": "primary",
+          "basis": "completed action",
+          "probability": 0.4448818897637795,
+          "quantity": 1,
+          "itemsPerHour": 533.8582677165355,
+          "gpPerHour": 60325.984251968504
+        }
+      ],
+      "sourcePointer": "/Objects/CookingRecipe/10",
+      "notes": [
+        "Fixed base reference; no equipment, bonuses, preservation or downtime."
+      ]
+    },
+    {
+      "id": "Glowfin",
+      "gameId": "MelvorBase:Glowfin",
+      "name": "Glowfin",
+      "requiredLevel": 49,
+      "availability": "demo",
+      "conditions": [
+        "Cooking level 49",
+        "Consumes RawGlowfin × 1 per completed action",
+        "Cooking success is evaluated at this recipe's unlock level"
+      ],
+      "intervalSeconds": 3.0,
+      "intervalLabel": "3.0s base cycle",
+      "baseXp": 22,
+      "successChance": 0.4521072796934866,
+      "xpPerHour": 11935.632183908045,
+      "itemsPerHour": 542.5287356321838,
+      "gpPerHour": 29296.551724137928,
+      "products": [
+        {
+          "id": "MelvorBase:Glowfin",
+          "name": "Glowfin",
+          "role": "primary",
+          "basis": "completed action",
+          "probability": 0.4521072796934866,
+          "quantity": 1,
+          "itemsPerHour": 542.5287356321838,
+          "gpPerHour": 29296.551724137928
+        }
+      ],
+      "sourcePointer": "/Objects/CookingRecipe/11",
+      "notes": [
+        "Fixed base reference; no equipment, bonuses, preservation or downtime."
+      ]
+    },
+    {
+      "id": "SeaBream",
+      "gameId": "MelvorBase:SeaBream",
+      "name": "Sea Bream",
+      "requiredLevel": 55,
+      "availability": "demo",
+      "conditions": [
+        "Cooking level 55",
+        "Consumes RawSeaBream × 1 per completed action",
+        "Cooking success is evaluated at this recipe's unlock level"
+      ],
+      "intervalSeconds": 3.0,
+      "intervalLabel": "3.0s base cycle",
+      "baseXp": 45,
+      "successChance": 0.4261168384879725,
+      "xpPerHour": 23010.309278350516,
+      "itemsPerHour": 511.340206185567,
+      "gpPerHour": 64428.865979381444,
+      "products": [
+        {
+          "id": "MelvorBase:SeaBream",
+          "name": "Sea Bream",
+          "role": "primary",
+          "basis": "completed action",
+          "probability": 0.4261168384879725,
+          "quantity": 1,
+          "itemsPerHour": 511.340206185567,
+          "gpPerHour": 64428.865979381444
+        }
+      ],
+      "sourcePointer": "/Objects/CookingRecipe/12",
+      "notes": [
+        "Fixed base reference; no equipment, bonuses, preservation or downtime."
+      ]
+    },
+    {
+      "id": "Cod",
+      "gameId": "MelvorBase:Cod",
+      "name": "Cod",
+      "requiredLevel": null,
+      "availability": "locked",
+      "conditions": [
+        "Consumes DemoPlaceholderItem × 1 per completed action",
+        "Cooking success is evaluated at this recipe's unlock level"
+      ],
+      "intervalSeconds": 10.0,
+      "intervalLabel": "10.0s base cycle",
+      "baseXp": 1,
+      "successChance": null,
+      "xpPerHour": null,
+      "itemsPerHour": null,
+      "gpPerHour": null,
+      "products": [
+        {
+          "id": "MelvorBase:DemoPlaceholderItem",
+          "name": "DemoPlaceholderItem",
+          "role": "primary",
+          "basis": "completed action",
+          "probability": null,
+          "quantity": 1,
+          "itemsPerHour": null,
+          "gpPerHour": null
+        }
+      ],
+      "sourcePointer": "/Objects/CookingRecipe/13",
+      "notes": [
+        "Fixed base reference; no equipment, bonuses, preservation or downtime.",
+        "Locked demo placeholder definition; not a playable potion baseline."
+      ]
+    },
+    {
+      "id": "SeaBass",
+      "gameId": "MelvorBase:SeaBass",
+      "name": "Sea Bass",
+      "requiredLevel": null,
+      "availability": "locked",
+      "conditions": [
+        "Consumes DemoPlaceholderItem × 1 per completed action",
+        "Cooking success is evaluated at this recipe's unlock level"
+      ],
+      "intervalSeconds": 10.0,
+      "intervalLabel": "10.0s base cycle",
+      "baseXp": 1,
+      "successChance": null,
+      "xpPerHour": null,
+      "itemsPerHour": null,
+      "gpPerHour": null,
+      "products": [
+        {
+          "id": "MelvorBase:DemoPlaceholderItem",
+          "name": "DemoPlaceholderItem",
+          "role": "primary",
+          "basis": "completed action",
+          "probability": null,
+          "quantity": 1,
+          "itemsPerHour": null,
+          "gpPerHour": null
+        }
+      ],
+      "sourcePointer": "/Objects/CookingRecipe/14",
+      "notes": [
+        "Fixed base reference; no equipment, bonuses, preservation or downtime.",
+        "Locked demo placeholder definition; not a playable potion baseline."
+      ]
+    },
+    {
+      "id": "Lionfish",
+      "gameId": "MelvorBase:Lionfish",
+      "name": "Lionfish",
+      "requiredLevel": null,
+      "availability": "locked",
+      "conditions": [
+        "Consumes DemoPlaceholderItem × 1 per completed action",
+        "Cooking success is evaluated at this recipe's unlock level"
+      ],
+      "intervalSeconds": 10.0,
+      "intervalLabel": "10.0s base cycle",
+      "baseXp": 1,
+      "successChance": null,
+      "xpPerHour": null,
+      "itemsPerHour": null,
+      "gpPerHour": null,
+      "products": [
+        {
+          "id": "MelvorBase:DemoPlaceholderItem",
+          "name": "DemoPlaceholderItem",
+          "role": "primary",
+          "basis": "completed action",
+          "probability": null,
+          "quantity": 1,
+          "itemsPerHour": null,
+          "gpPerHour": null
+        }
+      ],
+      "sourcePointer": "/Objects/CookingRecipe/15",
+      "notes": [
+        "Fixed base reference; no equipment, bonuses, preservation or downtime.",
+        "Locked demo placeholder definition; not a playable potion baseline."
+      ]
+    },
+    {
+      "id": "GlowingJellyfish",
+      "gameId": "MelvorBase:GlowingJellyfish",
+      "name": "Glowing Jellyfish",
+      "requiredLevel": null,
+      "availability": "locked",
+      "conditions": [
+        "Consumes DemoPlaceholderItem × 1 per completed action",
+        "Cooking success is evaluated at this recipe's unlock level"
+      ],
+      "intervalSeconds": 10.0,
+      "intervalLabel": "10.0s base cycle",
+      "baseXp": 1,
+      "successChance": null,
+      "xpPerHour": null,
+      "itemsPerHour": null,
+      "gpPerHour": null,
+      "products": [
+        {
+          "id": "MelvorBase:DemoPlaceholderItem",
+          "name": "DemoPlaceholderItem",
+          "role": "primary",
+          "basis": "completed action",
+          "probability": null,
+          "quantity": 1,
+          "itemsPerHour": null,
+          "gpPerHour": null
+        }
+      ],
+      "sourcePointer": "/Objects/CookingRecipe/16",
+      "notes": [
+        "Fixed base reference; no equipment, bonuses, preservation or downtime.",
+        "Locked demo placeholder definition; not a playable potion baseline."
+      ]
+    },
+    {
+      "id": "Tuna",
+      "gameId": "MelvorBase:Tuna",
+      "name": "Tuna",
+      "requiredLevel": null,
+      "availability": "locked",
+      "conditions": [
+        "Consumes DemoPlaceholderItem × 1 per completed action",
+        "Cooking success is evaluated at this recipe's unlock level"
+      ],
+      "intervalSeconds": 10.0,
+      "intervalLabel": "10.0s base cycle",
+      "baseXp": 1,
+      "successChance": null,
+      "xpPerHour": null,
+      "itemsPerHour": null,
+      "gpPerHour": null,
+      "products": [
+        {
+          "id": "MelvorBase:DemoPlaceholderItem",
+          "name": "DemoPlaceholderItem",
+          "role": "primary",
+          "basis": "completed action",
+          "probability": null,
+          "quantity": 1,
+          "itemsPerHour": null,
+          "gpPerHour": null
+        }
+      ],
+      "sourcePointer": "/Objects/CookingRecipe/17",
+      "notes": [
+        "Fixed base reference; no equipment, bonuses, preservation or downtime.",
+        "Locked demo placeholder definition; not a playable potion baseline."
+      ]
+    },
+    {
+      "id": "Shark",
+      "gameId": "MelvorBase:Shark",
+      "name": "Shark",
+      "requiredLevel": null,
+      "availability": "locked",
+      "conditions": [
+        "Consumes DemoPlaceholderItem × 1 per completed action",
+        "Cooking success is evaluated at this recipe's unlock level"
+      ],
+      "intervalSeconds": 10.0,
+      "intervalLabel": "10.0s base cycle",
+      "baseXp": 1,
+      "successChance": null,
+      "xpPerHour": null,
+      "itemsPerHour": null,
+      "gpPerHour": null,
+      "products": [
+        {
+          "id": "MelvorBase:DemoPlaceholderItem",
+          "name": "DemoPlaceholderItem",
+          "role": "primary",
+          "basis": "completed action",
+          "probability": null,
+          "quantity": 1,
+          "itemsPerHour": null,
+          "gpPerHour": null
+        }
+      ],
+      "sourcePointer": "/Objects/CookingRecipe/18",
+      "notes": [
+        "Fixed base reference; no equipment, bonuses, preservation or downtime.",
+        "Locked demo placeholder definition; not a playable potion baseline."
+      ]
+    },
+    {
+      "id": "GlowingSquid",
+      "gameId": "MelvorBase:GlowingSquid",
+      "name": "Glowing Squid",
+      "requiredLevel": null,
+      "availability": "locked",
+      "conditions": [
+        "Consumes DemoPlaceholderItem × 1 per completed action",
+        "Cooking success is evaluated at this recipe's unlock level"
+      ],
+      "intervalSeconds": 10.0,
+      "intervalLabel": "10.0s base cycle",
+      "baseXp": 1,
+      "successChance": null,
+      "xpPerHour": null,
+      "itemsPerHour": null,
+      "gpPerHour": null,
+      "products": [
+        {
+          "id": "MelvorBase:DemoPlaceholderItem",
+          "name": "DemoPlaceholderItem",
+          "role": "primary",
+          "basis": "completed action",
+          "probability": null,
+          "quantity": 1,
+          "itemsPerHour": null,
+          "gpPerHour": null
+        }
+      ],
+      "sourcePointer": "/Objects/CookingRecipe/19",
+      "notes": [
+        "Fixed base reference; no equipment, bonuses, preservation or downtime.",
+        "Locked demo placeholder definition; not a playable potion baseline."
+      ]
+    },
+    {
+      "id": "GiantEel",
+      "gameId": "MelvorBase:GiantEel",
+      "name": "Giant Eel",
+      "requiredLevel": null,
+      "availability": "locked",
+      "conditions": [
+        "Consumes DemoPlaceholderItem × 1 per completed action",
+        "Cooking success is evaluated at this recipe's unlock level"
+      ],
+      "intervalSeconds": 10.0,
+      "intervalLabel": "10.0s base cycle",
+      "baseXp": 1,
+      "successChance": null,
+      "xpPerHour": null,
+      "itemsPerHour": null,
+      "gpPerHour": null,
+      "products": [
+        {
+          "id": "MelvorBase:DemoPlaceholderItem",
+          "name": "DemoPlaceholderItem",
+          "role": "primary",
+          "basis": "completed action",
+          "probability": null,
+          "quantity": 1,
+          "itemsPerHour": null,
+          "gpPerHour": null
+        }
+      ],
+      "sourcePointer": "/Objects/CookingRecipe/20",
+      "notes": [
+        "Fixed base reference; no equipment, bonuses, preservation or downtime.",
+        "Locked demo placeholder definition; not a playable potion baseline."
+      ]
+    },
+    {
+      "id": "MantaRay",
+      "gameId": "MelvorBase:MantaRay",
+      "name": "Manta Ray",
+      "requiredLevel": null,
+      "availability": "locked",
+      "conditions": [
+        "Consumes DemoPlaceholderItem × 1 per completed action",
+        "Cooking success is evaluated at this recipe's unlock level"
+      ],
+      "intervalSeconds": 10.0,
+      "intervalLabel": "10.0s base cycle",
+      "baseXp": 1,
+      "successChance": null,
+      "xpPerHour": null,
+      "itemsPerHour": null,
+      "gpPerHour": null,
+      "products": [
+        {
+          "id": "MelvorBase:DemoPlaceholderItem",
+          "name": "DemoPlaceholderItem",
+          "role": "primary",
+          "basis": "completed action",
+          "probability": null,
+          "quantity": 1,
+          "itemsPerHour": null,
+          "gpPerHour": null
+        }
+      ],
+      "sourcePointer": "/Objects/CookingRecipe/21",
+      "notes": [
+        "Fixed base reference; no equipment, bonuses, preservation or downtime.",
+        "Locked demo placeholder definition; not a playable potion baseline."
+      ]
+    },
+    {
+      "id": "Whale",
+      "gameId": "MelvorBase:Whale",
+      "name": "Whale",
+      "requiredLevel": null,
+      "availability": "locked",
+      "conditions": [
+        "Consumes DemoPlaceholderItem × 1 per completed action",
+        "Cooking success is evaluated at this recipe's unlock level"
+      ],
+      "intervalSeconds": 10.0,
+      "intervalLabel": "10.0s base cycle",
+      "baseXp": 1,
+      "successChance": null,
+      "xpPerHour": null,
+      "itemsPerHour": null,
+      "gpPerHour": null,
+      "products": [
+        {
+          "id": "MelvorBase:DemoPlaceholderItem",
+          "name": "DemoPlaceholderItem",
+          "role": "primary",
+          "basis": "completed action",
+          "probability": null,
+          "quantity": 1,
+          "itemsPerHour": null,
+          "gpPerHour": null
+        }
+      ],
+      "sourcePointer": "/Objects/CookingRecipe/22",
+      "notes": [
+        "Fixed base reference; no equipment, bonuses, preservation or downtime.",
+        "Locked demo placeholder definition; not a playable potion baseline."
+      ]
+    },
+    {
+      "id": "Cheese",
+      "gameId": "MelvorBase:Cheese",
+      "name": "Cheese",
+      "requiredLevel": 1,
+      "availability": "demo",
+      "conditions": [
+        "Cooking level 1",
+        "Consumes Milk × 1 per completed action",
+        "Cooking success is evaluated at this recipe's unlock level"
+      ],
+      "intervalSeconds": 3.0,
+      "intervalLabel": "3.0s base cycle",
+      "baseXp": 1,
+      "successChance": 1,
+      "xpPerHour": 1200.0,
+      "itemsPerHour": 1200.0,
+      "gpPerHour": 4800.0,
+      "products": [
+        {
+          "id": "MelvorBase:Cheese",
+          "name": "Cheese",
+          "role": "primary",
+          "basis": "completed action",
+          "probability": 1,
+          "quantity": 1,
+          "itemsPerHour": 1200.0,
+          "gpPerHour": 4800.0
+        }
+      ],
+      "sourcePointer": "/Objects/CookingRecipe/23",
+      "notes": [
+        "Fixed base reference; no equipment, bonuses, preservation or downtime."
+      ]
+    },
+    {
+      "id": "Bread",
+      "gameId": "MelvorBase:Bread",
+      "name": "Bread",
+      "requiredLevel": 5,
+      "availability": "demo",
+      "conditions": [
+        "Cooking level 5",
+        "Consumes BucketofWater × 1 per completed action",
+        "Consumes Flour × 1 per completed action",
+        "Consumes Milk × 1 per completed action",
+        "Cooking success is evaluated at this recipe's unlock level"
+      ],
+      "intervalSeconds": 3.0,
+      "intervalLabel": "3.0s base cycle",
+      "baseXp": 5,
+      "successChance": 1,
+      "xpPerHour": 6000.0,
+      "itemsPerHour": 1200.0,
+      "gpPerHour": 6000.0,
+      "products": [
+        {
+          "id": "MelvorBase:Bread",
+          "name": "Bread",
+          "role": "primary",
+          "basis": "completed action",
+          "probability": 1,
+          "quantity": 1,
+          "itemsPerHour": 1200.0,
+          "gpPerHour": 6000.0
+        }
+      ],
+      "sourcePointer": "/Objects/CookingRecipe/24",
+      "notes": [
+        "Fixed base reference; no equipment, bonuses, preservation or downtime."
+      ]
+    },
+    {
+      "id": "SweetDough",
+      "gameId": "MelvorBase:SweetDough",
+      "name": "Sweet Dough",
+      "requiredLevel": 36,
+      "availability": "demo",
+      "conditions": [
+        "Cooking level 36",
+        "Consumes BucketofWater × 1 per completed action",
+        "Consumes Flour × 1 per completed action",
+        "Consumes Egg × 1 per completed action",
+        "Consumes Milk × 1 per completed action",
+        "Consumes Sugar × 1 per completed action",
+        "Cooking success is evaluated at this recipe's unlock level"
+      ],
+      "intervalSeconds": 3.0,
+      "intervalLabel": "3.0s base cycle",
+      "baseXp": 16,
+      "successChance": 1,
+      "xpPerHour": 19200.0,
+      "itemsPerHour": 1200.0,
+      "gpPerHour": 27600.0,
+      "products": [
+        {
+          "id": "MelvorBase:SweetDough",
+          "name": "Sweet Dough",
+          "role": "primary",
+          "basis": "completed action",
+          "probability": 1,
+          "quantity": 1,
+          "itemsPerHour": 1200.0,
+          "gpPerHour": 27600.0
+        }
+      ],
+      "sourcePointer": "/Objects/CookingRecipe/25",
+      "notes": [
+        "Fixed base reference; no equipment, bonuses, preservation or downtime."
+      ]
+    },
+    {
+      "id": "CakeBase",
+      "gameId": "MelvorBase:CakeBase",
+      "name": "Cake Base",
+      "requiredLevel": 23,
+      "availability": "demo",
+      "conditions": [
+        "Cooking level 23",
+        "Consumes BucketofWater × 1 per completed action",
+        "Consumes Flour × 2 per completed action",
+        "Consumes Egg × 2 per completed action",
+        "Consumes Milk × 2 per completed action",
+        "Consumes Sugar × 2 per completed action",
+        "Cooking success is evaluated at this recipe's unlock level"
+      ],
+      "intervalSeconds": 3.0,
+      "intervalLabel": "3.0s base cycle",
+      "baseXp": 20,
+      "successChance": 1,
+      "xpPerHour": 24000.0,
+      "itemsPerHour": 1200.0,
+      "gpPerHour": 32400.0,
+      "products": [
+        {
+          "id": "MelvorBase:CakeBase",
+          "name": "Cake Base",
+          "role": "primary",
+          "basis": "completed action",
+          "probability": 1,
+          "quantity": 1,
+          "itemsPerHour": 1200.0,
+          "gpPerHour": 32400.0
+        }
+      ],
+      "sourcePointer": "/Objects/CookingRecipe/26",
+      "notes": [
+        "Fixed base reference; no equipment, bonuses, preservation or downtime."
+      ]
+    },
+    {
+      "id": "SoupBase",
+      "gameId": "MelvorBase:SoupBase",
+      "name": "Soup Base",
+      "requiredLevel": 39,
+      "availability": "demo",
+      "conditions": [
+        "Cooking level 39",
+        "Consumes BucketofWater × 1 per completed action",
+        "Consumes Onion × 1 per completed action",
+        "Consumes Garlic × 1 per completed action",
+        "Cooking success is evaluated at this recipe's unlock level"
+      ],
+      "intervalSeconds": 3.0,
+      "intervalLabel": "3.0s base cycle",
+      "baseXp": 6,
+      "successChance": 1,
+      "xpPerHour": 7200.0,
+      "itemsPerHour": 1200.0,
+      "gpPerHour": 42000.0,
+      "products": [
+        {
+          "id": "MelvorBase:SoupBase",
+          "name": "Soup Base",
+          "role": "primary",
+          "basis": "completed action",
+          "probability": 1,
+          "quantity": 1,
+          "itemsPerHour": 1200.0,
+          "gpPerHour": 42000.0
+        }
+      ],
+      "sourcePointer": "/Objects/CookingRecipe/27",
+      "notes": [
+        "Fixed base reference; no equipment, bonuses, preservation or downtime."
+      ]
+    },
+    {
+      "id": "SushiBase",
+      "gameId": "MelvorBase:SushiBase",
+      "name": "Sushi Base",
+      "requiredLevel": 23,
+      "availability": "demo",
+      "conditions": [
+        "Cooking level 23",
+        "Consumes Grain × 1 per completed action",
+        "Consumes Seaweed × 1 per completed action",
+        "Cooking success is evaluated at this recipe's unlock level"
+      ],
+      "intervalSeconds": 3.0,
+      "intervalLabel": "3.0s base cycle",
+      "baseXp": 5,
+      "successChance": 1,
+      "xpPerHour": 6000.0,
+      "itemsPerHour": 1200.0,
+      "gpPerHour": 26400.0,
+      "products": [
+        {
+          "id": "MelvorBase:SushiBase",
+          "name": "Sushi Base",
+          "role": "primary",
+          "basis": "completed action",
+          "probability": 1,
+          "quantity": 1,
+          "itemsPerHour": 1200.0,
+          "gpPerHour": 26400.0
+        }
+      ],
+      "sourcePointer": "/Objects/CookingRecipe/28",
+      "notes": [
+        "Fixed base reference; no equipment, bonuses, preservation or downtime."
+      ]
+    },
+    {
+      "id": "BeefSandwich",
+      "gameId": "MelvorBase:BeefSandwich",
+      "name": "Beef Sandwich",
+      "requiredLevel": 15,
+      "availability": "demo",
+      "conditions": [
+        "Cooking level 15",
+        "Consumes Bread × 1 per completed action",
+        "Consumes RawBeef × 1 per completed action",
+        "Consumes Lettuce × 1 per completed action",
+        "Consumes Onion × 1 per completed action",
+        "Cooking success is evaluated at this recipe's unlock level"
+      ],
+      "intervalSeconds": 3.0,
+      "intervalLabel": "3.0s base cycle",
+      "baseXp": 28,
+      "successChance": 0.5490196078431373,
+      "xpPerHour": 18447.058823529413,
+      "itemsPerHour": 1317.6470588235295,
+      "gpPerHour": 137035.29411764708,
+      "products": [
+        {
+          "id": "MelvorBase:BeefSandwich",
+          "name": "Beef Sandwich",
+          "role": "primary",
+          "basis": "completed action",
+          "probability": 0.5490196078431373,
+          "quantity": 2,
+          "itemsPerHour": 1317.6470588235295,
+          "gpPerHour": 137035.29411764708
+        }
+      ],
+      "sourcePointer": "/Objects/CookingRecipe/29",
+      "notes": [
+        "Fixed base reference; no equipment, bonuses, preservation or downtime."
+      ]
+    },
+    {
+      "id": "ChickenSandwich",
+      "gameId": "MelvorBase:ChickenSandwich",
+      "name": "Chicken Sandwich",
+      "requiredLevel": 20,
+      "availability": "demo",
+      "conditions": [
+        "Cooking level 20",
+        "Consumes Bread × 1 per completed action",
+        "Consumes RawChicken × 1 per completed action",
+        "Consumes Lettuce × 1 per completed action",
+        "Consumes Onion × 1 per completed action",
+        "Cooking success is evaluated at this recipe's unlock level"
+      ],
+      "intervalSeconds": 3.0,
+      "intervalLabel": "3.0s base cycle",
+      "baseXp": 38,
+      "successChance": 0.4708994708994709,
+      "xpPerHour": 21473.015873015873,
+      "itemsPerHour": 1130.1587301587301,
+      "gpPerHour": 189866.66666666666,
+      "products": [
+        {
+          "id": "MelvorBase:ChickenSandwich",
+          "name": "Chicken Sandwich",
+          "role": "primary",
+          "basis": "completed action",
+          "probability": 0.4708994708994709,
+          "quantity": 2,
+          "itemsPerHour": 1130.1587301587301,
+          "gpPerHour": 189866.66666666666
+        }
+      ],
+      "sourcePointer": "/Objects/CookingRecipe/30",
+      "notes": [
+        "Fixed base reference; no equipment, bonuses, preservation or downtime."
+      ]
+    },
+    {
+      "id": "LobsterSandwich",
+      "gameId": "MelvorBase:LobsterSandwich",
+      "name": "Lobster Sandwich",
+      "requiredLevel": 49,
+      "availability": "demo",
+      "conditions": [
+        "Cooking level 49",
+        "Consumes Bread × 1 per completed action",
+        "Consumes RawLobster × 1 per completed action",
+        "Consumes Lettuce × 1 per completed action",
+        "Consumes Onion × 1 per completed action",
+        "Cooking success is evaluated at this recipe's unlock level"
+      ],
+      "intervalSeconds": 3.0,
+      "intervalLabel": "3.0s base cycle",
+      "baseXp": 132,
+      "successChance": 0.4125874125874126,
+      "xpPerHour": 65353.846153846156,
+      "itemsPerHour": 990.2097902097903,
+      "gpPerHour": 158433.56643356645,
+      "products": [
+        {
+          "id": "MelvorBase:LobsterSandwich",
+          "name": "Lobster Sandwich",
+          "role": "primary",
+          "basis": "completed action",
+          "probability": 0.4125874125874126,
+          "quantity": 2,
+          "itemsPerHour": 990.2097902097903,
+          "gpPerHour": 158433.56643356645
+        }
+      ],
+      "sourcePointer": "/Objects/CookingRecipe/31",
+      "notes": [
+        "Fixed base reference; no equipment, bonuses, preservation or downtime."
+      ]
+    },
+    {
+      "id": "TunaSandwich",
+      "gameId": "MelvorBase:TunaSandwich",
+      "name": "Tuna Sandwich",
+      "requiredLevel": null,
+      "availability": "locked",
+      "conditions": [
+        "Consumes DemoPlaceholderItem × 1 per completed action",
+        "Cooking success is evaluated at this recipe's unlock level"
+      ],
+      "intervalSeconds": 10.0,
+      "intervalLabel": "10.0s base cycle",
+      "baseXp": 1,
+      "successChance": null,
+      "xpPerHour": null,
+      "itemsPerHour": null,
+      "gpPerHour": null,
+      "products": [
+        {
+          "id": "MelvorBase:DemoPlaceholderItem",
+          "name": "DemoPlaceholderItem",
+          "role": "primary",
+          "basis": "completed action",
+          "probability": null,
+          "quantity": 1,
+          "itemsPerHour": null,
+          "gpPerHour": null
+        }
+      ],
+      "sourcePointer": "/Objects/CookingRecipe/32",
+      "notes": [
+        "Fixed base reference; no equipment, bonuses, preservation or downtime.",
+        "Locked demo placeholder definition; not a playable potion baseline."
+      ]
+    },
+    {
+      "id": "BananaPancake",
+      "gameId": "MelvorBase:BananaPancake",
+      "name": "Banana Pancake",
+      "requiredLevel": 36,
+      "availability": "demo",
+      "conditions": [
+        "Cooking level 36",
+        "Consumes SweetDough × 1 per completed action",
+        "Consumes Honey × 1 per completed action",
+        "Consumes Banana × 2 per completed action",
+        "Cooking success is evaluated at this recipe's unlock level"
+      ],
+      "intervalSeconds": 3.0,
+      "intervalLabel": "3.0s base cycle",
+      "baseXp": 92,
+      "successChance": 0.4393305439330544,
+      "xpPerHour": 48502.092050209205,
+      "itemsPerHour": 1581.5899581589958,
+      "gpPerHour": 254635.98326359832,
+      "products": [
+        {
+          "id": "MelvorBase:BananaPancake",
+          "name": "Banana Pancake",
+          "role": "primary",
+          "basis": "completed action",
+          "probability": 0.4393305439330544,
+          "quantity": 3,
+          "itemsPerHour": 1581.5899581589958,
+          "gpPerHour": 254635.98326359832
+        }
+      ],
+      "sourcePointer": "/Objects/CookingRecipe/33",
+      "notes": [
+        "Fixed base reference; no equipment, bonuses, preservation or downtime."
+      ]
+    },
+    {
+      "id": "ApplePancake",
+      "gameId": "MelvorBase:ApplePancake",
+      "name": "Apple Pancake",
+      "requiredLevel": 51,
+      "availability": "demo",
+      "conditions": [
+        "Cooking level 51",
+        "Consumes SweetDough × 1 per completed action",
+        "Consumes Honey × 1 per completed action",
+        "Consumes Apple × 2 per completed action",
+        "Cooking success is evaluated at this recipe's unlock level"
+      ],
+      "intervalSeconds": 3.0,
+      "intervalLabel": "3.0s base cycle",
+      "baseXp": 161,
+      "successChance": 0.37383177570093457,
+      "xpPerHour": 72224.29906542056,
+      "itemsPerHour": 1345.7943925233644,
+      "gpPerHour": 146691.5887850467,
+      "products": [
+        {
+          "id": "MelvorBase:ApplePancake",
+          "name": "Apple Pancake",
+          "role": "primary",
+          "basis": "completed action",
+          "probability": 0.37383177570093457,
+          "quantity": 3,
+          "itemsPerHour": 1345.7943925233644,
+          "gpPerHour": 146691.5887850467
+        }
+      ],
+      "sourcePointer": "/Objects/CookingRecipe/34",
+      "notes": [
+        "Fixed base reference; no equipment, bonuses, preservation or downtime."
+      ]
+    },
+    {
+      "id": "CherryPancake",
+      "gameId": "MelvorBase:CherryPancake",
+      "name": "Cherry Pancake",
+      "requiredLevel": null,
+      "availability": "locked",
+      "conditions": [
+        "Consumes DemoPlaceholderItem × 1 per completed action",
+        "Cooking success is evaluated at this recipe's unlock level"
+      ],
+      "intervalSeconds": 10.0,
+      "intervalLabel": "10.0s base cycle",
+      "baseXp": 1,
+      "successChance": null,
+      "xpPerHour": null,
+      "itemsPerHour": null,
+      "gpPerHour": null,
+      "products": [
+        {
+          "id": "MelvorBase:DemoPlaceholderItem",
+          "name": "DemoPlaceholderItem",
+          "role": "primary",
+          "basis": "completed action",
+          "probability": null,
+          "quantity": 1,
+          "itemsPerHour": null,
+          "gpPerHour": null
+        }
+      ],
+      "sourcePointer": "/Objects/CookingRecipe/35",
+      "notes": [
+        "Fixed base reference; no equipment, bonuses, preservation or downtime.",
+        "Locked demo placeholder definition; not a playable potion baseline."
+      ]
+    },
+    {
+      "id": "MangoPancake",
+      "gameId": "MelvorBase:MangoPancake",
+      "name": "Mango Pancake",
+      "requiredLevel": null,
+      "availability": "locked",
+      "conditions": [
+        "Consumes DemoPlaceholderItem × 1 per completed action",
+        "Cooking success is evaluated at this recipe's unlock level"
+      ],
+      "intervalSeconds": 10.0,
+      "intervalLabel": "10.0s base cycle",
+      "baseXp": 1,
+      "successChance": null,
+      "xpPerHour": null,
+      "itemsPerHour": null,
+      "gpPerHour": null,
+      "products": [
+        {
+          "id": "MelvorBase:DemoPlaceholderItem",
+          "name": "DemoPlaceholderItem",
+          "role": "primary",
+          "basis": "completed action",
+          "probability": null,
+          "quantity": 1,
+          "itemsPerHour": null,
+          "gpPerHour": null
+        }
+      ],
+      "sourcePointer": "/Objects/CookingRecipe/36",
+      "notes": [
+        "Fixed base reference; no equipment, bonuses, preservation or downtime.",
+        "Locked demo placeholder definition; not a playable potion baseline."
+      ]
+    },
+    {
+      "id": "StrawberryCake",
+      "gameId": "MelvorBase:StrawberryCake",
+      "name": "Strawberry Cake",
+      "requiredLevel": 23,
+      "availability": "demo",
+      "conditions": [
+        "Cooking level 23",
+        "Consumes CakeBase × 1 per completed action",
+        "Consumes Strawberry × 8 per completed action",
+        "Cooking success is evaluated at this recipe's unlock level"
+      ],
+      "intervalSeconds": 3.0,
+      "intervalLabel": "3.0s base cycle",
+      "baseXp": 52,
+      "successChance": 0.47668393782383417,
+      "xpPerHour": 29745.077720207253,
+      "itemsPerHour": 572.020725388601,
+      "gpPerHour": 193343.00518134714,
+      "products": [
+        {
+          "id": "MelvorBase:StrawberryCake",
+          "name": "Strawberry Cake",
+          "role": "primary",
+          "basis": "completed action",
+          "probability": 0.47668393782383417,
+          "quantity": 1,
+          "itemsPerHour": 572.020725388601,
+          "gpPerHour": 193343.00518134714
+        }
+      ],
+      "sourcePointer": "/Objects/CookingRecipe/37",
+      "notes": [
+        "Fixed base reference; no equipment, bonuses, preservation or downtime."
+      ]
+    },
+    {
+      "id": "CarrotCake",
+      "gameId": "MelvorBase:CarrotCake",
+      "name": "Carrot Cake",
+      "requiredLevel": null,
+      "availability": "locked",
+      "conditions": [
+        "Consumes DemoPlaceholderItem × 1 per completed action",
+        "Cooking success is evaluated at this recipe's unlock level"
+      ],
+      "intervalSeconds": 10.0,
+      "intervalLabel": "10.0s base cycle",
+      "baseXp": 1,
+      "successChance": null,
+      "xpPerHour": null,
+      "itemsPerHour": null,
+      "gpPerHour": null,
+      "products": [
+        {
+          "id": "MelvorBase:DemoPlaceholderItem",
+          "name": "DemoPlaceholderItem",
+          "role": "primary",
+          "basis": "completed action",
+          "probability": null,
+          "quantity": 1,
+          "itemsPerHour": null,
+          "gpPerHour": null
+        }
+      ],
+      "sourcePointer": "/Objects/CookingRecipe/38",
+      "notes": [
+        "Fixed base reference; no equipment, bonuses, preservation or downtime.",
+        "Locked demo placeholder definition; not a playable potion baseline."
+      ]
+    },
+    {
+      "id": "OrangeCake",
+      "gameId": "MelvorBase:OrangeCake",
+      "name": "Orange Cake",
+      "requiredLevel": null,
+      "availability": "locked",
+      "conditions": [
+        "Consumes DemoPlaceholderItem × 1 per completed action",
+        "Cooking success is evaluated at this recipe's unlock level"
+      ],
+      "intervalSeconds": 10.0,
+      "intervalLabel": "10.0s base cycle",
+      "baseXp": 1,
+      "successChance": null,
+      "xpPerHour": null,
+      "itemsPerHour": null,
+      "gpPerHour": null,
+      "products": [
+        {
+          "id": "MelvorBase:DemoPlaceholderItem",
+          "name": "DemoPlaceholderItem",
+          "role": "primary",
+          "basis": "completed action",
+          "probability": null,
+          "quantity": 1,
+          "itemsPerHour": null,
+          "gpPerHour": null
+        }
+      ],
+      "sourcePointer": "/Objects/CookingRecipe/39",
+      "notes": [
+        "Fixed base reference; no equipment, bonuses, preservation or downtime.",
+        "Locked demo placeholder definition; not a playable potion baseline."
+      ]
+    },
+    {
+      "id": "ApplePie",
+      "gameId": "MelvorBase:ApplePie",
+      "name": "Apple Pie",
+      "requiredLevel": 50,
+      "availability": "demo",
+      "conditions": [
+        "Cooking level 50",
+        "Consumes SweetDough × 1 per completed action",
+        "Consumes Apple × 2 per completed action",
+        "Cooking success is evaluated at this recipe's unlock level"
+      ],
+      "intervalSeconds": 3.0,
+      "intervalLabel": "3.0s base cycle",
+      "baseXp": 154,
+      "successChance": 0.3753943217665615,
+      "xpPerHour": 69372.87066246057,
+      "itemsPerHour": 900.9463722397476,
+      "gpPerHour": 128835.3312302839,
+      "products": [
+        {
+          "id": "MelvorBase:ApplePie",
+          "name": "Apple Pie",
+          "role": "primary",
+          "basis": "completed action",
+          "probability": 0.3753943217665615,
+          "quantity": 2,
+          "itemsPerHour": 900.9463722397476,
+          "gpPerHour": 128835.3312302839
+        }
+      ],
+      "sourcePointer": "/Objects/CookingRecipe/40",
+      "notes": [
+        "Fixed base reference; no equipment, bonuses, preservation or downtime."
+      ]
+    },
+    {
+      "id": "CherryPie",
+      "gameId": "MelvorBase:CherryPie",
+      "name": "Cherry Pie",
+      "requiredLevel": null,
+      "availability": "locked",
+      "conditions": [
+        "Consumes DemoPlaceholderItem × 1 per completed action",
+        "Cooking success is evaluated at this recipe's unlock level"
+      ],
+      "intervalSeconds": 10.0,
+      "intervalLabel": "10.0s base cycle",
+      "baseXp": 1,
+      "successChance": null,
+      "xpPerHour": null,
+      "itemsPerHour": null,
+      "gpPerHour": null,
+      "products": [
+        {
+          "id": "MelvorBase:DemoPlaceholderItem",
+          "name": "DemoPlaceholderItem",
+          "role": "primary",
+          "basis": "completed action",
+          "probability": null,
+          "quantity": 1,
+          "itemsPerHour": null,
+          "gpPerHour": null
+        }
+      ],
+      "sourcePointer": "/Objects/CookingRecipe/41",
+      "notes": [
+        "Fixed base reference; no equipment, bonuses, preservation or downtime.",
+        "Locked demo placeholder definition; not a playable potion baseline."
+      ]
+    },
+    {
+      "id": "PumpkinPie",
+      "gameId": "MelvorBase:PumpkinPie",
+      "name": "Pumpkin Pie",
+      "requiredLevel": null,
+      "availability": "locked",
+      "conditions": [
+        "Consumes DemoPlaceholderItem × 1 per completed action",
+        "Cooking success is evaluated at this recipe's unlock level"
+      ],
+      "intervalSeconds": 10.0,
+      "intervalLabel": "10.0s base cycle",
+      "baseXp": 1,
+      "successChance": null,
+      "xpPerHour": null,
+      "itemsPerHour": null,
+      "gpPerHour": null,
+      "products": [
+        {
+          "id": "MelvorBase:DemoPlaceholderItem",
+          "name": "DemoPlaceholderItem",
+          "role": "primary",
+          "basis": "completed action",
+          "probability": null,
+          "quantity": 1,
+          "itemsPerHour": null,
+          "gpPerHour": null
+        }
+      ],
+      "sourcePointer": "/Objects/CookingRecipe/42",
+      "notes": [
+        "Fixed base reference; no equipment, bonuses, preservation or downtime.",
+        "Locked demo placeholder definition; not a playable potion baseline."
+      ]
+    },
+    {
+      "id": "SalmonSoup",
+      "gameId": "MelvorBase:SalmonSoup",
+      "name": "Salmon Soup",
+      "requiredLevel": null,
+      "availability": "locked",
+      "conditions": [
+        "Consumes DemoPlaceholderItem × 1 per completed action",
+        "Cooking success is evaluated at this recipe's unlock level"
+      ],
+      "intervalSeconds": 10.0,
+      "intervalLabel": "10.0s base cycle",
+      "baseXp": 1,
+      "successChance": null,
+      "xpPerHour": null,
+      "itemsPerHour": null,
+      "gpPerHour": null,
+      "products": [
+        {
+          "id": "MelvorBase:DemoPlaceholderItem",
+          "name": "DemoPlaceholderItem",
+          "role": "primary",
+          "basis": "completed action",
+          "probability": null,
+          "quantity": 1,
+          "itemsPerHour": null,
+          "gpPerHour": null
+        }
+      ],
+      "sourcePointer": "/Objects/CookingRecipe/43",
+      "notes": [
+        "Fixed base reference; no equipment, bonuses, preservation or downtime.",
+        "Locked demo placeholder definition; not a playable potion baseline."
+      ]
+    },
+    {
+      "id": "SeaBreamSoup",
+      "gameId": "MelvorBase:SeaBreamSoup",
+      "name": "Sea Bream Soup",
+      "requiredLevel": null,
+      "availability": "locked",
+      "conditions": [
+        "Consumes DemoPlaceholderItem × 1 per completed action",
+        "Cooking success is evaluated at this recipe's unlock level"
+      ],
+      "intervalSeconds": 10.0,
+      "intervalLabel": "10.0s base cycle",
+      "baseXp": 1,
+      "successChance": null,
+      "xpPerHour": null,
+      "itemsPerHour": null,
+      "gpPerHour": null,
+      "products": [
+        {
+          "id": "MelvorBase:DemoPlaceholderItem",
+          "name": "DemoPlaceholderItem",
+          "role": "primary",
+          "basis": "completed action",
+          "probability": null,
+          "quantity": 1,
+          "itemsPerHour": null,
+          "gpPerHour": null
+        }
+      ],
+      "sourcePointer": "/Objects/CookingRecipe/44",
+      "notes": [
+        "Fixed base reference; no equipment, bonuses, preservation or downtime.",
+        "Locked demo placeholder definition; not a playable potion baseline."
+      ]
+    },
+    {
+      "id": "LionfishSoup",
+      "gameId": "MelvorBase:LionfishSoup",
+      "name": "Lionfish Soup",
+      "requiredLevel": null,
+      "availability": "locked",
+      "conditions": [
+        "Consumes DemoPlaceholderItem × 1 per completed action",
+        "Cooking success is evaluated at this recipe's unlock level"
+      ],
+      "intervalSeconds": 10.0,
+      "intervalLabel": "10.0s base cycle",
+      "baseXp": 1,
+      "successChance": null,
+      "xpPerHour": null,
+      "itemsPerHour": null,
+      "gpPerHour": null,
+      "products": [
+        {
+          "id": "MelvorBase:DemoPlaceholderItem",
+          "name": "DemoPlaceholderItem",
+          "role": "primary",
+          "basis": "completed action",
+          "probability": null,
+          "quantity": 1,
+          "itemsPerHour": null,
+          "gpPerHour": null
+        }
+      ],
+      "sourcePointer": "/Objects/CookingRecipe/45",
+      "notes": [
+        "Fixed base reference; no equipment, bonuses, preservation or downtime.",
+        "Locked demo placeholder definition; not a playable potion baseline."
+      ]
+    },
+    {
+      "id": "SharkSoup",
+      "gameId": "MelvorBase:SharkSoup",
+      "name": "Shark Soup",
+      "requiredLevel": null,
+      "availability": "locked",
+      "conditions": [
+        "Consumes DemoPlaceholderItem × 1 per completed action",
+        "Cooking success is evaluated at this recipe's unlock level"
+      ],
+      "intervalSeconds": 10.0,
+      "intervalLabel": "10.0s base cycle",
+      "baseXp": 1,
+      "successChance": null,
+      "xpPerHour": null,
+      "itemsPerHour": null,
+      "gpPerHour": null,
+      "products": [
+        {
+          "id": "MelvorBase:DemoPlaceholderItem",
+          "name": "DemoPlaceholderItem",
+          "role": "primary",
+          "basis": "completed action",
+          "probability": null,
+          "quantity": 1,
+          "itemsPerHour": null,
+          "gpPerHour": null
+        }
+      ],
+      "sourcePointer": "/Objects/CookingRecipe/46",
+      "notes": [
+        "Fixed base reference; no equipment, bonuses, preservation or downtime.",
+        "Locked demo placeholder definition; not a playable potion baseline."
+      ]
+    },
+    {
+      "id": "VegetableSoup",
+      "gameId": "MelvorBase:VegetableSoup",
+      "name": "Vegetable Soup",
+      "requiredLevel": null,
+      "availability": "locked",
+      "conditions": [
+        "Consumes DemoPlaceholderItem × 1 per completed action",
+        "Cooking success is evaluated at this recipe's unlock level"
+      ],
+      "intervalSeconds": 10.0,
+      "intervalLabel": "10.0s base cycle",
+      "baseXp": 1,
+      "successChance": null,
+      "xpPerHour": null,
+      "itemsPerHour": null,
+      "gpPerHour": null,
+      "products": [
+        {
+          "id": "MelvorBase:DemoPlaceholderItem",
+          "name": "DemoPlaceholderItem",
+          "role": "primary",
+          "basis": "completed action",
+          "probability": null,
+          "quantity": 1,
+          "itemsPerHour": null,
+          "gpPerHour": null
+        }
+      ],
+      "sourcePointer": "/Objects/CookingRecipe/47",
+      "notes": [
+        "Fixed base reference; no equipment, bonuses, preservation or downtime.",
+        "Locked demo placeholder definition; not a playable potion baseline."
+      ]
+    },
+    {
+      "id": "TroutSushi",
+      "gameId": "MelvorBase:TroutSushi",
+      "name": "Trout Sushi",
+      "requiredLevel": 23,
+      "availability": "demo",
+      "conditions": [
+        "Cooking level 23",
+        "Consumes SushiBase × 1 per completed action",
+        "Consumes RawTrout × 1 per completed action",
+        "Cooking success is evaluated at this recipe's unlock level"
+      ],
+      "intervalSeconds": 3.0,
+      "intervalLabel": "3.0s base cycle",
+      "baseXp": 41,
+      "successChance": 0.47668393782383417,
+      "xpPerHour": 23452.84974093264,
+      "itemsPerHour": 2288.082901554404,
+      "gpPerHour": 77794.81865284973,
+      "products": [
+        {
+          "id": "MelvorBase:TroutSushi",
+          "name": "Trout Sushi",
+          "role": "primary",
+          "basis": "completed action",
+          "probability": 0.47668393782383417,
+          "quantity": 4,
+          "itemsPerHour": 2288.082901554404,
+          "gpPerHour": 77794.81865284973
+        }
+      ],
+      "sourcePointer": "/Objects/CookingRecipe/48",
+      "notes": [
+        "Fixed base reference; no equipment, bonuses, preservation or downtime."
+      ]
+    },
+    {
+      "id": "SalmonSushi",
+      "gameId": "MelvorBase:SalmonSushi",
+      "name": "Salmon Sushi",
+      "requiredLevel": 39,
+      "availability": "demo",
+      "conditions": [
+        "Cooking level 39",
+        "Consumes SushiBase × 1 per completed action",
+        "Consumes RawSalmon × 1 per completed action",
+        "Cooking success is evaluated at this recipe's unlock level"
+      ],
+      "intervalSeconds": 3.0,
+      "intervalLabel": "3.0s base cycle",
+      "baseXp": 59,
+      "successChance": 0.4426229508196721,
+      "xpPerHour": 31337.704918032785,
+      "itemsPerHour": 2124.590163934426,
+      "gpPerHour": 127475.40983606556,
+      "products": [
+        {
+          "id": "MelvorBase:SalmonSushi",
+          "name": "Salmon Sushi",
+          "role": "primary",
+          "basis": "completed action",
+          "probability": 0.4426229508196721,
+          "quantity": 4,
+          "itemsPerHour": 2124.590163934426,
+          "gpPerHour": 127475.40983606556
+        }
+      ],
+      "sourcePointer": "/Objects/CookingRecipe/49",
+      "notes": [
+        "Fixed base reference; no equipment, bonuses, preservation or downtime."
+      ]
+    },
+    {
+      "id": "CodSushi",
+      "gameId": "MelvorBase:CodSushi",
+      "name": "Cod Sushi",
+      "requiredLevel": null,
+      "availability": "locked",
+      "conditions": [
+        "Consumes DemoPlaceholderItem × 1 per completed action",
+        "Cooking success is evaluated at this recipe's unlock level"
+      ],
+      "intervalSeconds": 10.0,
+      "intervalLabel": "10.0s base cycle",
+      "baseXp": 1,
+      "successChance": null,
+      "xpPerHour": null,
+      "itemsPerHour": null,
+      "gpPerHour": null,
+      "products": [
+        {
+          "id": "MelvorBase:DemoPlaceholderItem",
+          "name": "DemoPlaceholderItem",
+          "role": "primary",
+          "basis": "completed action",
+          "probability": null,
+          "quantity": 1,
+          "itemsPerHour": null,
+          "gpPerHour": null
+        }
+      ],
+      "sourcePointer": "/Objects/CookingRecipe/50",
+      "notes": [
+        "Fixed base reference; no equipment, bonuses, preservation or downtime.",
+        "Locked demo placeholder definition; not a playable potion baseline."
+      ]
+    },
+    {
+      "id": "GlowingSushi",
+      "gameId": "MelvorBase:GlowingSushi",
+      "name": "Glowing Sushi",
+      "requiredLevel": null,
+      "availability": "locked",
+      "conditions": [
+        "Consumes DemoPlaceholderItem × 1 per completed action",
+        "Cooking success is evaluated at this recipe's unlock level"
+      ],
+      "intervalSeconds": 10.0,
+      "intervalLabel": "10.0s base cycle",
+      "baseXp": 1,
+      "successChance": null,
+      "xpPerHour": null,
+      "itemsPerHour": null,
+      "gpPerHour": null,
+      "products": [
+        {
+          "id": "MelvorBase:DemoPlaceholderItem",
+          "name": "DemoPlaceholderItem",
+          "role": "primary",
+          "basis": "completed action",
+          "probability": null,
+          "quantity": 1,
+          "itemsPerHour": null,
+          "gpPerHour": null
+        }
+      ],
+      "sourcePointer": "/Objects/CookingRecipe/51",
+      "notes": [
+        "Fixed base reference; no equipment, bonuses, preservation or downtime.",
+        "Locked demo placeholder definition; not a playable potion baseline."
+      ]
+    },
+    {
+      "id": "TunaSharkSushi",
+      "gameId": "MelvorBase:TunaSharkSushi",
+      "name": "Tuna Shark Sushi",
+      "requiredLevel": null,
+      "availability": "locked",
+      "conditions": [
+        "Consumes DemoPlaceholderItem × 1 per completed action",
+        "Cooking success is evaluated at this recipe's unlock level"
+      ],
+      "intervalSeconds": 10.0,
+      "intervalLabel": "10.0s base cycle",
+      "baseXp": 1,
+      "successChance": null,
+      "xpPerHour": null,
+      "itemsPerHour": null,
+      "gpPerHour": null,
+      "products": [
+        {
+          "id": "MelvorBase:DemoPlaceholderItem",
+          "name": "DemoPlaceholderItem",
+          "role": "primary",
+          "basis": "completed action",
+          "probability": null,
+          "quantity": 1,
+          "itemsPerHour": null,
+          "gpPerHour": null
+        }
+      ],
+      "sourcePointer": "/Objects/CookingRecipe/52",
+      "notes": [
+        "Fixed base reference; no equipment, bonuses, preservation or downtime.",
+        "Locked demo placeholder definition; not a playable potion baseline."
+      ]
+    },
+    {
+      "id": "VegetableSushi",
+      "gameId": "MelvorBase:VegetableSushi",
+      "name": "Vegetable Sushi",
+      "requiredLevel": null,
+      "availability": "locked",
+      "conditions": [
+        "Consumes DemoPlaceholderItem × 1 per completed action",
+        "Cooking success is evaluated at this recipe's unlock level"
+      ],
+      "intervalSeconds": 10.0,
+      "intervalLabel": "10.0s base cycle",
+      "baseXp": 1,
+      "successChance": null,
+      "xpPerHour": null,
+      "itemsPerHour": null,
+      "gpPerHour": null,
+      "products": [
+        {
+          "id": "MelvorBase:DemoPlaceholderItem",
+          "name": "DemoPlaceholderItem",
+          "role": "primary",
+          "basis": "completed action",
+          "probability": null,
+          "quantity": 1,
+          "itemsPerHour": null,
+          "gpPerHour": null
+        }
+      ],
+      "sourcePointer": "/Objects/CookingRecipe/53",
+      "notes": [
+        "Fixed base reference; no equipment, bonuses, preservation or downtime.",
+        "Locked demo placeholder definition; not a playable potion baseline."
+      ]
+    },
+    {
+      "id": "Cheeseburger",
+      "gameId": "MelvorBase:Cheeseburger",
+      "name": "Cheeseburger",
+      "requiredLevel": null,
+      "availability": "locked",
+      "conditions": [
+        "Consumes DemoPlaceholderItem × 1 per completed action",
+        "Cooking success is evaluated at this recipe's unlock level"
+      ],
+      "intervalSeconds": 10.0,
+      "intervalLabel": "10.0s base cycle",
+      "baseXp": 1,
+      "successChance": null,
+      "xpPerHour": null,
+      "itemsPerHour": null,
+      "gpPerHour": null,
+      "products": [
+        {
+          "id": "MelvorBase:DemoPlaceholderItem",
+          "name": "DemoPlaceholderItem",
+          "role": "primary",
+          "basis": "completed action",
+          "probability": null,
+          "quantity": 1,
+          "itemsPerHour": null,
+          "gpPerHour": null
+        }
+      ],
+      "sourcePointer": "/Objects/CookingRecipe/54",
+      "notes": [
+        "Fixed base reference; no equipment, bonuses, preservation or downtime.",
+        "Locked demo placeholder definition; not a playable potion baseline."
+      ]
+    },
+    {
+      "id": "Lasagna",
+      "gameId": "MelvorBase:Lasagna",
+      "name": "Lasagna",
+      "requiredLevel": null,
+      "availability": "locked",
+      "conditions": [
+        "Consumes DemoPlaceholderItem × 1 per completed action",
+        "Cooking success is evaluated at this recipe's unlock level"
+      ],
+      "intervalSeconds": 10.0,
+      "intervalLabel": "10.0s base cycle",
+      "baseXp": 1,
+      "successChance": null,
+      "xpPerHour": null,
+      "itemsPerHour": null,
+      "gpPerHour": null,
+      "products": [
+        {
+          "id": "MelvorBase:DemoPlaceholderItem",
+          "name": "DemoPlaceholderItem",
+          "role": "primary",
+          "basis": "completed action",
+          "probability": null,
+          "quantity": 1,
+          "itemsPerHour": null,
+          "gpPerHour": null
+        }
+      ],
+      "sourcePointer": "/Objects/CookingRecipe/55",
+      "notes": [
+        "Fixed base reference; no equipment, bonuses, preservation or downtime.",
+        "Locked demo placeholder definition; not a playable potion baseline."
+      ]
+    },
+    {
+      "id": "CombinationPizza",
+      "gameId": "MelvorBase:CombinationPizza",
+      "name": "Combination Pizza",
+      "requiredLevel": null,
+      "availability": "locked",
+      "conditions": [
+        "Consumes DemoPlaceholderItem × 1 per completed action",
+        "Cooking success is evaluated at this recipe's unlock level"
+      ],
+      "intervalSeconds": 10.0,
+      "intervalLabel": "10.0s base cycle",
+      "baseXp": 1,
+      "successChance": null,
+      "xpPerHour": null,
+      "itemsPerHour": null,
+      "gpPerHour": null,
+      "products": [
+        {
+          "id": "MelvorBase:DemoPlaceholderItem",
+          "name": "DemoPlaceholderItem",
+          "role": "primary",
+          "basis": "completed action",
+          "probability": null,
+          "quantity": 1,
+          "itemsPerHour": null,
+          "gpPerHour": null
+        }
+      ],
+      "sourcePointer": "/Objects/CookingRecipe/56",
+      "notes": [
+        "Fixed base reference; no equipment, bonuses, preservation or downtime.",
+        "Locked demo placeholder definition; not a playable potion baseline."
+      ]
+    },
+    {
+      "id": "GlowingSoup",
+      "gameId": "MelvorBase:GlowingSoup",
+      "name": "Glowing Soup",
+      "requiredLevel": null,
+      "availability": "locked",
+      "conditions": [
+        "Consumes DemoPlaceholderItem × 1 per completed action",
+        "Cooking success is evaluated at this recipe's unlock level"
+      ],
+      "intervalSeconds": 10.0,
+      "intervalLabel": "10.0s base cycle",
+      "baseXp": 1,
+      "successChance": null,
+      "xpPerHour": null,
+      "itemsPerHour": null,
+      "gpPerHour": null,
+      "products": [
+        {
+          "id": "MelvorBase:DemoPlaceholderItem",
+          "name": "DemoPlaceholderItem",
+          "role": "primary",
+          "basis": "completed action",
+          "probability": null,
+          "quantity": 1,
+          "itemsPerHour": null,
+          "gpPerHour": null
+        }
+      ],
+      "sourcePointer": "/Objects/CookingRecipe/57",
+      "notes": [
+        "Fixed base reference; no equipment, bonuses, preservation or downtime.",
+        "Locked demo placeholder definition; not a playable potion baseline."
+      ]
+    },
+    {
+      "id": "BasicBait",
+      "gameId": "MelvorBase:BasicBait",
+      "name": "Basic Bait",
+      "requiredLevel": 6,
+      "availability": "demo",
+      "conditions": [
+        "Cooking level 6",
+        "Consumes RawShrimp × 1 per completed action",
+        "Consumes RawSardine × 1 per completed action",
+        "Cooking success is evaluated at this recipe's unlock level"
+      ],
+      "intervalSeconds": 3.0,
+      "intervalLabel": "3.0s base cycle",
+      "baseXp": 5,
+      "successChance": 1,
+      "xpPerHour": 6000.0,
+      "itemsPerHour": 9600.0,
+      "gpPerHour": 9600.0,
+      "products": [
+        {
+          "id": "MelvorBase:BasicBait",
+          "name": "Basic Bait",
+          "role": "primary",
+          "basis": "completed action",
+          "probability": 1,
+          "quantity": 8,
+          "itemsPerHour": 9600.0,
+          "gpPerHour": 9600.0
+        }
+      ],
+      "sourcePointer": "/Objects/CookingRecipe/58",
+      "notes": [
+        "Fixed base reference; no equipment, bonuses, preservation or downtime."
+      ]
+    },
+    {
+      "id": "MackerelBait",
+      "gameId": "MelvorBase:MackerelBait",
+      "name": "Mackerel Bait",
+      "requiredLevel": 27,
+      "availability": "demo",
+      "conditions": [
+        "Cooking level 27",
+        "Consumes RawMackerel × 1 per completed action",
+        "Cooking success is evaluated at this recipe's unlock level"
+      ],
+      "intervalSeconds": 3.0,
+      "intervalLabel": "3.0s base cycle",
+      "baseXp": 5,
+      "successChance": 1,
+      "xpPerHour": 6000.0,
+      "itemsPerHour": 24000.0,
+      "gpPerHour": 24000.0,
+      "products": [
+        {
+          "id": "MelvorBase:MackerelBait",
+          "name": "Mackerel Bait",
+          "role": "primary",
+          "basis": "completed action",
+          "probability": 1,
+          "quantity": 20,
+          "itemsPerHour": 24000.0,
+          "gpPerHour": 24000.0
+        }
+      ],
+      "sourcePointer": "/Objects/CookingRecipe/59",
+      "notes": [
+        "Fixed base reference; no equipment, bonuses, preservation or downtime."
+      ]
+    },
+    {
+      "id": "GlowfinBait",
+      "gameId": "MelvorBase:GlowfinBait",
+      "name": "Glowfin Bait",
+      "requiredLevel": 49,
+      "availability": "demo",
+      "conditions": [
+        "Cooking level 49",
+        "Consumes RawGlowfin × 1 per completed action",
+        "Cooking success is evaluated at this recipe's unlock level"
+      ],
+      "intervalSeconds": 3.0,
+      "intervalLabel": "3.0s base cycle",
+      "baseXp": 9,
+      "successChance": 1,
+      "xpPerHour": 10800.0,
+      "itemsPerHour": 7200.0,
+      "gpPerHour": 7200.0,
+      "products": [
+        {
+          "id": "MelvorBase:GlowfinBait",
+          "name": "Glowfin Bait",
+          "role": "primary",
+          "basis": "completed action",
+          "probability": 1,
+          "quantity": 6,
+          "itemsPerHour": 7200.0,
+          "gpPerHour": 7200.0
+        }
+      ],
+      "sourcePointer": "/Objects/CookingRecipe/60",
+      "notes": [
+        "Fixed base reference; no equipment, bonuses, preservation or downtime."
+      ]
+    },
+    {
+      "id": "GiantFishBait",
+      "gameId": "MelvorBase:GiantFishBait",
+      "name": "Giant Fish Bait",
+      "requiredLevel": null,
+      "availability": "locked",
+      "conditions": [
+        "Consumes DemoPlaceholderItem × 1 per completed action",
+        "Cooking success is evaluated at this recipe's unlock level"
+      ],
+      "intervalSeconds": 10.0,
+      "intervalLabel": "10.0s base cycle",
+      "baseXp": 1,
+      "successChance": null,
+      "xpPerHour": null,
+      "itemsPerHour": null,
+      "gpPerHour": null,
+      "products": [
+        {
+          "id": "MelvorBase:DemoPlaceholderItem",
+          "name": "DemoPlaceholderItem",
+          "role": "primary",
+          "basis": "completed action",
+          "probability": null,
+          "quantity": 1,
+          "itemsPerHour": null,
+          "gpPerHour": null
+        }
+      ],
+      "sourcePointer": "/Objects/CookingRecipe/61",
+      "notes": [
+        "Fixed base reference; no equipment, bonuses, preservation or downtime.",
+        "Locked demo placeholder definition; not a playable potion baseline."
+      ]
+    },
+    {
+      "id": "SeedBait",
+      "gameId": "MelvorBase:SeedBait",
+      "name": "Seed Bait",
+      "requiredLevel": 4,
+      "availability": "demo",
+      "conditions": [
+        "Cooking level 4",
+        "Consumes Grain × 5 per completed action",
+        "Cooking success is evaluated at this recipe's unlock level"
+      ],
+      "intervalSeconds": 3.0,
+      "intervalLabel": "3.0s base cycle",
+      "baseXp": 3,
+      "successChance": 1,
+      "xpPerHour": 3600.0,
+      "itemsPerHour": 4800.0,
+      "gpPerHour": 4800.0,
+      "products": [
+        {
+          "id": "MelvorBase:SeedBait",
+          "name": "Seed Bait",
+          "role": "primary",
+          "basis": "completed action",
+          "probability": 1,
+          "quantity": 4,
+          "itemsPerHour": 4800.0,
+          "gpPerHour": 4800.0
+        }
+      ],
+      "sourcePointer": "/Objects/CookingRecipe/62",
+      "notes": [
+        "Fixed base reference; no equipment, bonuses, preservation or downtime."
+      ]
+    },
+    {
+      "id": "VegeBait",
+      "gameId": "MelvorBase:VegeBait",
+      "name": "Vege Bait",
+      "requiredLevel": 15,
+      "availability": "demo",
+      "conditions": [
+        "Cooking level 15",
+        "Consumes Lettuce × 1 per completed action",
+        "Consumes PenrilHerb × 1 per completed action",
+        "Cooking success is evaluated at this recipe's unlock level"
+      ],
+      "intervalSeconds": 3.0,
+      "intervalLabel": "3.0s base cycle",
+      "baseXp": 2,
+      "successChance": 1,
+      "xpPerHour": 2400.0,
+      "itemsPerHour": 4800.0,
+      "gpPerHour": 9600.0,
+      "products": [
+        {
+          "id": "MelvorBase:VegeBait",
+          "name": "Vege Bait",
+          "role": "primary",
+          "basis": "completed action",
+          "probability": 1,
+          "quantity": 4,
+          "itemsPerHour": 4800.0,
+          "gpPerHour": 9600.0
+        }
+      ],
+      "sourcePointer": "/Objects/CookingRecipe/63",
+      "notes": [
+        "Fixed base reference; no equipment, bonuses, preservation or downtime."
+      ]
+    },
+    {
+      "id": "HoneyBarkBait",
+      "gameId": "MelvorBase:HoneyBarkBait",
+      "name": "Honey Bark Bait",
+      "requiredLevel": 21,
+      "availability": "demo",
+      "conditions": [
+        "Cooking level 21",
+        "Consumes OakLog × 1 per completed action",
+        "Consumes Honey × 2 per completed action",
+        "Cooking success is evaluated at this recipe's unlock level"
+      ],
+      "intervalSeconds": 3.0,
+      "intervalLabel": "3.0s base cycle",
+      "baseXp": 3,
+      "successChance": 1,
+      "xpPerHour": 3600.0,
+      "itemsPerHour": 4800.0,
+      "gpPerHour": 14400.0,
+      "products": [
+        {
+          "id": "MelvorBase:HoneyBarkBait",
+          "name": "Honey Bark Bait",
+          "role": "primary",
+          "basis": "completed action",
+          "probability": 1,
+          "quantity": 4,
+          "itemsPerHour": 4800.0,
+          "gpPerHour": 14400.0
+        }
+      ],
+      "sourcePointer": "/Objects/CookingRecipe/64",
+      "notes": [
+        "Fixed base reference; no equipment, bonuses, preservation or downtime."
+      ]
+    },
+    {
+      "id": "MeatBait",
+      "gameId": "MelvorBase:MeatBait",
+      "name": "Meat Bait",
+      "requiredLevel": 45,
+      "availability": "demo",
+      "conditions": [
+        "Cooking level 45",
+        "Consumes RawMeat × 3 per completed action",
+        "Cooking success is evaluated at this recipe's unlock level"
+      ],
+      "intervalSeconds": 3.0,
+      "intervalLabel": "3.0s base cycle",
+      "baseXp": 10,
+      "successChance": 1,
+      "xpPerHour": 12000.0,
+      "itemsPerHour": 4800.0,
+      "gpPerHour": 24000.0,
+      "products": [
+        {
+          "id": "MelvorBase:MeatBait",
+          "name": "Meat Bait",
+          "role": "primary",
+          "basis": "completed action",
+          "probability": 1,
+          "quantity": 4,
+          "itemsPerHour": 4800.0,
+          "gpPerHour": 24000.0
+        }
+      ],
+      "sourcePointer": "/Objects/CookingRecipe/65",
+      "notes": [
+        "Fixed base reference; no equipment, bonuses, preservation or downtime."
+      ]
+    },
+    {
+      "id": "BonemealBait",
+      "gameId": "MelvorBase:BonemealBait",
+      "name": "Bonemeal Bait",
+      "requiredLevel": null,
+      "availability": "locked",
+      "conditions": [
+        "Consumes DemoPlaceholderItem × 1 per completed action",
+        "Cooking success is evaluated at this recipe's unlock level"
+      ],
+      "intervalSeconds": 10.0,
+      "intervalLabel": "10.0s base cycle",
+      "baseXp": 1,
+      "successChance": null,
+      "xpPerHour": null,
+      "itemsPerHour": null,
+      "gpPerHour": null,
+      "products": [
+        {
+          "id": "MelvorBase:DemoPlaceholderItem",
+          "name": "DemoPlaceholderItem",
+          "role": "primary",
+          "basis": "completed action",
+          "probability": null,
+          "quantity": 1,
+          "itemsPerHour": null,
+          "gpPerHour": null
+        }
+      ],
+      "sourcePointer": "/Objects/CookingRecipe/66",
+      "notes": [
+        "Fixed base reference; no equipment, bonuses, preservation or downtime.",
+        "Locked demo placeholder definition; not a playable potion baseline."
+      ]
+    },
+    {
+      "id": "SparklingBait",
+      "gameId": "MelvorBase:SparklingBait",
+      "name": "Sparkling Bait",
+      "requiredLevel": null,
+      "availability": "locked",
+      "conditions": [
+        "Consumes DemoPlaceholderItem × 1 per completed action",
+        "Cooking success is evaluated at this recipe's unlock level"
+      ],
+      "intervalSeconds": 10.0,
+      "intervalLabel": "10.0s base cycle",
+      "baseXp": 1,
+      "successChance": null,
+      "xpPerHour": null,
+      "itemsPerHour": null,
+      "gpPerHour": null,
+      "products": [
+        {
+          "id": "MelvorBase:DemoPlaceholderItem",
+          "name": "DemoPlaceholderItem",
+          "role": "primary",
+          "basis": "completed action",
+          "probability": null,
+          "quantity": 1,
+          "itemsPerHour": null,
+          "gpPerHour": null
+        }
+      ],
+      "sourcePointer": "/Objects/CookingRecipe/67",
+      "notes": [
+        "Fixed base reference; no equipment, bonuses, preservation or downtime.",
+        "Locked demo placeholder definition; not a playable potion baseline."
+      ]
+    },
+    {
+      "id": "BasicDough",
+      "gameId": "MelvorBase:BasicDough",
+      "name": "Basic Dough",
+      "requiredLevel": 3,
+      "availability": "demo",
+      "conditions": [
+        "Cooking level 3",
+        "Consumes BucketofWater × 1 per completed action",
+        "Consumes Flour × 1 per completed action",
+        "Cooking success is evaluated at this recipe's unlock level"
+      ],
+      "intervalSeconds": 3.0,
+      "intervalLabel": "3.0s base cycle",
+      "baseXp": 4,
+      "successChance": 1,
+      "xpPerHour": 4800.0,
+      "itemsPerHour": 1200.0,
+      "gpPerHour": 2400.0,
+      "products": [
+        {
+          "id": "MelvorBase:BasicDough",
+          "name": "Basic Dough",
+          "role": "primary",
+          "basis": "completed action",
+          "probability": 1,
+          "quantity": 1,
+          "itemsPerHour": 1200.0,
+          "gpPerHour": 2400.0
+        }
+      ],
+      "sourcePointer": "/Objects/CookingRecipe/68",
+      "notes": [
+        "Fixed base reference; no equipment, bonuses, preservation or downtime."
+      ]
+    },
+    {
+      "id": "GriffinSteak",
+      "gameId": "MelvorBase:GriffinSteak",
+      "name": "Griffin Steak",
+      "requiredLevel": null,
+      "availability": "locked",
+      "conditions": [
+        "Consumes DemoPlaceholderItem × 1 per completed action",
+        "Cooking success is evaluated at this recipe's unlock level"
+      ],
+      "intervalSeconds": 10.0,
+      "intervalLabel": "10.0s base cycle",
+      "baseXp": 1,
+      "successChance": null,
+      "xpPerHour": null,
+      "itemsPerHour": null,
+      "gpPerHour": null,
+      "products": [
+        {
+          "id": "MelvorBase:DemoPlaceholderItem",
+          "name": "DemoPlaceholderItem",
+          "role": "primary",
+          "basis": "completed action",
+          "probability": null,
+          "quantity": 1,
+          "itemsPerHour": null,
+          "gpPerHour": null
+        }
+      ],
+      "sourcePointer": "/Objects/CookingRecipe/69",
+      "notes": [
+        "Fixed base reference; no equipment, bonuses, preservation or downtime.",
+        "Locked demo placeholder definition; not a playable potion baseline."
+      ]
+    },
+    {
+      "id": "MoonlightMinnow",
+      "gameId": "MelvorBase:MoonlightMinnow",
+      "name": "Moonlight Minnow",
+      "requiredLevel": null,
+      "availability": "locked",
+      "conditions": [
+        "Consumes DemoPlaceholderItem × 1 per completed action",
+        "Cooking success is evaluated at this recipe's unlock level"
+      ],
+      "intervalSeconds": 10.0,
+      "intervalLabel": "10.0s base cycle",
+      "baseXp": 1,
+      "successChance": null,
+      "xpPerHour": null,
+      "itemsPerHour": null,
+      "gpPerHour": null,
+      "products": [
+        {
+          "id": "MelvorBase:DemoPlaceholderItem",
+          "name": "DemoPlaceholderItem",
+          "role": "primary",
+          "basis": "completed action",
+          "probability": null,
+          "quantity": 1,
+          "itemsPerHour": null,
+          "gpPerHour": null
+        }
+      ],
+      "sourcePointer": "/Objects/CookingRecipe/70",
+      "notes": [
+        "Fixed base reference; no equipment, bonuses, preservation or downtime.",
+        "Locked demo placeholder definition; not a playable potion baseline."
+      ]
+    },
+    {
+      "id": "StripedMullet",
+      "gameId": "MelvorBase:StripedMullet",
+      "name": "Striped Mullet",
+      "requiredLevel": null,
+      "availability": "locked",
+      "conditions": [
+        "Consumes DemoPlaceholderItem × 1 per completed action",
+        "Cooking success is evaluated at this recipe's unlock level"
+      ],
+      "intervalSeconds": 10.0,
+      "intervalLabel": "10.0s base cycle",
+      "baseXp": 1,
+      "successChance": null,
+      "xpPerHour": null,
+      "itemsPerHour": null,
+      "gpPerHour": null,
+      "products": [
+        {
+          "id": "MelvorBase:DemoPlaceholderItem",
+          "name": "DemoPlaceholderItem",
+          "role": "primary",
+          "basis": "completed action",
+          "probability": null,
+          "quantity": 1,
+          "itemsPerHour": null,
+          "gpPerHour": null
+        }
+      ],
+      "sourcePointer": "/Objects/CookingRecipe/71",
+      "notes": [
+        "Fixed base reference; no equipment, bonuses, preservation or downtime.",
+        "Locked demo placeholder definition; not a playable potion baseline."
+      ]
+    },
+    {
+      "id": "MinnowPie",
+      "gameId": "MelvorBase:MinnowPie",
+      "name": "Minnow Pie",
+      "requiredLevel": null,
+      "availability": "locked",
+      "conditions": [
+        "Consumes DemoPlaceholderItem × 1 per completed action",
+        "Cooking success is evaluated at this recipe's unlock level"
+      ],
+      "intervalSeconds": 10.0,
+      "intervalLabel": "10.0s base cycle",
+      "baseXp": 1,
+      "successChance": null,
+      "xpPerHour": null,
+      "itemsPerHour": null,
+      "gpPerHour": null,
+      "products": [
+        {
+          "id": "MelvorBase:DemoPlaceholderItem",
+          "name": "DemoPlaceholderItem",
+          "role": "primary",
+          "basis": "completed action",
+          "probability": null,
+          "quantity": 1,
+          "itemsPerHour": null,
+          "gpPerHour": null
+        }
+      ],
+      "sourcePointer": "/Objects/CookingRecipe/72",
+      "notes": [
+        "Fixed base reference; no equipment, bonuses, preservation or downtime.",
+        "Locked demo placeholder definition; not a playable potion baseline."
+      ]
+    },
+    {
+      "id": "MulletStew",
+      "gameId": "MelvorBase:MulletStew",
+      "name": "Mullet Stew",
+      "requiredLevel": null,
+      "availability": "locked",
+      "conditions": [
+        "Consumes DemoPlaceholderItem × 1 per completed action",
+        "Cooking success is evaluated at this recipe's unlock level"
+      ],
+      "intervalSeconds": 10.0,
+      "intervalLabel": "10.0s base cycle",
+      "baseXp": 1,
+      "successChance": null,
+      "xpPerHour": null,
+      "itemsPerHour": null,
+      "gpPerHour": null,
+      "products": [
+        {
+          "id": "MelvorBase:DemoPlaceholderItem",
+          "name": "DemoPlaceholderItem",
+          "role": "primary",
+          "basis": "completed action",
+          "probability": null,
+          "quantity": 1,
+          "itemsPerHour": null,
+          "gpPerHour": null
+        }
+      ],
+      "sourcePointer": "/Objects/CookingRecipe/73",
+      "notes": [
+        "Fixed base reference; no equipment, bonuses, preservation or downtime.",
+        "Locked demo placeholder definition; not a playable potion baseline."
+      ]
+    }
+  ],
+  "notes": [
+    "Rates are fixed offline from independently verified base facts.",
+    "Ingredient consumption and gross sale value are shown; costs are not deducted."
+  ]
+}

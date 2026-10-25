@@ -1,0 +1,290 @@
+{
+  "id": "astrology",
+  "gameVersion": "0.11.2-alpha.4",
+  "steamBuildId": "26074343",
+  "packageSha256": "2b43f26ce76d86178f56a72c8dced08a0ae545779786cccdcac868bdc3478474",
+  "checkedAt": "2026-10-25",
+  "method": "docs/BASE_SKILL_FORMULAS.md#astrology",
+  "rows": [
+    {
+      "id": "Deedree",
+      "gameId": "MelvorBase:Deedree",
+      "name": "Deedree",
+      "requiredLevel": 1,
+      "availability": "demo",
+      "conditions": [
+        "Astrology level 1",
+        "Secondary requirement group: Woodcutting level 8 OR Farming level 6"
+      ],
+      "intervalSeconds": 3.0,
+      "intervalLabel": "3s study cycle",
+      "baseXp": 4,
+      "successChance": 1,
+      "xpPerHour": 4800.0,
+      "itemsPerHour": 0,
+      "gpPerHour": 0,
+      "products": [],
+      "sourcePointer": "/Objects/AstrologyConstellation/0",
+      "notes": [
+        "No constellation or global events are configured in this build; study grants XP only."
+      ]
+    },
+    {
+      "id": "Terra",
+      "gameId": "MelvorBase:Terra",
+      "name": "Terra",
+      "requiredLevel": 10,
+      "availability": "demo",
+      "conditions": [
+        "Astrology level 10",
+        "Secondary requirement group: Mining level 8 OR Strength level 8"
+      ],
+      "intervalSeconds": 3.0,
+      "intervalLabel": "3s study cycle",
+      "baseXp": 7,
+      "successChance": 1,
+      "xpPerHour": 8400.0,
+      "itemsPerHour": 0,
+      "gpPerHour": 0,
+      "products": [],
+      "sourcePointer": "/Objects/AstrologyConstellation/1",
+      "notes": [
+        "No constellation or global events are configured in this build; study grants XP only."
+      ]
+    },
+    {
+      "id": "Ameria",
+      "gameId": "MelvorBase:Ameria",
+      "name": "Ameria",
+      "requiredLevel": 25,
+      "availability": "demo",
+      "conditions": [
+        "Astrology level 25",
+        "Secondary requirement group: Fishing level 8 OR Firemaking level 8"
+      ],
+      "intervalSeconds": 3.0,
+      "intervalLabel": "3s study cycle",
+      "baseXp": 10,
+      "successChance": 1,
+      "xpPerHour": 12000.0,
+      "itemsPerHour": 0,
+      "gpPerHour": 0,
+      "products": [],
+      "sourcePointer": "/Objects/AstrologyConstellation/2",
+      "notes": [
+        "No constellation or global events are configured in this build; study grants XP only."
+      ]
+    },
+    {
+      "id": "Ceedyr",
+      "gameId": "MelvorBase:Ceedyr",
+      "name": "Ceedyr",
+      "requiredLevel": 35,
+      "availability": "demo",
+      "conditions": [
+        "Astrology level 35",
+        "Secondary requirement group: Hunting level 8 OR Beastcrafting level 8"
+      ],
+      "intervalSeconds": 3.0,
+      "intervalLabel": "3s study cycle",
+      "baseXp": 12,
+      "successChance": 1,
+      "xpPerHour": 14400.0,
+      "itemsPerHour": 0,
+      "gpPerHour": 0,
+      "products": [],
+      "sourcePointer": "/Objects/AstrologyConstellation/3",
+      "notes": [
+        "No constellation or global events are configured in this build; study grants XP only."
+      ]
+    },
+    {
+      "id": "Iridan",
+      "gameId": "MelvorBase:Iridan",
+      "name": "Iridan",
+      "requiredLevel": 45,
+      "availability": "demo",
+      "conditions": [
+        "Astrology level 45",
+        "Secondary requirement group: Smithing level 8 OR Attack level 8"
+      ],
+      "intervalSeconds": 3.0,
+      "intervalLabel": "3s study cycle",
+      "baseXp": 15,
+      "successChance": 1,
+      "xpPerHour": 18000.0,
+      "itemsPerHour": 0,
+      "gpPerHour": 0,
+      "products": [],
+      "sourcePointer": "/Objects/AstrologyConstellation/4",
+      "notes": [
+        "No constellation or global events are configured in this build; study grants XP only."
+      ]
+    },
+    {
+      "id": "Syllia",
+      "gameId": "MelvorBase:Syllia",
+      "name": "Syllia",
+      "requiredLevel": 55,
+      "availability": "demo",
+      "conditions": [
+        "Astrology level 55",
+        "Secondary requirement group: Fletching level 8 OR Ranged level 8"
+      ],
+      "intervalSeconds": 3.0,
+      "intervalLabel": "3s study cycle",
+      "baseXp": 21,
+      "successChance": 1,
+      "xpPerHour": 25200.0,
+      "itemsPerHour": 0,
+      "gpPerHour": 0,
+      "products": [],
+      "sourcePointer": "/Objects/AstrologyConstellation/5",
+      "notes": [
+        "No constellation or global events are configured in this build; study grants XP only."
+      ]
+    },
+    {
+      "id": "Arachi",
+      "gameId": "MelvorBase:Arachi",
+      "name": "Arachi",
+      "requiredLevel": 70,
+      "availability": "locked",
+      "conditions": [
+        "Astrology level 70",
+        "Secondary requirement group: Runecrafting level 8 OR Magic level 8"
+      ],
+      "intervalSeconds": 3.0,
+      "intervalLabel": "3s study cycle",
+      "baseXp": 31,
+      "successChance": 1,
+      "xpPerHour": 37200.0,
+      "itemsPerHour": 0,
+      "gpPerHour": 0,
+      "products": [],
+      "sourcePointer": "/Objects/AstrologyConstellation/6",
+      "notes": [
+        "No constellation or global events are configured in this build; study grants XP only."
+      ]
+    },
+    {
+      "id": "Hyden",
+      "gameId": "MelvorBase:Hyden",
+      "name": "Hyden",
+      "requiredLevel": 80,
+      "availability": "locked",
+      "conditions": [
+        "Astrology level 80",
+        "Secondary requirement group: Crafting level 8 OR Prayer level 8"
+      ],
+      "intervalSeconds": 3.0,
+      "intervalLabel": "3s study cycle",
+      "baseXp": 35,
+      "successChance": 1,
+      "xpPerHour": 42000.0,
+      "itemsPerHour": 0,
+      "gpPerHour": 0,
+      "products": [],
+      "sourcePointer": "/Objects/AstrologyConstellation/7",
+      "notes": [
+        "No constellation or global events are configured in this build; study grants XP only."
+      ]
+    },
+    {
+      "id": "Vale",
+      "gameId": "MelvorBase:Vale",
+      "name": "Vale",
+      "requiredLevel": 85,
+      "availability": "locked",
+      "conditions": [
+        "Astrology level 85",
+        "Secondary requirement group: Cooking level 8 OR Hitpoints level 14"
+      ],
+      "intervalSeconds": 3.0,
+      "intervalLabel": "3s study cycle",
+      "baseXp": 39,
+      "successChance": 1,
+      "xpPerHour": 46800.0,
+      "itemsPerHour": 0,
+      "gpPerHour": 0,
+      "products": [],
+      "sourcePointer": "/Objects/AstrologyConstellation/8",
+      "notes": [
+        "No constellation or global events are configured in this build; study grants XP only."
+      ]
+    },
+    {
+      "id": "Ko",
+      "gameId": "MelvorBase:Ko",
+      "name": "Ko",
+      "requiredLevel": 90,
+      "availability": "locked",
+      "conditions": [
+        "Astrology level 90",
+        "Secondary requirement group: Agility level 8 OR Thieving level 8"
+      ],
+      "intervalSeconds": 3.0,
+      "intervalLabel": "3s study cycle",
+      "baseXp": 42,
+      "successChance": 1,
+      "xpPerHour": 50400.0,
+      "itemsPerHour": 0,
+      "gpPerHour": 0,
+      "products": [],
+      "sourcePointer": "/Objects/AstrologyConstellation/9",
+      "notes": [
+        "No constellation or global events are configured in this build; study grants XP only."
+      ]
+    },
+    {
+      "id": "Tellus",
+      "gameId": "MelvorBase:Tellus",
+      "name": "Tellus",
+      "requiredLevel": 92,
+      "availability": "locked",
+      "conditions": [
+        "Astrology level 92",
+        "Secondary requirement group: Defence level 8 OR Slayer level 8"
+      ],
+      "intervalSeconds": 3.0,
+      "intervalLabel": "3s study cycle",
+      "baseXp": 45,
+      "successChance": 1,
+      "xpPerHour": 54000.0,
+      "itemsPerHour": 0,
+      "gpPerHour": 0,
+      "products": [],
+      "sourcePointer": "/Objects/AstrologyConstellation/10",
+      "notes": [
+        "No constellation or global events are configured in this build; study grants XP only."
+      ]
+    },
+    {
+      "id": "Qimican",
+      "gameId": "MelvorBase:Qimican",
+      "name": "Qimican",
+      "requiredLevel": 95,
+      "availability": "locked",
+      "conditions": [
+        "Astrology level 95",
+        "Secondary requirement group: Herblore level 8 OR Ranching level 6"
+      ],
+      "intervalSeconds": 3.0,
+      "intervalLabel": "3s study cycle",
+      "baseXp": 47,
+      "successChance": 1,
+      "xpPerHour": 56400.0,
+      "itemsPerHour": 0,
+      "gpPerHour": 0,
+      "products": [],
+      "sourcePointer": "/Objects/AstrologyConstellation/11",
+      "notes": [
+        "No constellation or global events are configured in this build; study grants XP only."
+      ]
+    }
+  ],
+  "notes": [
+    "Rates are fixed offline from independently verified base facts.",
+    "Ingredient consumption and gross sale value are shown; costs are not deducted."
+  ]
+}

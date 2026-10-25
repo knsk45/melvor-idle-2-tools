@@ -1,0 +1,5182 @@
+{
+  "id": "herblore",
+  "gameVersion": "0.11.2-alpha.4",
+  "steamBuildId": "26074343",
+  "packageSha256": "2b43f26ce76d86178f56a72c8dced08a0ae545779786cccdcac868bdc3478474",
+  "checkedAt": "2026-10-25",
+  "method": "docs/BASE_SKILL_FORMULAS.md#artisan-production",
+  "rows": [
+    {
+      "id": "WoodcuttingPotionP1A",
+      "gameId": "MelvorBase:WoodcuttingPotionP1A",
+      "name": "Woodcutting Potion P1-A",
+      "requiredLevel": null,
+      "availability": "locked",
+      "conditions": [
+        "Consumes DemoPlaceholderItem × 1 per completed action"
+      ],
+      "intervalSeconds": 3.0,
+      "intervalLabel": "3.0s base cycle",
+      "baseXp": 1,
+      "successChance": 1,
+      "xpPerHour": 1200.0,
+      "itemsPerHour": 1200.0,
+      "gpPerHour": 0.0,
+      "products": [
+        {
+          "id": "MelvorBase:DemoPlaceholderItem",
+          "name": "DemoPlaceholderItem",
+          "role": "primary",
+          "basis": "completed action",
+          "probability": 1,
+          "quantity": 1,
+          "itemsPerHour": 1200.0,
+          "gpPerHour": 0.0
+        }
+      ],
+      "sourcePointer": "/Objects/HerbloreRecipe/0",
+      "notes": [
+        "Fixed base reference; no equipment, bonuses, preservation or downtime.",
+        "Locked demo placeholder definition; not a playable potion baseline."
+      ]
+    },
+    {
+      "id": "WoodcuttingPotionP2A",
+      "gameId": "MelvorBase:WoodcuttingPotionP2A",
+      "name": "Woodcutting Potion P2-A",
+      "requiredLevel": null,
+      "availability": "locked",
+      "conditions": [
+        "Consumes DemoPlaceholderItem × 1 per completed action"
+      ],
+      "intervalSeconds": 3.0,
+      "intervalLabel": "3.0s base cycle",
+      "baseXp": 1,
+      "successChance": 1,
+      "xpPerHour": 1200.0,
+      "itemsPerHour": 1200.0,
+      "gpPerHour": 0.0,
+      "products": [
+        {
+          "id": "MelvorBase:DemoPlaceholderItem",
+          "name": "DemoPlaceholderItem",
+          "role": "primary",
+          "basis": "completed action",
+          "probability": 1,
+          "quantity": 1,
+          "itemsPerHour": 1200.0,
+          "gpPerHour": 0.0
+        }
+      ],
+      "sourcePointer": "/Objects/HerbloreRecipe/1",
+      "notes": [
+        "Fixed base reference; no equipment, bonuses, preservation or downtime.",
+        "Locked demo placeholder definition; not a playable potion baseline."
+      ]
+    },
+    {
+      "id": "WoodcuttingPotionP2B",
+      "gameId": "MelvorBase:WoodcuttingPotionP2B",
+      "name": "Woodcutting Potion P2-B",
+      "requiredLevel": null,
+      "availability": "locked",
+      "conditions": [
+        "Consumes DemoPlaceholderItem × 1 per completed action"
+      ],
+      "intervalSeconds": 3.0,
+      "intervalLabel": "3.0s base cycle",
+      "baseXp": 1,
+      "successChance": 1,
+      "xpPerHour": 1200.0,
+      "itemsPerHour": 1200.0,
+      "gpPerHour": 0.0,
+      "products": [
+        {
+          "id": "MelvorBase:DemoPlaceholderItem",
+          "name": "DemoPlaceholderItem",
+          "role": "primary",
+          "basis": "completed action",
+          "probability": 1,
+          "quantity": 1,
+          "itemsPerHour": 1200.0,
+          "gpPerHour": 0.0
+        }
+      ],
+      "sourcePointer": "/Objects/HerbloreRecipe/2",
+      "notes": [
+        "Fixed base reference; no equipment, bonuses, preservation or downtime.",
+        "Locked demo placeholder definition; not a playable potion baseline."
+      ]
+    },
+    {
+      "id": "FishingPotionP1A",
+      "gameId": "MelvorBase:FishingPotionP1A",
+      "name": "Fishing Potion P1-A",
+      "requiredLevel": null,
+      "availability": "locked",
+      "conditions": [
+        "Consumes DemoPlaceholderItem × 1 per completed action"
+      ],
+      "intervalSeconds": 7.0,
+      "intervalLabel": "7.0s base cycle",
+      "baseXp": 1,
+      "successChance": 1,
+      "xpPerHour": 514.2857142857143,
+      "itemsPerHour": 514.2857142857143,
+      "gpPerHour": 0.0,
+      "products": [
+        {
+          "id": "MelvorBase:DemoPlaceholderItem",
+          "name": "DemoPlaceholderItem",
+          "role": "primary",
+          "basis": "completed action",
+          "probability": 1,
+          "quantity": 1,
+          "itemsPerHour": 514.2857142857143,
+          "gpPerHour": 0.0
+        }
+      ],
+      "sourcePointer": "/Objects/HerbloreRecipe/3",
+      "notes": [
+        "Fixed base reference; no equipment, bonuses, preservation or downtime.",
+        "Locked demo placeholder definition; not a playable potion baseline."
+      ]
+    },
+    {
+      "id": "FishingPotionP2A",
+      "gameId": "MelvorBase:FishingPotionP2A",
+      "name": "Fishing Potion P2-A",
+      "requiredLevel": null,
+      "availability": "locked",
+      "conditions": [
+        "Consumes DemoPlaceholderItem × 1 per completed action"
+      ],
+      "intervalSeconds": 7.0,
+      "intervalLabel": "7.0s base cycle",
+      "baseXp": 1,
+      "successChance": 1,
+      "xpPerHour": 514.2857142857143,
+      "itemsPerHour": 514.2857142857143,
+      "gpPerHour": 0.0,
+      "products": [
+        {
+          "id": "MelvorBase:DemoPlaceholderItem",
+          "name": "DemoPlaceholderItem",
+          "role": "primary",
+          "basis": "completed action",
+          "probability": 1,
+          "quantity": 1,
+          "itemsPerHour": 514.2857142857143,
+          "gpPerHour": 0.0
+        }
+      ],
+      "sourcePointer": "/Objects/HerbloreRecipe/4",
+      "notes": [
+        "Fixed base reference; no equipment, bonuses, preservation or downtime.",
+        "Locked demo placeholder definition; not a playable potion baseline."
+      ]
+    },
+    {
+      "id": "FishingPotionP2B",
+      "gameId": "MelvorBase:FishingPotionP2B",
+      "name": "Fishing Potion P2-B",
+      "requiredLevel": null,
+      "availability": "locked",
+      "conditions": [
+        "Consumes DemoPlaceholderItem × 1 per completed action"
+      ],
+      "intervalSeconds": 7.0,
+      "intervalLabel": "7.0s base cycle",
+      "baseXp": 1,
+      "successChance": 1,
+      "xpPerHour": 514.2857142857143,
+      "itemsPerHour": 514.2857142857143,
+      "gpPerHour": 0.0,
+      "products": [
+        {
+          "id": "MelvorBase:DemoPlaceholderItem",
+          "name": "DemoPlaceholderItem",
+          "role": "primary",
+          "basis": "completed action",
+          "probability": 1,
+          "quantity": 1,
+          "itemsPerHour": 514.2857142857143,
+          "gpPerHour": 0.0
+        }
+      ],
+      "sourcePointer": "/Objects/HerbloreRecipe/5",
+      "notes": [
+        "Fixed base reference; no equipment, bonuses, preservation or downtime.",
+        "Locked demo placeholder definition; not a playable potion baseline."
+      ]
+    },
+    {
+      "id": "MiningPotionP1A",
+      "gameId": "MelvorBase:MiningPotionP1A",
+      "name": "Mining Potion P1-A",
+      "requiredLevel": null,
+      "availability": "locked",
+      "conditions": [
+        "Consumes DemoPlaceholderItem × 1 per completed action"
+      ],
+      "intervalSeconds": 3.0,
+      "intervalLabel": "3.0s base cycle",
+      "baseXp": 1,
+      "successChance": 1,
+      "xpPerHour": 1200.0,
+      "itemsPerHour": 1200.0,
+      "gpPerHour": 0.0,
+      "products": [
+        {
+          "id": "MelvorBase:DemoPlaceholderItem",
+          "name": "DemoPlaceholderItem",
+          "role": "primary",
+          "basis": "completed action",
+          "probability": 1,
+          "quantity": 1,
+          "itemsPerHour": 1200.0,
+          "gpPerHour": 0.0
+        }
+      ],
+      "sourcePointer": "/Objects/HerbloreRecipe/6",
+      "notes": [
+        "Fixed base reference; no equipment, bonuses, preservation or downtime.",
+        "Locked demo placeholder definition; not a playable potion baseline."
+      ]
+    },
+    {
+      "id": "MiningPotionP2A",
+      "gameId": "MelvorBase:MiningPotionP2A",
+      "name": "Mining Potion P2-A",
+      "requiredLevel": null,
+      "availability": "locked",
+      "conditions": [
+        "Consumes DemoPlaceholderItem × 1 per completed action"
+      ],
+      "intervalSeconds": 3.0,
+      "intervalLabel": "3.0s base cycle",
+      "baseXp": 1,
+      "successChance": 1,
+      "xpPerHour": 1200.0,
+      "itemsPerHour": 1200.0,
+      "gpPerHour": 0.0,
+      "products": [
+        {
+          "id": "MelvorBase:DemoPlaceholderItem",
+          "name": "DemoPlaceholderItem",
+          "role": "primary",
+          "basis": "completed action",
+          "probability": 1,
+          "quantity": 1,
+          "itemsPerHour": 1200.0,
+          "gpPerHour": 0.0
+        }
+      ],
+      "sourcePointer": "/Objects/HerbloreRecipe/7",
+      "notes": [
+        "Fixed base reference; no equipment, bonuses, preservation or downtime.",
+        "Locked demo placeholder definition; not a playable potion baseline."
+      ]
+    },
+    {
+      "id": "MiningPotionP2B",
+      "gameId": "MelvorBase:MiningPotionP2B",
+      "name": "Mining Potion P2-B",
+      "requiredLevel": null,
+      "availability": "locked",
+      "conditions": [
+        "Consumes DemoPlaceholderItem × 1 per completed action"
+      ],
+      "intervalSeconds": 3.0,
+      "intervalLabel": "3.0s base cycle",
+      "baseXp": 1,
+      "successChance": 1,
+      "xpPerHour": 1200.0,
+      "itemsPerHour": 1200.0,
+      "gpPerHour": 0.0,
+      "products": [
+        {
+          "id": "MelvorBase:DemoPlaceholderItem",
+          "name": "DemoPlaceholderItem",
+          "role": "primary",
+          "basis": "completed action",
+          "probability": 1,
+          "quantity": 1,
+          "itemsPerHour": 1200.0,
+          "gpPerHour": 0.0
+        }
+      ],
+      "sourcePointer": "/Objects/HerbloreRecipe/8",
+      "notes": [
+        "Fixed base reference; no equipment, bonuses, preservation or downtime.",
+        "Locked demo placeholder definition; not a playable potion baseline."
+      ]
+    },
+    {
+      "id": "FiremakingPotionP1A",
+      "gameId": "MelvorBase:FiremakingPotionP1A",
+      "name": "Firemaking Potion P1-A",
+      "requiredLevel": null,
+      "availability": "locked",
+      "conditions": [
+        "Consumes DemoPlaceholderItem × 1 per completed action"
+      ],
+      "intervalSeconds": 9.0,
+      "intervalLabel": "9.0s base cycle",
+      "baseXp": 1,
+      "successChance": 1,
+      "xpPerHour": 400.0,
+      "itemsPerHour": 400.0,
+      "gpPerHour": 0.0,
+      "products": [
+        {
+          "id": "MelvorBase:DemoPlaceholderItem",
+          "name": "DemoPlaceholderItem",
+          "role": "primary",
+          "basis": "completed action",
+          "probability": 1,
+          "quantity": 1,
+          "itemsPerHour": 400.0,
+          "gpPerHour": 0.0
+        }
+      ],
+      "sourcePointer": "/Objects/HerbloreRecipe/9",
+      "notes": [
+        "Fixed base reference; no equipment, bonuses, preservation or downtime.",
+        "Locked demo placeholder definition; not a playable potion baseline."
+      ]
+    },
+    {
+      "id": "FiremakingPotionP2A",
+      "gameId": "MelvorBase:FiremakingPotionP2A",
+      "name": "Firemaking Potion P2-A",
+      "requiredLevel": null,
+      "availability": "locked",
+      "conditions": [
+        "Consumes DemoPlaceholderItem × 1 per completed action"
+      ],
+      "intervalSeconds": 9.0,
+      "intervalLabel": "9.0s base cycle",
+      "baseXp": 1,
+      "successChance": 1,
+      "xpPerHour": 400.0,
+      "itemsPerHour": 400.0,
+      "gpPerHour": 0.0,
+      "products": [
+        {
+          "id": "MelvorBase:DemoPlaceholderItem",
+          "name": "DemoPlaceholderItem",
+          "role": "primary",
+          "basis": "completed action",
+          "probability": 1,
+          "quantity": 1,
+          "itemsPerHour": 400.0,
+          "gpPerHour": 0.0
+        }
+      ],
+      "sourcePointer": "/Objects/HerbloreRecipe/10",
+      "notes": [
+        "Fixed base reference; no equipment, bonuses, preservation or downtime.",
+        "Locked demo placeholder definition; not a playable potion baseline."
+      ]
+    },
+    {
+      "id": "FiremakingPotionP2B",
+      "gameId": "MelvorBase:FiremakingPotionP2B",
+      "name": "Firemaking Potion P2-B",
+      "requiredLevel": null,
+      "availability": "locked",
+      "conditions": [
+        "Consumes DemoPlaceholderItem × 1 per completed action"
+      ],
+      "intervalSeconds": 9.0,
+      "intervalLabel": "9.0s base cycle",
+      "baseXp": 1,
+      "successChance": 1,
+      "xpPerHour": 400.0,
+      "itemsPerHour": 400.0,
+      "gpPerHour": 0.0,
+      "products": [
+        {
+          "id": "MelvorBase:DemoPlaceholderItem",
+          "name": "DemoPlaceholderItem",
+          "role": "primary",
+          "basis": "completed action",
+          "probability": 1,
+          "quantity": 1,
+          "itemsPerHour": 400.0,
+          "gpPerHour": 0.0
+        }
+      ],
+      "sourcePointer": "/Objects/HerbloreRecipe/11",
+      "notes": [
+        "Fixed base reference; no equipment, bonuses, preservation or downtime.",
+        "Locked demo placeholder definition; not a playable potion baseline."
+      ]
+    },
+    {
+      "id": "CookingPotionP1A",
+      "gameId": "MelvorBase:CookingPotionP1A",
+      "name": "Cooking Potion P1-A",
+      "requiredLevel": null,
+      "availability": "locked",
+      "conditions": [
+        "Consumes DemoPlaceholderItem × 1 per completed action"
+      ],
+      "intervalSeconds": 5.0,
+      "intervalLabel": "5.0s base cycle",
+      "baseXp": 1,
+      "successChance": 1,
+      "xpPerHour": 720.0,
+      "itemsPerHour": 720.0,
+      "gpPerHour": 0.0,
+      "products": [
+        {
+          "id": "MelvorBase:DemoPlaceholderItem",
+          "name": "DemoPlaceholderItem",
+          "role": "primary",
+          "basis": "completed action",
+          "probability": 1,
+          "quantity": 1,
+          "itemsPerHour": 720.0,
+          "gpPerHour": 0.0
+        }
+      ],
+      "sourcePointer": "/Objects/HerbloreRecipe/12",
+      "notes": [
+        "Fixed base reference; no equipment, bonuses, preservation or downtime.",
+        "Locked demo placeholder definition; not a playable potion baseline."
+      ]
+    },
+    {
+      "id": "CookingPotionP2A",
+      "gameId": "MelvorBase:CookingPotionP2A",
+      "name": "Cooking Potion P2-A",
+      "requiredLevel": null,
+      "availability": "locked",
+      "conditions": [
+        "Consumes DemoPlaceholderItem × 1 per completed action"
+      ],
+      "intervalSeconds": 5.0,
+      "intervalLabel": "5.0s base cycle",
+      "baseXp": 1,
+      "successChance": 1,
+      "xpPerHour": 720.0,
+      "itemsPerHour": 720.0,
+      "gpPerHour": 0.0,
+      "products": [
+        {
+          "id": "MelvorBase:DemoPlaceholderItem",
+          "name": "DemoPlaceholderItem",
+          "role": "primary",
+          "basis": "completed action",
+          "probability": 1,
+          "quantity": 1,
+          "itemsPerHour": 720.0,
+          "gpPerHour": 0.0
+        }
+      ],
+      "sourcePointer": "/Objects/HerbloreRecipe/13",
+      "notes": [
+        "Fixed base reference; no equipment, bonuses, preservation or downtime.",
+        "Locked demo placeholder definition; not a playable potion baseline."
+      ]
+    },
+    {
+      "id": "CookingPotionP2B",
+      "gameId": "MelvorBase:CookingPotionP2B",
+      "name": "Cooking Potion P2-B",
+      "requiredLevel": null,
+      "availability": "locked",
+      "conditions": [
+        "Consumes DemoPlaceholderItem × 1 per completed action"
+      ],
+      "intervalSeconds": 5.0,
+      "intervalLabel": "5.0s base cycle",
+      "baseXp": 1,
+      "successChance": 1,
+      "xpPerHour": 720.0,
+      "itemsPerHour": 720.0,
+      "gpPerHour": 0.0,
+      "products": [
+        {
+          "id": "MelvorBase:DemoPlaceholderItem",
+          "name": "DemoPlaceholderItem",
+          "role": "primary",
+          "basis": "completed action",
+          "probability": 1,
+          "quantity": 1,
+          "itemsPerHour": 720.0,
+          "gpPerHour": 0.0
+        }
+      ],
+      "sourcePointer": "/Objects/HerbloreRecipe/14",
+      "notes": [
+        "Fixed base reference; no equipment, bonuses, preservation or downtime.",
+        "Locked demo placeholder definition; not a playable potion baseline."
+      ]
+    },
+    {
+      "id": "SmithingPotionP1A",
+      "gameId": "MelvorBase:SmithingPotionP1A",
+      "name": "Smithing Potion P1-A",
+      "requiredLevel": null,
+      "availability": "locked",
+      "conditions": [
+        "Consumes DemoPlaceholderItem × 1 per completed action"
+      ],
+      "intervalSeconds": 4.0,
+      "intervalLabel": "4.0s base cycle",
+      "baseXp": 1,
+      "successChance": 1,
+      "xpPerHour": 900.0,
+      "itemsPerHour": 900.0,
+      "gpPerHour": 0.0,
+      "products": [
+        {
+          "id": "MelvorBase:DemoPlaceholderItem",
+          "name": "DemoPlaceholderItem",
+          "role": "primary",
+          "basis": "completed action",
+          "probability": 1,
+          "quantity": 1,
+          "itemsPerHour": 900.0,
+          "gpPerHour": 0.0
+        }
+      ],
+      "sourcePointer": "/Objects/HerbloreRecipe/15",
+      "notes": [
+        "Fixed base reference; no equipment, bonuses, preservation or downtime.",
+        "Locked demo placeholder definition; not a playable potion baseline."
+      ]
+    },
+    {
+      "id": "SmithingPotionP2A",
+      "gameId": "MelvorBase:SmithingPotionP2A",
+      "name": "Smithing Potion P2-A",
+      "requiredLevel": null,
+      "availability": "locked",
+      "conditions": [
+        "Consumes DemoPlaceholderItem × 1 per completed action"
+      ],
+      "intervalSeconds": 4.0,
+      "intervalLabel": "4.0s base cycle",
+      "baseXp": 1,
+      "successChance": 1,
+      "xpPerHour": 900.0,
+      "itemsPerHour": 900.0,
+      "gpPerHour": 0.0,
+      "products": [
+        {
+          "id": "MelvorBase:DemoPlaceholderItem",
+          "name": "DemoPlaceholderItem",
+          "role": "primary",
+          "basis": "completed action",
+          "probability": 1,
+          "quantity": 1,
+          "itemsPerHour": 900.0,
+          "gpPerHour": 0.0
+        }
+      ],
+      "sourcePointer": "/Objects/HerbloreRecipe/16",
+      "notes": [
+        "Fixed base reference; no equipment, bonuses, preservation or downtime.",
+        "Locked demo placeholder definition; not a playable potion baseline."
+      ]
+    },
+    {
+      "id": "SmithingPotionP2B",
+      "gameId": "MelvorBase:SmithingPotionP2B",
+      "name": "Smithing Potion P2-B",
+      "requiredLevel": null,
+      "availability": "locked",
+      "conditions": [
+        "Consumes DemoPlaceholderItem × 1 per completed action"
+      ],
+      "intervalSeconds": 4.0,
+      "intervalLabel": "4.0s base cycle",
+      "baseXp": 1,
+      "successChance": 1,
+      "xpPerHour": 900.0,
+      "itemsPerHour": 900.0,
+      "gpPerHour": 0.0,
+      "products": [
+        {
+          "id": "MelvorBase:DemoPlaceholderItem",
+          "name": "DemoPlaceholderItem",
+          "role": "primary",
+          "basis": "completed action",
+          "probability": 1,
+          "quantity": 1,
+          "itemsPerHour": 900.0,
+          "gpPerHour": 0.0
+        }
+      ],
+      "sourcePointer": "/Objects/HerbloreRecipe/17",
+      "notes": [
+        "Fixed base reference; no equipment, bonuses, preservation or downtime.",
+        "Locked demo placeholder definition; not a playable potion baseline."
+      ]
+    },
+    {
+      "id": "CraftingPotionP1A",
+      "gameId": "MelvorBase:CraftingPotionP1A",
+      "name": "Crafting Potion P1-A",
+      "requiredLevel": null,
+      "availability": "locked",
+      "conditions": [
+        "Consumes DemoPlaceholderItem × 1 per completed action"
+      ],
+      "intervalSeconds": 4.0,
+      "intervalLabel": "4.0s base cycle",
+      "baseXp": 1,
+      "successChance": 1,
+      "xpPerHour": 900.0,
+      "itemsPerHour": 900.0,
+      "gpPerHour": 0.0,
+      "products": [
+        {
+          "id": "MelvorBase:DemoPlaceholderItem",
+          "name": "DemoPlaceholderItem",
+          "role": "primary",
+          "basis": "completed action",
+          "probability": 1,
+          "quantity": 1,
+          "itemsPerHour": 900.0,
+          "gpPerHour": 0.0
+        }
+      ],
+      "sourcePointer": "/Objects/HerbloreRecipe/18",
+      "notes": [
+        "Fixed base reference; no equipment, bonuses, preservation or downtime.",
+        "Locked demo placeholder definition; not a playable potion baseline."
+      ]
+    },
+    {
+      "id": "CraftingPotionP2A",
+      "gameId": "MelvorBase:CraftingPotionP2A",
+      "name": "Crafting Potion P2-A",
+      "requiredLevel": null,
+      "availability": "locked",
+      "conditions": [
+        "Consumes DemoPlaceholderItem × 1 per completed action"
+      ],
+      "intervalSeconds": 4.0,
+      "intervalLabel": "4.0s base cycle",
+      "baseXp": 1,
+      "successChance": 1,
+      "xpPerHour": 900.0,
+      "itemsPerHour": 900.0,
+      "gpPerHour": 0.0,
+      "products": [
+        {
+          "id": "MelvorBase:DemoPlaceholderItem",
+          "name": "DemoPlaceholderItem",
+          "role": "primary",
+          "basis": "completed action",
+          "probability": 1,
+          "quantity": 1,
+          "itemsPerHour": 900.0,
+          "gpPerHour": 0.0
+        }
+      ],
+      "sourcePointer": "/Objects/HerbloreRecipe/19",
+      "notes": [
+        "Fixed base reference; no equipment, bonuses, preservation or downtime.",
+        "Locked demo placeholder definition; not a playable potion baseline."
+      ]
+    },
+    {
+      "id": "CraftingPotionP2B",
+      "gameId": "MelvorBase:CraftingPotionP2B",
+      "name": "Crafting Potion P2-B",
+      "requiredLevel": null,
+      "availability": "locked",
+      "conditions": [
+        "Consumes DemoPlaceholderItem × 1 per completed action"
+      ],
+      "intervalSeconds": 4.0,
+      "intervalLabel": "4.0s base cycle",
+      "baseXp": 1,
+      "successChance": 1,
+      "xpPerHour": 900.0,
+      "itemsPerHour": 900.0,
+      "gpPerHour": 0.0,
+      "products": [
+        {
+          "id": "MelvorBase:DemoPlaceholderItem",
+          "name": "DemoPlaceholderItem",
+          "role": "primary",
+          "basis": "completed action",
+          "probability": 1,
+          "quantity": 1,
+          "itemsPerHour": 900.0,
+          "gpPerHour": 0.0
+        }
+      ],
+      "sourcePointer": "/Objects/HerbloreRecipe/20",
+      "notes": [
+        "Fixed base reference; no equipment, bonuses, preservation or downtime.",
+        "Locked demo placeholder definition; not a playable potion baseline."
+      ]
+    },
+    {
+      "id": "FletchingPotionP1A",
+      "gameId": "MelvorBase:FletchingPotionP1A",
+      "name": "Fletching Potion P1-A",
+      "requiredLevel": null,
+      "availability": "locked",
+      "conditions": [
+        "Consumes DemoPlaceholderItem × 1 per completed action"
+      ],
+      "intervalSeconds": 4.0,
+      "intervalLabel": "4.0s base cycle",
+      "baseXp": 1,
+      "successChance": 1,
+      "xpPerHour": 900.0,
+      "itemsPerHour": 900.0,
+      "gpPerHour": 0.0,
+      "products": [
+        {
+          "id": "MelvorBase:DemoPlaceholderItem",
+          "name": "DemoPlaceholderItem",
+          "role": "primary",
+          "basis": "completed action",
+          "probability": 1,
+          "quantity": 1,
+          "itemsPerHour": 900.0,
+          "gpPerHour": 0.0
+        }
+      ],
+      "sourcePointer": "/Objects/HerbloreRecipe/21",
+      "notes": [
+        "Fixed base reference; no equipment, bonuses, preservation or downtime.",
+        "Locked demo placeholder definition; not a playable potion baseline."
+      ]
+    },
+    {
+      "id": "FletchingPotionP2A",
+      "gameId": "MelvorBase:FletchingPotionP2A",
+      "name": "Fletching Potion P2-A",
+      "requiredLevel": null,
+      "availability": "locked",
+      "conditions": [
+        "Consumes DemoPlaceholderItem × 1 per completed action"
+      ],
+      "intervalSeconds": 4.0,
+      "intervalLabel": "4.0s base cycle",
+      "baseXp": 1,
+      "successChance": 1,
+      "xpPerHour": 900.0,
+      "itemsPerHour": 900.0,
+      "gpPerHour": 0.0,
+      "products": [
+        {
+          "id": "MelvorBase:DemoPlaceholderItem",
+          "name": "DemoPlaceholderItem",
+          "role": "primary",
+          "basis": "completed action",
+          "probability": 1,
+          "quantity": 1,
+          "itemsPerHour": 900.0,
+          "gpPerHour": 0.0
+        }
+      ],
+      "sourcePointer": "/Objects/HerbloreRecipe/22",
+      "notes": [
+        "Fixed base reference; no equipment, bonuses, preservation or downtime.",
+        "Locked demo placeholder definition; not a playable potion baseline."
+      ]
+    },
+    {
+      "id": "FletchingPotionP2B",
+      "gameId": "MelvorBase:FletchingPotionP2B",
+      "name": "Fletching Potion P2-B",
+      "requiredLevel": null,
+      "availability": "locked",
+      "conditions": [
+        "Consumes DemoPlaceholderItem × 1 per completed action"
+      ],
+      "intervalSeconds": 4.0,
+      "intervalLabel": "4.0s base cycle",
+      "baseXp": 1,
+      "successChance": 1,
+      "xpPerHour": 900.0,
+      "itemsPerHour": 900.0,
+      "gpPerHour": 0.0,
+      "products": [
+        {
+          "id": "MelvorBase:DemoPlaceholderItem",
+          "name": "DemoPlaceholderItem",
+          "role": "primary",
+          "basis": "completed action",
+          "probability": 1,
+          "quantity": 1,
+          "itemsPerHour": 900.0,
+          "gpPerHour": 0.0
+        }
+      ],
+      "sourcePointer": "/Objects/HerbloreRecipe/23",
+      "notes": [
+        "Fixed base reference; no equipment, bonuses, preservation or downtime.",
+        "Locked demo placeholder definition; not a playable potion baseline."
+      ]
+    },
+    {
+      "id": "RunecraftingPotionP1A",
+      "gameId": "MelvorBase:RunecraftingPotionP1A",
+      "name": "Runecrafting Potion P1-A",
+      "requiredLevel": null,
+      "availability": "locked",
+      "conditions": [
+        "Consumes DemoPlaceholderItem × 1 per completed action"
+      ],
+      "intervalSeconds": 4.0,
+      "intervalLabel": "4.0s base cycle",
+      "baseXp": 1,
+      "successChance": 1,
+      "xpPerHour": 900.0,
+      "itemsPerHour": 900.0,
+      "gpPerHour": 0.0,
+      "products": [
+        {
+          "id": "MelvorBase:DemoPlaceholderItem",
+          "name": "DemoPlaceholderItem",
+          "role": "primary",
+          "basis": "completed action",
+          "probability": 1,
+          "quantity": 1,
+          "itemsPerHour": 900.0,
+          "gpPerHour": 0.0
+        }
+      ],
+      "sourcePointer": "/Objects/HerbloreRecipe/24",
+      "notes": [
+        "Fixed base reference; no equipment, bonuses, preservation or downtime.",
+        "Locked demo placeholder definition; not a playable potion baseline."
+      ]
+    },
+    {
+      "id": "RunecraftingPotionP2A",
+      "gameId": "MelvorBase:RunecraftingPotionP2A",
+      "name": "Runecrafting Potion P2-A",
+      "requiredLevel": null,
+      "availability": "locked",
+      "conditions": [
+        "Consumes DemoPlaceholderItem × 1 per completed action"
+      ],
+      "intervalSeconds": 4.0,
+      "intervalLabel": "4.0s base cycle",
+      "baseXp": 1,
+      "successChance": 1,
+      "xpPerHour": 900.0,
+      "itemsPerHour": 900.0,
+      "gpPerHour": 0.0,
+      "products": [
+        {
+          "id": "MelvorBase:DemoPlaceholderItem",
+          "name": "DemoPlaceholderItem",
+          "role": "primary",
+          "basis": "completed action",
+          "probability": 1,
+          "quantity": 1,
+          "itemsPerHour": 900.0,
+          "gpPerHour": 0.0
+        }
+      ],
+      "sourcePointer": "/Objects/HerbloreRecipe/25",
+      "notes": [
+        "Fixed base reference; no equipment, bonuses, preservation or downtime.",
+        "Locked demo placeholder definition; not a playable potion baseline."
+      ]
+    },
+    {
+      "id": "RunecraftingPotionP2B",
+      "gameId": "MelvorBase:RunecraftingPotionP2B",
+      "name": "Runecrafting Potion P2-B",
+      "requiredLevel": null,
+      "availability": "locked",
+      "conditions": [
+        "Consumes DemoPlaceholderItem × 1 per completed action"
+      ],
+      "intervalSeconds": 4.0,
+      "intervalLabel": "4.0s base cycle",
+      "baseXp": 1,
+      "successChance": 1,
+      "xpPerHour": 900.0,
+      "itemsPerHour": 900.0,
+      "gpPerHour": 0.0,
+      "products": [
+        {
+          "id": "MelvorBase:DemoPlaceholderItem",
+          "name": "DemoPlaceholderItem",
+          "role": "primary",
+          "basis": "completed action",
+          "probability": 1,
+          "quantity": 1,
+          "itemsPerHour": 900.0,
+          "gpPerHour": 0.0
+        }
+      ],
+      "sourcePointer": "/Objects/HerbloreRecipe/26",
+      "notes": [
+        "Fixed base reference; no equipment, bonuses, preservation or downtime.",
+        "Locked demo placeholder definition; not a playable potion baseline."
+      ]
+    },
+    {
+      "id": "HuntingPotionP1A",
+      "gameId": "MelvorBase:HuntingPotionP1A",
+      "name": "Hunting Potion P1-A",
+      "requiredLevel": null,
+      "availability": "locked",
+      "conditions": [
+        "Consumes DemoPlaceholderItem × 1 per completed action"
+      ],
+      "intervalSeconds": 12.0,
+      "intervalLabel": "12.0s base cycle",
+      "baseXp": 1,
+      "successChance": 1,
+      "xpPerHour": 300.0,
+      "itemsPerHour": 300.0,
+      "gpPerHour": 0.0,
+      "products": [
+        {
+          "id": "MelvorBase:DemoPlaceholderItem",
+          "name": "DemoPlaceholderItem",
+          "role": "primary",
+          "basis": "completed action",
+          "probability": 1,
+          "quantity": 1,
+          "itemsPerHour": 300.0,
+          "gpPerHour": 0.0
+        }
+      ],
+      "sourcePointer": "/Objects/HerbloreRecipe/27",
+      "notes": [
+        "Fixed base reference; no equipment, bonuses, preservation or downtime.",
+        "Locked demo placeholder definition; not a playable potion baseline."
+      ]
+    },
+    {
+      "id": "HuntingPotionP2A",
+      "gameId": "MelvorBase:HuntingPotionP2A",
+      "name": "Hunting Potion P2-A",
+      "requiredLevel": null,
+      "availability": "locked",
+      "conditions": [
+        "Consumes DemoPlaceholderItem × 1 per completed action"
+      ],
+      "intervalSeconds": 12.0,
+      "intervalLabel": "12.0s base cycle",
+      "baseXp": 1,
+      "successChance": 1,
+      "xpPerHour": 300.0,
+      "itemsPerHour": 300.0,
+      "gpPerHour": 0.0,
+      "products": [
+        {
+          "id": "MelvorBase:DemoPlaceholderItem",
+          "name": "DemoPlaceholderItem",
+          "role": "primary",
+          "basis": "completed action",
+          "probability": 1,
+          "quantity": 1,
+          "itemsPerHour": 300.0,
+          "gpPerHour": 0.0
+        }
+      ],
+      "sourcePointer": "/Objects/HerbloreRecipe/28",
+      "notes": [
+        "Fixed base reference; no equipment, bonuses, preservation or downtime.",
+        "Locked demo placeholder definition; not a playable potion baseline."
+      ]
+    },
+    {
+      "id": "HuntingPotionP2B",
+      "gameId": "MelvorBase:HuntingPotionP2B",
+      "name": "Hunting Potion P2-B",
+      "requiredLevel": null,
+      "availability": "locked",
+      "conditions": [
+        "Consumes DemoPlaceholderItem × 1 per completed action"
+      ],
+      "intervalSeconds": 12.0,
+      "intervalLabel": "12.0s base cycle",
+      "baseXp": 1,
+      "successChance": 1,
+      "xpPerHour": 300.0,
+      "itemsPerHour": 300.0,
+      "gpPerHour": 0.0,
+      "products": [
+        {
+          "id": "MelvorBase:DemoPlaceholderItem",
+          "name": "DemoPlaceholderItem",
+          "role": "primary",
+          "basis": "completed action",
+          "probability": 1,
+          "quantity": 1,
+          "itemsPerHour": 300.0,
+          "gpPerHour": 0.0
+        }
+      ],
+      "sourcePointer": "/Objects/HerbloreRecipe/29",
+      "notes": [
+        "Fixed base reference; no equipment, bonuses, preservation or downtime.",
+        "Locked demo placeholder definition; not a playable potion baseline."
+      ]
+    },
+    {
+      "id": "FarmingPotionP1A",
+      "gameId": "MelvorBase:FarmingPotionP1A",
+      "name": "Farming Potion P1-A",
+      "requiredLevel": null,
+      "availability": "locked",
+      "conditions": [
+        "Consumes DemoPlaceholderItem × 1 per completed action"
+      ],
+      "intervalSeconds": 15.0,
+      "intervalLabel": "15.0s base cycle",
+      "baseXp": 1,
+      "successChance": 1,
+      "xpPerHour": 240.0,
+      "itemsPerHour": 240.0,
+      "gpPerHour": 0.0,
+      "products": [
+        {
+          "id": "MelvorBase:DemoPlaceholderItem",
+          "name": "DemoPlaceholderItem",
+          "role": "primary",
+          "basis": "completed action",
+          "probability": 1,
+          "quantity": 1,
+          "itemsPerHour": 240.0,
+          "gpPerHour": 0.0
+        }
+      ],
+      "sourcePointer": "/Objects/HerbloreRecipe/30",
+      "notes": [
+        "Fixed base reference; no equipment, bonuses, preservation or downtime.",
+        "Locked demo placeholder definition; not a playable potion baseline."
+      ]
+    },
+    {
+      "id": "FarmingPotionP2A",
+      "gameId": "MelvorBase:FarmingPotionP2A",
+      "name": "Farming Potion P2-A",
+      "requiredLevel": null,
+      "availability": "locked",
+      "conditions": [
+        "Consumes DemoPlaceholderItem × 1 per completed action"
+      ],
+      "intervalSeconds": 15.0,
+      "intervalLabel": "15.0s base cycle",
+      "baseXp": 1,
+      "successChance": 1,
+      "xpPerHour": 240.0,
+      "itemsPerHour": 240.0,
+      "gpPerHour": 0.0,
+      "products": [
+        {
+          "id": "MelvorBase:DemoPlaceholderItem",
+          "name": "DemoPlaceholderItem",
+          "role": "primary",
+          "basis": "completed action",
+          "probability": 1,
+          "quantity": 1,
+          "itemsPerHour": 240.0,
+          "gpPerHour": 0.0
+        }
+      ],
+      "sourcePointer": "/Objects/HerbloreRecipe/31",
+      "notes": [
+        "Fixed base reference; no equipment, bonuses, preservation or downtime.",
+        "Locked demo placeholder definition; not a playable potion baseline."
+      ]
+    },
+    {
+      "id": "FarmingPotionP2B",
+      "gameId": "MelvorBase:FarmingPotionP2B",
+      "name": "Farming Potion P2-B",
+      "requiredLevel": null,
+      "availability": "locked",
+      "conditions": [
+        "Consumes DemoPlaceholderItem × 1 per completed action"
+      ],
+      "intervalSeconds": 15.0,
+      "intervalLabel": "15.0s base cycle",
+      "baseXp": 1,
+      "successChance": 1,
+      "xpPerHour": 240.0,
+      "itemsPerHour": 240.0,
+      "gpPerHour": 0.0,
+      "products": [
+        {
+          "id": "MelvorBase:DemoPlaceholderItem",
+          "name": "DemoPlaceholderItem",
+          "role": "primary",
+          "basis": "completed action",
+          "probability": 1,
+          "quantity": 1,
+          "itemsPerHour": 240.0,
+          "gpPerHour": 0.0
+        }
+      ],
+      "sourcePointer": "/Objects/HerbloreRecipe/32",
+      "notes": [
+        "Fixed base reference; no equipment, bonuses, preservation or downtime.",
+        "Locked demo placeholder definition; not a playable potion baseline."
+      ]
+    },
+    {
+      "id": "RanchingPotionP1A",
+      "gameId": "MelvorBase:RanchingPotionP1A",
+      "name": "Ranching Potion P1-A",
+      "requiredLevel": null,
+      "availability": "locked",
+      "conditions": [
+        "Consumes DemoPlaceholderItem × 1 per completed action"
+      ],
+      "intervalSeconds": 5.5,
+      "intervalLabel": "5.5s base cycle",
+      "baseXp": 1,
+      "successChance": 1,
+      "xpPerHour": 654.5454545454545,
+      "itemsPerHour": 654.5454545454545,
+      "gpPerHour": 0.0,
+      "products": [
+        {
+          "id": "MelvorBase:DemoPlaceholderItem",
+          "name": "DemoPlaceholderItem",
+          "role": "primary",
+          "basis": "completed action",
+          "probability": 1,
+          "quantity": 1,
+          "itemsPerHour": 654.5454545454545,
+          "gpPerHour": 0.0
+        }
+      ],
+      "sourcePointer": "/Objects/HerbloreRecipe/33",
+      "notes": [
+        "Fixed base reference; no equipment, bonuses, preservation or downtime.",
+        "Locked demo placeholder definition; not a playable potion baseline."
+      ]
+    },
+    {
+      "id": "RanchingPotionP2A",
+      "gameId": "MelvorBase:RanchingPotionP2A",
+      "name": "Ranching Potion P2-A",
+      "requiredLevel": null,
+      "availability": "locked",
+      "conditions": [
+        "Consumes DemoPlaceholderItem × 1 per completed action"
+      ],
+      "intervalSeconds": 5.5,
+      "intervalLabel": "5.5s base cycle",
+      "baseXp": 1,
+      "successChance": 1,
+      "xpPerHour": 654.5454545454545,
+      "itemsPerHour": 654.5454545454545,
+      "gpPerHour": 0.0,
+      "products": [
+        {
+          "id": "MelvorBase:DemoPlaceholderItem",
+          "name": "DemoPlaceholderItem",
+          "role": "primary",
+          "basis": "completed action",
+          "probability": 1,
+          "quantity": 1,
+          "itemsPerHour": 654.5454545454545,
+          "gpPerHour": 0.0
+        }
+      ],
+      "sourcePointer": "/Objects/HerbloreRecipe/34",
+      "notes": [
+        "Fixed base reference; no equipment, bonuses, preservation or downtime.",
+        "Locked demo placeholder definition; not a playable potion baseline."
+      ]
+    },
+    {
+      "id": "RanchingPotionP2B",
+      "gameId": "MelvorBase:RanchingPotionP2B",
+      "name": "Ranching Potion P2-B",
+      "requiredLevel": null,
+      "availability": "locked",
+      "conditions": [
+        "Consumes DemoPlaceholderItem × 1 per completed action"
+      ],
+      "intervalSeconds": 5.5,
+      "intervalLabel": "5.5s base cycle",
+      "baseXp": 1,
+      "successChance": 1,
+      "xpPerHour": 654.5454545454545,
+      "itemsPerHour": 654.5454545454545,
+      "gpPerHour": 0.0,
+      "products": [
+        {
+          "id": "MelvorBase:DemoPlaceholderItem",
+          "name": "DemoPlaceholderItem",
+          "role": "primary",
+          "basis": "completed action",
+          "probability": 1,
+          "quantity": 1,
+          "itemsPerHour": 654.5454545454545,
+          "gpPerHour": 0.0
+        }
+      ],
+      "sourcePointer": "/Objects/HerbloreRecipe/35",
+      "notes": [
+        "Fixed base reference; no equipment, bonuses, preservation or downtime.",
+        "Locked demo placeholder definition; not a playable potion baseline."
+      ]
+    },
+    {
+      "id": "HerblorePotionP1A",
+      "gameId": "MelvorBase:HerblorePotionP1A",
+      "name": "Herblore Potion P1-A",
+      "requiredLevel": null,
+      "availability": "locked",
+      "conditions": [
+        "Consumes DemoPlaceholderItem × 1 per completed action"
+      ],
+      "intervalSeconds": 5.0,
+      "intervalLabel": "5.0s base cycle",
+      "baseXp": 1,
+      "successChance": 1,
+      "xpPerHour": 720.0,
+      "itemsPerHour": 720.0,
+      "gpPerHour": 0.0,
+      "products": [
+        {
+          "id": "MelvorBase:DemoPlaceholderItem",
+          "name": "DemoPlaceholderItem",
+          "role": "primary",
+          "basis": "completed action",
+          "probability": 1,
+          "quantity": 1,
+          "itemsPerHour": 720.0,
+          "gpPerHour": 0.0
+        }
+      ],
+      "sourcePointer": "/Objects/HerbloreRecipe/36",
+      "notes": [
+        "Fixed base reference; no equipment, bonuses, preservation or downtime.",
+        "Locked demo placeholder definition; not a playable potion baseline."
+      ]
+    },
+    {
+      "id": "HerblorePotionP2A",
+      "gameId": "MelvorBase:HerblorePotionP2A",
+      "name": "Herblore Potion P2-A",
+      "requiredLevel": null,
+      "availability": "locked",
+      "conditions": [
+        "Consumes DemoPlaceholderItem × 1 per completed action"
+      ],
+      "intervalSeconds": 5.0,
+      "intervalLabel": "5.0s base cycle",
+      "baseXp": 1,
+      "successChance": 1,
+      "xpPerHour": 720.0,
+      "itemsPerHour": 720.0,
+      "gpPerHour": 0.0,
+      "products": [
+        {
+          "id": "MelvorBase:DemoPlaceholderItem",
+          "name": "DemoPlaceholderItem",
+          "role": "primary",
+          "basis": "completed action",
+          "probability": 1,
+          "quantity": 1,
+          "itemsPerHour": 720.0,
+          "gpPerHour": 0.0
+        }
+      ],
+      "sourcePointer": "/Objects/HerbloreRecipe/37",
+      "notes": [
+        "Fixed base reference; no equipment, bonuses, preservation or downtime.",
+        "Locked demo placeholder definition; not a playable potion baseline."
+      ]
+    },
+    {
+      "id": "HerblorePotionP2B",
+      "gameId": "MelvorBase:HerblorePotionP2B",
+      "name": "Herblore Potion P2-B",
+      "requiredLevel": null,
+      "availability": "locked",
+      "conditions": [
+        "Consumes DemoPlaceholderItem × 1 per completed action"
+      ],
+      "intervalSeconds": 5.0,
+      "intervalLabel": "5.0s base cycle",
+      "baseXp": 1,
+      "successChance": 1,
+      "xpPerHour": 720.0,
+      "itemsPerHour": 720.0,
+      "gpPerHour": 0.0,
+      "products": [
+        {
+          "id": "MelvorBase:DemoPlaceholderItem",
+          "name": "DemoPlaceholderItem",
+          "role": "primary",
+          "basis": "completed action",
+          "probability": 1,
+          "quantity": 1,
+          "itemsPerHour": 720.0,
+          "gpPerHour": 0.0
+        }
+      ],
+      "sourcePointer": "/Objects/HerbloreRecipe/38",
+      "notes": [
+        "Fixed base reference; no equipment, bonuses, preservation or downtime.",
+        "Locked demo placeholder definition; not a playable potion baseline."
+      ]
+    },
+    {
+      "id": "BeastcraftingPotionP1A",
+      "gameId": "MelvorBase:BeastcraftingPotionP1A",
+      "name": "Beastcrafting Potion P1-A",
+      "requiredLevel": null,
+      "availability": "locked",
+      "conditions": [
+        "Consumes DemoPlaceholderItem × 1 per completed action"
+      ],
+      "intervalSeconds": 3.5,
+      "intervalLabel": "3.5s base cycle",
+      "baseXp": 1,
+      "successChance": 1,
+      "xpPerHour": 1028.5714285714287,
+      "itemsPerHour": 1028.5714285714287,
+      "gpPerHour": 0.0,
+      "products": [
+        {
+          "id": "MelvorBase:DemoPlaceholderItem",
+          "name": "DemoPlaceholderItem",
+          "role": "primary",
+          "basis": "completed action",
+          "probability": 1,
+          "quantity": 1,
+          "itemsPerHour": 1028.5714285714287,
+          "gpPerHour": 0.0
+        }
+      ],
+      "sourcePointer": "/Objects/HerbloreRecipe/39",
+      "notes": [
+        "Fixed base reference; no equipment, bonuses, preservation or downtime.",
+        "Locked demo placeholder definition; not a playable potion baseline."
+      ]
+    },
+    {
+      "id": "BeastcraftingPotionP2A",
+      "gameId": "MelvorBase:BeastcraftingPotionP2A",
+      "name": "Beastcrafting Potion P2-A",
+      "requiredLevel": null,
+      "availability": "locked",
+      "conditions": [
+        "Consumes DemoPlaceholderItem × 1 per completed action"
+      ],
+      "intervalSeconds": 3.5,
+      "intervalLabel": "3.5s base cycle",
+      "baseXp": 1,
+      "successChance": 1,
+      "xpPerHour": 1028.5714285714287,
+      "itemsPerHour": 1028.5714285714287,
+      "gpPerHour": 0.0,
+      "products": [
+        {
+          "id": "MelvorBase:DemoPlaceholderItem",
+          "name": "DemoPlaceholderItem",
+          "role": "primary",
+          "basis": "completed action",
+          "probability": 1,
+          "quantity": 1,
+          "itemsPerHour": 1028.5714285714287,
+          "gpPerHour": 0.0
+        }
+      ],
+      "sourcePointer": "/Objects/HerbloreRecipe/40",
+      "notes": [
+        "Fixed base reference; no equipment, bonuses, preservation or downtime.",
+        "Locked demo placeholder definition; not a playable potion baseline."
+      ]
+    },
+    {
+      "id": "BeastcraftingPotionP2B",
+      "gameId": "MelvorBase:BeastcraftingPotionP2B",
+      "name": "Beastcrafting Potion P2-B",
+      "requiredLevel": null,
+      "availability": "locked",
+      "conditions": [
+        "Consumes DemoPlaceholderItem × 1 per completed action"
+      ],
+      "intervalSeconds": 3.5,
+      "intervalLabel": "3.5s base cycle",
+      "baseXp": 1,
+      "successChance": 1,
+      "xpPerHour": 1028.5714285714287,
+      "itemsPerHour": 1028.5714285714287,
+      "gpPerHour": 0.0,
+      "products": [
+        {
+          "id": "MelvorBase:DemoPlaceholderItem",
+          "name": "DemoPlaceholderItem",
+          "role": "primary",
+          "basis": "completed action",
+          "probability": 1,
+          "quantity": 1,
+          "itemsPerHour": 1028.5714285714287,
+          "gpPerHour": 0.0
+        }
+      ],
+      "sourcePointer": "/Objects/HerbloreRecipe/41",
+      "notes": [
+        "Fixed base reference; no equipment, bonuses, preservation or downtime.",
+        "Locked demo placeholder definition; not a playable potion baseline."
+      ]
+    },
+    {
+      "id": "AgilityPotionP1A",
+      "gameId": "MelvorBase:AgilityPotionP1A",
+      "name": "Agility Potion P1-A",
+      "requiredLevel": null,
+      "availability": "locked",
+      "conditions": [
+        "Consumes DemoPlaceholderItem × 1 per completed action"
+      ],
+      "intervalSeconds": 6.0,
+      "intervalLabel": "6.0s base cycle",
+      "baseXp": 1,
+      "successChance": 1,
+      "xpPerHour": 600.0,
+      "itemsPerHour": 600.0,
+      "gpPerHour": 0.0,
+      "products": [
+        {
+          "id": "MelvorBase:DemoPlaceholderItem",
+          "name": "DemoPlaceholderItem",
+          "role": "primary",
+          "basis": "completed action",
+          "probability": 1,
+          "quantity": 1,
+          "itemsPerHour": 600.0,
+          "gpPerHour": 0.0
+        }
+      ],
+      "sourcePointer": "/Objects/HerbloreRecipe/42",
+      "notes": [
+        "Fixed base reference; no equipment, bonuses, preservation or downtime.",
+        "Locked demo placeholder definition; not a playable potion baseline."
+      ]
+    },
+    {
+      "id": "AgilityPotionP2A",
+      "gameId": "MelvorBase:AgilityPotionP2A",
+      "name": "Agility Potion P2-A",
+      "requiredLevel": null,
+      "availability": "locked",
+      "conditions": [
+        "Consumes DemoPlaceholderItem × 1 per completed action"
+      ],
+      "intervalSeconds": 6.0,
+      "intervalLabel": "6.0s base cycle",
+      "baseXp": 1,
+      "successChance": 1,
+      "xpPerHour": 600.0,
+      "itemsPerHour": 600.0,
+      "gpPerHour": 0.0,
+      "products": [
+        {
+          "id": "MelvorBase:DemoPlaceholderItem",
+          "name": "DemoPlaceholderItem",
+          "role": "primary",
+          "basis": "completed action",
+          "probability": 1,
+          "quantity": 1,
+          "itemsPerHour": 600.0,
+          "gpPerHour": 0.0
+        }
+      ],
+      "sourcePointer": "/Objects/HerbloreRecipe/43",
+      "notes": [
+        "Fixed base reference; no equipment, bonuses, preservation or downtime.",
+        "Locked demo placeholder definition; not a playable potion baseline."
+      ]
+    },
+    {
+      "id": "AgilityPotionP2B",
+      "gameId": "MelvorBase:AgilityPotionP2B",
+      "name": "Agility Potion P2-B",
+      "requiredLevel": null,
+      "availability": "locked",
+      "conditions": [
+        "Consumes DemoPlaceholderItem × 1 per completed action"
+      ],
+      "intervalSeconds": 6.0,
+      "intervalLabel": "6.0s base cycle",
+      "baseXp": 1,
+      "successChance": 1,
+      "xpPerHour": 600.0,
+      "itemsPerHour": 600.0,
+      "gpPerHour": 0.0,
+      "products": [
+        {
+          "id": "MelvorBase:DemoPlaceholderItem",
+          "name": "DemoPlaceholderItem",
+          "role": "primary",
+          "basis": "completed action",
+          "probability": 1,
+          "quantity": 1,
+          "itemsPerHour": 600.0,
+          "gpPerHour": 0.0
+        }
+      ],
+      "sourcePointer": "/Objects/HerbloreRecipe/44",
+      "notes": [
+        "Fixed base reference; no equipment, bonuses, preservation or downtime.",
+        "Locked demo placeholder definition; not a playable potion baseline."
+      ]
+    },
+    {
+      "id": "ThievingPotionP1A",
+      "gameId": "MelvorBase:ThievingPotionP1A",
+      "name": "Thieving Potion P1-A",
+      "requiredLevel": null,
+      "availability": "locked",
+      "conditions": [
+        "Consumes DemoPlaceholderItem × 1 per completed action"
+      ],
+      "intervalSeconds": 4.5,
+      "intervalLabel": "4.5s base cycle",
+      "baseXp": 1,
+      "successChance": 1,
+      "xpPerHour": 800.0,
+      "itemsPerHour": 800.0,
+      "gpPerHour": 0.0,
+      "products": [
+        {
+          "id": "MelvorBase:DemoPlaceholderItem",
+          "name": "DemoPlaceholderItem",
+          "role": "primary",
+          "basis": "completed action",
+          "probability": 1,
+          "quantity": 1,
+          "itemsPerHour": 800.0,
+          "gpPerHour": 0.0
+        }
+      ],
+      "sourcePointer": "/Objects/HerbloreRecipe/45",
+      "notes": [
+        "Fixed base reference; no equipment, bonuses, preservation or downtime.",
+        "Locked demo placeholder definition; not a playable potion baseline."
+      ]
+    },
+    {
+      "id": "ThievingPotionP2A",
+      "gameId": "MelvorBase:ThievingPotionP2A",
+      "name": "Thieving Potion P2-A",
+      "requiredLevel": null,
+      "availability": "locked",
+      "conditions": [
+        "Consumes DemoPlaceholderItem × 1 per completed action"
+      ],
+      "intervalSeconds": 4.5,
+      "intervalLabel": "4.5s base cycle",
+      "baseXp": 1,
+      "successChance": 1,
+      "xpPerHour": 800.0,
+      "itemsPerHour": 800.0,
+      "gpPerHour": 0.0,
+      "products": [
+        {
+          "id": "MelvorBase:DemoPlaceholderItem",
+          "name": "DemoPlaceholderItem",
+          "role": "primary",
+          "basis": "completed action",
+          "probability": 1,
+          "quantity": 1,
+          "itemsPerHour": 800.0,
+          "gpPerHour": 0.0
+        }
+      ],
+      "sourcePointer": "/Objects/HerbloreRecipe/46",
+      "notes": [
+        "Fixed base reference; no equipment, bonuses, preservation or downtime.",
+        "Locked demo placeholder definition; not a playable potion baseline."
+      ]
+    },
+    {
+      "id": "ThievingPotionP2B",
+      "gameId": "MelvorBase:ThievingPotionP2B",
+      "name": "Thieving Potion P2-B",
+      "requiredLevel": null,
+      "availability": "locked",
+      "conditions": [
+        "Consumes DemoPlaceholderItem × 1 per completed action"
+      ],
+      "intervalSeconds": 4.5,
+      "intervalLabel": "4.5s base cycle",
+      "baseXp": 1,
+      "successChance": 1,
+      "xpPerHour": 800.0,
+      "itemsPerHour": 800.0,
+      "gpPerHour": 0.0,
+      "products": [
+        {
+          "id": "MelvorBase:DemoPlaceholderItem",
+          "name": "DemoPlaceholderItem",
+          "role": "primary",
+          "basis": "completed action",
+          "probability": 1,
+          "quantity": 1,
+          "itemsPerHour": 800.0,
+          "gpPerHour": 0.0
+        }
+      ],
+      "sourcePointer": "/Objects/HerbloreRecipe/47",
+      "notes": [
+        "Fixed base reference; no equipment, bonuses, preservation or downtime.",
+        "Locked demo placeholder definition; not a playable potion baseline."
+      ]
+    },
+    {
+      "id": "SuperWoodcuttingPotionP1A",
+      "gameId": "MelvorBase:SuperWoodcuttingPotionP1A",
+      "name": "Super Woodcutting Potion P1-A",
+      "requiredLevel": null,
+      "availability": "locked",
+      "conditions": [
+        "Consumes DemoPlaceholderItem × 1 per completed action"
+      ],
+      "intervalSeconds": 3.0,
+      "intervalLabel": "3.0s base cycle",
+      "baseXp": 1,
+      "successChance": 1,
+      "xpPerHour": 1200.0,
+      "itemsPerHour": 1200.0,
+      "gpPerHour": 0.0,
+      "products": [
+        {
+          "id": "MelvorBase:DemoPlaceholderItem",
+          "name": "DemoPlaceholderItem",
+          "role": "primary",
+          "basis": "completed action",
+          "probability": 1,
+          "quantity": 1,
+          "itemsPerHour": 1200.0,
+          "gpPerHour": 0.0
+        }
+      ],
+      "sourcePointer": "/Objects/HerbloreRecipe/48",
+      "notes": [
+        "Fixed base reference; no equipment, bonuses, preservation or downtime.",
+        "Locked demo placeholder definition; not a playable potion baseline."
+      ]
+    },
+    {
+      "id": "SuperWoodcuttingPotionP2A",
+      "gameId": "MelvorBase:SuperWoodcuttingPotionP2A",
+      "name": "Super Woodcutting Potion P2-A",
+      "requiredLevel": null,
+      "availability": "locked",
+      "conditions": [
+        "Consumes DemoPlaceholderItem × 1 per completed action"
+      ],
+      "intervalSeconds": 3.0,
+      "intervalLabel": "3.0s base cycle",
+      "baseXp": 1,
+      "successChance": 1,
+      "xpPerHour": 1200.0,
+      "itemsPerHour": 1200.0,
+      "gpPerHour": 0.0,
+      "products": [
+        {
+          "id": "MelvorBase:DemoPlaceholderItem",
+          "name": "DemoPlaceholderItem",
+          "role": "primary",
+          "basis": "completed action",
+          "probability": 1,
+          "quantity": 1,
+          "itemsPerHour": 1200.0,
+          "gpPerHour": 0.0
+        }
+      ],
+      "sourcePointer": "/Objects/HerbloreRecipe/49",
+      "notes": [
+        "Fixed base reference; no equipment, bonuses, preservation or downtime.",
+        "Locked demo placeholder definition; not a playable potion baseline."
+      ]
+    },
+    {
+      "id": "SuperWoodcuttingPotionP2B",
+      "gameId": "MelvorBase:SuperWoodcuttingPotionP2B",
+      "name": "Super Woodcutting Potion P2-B ",
+      "requiredLevel": null,
+      "availability": "locked",
+      "conditions": [
+        "Consumes DemoPlaceholderItem × 1 per completed action"
+      ],
+      "intervalSeconds": 3.0,
+      "intervalLabel": "3.0s base cycle",
+      "baseXp": 1,
+      "successChance": 1,
+      "xpPerHour": 1200.0,
+      "itemsPerHour": 1200.0,
+      "gpPerHour": 0.0,
+      "products": [
+        {
+          "id": "MelvorBase:DemoPlaceholderItem",
+          "name": "DemoPlaceholderItem",
+          "role": "primary",
+          "basis": "completed action",
+          "probability": 1,
+          "quantity": 1,
+          "itemsPerHour": 1200.0,
+          "gpPerHour": 0.0
+        }
+      ],
+      "sourcePointer": "/Objects/HerbloreRecipe/50",
+      "notes": [
+        "Fixed base reference; no equipment, bonuses, preservation or downtime.",
+        "Locked demo placeholder definition; not a playable potion baseline."
+      ]
+    },
+    {
+      "id": "SuperFishingPotionP1A",
+      "gameId": "MelvorBase:SuperFishingPotionP1A",
+      "name": "Super Fishing Potion P1-A",
+      "requiredLevel": null,
+      "availability": "locked",
+      "conditions": [
+        "Consumes DemoPlaceholderItem × 1 per completed action"
+      ],
+      "intervalSeconds": 7.0,
+      "intervalLabel": "7.0s base cycle",
+      "baseXp": 1,
+      "successChance": 1,
+      "xpPerHour": 514.2857142857143,
+      "itemsPerHour": 514.2857142857143,
+      "gpPerHour": 0.0,
+      "products": [
+        {
+          "id": "MelvorBase:DemoPlaceholderItem",
+          "name": "DemoPlaceholderItem",
+          "role": "primary",
+          "basis": "completed action",
+          "probability": 1,
+          "quantity": 1,
+          "itemsPerHour": 514.2857142857143,
+          "gpPerHour": 0.0
+        }
+      ],
+      "sourcePointer": "/Objects/HerbloreRecipe/51",
+      "notes": [
+        "Fixed base reference; no equipment, bonuses, preservation or downtime.",
+        "Locked demo placeholder definition; not a playable potion baseline."
+      ]
+    },
+    {
+      "id": "SuperFishingPotionP2A",
+      "gameId": "MelvorBase:SuperFishingPotionP2A",
+      "name": "Super Fishing Potion P2-A",
+      "requiredLevel": null,
+      "availability": "locked",
+      "conditions": [
+        "Consumes DemoPlaceholderItem × 1 per completed action"
+      ],
+      "intervalSeconds": 7.0,
+      "intervalLabel": "7.0s base cycle",
+      "baseXp": 1,
+      "successChance": 1,
+      "xpPerHour": 514.2857142857143,
+      "itemsPerHour": 514.2857142857143,
+      "gpPerHour": 0.0,
+      "products": [
+        {
+          "id": "MelvorBase:DemoPlaceholderItem",
+          "name": "DemoPlaceholderItem",
+          "role": "primary",
+          "basis": "completed action",
+          "probability": 1,
+          "quantity": 1,
+          "itemsPerHour": 514.2857142857143,
+          "gpPerHour": 0.0
+        }
+      ],
+      "sourcePointer": "/Objects/HerbloreRecipe/52",
+      "notes": [
+        "Fixed base reference; no equipment, bonuses, preservation or downtime.",
+        "Locked demo placeholder definition; not a playable potion baseline."
+      ]
+    },
+    {
+      "id": "SuperFishingPotionP2B",
+      "gameId": "MelvorBase:SuperFishingPotionP2B",
+      "name": "Super Fishing Potion P2-B",
+      "requiredLevel": null,
+      "availability": "locked",
+      "conditions": [
+        "Consumes DemoPlaceholderItem × 1 per completed action"
+      ],
+      "intervalSeconds": 7.0,
+      "intervalLabel": "7.0s base cycle",
+      "baseXp": 1,
+      "successChance": 1,
+      "xpPerHour": 514.2857142857143,
+      "itemsPerHour": 514.2857142857143,
+      "gpPerHour": 0.0,
+      "products": [
+        {
+          "id": "MelvorBase:DemoPlaceholderItem",
+          "name": "DemoPlaceholderItem",
+          "role": "primary",
+          "basis": "completed action",
+          "probability": 1,
+          "quantity": 1,
+          "itemsPerHour": 514.2857142857143,
+          "gpPerHour": 0.0
+        }
+      ],
+      "sourcePointer": "/Objects/HerbloreRecipe/53",
+      "notes": [
+        "Fixed base reference; no equipment, bonuses, preservation or downtime.",
+        "Locked demo placeholder definition; not a playable potion baseline."
+      ]
+    },
+    {
+      "id": "SuperMiningPotionP1A",
+      "gameId": "MelvorBase:SuperMiningPotionP1A",
+      "name": "Super Mining Potion P1-A",
+      "requiredLevel": null,
+      "availability": "locked",
+      "conditions": [
+        "Consumes DemoPlaceholderItem × 1 per completed action"
+      ],
+      "intervalSeconds": 3.0,
+      "intervalLabel": "3.0s base cycle",
+      "baseXp": 1,
+      "successChance": 1,
+      "xpPerHour": 1200.0,
+      "itemsPerHour": 1200.0,
+      "gpPerHour": 0.0,
+      "products": [
+        {
+          "id": "MelvorBase:DemoPlaceholderItem",
+          "name": "DemoPlaceholderItem",
+          "role": "primary",
+          "basis": "completed action",
+          "probability": 1,
+          "quantity": 1,
+          "itemsPerHour": 1200.0,
+          "gpPerHour": 0.0
+        }
+      ],
+      "sourcePointer": "/Objects/HerbloreRecipe/54",
+      "notes": [
+        "Fixed base reference; no equipment, bonuses, preservation or downtime.",
+        "Locked demo placeholder definition; not a playable potion baseline."
+      ]
+    },
+    {
+      "id": "SuperMiningPotionP2A",
+      "gameId": "MelvorBase:SuperMiningPotionP2A",
+      "name": "Super Mining Potion P2-A",
+      "requiredLevel": null,
+      "availability": "locked",
+      "conditions": [
+        "Consumes DemoPlaceholderItem × 1 per completed action"
+      ],
+      "intervalSeconds": 3.0,
+      "intervalLabel": "3.0s base cycle",
+      "baseXp": 1,
+      "successChance": 1,
+      "xpPerHour": 1200.0,
+      "itemsPerHour": 1200.0,
+      "gpPerHour": 0.0,
+      "products": [
+        {
+          "id": "MelvorBase:DemoPlaceholderItem",
+          "name": "DemoPlaceholderItem",
+          "role": "primary",
+          "basis": "completed action",
+          "probability": 1,
+          "quantity": 1,
+          "itemsPerHour": 1200.0,
+          "gpPerHour": 0.0
+        }
+      ],
+      "sourcePointer": "/Objects/HerbloreRecipe/55",
+      "notes": [
+        "Fixed base reference; no equipment, bonuses, preservation or downtime.",
+        "Locked demo placeholder definition; not a playable potion baseline."
+      ]
+    },
+    {
+      "id": "SuperMiningPotionP2B",
+      "gameId": "MelvorBase:SuperMiningPotionP2B",
+      "name": "Super Mining Potion P2-B",
+      "requiredLevel": null,
+      "availability": "locked",
+      "conditions": [
+        "Consumes DemoPlaceholderItem × 1 per completed action"
+      ],
+      "intervalSeconds": 3.0,
+      "intervalLabel": "3.0s base cycle",
+      "baseXp": 1,
+      "successChance": 1,
+      "xpPerHour": 1200.0,
+      "itemsPerHour": 1200.0,
+      "gpPerHour": 0.0,
+      "products": [
+        {
+          "id": "MelvorBase:DemoPlaceholderItem",
+          "name": "DemoPlaceholderItem",
+          "role": "primary",
+          "basis": "completed action",
+          "probability": 1,
+          "quantity": 1,
+          "itemsPerHour": 1200.0,
+          "gpPerHour": 0.0
+        }
+      ],
+      "sourcePointer": "/Objects/HerbloreRecipe/56",
+      "notes": [
+        "Fixed base reference; no equipment, bonuses, preservation or downtime.",
+        "Locked demo placeholder definition; not a playable potion baseline."
+      ]
+    },
+    {
+      "id": "SuperFiremakingPotionP1A",
+      "gameId": "MelvorBase:SuperFiremakingPotionP1A",
+      "name": "Super Firemaking Potion P1-A",
+      "requiredLevel": null,
+      "availability": "locked",
+      "conditions": [
+        "Consumes DemoPlaceholderItem × 1 per completed action"
+      ],
+      "intervalSeconds": 9.0,
+      "intervalLabel": "9.0s base cycle",
+      "baseXp": 1,
+      "successChance": 1,
+      "xpPerHour": 400.0,
+      "itemsPerHour": 400.0,
+      "gpPerHour": 0.0,
+      "products": [
+        {
+          "id": "MelvorBase:DemoPlaceholderItem",
+          "name": "DemoPlaceholderItem",
+          "role": "primary",
+          "basis": "completed action",
+          "probability": 1,
+          "quantity": 1,
+          "itemsPerHour": 400.0,
+          "gpPerHour": 0.0
+        }
+      ],
+      "sourcePointer": "/Objects/HerbloreRecipe/57",
+      "notes": [
+        "Fixed base reference; no equipment, bonuses, preservation or downtime.",
+        "Locked demo placeholder definition; not a playable potion baseline."
+      ]
+    },
+    {
+      "id": "SuperFiremakingPotionP2A",
+      "gameId": "MelvorBase:SuperFiremakingPotionP2A",
+      "name": "Super Firemaking Potion P2-A",
+      "requiredLevel": null,
+      "availability": "locked",
+      "conditions": [
+        "Consumes DemoPlaceholderItem × 1 per completed action"
+      ],
+      "intervalSeconds": 9.0,
+      "intervalLabel": "9.0s base cycle",
+      "baseXp": 1,
+      "successChance": 1,
+      "xpPerHour": 400.0,
+      "itemsPerHour": 400.0,
+      "gpPerHour": 0.0,
+      "products": [
+        {
+          "id": "MelvorBase:DemoPlaceholderItem",
+          "name": "DemoPlaceholderItem",
+          "role": "primary",
+          "basis": "completed action",
+          "probability": 1,
+          "quantity": 1,
+          "itemsPerHour": 400.0,
+          "gpPerHour": 0.0
+        }
+      ],
+      "sourcePointer": "/Objects/HerbloreRecipe/58",
+      "notes": [
+        "Fixed base reference; no equipment, bonuses, preservation or downtime.",
+        "Locked demo placeholder definition; not a playable potion baseline."
+      ]
+    },
+    {
+      "id": "SuperFiremakingPotionP2B",
+      "gameId": "MelvorBase:SuperFiremakingPotionP2B",
+      "name": "Super Firemaking Potion P2-B",
+      "requiredLevel": null,
+      "availability": "locked",
+      "conditions": [
+        "Consumes DemoPlaceholderItem × 1 per completed action"
+      ],
+      "intervalSeconds": 9.0,
+      "intervalLabel": "9.0s base cycle",
+      "baseXp": 1,
+      "successChance": 1,
+      "xpPerHour": 400.0,
+      "itemsPerHour": 400.0,
+      "gpPerHour": 0.0,
+      "products": [
+        {
+          "id": "MelvorBase:DemoPlaceholderItem",
+          "name": "DemoPlaceholderItem",
+          "role": "primary",
+          "basis": "completed action",
+          "probability": 1,
+          "quantity": 1,
+          "itemsPerHour": 400.0,
+          "gpPerHour": 0.0
+        }
+      ],
+      "sourcePointer": "/Objects/HerbloreRecipe/59",
+      "notes": [
+        "Fixed base reference; no equipment, bonuses, preservation or downtime.",
+        "Locked demo placeholder definition; not a playable potion baseline."
+      ]
+    },
+    {
+      "id": "SuperCookingPotionP1A",
+      "gameId": "MelvorBase:SuperCookingPotionP1A",
+      "name": "Super Cooking Potion P1-A",
+      "requiredLevel": null,
+      "availability": "locked",
+      "conditions": [
+        "Consumes DemoPlaceholderItem × 1 per completed action"
+      ],
+      "intervalSeconds": 5.0,
+      "intervalLabel": "5.0s base cycle",
+      "baseXp": 1,
+      "successChance": 1,
+      "xpPerHour": 720.0,
+      "itemsPerHour": 720.0,
+      "gpPerHour": 0.0,
+      "products": [
+        {
+          "id": "MelvorBase:DemoPlaceholderItem",
+          "name": "DemoPlaceholderItem",
+          "role": "primary",
+          "basis": "completed action",
+          "probability": 1,
+          "quantity": 1,
+          "itemsPerHour": 720.0,
+          "gpPerHour": 0.0
+        }
+      ],
+      "sourcePointer": "/Objects/HerbloreRecipe/60",
+      "notes": [
+        "Fixed base reference; no equipment, bonuses, preservation or downtime.",
+        "Locked demo placeholder definition; not a playable potion baseline."
+      ]
+    },
+    {
+      "id": "SuperCookingPotionP2A",
+      "gameId": "MelvorBase:SuperCookingPotionP2A",
+      "name": "Super Cooking Potion P2-A",
+      "requiredLevel": null,
+      "availability": "locked",
+      "conditions": [
+        "Consumes DemoPlaceholderItem × 1 per completed action"
+      ],
+      "intervalSeconds": 5.0,
+      "intervalLabel": "5.0s base cycle",
+      "baseXp": 1,
+      "successChance": 1,
+      "xpPerHour": 720.0,
+      "itemsPerHour": 720.0,
+      "gpPerHour": 0.0,
+      "products": [
+        {
+          "id": "MelvorBase:DemoPlaceholderItem",
+          "name": "DemoPlaceholderItem",
+          "role": "primary",
+          "basis": "completed action",
+          "probability": 1,
+          "quantity": 1,
+          "itemsPerHour": 720.0,
+          "gpPerHour": 0.0
+        }
+      ],
+      "sourcePointer": "/Objects/HerbloreRecipe/61",
+      "notes": [
+        "Fixed base reference; no equipment, bonuses, preservation or downtime.",
+        "Locked demo placeholder definition; not a playable potion baseline."
+      ]
+    },
+    {
+      "id": "SuperCookingPotionP2B",
+      "gameId": "MelvorBase:SuperCookingPotionP2B",
+      "name": "Super Cooking Potion P2-B",
+      "requiredLevel": null,
+      "availability": "locked",
+      "conditions": [
+        "Consumes DemoPlaceholderItem × 1 per completed action"
+      ],
+      "intervalSeconds": 5.0,
+      "intervalLabel": "5.0s base cycle",
+      "baseXp": 1,
+      "successChance": 1,
+      "xpPerHour": 720.0,
+      "itemsPerHour": 720.0,
+      "gpPerHour": 0.0,
+      "products": [
+        {
+          "id": "MelvorBase:DemoPlaceholderItem",
+          "name": "DemoPlaceholderItem",
+          "role": "primary",
+          "basis": "completed action",
+          "probability": 1,
+          "quantity": 1,
+          "itemsPerHour": 720.0,
+          "gpPerHour": 0.0
+        }
+      ],
+      "sourcePointer": "/Objects/HerbloreRecipe/62",
+      "notes": [
+        "Fixed base reference; no equipment, bonuses, preservation or downtime.",
+        "Locked demo placeholder definition; not a playable potion baseline."
+      ]
+    },
+    {
+      "id": "SuperSmithingPotionP1A",
+      "gameId": "MelvorBase:SuperSmithingPotionP1A",
+      "name": "Super Smithing Potion P1-A",
+      "requiredLevel": null,
+      "availability": "locked",
+      "conditions": [
+        "Consumes DemoPlaceholderItem × 1 per completed action"
+      ],
+      "intervalSeconds": 4.0,
+      "intervalLabel": "4.0s base cycle",
+      "baseXp": 1,
+      "successChance": 1,
+      "xpPerHour": 900.0,
+      "itemsPerHour": 900.0,
+      "gpPerHour": 0.0,
+      "products": [
+        {
+          "id": "MelvorBase:DemoPlaceholderItem",
+          "name": "DemoPlaceholderItem",
+          "role": "primary",
+          "basis": "completed action",
+          "probability": 1,
+          "quantity": 1,
+          "itemsPerHour": 900.0,
+          "gpPerHour": 0.0
+        }
+      ],
+      "sourcePointer": "/Objects/HerbloreRecipe/63",
+      "notes": [
+        "Fixed base reference; no equipment, bonuses, preservation or downtime.",
+        "Locked demo placeholder definition; not a playable potion baseline."
+      ]
+    },
+    {
+      "id": "SuperSmithingPotionP2A",
+      "gameId": "MelvorBase:SuperSmithingPotionP2A",
+      "name": "Super Smithing Potion P2-A",
+      "requiredLevel": null,
+      "availability": "locked",
+      "conditions": [
+        "Consumes DemoPlaceholderItem × 1 per completed action"
+      ],
+      "intervalSeconds": 4.0,
+      "intervalLabel": "4.0s base cycle",
+      "baseXp": 1,
+      "successChance": 1,
+      "xpPerHour": 900.0,
+      "itemsPerHour": 900.0,
+      "gpPerHour": 0.0,
+      "products": [
+        {
+          "id": "MelvorBase:DemoPlaceholderItem",
+          "name": "DemoPlaceholderItem",
+          "role": "primary",
+          "basis": "completed action",
+          "probability": 1,
+          "quantity": 1,
+          "itemsPerHour": 900.0,
+          "gpPerHour": 0.0
+        }
+      ],
+      "sourcePointer": "/Objects/HerbloreRecipe/64",
+      "notes": [
+        "Fixed base reference; no equipment, bonuses, preservation or downtime.",
+        "Locked demo placeholder definition; not a playable potion baseline."
+      ]
+    },
+    {
+      "id": "SuperSmithingPotionP2B",
+      "gameId": "MelvorBase:SuperSmithingPotionP2B",
+      "name": "Super Smithing Potion P2-B",
+      "requiredLevel": null,
+      "availability": "locked",
+      "conditions": [
+        "Consumes DemoPlaceholderItem × 1 per completed action"
+      ],
+      "intervalSeconds": 4.0,
+      "intervalLabel": "4.0s base cycle",
+      "baseXp": 1,
+      "successChance": 1,
+      "xpPerHour": 900.0,
+      "itemsPerHour": 900.0,
+      "gpPerHour": 0.0,
+      "products": [
+        {
+          "id": "MelvorBase:DemoPlaceholderItem",
+          "name": "DemoPlaceholderItem",
+          "role": "primary",
+          "basis": "completed action",
+          "probability": 1,
+          "quantity": 1,
+          "itemsPerHour": 900.0,
+          "gpPerHour": 0.0
+        }
+      ],
+      "sourcePointer": "/Objects/HerbloreRecipe/65",
+      "notes": [
+        "Fixed base reference; no equipment, bonuses, preservation or downtime.",
+        "Locked demo placeholder definition; not a playable potion baseline."
+      ]
+    },
+    {
+      "id": "SuperCraftingPotionP1A",
+      "gameId": "MelvorBase:SuperCraftingPotionP1A",
+      "name": "Super Crafting Potion P1-A",
+      "requiredLevel": null,
+      "availability": "locked",
+      "conditions": [
+        "Consumes DemoPlaceholderItem × 1 per completed action"
+      ],
+      "intervalSeconds": 4.0,
+      "intervalLabel": "4.0s base cycle",
+      "baseXp": 1,
+      "successChance": 1,
+      "xpPerHour": 900.0,
+      "itemsPerHour": 900.0,
+      "gpPerHour": 0.0,
+      "products": [
+        {
+          "id": "MelvorBase:DemoPlaceholderItem",
+          "name": "DemoPlaceholderItem",
+          "role": "primary",
+          "basis": "completed action",
+          "probability": 1,
+          "quantity": 1,
+          "itemsPerHour": 900.0,
+          "gpPerHour": 0.0
+        }
+      ],
+      "sourcePointer": "/Objects/HerbloreRecipe/66",
+      "notes": [
+        "Fixed base reference; no equipment, bonuses, preservation or downtime.",
+        "Locked demo placeholder definition; not a playable potion baseline."
+      ]
+    },
+    {
+      "id": "SuperCraftingPotionP2A",
+      "gameId": "MelvorBase:SuperCraftingPotionP2A",
+      "name": "Super Crafting Potion P2-A",
+      "requiredLevel": null,
+      "availability": "locked",
+      "conditions": [
+        "Consumes DemoPlaceholderItem × 1 per completed action"
+      ],
+      "intervalSeconds": 4.0,
+      "intervalLabel": "4.0s base cycle",
+      "baseXp": 1,
+      "successChance": 1,
+      "xpPerHour": 900.0,
+      "itemsPerHour": 900.0,
+      "gpPerHour": 0.0,
+      "products": [
+        {
+          "id": "MelvorBase:DemoPlaceholderItem",
+          "name": "DemoPlaceholderItem",
+          "role": "primary",
+          "basis": "completed action",
+          "probability": 1,
+          "quantity": 1,
+          "itemsPerHour": 900.0,
+          "gpPerHour": 0.0
+        }
+      ],
+      "sourcePointer": "/Objects/HerbloreRecipe/67",
+      "notes": [
+        "Fixed base reference; no equipment, bonuses, preservation or downtime.",
+        "Locked demo placeholder definition; not a playable potion baseline."
+      ]
+    },
+    {
+      "id": "SuperCraftingPotionP2B",
+      "gameId": "MelvorBase:SuperCraftingPotionP2B",
+      "name": "Super Crafting Potion P2-B",
+      "requiredLevel": null,
+      "availability": "locked",
+      "conditions": [
+        "Consumes DemoPlaceholderItem × 1 per completed action"
+      ],
+      "intervalSeconds": 4.0,
+      "intervalLabel": "4.0s base cycle",
+      "baseXp": 1,
+      "successChance": 1,
+      "xpPerHour": 900.0,
+      "itemsPerHour": 900.0,
+      "gpPerHour": 0.0,
+      "products": [
+        {
+          "id": "MelvorBase:DemoPlaceholderItem",
+          "name": "DemoPlaceholderItem",
+          "role": "primary",
+          "basis": "completed action",
+          "probability": 1,
+          "quantity": 1,
+          "itemsPerHour": 900.0,
+          "gpPerHour": 0.0
+        }
+      ],
+      "sourcePointer": "/Objects/HerbloreRecipe/68",
+      "notes": [
+        "Fixed base reference; no equipment, bonuses, preservation or downtime.",
+        "Locked demo placeholder definition; not a playable potion baseline."
+      ]
+    },
+    {
+      "id": "SuperFletchingPotionP1A",
+      "gameId": "MelvorBase:SuperFletchingPotionP1A",
+      "name": "Super Fletching Potion P1-A",
+      "requiredLevel": null,
+      "availability": "locked",
+      "conditions": [
+        "Consumes DemoPlaceholderItem × 1 per completed action"
+      ],
+      "intervalSeconds": 4.0,
+      "intervalLabel": "4.0s base cycle",
+      "baseXp": 1,
+      "successChance": 1,
+      "xpPerHour": 900.0,
+      "itemsPerHour": 900.0,
+      "gpPerHour": 0.0,
+      "products": [
+        {
+          "id": "MelvorBase:DemoPlaceholderItem",
+          "name": "DemoPlaceholderItem",
+          "role": "primary",
+          "basis": "completed action",
+          "probability": 1,
+          "quantity": 1,
+          "itemsPerHour": 900.0,
+          "gpPerHour": 0.0
+        }
+      ],
+      "sourcePointer": "/Objects/HerbloreRecipe/69",
+      "notes": [
+        "Fixed base reference; no equipment, bonuses, preservation or downtime.",
+        "Locked demo placeholder definition; not a playable potion baseline."
+      ]
+    },
+    {
+      "id": "SuperFletchingPotionP2A",
+      "gameId": "MelvorBase:SuperFletchingPotionP2A",
+      "name": "Super Fletching Potion P2-A",
+      "requiredLevel": null,
+      "availability": "locked",
+      "conditions": [
+        "Consumes DemoPlaceholderItem × 1 per completed action"
+      ],
+      "intervalSeconds": 4.0,
+      "intervalLabel": "4.0s base cycle",
+      "baseXp": 1,
+      "successChance": 1,
+      "xpPerHour": 900.0,
+      "itemsPerHour": 900.0,
+      "gpPerHour": 0.0,
+      "products": [
+        {
+          "id": "MelvorBase:DemoPlaceholderItem",
+          "name": "DemoPlaceholderItem",
+          "role": "primary",
+          "basis": "completed action",
+          "probability": 1,
+          "quantity": 1,
+          "itemsPerHour": 900.0,
+          "gpPerHour": 0.0
+        }
+      ],
+      "sourcePointer": "/Objects/HerbloreRecipe/70",
+      "notes": [
+        "Fixed base reference; no equipment, bonuses, preservation or downtime.",
+        "Locked demo placeholder definition; not a playable potion baseline."
+      ]
+    },
+    {
+      "id": "SuperFletchingPotionP2B",
+      "gameId": "MelvorBase:SuperFletchingPotionP2B",
+      "name": "Super Fletching Potion P2-B",
+      "requiredLevel": null,
+      "availability": "locked",
+      "conditions": [
+        "Consumes DemoPlaceholderItem × 1 per completed action"
+      ],
+      "intervalSeconds": 4.0,
+      "intervalLabel": "4.0s base cycle",
+      "baseXp": 1,
+      "successChance": 1,
+      "xpPerHour": 900.0,
+      "itemsPerHour": 900.0,
+      "gpPerHour": 0.0,
+      "products": [
+        {
+          "id": "MelvorBase:DemoPlaceholderItem",
+          "name": "DemoPlaceholderItem",
+          "role": "primary",
+          "basis": "completed action",
+          "probability": 1,
+          "quantity": 1,
+          "itemsPerHour": 900.0,
+          "gpPerHour": 0.0
+        }
+      ],
+      "sourcePointer": "/Objects/HerbloreRecipe/71",
+      "notes": [
+        "Fixed base reference; no equipment, bonuses, preservation or downtime.",
+        "Locked demo placeholder definition; not a playable potion baseline."
+      ]
+    },
+    {
+      "id": "SuperRunecraftingPotionP1A",
+      "gameId": "MelvorBase:SuperRunecraftingPotionP1A",
+      "name": "Super Runecrafting Potion P1-A",
+      "requiredLevel": null,
+      "availability": "locked",
+      "conditions": [
+        "Consumes DemoPlaceholderItem × 1 per completed action"
+      ],
+      "intervalSeconds": 4.0,
+      "intervalLabel": "4.0s base cycle",
+      "baseXp": 1,
+      "successChance": 1,
+      "xpPerHour": 900.0,
+      "itemsPerHour": 900.0,
+      "gpPerHour": 0.0,
+      "products": [
+        {
+          "id": "MelvorBase:DemoPlaceholderItem",
+          "name": "DemoPlaceholderItem",
+          "role": "primary",
+          "basis": "completed action",
+          "probability": 1,
+          "quantity": 1,
+          "itemsPerHour": 900.0,
+          "gpPerHour": 0.0
+        }
+      ],
+      "sourcePointer": "/Objects/HerbloreRecipe/72",
+      "notes": [
+        "Fixed base reference; no equipment, bonuses, preservation or downtime.",
+        "Locked demo placeholder definition; not a playable potion baseline."
+      ]
+    },
+    {
+      "id": "SuperRunecraftingPotionP2A",
+      "gameId": "MelvorBase:SuperRunecraftingPotionP2A",
+      "name": "Super Runecrafting Potion P2-A",
+      "requiredLevel": null,
+      "availability": "locked",
+      "conditions": [
+        "Consumes DemoPlaceholderItem × 1 per completed action"
+      ],
+      "intervalSeconds": 4.0,
+      "intervalLabel": "4.0s base cycle",
+      "baseXp": 1,
+      "successChance": 1,
+      "xpPerHour": 900.0,
+      "itemsPerHour": 900.0,
+      "gpPerHour": 0.0,
+      "products": [
+        {
+          "id": "MelvorBase:DemoPlaceholderItem",
+          "name": "DemoPlaceholderItem",
+          "role": "primary",
+          "basis": "completed action",
+          "probability": 1,
+          "quantity": 1,
+          "itemsPerHour": 900.0,
+          "gpPerHour": 0.0
+        }
+      ],
+      "sourcePointer": "/Objects/HerbloreRecipe/73",
+      "notes": [
+        "Fixed base reference; no equipment, bonuses, preservation or downtime.",
+        "Locked demo placeholder definition; not a playable potion baseline."
+      ]
+    },
+    {
+      "id": "SuperRunecraftingPotionP2B",
+      "gameId": "MelvorBase:SuperRunecraftingPotionP2B",
+      "name": "Super Runecrafting Potion P2-B",
+      "requiredLevel": null,
+      "availability": "locked",
+      "conditions": [
+        "Consumes DemoPlaceholderItem × 1 per completed action"
+      ],
+      "intervalSeconds": 4.0,
+      "intervalLabel": "4.0s base cycle",
+      "baseXp": 1,
+      "successChance": 1,
+      "xpPerHour": 900.0,
+      "itemsPerHour": 900.0,
+      "gpPerHour": 0.0,
+      "products": [
+        {
+          "id": "MelvorBase:DemoPlaceholderItem",
+          "name": "DemoPlaceholderItem",
+          "role": "primary",
+          "basis": "completed action",
+          "probability": 1,
+          "quantity": 1,
+          "itemsPerHour": 900.0,
+          "gpPerHour": 0.0
+        }
+      ],
+      "sourcePointer": "/Objects/HerbloreRecipe/74",
+      "notes": [
+        "Fixed base reference; no equipment, bonuses, preservation or downtime.",
+        "Locked demo placeholder definition; not a playable potion baseline."
+      ]
+    },
+    {
+      "id": "SuperHuntingPotionP1A",
+      "gameId": "MelvorBase:SuperHuntingPotionP1A",
+      "name": "Super Hunting Potion P1-A",
+      "requiredLevel": null,
+      "availability": "locked",
+      "conditions": [
+        "Consumes DemoPlaceholderItem × 1 per completed action"
+      ],
+      "intervalSeconds": 12.0,
+      "intervalLabel": "12.0s base cycle",
+      "baseXp": 1,
+      "successChance": 1,
+      "xpPerHour": 300.0,
+      "itemsPerHour": 300.0,
+      "gpPerHour": 0.0,
+      "products": [
+        {
+          "id": "MelvorBase:DemoPlaceholderItem",
+          "name": "DemoPlaceholderItem",
+          "role": "primary",
+          "basis": "completed action",
+          "probability": 1,
+          "quantity": 1,
+          "itemsPerHour": 300.0,
+          "gpPerHour": 0.0
+        }
+      ],
+      "sourcePointer": "/Objects/HerbloreRecipe/75",
+      "notes": [
+        "Fixed base reference; no equipment, bonuses, preservation or downtime.",
+        "Locked demo placeholder definition; not a playable potion baseline."
+      ]
+    },
+    {
+      "id": "SuperHuntingPotionP2A",
+      "gameId": "MelvorBase:SuperHuntingPotionP2A",
+      "name": "Super Hunting Potion P2-A",
+      "requiredLevel": null,
+      "availability": "locked",
+      "conditions": [
+        "Consumes DemoPlaceholderItem × 1 per completed action"
+      ],
+      "intervalSeconds": 12.0,
+      "intervalLabel": "12.0s base cycle",
+      "baseXp": 1,
+      "successChance": 1,
+      "xpPerHour": 300.0,
+      "itemsPerHour": 300.0,
+      "gpPerHour": 0.0,
+      "products": [
+        {
+          "id": "MelvorBase:DemoPlaceholderItem",
+          "name": "DemoPlaceholderItem",
+          "role": "primary",
+          "basis": "completed action",
+          "probability": 1,
+          "quantity": 1,
+          "itemsPerHour": 300.0,
+          "gpPerHour": 0.0
+        }
+      ],
+      "sourcePointer": "/Objects/HerbloreRecipe/76",
+      "notes": [
+        "Fixed base reference; no equipment, bonuses, preservation or downtime.",
+        "Locked demo placeholder definition; not a playable potion baseline."
+      ]
+    },
+    {
+      "id": "SuperHuntingPotionP2B",
+      "gameId": "MelvorBase:SuperHuntingPotionP2B",
+      "name": "Super Hunting Potion P2-B",
+      "requiredLevel": null,
+      "availability": "locked",
+      "conditions": [
+        "Consumes DemoPlaceholderItem × 1 per completed action"
+      ],
+      "intervalSeconds": 12.0,
+      "intervalLabel": "12.0s base cycle",
+      "baseXp": 1,
+      "successChance": 1,
+      "xpPerHour": 300.0,
+      "itemsPerHour": 300.0,
+      "gpPerHour": 0.0,
+      "products": [
+        {
+          "id": "MelvorBase:DemoPlaceholderItem",
+          "name": "DemoPlaceholderItem",
+          "role": "primary",
+          "basis": "completed action",
+          "probability": 1,
+          "quantity": 1,
+          "itemsPerHour": 300.0,
+          "gpPerHour": 0.0
+        }
+      ],
+      "sourcePointer": "/Objects/HerbloreRecipe/77",
+      "notes": [
+        "Fixed base reference; no equipment, bonuses, preservation or downtime.",
+        "Locked demo placeholder definition; not a playable potion baseline."
+      ]
+    },
+    {
+      "id": "SuperFarmingPotionP1A",
+      "gameId": "MelvorBase:SuperFarmingPotionP1A",
+      "name": "Super Farming Potion P1-A",
+      "requiredLevel": null,
+      "availability": "locked",
+      "conditions": [
+        "Consumes DemoPlaceholderItem × 1 per completed action"
+      ],
+      "intervalSeconds": 15.0,
+      "intervalLabel": "15.0s base cycle",
+      "baseXp": 1,
+      "successChance": 1,
+      "xpPerHour": 240.0,
+      "itemsPerHour": 240.0,
+      "gpPerHour": 0.0,
+      "products": [
+        {
+          "id": "MelvorBase:DemoPlaceholderItem",
+          "name": "DemoPlaceholderItem",
+          "role": "primary",
+          "basis": "completed action",
+          "probability": 1,
+          "quantity": 1,
+          "itemsPerHour": 240.0,
+          "gpPerHour": 0.0
+        }
+      ],
+      "sourcePointer": "/Objects/HerbloreRecipe/78",
+      "notes": [
+        "Fixed base reference; no equipment, bonuses, preservation or downtime.",
+        "Locked demo placeholder definition; not a playable potion baseline."
+      ]
+    },
+    {
+      "id": "SuperFarmingPotionP2A",
+      "gameId": "MelvorBase:SuperFarmingPotionP2A",
+      "name": "Super Farming Potion P2-A",
+      "requiredLevel": null,
+      "availability": "locked",
+      "conditions": [
+        "Consumes DemoPlaceholderItem × 1 per completed action"
+      ],
+      "intervalSeconds": 15.0,
+      "intervalLabel": "15.0s base cycle",
+      "baseXp": 1,
+      "successChance": 1,
+      "xpPerHour": 240.0,
+      "itemsPerHour": 240.0,
+      "gpPerHour": 0.0,
+      "products": [
+        {
+          "id": "MelvorBase:DemoPlaceholderItem",
+          "name": "DemoPlaceholderItem",
+          "role": "primary",
+          "basis": "completed action",
+          "probability": 1,
+          "quantity": 1,
+          "itemsPerHour": 240.0,
+          "gpPerHour": 0.0
+        }
+      ],
+      "sourcePointer": "/Objects/HerbloreRecipe/79",
+      "notes": [
+        "Fixed base reference; no equipment, bonuses, preservation or downtime.",
+        "Locked demo placeholder definition; not a playable potion baseline."
+      ]
+    },
+    {
+      "id": "SuperFarmingPotionP2B",
+      "gameId": "MelvorBase:SuperFarmingPotionP2B",
+      "name": "Super Farming Potion P2-B",
+      "requiredLevel": null,
+      "availability": "locked",
+      "conditions": [
+        "Consumes DemoPlaceholderItem × 1 per completed action"
+      ],
+      "intervalSeconds": 15.0,
+      "intervalLabel": "15.0s base cycle",
+      "baseXp": 1,
+      "successChance": 1,
+      "xpPerHour": 240.0,
+      "itemsPerHour": 240.0,
+      "gpPerHour": 0.0,
+      "products": [
+        {
+          "id": "MelvorBase:DemoPlaceholderItem",
+          "name": "DemoPlaceholderItem",
+          "role": "primary",
+          "basis": "completed action",
+          "probability": 1,
+          "quantity": 1,
+          "itemsPerHour": 240.0,
+          "gpPerHour": 0.0
+        }
+      ],
+      "sourcePointer": "/Objects/HerbloreRecipe/80",
+      "notes": [
+        "Fixed base reference; no equipment, bonuses, preservation or downtime.",
+        "Locked demo placeholder definition; not a playable potion baseline."
+      ]
+    },
+    {
+      "id": "SuperRanchingPotionP1A",
+      "gameId": "MelvorBase:SuperRanchingPotionP1A",
+      "name": "Super Ranching Potion P1-A",
+      "requiredLevel": null,
+      "availability": "locked",
+      "conditions": [
+        "Consumes DemoPlaceholderItem × 1 per completed action"
+      ],
+      "intervalSeconds": 5.5,
+      "intervalLabel": "5.5s base cycle",
+      "baseXp": 1,
+      "successChance": 1,
+      "xpPerHour": 654.5454545454545,
+      "itemsPerHour": 654.5454545454545,
+      "gpPerHour": 0.0,
+      "products": [
+        {
+          "id": "MelvorBase:DemoPlaceholderItem",
+          "name": "DemoPlaceholderItem",
+          "role": "primary",
+          "basis": "completed action",
+          "probability": 1,
+          "quantity": 1,
+          "itemsPerHour": 654.5454545454545,
+          "gpPerHour": 0.0
+        }
+      ],
+      "sourcePointer": "/Objects/HerbloreRecipe/81",
+      "notes": [
+        "Fixed base reference; no equipment, bonuses, preservation or downtime.",
+        "Locked demo placeholder definition; not a playable potion baseline."
+      ]
+    },
+    {
+      "id": "SuperRanchingPotionP2A",
+      "gameId": "MelvorBase:SuperRanchingPotionP2A",
+      "name": "Super Ranching Potion P2-A",
+      "requiredLevel": null,
+      "availability": "locked",
+      "conditions": [
+        "Consumes DemoPlaceholderItem × 1 per completed action"
+      ],
+      "intervalSeconds": 5.5,
+      "intervalLabel": "5.5s base cycle",
+      "baseXp": 1,
+      "successChance": 1,
+      "xpPerHour": 654.5454545454545,
+      "itemsPerHour": 654.5454545454545,
+      "gpPerHour": 0.0,
+      "products": [
+        {
+          "id": "MelvorBase:DemoPlaceholderItem",
+          "name": "DemoPlaceholderItem",
+          "role": "primary",
+          "basis": "completed action",
+          "probability": 1,
+          "quantity": 1,
+          "itemsPerHour": 654.5454545454545,
+          "gpPerHour": 0.0
+        }
+      ],
+      "sourcePointer": "/Objects/HerbloreRecipe/82",
+      "notes": [
+        "Fixed base reference; no equipment, bonuses, preservation or downtime.",
+        "Locked demo placeholder definition; not a playable potion baseline."
+      ]
+    },
+    {
+      "id": "SuperRanchingPotionP2B",
+      "gameId": "MelvorBase:SuperRanchingPotionP2B",
+      "name": "Super Ranching Potion P2-B",
+      "requiredLevel": null,
+      "availability": "locked",
+      "conditions": [
+        "Consumes DemoPlaceholderItem × 1 per completed action"
+      ],
+      "intervalSeconds": 5.5,
+      "intervalLabel": "5.5s base cycle",
+      "baseXp": 1,
+      "successChance": 1,
+      "xpPerHour": 654.5454545454545,
+      "itemsPerHour": 654.5454545454545,
+      "gpPerHour": 0.0,
+      "products": [
+        {
+          "id": "MelvorBase:DemoPlaceholderItem",
+          "name": "DemoPlaceholderItem",
+          "role": "primary",
+          "basis": "completed action",
+          "probability": 1,
+          "quantity": 1,
+          "itemsPerHour": 654.5454545454545,
+          "gpPerHour": 0.0
+        }
+      ],
+      "sourcePointer": "/Objects/HerbloreRecipe/83",
+      "notes": [
+        "Fixed base reference; no equipment, bonuses, preservation or downtime.",
+        "Locked demo placeholder definition; not a playable potion baseline."
+      ]
+    },
+    {
+      "id": "SuperHerblorePotionP1A",
+      "gameId": "MelvorBase:SuperHerblorePotionP1A",
+      "name": "Super Herblore Potion P1-A",
+      "requiredLevel": null,
+      "availability": "locked",
+      "conditions": [
+        "Consumes DemoPlaceholderItem × 1 per completed action"
+      ],
+      "intervalSeconds": 5.0,
+      "intervalLabel": "5.0s base cycle",
+      "baseXp": 1,
+      "successChance": 1,
+      "xpPerHour": 720.0,
+      "itemsPerHour": 720.0,
+      "gpPerHour": 0.0,
+      "products": [
+        {
+          "id": "MelvorBase:DemoPlaceholderItem",
+          "name": "DemoPlaceholderItem",
+          "role": "primary",
+          "basis": "completed action",
+          "probability": 1,
+          "quantity": 1,
+          "itemsPerHour": 720.0,
+          "gpPerHour": 0.0
+        }
+      ],
+      "sourcePointer": "/Objects/HerbloreRecipe/84",
+      "notes": [
+        "Fixed base reference; no equipment, bonuses, preservation or downtime.",
+        "Locked demo placeholder definition; not a playable potion baseline."
+      ]
+    },
+    {
+      "id": "SuperHerblorePotionP2A",
+      "gameId": "MelvorBase:SuperHerblorePotionP2A",
+      "name": "Super Herblore Potion P2-A",
+      "requiredLevel": null,
+      "availability": "locked",
+      "conditions": [
+        "Consumes DemoPlaceholderItem × 1 per completed action"
+      ],
+      "intervalSeconds": 5.0,
+      "intervalLabel": "5.0s base cycle",
+      "baseXp": 1,
+      "successChance": 1,
+      "xpPerHour": 720.0,
+      "itemsPerHour": 720.0,
+      "gpPerHour": 0.0,
+      "products": [
+        {
+          "id": "MelvorBase:DemoPlaceholderItem",
+          "name": "DemoPlaceholderItem",
+          "role": "primary",
+          "basis": "completed action",
+          "probability": 1,
+          "quantity": 1,
+          "itemsPerHour": 720.0,
+          "gpPerHour": 0.0
+        }
+      ],
+      "sourcePointer": "/Objects/HerbloreRecipe/85",
+      "notes": [
+        "Fixed base reference; no equipment, bonuses, preservation or downtime.",
+        "Locked demo placeholder definition; not a playable potion baseline."
+      ]
+    },
+    {
+      "id": "SuperHerblorePotionP2B",
+      "gameId": "MelvorBase:SuperHerblorePotionP2B",
+      "name": "Super Herblore Potion P2-B",
+      "requiredLevel": null,
+      "availability": "locked",
+      "conditions": [
+        "Consumes DemoPlaceholderItem × 1 per completed action"
+      ],
+      "intervalSeconds": 5.0,
+      "intervalLabel": "5.0s base cycle",
+      "baseXp": 1,
+      "successChance": 1,
+      "xpPerHour": 720.0,
+      "itemsPerHour": 720.0,
+      "gpPerHour": 0.0,
+      "products": [
+        {
+          "id": "MelvorBase:DemoPlaceholderItem",
+          "name": "DemoPlaceholderItem",
+          "role": "primary",
+          "basis": "completed action",
+          "probability": 1,
+          "quantity": 1,
+          "itemsPerHour": 720.0,
+          "gpPerHour": 0.0
+        }
+      ],
+      "sourcePointer": "/Objects/HerbloreRecipe/86",
+      "notes": [
+        "Fixed base reference; no equipment, bonuses, preservation or downtime.",
+        "Locked demo placeholder definition; not a playable potion baseline."
+      ]
+    },
+    {
+      "id": "SuperBeastcraftingPotionP1A",
+      "gameId": "MelvorBase:SuperBeastcraftingPotionP1A",
+      "name": "Super Beastcrafting Potion P1-A",
+      "requiredLevel": null,
+      "availability": "locked",
+      "conditions": [
+        "Consumes DemoPlaceholderItem × 1 per completed action"
+      ],
+      "intervalSeconds": 3.5,
+      "intervalLabel": "3.5s base cycle",
+      "baseXp": 1,
+      "successChance": 1,
+      "xpPerHour": 1028.5714285714287,
+      "itemsPerHour": 1028.5714285714287,
+      "gpPerHour": 0.0,
+      "products": [
+        {
+          "id": "MelvorBase:DemoPlaceholderItem",
+          "name": "DemoPlaceholderItem",
+          "role": "primary",
+          "basis": "completed action",
+          "probability": 1,
+          "quantity": 1,
+          "itemsPerHour": 1028.5714285714287,
+          "gpPerHour": 0.0
+        }
+      ],
+      "sourcePointer": "/Objects/HerbloreRecipe/87",
+      "notes": [
+        "Fixed base reference; no equipment, bonuses, preservation or downtime.",
+        "Locked demo placeholder definition; not a playable potion baseline."
+      ]
+    },
+    {
+      "id": "SuperBeastcraftingPotionP2A",
+      "gameId": "MelvorBase:SuperBeastcraftingPotionP2A",
+      "name": "Super Beastcrafting Potion P2-A",
+      "requiredLevel": null,
+      "availability": "locked",
+      "conditions": [
+        "Consumes DemoPlaceholderItem × 1 per completed action"
+      ],
+      "intervalSeconds": 3.5,
+      "intervalLabel": "3.5s base cycle",
+      "baseXp": 1,
+      "successChance": 1,
+      "xpPerHour": 1028.5714285714287,
+      "itemsPerHour": 1028.5714285714287,
+      "gpPerHour": 0.0,
+      "products": [
+        {
+          "id": "MelvorBase:DemoPlaceholderItem",
+          "name": "DemoPlaceholderItem",
+          "role": "primary",
+          "basis": "completed action",
+          "probability": 1,
+          "quantity": 1,
+          "itemsPerHour": 1028.5714285714287,
+          "gpPerHour": 0.0
+        }
+      ],
+      "sourcePointer": "/Objects/HerbloreRecipe/88",
+      "notes": [
+        "Fixed base reference; no equipment, bonuses, preservation or downtime.",
+        "Locked demo placeholder definition; not a playable potion baseline."
+      ]
+    },
+    {
+      "id": "SuperBeastcraftingPotionP2B",
+      "gameId": "MelvorBase:SuperBeastcraftingPotionP2B",
+      "name": "Super Beastcrafting Potion P2-B",
+      "requiredLevel": null,
+      "availability": "locked",
+      "conditions": [
+        "Consumes DemoPlaceholderItem × 1 per completed action"
+      ],
+      "intervalSeconds": 3.5,
+      "intervalLabel": "3.5s base cycle",
+      "baseXp": 1,
+      "successChance": 1,
+      "xpPerHour": 1028.5714285714287,
+      "itemsPerHour": 1028.5714285714287,
+      "gpPerHour": 0.0,
+      "products": [
+        {
+          "id": "MelvorBase:DemoPlaceholderItem",
+          "name": "DemoPlaceholderItem",
+          "role": "primary",
+          "basis": "completed action",
+          "probability": 1,
+          "quantity": 1,
+          "itemsPerHour": 1028.5714285714287,
+          "gpPerHour": 0.0
+        }
+      ],
+      "sourcePointer": "/Objects/HerbloreRecipe/89",
+      "notes": [
+        "Fixed base reference; no equipment, bonuses, preservation or downtime.",
+        "Locked demo placeholder definition; not a playable potion baseline."
+      ]
+    },
+    {
+      "id": "SuperAgilityPotionP1A",
+      "gameId": "MelvorBase:SuperAgilityPotionP1A",
+      "name": "Super Agility Potion P1-A",
+      "requiredLevel": null,
+      "availability": "locked",
+      "conditions": [
+        "Consumes DemoPlaceholderItem × 1 per completed action"
+      ],
+      "intervalSeconds": 6.0,
+      "intervalLabel": "6.0s base cycle",
+      "baseXp": 1,
+      "successChance": 1,
+      "xpPerHour": 600.0,
+      "itemsPerHour": 600.0,
+      "gpPerHour": 0.0,
+      "products": [
+        {
+          "id": "MelvorBase:DemoPlaceholderItem",
+          "name": "DemoPlaceholderItem",
+          "role": "primary",
+          "basis": "completed action",
+          "probability": 1,
+          "quantity": 1,
+          "itemsPerHour": 600.0,
+          "gpPerHour": 0.0
+        }
+      ],
+      "sourcePointer": "/Objects/HerbloreRecipe/90",
+      "notes": [
+        "Fixed base reference; no equipment, bonuses, preservation or downtime.",
+        "Locked demo placeholder definition; not a playable potion baseline."
+      ]
+    },
+    {
+      "id": "SuperAgilityPotionP2A",
+      "gameId": "MelvorBase:SuperAgilityPotionP2A",
+      "name": "Super Agility Potion P2-A",
+      "requiredLevel": null,
+      "availability": "locked",
+      "conditions": [
+        "Consumes DemoPlaceholderItem × 1 per completed action"
+      ],
+      "intervalSeconds": 6.0,
+      "intervalLabel": "6.0s base cycle",
+      "baseXp": 1,
+      "successChance": 1,
+      "xpPerHour": 600.0,
+      "itemsPerHour": 600.0,
+      "gpPerHour": 0.0,
+      "products": [
+        {
+          "id": "MelvorBase:DemoPlaceholderItem",
+          "name": "DemoPlaceholderItem",
+          "role": "primary",
+          "basis": "completed action",
+          "probability": 1,
+          "quantity": 1,
+          "itemsPerHour": 600.0,
+          "gpPerHour": 0.0
+        }
+      ],
+      "sourcePointer": "/Objects/HerbloreRecipe/91",
+      "notes": [
+        "Fixed base reference; no equipment, bonuses, preservation or downtime.",
+        "Locked demo placeholder definition; not a playable potion baseline."
+      ]
+    },
+    {
+      "id": "SuperAgilityPotionP2B",
+      "gameId": "MelvorBase:SuperAgilityPotionP2B",
+      "name": "Super Agility Potion P2-B",
+      "requiredLevel": null,
+      "availability": "locked",
+      "conditions": [
+        "Consumes DemoPlaceholderItem × 1 per completed action"
+      ],
+      "intervalSeconds": 6.0,
+      "intervalLabel": "6.0s base cycle",
+      "baseXp": 1,
+      "successChance": 1,
+      "xpPerHour": 600.0,
+      "itemsPerHour": 600.0,
+      "gpPerHour": 0.0,
+      "products": [
+        {
+          "id": "MelvorBase:DemoPlaceholderItem",
+          "name": "DemoPlaceholderItem",
+          "role": "primary",
+          "basis": "completed action",
+          "probability": 1,
+          "quantity": 1,
+          "itemsPerHour": 600.0,
+          "gpPerHour": 0.0
+        }
+      ],
+      "sourcePointer": "/Objects/HerbloreRecipe/92",
+      "notes": [
+        "Fixed base reference; no equipment, bonuses, preservation or downtime.",
+        "Locked demo placeholder definition; not a playable potion baseline."
+      ]
+    },
+    {
+      "id": "SuperThievingPotionP1A",
+      "gameId": "MelvorBase:SuperThievingPotionP1A",
+      "name": "Super Thieving Potion P1-A",
+      "requiredLevel": null,
+      "availability": "locked",
+      "conditions": [
+        "Consumes DemoPlaceholderItem × 1 per completed action"
+      ],
+      "intervalSeconds": 4.5,
+      "intervalLabel": "4.5s base cycle",
+      "baseXp": 1,
+      "successChance": 1,
+      "xpPerHour": 800.0,
+      "itemsPerHour": 800.0,
+      "gpPerHour": 0.0,
+      "products": [
+        {
+          "id": "MelvorBase:DemoPlaceholderItem",
+          "name": "DemoPlaceholderItem",
+          "role": "primary",
+          "basis": "completed action",
+          "probability": 1,
+          "quantity": 1,
+          "itemsPerHour": 800.0,
+          "gpPerHour": 0.0
+        }
+      ],
+      "sourcePointer": "/Objects/HerbloreRecipe/93",
+      "notes": [
+        "Fixed base reference; no equipment, bonuses, preservation or downtime.",
+        "Locked demo placeholder definition; not a playable potion baseline."
+      ]
+    },
+    {
+      "id": "SuperThievingPotionP2A",
+      "gameId": "MelvorBase:SuperThievingPotionP2A",
+      "name": "Super Thieving Potion P2-A",
+      "requiredLevel": null,
+      "availability": "locked",
+      "conditions": [
+        "Consumes DemoPlaceholderItem × 1 per completed action"
+      ],
+      "intervalSeconds": 4.5,
+      "intervalLabel": "4.5s base cycle",
+      "baseXp": 1,
+      "successChance": 1,
+      "xpPerHour": 800.0,
+      "itemsPerHour": 800.0,
+      "gpPerHour": 0.0,
+      "products": [
+        {
+          "id": "MelvorBase:DemoPlaceholderItem",
+          "name": "DemoPlaceholderItem",
+          "role": "primary",
+          "basis": "completed action",
+          "probability": 1,
+          "quantity": 1,
+          "itemsPerHour": 800.0,
+          "gpPerHour": 0.0
+        }
+      ],
+      "sourcePointer": "/Objects/HerbloreRecipe/94",
+      "notes": [
+        "Fixed base reference; no equipment, bonuses, preservation or downtime.",
+        "Locked demo placeholder definition; not a playable potion baseline."
+      ]
+    },
+    {
+      "id": "SuperThievingPotionP2B",
+      "gameId": "MelvorBase:SuperThievingPotionP2B",
+      "name": "Super Thieving Potion P2-B",
+      "requiredLevel": null,
+      "availability": "locked",
+      "conditions": [
+        "Consumes DemoPlaceholderItem × 1 per completed action"
+      ],
+      "intervalSeconds": 4.5,
+      "intervalLabel": "4.5s base cycle",
+      "baseXp": 1,
+      "successChance": 1,
+      "xpPerHour": 800.0,
+      "itemsPerHour": 800.0,
+      "gpPerHour": 0.0,
+      "products": [
+        {
+          "id": "MelvorBase:DemoPlaceholderItem",
+          "name": "DemoPlaceholderItem",
+          "role": "primary",
+          "basis": "completed action",
+          "probability": 1,
+          "quantity": 1,
+          "itemsPerHour": 800.0,
+          "gpPerHour": 0.0
+        }
+      ],
+      "sourcePointer": "/Objects/HerbloreRecipe/95",
+      "notes": [
+        "Fixed base reference; no equipment, bonuses, preservation or downtime.",
+        "Locked demo placeholder definition; not a playable potion baseline."
+      ]
+    },
+    {
+      "id": "MeleePotionP1A",
+      "gameId": "MelvorBase:MeleePotionP1A",
+      "name": "Melee Potion P1-A",
+      "requiredLevel": null,
+      "availability": "locked",
+      "conditions": [
+        "Consumes DemoPlaceholderItem × 1 per completed action"
+      ],
+      "intervalSeconds": 5.0,
+      "intervalLabel": "5.0s base cycle",
+      "baseXp": 1,
+      "successChance": 1,
+      "xpPerHour": 720.0,
+      "itemsPerHour": 720.0,
+      "gpPerHour": 0.0,
+      "products": [
+        {
+          "id": "MelvorBase:DemoPlaceholderItem",
+          "name": "DemoPlaceholderItem",
+          "role": "primary",
+          "basis": "completed action",
+          "probability": 1,
+          "quantity": 1,
+          "itemsPerHour": 720.0,
+          "gpPerHour": 0.0
+        }
+      ],
+      "sourcePointer": "/Objects/HerbloreRecipe/96",
+      "notes": [
+        "Fixed base reference; no equipment, bonuses, preservation or downtime.",
+        "Locked demo placeholder definition; not a playable potion baseline."
+      ]
+    },
+    {
+      "id": "MeleePotionP2A",
+      "gameId": "MelvorBase:MeleePotionP2A",
+      "name": "Melee Potion P2-A",
+      "requiredLevel": null,
+      "availability": "locked",
+      "conditions": [
+        "Consumes DemoPlaceholderItem × 1 per completed action"
+      ],
+      "intervalSeconds": 5.0,
+      "intervalLabel": "5.0s base cycle",
+      "baseXp": 1,
+      "successChance": 1,
+      "xpPerHour": 720.0,
+      "itemsPerHour": 720.0,
+      "gpPerHour": 0.0,
+      "products": [
+        {
+          "id": "MelvorBase:DemoPlaceholderItem",
+          "name": "DemoPlaceholderItem",
+          "role": "primary",
+          "basis": "completed action",
+          "probability": 1,
+          "quantity": 1,
+          "itemsPerHour": 720.0,
+          "gpPerHour": 0.0
+        }
+      ],
+      "sourcePointer": "/Objects/HerbloreRecipe/97",
+      "notes": [
+        "Fixed base reference; no equipment, bonuses, preservation or downtime.",
+        "Locked demo placeholder definition; not a playable potion baseline."
+      ]
+    },
+    {
+      "id": "MeleePotionP2B",
+      "gameId": "MelvorBase:MeleePotionP2B",
+      "name": "Melee Potion P2-B",
+      "requiredLevel": null,
+      "availability": "locked",
+      "conditions": [
+        "Consumes DemoPlaceholderItem × 1 per completed action"
+      ],
+      "intervalSeconds": 5.0,
+      "intervalLabel": "5.0s base cycle",
+      "baseXp": 1,
+      "successChance": 1,
+      "xpPerHour": 720.0,
+      "itemsPerHour": 720.0,
+      "gpPerHour": 0.0,
+      "products": [
+        {
+          "id": "MelvorBase:DemoPlaceholderItem",
+          "name": "DemoPlaceholderItem",
+          "role": "primary",
+          "basis": "completed action",
+          "probability": 1,
+          "quantity": 1,
+          "itemsPerHour": 720.0,
+          "gpPerHour": 0.0
+        }
+      ],
+      "sourcePointer": "/Objects/HerbloreRecipe/98",
+      "notes": [
+        "Fixed base reference; no equipment, bonuses, preservation or downtime.",
+        "Locked demo placeholder definition; not a playable potion baseline."
+      ]
+    },
+    {
+      "id": "RangedPotionP1A",
+      "gameId": "MelvorBase:RangedPotionP1A",
+      "name": "Ranged Potion P1-A",
+      "requiredLevel": null,
+      "availability": "locked",
+      "conditions": [
+        "Consumes DemoPlaceholderItem × 1 per completed action"
+      ],
+      "intervalSeconds": 5.0,
+      "intervalLabel": "5.0s base cycle",
+      "baseXp": 1,
+      "successChance": 1,
+      "xpPerHour": 720.0,
+      "itemsPerHour": 720.0,
+      "gpPerHour": 0.0,
+      "products": [
+        {
+          "id": "MelvorBase:DemoPlaceholderItem",
+          "name": "DemoPlaceholderItem",
+          "role": "primary",
+          "basis": "completed action",
+          "probability": 1,
+          "quantity": 1,
+          "itemsPerHour": 720.0,
+          "gpPerHour": 0.0
+        }
+      ],
+      "sourcePointer": "/Objects/HerbloreRecipe/99",
+      "notes": [
+        "Fixed base reference; no equipment, bonuses, preservation or downtime.",
+        "Locked demo placeholder definition; not a playable potion baseline."
+      ]
+    },
+    {
+      "id": "RangedPotionP2A",
+      "gameId": "MelvorBase:RangedPotionP2A",
+      "name": "Ranged Potion P2-A",
+      "requiredLevel": null,
+      "availability": "locked",
+      "conditions": [
+        "Consumes DemoPlaceholderItem × 1 per completed action"
+      ],
+      "intervalSeconds": 5.0,
+      "intervalLabel": "5.0s base cycle",
+      "baseXp": 1,
+      "successChance": 1,
+      "xpPerHour": 720.0,
+      "itemsPerHour": 720.0,
+      "gpPerHour": 0.0,
+      "products": [
+        {
+          "id": "MelvorBase:DemoPlaceholderItem",
+          "name": "DemoPlaceholderItem",
+          "role": "primary",
+          "basis": "completed action",
+          "probability": 1,
+          "quantity": 1,
+          "itemsPerHour": 720.0,
+          "gpPerHour": 0.0
+        }
+      ],
+      "sourcePointer": "/Objects/HerbloreRecipe/100",
+      "notes": [
+        "Fixed base reference; no equipment, bonuses, preservation or downtime.",
+        "Locked demo placeholder definition; not a playable potion baseline."
+      ]
+    },
+    {
+      "id": "RangedPotionP2B",
+      "gameId": "MelvorBase:RangedPotionP2B",
+      "name": "Ranged Potion P2-B",
+      "requiredLevel": null,
+      "availability": "locked",
+      "conditions": [
+        "Consumes DemoPlaceholderItem × 1 per completed action"
+      ],
+      "intervalSeconds": 5.0,
+      "intervalLabel": "5.0s base cycle",
+      "baseXp": 1,
+      "successChance": 1,
+      "xpPerHour": 720.0,
+      "itemsPerHour": 720.0,
+      "gpPerHour": 0.0,
+      "products": [
+        {
+          "id": "MelvorBase:DemoPlaceholderItem",
+          "name": "DemoPlaceholderItem",
+          "role": "primary",
+          "basis": "completed action",
+          "probability": 1,
+          "quantity": 1,
+          "itemsPerHour": 720.0,
+          "gpPerHour": 0.0
+        }
+      ],
+      "sourcePointer": "/Objects/HerbloreRecipe/101",
+      "notes": [
+        "Fixed base reference; no equipment, bonuses, preservation or downtime.",
+        "Locked demo placeholder definition; not a playable potion baseline."
+      ]
+    },
+    {
+      "id": "MagicPotionP1A",
+      "gameId": "MelvorBase:MagicPotionP1A",
+      "name": "Magic Potion P1-A",
+      "requiredLevel": null,
+      "availability": "locked",
+      "conditions": [
+        "Consumes DemoPlaceholderItem × 1 per completed action"
+      ],
+      "intervalSeconds": 5.0,
+      "intervalLabel": "5.0s base cycle",
+      "baseXp": 1,
+      "successChance": 1,
+      "xpPerHour": 720.0,
+      "itemsPerHour": 720.0,
+      "gpPerHour": 0.0,
+      "products": [
+        {
+          "id": "MelvorBase:DemoPlaceholderItem",
+          "name": "DemoPlaceholderItem",
+          "role": "primary",
+          "basis": "completed action",
+          "probability": 1,
+          "quantity": 1,
+          "itemsPerHour": 720.0,
+          "gpPerHour": 0.0
+        }
+      ],
+      "sourcePointer": "/Objects/HerbloreRecipe/102",
+      "notes": [
+        "Fixed base reference; no equipment, bonuses, preservation or downtime.",
+        "Locked demo placeholder definition; not a playable potion baseline."
+      ]
+    },
+    {
+      "id": "MagicPotionP2A",
+      "gameId": "MelvorBase:MagicPotionP2A",
+      "name": "Magic Potion P2-A",
+      "requiredLevel": null,
+      "availability": "locked",
+      "conditions": [
+        "Consumes DemoPlaceholderItem × 1 per completed action"
+      ],
+      "intervalSeconds": 5.0,
+      "intervalLabel": "5.0s base cycle",
+      "baseXp": 1,
+      "successChance": 1,
+      "xpPerHour": 720.0,
+      "itemsPerHour": 720.0,
+      "gpPerHour": 0.0,
+      "products": [
+        {
+          "id": "MelvorBase:DemoPlaceholderItem",
+          "name": "DemoPlaceholderItem",
+          "role": "primary",
+          "basis": "completed action",
+          "probability": 1,
+          "quantity": 1,
+          "itemsPerHour": 720.0,
+          "gpPerHour": 0.0
+        }
+      ],
+      "sourcePointer": "/Objects/HerbloreRecipe/103",
+      "notes": [
+        "Fixed base reference; no equipment, bonuses, preservation or downtime.",
+        "Locked demo placeholder definition; not a playable potion baseline."
+      ]
+    },
+    {
+      "id": "MagicPotionP2B",
+      "gameId": "MelvorBase:MagicPotionP2B",
+      "name": "Magic Potion P2-B",
+      "requiredLevel": null,
+      "availability": "locked",
+      "conditions": [
+        "Consumes DemoPlaceholderItem × 1 per completed action"
+      ],
+      "intervalSeconds": 5.0,
+      "intervalLabel": "5.0s base cycle",
+      "baseXp": 1,
+      "successChance": 1,
+      "xpPerHour": 720.0,
+      "itemsPerHour": 720.0,
+      "gpPerHour": 0.0,
+      "products": [
+        {
+          "id": "MelvorBase:DemoPlaceholderItem",
+          "name": "DemoPlaceholderItem",
+          "role": "primary",
+          "basis": "completed action",
+          "probability": 1,
+          "quantity": 1,
+          "itemsPerHour": 720.0,
+          "gpPerHour": 0.0
+        }
+      ],
+      "sourcePointer": "/Objects/HerbloreRecipe/104",
+      "notes": [
+        "Fixed base reference; no equipment, bonuses, preservation or downtime.",
+        "Locked demo placeholder definition; not a playable potion baseline."
+      ]
+    },
+    {
+      "id": "SlowPotionP1A",
+      "gameId": "MelvorBase:SlowPotionP1A",
+      "name": "Slow Potion P1-A",
+      "requiredLevel": null,
+      "availability": "locked",
+      "conditions": [
+        "Consumes DemoPlaceholderItem × 1 per completed action"
+      ],
+      "intervalSeconds": 3.0,
+      "intervalLabel": "3.0s base cycle",
+      "baseXp": 1,
+      "successChance": 1,
+      "xpPerHour": 1200.0,
+      "itemsPerHour": 1200.0,
+      "gpPerHour": 0.0,
+      "products": [
+        {
+          "id": "MelvorBase:DemoPlaceholderItem",
+          "name": "DemoPlaceholderItem",
+          "role": "primary",
+          "basis": "completed action",
+          "probability": 1,
+          "quantity": 1,
+          "itemsPerHour": 1200.0,
+          "gpPerHour": 0.0
+        }
+      ],
+      "sourcePointer": "/Objects/HerbloreRecipe/105",
+      "notes": [
+        "Fixed base reference; no equipment, bonuses, preservation or downtime.",
+        "Locked demo placeholder definition; not a playable potion baseline."
+      ]
+    },
+    {
+      "id": "SlowPotionP2A",
+      "gameId": "MelvorBase:SlowPotionP2A",
+      "name": "Slow Potion P2-A",
+      "requiredLevel": null,
+      "availability": "locked",
+      "conditions": [
+        "Consumes DemoPlaceholderItem × 1 per completed action"
+      ],
+      "intervalSeconds": 3.0,
+      "intervalLabel": "3.0s base cycle",
+      "baseXp": 1,
+      "successChance": 1,
+      "xpPerHour": 1200.0,
+      "itemsPerHour": 1200.0,
+      "gpPerHour": 0.0,
+      "products": [
+        {
+          "id": "MelvorBase:DemoPlaceholderItem",
+          "name": "DemoPlaceholderItem",
+          "role": "primary",
+          "basis": "completed action",
+          "probability": 1,
+          "quantity": 1,
+          "itemsPerHour": 1200.0,
+          "gpPerHour": 0.0
+        }
+      ],
+      "sourcePointer": "/Objects/HerbloreRecipe/106",
+      "notes": [
+        "Fixed base reference; no equipment, bonuses, preservation or downtime.",
+        "Locked demo placeholder definition; not a playable potion baseline."
+      ]
+    },
+    {
+      "id": "SlowPotionP2B",
+      "gameId": "MelvorBase:SlowPotionP2B",
+      "name": "Slow Potion P2-B",
+      "requiredLevel": null,
+      "availability": "locked",
+      "conditions": [
+        "Consumes DemoPlaceholderItem × 1 per completed action"
+      ],
+      "intervalSeconds": 3.0,
+      "intervalLabel": "3.0s base cycle",
+      "baseXp": 1,
+      "successChance": 1,
+      "xpPerHour": 1200.0,
+      "itemsPerHour": 1200.0,
+      "gpPerHour": 0.0,
+      "products": [
+        {
+          "id": "MelvorBase:DemoPlaceholderItem",
+          "name": "DemoPlaceholderItem",
+          "role": "primary",
+          "basis": "completed action",
+          "probability": 1,
+          "quantity": 1,
+          "itemsPerHour": 1200.0,
+          "gpPerHour": 0.0
+        }
+      ],
+      "sourcePointer": "/Objects/HerbloreRecipe/107",
+      "notes": [
+        "Fixed base reference; no equipment, bonuses, preservation or downtime.",
+        "Locked demo placeholder definition; not a playable potion baseline."
+      ]
+    },
+    {
+      "id": "ResiliencePotionP1A",
+      "gameId": "MelvorBase:ResiliencePotionP1A",
+      "name": "Resilience Potion P1-A",
+      "requiredLevel": null,
+      "availability": "locked",
+      "conditions": [
+        "Consumes DemoPlaceholderItem × 1 per completed action"
+      ],
+      "intervalSeconds": 3.0,
+      "intervalLabel": "3.0s base cycle",
+      "baseXp": 1,
+      "successChance": 1,
+      "xpPerHour": 1200.0,
+      "itemsPerHour": 1200.0,
+      "gpPerHour": 0.0,
+      "products": [
+        {
+          "id": "MelvorBase:DemoPlaceholderItem",
+          "name": "DemoPlaceholderItem",
+          "role": "primary",
+          "basis": "completed action",
+          "probability": 1,
+          "quantity": 1,
+          "itemsPerHour": 1200.0,
+          "gpPerHour": 0.0
+        }
+      ],
+      "sourcePointer": "/Objects/HerbloreRecipe/108",
+      "notes": [
+        "Fixed base reference; no equipment, bonuses, preservation or downtime.",
+        "Locked demo placeholder definition; not a playable potion baseline."
+      ]
+    },
+    {
+      "id": "ResiliencePotionP2A",
+      "gameId": "MelvorBase:ResiliencePotionP2A",
+      "name": "Resilience Potion P2-A",
+      "requiredLevel": null,
+      "availability": "locked",
+      "conditions": [
+        "Consumes DemoPlaceholderItem × 1 per completed action"
+      ],
+      "intervalSeconds": 3.0,
+      "intervalLabel": "3.0s base cycle",
+      "baseXp": 1,
+      "successChance": 1,
+      "xpPerHour": 1200.0,
+      "itemsPerHour": 1200.0,
+      "gpPerHour": 0.0,
+      "products": [
+        {
+          "id": "MelvorBase:DemoPlaceholderItem",
+          "name": "DemoPlaceholderItem",
+          "role": "primary",
+          "basis": "completed action",
+          "probability": 1,
+          "quantity": 1,
+          "itemsPerHour": 1200.0,
+          "gpPerHour": 0.0
+        }
+      ],
+      "sourcePointer": "/Objects/HerbloreRecipe/109",
+      "notes": [
+        "Fixed base reference; no equipment, bonuses, preservation or downtime.",
+        "Locked demo placeholder definition; not a playable potion baseline."
+      ]
+    },
+    {
+      "id": "ResiliencePotionP2B",
+      "gameId": "MelvorBase:ResiliencePotionP2B",
+      "name": "Resilience Potion P2-B",
+      "requiredLevel": null,
+      "availability": "locked",
+      "conditions": [
+        "Consumes DemoPlaceholderItem × 1 per completed action"
+      ],
+      "intervalSeconds": 3.0,
+      "intervalLabel": "3.0s base cycle",
+      "baseXp": 1,
+      "successChance": 1,
+      "xpPerHour": 1200.0,
+      "itemsPerHour": 1200.0,
+      "gpPerHour": 0.0,
+      "products": [
+        {
+          "id": "MelvorBase:DemoPlaceholderItem",
+          "name": "DemoPlaceholderItem",
+          "role": "primary",
+          "basis": "completed action",
+          "probability": 1,
+          "quantity": 1,
+          "itemsPerHour": 1200.0,
+          "gpPerHour": 0.0
+        }
+      ],
+      "sourcePointer": "/Objects/HerbloreRecipe/110",
+      "notes": [
+        "Fixed base reference; no equipment, bonuses, preservation or downtime.",
+        "Locked demo placeholder definition; not a playable potion baseline."
+      ]
+    },
+    {
+      "id": "SlayerPotionP1A",
+      "gameId": "MelvorBase:SlayerPotionP1A",
+      "name": "Slayer Potion P1-A",
+      "requiredLevel": null,
+      "availability": "locked",
+      "conditions": [
+        "Consumes DemoPlaceholderItem × 1 per completed action"
+      ],
+      "intervalSeconds": 3.0,
+      "intervalLabel": "3.0s base cycle",
+      "baseXp": 1,
+      "successChance": 1,
+      "xpPerHour": 1200.0,
+      "itemsPerHour": 1200.0,
+      "gpPerHour": 0.0,
+      "products": [
+        {
+          "id": "MelvorBase:DemoPlaceholderItem",
+          "name": "DemoPlaceholderItem",
+          "role": "primary",
+          "basis": "completed action",
+          "probability": 1,
+          "quantity": 1,
+          "itemsPerHour": 1200.0,
+          "gpPerHour": 0.0
+        }
+      ],
+      "sourcePointer": "/Objects/HerbloreRecipe/111",
+      "notes": [
+        "Fixed base reference; no equipment, bonuses, preservation or downtime.",
+        "Locked demo placeholder definition; not a playable potion baseline."
+      ]
+    },
+    {
+      "id": "SlayerPotionP2A",
+      "gameId": "MelvorBase:SlayerPotionP2A",
+      "name": "Slayer Potion P2-A",
+      "requiredLevel": null,
+      "availability": "locked",
+      "conditions": [
+        "Consumes DemoPlaceholderItem × 1 per completed action"
+      ],
+      "intervalSeconds": 3.0,
+      "intervalLabel": "3.0s base cycle",
+      "baseXp": 1,
+      "successChance": 1,
+      "xpPerHour": 1200.0,
+      "itemsPerHour": 1200.0,
+      "gpPerHour": 0.0,
+      "products": [
+        {
+          "id": "MelvorBase:DemoPlaceholderItem",
+          "name": "DemoPlaceholderItem",
+          "role": "primary",
+          "basis": "completed action",
+          "probability": 1,
+          "quantity": 1,
+          "itemsPerHour": 1200.0,
+          "gpPerHour": 0.0
+        }
+      ],
+      "sourcePointer": "/Objects/HerbloreRecipe/112",
+      "notes": [
+        "Fixed base reference; no equipment, bonuses, preservation or downtime.",
+        "Locked demo placeholder definition; not a playable potion baseline."
+      ]
+    },
+    {
+      "id": "SlayerPotionP2B",
+      "gameId": "MelvorBase:SlayerPotionP2B",
+      "name": "Slayer Potion P2-B",
+      "requiredLevel": null,
+      "availability": "locked",
+      "conditions": [
+        "Consumes DemoPlaceholderItem × 1 per completed action"
+      ],
+      "intervalSeconds": 3.0,
+      "intervalLabel": "3.0s base cycle",
+      "baseXp": 1,
+      "successChance": 1,
+      "xpPerHour": 1200.0,
+      "itemsPerHour": 1200.0,
+      "gpPerHour": 0.0,
+      "products": [
+        {
+          "id": "MelvorBase:DemoPlaceholderItem",
+          "name": "DemoPlaceholderItem",
+          "role": "primary",
+          "basis": "completed action",
+          "probability": 1,
+          "quantity": 1,
+          "itemsPerHour": 1200.0,
+          "gpPerHour": 0.0
+        }
+      ],
+      "sourcePointer": "/Objects/HerbloreRecipe/113",
+      "notes": [
+        "Fixed base reference; no equipment, bonuses, preservation or downtime.",
+        "Locked demo placeholder definition; not a playable potion baseline."
+      ]
+    },
+    {
+      "id": "PrayerPotionP1A",
+      "gameId": "MelvorBase:PrayerPotionP1A",
+      "name": "Prayer Potion P1-A",
+      "requiredLevel": null,
+      "availability": "locked",
+      "conditions": [
+        "Consumes DemoPlaceholderItem × 1 per completed action"
+      ],
+      "intervalSeconds": 3.0,
+      "intervalLabel": "3.0s base cycle",
+      "baseXp": 1,
+      "successChance": 1,
+      "xpPerHour": 1200.0,
+      "itemsPerHour": 1200.0,
+      "gpPerHour": 0.0,
+      "products": [
+        {
+          "id": "MelvorBase:DemoPlaceholderItem",
+          "name": "DemoPlaceholderItem",
+          "role": "primary",
+          "basis": "completed action",
+          "probability": 1,
+          "quantity": 1,
+          "itemsPerHour": 1200.0,
+          "gpPerHour": 0.0
+        }
+      ],
+      "sourcePointer": "/Objects/HerbloreRecipe/114",
+      "notes": [
+        "Fixed base reference; no equipment, bonuses, preservation or downtime.",
+        "Locked demo placeholder definition; not a playable potion baseline."
+      ]
+    },
+    {
+      "id": "PrayerPotionP2A",
+      "gameId": "MelvorBase:PrayerPotionP2A",
+      "name": "Prayer Potion P2-A",
+      "requiredLevel": null,
+      "availability": "locked",
+      "conditions": [
+        "Consumes DemoPlaceholderItem × 1 per completed action"
+      ],
+      "intervalSeconds": 3.0,
+      "intervalLabel": "3.0s base cycle",
+      "baseXp": 1,
+      "successChance": 1,
+      "xpPerHour": 1200.0,
+      "itemsPerHour": 1200.0,
+      "gpPerHour": 0.0,
+      "products": [
+        {
+          "id": "MelvorBase:DemoPlaceholderItem",
+          "name": "DemoPlaceholderItem",
+          "role": "primary",
+          "basis": "completed action",
+          "probability": 1,
+          "quantity": 1,
+          "itemsPerHour": 1200.0,
+          "gpPerHour": 0.0
+        }
+      ],
+      "sourcePointer": "/Objects/HerbloreRecipe/115",
+      "notes": [
+        "Fixed base reference; no equipment, bonuses, preservation or downtime.",
+        "Locked demo placeholder definition; not a playable potion baseline."
+      ]
+    },
+    {
+      "id": "PrayerPotionP2B",
+      "gameId": "MelvorBase:PrayerPotionP2B",
+      "name": "Prayer Potion P2-B",
+      "requiredLevel": null,
+      "availability": "locked",
+      "conditions": [
+        "Consumes DemoPlaceholderItem × 1 per completed action"
+      ],
+      "intervalSeconds": 3.0,
+      "intervalLabel": "3.0s base cycle",
+      "baseXp": 1,
+      "successChance": 1,
+      "xpPerHour": 1200.0,
+      "itemsPerHour": 1200.0,
+      "gpPerHour": 0.0,
+      "products": [
+        {
+          "id": "MelvorBase:DemoPlaceholderItem",
+          "name": "DemoPlaceholderItem",
+          "role": "primary",
+          "basis": "completed action",
+          "probability": 1,
+          "quantity": 1,
+          "itemsPerHour": 1200.0,
+          "gpPerHour": 0.0
+        }
+      ],
+      "sourcePointer": "/Objects/HerbloreRecipe/116",
+      "notes": [
+        "Fixed base reference; no equipment, bonuses, preservation or downtime.",
+        "Locked demo placeholder definition; not a playable potion baseline."
+      ]
+    },
+    {
+      "id": "SuperMeleePotionP1A",
+      "gameId": "MelvorBase:SuperMeleePotionP1A",
+      "name": "Super Melee Potion P1-A",
+      "requiredLevel": null,
+      "availability": "locked",
+      "conditions": [
+        "Consumes DemoPlaceholderItem × 1 per completed action"
+      ],
+      "intervalSeconds": 5.0,
+      "intervalLabel": "5.0s base cycle",
+      "baseXp": 1,
+      "successChance": 1,
+      "xpPerHour": 720.0,
+      "itemsPerHour": 720.0,
+      "gpPerHour": 0.0,
+      "products": [
+        {
+          "id": "MelvorBase:DemoPlaceholderItem",
+          "name": "DemoPlaceholderItem",
+          "role": "primary",
+          "basis": "completed action",
+          "probability": 1,
+          "quantity": 1,
+          "itemsPerHour": 720.0,
+          "gpPerHour": 0.0
+        }
+      ],
+      "sourcePointer": "/Objects/HerbloreRecipe/117",
+      "notes": [
+        "Fixed base reference; no equipment, bonuses, preservation or downtime.",
+        "Locked demo placeholder definition; not a playable potion baseline."
+      ]
+    },
+    {
+      "id": "SuperMeleePotionP2A",
+      "gameId": "MelvorBase:SuperMeleePotionP2A",
+      "name": "Super Melee Potion P2-A",
+      "requiredLevel": null,
+      "availability": "locked",
+      "conditions": [
+        "Consumes DemoPlaceholderItem × 1 per completed action"
+      ],
+      "intervalSeconds": 5.0,
+      "intervalLabel": "5.0s base cycle",
+      "baseXp": 1,
+      "successChance": 1,
+      "xpPerHour": 720.0,
+      "itemsPerHour": 720.0,
+      "gpPerHour": 0.0,
+      "products": [
+        {
+          "id": "MelvorBase:DemoPlaceholderItem",
+          "name": "DemoPlaceholderItem",
+          "role": "primary",
+          "basis": "completed action",
+          "probability": 1,
+          "quantity": 1,
+          "itemsPerHour": 720.0,
+          "gpPerHour": 0.0
+        }
+      ],
+      "sourcePointer": "/Objects/HerbloreRecipe/118",
+      "notes": [
+        "Fixed base reference; no equipment, bonuses, preservation or downtime.",
+        "Locked demo placeholder definition; not a playable potion baseline."
+      ]
+    },
+    {
+      "id": "SuperMeleePotionP2B",
+      "gameId": "MelvorBase:SuperMeleePotionP2B",
+      "name": "Super Melee Potion P2-B",
+      "requiredLevel": null,
+      "availability": "locked",
+      "conditions": [
+        "Consumes DemoPlaceholderItem × 1 per completed action"
+      ],
+      "intervalSeconds": 5.0,
+      "intervalLabel": "5.0s base cycle",
+      "baseXp": 1,
+      "successChance": 1,
+      "xpPerHour": 720.0,
+      "itemsPerHour": 720.0,
+      "gpPerHour": 0.0,
+      "products": [
+        {
+          "id": "MelvorBase:DemoPlaceholderItem",
+          "name": "DemoPlaceholderItem",
+          "role": "primary",
+          "basis": "completed action",
+          "probability": 1,
+          "quantity": 1,
+          "itemsPerHour": 720.0,
+          "gpPerHour": 0.0
+        }
+      ],
+      "sourcePointer": "/Objects/HerbloreRecipe/119",
+      "notes": [
+        "Fixed base reference; no equipment, bonuses, preservation or downtime.",
+        "Locked demo placeholder definition; not a playable potion baseline."
+      ]
+    },
+    {
+      "id": "SuperRangedPotionP1A",
+      "gameId": "MelvorBase:SuperRangedPotionP1A",
+      "name": "Super Ranged Potion P1-A",
+      "requiredLevel": null,
+      "availability": "locked",
+      "conditions": [
+        "Consumes DemoPlaceholderItem × 1 per completed action"
+      ],
+      "intervalSeconds": 5.0,
+      "intervalLabel": "5.0s base cycle",
+      "baseXp": 1,
+      "successChance": 1,
+      "xpPerHour": 720.0,
+      "itemsPerHour": 720.0,
+      "gpPerHour": 0.0,
+      "products": [
+        {
+          "id": "MelvorBase:DemoPlaceholderItem",
+          "name": "DemoPlaceholderItem",
+          "role": "primary",
+          "basis": "completed action",
+          "probability": 1,
+          "quantity": 1,
+          "itemsPerHour": 720.0,
+          "gpPerHour": 0.0
+        }
+      ],
+      "sourcePointer": "/Objects/HerbloreRecipe/120",
+      "notes": [
+        "Fixed base reference; no equipment, bonuses, preservation or downtime.",
+        "Locked demo placeholder definition; not a playable potion baseline."
+      ]
+    },
+    {
+      "id": "SuperRangedPotionP2A",
+      "gameId": "MelvorBase:SuperRangedPotionP2A",
+      "name": "Super Ranged Potion P2-A",
+      "requiredLevel": null,
+      "availability": "locked",
+      "conditions": [
+        "Consumes DemoPlaceholderItem × 1 per completed action"
+      ],
+      "intervalSeconds": 5.0,
+      "intervalLabel": "5.0s base cycle",
+      "baseXp": 1,
+      "successChance": 1,
+      "xpPerHour": 720.0,
+      "itemsPerHour": 720.0,
+      "gpPerHour": 0.0,
+      "products": [
+        {
+          "id": "MelvorBase:DemoPlaceholderItem",
+          "name": "DemoPlaceholderItem",
+          "role": "primary",
+          "basis": "completed action",
+          "probability": 1,
+          "quantity": 1,
+          "itemsPerHour": 720.0,
+          "gpPerHour": 0.0
+        }
+      ],
+      "sourcePointer": "/Objects/HerbloreRecipe/121",
+      "notes": [
+        "Fixed base reference; no equipment, bonuses, preservation or downtime.",
+        "Locked demo placeholder definition; not a playable potion baseline."
+      ]
+    },
+    {
+      "id": "SuperRangedPotionP2B",
+      "gameId": "MelvorBase:SuperRangedPotionP2B",
+      "name": "Super Ranged Potion P2-B",
+      "requiredLevel": null,
+      "availability": "locked",
+      "conditions": [
+        "Consumes DemoPlaceholderItem × 1 per completed action"
+      ],
+      "intervalSeconds": 5.0,
+      "intervalLabel": "5.0s base cycle",
+      "baseXp": 1,
+      "successChance": 1,
+      "xpPerHour": 720.0,
+      "itemsPerHour": 720.0,
+      "gpPerHour": 0.0,
+      "products": [
+        {
+          "id": "MelvorBase:DemoPlaceholderItem",
+          "name": "DemoPlaceholderItem",
+          "role": "primary",
+          "basis": "completed action",
+          "probability": 1,
+          "quantity": 1,
+          "itemsPerHour": 720.0,
+          "gpPerHour": 0.0
+        }
+      ],
+      "sourcePointer": "/Objects/HerbloreRecipe/122",
+      "notes": [
+        "Fixed base reference; no equipment, bonuses, preservation or downtime.",
+        "Locked demo placeholder definition; not a playable potion baseline."
+      ]
+    },
+    {
+      "id": "SuperMagicPotionP1A",
+      "gameId": "MelvorBase:SuperMagicPotionP1A",
+      "name": "Super Magic Potion P1-A",
+      "requiredLevel": null,
+      "availability": "locked",
+      "conditions": [
+        "Consumes DemoPlaceholderItem × 1 per completed action"
+      ],
+      "intervalSeconds": 5.0,
+      "intervalLabel": "5.0s base cycle",
+      "baseXp": 1,
+      "successChance": 1,
+      "xpPerHour": 720.0,
+      "itemsPerHour": 720.0,
+      "gpPerHour": 0.0,
+      "products": [
+        {
+          "id": "MelvorBase:DemoPlaceholderItem",
+          "name": "DemoPlaceholderItem",
+          "role": "primary",
+          "basis": "completed action",
+          "probability": 1,
+          "quantity": 1,
+          "itemsPerHour": 720.0,
+          "gpPerHour": 0.0
+        }
+      ],
+      "sourcePointer": "/Objects/HerbloreRecipe/123",
+      "notes": [
+        "Fixed base reference; no equipment, bonuses, preservation or downtime.",
+        "Locked demo placeholder definition; not a playable potion baseline."
+      ]
+    },
+    {
+      "id": "SuperMagicPotionP2A",
+      "gameId": "MelvorBase:SuperMagicPotionP2A",
+      "name": "Super Magic Potion P2-A",
+      "requiredLevel": null,
+      "availability": "locked",
+      "conditions": [
+        "Consumes DemoPlaceholderItem × 1 per completed action"
+      ],
+      "intervalSeconds": 5.0,
+      "intervalLabel": "5.0s base cycle",
+      "baseXp": 1,
+      "successChance": 1,
+      "xpPerHour": 720.0,
+      "itemsPerHour": 720.0,
+      "gpPerHour": 0.0,
+      "products": [
+        {
+          "id": "MelvorBase:DemoPlaceholderItem",
+          "name": "DemoPlaceholderItem",
+          "role": "primary",
+          "basis": "completed action",
+          "probability": 1,
+          "quantity": 1,
+          "itemsPerHour": 720.0,
+          "gpPerHour": 0.0
+        }
+      ],
+      "sourcePointer": "/Objects/HerbloreRecipe/124",
+      "notes": [
+        "Fixed base reference; no equipment, bonuses, preservation or downtime.",
+        "Locked demo placeholder definition; not a playable potion baseline."
+      ]
+    },
+    {
+      "id": "SuperMagicPotionP2B",
+      "gameId": "MelvorBase:SuperMagicPotionP2B",
+      "name": "Super Magic Potion P2-B",
+      "requiredLevel": null,
+      "availability": "locked",
+      "conditions": [
+        "Consumes DemoPlaceholderItem × 1 per completed action"
+      ],
+      "intervalSeconds": 5.0,
+      "intervalLabel": "5.0s base cycle",
+      "baseXp": 1,
+      "successChance": 1,
+      "xpPerHour": 720.0,
+      "itemsPerHour": 720.0,
+      "gpPerHour": 0.0,
+      "products": [
+        {
+          "id": "MelvorBase:DemoPlaceholderItem",
+          "name": "DemoPlaceholderItem",
+          "role": "primary",
+          "basis": "completed action",
+          "probability": 1,
+          "quantity": 1,
+          "itemsPerHour": 720.0,
+          "gpPerHour": 0.0
+        }
+      ],
+      "sourcePointer": "/Objects/HerbloreRecipe/125",
+      "notes": [
+        "Fixed base reference; no equipment, bonuses, preservation or downtime.",
+        "Locked demo placeholder definition; not a playable potion baseline."
+      ]
+    },
+    {
+      "id": "SuperSlowPotionP1A",
+      "gameId": "MelvorBase:SuperSlowPotionP1A",
+      "name": "Super Slow Potion P1-A",
+      "requiredLevel": null,
+      "availability": "locked",
+      "conditions": [
+        "Consumes DemoPlaceholderItem × 1 per completed action"
+      ],
+      "intervalSeconds": 6.0,
+      "intervalLabel": "6.0s base cycle",
+      "baseXp": 1,
+      "successChance": 1,
+      "xpPerHour": 600.0,
+      "itemsPerHour": 600.0,
+      "gpPerHour": 0.0,
+      "products": [
+        {
+          "id": "MelvorBase:DemoPlaceholderItem",
+          "name": "DemoPlaceholderItem",
+          "role": "primary",
+          "basis": "completed action",
+          "probability": 1,
+          "quantity": 1,
+          "itemsPerHour": 600.0,
+          "gpPerHour": 0.0
+        }
+      ],
+      "sourcePointer": "/Objects/HerbloreRecipe/126",
+      "notes": [
+        "Fixed base reference; no equipment, bonuses, preservation or downtime.",
+        "Locked demo placeholder definition; not a playable potion baseline."
+      ]
+    },
+    {
+      "id": "SuperSlowPotionP2A",
+      "gameId": "MelvorBase:SuperSlowPotionP2A",
+      "name": "Super Slow Potion P2-A",
+      "requiredLevel": null,
+      "availability": "locked",
+      "conditions": [
+        "Consumes DemoPlaceholderItem × 1 per completed action"
+      ],
+      "intervalSeconds": 6.0,
+      "intervalLabel": "6.0s base cycle",
+      "baseXp": 1,
+      "successChance": 1,
+      "xpPerHour": 600.0,
+      "itemsPerHour": 600.0,
+      "gpPerHour": 0.0,
+      "products": [
+        {
+          "id": "MelvorBase:DemoPlaceholderItem",
+          "name": "DemoPlaceholderItem",
+          "role": "primary",
+          "basis": "completed action",
+          "probability": 1,
+          "quantity": 1,
+          "itemsPerHour": 600.0,
+          "gpPerHour": 0.0
+        }
+      ],
+      "sourcePointer": "/Objects/HerbloreRecipe/127",
+      "notes": [
+        "Fixed base reference; no equipment, bonuses, preservation or downtime.",
+        "Locked demo placeholder definition; not a playable potion baseline."
+      ]
+    },
+    {
+      "id": "SuperSlowPotionP2B",
+      "gameId": "MelvorBase:SuperSlowPotionP2B",
+      "name": "Super Slow Potion P2-B",
+      "requiredLevel": null,
+      "availability": "locked",
+      "conditions": [
+        "Consumes DemoPlaceholderItem × 1 per completed action"
+      ],
+      "intervalSeconds": 6.0,
+      "intervalLabel": "6.0s base cycle",
+      "baseXp": 1,
+      "successChance": 1,
+      "xpPerHour": 600.0,
+      "itemsPerHour": 600.0,
+      "gpPerHour": 0.0,
+      "products": [
+        {
+          "id": "MelvorBase:DemoPlaceholderItem",
+          "name": "DemoPlaceholderItem",
+          "role": "primary",
+          "basis": "completed action",
+          "probability": 1,
+          "quantity": 1,
+          "itemsPerHour": 600.0,
+          "gpPerHour": 0.0
+        }
+      ],
+      "sourcePointer": "/Objects/HerbloreRecipe/128",
+      "notes": [
+        "Fixed base reference; no equipment, bonuses, preservation or downtime.",
+        "Locked demo placeholder definition; not a playable potion baseline."
+      ]
+    },
+    {
+      "id": "SuperResiliencePotionP1A",
+      "gameId": "MelvorBase:SuperResiliencePotionP1A",
+      "name": "Super Resilience Potion P1-A",
+      "requiredLevel": null,
+      "availability": "locked",
+      "conditions": [
+        "Consumes DemoPlaceholderItem × 1 per completed action"
+      ],
+      "intervalSeconds": 5.5,
+      "intervalLabel": "5.5s base cycle",
+      "baseXp": 1,
+      "successChance": 1,
+      "xpPerHour": 654.5454545454545,
+      "itemsPerHour": 654.5454545454545,
+      "gpPerHour": 0.0,
+      "products": [
+        {
+          "id": "MelvorBase:DemoPlaceholderItem",
+          "name": "DemoPlaceholderItem",
+          "role": "primary",
+          "basis": "completed action",
+          "probability": 1,
+          "quantity": 1,
+          "itemsPerHour": 654.5454545454545,
+          "gpPerHour": 0.0
+        }
+      ],
+      "sourcePointer": "/Objects/HerbloreRecipe/129",
+      "notes": [
+        "Fixed base reference; no equipment, bonuses, preservation or downtime.",
+        "Locked demo placeholder definition; not a playable potion baseline."
+      ]
+    },
+    {
+      "id": "SuperResiliencePotionP2A",
+      "gameId": "MelvorBase:SuperResiliencePotionP2A",
+      "name": "Super Resilience Potion P2-A",
+      "requiredLevel": null,
+      "availability": "locked",
+      "conditions": [
+        "Consumes DemoPlaceholderItem × 1 per completed action"
+      ],
+      "intervalSeconds": 5.5,
+      "intervalLabel": "5.5s base cycle",
+      "baseXp": 1,
+      "successChance": 1,
+      "xpPerHour": 654.5454545454545,
+      "itemsPerHour": 654.5454545454545,
+      "gpPerHour": 0.0,
+      "products": [
+        {
+          "id": "MelvorBase:DemoPlaceholderItem",
+          "name": "DemoPlaceholderItem",
+          "role": "primary",
+          "basis": "completed action",
+          "probability": 1,
+          "quantity": 1,
+          "itemsPerHour": 654.5454545454545,
+          "gpPerHour": 0.0
+        }
+      ],
+      "sourcePointer": "/Objects/HerbloreRecipe/130",
+      "notes": [
+        "Fixed base reference; no equipment, bonuses, preservation or downtime.",
+        "Locked demo placeholder definition; not a playable potion baseline."
+      ]
+    },
+    {
+      "id": "SuperResiliencePotionP2B",
+      "gameId": "MelvorBase:SuperResiliencePotionP2B",
+      "name": "Super Resilience Potion P2-B",
+      "requiredLevel": null,
+      "availability": "locked",
+      "conditions": [
+        "Consumes DemoPlaceholderItem × 1 per completed action"
+      ],
+      "intervalSeconds": 5.5,
+      "intervalLabel": "5.5s base cycle",
+      "baseXp": 1,
+      "successChance": 1,
+      "xpPerHour": 654.5454545454545,
+      "itemsPerHour": 654.5454545454545,
+      "gpPerHour": 0.0,
+      "products": [
+        {
+          "id": "MelvorBase:DemoPlaceholderItem",
+          "name": "DemoPlaceholderItem",
+          "role": "primary",
+          "basis": "completed action",
+          "probability": 1,
+          "quantity": 1,
+          "itemsPerHour": 654.5454545454545,
+          "gpPerHour": 0.0
+        }
+      ],
+      "sourcePointer": "/Objects/HerbloreRecipe/131",
+      "notes": [
+        "Fixed base reference; no equipment, bonuses, preservation or downtime.",
+        "Locked demo placeholder definition; not a playable potion baseline."
+      ]
+    },
+    {
+      "id": "SuperSlayerPotionP1A",
+      "gameId": "MelvorBase:SuperSlayerPotionP1A",
+      "name": "Super Slayer Potion P1-A",
+      "requiredLevel": null,
+      "availability": "locked",
+      "conditions": [
+        "Consumes DemoPlaceholderItem × 1 per completed action"
+      ],
+      "intervalSeconds": 4.0,
+      "intervalLabel": "4.0s base cycle",
+      "baseXp": 1,
+      "successChance": 1,
+      "xpPerHour": 900.0,
+      "itemsPerHour": 900.0,
+      "gpPerHour": 0.0,
+      "products": [
+        {
+          "id": "MelvorBase:DemoPlaceholderItem",
+          "name": "DemoPlaceholderItem",
+          "role": "primary",
+          "basis": "completed action",
+          "probability": 1,
+          "quantity": 1,
+          "itemsPerHour": 900.0,
+          "gpPerHour": 0.0
+        }
+      ],
+      "sourcePointer": "/Objects/HerbloreRecipe/132",
+      "notes": [
+        "Fixed base reference; no equipment, bonuses, preservation or downtime.",
+        "Locked demo placeholder definition; not a playable potion baseline."
+      ]
+    },
+    {
+      "id": "SuperSlayerPotionP2A",
+      "gameId": "MelvorBase:SuperSlayerPotionP2A",
+      "name": "Super Slayer Potion P2-A",
+      "requiredLevel": null,
+      "availability": "locked",
+      "conditions": [
+        "Consumes DemoPlaceholderItem × 1 per completed action"
+      ],
+      "intervalSeconds": 4.0,
+      "intervalLabel": "4.0s base cycle",
+      "baseXp": 1,
+      "successChance": 1,
+      "xpPerHour": 900.0,
+      "itemsPerHour": 900.0,
+      "gpPerHour": 0.0,
+      "products": [
+        {
+          "id": "MelvorBase:DemoPlaceholderItem",
+          "name": "DemoPlaceholderItem",
+          "role": "primary",
+          "basis": "completed action",
+          "probability": 1,
+          "quantity": 1,
+          "itemsPerHour": 900.0,
+          "gpPerHour": 0.0
+        }
+      ],
+      "sourcePointer": "/Objects/HerbloreRecipe/133",
+      "notes": [
+        "Fixed base reference; no equipment, bonuses, preservation or downtime.",
+        "Locked demo placeholder definition; not a playable potion baseline."
+      ]
+    },
+    {
+      "id": "SuperSlayerPotionP2B",
+      "gameId": "MelvorBase:SuperSlayerPotionP2B",
+      "name": "Super Slayer Potion P2-B",
+      "requiredLevel": null,
+      "availability": "locked",
+      "conditions": [
+        "Consumes DemoPlaceholderItem × 1 per completed action"
+      ],
+      "intervalSeconds": 4.0,
+      "intervalLabel": "4.0s base cycle",
+      "baseXp": 1,
+      "successChance": 1,
+      "xpPerHour": 900.0,
+      "itemsPerHour": 900.0,
+      "gpPerHour": 0.0,
+      "products": [
+        {
+          "id": "MelvorBase:DemoPlaceholderItem",
+          "name": "DemoPlaceholderItem",
+          "role": "primary",
+          "basis": "completed action",
+          "probability": 1,
+          "quantity": 1,
+          "itemsPerHour": 900.0,
+          "gpPerHour": 0.0
+        }
+      ],
+      "sourcePointer": "/Objects/HerbloreRecipe/134",
+      "notes": [
+        "Fixed base reference; no equipment, bonuses, preservation or downtime.",
+        "Locked demo placeholder definition; not a playable potion baseline."
+      ]
+    },
+    {
+      "id": "SuperPrayerPotionP1A",
+      "gameId": "MelvorBase:SuperPrayerPotionP1A",
+      "name": "Super Prayer Potion P1-A",
+      "requiredLevel": null,
+      "availability": "locked",
+      "conditions": [
+        "Consumes DemoPlaceholderItem × 1 per completed action"
+      ],
+      "intervalSeconds": 7.0,
+      "intervalLabel": "7.0s base cycle",
+      "baseXp": 1,
+      "successChance": 1,
+      "xpPerHour": 514.2857142857143,
+      "itemsPerHour": 514.2857142857143,
+      "gpPerHour": 0.0,
+      "products": [
+        {
+          "id": "MelvorBase:DemoPlaceholderItem",
+          "name": "DemoPlaceholderItem",
+          "role": "primary",
+          "basis": "completed action",
+          "probability": 1,
+          "quantity": 1,
+          "itemsPerHour": 514.2857142857143,
+          "gpPerHour": 0.0
+        }
+      ],
+      "sourcePointer": "/Objects/HerbloreRecipe/135",
+      "notes": [
+        "Fixed base reference; no equipment, bonuses, preservation or downtime.",
+        "Locked demo placeholder definition; not a playable potion baseline."
+      ]
+    },
+    {
+      "id": "SuperPrayerPotionP2A",
+      "gameId": "MelvorBase:SuperPrayerPotionP2A",
+      "name": "Super Prayer Potion P2-A",
+      "requiredLevel": null,
+      "availability": "locked",
+      "conditions": [
+        "Consumes DemoPlaceholderItem × 1 per completed action"
+      ],
+      "intervalSeconds": 7.0,
+      "intervalLabel": "7.0s base cycle",
+      "baseXp": 1,
+      "successChance": 1,
+      "xpPerHour": 514.2857142857143,
+      "itemsPerHour": 514.2857142857143,
+      "gpPerHour": 0.0,
+      "products": [
+        {
+          "id": "MelvorBase:DemoPlaceholderItem",
+          "name": "DemoPlaceholderItem",
+          "role": "primary",
+          "basis": "completed action",
+          "probability": 1,
+          "quantity": 1,
+          "itemsPerHour": 514.2857142857143,
+          "gpPerHour": 0.0
+        }
+      ],
+      "sourcePointer": "/Objects/HerbloreRecipe/136",
+      "notes": [
+        "Fixed base reference; no equipment, bonuses, preservation or downtime.",
+        "Locked demo placeholder definition; not a playable potion baseline."
+      ]
+    },
+    {
+      "id": "SuperPrayerPotionP2B",
+      "gameId": "MelvorBase:SuperPrayerPotionP2B",
+      "name": "Super Prayer Potion P2-B",
+      "requiredLevel": null,
+      "availability": "locked",
+      "conditions": [
+        "Consumes DemoPlaceholderItem × 1 per completed action"
+      ],
+      "intervalSeconds": 7.0,
+      "intervalLabel": "7.0s base cycle",
+      "baseXp": 1,
+      "successChance": 1,
+      "xpPerHour": 514.2857142857143,
+      "itemsPerHour": 514.2857142857143,
+      "gpPerHour": 0.0,
+      "products": [
+        {
+          "id": "MelvorBase:DemoPlaceholderItem",
+          "name": "DemoPlaceholderItem",
+          "role": "primary",
+          "basis": "completed action",
+          "probability": 1,
+          "quantity": 1,
+          "itemsPerHour": 514.2857142857143,
+          "gpPerHour": 0.0
+        }
+      ],
+      "sourcePointer": "/Objects/HerbloreRecipe/137",
+      "notes": [
+        "Fixed base reference; no equipment, bonuses, preservation or downtime.",
+        "Locked demo placeholder definition; not a playable potion baseline."
+      ]
+    },
+    {
+      "id": "IllnessCurePotionP1A",
+      "gameId": "MelvorBase:IllnessCurePotionP1A",
+      "name": "Illness Cure Potion P1-A",
+      "requiredLevel": null,
+      "availability": "locked",
+      "conditions": [
+        "Consumes DemoPlaceholderItem × 1 per completed action"
+      ],
+      "intervalSeconds": 3.0,
+      "intervalLabel": "3.0s base cycle",
+      "baseXp": 1,
+      "successChance": 1,
+      "xpPerHour": 1200.0,
+      "itemsPerHour": 1200.0,
+      "gpPerHour": 0.0,
+      "products": [
+        {
+          "id": "MelvorBase:DemoPlaceholderItem",
+          "name": "DemoPlaceholderItem",
+          "role": "primary",
+          "basis": "completed action",
+          "probability": 1,
+          "quantity": 1,
+          "itemsPerHour": 1200.0,
+          "gpPerHour": 0.0
+        }
+      ],
+      "sourcePointer": "/Objects/HerbloreRecipe/138",
+      "notes": [
+        "Fixed base reference; no equipment, bonuses, preservation or downtime.",
+        "Locked demo placeholder definition; not a playable potion baseline."
+      ]
+    },
+    {
+      "id": "PoisonFishPotionP1A",
+      "gameId": "MelvorBase:PoisonFishPotionP1A",
+      "name": "Poison Fish Potion P1-A",
+      "requiredLevel": null,
+      "availability": "locked",
+      "conditions": [
+        "Consumes DemoPlaceholderItem × 1 per completed action"
+      ],
+      "intervalSeconds": 3.0,
+      "intervalLabel": "3.0s base cycle",
+      "baseXp": 1,
+      "successChance": 1,
+      "xpPerHour": 1200.0,
+      "itemsPerHour": 1200.0,
+      "gpPerHour": 0.0,
+      "products": [
+        {
+          "id": "MelvorBase:DemoPlaceholderItem",
+          "name": "DemoPlaceholderItem",
+          "role": "primary",
+          "basis": "completed action",
+          "probability": 1,
+          "quantity": 1,
+          "itemsPerHour": 1200.0,
+          "gpPerHour": 0.0
+        }
+      ],
+      "sourcePointer": "/Objects/HerbloreRecipe/139",
+      "notes": [
+        "Fixed base reference; no equipment, bonuses, preservation or downtime.",
+        "Locked demo placeholder definition; not a playable potion baseline."
+      ]
+    },
+    {
+      "id": "WardBreakerPotionP1A",
+      "gameId": "MelvorBase:WardBreakerPotionP1A",
+      "name": "Ward Breaker Potion P1-A",
+      "requiredLevel": null,
+      "availability": "locked",
+      "conditions": [
+        "Consumes DemoPlaceholderItem × 1 per completed action"
+      ],
+      "intervalSeconds": 7.0,
+      "intervalLabel": "7.0s base cycle",
+      "baseXp": 1,
+      "successChance": 1,
+      "xpPerHour": 514.2857142857143,
+      "itemsPerHour": 514.2857142857143,
+      "gpPerHour": 0.0,
+      "products": [
+        {
+          "id": "MelvorBase:DemoPlaceholderItem",
+          "name": "DemoPlaceholderItem",
+          "role": "primary",
+          "basis": "completed action",
+          "probability": 1,
+          "quantity": 1,
+          "itemsPerHour": 514.2857142857143,
+          "gpPerHour": 0.0
+        }
+      ],
+      "sourcePointer": "/Objects/HerbloreRecipe/140",
+      "notes": [
+        "Fixed base reference; no equipment, bonuses, preservation or downtime.",
+        "Locked demo placeholder definition; not a playable potion baseline."
+      ]
+    },
+    {
+      "id": "WardBreakerPotionP2A",
+      "gameId": "MelvorBase:WardBreakerPotionP2A",
+      "name": "Ward Breaker Potion P2A",
+      "requiredLevel": null,
+      "availability": "locked",
+      "conditions": [
+        "Consumes DemoPlaceholderItem × 1 per completed action"
+      ],
+      "intervalSeconds": 7.0,
+      "intervalLabel": "7.0s base cycle",
+      "baseXp": 1,
+      "successChance": 1,
+      "xpPerHour": 514.2857142857143,
+      "itemsPerHour": 514.2857142857143,
+      "gpPerHour": 0.0,
+      "products": [
+        {
+          "id": "MelvorBase:DemoPlaceholderItem",
+          "name": "DemoPlaceholderItem",
+          "role": "primary",
+          "basis": "completed action",
+          "probability": 1,
+          "quantity": 1,
+          "itemsPerHour": 514.2857142857143,
+          "gpPerHour": 0.0
+        }
+      ],
+      "sourcePointer": "/Objects/HerbloreRecipe/141",
+      "notes": [
+        "Fixed base reference; no equipment, bonuses, preservation or downtime.",
+        "Locked demo placeholder definition; not a playable potion baseline."
+      ]
+    },
+    {
+      "id": "WardBreakerPotionP2B",
+      "gameId": "MelvorBase:WardBreakerPotionP2B",
+      "name": "Ward Breaker Potion P2-B",
+      "requiredLevel": null,
+      "availability": "locked",
+      "conditions": [
+        "Consumes DemoPlaceholderItem × 1 per completed action"
+      ],
+      "intervalSeconds": 7.0,
+      "intervalLabel": "7.0s base cycle",
+      "baseXp": 1,
+      "successChance": 1,
+      "xpPerHour": 514.2857142857143,
+      "itemsPerHour": 514.2857142857143,
+      "gpPerHour": 0.0,
+      "products": [
+        {
+          "id": "MelvorBase:DemoPlaceholderItem",
+          "name": "DemoPlaceholderItem",
+          "role": "primary",
+          "basis": "completed action",
+          "probability": 1,
+          "quantity": 1,
+          "itemsPerHour": 514.2857142857143,
+          "gpPerHour": 0.0
+        }
+      ],
+      "sourcePointer": "/Objects/HerbloreRecipe/142",
+      "notes": [
+        "Fixed base reference; no equipment, bonuses, preservation or downtime.",
+        "Locked demo placeholder definition; not a playable potion baseline."
+      ]
+    },
+    {
+      "id": "SuperWardBreakerPotionP1A",
+      "gameId": "MelvorBase:SuperWardBreakerPotionP1A",
+      "name": "Super Ward Breaker Potion P1-A",
+      "requiredLevel": null,
+      "availability": "locked",
+      "conditions": [
+        "Consumes DemoPlaceholderItem × 1 per completed action"
+      ],
+      "intervalSeconds": 5.0,
+      "intervalLabel": "5.0s base cycle",
+      "baseXp": 1,
+      "successChance": 1,
+      "xpPerHour": 720.0,
+      "itemsPerHour": 720.0,
+      "gpPerHour": 0.0,
+      "products": [
+        {
+          "id": "MelvorBase:DemoPlaceholderItem",
+          "name": "DemoPlaceholderItem",
+          "role": "primary",
+          "basis": "completed action",
+          "probability": 1,
+          "quantity": 1,
+          "itemsPerHour": 720.0,
+          "gpPerHour": 0.0
+        }
+      ],
+      "sourcePointer": "/Objects/HerbloreRecipe/143",
+      "notes": [
+        "Fixed base reference; no equipment, bonuses, preservation or downtime.",
+        "Locked demo placeholder definition; not a playable potion baseline."
+      ]
+    },
+    {
+      "id": "SuperWardBreakerPotionP2A",
+      "gameId": "MelvorBase:SuperWardBreakerPotionP2A",
+      "name": "Super Ward Breaker Potion P2-A",
+      "requiredLevel": null,
+      "availability": "locked",
+      "conditions": [
+        "Consumes DemoPlaceholderItem × 1 per completed action"
+      ],
+      "intervalSeconds": 5.0,
+      "intervalLabel": "5.0s base cycle",
+      "baseXp": 1,
+      "successChance": 1,
+      "xpPerHour": 720.0,
+      "itemsPerHour": 720.0,
+      "gpPerHour": 0.0,
+      "products": [
+        {
+          "id": "MelvorBase:DemoPlaceholderItem",
+          "name": "DemoPlaceholderItem",
+          "role": "primary",
+          "basis": "completed action",
+          "probability": 1,
+          "quantity": 1,
+          "itemsPerHour": 720.0,
+          "gpPerHour": 0.0
+        }
+      ],
+      "sourcePointer": "/Objects/HerbloreRecipe/144",
+      "notes": [
+        "Fixed base reference; no equipment, bonuses, preservation or downtime.",
+        "Locked demo placeholder definition; not a playable potion baseline."
+      ]
+    },
+    {
+      "id": "SuperWardBreakerPotionP2B",
+      "gameId": "MelvorBase:SuperWardBreakerPotionP2B",
+      "name": "Super Ward Breaker Potion P2-B",
+      "requiredLevel": null,
+      "availability": "locked",
+      "conditions": [
+        "Consumes DemoPlaceholderItem × 1 per completed action"
+      ],
+      "intervalSeconds": 5.0,
+      "intervalLabel": "5.0s base cycle",
+      "baseXp": 1,
+      "successChance": 1,
+      "xpPerHour": 720.0,
+      "itemsPerHour": 720.0,
+      "gpPerHour": 0.0,
+      "products": [
+        {
+          "id": "MelvorBase:DemoPlaceholderItem",
+          "name": "DemoPlaceholderItem",
+          "role": "primary",
+          "basis": "completed action",
+          "probability": 1,
+          "quantity": 1,
+          "itemsPerHour": 720.0,
+          "gpPerHour": 0.0
+        }
+      ],
+      "sourcePointer": "/Objects/HerbloreRecipe/145",
+      "notes": [
+        "Fixed base reference; no equipment, bonuses, preservation or downtime.",
+        "Locked demo placeholder definition; not a playable potion baseline."
+      ]
+    },
+    {
+      "id": "AstrologyPotionP1A",
+      "gameId": "MelvorBase:AstrologyPotionP1A",
+      "name": "Astrology Potion P1-A",
+      "requiredLevel": null,
+      "availability": "locked",
+      "conditions": [
+        "Consumes DemoPlaceholderItem × 1 per completed action"
+      ],
+      "intervalSeconds": 5.0,
+      "intervalLabel": "5.0s base cycle",
+      "baseXp": 1,
+      "successChance": 1,
+      "xpPerHour": 720.0,
+      "itemsPerHour": 720.0,
+      "gpPerHour": 0.0,
+      "products": [
+        {
+          "id": "MelvorBase:DemoPlaceholderItem",
+          "name": "DemoPlaceholderItem",
+          "role": "primary",
+          "basis": "completed action",
+          "probability": 1,
+          "quantity": 1,
+          "itemsPerHour": 720.0,
+          "gpPerHour": 0.0
+        }
+      ],
+      "sourcePointer": "/Objects/HerbloreRecipe/146",
+      "notes": [
+        "Fixed base reference; no equipment, bonuses, preservation or downtime.",
+        "Locked demo placeholder definition; not a playable potion baseline."
+      ]
+    },
+    {
+      "id": "AstrologyPotionP2A",
+      "gameId": "MelvorBase:AstrologyPotionP2A",
+      "name": "Astrology Potion P2-A",
+      "requiredLevel": null,
+      "availability": "locked",
+      "conditions": [
+        "Consumes DemoPlaceholderItem × 1 per completed action"
+      ],
+      "intervalSeconds": 5.0,
+      "intervalLabel": "5.0s base cycle",
+      "baseXp": 1,
+      "successChance": 1,
+      "xpPerHour": 720.0,
+      "itemsPerHour": 720.0,
+      "gpPerHour": 0.0,
+      "products": [
+        {
+          "id": "MelvorBase:DemoPlaceholderItem",
+          "name": "DemoPlaceholderItem",
+          "role": "primary",
+          "basis": "completed action",
+          "probability": 1,
+          "quantity": 1,
+          "itemsPerHour": 720.0,
+          "gpPerHour": 0.0
+        }
+      ],
+      "sourcePointer": "/Objects/HerbloreRecipe/147",
+      "notes": [
+        "Fixed base reference; no equipment, bonuses, preservation or downtime.",
+        "Locked demo placeholder definition; not a playable potion baseline."
+      ]
+    },
+    {
+      "id": "AstrologyPotionP2B",
+      "gameId": "MelvorBase:AstrologyPotionP2B",
+      "name": "Astrology Potion P2-B",
+      "requiredLevel": null,
+      "availability": "locked",
+      "conditions": [
+        "Consumes DemoPlaceholderItem × 1 per completed action"
+      ],
+      "intervalSeconds": 5.0,
+      "intervalLabel": "5.0s base cycle",
+      "baseXp": 1,
+      "successChance": 1,
+      "xpPerHour": 720.0,
+      "itemsPerHour": 720.0,
+      "gpPerHour": 0.0,
+      "products": [
+        {
+          "id": "MelvorBase:DemoPlaceholderItem",
+          "name": "DemoPlaceholderItem",
+          "role": "primary",
+          "basis": "completed action",
+          "probability": 1,
+          "quantity": 1,
+          "itemsPerHour": 720.0,
+          "gpPerHour": 0.0
+        }
+      ],
+      "sourcePointer": "/Objects/HerbloreRecipe/148",
+      "notes": [
+        "Fixed base reference; no equipment, bonuses, preservation or downtime.",
+        "Locked demo placeholder definition; not a playable potion baseline."
+      ]
+    },
+    {
+      "id": "SuperAstrologyPotionP1A",
+      "gameId": "MelvorBase:SuperAstrologyPotionP1A",
+      "name": "Super Astrology Potion P1-A",
+      "requiredLevel": null,
+      "availability": "locked",
+      "conditions": [
+        "Consumes DemoPlaceholderItem × 1 per completed action"
+      ],
+      "intervalSeconds": 4.5,
+      "intervalLabel": "4.5s base cycle",
+      "baseXp": 1,
+      "successChance": 1,
+      "xpPerHour": 800.0,
+      "itemsPerHour": 800.0,
+      "gpPerHour": 0.0,
+      "products": [
+        {
+          "id": "MelvorBase:DemoPlaceholderItem",
+          "name": "DemoPlaceholderItem",
+          "role": "primary",
+          "basis": "completed action",
+          "probability": 1,
+          "quantity": 1,
+          "itemsPerHour": 800.0,
+          "gpPerHour": 0.0
+        }
+      ],
+      "sourcePointer": "/Objects/HerbloreRecipe/149",
+      "notes": [
+        "Fixed base reference; no equipment, bonuses, preservation or downtime.",
+        "Locked demo placeholder definition; not a playable potion baseline."
+      ]
+    },
+    {
+      "id": "SuperAstrologyPotionP2A",
+      "gameId": "MelvorBase:SuperAstrologyPotionP2A",
+      "name": "Super Astrology Potion P2-A",
+      "requiredLevel": null,
+      "availability": "locked",
+      "conditions": [
+        "Consumes DemoPlaceholderItem × 1 per completed action"
+      ],
+      "intervalSeconds": 4.5,
+      "intervalLabel": "4.5s base cycle",
+      "baseXp": 1,
+      "successChance": 1,
+      "xpPerHour": 800.0,
+      "itemsPerHour": 800.0,
+      "gpPerHour": 0.0,
+      "products": [
+        {
+          "id": "MelvorBase:DemoPlaceholderItem",
+          "name": "DemoPlaceholderItem",
+          "role": "primary",
+          "basis": "completed action",
+          "probability": 1,
+          "quantity": 1,
+          "itemsPerHour": 800.0,
+          "gpPerHour": 0.0
+        }
+      ],
+      "sourcePointer": "/Objects/HerbloreRecipe/150",
+      "notes": [
+        "Fixed base reference; no equipment, bonuses, preservation or downtime.",
+        "Locked demo placeholder definition; not a playable potion baseline."
+      ]
+    },
+    {
+      "id": "SuperAstrologyPotionP2B",
+      "gameId": "MelvorBase:SuperAstrologyPotionP2B",
+      "name": "Super Astrology Potion P2-B",
+      "requiredLevel": null,
+      "availability": "locked",
+      "conditions": [
+        "Consumes DemoPlaceholderItem × 1 per completed action"
+      ],
+      "intervalSeconds": 4.5,
+      "intervalLabel": "4.5s base cycle",
+      "baseXp": 1,
+      "successChance": 1,
+      "xpPerHour": 800.0,
+      "itemsPerHour": 800.0,
+      "gpPerHour": 0.0,
+      "products": [
+        {
+          "id": "MelvorBase:DemoPlaceholderItem",
+          "name": "DemoPlaceholderItem",
+          "role": "primary",
+          "basis": "completed action",
+          "probability": 1,
+          "quantity": 1,
+          "itemsPerHour": 800.0,
+          "gpPerHour": 0.0
+        }
+      ],
+      "sourcePointer": "/Objects/HerbloreRecipe/151",
+      "notes": [
+        "Fixed base reference; no equipment, bonuses, preservation or downtime.",
+        "Locked demo placeholder definition; not a playable potion baseline."
+      ]
+    }
+  ],
+  "notes": [
+    "Rates are fixed offline from independently verified base facts.",
+    "Ingredient consumption and gross sale value are shown; costs are not deducted."
+  ]
+}

@@ -1,0 +1,927 @@
+{
+  "id": "firemaking",
+  "gameVersion": "0.11.2-alpha.4",
+  "steamBuildId": "26074343",
+  "packageSha256": "2b43f26ce76d86178f56a72c8dced08a0ae545779786cccdcac868bdc3478474",
+  "checkedAt": "2026-10-25",
+  "method": "docs/BASE_SKILL_FORMULAS.md#artisan-production",
+  "rows": [
+    {
+      "id": "NormalLog",
+      "gameId": "MelvorBase:NormalLog",
+      "name": "Normal Log",
+      "requiredLevel": 1,
+      "availability": "demo",
+      "conditions": [
+        "Firemaking level 1",
+        "Consumes NormalLog × 1 per completed action"
+      ],
+      "intervalSeconds": 4.0,
+      "intervalLabel": "4.0s base cycle",
+      "baseXp": 6,
+      "successChance": 1,
+      "xpPerHour": 5400.0,
+      "itemsPerHour": 630.0,
+      "gpPerHour": 1890.0,
+      "products": [
+        {
+          "id": "MelvorBase:Ash",
+          "name": "Ash",
+          "role": "side",
+          "basis": "independent product roll",
+          "probability": 0.25,
+          "quantity": 2,
+          "itemsPerHour": 450.0,
+          "gpPerHour": 1350.0
+        },
+        {
+          "id": "MelvorBase:Charcoal",
+          "name": "Charcoal",
+          "role": "side",
+          "basis": "independent product roll",
+          "probability": 0.1,
+          "quantity": 2,
+          "itemsPerHour": 180.0,
+          "gpPerHour": 540.0
+        }
+      ],
+      "sourcePointer": "/Objects/FiremakingRecipe/0",
+      "notes": [
+        "Fixed base reference; no equipment, bonuses, preservation or downtime.",
+        "Firemaking lists all independent byproduct rolls; its primary-product hook is empty in this build."
+      ]
+    },
+    {
+      "id": "OakLog",
+      "gameId": "MelvorBase:OakLog",
+      "name": "Oak Log",
+      "requiredLevel": 10,
+      "availability": "demo",
+      "conditions": [
+        "Firemaking level 10",
+        "Consumes OakLog × 1 per completed action"
+      ],
+      "intervalSeconds": 6.0,
+      "intervalLabel": "6.0s base cycle",
+      "baseXp": 15,
+      "successChance": 1,
+      "xpPerHour": 9000.0,
+      "itemsPerHour": 420.0,
+      "gpPerHour": 1260.0,
+      "products": [
+        {
+          "id": "MelvorBase:Ash",
+          "name": "Ash",
+          "role": "primary",
+          "basis": "completed action",
+          "probability": 0.25,
+          "quantity": 2,
+          "itemsPerHour": 300.0,
+          "gpPerHour": 900.0
+        },
+        {
+          "id": "MelvorBase:Charcoal",
+          "name": "Charcoal",
+          "role": "primary",
+          "basis": "completed action",
+          "probability": 0.1,
+          "quantity": 2,
+          "itemsPerHour": 120.0,
+          "gpPerHour": 360.0
+        }
+      ],
+      "sourcePointer": "/Objects/FiremakingRecipe/1",
+      "notes": [
+        "Fixed base reference; no equipment, bonuses, preservation or downtime."
+      ]
+    },
+    {
+      "id": "WillowLog",
+      "gameId": "MelvorBase:WillowLog",
+      "name": "Willow Log",
+      "requiredLevel": 25,
+      "availability": "demo",
+      "conditions": [
+        "Firemaking level 25",
+        "Consumes WillowLog × 1 per completed action"
+      ],
+      "intervalSeconds": 8.0,
+      "intervalLabel": "8.0s base cycle",
+      "baseXp": 33,
+      "successChance": 1,
+      "xpPerHour": 14850.0,
+      "itemsPerHour": 472.5,
+      "gpPerHour": 1417.5,
+      "products": [
+        {
+          "id": "MelvorBase:Ash",
+          "name": "Ash",
+          "role": "primary",
+          "basis": "completed action",
+          "probability": 0.25,
+          "quantity": 3,
+          "itemsPerHour": 337.5,
+          "gpPerHour": 1012.5
+        },
+        {
+          "id": "MelvorBase:Charcoal",
+          "name": "Charcoal",
+          "role": "primary",
+          "basis": "completed action",
+          "probability": 0.1,
+          "quantity": 3,
+          "itemsPerHour": 135.0,
+          "gpPerHour": 405.0
+        }
+      ],
+      "sourcePointer": "/Objects/FiremakingRecipe/2",
+      "notes": [
+        "Fixed base reference; no equipment, bonuses, preservation or downtime."
+      ]
+    },
+    {
+      "id": "TeakLog",
+      "gameId": "MelvorBase:TeakLog",
+      "name": "Teak Log",
+      "requiredLevel": 35,
+      "availability": "demo",
+      "conditions": [
+        "Firemaking level 35",
+        "Consumes TeakLog × 1 per completed action"
+      ],
+      "intervalSeconds": 10.0,
+      "intervalLabel": "10.0s base cycle",
+      "baseXp": 47,
+      "successChance": 1,
+      "xpPerHour": 16920.0,
+      "itemsPerHour": 504.0,
+      "gpPerHour": 1512.0,
+      "products": [
+        {
+          "id": "MelvorBase:Ash",
+          "name": "Ash",
+          "role": "primary",
+          "basis": "completed action",
+          "probability": 0.25,
+          "quantity": 4,
+          "itemsPerHour": 360.0,
+          "gpPerHour": 1080.0
+        },
+        {
+          "id": "MelvorBase:Charcoal",
+          "name": "Charcoal",
+          "role": "primary",
+          "basis": "completed action",
+          "probability": 0.1,
+          "quantity": 4,
+          "itemsPerHour": 144.0,
+          "gpPerHour": 432.0
+        }
+      ],
+      "sourcePointer": "/Objects/FiremakingRecipe/3",
+      "notes": [
+        "Fixed base reference; no equipment, bonuses, preservation or downtime."
+      ]
+    },
+    {
+      "id": "MapleLog",
+      "gameId": "MelvorBase:MapleLog",
+      "name": "Maple Log",
+      "requiredLevel": 45,
+      "availability": "demo",
+      "conditions": [
+        "Firemaking level 45",
+        "Consumes MapleLog × 1 per completed action"
+      ],
+      "intervalSeconds": 12.0,
+      "intervalLabel": "12.0s base cycle",
+      "baseXp": 82,
+      "successChance": 1,
+      "xpPerHour": 24600.0,
+      "itemsPerHour": 705.0,
+      "gpPerHour": 2115.0,
+      "products": [
+        {
+          "id": "MelvorBase:Ash",
+          "name": "Ash",
+          "role": "primary",
+          "basis": "completed action",
+          "probability": 0.25,
+          "quantity": 5,
+          "itemsPerHour": 375.0,
+          "gpPerHour": 1125.0
+        },
+        {
+          "id": "MelvorBase:Charcoal",
+          "name": "Charcoal",
+          "role": "primary",
+          "basis": "completed action",
+          "probability": 0.1,
+          "quantity": 5,
+          "itemsPerHour": 150.0,
+          "gpPerHour": 450.0
+        },
+        {
+          "id": "MelvorBase:Soot",
+          "name": "Soot",
+          "role": "primary",
+          "basis": "completed action",
+          "probability": 0.05,
+          "quantity": 12,
+          "itemsPerHour": 180.0,
+          "gpPerHour": 540.0
+        }
+      ],
+      "sourcePointer": "/Objects/FiremakingRecipe/4",
+      "notes": [
+        "Fixed base reference; no equipment, bonuses, preservation or downtime."
+      ]
+    },
+    {
+      "id": "MahoganyLog",
+      "gameId": "MelvorBase:MahoganyLog",
+      "name": "Mahogany Log",
+      "requiredLevel": 55,
+      "availability": "demo",
+      "conditions": [
+        "Firemaking level 55",
+        "Consumes MahoganyLog × 1 per completed action"
+      ],
+      "intervalSeconds": 14.0,
+      "intervalLabel": "14.0s base cycle",
+      "baseXp": 130,
+      "successChance": 1,
+      "xpPerHour": 33428.571428571435,
+      "itemsPerHour": 900.0000000000001,
+      "gpPerHour": 2700.0000000000005,
+      "products": [
+        {
+          "id": "MelvorBase:Ash",
+          "name": "Ash",
+          "role": "primary",
+          "basis": "completed action",
+          "probability": 0.25,
+          "quantity": 6,
+          "itemsPerHour": 385.7142857142858,
+          "gpPerHour": 1157.1428571428573
+        },
+        {
+          "id": "MelvorBase:Charcoal",
+          "name": "Charcoal",
+          "role": "primary",
+          "basis": "completed action",
+          "probability": 0.1,
+          "quantity": 6,
+          "itemsPerHour": 154.2857142857143,
+          "gpPerHour": 462.8571428571429
+        },
+        {
+          "id": "MelvorBase:Soot",
+          "name": "Soot",
+          "role": "primary",
+          "basis": "completed action",
+          "probability": 0.1,
+          "quantity": 14,
+          "itemsPerHour": 360.00000000000006,
+          "gpPerHour": 1080.0000000000002
+        }
+      ],
+      "sourcePointer": "/Objects/FiremakingRecipe/5",
+      "notes": [
+        "Fixed base reference; no equipment, bonuses, preservation or downtime."
+      ]
+    },
+    {
+      "id": "YewLog",
+      "gameId": "MelvorBase:YewLog",
+      "name": "Yew Log",
+      "requiredLevel": null,
+      "availability": "locked",
+      "conditions": [
+        "Consumes DemoPlaceholderItem × 1 per completed action"
+      ],
+      "intervalSeconds": 10.0,
+      "intervalLabel": "10.0s base cycle",
+      "baseXp": 1,
+      "successChance": 1,
+      "xpPerHour": 360.0,
+      "itemsPerHour": 360.0,
+      "gpPerHour": 0.0,
+      "products": [
+        {
+          "id": "MelvorBase:DemoPlaceholderItem",
+          "name": "DemoPlaceholderItem",
+          "role": "primary",
+          "basis": "completed action",
+          "probability": 1,
+          "quantity": 1,
+          "itemsPerHour": 360.0,
+          "gpPerHour": 0.0
+        }
+      ],
+      "sourcePointer": "/Objects/FiremakingRecipe/6",
+      "notes": [
+        "Fixed base reference; no equipment, bonuses, preservation or downtime.",
+        "Locked demo placeholder definition; not a playable potion baseline."
+      ]
+    },
+    {
+      "id": "MagicLog",
+      "gameId": "MelvorBase:MagicLog",
+      "name": "Magic Log",
+      "requiredLevel": null,
+      "availability": "locked",
+      "conditions": [
+        "Consumes DemoPlaceholderItem × 1 per completed action"
+      ],
+      "intervalSeconds": 10.0,
+      "intervalLabel": "10.0s base cycle",
+      "baseXp": 1,
+      "successChance": 1,
+      "xpPerHour": 360.0,
+      "itemsPerHour": 360.0,
+      "gpPerHour": 0.0,
+      "products": [
+        {
+          "id": "MelvorBase:DemoPlaceholderItem",
+          "name": "DemoPlaceholderItem",
+          "role": "primary",
+          "basis": "completed action",
+          "probability": 1,
+          "quantity": 1,
+          "itemsPerHour": 360.0,
+          "gpPerHour": 0.0
+        }
+      ],
+      "sourcePointer": "/Objects/FiremakingRecipe/7",
+      "notes": [
+        "Fixed base reference; no equipment, bonuses, preservation or downtime.",
+        "Locked demo placeholder definition; not a playable potion baseline."
+      ]
+    },
+    {
+      "id": "HardOakLog",
+      "gameId": "MelvorBase:HardOakLog",
+      "name": "Hard Oak Log",
+      "requiredLevel": null,
+      "availability": "locked",
+      "conditions": [
+        "Consumes DemoPlaceholderItem × 1 per completed action"
+      ],
+      "intervalSeconds": 10.0,
+      "intervalLabel": "10.0s base cycle",
+      "baseXp": 1,
+      "successChance": 1,
+      "xpPerHour": 360.0,
+      "itemsPerHour": 360.0,
+      "gpPerHour": 0.0,
+      "products": [
+        {
+          "id": "MelvorBase:DemoPlaceholderItem",
+          "name": "DemoPlaceholderItem",
+          "role": "primary",
+          "basis": "completed action",
+          "probability": 1,
+          "quantity": 1,
+          "itemsPerHour": 360.0,
+          "gpPerHour": 0.0
+        }
+      ],
+      "sourcePointer": "/Objects/FiremakingRecipe/8",
+      "notes": [
+        "Fixed base reference; no equipment, bonuses, preservation or downtime.",
+        "Locked demo placeholder definition; not a playable potion baseline."
+      ]
+    },
+    {
+      "id": "RedwoodLog",
+      "gameId": "MelvorBase:RedwoodLog",
+      "name": "Redwood Log",
+      "requiredLevel": null,
+      "availability": "locked",
+      "conditions": [
+        "Consumes DemoPlaceholderItem × 1 per completed action"
+      ],
+      "intervalSeconds": 10.0,
+      "intervalLabel": "10.0s base cycle",
+      "baseXp": 1,
+      "successChance": 1,
+      "xpPerHour": 360.0,
+      "itemsPerHour": 360.0,
+      "gpPerHour": 0.0,
+      "products": [
+        {
+          "id": "MelvorBase:DemoPlaceholderItem",
+          "name": "DemoPlaceholderItem",
+          "role": "primary",
+          "basis": "completed action",
+          "probability": 1,
+          "quantity": 1,
+          "itemsPerHour": 360.0,
+          "gpPerHour": 0.0
+        }
+      ],
+      "sourcePointer": "/Objects/FiremakingRecipe/9",
+      "notes": [
+        "Fixed base reference; no equipment, bonuses, preservation or downtime.",
+        "Locked demo placeholder definition; not a playable potion baseline."
+      ]
+    },
+    {
+      "id": "BlessedLog",
+      "gameId": "MelvorBase:BlessedLog",
+      "name": "Blessed Log",
+      "requiredLevel": 37,
+      "availability": "demo",
+      "conditions": [
+        "Firemaking level 37",
+        "Consumes BlessedLog × 1 per completed action"
+      ],
+      "intervalSeconds": 5.0,
+      "intervalLabel": "5.0s base cycle",
+      "baseXp": 27,
+      "successChance": 1,
+      "xpPerHour": 19440.0,
+      "itemsPerHour": 0,
+      "gpPerHour": 0,
+      "products": [],
+      "sourcePointer": "/Objects/FiremakingRecipe/10",
+      "notes": [
+        "Fixed base reference; no equipment, bonuses, preservation or downtime."
+      ]
+    },
+    {
+      "id": "BlessedOakLog",
+      "gameId": "MelvorBase:BlessedOakLog",
+      "name": "Blessed Oak Log",
+      "requiredLevel": 50,
+      "availability": "demo",
+      "conditions": [
+        "Firemaking level 50",
+        "Consumes BlessedOakLog × 1 per completed action"
+      ],
+      "intervalSeconds": 8.0,
+      "intervalLabel": "8.0s base cycle",
+      "baseXp": 70,
+      "successChance": 1,
+      "xpPerHour": 31500.0,
+      "itemsPerHour": 0,
+      "gpPerHour": 0,
+      "products": [],
+      "sourcePointer": "/Objects/FiremakingRecipe/11",
+      "notes": [
+        "Fixed base reference; no equipment, bonuses, preservation or downtime."
+      ]
+    },
+    {
+      "id": "BlessedWillowLog",
+      "gameId": "MelvorBase:BlessedWillowLog",
+      "name": "Blessed Willow Log",
+      "requiredLevel": null,
+      "availability": "locked",
+      "conditions": [
+        "Consumes DemoPlaceholderItem × 1 per completed action"
+      ],
+      "intervalSeconds": 10.0,
+      "intervalLabel": "10.0s base cycle",
+      "baseXp": 1,
+      "successChance": 1,
+      "xpPerHour": 360.0,
+      "itemsPerHour": 360.0,
+      "gpPerHour": 0.0,
+      "products": [
+        {
+          "id": "MelvorBase:DemoPlaceholderItem",
+          "name": "DemoPlaceholderItem",
+          "role": "primary",
+          "basis": "completed action",
+          "probability": 1,
+          "quantity": 1,
+          "itemsPerHour": 360.0,
+          "gpPerHour": 0.0
+        }
+      ],
+      "sourcePointer": "/Objects/FiremakingRecipe/12",
+      "notes": [
+        "Fixed base reference; no equipment, bonuses, preservation or downtime.",
+        "Locked demo placeholder definition; not a playable potion baseline."
+      ]
+    },
+    {
+      "id": "AshenLog",
+      "gameId": "MelvorBase:AshenLog",
+      "name": "Ashen Log",
+      "requiredLevel": null,
+      "availability": "locked",
+      "conditions": [
+        "Consumes DemoPlaceholderItem × 1 per completed action"
+      ],
+      "intervalSeconds": 10.0,
+      "intervalLabel": "10.0s base cycle",
+      "baseXp": 1,
+      "successChance": 1,
+      "xpPerHour": 360.0,
+      "itemsPerHour": 360.0,
+      "gpPerHour": 0.0,
+      "products": [
+        {
+          "id": "MelvorBase:DemoPlaceholderItem",
+          "name": "DemoPlaceholderItem",
+          "role": "primary",
+          "basis": "completed action",
+          "probability": 1,
+          "quantity": 1,
+          "itemsPerHour": 360.0,
+          "gpPerHour": 0.0
+        }
+      ],
+      "sourcePointer": "/Objects/FiremakingRecipe/13",
+      "notes": [
+        "Fixed base reference; no equipment, bonuses, preservation or downtime.",
+        "Locked demo placeholder definition; not a playable potion baseline."
+      ]
+    },
+    {
+      "id": "SteelLanternLit",
+      "gameId": "MelvorBase:SteelLanternLit",
+      "name": "Steel Lantern (Lit)",
+      "requiredLevel": 30,
+      "availability": "demo",
+      "conditions": [
+        "Firemaking level 30",
+        "Consumes SteelLantern × 10 per completed action"
+      ],
+      "intervalSeconds": 4.0,
+      "intervalLabel": "4.0s base cycle",
+      "baseXp": 14,
+      "successChance": 1,
+      "xpPerHour": 12600.0,
+      "itemsPerHour": 9000.0,
+      "gpPerHour": 9000.0,
+      "products": [
+        {
+          "id": "MelvorBase:SteelLanternLit",
+          "name": "Steel Lantern (Lit)",
+          "role": "primary",
+          "basis": "completed action",
+          "probability": 1,
+          "quantity": 10,
+          "itemsPerHour": 9000.0,
+          "gpPerHour": 9000.0
+        }
+      ],
+      "sourcePointer": "/Objects/FiremakingRecipe/14",
+      "notes": [
+        "Fixed base reference; no equipment, bonuses, preservation or downtime."
+      ]
+    },
+    {
+      "id": "MithrilLanternLit",
+      "gameId": "MelvorBase:MithrilLanternLit",
+      "name": "Mithril Lantern (Lit)",
+      "requiredLevel": 40,
+      "availability": "demo",
+      "conditions": [
+        "Firemaking level 40",
+        "Consumes MithrilLantern × 10 per completed action"
+      ],
+      "intervalSeconds": 4.0,
+      "intervalLabel": "4.0s base cycle",
+      "baseXp": 19,
+      "successChance": 1,
+      "xpPerHour": 17100.0,
+      "itemsPerHour": 9000.0,
+      "gpPerHour": 9000.0,
+      "products": [
+        {
+          "id": "MelvorBase:MithrilLanternLit",
+          "name": "Mithril Lantern (Lit)",
+          "role": "primary",
+          "basis": "completed action",
+          "probability": 1,
+          "quantity": 10,
+          "itemsPerHour": 9000.0,
+          "gpPerHour": 9000.0
+        }
+      ],
+      "sourcePointer": "/Objects/FiremakingRecipe/15",
+      "notes": [
+        "Fixed base reference; no equipment, bonuses, preservation or downtime."
+      ]
+    },
+    {
+      "id": "AdamantLanternLit",
+      "gameId": "MelvorBase:AdamantLanternLit",
+      "name": "Adamant Lantern (Lit)",
+      "requiredLevel": 50,
+      "availability": "demo",
+      "conditions": [
+        "Firemaking level 50",
+        "Consumes AdamantLantern × 10 per completed action"
+      ],
+      "intervalSeconds": 4.0,
+      "intervalLabel": "4.0s base cycle",
+      "baseXp": 26,
+      "successChance": 1,
+      "xpPerHour": 23400.0,
+      "itemsPerHour": 9000.0,
+      "gpPerHour": 9000.0,
+      "products": [
+        {
+          "id": "MelvorBase:AdamantLanternLit",
+          "name": "Adamant Lantern (Lit)",
+          "role": "primary",
+          "basis": "completed action",
+          "probability": 1,
+          "quantity": 10,
+          "itemsPerHour": 9000.0,
+          "gpPerHour": 9000.0
+        }
+      ],
+      "sourcePointer": "/Objects/FiremakingRecipe/16",
+      "notes": [
+        "Fixed base reference; no equipment, bonuses, preservation or downtime."
+      ]
+    },
+    {
+      "id": "RuneLanternLit",
+      "gameId": "MelvorBase:RuneLanternLit",
+      "name": "Rune Lantern (Lit)",
+      "requiredLevel": null,
+      "availability": "locked",
+      "conditions": [
+        "Consumes DemoPlaceholderItem × 1 per completed action"
+      ],
+      "intervalSeconds": 10.0,
+      "intervalLabel": "10.0s base cycle",
+      "baseXp": 1,
+      "successChance": 1,
+      "xpPerHour": 360.0,
+      "itemsPerHour": 360.0,
+      "gpPerHour": 0.0,
+      "products": [
+        {
+          "id": "MelvorBase:DemoPlaceholderItem",
+          "name": "DemoPlaceholderItem",
+          "role": "primary",
+          "basis": "completed action",
+          "probability": 1,
+          "quantity": 1,
+          "itemsPerHour": 360.0,
+          "gpPerHour": 0.0
+        }
+      ],
+      "sourcePointer": "/Objects/FiremakingRecipe/17",
+      "notes": [
+        "Fixed base reference; no equipment, bonuses, preservation or downtime.",
+        "Locked demo placeholder definition; not a playable potion baseline."
+      ]
+    },
+    {
+      "id": "DawnsteelLanternLit",
+      "gameId": "MelvorBase:DawnsteelLanternLit",
+      "name": "Dawnsteel Lantern (Lit)",
+      "requiredLevel": null,
+      "availability": "locked",
+      "conditions": [
+        "Consumes DemoPlaceholderItem × 1 per completed action"
+      ],
+      "intervalSeconds": 10.0,
+      "intervalLabel": "10.0s base cycle",
+      "baseXp": 1,
+      "successChance": 1,
+      "xpPerHour": 360.0,
+      "itemsPerHour": 360.0,
+      "gpPerHour": 0.0,
+      "products": [
+        {
+          "id": "MelvorBase:DemoPlaceholderItem",
+          "name": "DemoPlaceholderItem",
+          "role": "primary",
+          "basis": "completed action",
+          "probability": 1,
+          "quantity": 1,
+          "itemsPerHour": 360.0,
+          "gpPerHour": 0.0
+        }
+      ],
+      "sourcePointer": "/Objects/FiremakingRecipe/18",
+      "notes": [
+        "Fixed base reference; no equipment, bonuses, preservation or downtime.",
+        "Locked demo placeholder definition; not a playable potion baseline."
+      ]
+    },
+    {
+      "id": "DragonLanternLit",
+      "gameId": "MelvorBase:DragonLanternLit",
+      "name": "Dragon Lantern (Lit)",
+      "requiredLevel": null,
+      "availability": "locked",
+      "conditions": [
+        "Consumes DemoPlaceholderItem × 1 per completed action"
+      ],
+      "intervalSeconds": 10.0,
+      "intervalLabel": "10.0s base cycle",
+      "baseXp": 1,
+      "successChance": 1,
+      "xpPerHour": 360.0,
+      "itemsPerHour": 360.0,
+      "gpPerHour": 0.0,
+      "products": [
+        {
+          "id": "MelvorBase:DemoPlaceholderItem",
+          "name": "DemoPlaceholderItem",
+          "role": "primary",
+          "basis": "completed action",
+          "probability": 1,
+          "quantity": 1,
+          "itemsPerHour": 360.0,
+          "gpPerHour": 0.0
+        }
+      ],
+      "sourcePointer": "/Objects/FiremakingRecipe/19",
+      "notes": [
+        "Fixed base reference; no equipment, bonuses, preservation or downtime.",
+        "Locked demo placeholder definition; not a playable potion baseline."
+      ]
+    },
+    {
+      "id": "DragonruneLanternLit",
+      "gameId": "MelvorBase:DragonruneLanternLit",
+      "name": "Dragonrune Lantern (Lit)",
+      "requiredLevel": null,
+      "availability": "locked",
+      "conditions": [
+        "Consumes DemoPlaceholderItem × 1 per completed action"
+      ],
+      "intervalSeconds": 10.0,
+      "intervalLabel": "10.0s base cycle",
+      "baseXp": 1,
+      "successChance": 1,
+      "xpPerHour": 360.0,
+      "itemsPerHour": 360.0,
+      "gpPerHour": 0.0,
+      "products": [
+        {
+          "id": "MelvorBase:DemoPlaceholderItem",
+          "name": "DemoPlaceholderItem",
+          "role": "primary",
+          "basis": "completed action",
+          "probability": 1,
+          "quantity": 1,
+          "itemsPerHour": 360.0,
+          "gpPerHour": 0.0
+        }
+      ],
+      "sourcePointer": "/Objects/FiremakingRecipe/20",
+      "notes": [
+        "Fixed base reference; no equipment, bonuses, preservation or downtime.",
+        "Locked demo placeholder definition; not a playable potion baseline."
+      ]
+    },
+    {
+      "id": "TreantRemains",
+      "gameId": "MelvorBase:TreantRemains",
+      "name": "Treant Remains",
+      "requiredLevel": 30,
+      "availability": "conditional",
+      "conditions": [
+        "Firemaking level 30",
+        "Consumes TreantRemains × 1 per completed action"
+      ],
+      "intervalSeconds": 15.0,
+      "intervalLabel": "15.0s base cycle",
+      "baseXp": 86,
+      "successChance": 1,
+      "xpPerHour": 20640.0,
+      "itemsPerHour": 12000.0,
+      "gpPerHour": 36000.0,
+      "products": [
+        {
+          "id": "MelvorBase:Ash",
+          "name": "Ash",
+          "role": "primary",
+          "basis": "completed action",
+          "probability": 1,
+          "quantity": 50,
+          "itemsPerHour": 12000.0,
+          "gpPerHour": 36000.0
+        }
+      ],
+      "sourcePointer": "/Objects/FiremakingRecipe/21",
+      "notes": [
+        "Fixed base reference; no equipment, bonuses, preservation or downtime."
+      ]
+    },
+    {
+      "id": "Brazier1",
+      "gameId": "MelvorBase:Brazier1",
+      "name": "Brazier 1",
+      "requiredLevel": 39,
+      "availability": "conditional",
+      "conditions": [
+        "Firemaking level 39",
+        "Consumes TeakLog × 100 per completed action",
+        "Consumes AmbervineLeaf × 100 per completed action"
+      ],
+      "intervalSeconds": 30.0,
+      "intervalLabel": "30.0s base cycle",
+      "baseXp": 174,
+      "successChance": 1,
+      "xpPerHour": 20880.0,
+      "itemsPerHour": 6000.0,
+      "gpPerHour": 18000.0,
+      "products": [
+        {
+          "id": "MelvorBase:Ash",
+          "name": "Ash",
+          "role": "primary",
+          "basis": "completed action",
+          "probability": 1,
+          "quantity": 50,
+          "itemsPerHour": 6000.0,
+          "gpPerHour": 18000.0
+        }
+      ],
+      "sourcePointer": "/Objects/FiremakingRecipe/22",
+      "notes": [
+        "Fixed base reference; no equipment, bonuses, preservation or downtime."
+      ]
+    },
+    {
+      "id": "Brazier2",
+      "gameId": "MelvorBase:Brazier2",
+      "name": "Brazier 2",
+      "requiredLevel": 39,
+      "availability": "conditional",
+      "conditions": [
+        "Firemaking level 39",
+        "Consumes Bone × 30 per completed action",
+        "Consumes BigBone × 10 per completed action",
+        "Consumes BlessedLog × 5 per completed action"
+      ],
+      "intervalSeconds": 30.0,
+      "intervalLabel": "30.0s base cycle",
+      "baseXp": 174,
+      "successChance": 1,
+      "xpPerHour": 20880.0,
+      "itemsPerHour": 6000.0,
+      "gpPerHour": 18000.0,
+      "products": [
+        {
+          "id": "MelvorBase:Ash",
+          "name": "Ash",
+          "role": "primary",
+          "basis": "completed action",
+          "probability": 1,
+          "quantity": 50,
+          "itemsPerHour": 6000.0,
+          "gpPerHour": 18000.0
+        }
+      ],
+      "sourcePointer": "/Objects/FiremakingRecipe/23",
+      "notes": [
+        "Fixed base reference; no equipment, bonuses, preservation or downtime."
+      ]
+    },
+    {
+      "id": "Brazier3",
+      "gameId": "MelvorBase:Brazier3",
+      "name": "Brazier 3",
+      "requiredLevel": 39,
+      "availability": "conditional",
+      "conditions": [
+        "Firemaking level 39",
+        "Consumes SourweedHerb × 200 per completed action",
+        "Consumes MantalymeHerb × 200 per completed action"
+      ],
+      "intervalSeconds": 30.0,
+      "intervalLabel": "30.0s base cycle",
+      "baseXp": 174,
+      "successChance": 1,
+      "xpPerHour": 20880.0,
+      "itemsPerHour": 6000.0,
+      "gpPerHour": 18000.0,
+      "products": [
+        {
+          "id": "MelvorBase:Ash",
+          "name": "Ash",
+          "role": "primary",
+          "basis": "completed action",
+          "probability": 1,
+          "quantity": 50,
+          "itemsPerHour": 6000.0,
+          "gpPerHour": 18000.0
+        }
+      ],
+      "sourcePointer": "/Objects/FiremakingRecipe/24",
+      "notes": [
+        "Fixed base reference; no equipment, bonuses, preservation or downtime."
+      ]
+    }
+  ],
+  "notes": [
+    "Rates are fixed offline from independently verified base facts.",
+    "Ingredient consumption and gross sale value are shown; costs are not deducted."
+  ]
+}

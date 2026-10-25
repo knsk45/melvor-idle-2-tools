@@ -1,0 +1,4177 @@
+{
+  "id": "runecrafting",
+  "gameVersion": "0.11.2-alpha.4",
+  "steamBuildId": "26074343",
+  "packageSha256": "2b43f26ce76d86178f56a72c8dced08a0ae545779786cccdcac868bdc3478474",
+  "checkedAt": "2026-10-25",
+  "method": "docs/BASE_SKILL_FORMULAS.md#artisan-production",
+  "rows": [
+    {
+      "id": "AirRune",
+      "gameId": "MelvorBase:AirRune",
+      "name": "Air Rune",
+      "requiredLevel": 1,
+      "availability": "demo",
+      "conditions": [
+        "Runecrafting level 1",
+        "Consumes RuneEssence × 1 per completed action"
+      ],
+      "intervalSeconds": 2.0,
+      "intervalLabel": "2.0s base cycle",
+      "baseXp": 2,
+      "successChance": 1,
+      "xpPerHour": 3600.0,
+      "itemsPerHour": 1800.0,
+      "gpPerHour": 1800.0,
+      "products": [
+        {
+          "id": "MelvorBase:AirRune",
+          "name": "Air Rune",
+          "role": "primary",
+          "basis": "completed action",
+          "probability": 1,
+          "quantity": 1,
+          "itemsPerHour": 1800.0,
+          "gpPerHour": 1800.0
+        }
+      ],
+      "sourcePointer": "/Objects/ArtisanRecipe/211",
+      "notes": [
+        "Fixed base reference; no equipment, bonuses, preservation or downtime."
+      ]
+    },
+    {
+      "id": "MindRune",
+      "gameId": "MelvorBase:MindRune",
+      "name": "Mind Rune",
+      "requiredLevel": 1,
+      "availability": "demo",
+      "conditions": [
+        "Runecrafting level 1",
+        "Consumes RuneEssence × 1 per completed action"
+      ],
+      "intervalSeconds": 2.0,
+      "intervalLabel": "2.0s base cycle",
+      "baseXp": 2,
+      "successChance": 1,
+      "xpPerHour": 3600.0,
+      "itemsPerHour": 1800.0,
+      "gpPerHour": 1800.0,
+      "products": [
+        {
+          "id": "MelvorBase:MindRune",
+          "name": "Mind Rune",
+          "role": "primary",
+          "basis": "completed action",
+          "probability": 1,
+          "quantity": 1,
+          "itemsPerHour": 1800.0,
+          "gpPerHour": 1800.0
+        }
+      ],
+      "sourcePointer": "/Objects/ArtisanRecipe/212",
+      "notes": [
+        "Fixed base reference; no equipment, bonuses, preservation or downtime."
+      ]
+    },
+    {
+      "id": "WaterRune",
+      "gameId": "MelvorBase:WaterRune",
+      "name": "Water Rune",
+      "requiredLevel": 5,
+      "availability": "demo",
+      "conditions": [
+        "Runecrafting level 5",
+        "Consumes RuneEssence × 1 per completed action"
+      ],
+      "intervalSeconds": 2.0,
+      "intervalLabel": "2.0s base cycle",
+      "baseXp": 3,
+      "successChance": 1,
+      "xpPerHour": 5400.0,
+      "itemsPerHour": 1800.0,
+      "gpPerHour": 1800.0,
+      "products": [
+        {
+          "id": "MelvorBase:WaterRune",
+          "name": "Water Rune",
+          "role": "primary",
+          "basis": "completed action",
+          "probability": 1,
+          "quantity": 1,
+          "itemsPerHour": 1800.0,
+          "gpPerHour": 1800.0
+        }
+      ],
+      "sourcePointer": "/Objects/ArtisanRecipe/213",
+      "notes": [
+        "Fixed base reference; no equipment, bonuses, preservation or downtime."
+      ]
+    },
+    {
+      "id": "EarthRune",
+      "gameId": "MelvorBase:EarthRune",
+      "name": "Earth Rune",
+      "requiredLevel": 10,
+      "availability": "demo",
+      "conditions": [
+        "Runecrafting level 10",
+        "Consumes RuneEssence × 1 per completed action"
+      ],
+      "intervalSeconds": 2.0,
+      "intervalLabel": "2.0s base cycle",
+      "baseXp": 3,
+      "successChance": 1,
+      "xpPerHour": 5400.0,
+      "itemsPerHour": 1800.0,
+      "gpPerHour": 1800.0,
+      "products": [
+        {
+          "id": "MelvorBase:EarthRune",
+          "name": "Earth Rune",
+          "role": "primary",
+          "basis": "completed action",
+          "probability": 1,
+          "quantity": 1,
+          "itemsPerHour": 1800.0,
+          "gpPerHour": 1800.0
+        }
+      ],
+      "sourcePointer": "/Objects/ArtisanRecipe/214",
+      "notes": [
+        "Fixed base reference; no equipment, bonuses, preservation or downtime."
+      ]
+    },
+    {
+      "id": "FireRune",
+      "gameId": "MelvorBase:FireRune",
+      "name": "Fire Rune",
+      "requiredLevel": 20,
+      "availability": "demo",
+      "conditions": [
+        "Runecrafting level 20",
+        "Consumes RuneEssence × 1 per completed action"
+      ],
+      "intervalSeconds": 2.0,
+      "intervalLabel": "2.0s base cycle",
+      "baseXp": 4,
+      "successChance": 1,
+      "xpPerHour": 7200.0,
+      "itemsPerHour": 1800.0,
+      "gpPerHour": 3600.0,
+      "products": [
+        {
+          "id": "MelvorBase:FireRune",
+          "name": "Fire Rune",
+          "role": "primary",
+          "basis": "completed action",
+          "probability": 1,
+          "quantity": 1,
+          "itemsPerHour": 1800.0,
+          "gpPerHour": 3600.0
+        }
+      ],
+      "sourcePointer": "/Objects/ArtisanRecipe/215",
+      "notes": [
+        "Fixed base reference; no equipment, bonuses, preservation or downtime."
+      ]
+    },
+    {
+      "id": "ChaosRune",
+      "gameId": "MelvorBase:ChaosRune",
+      "name": "Chaos Rune",
+      "requiredLevel": 25,
+      "availability": "demo",
+      "conditions": [
+        "Runecrafting level 25",
+        "Consumes RuneEssence × 1 per completed action"
+      ],
+      "intervalSeconds": 2.0,
+      "intervalLabel": "2.0s base cycle",
+      "baseXp": 5,
+      "successChance": 1,
+      "xpPerHour": 9000.0,
+      "itemsPerHour": 1800.0,
+      "gpPerHour": 3600.0,
+      "products": [
+        {
+          "id": "MelvorBase:ChaosRune",
+          "name": "Chaos Rune",
+          "role": "primary",
+          "basis": "completed action",
+          "probability": 1,
+          "quantity": 1,
+          "itemsPerHour": 1800.0,
+          "gpPerHour": 3600.0
+        }
+      ],
+      "sourcePointer": "/Objects/ArtisanRecipe/216",
+      "notes": [
+        "Fixed base reference; no equipment, bonuses, preservation or downtime."
+      ]
+    },
+    {
+      "id": "BodyRune",
+      "gameId": "MelvorBase:BodyRune",
+      "name": "Body Rune",
+      "requiredLevel": 35,
+      "availability": "demo",
+      "conditions": [
+        "Runecrafting level 35",
+        "Consumes RuneEssence × 1 per completed action"
+      ],
+      "intervalSeconds": 2.0,
+      "intervalLabel": "2.0s base cycle",
+      "baseXp": 6,
+      "successChance": 1,
+      "xpPerHour": 10800.0,
+      "itemsPerHour": 1800.0,
+      "gpPerHour": 5400.0,
+      "products": [
+        {
+          "id": "MelvorBase:BodyRune",
+          "name": "Body Rune",
+          "role": "primary",
+          "basis": "completed action",
+          "probability": 1,
+          "quantity": 1,
+          "itemsPerHour": 1800.0,
+          "gpPerHour": 5400.0
+        }
+      ],
+      "sourcePointer": "/Objects/ArtisanRecipe/217",
+      "notes": [
+        "Fixed base reference; no equipment, bonuses, preservation or downtime."
+      ]
+    },
+    {
+      "id": "DeathRune",
+      "gameId": "MelvorBase:DeathRune",
+      "name": "Death Rune",
+      "requiredLevel": 45,
+      "availability": "demo",
+      "conditions": [
+        "Runecrafting level 45",
+        "Consumes RuneEssence × 1 per completed action"
+      ],
+      "intervalSeconds": 2.0,
+      "intervalLabel": "2.0s base cycle",
+      "baseXp": 8,
+      "successChance": 1,
+      "xpPerHour": 14400.0,
+      "itemsPerHour": 1800.0,
+      "gpPerHour": 3600.0,
+      "products": [
+        {
+          "id": "MelvorBase:DeathRune",
+          "name": "Death Rune",
+          "role": "primary",
+          "basis": "completed action",
+          "probability": 1,
+          "quantity": 1,
+          "itemsPerHour": 1800.0,
+          "gpPerHour": 3600.0
+        }
+      ],
+      "sourcePointer": "/Objects/ArtisanRecipe/218",
+      "notes": [
+        "Fixed base reference; no equipment, bonuses, preservation or downtime."
+      ]
+    },
+    {
+      "id": "DecayRune",
+      "gameId": "MelvorBase:DecayRune",
+      "name": "Decay Rune",
+      "requiredLevel": null,
+      "availability": "locked",
+      "conditions": [
+        "Consumes DemoPlaceholderItem × 1 per completed action"
+      ],
+      "intervalSeconds": 10.0,
+      "intervalLabel": "10.0s base cycle",
+      "baseXp": 1,
+      "successChance": 1,
+      "xpPerHour": 360.0,
+      "itemsPerHour": 360.0,
+      "gpPerHour": 0.0,
+      "products": [
+        {
+          "id": "MelvorBase:DemoPlaceholderItem",
+          "name": "DemoPlaceholderItem",
+          "role": "primary",
+          "basis": "completed action",
+          "probability": 1,
+          "quantity": 1,
+          "itemsPerHour": 360.0,
+          "gpPerHour": 0.0
+        }
+      ],
+      "sourcePointer": "/Objects/ArtisanRecipe/219",
+      "notes": [
+        "Fixed base reference; no equipment, bonuses, preservation or downtime.",
+        "Locked demo placeholder definition; not a playable potion baseline."
+      ]
+    },
+    {
+      "id": "BloodRune",
+      "gameId": "MelvorBase:BloodRune",
+      "name": "Blood Rune",
+      "requiredLevel": null,
+      "availability": "locked",
+      "conditions": [
+        "Consumes DemoPlaceholderItem × 1 per completed action"
+      ],
+      "intervalSeconds": 10.0,
+      "intervalLabel": "10.0s base cycle",
+      "baseXp": 1,
+      "successChance": 1,
+      "xpPerHour": 360.0,
+      "itemsPerHour": 360.0,
+      "gpPerHour": 0.0,
+      "products": [
+        {
+          "id": "MelvorBase:DemoPlaceholderItem",
+          "name": "DemoPlaceholderItem",
+          "role": "primary",
+          "basis": "completed action",
+          "probability": 1,
+          "quantity": 1,
+          "itemsPerHour": 360.0,
+          "gpPerHour": 0.0
+        }
+      ],
+      "sourcePointer": "/Objects/ArtisanRecipe/220",
+      "notes": [
+        "Fixed base reference; no equipment, bonuses, preservation or downtime.",
+        "Locked demo placeholder definition; not a playable potion baseline."
+      ]
+    },
+    {
+      "id": "SoulRune",
+      "gameId": "MelvorBase:SoulRune",
+      "name": "Soul Rune",
+      "requiredLevel": null,
+      "availability": "locked",
+      "conditions": [
+        "Consumes DemoPlaceholderItem × 1 per completed action"
+      ],
+      "intervalSeconds": 10.0,
+      "intervalLabel": "10.0s base cycle",
+      "baseXp": 1,
+      "successChance": 1,
+      "xpPerHour": 360.0,
+      "itemsPerHour": 360.0,
+      "gpPerHour": 0.0,
+      "products": [
+        {
+          "id": "MelvorBase:DemoPlaceholderItem",
+          "name": "DemoPlaceholderItem",
+          "role": "primary",
+          "basis": "completed action",
+          "probability": 1,
+          "quantity": 1,
+          "itemsPerHour": 360.0,
+          "gpPerHour": 0.0
+        }
+      ],
+      "sourcePointer": "/Objects/ArtisanRecipe/221",
+      "notes": [
+        "Fixed base reference; no equipment, bonuses, preservation or downtime.",
+        "Locked demo placeholder definition; not a playable potion baseline."
+      ]
+    },
+    {
+      "id": "DustRunePack",
+      "gameId": "MelvorBase:DustRunePack",
+      "name": "Dust Rune Pack",
+      "requiredLevel": null,
+      "availability": "locked",
+      "conditions": [
+        "Consumes DemoPlaceholderItem × 1 per completed action"
+      ],
+      "intervalSeconds": 10.0,
+      "intervalLabel": "10.0s base cycle",
+      "baseXp": 1,
+      "successChance": 1,
+      "xpPerHour": 360.0,
+      "itemsPerHour": 360.0,
+      "gpPerHour": 0.0,
+      "products": [
+        {
+          "id": "MelvorBase:DemoPlaceholderItem",
+          "name": "DemoPlaceholderItem",
+          "role": "primary",
+          "basis": "completed action",
+          "probability": 1,
+          "quantity": 1,
+          "itemsPerHour": 360.0,
+          "gpPerHour": 0.0
+        }
+      ],
+      "sourcePointer": "/Objects/ArtisanRecipe/222",
+      "notes": [
+        "Fixed base reference; no equipment, bonuses, preservation or downtime.",
+        "Locked demo placeholder definition; not a playable potion baseline."
+      ]
+    },
+    {
+      "id": "SteamRunePack",
+      "gameId": "MelvorBase:SteamRunePack",
+      "name": "Steam Rune Pack",
+      "requiredLevel": null,
+      "availability": "locked",
+      "conditions": [
+        "Consumes DemoPlaceholderItem × 1 per completed action"
+      ],
+      "intervalSeconds": 10.0,
+      "intervalLabel": "10.0s base cycle",
+      "baseXp": 1,
+      "successChance": 1,
+      "xpPerHour": 360.0,
+      "itemsPerHour": 360.0,
+      "gpPerHour": 0.0,
+      "products": [
+        {
+          "id": "MelvorBase:DemoPlaceholderItem",
+          "name": "DemoPlaceholderItem",
+          "role": "primary",
+          "basis": "completed action",
+          "probability": 1,
+          "quantity": 1,
+          "itemsPerHour": 360.0,
+          "gpPerHour": 0.0
+        }
+      ],
+      "sourcePointer": "/Objects/ArtisanRecipe/223",
+      "notes": [
+        "Fixed base reference; no equipment, bonuses, preservation or downtime.",
+        "Locked demo placeholder definition; not a playable potion baseline."
+      ]
+    },
+    {
+      "id": "MudRunePack",
+      "gameId": "MelvorBase:MudRunePack",
+      "name": "Mud Rune Pack",
+      "requiredLevel": null,
+      "availability": "locked",
+      "conditions": [
+        "Consumes DemoPlaceholderItem × 1 per completed action"
+      ],
+      "intervalSeconds": 10.0,
+      "intervalLabel": "10.0s base cycle",
+      "baseXp": 1,
+      "successChance": 1,
+      "xpPerHour": 360.0,
+      "itemsPerHour": 360.0,
+      "gpPerHour": 0.0,
+      "products": [
+        {
+          "id": "MelvorBase:DemoPlaceholderItem",
+          "name": "DemoPlaceholderItem",
+          "role": "primary",
+          "basis": "completed action",
+          "probability": 1,
+          "quantity": 1,
+          "itemsPerHour": 360.0,
+          "gpPerHour": 0.0
+        }
+      ],
+      "sourcePointer": "/Objects/ArtisanRecipe/224",
+      "notes": [
+        "Fixed base reference; no equipment, bonuses, preservation or downtime.",
+        "Locked demo placeholder definition; not a playable potion baseline."
+      ]
+    },
+    {
+      "id": "SmokeRunePack",
+      "gameId": "MelvorBase:SmokeRunePack",
+      "name": "Smoke Rune Pack",
+      "requiredLevel": null,
+      "availability": "locked",
+      "conditions": [
+        "Consumes DemoPlaceholderItem × 1 per completed action"
+      ],
+      "intervalSeconds": 10.0,
+      "intervalLabel": "10.0s base cycle",
+      "baseXp": 1,
+      "successChance": 1,
+      "xpPerHour": 360.0,
+      "itemsPerHour": 360.0,
+      "gpPerHour": 0.0,
+      "products": [
+        {
+          "id": "MelvorBase:DemoPlaceholderItem",
+          "name": "DemoPlaceholderItem",
+          "role": "primary",
+          "basis": "completed action",
+          "probability": 1,
+          "quantity": 1,
+          "itemsPerHour": 360.0,
+          "gpPerHour": 0.0
+        }
+      ],
+      "sourcePointer": "/Objects/ArtisanRecipe/225",
+      "notes": [
+        "Fixed base reference; no equipment, bonuses, preservation or downtime.",
+        "Locked demo placeholder definition; not a playable potion baseline."
+      ]
+    },
+    {
+      "id": "MistRunePack",
+      "gameId": "MelvorBase:MistRunePack",
+      "name": "Mist Rune Pack",
+      "requiredLevel": null,
+      "availability": "locked",
+      "conditions": [
+        "Consumes DemoPlaceholderItem × 1 per completed action"
+      ],
+      "intervalSeconds": 10.0,
+      "intervalLabel": "10.0s base cycle",
+      "baseXp": 1,
+      "successChance": 1,
+      "xpPerHour": 360.0,
+      "itemsPerHour": 360.0,
+      "gpPerHour": 0.0,
+      "products": [
+        {
+          "id": "MelvorBase:DemoPlaceholderItem",
+          "name": "DemoPlaceholderItem",
+          "role": "primary",
+          "basis": "completed action",
+          "probability": 1,
+          "quantity": 1,
+          "itemsPerHour": 360.0,
+          "gpPerHour": 0.0
+        }
+      ],
+      "sourcePointer": "/Objects/ArtisanRecipe/226",
+      "notes": [
+        "Fixed base reference; no equipment, bonuses, preservation or downtime.",
+        "Locked demo placeholder definition; not a playable potion baseline."
+      ]
+    },
+    {
+      "id": "LavaRunePack",
+      "gameId": "MelvorBase:LavaRunePack",
+      "name": "Lava Rune Pack",
+      "requiredLevel": null,
+      "availability": "locked",
+      "conditions": [
+        "Consumes DemoPlaceholderItem × 1 per completed action"
+      ],
+      "intervalSeconds": 10.0,
+      "intervalLabel": "10.0s base cycle",
+      "baseXp": 1,
+      "successChance": 1,
+      "xpPerHour": 360.0,
+      "itemsPerHour": 360.0,
+      "gpPerHour": 0.0,
+      "products": [
+        {
+          "id": "MelvorBase:DemoPlaceholderItem",
+          "name": "DemoPlaceholderItem",
+          "role": "primary",
+          "basis": "completed action",
+          "probability": 1,
+          "quantity": 1,
+          "itemsPerHour": 360.0,
+          "gpPerHour": 0.0
+        }
+      ],
+      "sourcePointer": "/Objects/ArtisanRecipe/227",
+      "notes": [
+        "Fixed base reference; no equipment, bonuses, preservation or downtime.",
+        "Locked demo placeholder definition; not a playable potion baseline."
+      ]
+    },
+    {
+      "id": "ElementalRunePack",
+      "gameId": "MelvorBase:ElementalRunePack",
+      "name": "Elemental Rune Pack",
+      "requiredLevel": null,
+      "availability": "locked",
+      "conditions": [
+        "Consumes DemoPlaceholderItem × 1 per completed action"
+      ],
+      "intervalSeconds": 10.0,
+      "intervalLabel": "10.0s base cycle",
+      "baseXp": 1,
+      "successChance": 1,
+      "xpPerHour": 360.0,
+      "itemsPerHour": 360.0,
+      "gpPerHour": 0.0,
+      "products": [
+        {
+          "id": "MelvorBase:DemoPlaceholderItem",
+          "name": "DemoPlaceholderItem",
+          "role": "primary",
+          "basis": "completed action",
+          "probability": 1,
+          "quantity": 1,
+          "itemsPerHour": 360.0,
+          "gpPerHour": 0.0
+        }
+      ],
+      "sourcePointer": "/Objects/ArtisanRecipe/228",
+      "notes": [
+        "Fixed base reference; no equipment, bonuses, preservation or downtime.",
+        "Locked demo placeholder definition; not a playable potion baseline."
+      ]
+    },
+    {
+      "id": "AirWand",
+      "gameId": "MelvorBase:AirWand",
+      "name": "Air Wand",
+      "requiredLevel": 1,
+      "availability": "demo",
+      "conditions": [
+        "Runecrafting level 1",
+        "Consumes UnpoweredOrb × 1 per completed action",
+        "Consumes AirRune × 12 per completed action",
+        "Consumes MindRune × 6 per completed action"
+      ],
+      "intervalSeconds": 6.0,
+      "intervalLabel": "6.0s base cycle",
+      "baseXp": 17,
+      "successChance": 1,
+      "xpPerHour": 10200.0,
+      "itemsPerHour": 600.0,
+      "gpPerHour": 27000.0,
+      "products": [
+        {
+          "id": "MelvorBase:AirWand",
+          "name": "Air Wand",
+          "role": "primary",
+          "basis": "completed action",
+          "probability": 1,
+          "quantity": 1,
+          "itemsPerHour": 600.0,
+          "gpPerHour": 27000.0
+        }
+      ],
+      "sourcePointer": "/Objects/ArtisanRecipe/229",
+      "notes": [
+        "Fixed base reference; no equipment, bonuses, preservation or downtime."
+      ]
+    },
+    {
+      "id": "WaterWand",
+      "gameId": "MelvorBase:WaterWand",
+      "name": "Water Wand",
+      "requiredLevel": 5,
+      "availability": "demo",
+      "conditions": [
+        "Runecrafting level 5",
+        "Consumes UnpoweredOrb × 1 per completed action",
+        "Consumes WaterRune × 12 per completed action",
+        "Consumes MindRune × 6 per completed action"
+      ],
+      "intervalSeconds": 6.0,
+      "intervalLabel": "6.0s base cycle",
+      "baseXp": 21,
+      "successChance": 1,
+      "xpPerHour": 12600.0,
+      "itemsPerHour": 600.0,
+      "gpPerHour": 37200.0,
+      "products": [
+        {
+          "id": "MelvorBase:WaterWand",
+          "name": "Water Wand",
+          "role": "primary",
+          "basis": "completed action",
+          "probability": 1,
+          "quantity": 1,
+          "itemsPerHour": 600.0,
+          "gpPerHour": 37200.0
+        }
+      ],
+      "sourcePointer": "/Objects/ArtisanRecipe/230",
+      "notes": [
+        "Fixed base reference; no equipment, bonuses, preservation or downtime."
+      ]
+    },
+    {
+      "id": "EarthWand",
+      "gameId": "MelvorBase:EarthWand",
+      "name": "Earth Wand",
+      "requiredLevel": 10,
+      "availability": "demo",
+      "conditions": [
+        "Runecrafting level 10",
+        "Consumes UnpoweredOrb × 1 per completed action",
+        "Consumes EarthRune × 12 per completed action",
+        "Consumes MindRune × 6 per completed action"
+      ],
+      "intervalSeconds": 6.0,
+      "intervalLabel": "6.0s base cycle",
+      "baseXp": 27,
+      "successChance": 1,
+      "xpPerHour": 16200.0,
+      "itemsPerHour": 600.0,
+      "gpPerHour": 58800.0,
+      "products": [
+        {
+          "id": "MelvorBase:EarthWand",
+          "name": "Earth Wand",
+          "role": "primary",
+          "basis": "completed action",
+          "probability": 1,
+          "quantity": 1,
+          "itemsPerHour": 600.0,
+          "gpPerHour": 58800.0
+        }
+      ],
+      "sourcePointer": "/Objects/ArtisanRecipe/231",
+      "notes": [
+        "Fixed base reference; no equipment, bonuses, preservation or downtime."
+      ]
+    },
+    {
+      "id": "FireWand",
+      "gameId": "MelvorBase:FireWand",
+      "name": "Fire Wand",
+      "requiredLevel": 20,
+      "availability": "demo",
+      "conditions": [
+        "Runecrafting level 20",
+        "Consumes UnpoweredOrb × 1 per completed action",
+        "Consumes FireRune × 12 per completed action",
+        "Consumes MindRune × 6 per completed action"
+      ],
+      "intervalSeconds": 6.0,
+      "intervalLabel": "6.0s base cycle",
+      "baseXp": 39,
+      "successChance": 1,
+      "xpPerHour": 23400.0,
+      "itemsPerHour": 600.0,
+      "gpPerHour": 111600.0,
+      "products": [
+        {
+          "id": "MelvorBase:FireWand",
+          "name": "Fire Wand",
+          "role": "primary",
+          "basis": "completed action",
+          "probability": 1,
+          "quantity": 1,
+          "itemsPerHour": 600.0,
+          "gpPerHour": 111600.0
+        }
+      ],
+      "sourcePointer": "/Objects/ArtisanRecipe/232",
+      "notes": [
+        "Fixed base reference; no equipment, bonuses, preservation or downtime."
+      ]
+    },
+    {
+      "id": "AirStaff",
+      "gameId": "MelvorBase:AirStaff",
+      "name": "Air Staff",
+      "requiredLevel": 25,
+      "availability": "demo",
+      "conditions": [
+        "Runecrafting level 25",
+        "Consumes UnpoweredOrb × 1 per completed action",
+        "Consumes AirRune × 16 per completed action",
+        "Consumes MindRune × 8 per completed action",
+        "Consumes WillowLog × 1 per completed action"
+      ],
+      "intervalSeconds": 8.0,
+      "intervalLabel": "8.0s base cycle",
+      "baseXp": 57,
+      "successChance": 1,
+      "xpPerHour": 25650.0,
+      "itemsPerHour": 450.0,
+      "gpPerHour": 73800.0,
+      "products": [
+        {
+          "id": "MelvorBase:AirStaff",
+          "name": "Air Staff",
+          "role": "primary",
+          "basis": "completed action",
+          "probability": 1,
+          "quantity": 1,
+          "itemsPerHour": 450.0,
+          "gpPerHour": 73800.0
+        }
+      ],
+      "sourcePointer": "/Objects/ArtisanRecipe/233",
+      "notes": [
+        "Fixed base reference; no equipment, bonuses, preservation or downtime."
+      ]
+    },
+    {
+      "id": "WaterStaff",
+      "gameId": "MelvorBase:WaterStaff",
+      "name": "Water Staff",
+      "requiredLevel": 27,
+      "availability": "demo",
+      "conditions": [
+        "Runecrafting level 27",
+        "Consumes UnpoweredOrb × 1 per completed action",
+        "Consumes WaterRune × 16 per completed action",
+        "Consumes MindRune × 8 per completed action",
+        "Consumes WillowLog × 1 per completed action"
+      ],
+      "intervalSeconds": 8.0,
+      "intervalLabel": "8.0s base cycle",
+      "baseXp": 60,
+      "successChance": 1,
+      "xpPerHour": 27000.0,
+      "itemsPerHour": 450.0,
+      "gpPerHour": 79200.0,
+      "products": [
+        {
+          "id": "MelvorBase:WaterStaff",
+          "name": "Water Staff",
+          "role": "primary",
+          "basis": "completed action",
+          "probability": 1,
+          "quantity": 1,
+          "itemsPerHour": 450.0,
+          "gpPerHour": 79200.0
+        }
+      ],
+      "sourcePointer": "/Objects/ArtisanRecipe/234",
+      "notes": [
+        "Fixed base reference; no equipment, bonuses, preservation or downtime."
+      ]
+    },
+    {
+      "id": "EarthStaff",
+      "gameId": "MelvorBase:EarthStaff",
+      "name": "Earth Staff",
+      "requiredLevel": 29,
+      "availability": "demo",
+      "conditions": [
+        "Runecrafting level 29",
+        "Consumes UnpoweredOrb × 1 per completed action",
+        "Consumes EarthRune × 16 per completed action",
+        "Consumes MindRune × 8 per completed action",
+        "Consumes WillowLog × 1 per completed action"
+      ],
+      "intervalSeconds": 8.0,
+      "intervalLabel": "8.0s base cycle",
+      "baseXp": 62,
+      "successChance": 1,
+      "xpPerHour": 27900.0,
+      "itemsPerHour": 450.0,
+      "gpPerHour": 85050.0,
+      "products": [
+        {
+          "id": "MelvorBase:EarthStaff",
+          "name": "Earth Staff",
+          "role": "primary",
+          "basis": "completed action",
+          "probability": 1,
+          "quantity": 1,
+          "itemsPerHour": 450.0,
+          "gpPerHour": 85050.0
+        }
+      ],
+      "sourcePointer": "/Objects/ArtisanRecipe/235",
+      "notes": [
+        "Fixed base reference; no equipment, bonuses, preservation or downtime."
+      ]
+    },
+    {
+      "id": "FireStaff",
+      "gameId": "MelvorBase:FireStaff",
+      "name": "Fire Staff",
+      "requiredLevel": 31,
+      "availability": "demo",
+      "conditions": [
+        "Runecrafting level 31",
+        "Consumes UnpoweredOrb × 1 per completed action",
+        "Consumes FireRune × 16 per completed action",
+        "Consumes MindRune × 8 per completed action",
+        "Consumes WillowLog × 1 per completed action"
+      ],
+      "intervalSeconds": 8.0,
+      "intervalLabel": "8.0s base cycle",
+      "baseXp": 64,
+      "successChance": 1,
+      "xpPerHour": 28800.0,
+      "itemsPerHour": 450.0,
+      "gpPerHour": 90900.0,
+      "products": [
+        {
+          "id": "MelvorBase:FireStaff",
+          "name": "Fire Staff",
+          "role": "primary",
+          "basis": "completed action",
+          "probability": 1,
+          "quantity": 1,
+          "itemsPerHour": 450.0,
+          "gpPerHour": 90900.0
+        }
+      ],
+      "sourcePointer": "/Objects/ArtisanRecipe/236",
+      "notes": [
+        "Fixed base reference; no equipment, bonuses, preservation or downtime."
+      ]
+    },
+    {
+      "id": "AirBattlewand",
+      "gameId": "MelvorBase:AirBattlewand",
+      "name": "Air Battlewand",
+      "requiredLevel": 35,
+      "availability": "demo",
+      "conditions": [
+        "Runecrafting level 35",
+        "Consumes UnpoweredOrb × 1 per completed action",
+        "Consumes AirRune × 20 per completed action",
+        "Consumes ChaosRune × 10 per completed action"
+      ],
+      "intervalSeconds": 10.0,
+      "intervalLabel": "10.0s base cycle",
+      "baseXp": 69,
+      "successChance": 1,
+      "xpPerHour": 24840.0,
+      "itemsPerHour": 360.0,
+      "gpPerHour": 86760.0,
+      "products": [
+        {
+          "id": "MelvorBase:AirBattlewand",
+          "name": "Air Battlewand",
+          "role": "primary",
+          "basis": "completed action",
+          "probability": 1,
+          "quantity": 1,
+          "itemsPerHour": 360.0,
+          "gpPerHour": 86760.0
+        }
+      ],
+      "sourcePointer": "/Objects/ArtisanRecipe/237",
+      "notes": [
+        "Fixed base reference; no equipment, bonuses, preservation or downtime."
+      ]
+    },
+    {
+      "id": "WaterBattlewand",
+      "gameId": "MelvorBase:WaterBattlewand",
+      "name": "Water Battlewand",
+      "requiredLevel": 37,
+      "availability": "demo",
+      "conditions": [
+        "Runecrafting level 37",
+        "Consumes UnpoweredOrb × 1 per completed action",
+        "Consumes WaterRune × 20 per completed action",
+        "Consumes ChaosRune × 10 per completed action"
+      ],
+      "intervalSeconds": 10.0,
+      "intervalLabel": "10.0s base cycle",
+      "baseXp": 73,
+      "successChance": 1,
+      "xpPerHour": 26280.0,
+      "itemsPerHour": 360.0,
+      "gpPerHour": 91440.0,
+      "products": [
+        {
+          "id": "MelvorBase:WaterBattlewand",
+          "name": "Water Battlewand",
+          "role": "primary",
+          "basis": "completed action",
+          "probability": 1,
+          "quantity": 1,
+          "itemsPerHour": 360.0,
+          "gpPerHour": 91440.0
+        }
+      ],
+      "sourcePointer": "/Objects/ArtisanRecipe/238",
+      "notes": [
+        "Fixed base reference; no equipment, bonuses, preservation or downtime."
+      ]
+    },
+    {
+      "id": "EarthBattlewand",
+      "gameId": "MelvorBase:EarthBattlewand",
+      "name": "Earth Battlewand",
+      "requiredLevel": 39,
+      "availability": "demo",
+      "conditions": [
+        "Runecrafting level 39",
+        "Consumes UnpoweredOrb × 1 per completed action",
+        "Consumes EarthRune × 20 per completed action",
+        "Consumes ChaosRune × 10 per completed action"
+      ],
+      "intervalSeconds": 10.0,
+      "intervalLabel": "10.0s base cycle",
+      "baseXp": 78,
+      "successChance": 1,
+      "xpPerHour": 28080.0,
+      "itemsPerHour": 360.0,
+      "gpPerHour": 96120.0,
+      "products": [
+        {
+          "id": "MelvorBase:EarthBattlewand",
+          "name": "Earth Battlewand",
+          "role": "primary",
+          "basis": "completed action",
+          "probability": 1,
+          "quantity": 1,
+          "itemsPerHour": 360.0,
+          "gpPerHour": 96120.0
+        }
+      ],
+      "sourcePointer": "/Objects/ArtisanRecipe/239",
+      "notes": [
+        "Fixed base reference; no equipment, bonuses, preservation or downtime."
+      ]
+    },
+    {
+      "id": "FireBattlewand",
+      "gameId": "MelvorBase:FireBattlewand",
+      "name": "Fire Battlewand",
+      "requiredLevel": 41,
+      "availability": "demo",
+      "conditions": [
+        "Runecrafting level 41",
+        "Consumes UnpoweredOrb × 1 per completed action",
+        "Consumes FireRune × 20 per completed action",
+        "Consumes ChaosRune × 10 per completed action"
+      ],
+      "intervalSeconds": 10.0,
+      "intervalLabel": "10.0s base cycle",
+      "baseXp": 89,
+      "successChance": 1,
+      "xpPerHour": 32040.0,
+      "itemsPerHour": 360.0,
+      "gpPerHour": 66600.0,
+      "products": [
+        {
+          "id": "MelvorBase:FireBattlewand",
+          "name": "Fire Battlewand",
+          "role": "primary",
+          "basis": "completed action",
+          "probability": 1,
+          "quantity": 1,
+          "itemsPerHour": 360.0,
+          "gpPerHour": 66600.0
+        }
+      ],
+      "sourcePointer": "/Objects/ArtisanRecipe/240",
+      "notes": [
+        "Fixed base reference; no equipment, bonuses, preservation or downtime."
+      ]
+    },
+    {
+      "id": "AirBattlestaff",
+      "gameId": "MelvorBase:AirBattlestaff",
+      "name": "Air Battlestaff",
+      "requiredLevel": 45,
+      "availability": "demo",
+      "conditions": [
+        "Runecrafting level 45",
+        "Consumes UnpoweredOrb × 1 per completed action",
+        "Consumes AirRune × 28 per completed action",
+        "Consumes ChaosRune × 14 per completed action",
+        "Consumes TeakLog × 1 per completed action"
+      ],
+      "intervalSeconds": 14.0,
+      "intervalLabel": "14.0s base cycle",
+      "baseXp": 135,
+      "successChance": 1,
+      "xpPerHour": 34714.28571428572,
+      "itemsPerHour": 257.14285714285717,
+      "gpPerHour": 75085.71428571429,
+      "products": [
+        {
+          "id": "MelvorBase:AirBattlestaff",
+          "name": "Air Battlestaff",
+          "role": "primary",
+          "basis": "completed action",
+          "probability": 1,
+          "quantity": 1,
+          "itemsPerHour": 257.14285714285717,
+          "gpPerHour": 75085.71428571429
+        }
+      ],
+      "sourcePointer": "/Objects/ArtisanRecipe/241",
+      "notes": [
+        "Fixed base reference; no equipment, bonuses, preservation or downtime."
+      ]
+    },
+    {
+      "id": "WaterBattlestaff",
+      "gameId": "MelvorBase:WaterBattlestaff",
+      "name": "Water Battlestaff",
+      "requiredLevel": 47,
+      "availability": "demo",
+      "conditions": [
+        "Runecrafting level 47",
+        "Consumes UnpoweredOrb × 1 per completed action",
+        "Consumes WaterRune × 28 per completed action",
+        "Consumes ChaosRune × 14 per completed action",
+        "Consumes TeakLog × 1 per completed action"
+      ],
+      "intervalSeconds": 14.0,
+      "intervalLabel": "14.0s base cycle",
+      "baseXp": 143,
+      "successChance": 1,
+      "xpPerHour": 36771.42857142857,
+      "itemsPerHour": 257.14285714285717,
+      "gpPerHour": 78171.42857142858,
+      "products": [
+        {
+          "id": "MelvorBase:WaterBattlestaff",
+          "name": "Water Battlestaff",
+          "role": "primary",
+          "basis": "completed action",
+          "probability": 1,
+          "quantity": 1,
+          "itemsPerHour": 257.14285714285717,
+          "gpPerHour": 78171.42857142858
+        }
+      ],
+      "sourcePointer": "/Objects/ArtisanRecipe/242",
+      "notes": [
+        "Fixed base reference; no equipment, bonuses, preservation or downtime."
+      ]
+    },
+    {
+      "id": "EarthBattlestaff",
+      "gameId": "MelvorBase:EarthBattlestaff",
+      "name": "Earth Battlestaff",
+      "requiredLevel": 49,
+      "availability": "demo",
+      "conditions": [
+        "Runecrafting level 49",
+        "Consumes UnpoweredOrb × 1 per completed action",
+        "Consumes EarthRune × 28 per completed action",
+        "Consumes ChaosRune × 14 per completed action",
+        "Consumes TeakLog × 1 per completed action"
+      ],
+      "intervalSeconds": 14.0,
+      "intervalLabel": "14.0s base cycle",
+      "baseXp": 151,
+      "successChance": 1,
+      "xpPerHour": 38828.571428571435,
+      "itemsPerHour": 257.14285714285717,
+      "gpPerHour": 81514.28571428572,
+      "products": [
+        {
+          "id": "MelvorBase:EarthBattlestaff",
+          "name": "Earth Battlestaff",
+          "role": "primary",
+          "basis": "completed action",
+          "probability": 1,
+          "quantity": 1,
+          "itemsPerHour": 257.14285714285717,
+          "gpPerHour": 81514.28571428572
+        }
+      ],
+      "sourcePointer": "/Objects/ArtisanRecipe/243",
+      "notes": [
+        "Fixed base reference; no equipment, bonuses, preservation or downtime."
+      ]
+    },
+    {
+      "id": "FireBattlestaff",
+      "gameId": "MelvorBase:FireBattlestaff",
+      "name": "Fire Battlestaff",
+      "requiredLevel": 51,
+      "availability": "demo",
+      "conditions": [
+        "Runecrafting level 51",
+        "Consumes UnpoweredOrb × 1 per completed action",
+        "Consumes FireRune × 28 per completed action",
+        "Consumes ChaosRune × 14 per completed action",
+        "Consumes TeakLog × 1 per completed action"
+      ],
+      "intervalSeconds": 14.0,
+      "intervalLabel": "14.0s base cycle",
+      "baseXp": 169,
+      "successChance": 1,
+      "xpPerHour": 43457.14285714286,
+      "itemsPerHour": 257.14285714285717,
+      "gpPerHour": 89742.85714285714,
+      "products": [
+        {
+          "id": "MelvorBase:FireBattlestaff",
+          "name": "Fire Battlestaff",
+          "role": "primary",
+          "basis": "completed action",
+          "probability": 1,
+          "quantity": 1,
+          "itemsPerHour": 257.14285714285717,
+          "gpPerHour": 89742.85714285714
+        }
+      ],
+      "sourcePointer": "/Objects/ArtisanRecipe/244",
+      "notes": [
+        "Fixed base reference; no equipment, bonuses, preservation or downtime."
+      ]
+    },
+    {
+      "id": "MysticAirWand",
+      "gameId": "MelvorBase:MysticAirWand",
+      "name": "Mystic Air Wand",
+      "requiredLevel": 55,
+      "availability": "demo",
+      "conditions": [
+        "Runecrafting level 55",
+        "Consumes UnpoweredOrb × 1 per completed action",
+        "Consumes AirRune × 32 per completed action",
+        "Consumes DeathRune × 16 per completed action"
+      ],
+      "intervalSeconds": 16.0,
+      "intervalLabel": "16.0s base cycle",
+      "baseXp": 183,
+      "successChance": 1,
+      "xpPerHour": 41175.0,
+      "itemsPerHour": 225.0,
+      "gpPerHour": 93150.0,
+      "products": [
+        {
+          "id": "MelvorBase:MysticAirWand",
+          "name": "Mystic Air Wand",
+          "role": "primary",
+          "basis": "completed action",
+          "probability": 1,
+          "quantity": 1,
+          "itemsPerHour": 225.0,
+          "gpPerHour": 93150.0
+        }
+      ],
+      "sourcePointer": "/Objects/ArtisanRecipe/245",
+      "notes": [
+        "Fixed base reference; no equipment, bonuses, preservation or downtime."
+      ]
+    },
+    {
+      "id": "MysticWaterWand",
+      "gameId": "MelvorBase:MysticWaterWand",
+      "name": "Mystic Water Wand",
+      "requiredLevel": null,
+      "availability": "locked",
+      "conditions": [
+        "Consumes DemoPlaceholderItem × 1 per completed action"
+      ],
+      "intervalSeconds": 80.0,
+      "intervalLabel": "80.0s base cycle",
+      "baseXp": 1,
+      "successChance": 1,
+      "xpPerHour": 45.0,
+      "itemsPerHour": 45.0,
+      "gpPerHour": 0.0,
+      "products": [
+        {
+          "id": "MelvorBase:DemoPlaceholderItem",
+          "name": "DemoPlaceholderItem",
+          "role": "primary",
+          "basis": "completed action",
+          "probability": 1,
+          "quantity": 1,
+          "itemsPerHour": 45.0,
+          "gpPerHour": 0.0
+        }
+      ],
+      "sourcePointer": "/Objects/ArtisanRecipe/246",
+      "notes": [
+        "Fixed base reference; no equipment, bonuses, preservation or downtime.",
+        "Locked demo placeholder definition; not a playable potion baseline."
+      ]
+    },
+    {
+      "id": "MysticEarthWand",
+      "gameId": "MelvorBase:MysticEarthWand",
+      "name": "Mystic Earth Wand",
+      "requiredLevel": null,
+      "availability": "locked",
+      "conditions": [
+        "Consumes DemoPlaceholderItem × 1 per completed action"
+      ],
+      "intervalSeconds": 80.0,
+      "intervalLabel": "80.0s base cycle",
+      "baseXp": 1,
+      "successChance": 1,
+      "xpPerHour": 45.0,
+      "itemsPerHour": 45.0,
+      "gpPerHour": 0.0,
+      "products": [
+        {
+          "id": "MelvorBase:DemoPlaceholderItem",
+          "name": "DemoPlaceholderItem",
+          "role": "primary",
+          "basis": "completed action",
+          "probability": 1,
+          "quantity": 1,
+          "itemsPerHour": 45.0,
+          "gpPerHour": 0.0
+        }
+      ],
+      "sourcePointer": "/Objects/ArtisanRecipe/247",
+      "notes": [
+        "Fixed base reference; no equipment, bonuses, preservation or downtime.",
+        "Locked demo placeholder definition; not a playable potion baseline."
+      ]
+    },
+    {
+      "id": "MysticFireWand",
+      "gameId": "MelvorBase:MysticFireWand",
+      "name": "Mystic Fire Wand",
+      "requiredLevel": null,
+      "availability": "locked",
+      "conditions": [
+        "Consumes DemoPlaceholderItem × 1 per completed action"
+      ],
+      "intervalSeconds": 80.0,
+      "intervalLabel": "80.0s base cycle",
+      "baseXp": 1,
+      "successChance": 1,
+      "xpPerHour": 45.0,
+      "itemsPerHour": 45.0,
+      "gpPerHour": 0.0,
+      "products": [
+        {
+          "id": "MelvorBase:DemoPlaceholderItem",
+          "name": "DemoPlaceholderItem",
+          "role": "primary",
+          "basis": "completed action",
+          "probability": 1,
+          "quantity": 1,
+          "itemsPerHour": 45.0,
+          "gpPerHour": 0.0
+        }
+      ],
+      "sourcePointer": "/Objects/ArtisanRecipe/248",
+      "notes": [
+        "Fixed base reference; no equipment, bonuses, preservation or downtime.",
+        "Locked demo placeholder definition; not a playable potion baseline."
+      ]
+    },
+    {
+      "id": "MysticAirStaff",
+      "gameId": "MelvorBase:MysticAirStaff",
+      "name": "Mystic Air Staff",
+      "requiredLevel": null,
+      "availability": "locked",
+      "conditions": [
+        "Consumes DemoPlaceholderItem × 1 per completed action"
+      ],
+      "intervalSeconds": 100.0,
+      "intervalLabel": "100.0s base cycle",
+      "baseXp": 1,
+      "successChance": 1,
+      "xpPerHour": 36.0,
+      "itemsPerHour": 36.0,
+      "gpPerHour": 0.0,
+      "products": [
+        {
+          "id": "MelvorBase:DemoPlaceholderItem",
+          "name": "DemoPlaceholderItem",
+          "role": "primary",
+          "basis": "completed action",
+          "probability": 1,
+          "quantity": 1,
+          "itemsPerHour": 36.0,
+          "gpPerHour": 0.0
+        }
+      ],
+      "sourcePointer": "/Objects/ArtisanRecipe/249",
+      "notes": [
+        "Fixed base reference; no equipment, bonuses, preservation or downtime.",
+        "Locked demo placeholder definition; not a playable potion baseline."
+      ]
+    },
+    {
+      "id": "MysticWaterStaff",
+      "gameId": "MelvorBase:MysticWaterStaff",
+      "name": "Mystic Water Staff",
+      "requiredLevel": null,
+      "availability": "locked",
+      "conditions": [
+        "Consumes DemoPlaceholderItem × 1 per completed action"
+      ],
+      "intervalSeconds": 100.0,
+      "intervalLabel": "100.0s base cycle",
+      "baseXp": 1,
+      "successChance": 1,
+      "xpPerHour": 36.0,
+      "itemsPerHour": 36.0,
+      "gpPerHour": 0.0,
+      "products": [
+        {
+          "id": "MelvorBase:DemoPlaceholderItem",
+          "name": "DemoPlaceholderItem",
+          "role": "primary",
+          "basis": "completed action",
+          "probability": 1,
+          "quantity": 1,
+          "itemsPerHour": 36.0,
+          "gpPerHour": 0.0
+        }
+      ],
+      "sourcePointer": "/Objects/ArtisanRecipe/250",
+      "notes": [
+        "Fixed base reference; no equipment, bonuses, preservation or downtime.",
+        "Locked demo placeholder definition; not a playable potion baseline."
+      ]
+    },
+    {
+      "id": "MysticEarthStaff",
+      "gameId": "MelvorBase:MysticEarthStaff",
+      "name": "Mystic Earth Staff",
+      "requiredLevel": null,
+      "availability": "locked",
+      "conditions": [
+        "Consumes DemoPlaceholderItem × 1 per completed action"
+      ],
+      "intervalSeconds": 100.0,
+      "intervalLabel": "100.0s base cycle",
+      "baseXp": 1,
+      "successChance": 1,
+      "xpPerHour": 36.0,
+      "itemsPerHour": 36.0,
+      "gpPerHour": 0.0,
+      "products": [
+        {
+          "id": "MelvorBase:DemoPlaceholderItem",
+          "name": "DemoPlaceholderItem",
+          "role": "primary",
+          "basis": "completed action",
+          "probability": 1,
+          "quantity": 1,
+          "itemsPerHour": 36.0,
+          "gpPerHour": 0.0
+        }
+      ],
+      "sourcePointer": "/Objects/ArtisanRecipe/251",
+      "notes": [
+        "Fixed base reference; no equipment, bonuses, preservation or downtime.",
+        "Locked demo placeholder definition; not a playable potion baseline."
+      ]
+    },
+    {
+      "id": "MysticFireStaff",
+      "gameId": "MelvorBase:MysticFireStaff",
+      "name": "Mystic Fire Staff",
+      "requiredLevel": null,
+      "availability": "locked",
+      "conditions": [
+        "Consumes DemoPlaceholderItem × 1 per completed action"
+      ],
+      "intervalSeconds": 100.0,
+      "intervalLabel": "100.0s base cycle",
+      "baseXp": 1,
+      "successChance": 1,
+      "xpPerHour": 36.0,
+      "itemsPerHour": 36.0,
+      "gpPerHour": 0.0,
+      "products": [
+        {
+          "id": "MelvorBase:DemoPlaceholderItem",
+          "name": "DemoPlaceholderItem",
+          "role": "primary",
+          "basis": "completed action",
+          "probability": 1,
+          "quantity": 1,
+          "itemsPerHour": 36.0,
+          "gpPerHour": 0.0
+        }
+      ],
+      "sourcePointer": "/Objects/ArtisanRecipe/252",
+      "notes": [
+        "Fixed base reference; no equipment, bonuses, preservation or downtime.",
+        "Locked demo placeholder definition; not a playable potion baseline."
+      ]
+    },
+    {
+      "id": "AirFuryWand",
+      "gameId": "MelvorBase:AirFuryWand",
+      "name": "Air Fury Wand",
+      "requiredLevel": null,
+      "availability": "locked",
+      "conditions": [
+        "Consumes DemoPlaceholderItem × 1 per completed action"
+      ],
+      "intervalSeconds": 120.0,
+      "intervalLabel": "120.0s base cycle",
+      "baseXp": 1,
+      "successChance": 1,
+      "xpPerHour": 30.0,
+      "itemsPerHour": 30.0,
+      "gpPerHour": 0.0,
+      "products": [
+        {
+          "id": "MelvorBase:DemoPlaceholderItem",
+          "name": "DemoPlaceholderItem",
+          "role": "primary",
+          "basis": "completed action",
+          "probability": 1,
+          "quantity": 1,
+          "itemsPerHour": 30.0,
+          "gpPerHour": 0.0
+        }
+      ],
+      "sourcePointer": "/Objects/ArtisanRecipe/253",
+      "notes": [
+        "Fixed base reference; no equipment, bonuses, preservation or downtime.",
+        "Locked demo placeholder definition; not a playable potion baseline."
+      ]
+    },
+    {
+      "id": "WaterFuryWand",
+      "gameId": "MelvorBase:WaterFuryWand",
+      "name": "Water Fury Wand",
+      "requiredLevel": null,
+      "availability": "locked",
+      "conditions": [
+        "Consumes DemoPlaceholderItem × 1 per completed action"
+      ],
+      "intervalSeconds": 120.0,
+      "intervalLabel": "120.0s base cycle",
+      "baseXp": 1,
+      "successChance": 1,
+      "xpPerHour": 30.0,
+      "itemsPerHour": 30.0,
+      "gpPerHour": 0.0,
+      "products": [
+        {
+          "id": "MelvorBase:DemoPlaceholderItem",
+          "name": "DemoPlaceholderItem",
+          "role": "primary",
+          "basis": "completed action",
+          "probability": 1,
+          "quantity": 1,
+          "itemsPerHour": 30.0,
+          "gpPerHour": 0.0
+        }
+      ],
+      "sourcePointer": "/Objects/ArtisanRecipe/254",
+      "notes": [
+        "Fixed base reference; no equipment, bonuses, preservation or downtime.",
+        "Locked demo placeholder definition; not a playable potion baseline."
+      ]
+    },
+    {
+      "id": "EarthFuryWand",
+      "gameId": "MelvorBase:EarthFuryWand",
+      "name": "Earth Fury Wand",
+      "requiredLevel": null,
+      "availability": "locked",
+      "conditions": [
+        "Consumes DemoPlaceholderItem × 1 per completed action"
+      ],
+      "intervalSeconds": 120.0,
+      "intervalLabel": "120.0s base cycle",
+      "baseXp": 1,
+      "successChance": 1,
+      "xpPerHour": 30.0,
+      "itemsPerHour": 30.0,
+      "gpPerHour": 0.0,
+      "products": [
+        {
+          "id": "MelvorBase:DemoPlaceholderItem",
+          "name": "DemoPlaceholderItem",
+          "role": "primary",
+          "basis": "completed action",
+          "probability": 1,
+          "quantity": 1,
+          "itemsPerHour": 30.0,
+          "gpPerHour": 0.0
+        }
+      ],
+      "sourcePointer": "/Objects/ArtisanRecipe/255",
+      "notes": [
+        "Fixed base reference; no equipment, bonuses, preservation or downtime.",
+        "Locked demo placeholder definition; not a playable potion baseline."
+      ]
+    },
+    {
+      "id": "FireFuryWand",
+      "gameId": "MelvorBase:FireFuryWand",
+      "name": "Fire Fury Wand",
+      "requiredLevel": null,
+      "availability": "locked",
+      "conditions": [
+        "Consumes DemoPlaceholderItem × 1 per completed action"
+      ],
+      "intervalSeconds": 120.0,
+      "intervalLabel": "120.0s base cycle",
+      "baseXp": 1,
+      "successChance": 1,
+      "xpPerHour": 30.0,
+      "itemsPerHour": 30.0,
+      "gpPerHour": 0.0,
+      "products": [
+        {
+          "id": "MelvorBase:DemoPlaceholderItem",
+          "name": "DemoPlaceholderItem",
+          "role": "primary",
+          "basis": "completed action",
+          "probability": 1,
+          "quantity": 1,
+          "itemsPerHour": 30.0,
+          "gpPerHour": 0.0
+        }
+      ],
+      "sourcePointer": "/Objects/ArtisanRecipe/256",
+      "notes": [
+        "Fixed base reference; no equipment, bonuses, preservation or downtime.",
+        "Locked demo placeholder definition; not a playable potion baseline."
+      ]
+    },
+    {
+      "id": "AirFuryStaff",
+      "gameId": "MelvorBase:AirFuryStaff",
+      "name": "Air Fury Staff",
+      "requiredLevel": null,
+      "availability": "locked",
+      "conditions": [
+        "Consumes DemoPlaceholderItem × 1 per completed action"
+      ],
+      "intervalSeconds": 140.0,
+      "intervalLabel": "140.0s base cycle",
+      "baseXp": 1,
+      "successChance": 1,
+      "xpPerHour": 25.714285714285715,
+      "itemsPerHour": 25.714285714285715,
+      "gpPerHour": 0.0,
+      "products": [
+        {
+          "id": "MelvorBase:DemoPlaceholderItem",
+          "name": "DemoPlaceholderItem",
+          "role": "primary",
+          "basis": "completed action",
+          "probability": 1,
+          "quantity": 1,
+          "itemsPerHour": 25.714285714285715,
+          "gpPerHour": 0.0
+        }
+      ],
+      "sourcePointer": "/Objects/ArtisanRecipe/257",
+      "notes": [
+        "Fixed base reference; no equipment, bonuses, preservation or downtime.",
+        "Locked demo placeholder definition; not a playable potion baseline."
+      ]
+    },
+    {
+      "id": "WaterFuryStaff",
+      "gameId": "MelvorBase:WaterFuryStaff",
+      "name": "Water Fury Staff",
+      "requiredLevel": null,
+      "availability": "locked",
+      "conditions": [
+        "Consumes DemoPlaceholderItem × 1 per completed action"
+      ],
+      "intervalSeconds": 140.0,
+      "intervalLabel": "140.0s base cycle",
+      "baseXp": 1,
+      "successChance": 1,
+      "xpPerHour": 25.714285714285715,
+      "itemsPerHour": 25.714285714285715,
+      "gpPerHour": 0.0,
+      "products": [
+        {
+          "id": "MelvorBase:DemoPlaceholderItem",
+          "name": "DemoPlaceholderItem",
+          "role": "primary",
+          "basis": "completed action",
+          "probability": 1,
+          "quantity": 1,
+          "itemsPerHour": 25.714285714285715,
+          "gpPerHour": 0.0
+        }
+      ],
+      "sourcePointer": "/Objects/ArtisanRecipe/258",
+      "notes": [
+        "Fixed base reference; no equipment, bonuses, preservation or downtime.",
+        "Locked demo placeholder definition; not a playable potion baseline."
+      ]
+    },
+    {
+      "id": "EarthFuryStaff",
+      "gameId": "MelvorBase:EarthFuryStaff",
+      "name": "Earth Fury Staff",
+      "requiredLevel": null,
+      "availability": "locked",
+      "conditions": [
+        "Consumes DemoPlaceholderItem × 1 per completed action"
+      ],
+      "intervalSeconds": 140.0,
+      "intervalLabel": "140.0s base cycle",
+      "baseXp": 1,
+      "successChance": 1,
+      "xpPerHour": 25.714285714285715,
+      "itemsPerHour": 25.714285714285715,
+      "gpPerHour": 0.0,
+      "products": [
+        {
+          "id": "MelvorBase:DemoPlaceholderItem",
+          "name": "DemoPlaceholderItem",
+          "role": "primary",
+          "basis": "completed action",
+          "probability": 1,
+          "quantity": 1,
+          "itemsPerHour": 25.714285714285715,
+          "gpPerHour": 0.0
+        }
+      ],
+      "sourcePointer": "/Objects/ArtisanRecipe/259",
+      "notes": [
+        "Fixed base reference; no equipment, bonuses, preservation or downtime.",
+        "Locked demo placeholder definition; not a playable potion baseline."
+      ]
+    },
+    {
+      "id": "FireFuryStaff",
+      "gameId": "MelvorBase:FireFuryStaff",
+      "name": "Fire Fury Staff",
+      "requiredLevel": null,
+      "availability": "locked",
+      "conditions": [
+        "Consumes DemoPlaceholderItem × 1 per completed action"
+      ],
+      "intervalSeconds": 140.0,
+      "intervalLabel": "140.0s base cycle",
+      "baseXp": 1,
+      "successChance": 1,
+      "xpPerHour": 25.714285714285715,
+      "itemsPerHour": 25.714285714285715,
+      "gpPerHour": 0.0,
+      "products": [
+        {
+          "id": "MelvorBase:DemoPlaceholderItem",
+          "name": "DemoPlaceholderItem",
+          "role": "primary",
+          "basis": "completed action",
+          "probability": 1,
+          "quantity": 1,
+          "itemsPerHour": 25.714285714285715,
+          "gpPerHour": 0.0
+        }
+      ],
+      "sourcePointer": "/Objects/ArtisanRecipe/260",
+      "notes": [
+        "Fixed base reference; no equipment, bonuses, preservation or downtime.",
+        "Locked demo placeholder definition; not a playable potion baseline."
+      ]
+    },
+    {
+      "id": "BasicWizardHat",
+      "gameId": "MelvorBase:BasicWizardHat",
+      "name": "Basic Wizard Hat",
+      "requiredLevel": 1,
+      "availability": "demo",
+      "conditions": [
+        "Runecrafting level 1",
+        "Consumes Wool × 1 per completed action",
+        "Consumes RuneEssence × 4 per completed action"
+      ],
+      "intervalSeconds": 4.0,
+      "intervalLabel": "4.0s base cycle",
+      "baseXp": 7,
+      "successChance": 1,
+      "xpPerHour": 6300.0,
+      "itemsPerHour": 900.0,
+      "gpPerHour": 14400.0,
+      "products": [
+        {
+          "id": "MelvorBase:BasicWizardHat",
+          "name": "Basic Wizard Hat",
+          "role": "primary",
+          "basis": "completed action",
+          "probability": 1,
+          "quantity": 1,
+          "itemsPerHour": 900.0,
+          "gpPerHour": 14400.0
+        }
+      ],
+      "sourcePointer": "/Objects/ArtisanRecipe/261",
+      "notes": [
+        "Fixed base reference; no equipment, bonuses, preservation or downtime."
+      ]
+    },
+    {
+      "id": "BasicWizardBoots",
+      "gameId": "MelvorBase:BasicWizardBoots",
+      "name": "Basic Wizard Boots",
+      "requiredLevel": 3,
+      "availability": "demo",
+      "conditions": [
+        "Runecrafting level 3",
+        "Consumes Wool × 1 per completed action",
+        "Consumes RuneEssence × 4 per completed action"
+      ],
+      "intervalSeconds": 4.0,
+      "intervalLabel": "4.0s base cycle",
+      "baseXp": 7,
+      "successChance": 1,
+      "xpPerHour": 6300.0,
+      "itemsPerHour": 900.0,
+      "gpPerHour": 17100.0,
+      "products": [
+        {
+          "id": "MelvorBase:BasicWizardBoots",
+          "name": "Basic Wizard Boots",
+          "role": "primary",
+          "basis": "completed action",
+          "probability": 1,
+          "quantity": 1,
+          "itemsPerHour": 900.0,
+          "gpPerHour": 17100.0
+        }
+      ],
+      "sourcePointer": "/Objects/ArtisanRecipe/262",
+      "notes": [
+        "Fixed base reference; no equipment, bonuses, preservation or downtime."
+      ]
+    },
+    {
+      "id": "BasicWizardBottoms",
+      "gameId": "MelvorBase:BasicWizardBottoms",
+      "name": "Basic Wizard Bottoms",
+      "requiredLevel": 5,
+      "availability": "demo",
+      "conditions": [
+        "Runecrafting level 5",
+        "Consumes Wool × 1 per completed action",
+        "Consumes RuneEssence × 6 per completed action"
+      ],
+      "intervalSeconds": 6.0,
+      "intervalLabel": "6.0s base cycle",
+      "baseXp": 12,
+      "successChance": 1,
+      "xpPerHour": 7200.0,
+      "itemsPerHour": 600.0,
+      "gpPerHour": 16800.0,
+      "products": [
+        {
+          "id": "MelvorBase:BasicWizardBottoms",
+          "name": "Basic Wizard Bottoms",
+          "role": "primary",
+          "basis": "completed action",
+          "probability": 1,
+          "quantity": 1,
+          "itemsPerHour": 600.0,
+          "gpPerHour": 16800.0
+        }
+      ],
+      "sourcePointer": "/Objects/ArtisanRecipe/263",
+      "notes": [
+        "Fixed base reference; no equipment, bonuses, preservation or downtime."
+      ]
+    },
+    {
+      "id": "BasicWizardRobes",
+      "gameId": "MelvorBase:BasicWizardRobes",
+      "name": "Basic Wizard Robes",
+      "requiredLevel": 7,
+      "availability": "demo",
+      "conditions": [
+        "Runecrafting level 7",
+        "Consumes Wool × 1 per completed action",
+        "Consumes RuneEssence × 8 per completed action"
+      ],
+      "intervalSeconds": 8.0,
+      "intervalLabel": "8.0s base cycle",
+      "baseXp": 17,
+      "successChance": 1,
+      "xpPerHour": 7650.0,
+      "itemsPerHour": 450.0,
+      "gpPerHour": 18000.0,
+      "products": [
+        {
+          "id": "MelvorBase:BasicWizardRobes",
+          "name": "Basic Wizard Robe",
+          "role": "primary",
+          "basis": "completed action",
+          "probability": 1,
+          "quantity": 1,
+          "itemsPerHour": 450.0,
+          "gpPerHour": 18000.0
+        }
+      ],
+      "sourcePointer": "/Objects/ArtisanRecipe/264",
+      "notes": [
+        "Fixed base reference; no equipment, bonuses, preservation or downtime."
+      ]
+    },
+    {
+      "id": "AdeptWizardHat",
+      "gameId": "MelvorBase:AdeptWizardHat",
+      "name": "Adept Wizard Hat",
+      "requiredLevel": 10,
+      "availability": "demo",
+      "conditions": [
+        "Runecrafting level 10",
+        "Consumes Wool × 2 per completed action",
+        "Consumes RuneEssence × 6 per completed action"
+      ],
+      "intervalSeconds": 6.0,
+      "intervalLabel": "6.0s base cycle",
+      "baseXp": 17,
+      "successChance": 1,
+      "xpPerHour": 10200.0,
+      "itemsPerHour": 600.0,
+      "gpPerHour": 35400.0,
+      "products": [
+        {
+          "id": "MelvorBase:AdeptWizardHat",
+          "name": "Adept Wizard Hat",
+          "role": "primary",
+          "basis": "completed action",
+          "probability": 1,
+          "quantity": 1,
+          "itemsPerHour": 600.0,
+          "gpPerHour": 35400.0
+        }
+      ],
+      "sourcePointer": "/Objects/ArtisanRecipe/265",
+      "notes": [
+        "Fixed base reference; no equipment, bonuses, preservation or downtime."
+      ]
+    },
+    {
+      "id": "AdeptWizardBoots",
+      "gameId": "MelvorBase:AdeptWizardBoots",
+      "name": "Adept Wizard Boots",
+      "requiredLevel": 13,
+      "availability": "demo",
+      "conditions": [
+        "Runecrafting level 13",
+        "Consumes Wool × 2 per completed action",
+        "Consumes RuneEssence × 6 per completed action"
+      ],
+      "intervalSeconds": 6.0,
+      "intervalLabel": "6.0s base cycle",
+      "baseXp": 17,
+      "successChance": 1,
+      "xpPerHour": 10200.0,
+      "itemsPerHour": 600.0,
+      "gpPerHour": 44400.0,
+      "products": [
+        {
+          "id": "MelvorBase:AdeptWizardBoots",
+          "name": "Adept Wizard Boots",
+          "role": "primary",
+          "basis": "completed action",
+          "probability": 1,
+          "quantity": 1,
+          "itemsPerHour": 600.0,
+          "gpPerHour": 44400.0
+        }
+      ],
+      "sourcePointer": "/Objects/ArtisanRecipe/266",
+      "notes": [
+        "Fixed base reference; no equipment, bonuses, preservation or downtime."
+      ]
+    },
+    {
+      "id": "AdeptWizardBottoms",
+      "gameId": "MelvorBase:AdeptWizardBottoms",
+      "name": "Adept Wizard Bottoms",
+      "requiredLevel": 16,
+      "availability": "demo",
+      "conditions": [
+        "Runecrafting level 16",
+        "Consumes Wool × 2 per completed action",
+        "Consumes RuneEssence × 8 per completed action"
+      ],
+      "intervalSeconds": 8.0,
+      "intervalLabel": "8.0s base cycle",
+      "baseXp": 25,
+      "successChance": 1,
+      "xpPerHour": 11250.0,
+      "itemsPerHour": 450.0,
+      "gpPerHour": 47250.0,
+      "products": [
+        {
+          "id": "MelvorBase:AdeptWizardBottoms",
+          "name": "Adept Wizard Bottoms",
+          "role": "primary",
+          "basis": "completed action",
+          "probability": 1,
+          "quantity": 1,
+          "itemsPerHour": 450.0,
+          "gpPerHour": 47250.0
+        }
+      ],
+      "sourcePointer": "/Objects/ArtisanRecipe/267",
+      "notes": [
+        "Fixed base reference; no equipment, bonuses, preservation or downtime."
+      ]
+    },
+    {
+      "id": "AdeptWizardRobes",
+      "gameId": "MelvorBase:AdeptWizardRobes",
+      "name": "Adept Wizard Robes",
+      "requiredLevel": 19,
+      "availability": "demo",
+      "conditions": [
+        "Runecrafting level 19",
+        "Consumes Wool × 2 per completed action",
+        "Consumes RuneEssence × 10 per completed action"
+      ],
+      "intervalSeconds": 10.0,
+      "intervalLabel": "10.0s base cycle",
+      "baseXp": 33,
+      "successChance": 1,
+      "xpPerHour": 11880.0,
+      "itemsPerHour": 360.0,
+      "gpPerHour": 51120.0,
+      "products": [
+        {
+          "id": "MelvorBase:AdeptWizardRobes",
+          "name": "Adept Wizard Robe",
+          "role": "primary",
+          "basis": "completed action",
+          "probability": 1,
+          "quantity": 1,
+          "itemsPerHour": 360.0,
+          "gpPerHour": 51120.0
+        }
+      ],
+      "sourcePointer": "/Objects/ArtisanRecipe/268",
+      "notes": [
+        "Fixed base reference; no equipment, bonuses, preservation or downtime."
+      ]
+    },
+    {
+      "id": "AirWizardHat",
+      "gameId": "MelvorBase:AirWizardHat",
+      "name": "Air Wizard Hat",
+      "requiredLevel": 25,
+      "availability": "demo",
+      "conditions": [
+        "Runecrafting level 25",
+        "Consumes Wool × 3 per completed action",
+        "Consumes AirRune × 16 per completed action"
+      ],
+      "intervalSeconds": 8.0,
+      "intervalLabel": "8.0s base cycle",
+      "baseXp": 30,
+      "successChance": 1,
+      "xpPerHour": 13500.0,
+      "itemsPerHour": 450.0,
+      "gpPerHour": 30150.0,
+      "products": [
+        {
+          "id": "MelvorBase:AirWizardHat",
+          "name": "Air Wizard Hat",
+          "role": "primary",
+          "basis": "completed action",
+          "probability": 1,
+          "quantity": 1,
+          "itemsPerHour": 450.0,
+          "gpPerHour": 30150.0
+        }
+      ],
+      "sourcePointer": "/Objects/ArtisanRecipe/269",
+      "notes": [
+        "Fixed base reference; no equipment, bonuses, preservation or downtime."
+      ]
+    },
+    {
+      "id": "WaterWizardBoots",
+      "gameId": "MelvorBase:WaterWizardBoots",
+      "name": "Water Wizard Boots",
+      "requiredLevel": 27,
+      "availability": "demo",
+      "conditions": [
+        "Runecrafting level 27",
+        "Consumes Wool × 3 per completed action",
+        "Consumes WaterRune × 16 per completed action"
+      ],
+      "intervalSeconds": 8.0,
+      "intervalLabel": "8.0s base cycle",
+      "baseXp": 30,
+      "successChance": 1,
+      "xpPerHour": 13500.0,
+      "itemsPerHour": 450.0,
+      "gpPerHour": 32400.0,
+      "products": [
+        {
+          "id": "MelvorBase:WaterWizardBoots",
+          "name": "Water Wizard Boots",
+          "role": "primary",
+          "basis": "completed action",
+          "probability": 1,
+          "quantity": 1,
+          "itemsPerHour": 450.0,
+          "gpPerHour": 32400.0
+        }
+      ],
+      "sourcePointer": "/Objects/ArtisanRecipe/270",
+      "notes": [
+        "Fixed base reference; no equipment, bonuses, preservation or downtime."
+      ]
+    },
+    {
+      "id": "EarthWizardBottoms",
+      "gameId": "MelvorBase:EarthWizardBottoms",
+      "name": "Earth Wizard Bottoms",
+      "requiredLevel": 30,
+      "availability": "demo",
+      "conditions": [
+        "Runecrafting level 30",
+        "Consumes Wool × 4 per completed action",
+        "Consumes EarthRune × 20 per completed action"
+      ],
+      "intervalSeconds": 10.0,
+      "intervalLabel": "10.0s base cycle",
+      "baseXp": 39,
+      "successChance": 1,
+      "xpPerHour": 14040.0,
+      "itemsPerHour": 360.0,
+      "gpPerHour": 38520.0,
+      "products": [
+        {
+          "id": "MelvorBase:EarthWizardBottoms",
+          "name": "Earth Wizard Bottoms",
+          "role": "primary",
+          "basis": "completed action",
+          "probability": 1,
+          "quantity": 1,
+          "itemsPerHour": 360.0,
+          "gpPerHour": 38520.0
+        }
+      ],
+      "sourcePointer": "/Objects/ArtisanRecipe/271",
+      "notes": [
+        "Fixed base reference; no equipment, bonuses, preservation or downtime."
+      ]
+    },
+    {
+      "id": "FireWizardRobes",
+      "gameId": "MelvorBase:FireWizardRobes",
+      "name": "Fire Wizard Robes",
+      "requiredLevel": 33,
+      "availability": "demo",
+      "conditions": [
+        "Runecrafting level 33",
+        "Consumes Wool × 5 per completed action",
+        "Consumes FireRune × 24 per completed action"
+      ],
+      "intervalSeconds": 12.0,
+      "intervalLabel": "12.0s base cycle",
+      "baseXp": 48,
+      "successChance": 1,
+      "xpPerHour": 14400.0,
+      "itemsPerHour": 300.0,
+      "gpPerHour": 44100.0,
+      "products": [
+        {
+          "id": "MelvorBase:FireWizardRobes",
+          "name": "Fire Wizard Robes",
+          "role": "primary",
+          "basis": "completed action",
+          "probability": 1,
+          "quantity": 1,
+          "itemsPerHour": 300.0,
+          "gpPerHour": 44100.0
+        }
+      ],
+      "sourcePointer": "/Objects/ArtisanRecipe/272",
+      "notes": [
+        "Fixed base reference; no equipment, bonuses, preservation or downtime."
+      ]
+    },
+    {
+      "id": "AirWizardBoots",
+      "gameId": "MelvorBase:AirWizardBoots",
+      "name": "Air Wizard Boots",
+      "requiredLevel": 27,
+      "availability": "demo",
+      "conditions": [
+        "Runecrafting level 27",
+        "Consumes Wool × 3 per completed action",
+        "Consumes AirRune × 16 per completed action"
+      ],
+      "intervalSeconds": 8.0,
+      "intervalLabel": "8.0s base cycle",
+      "baseXp": 30,
+      "successChance": 1,
+      "xpPerHour": 13500.0,
+      "itemsPerHour": 450.0,
+      "gpPerHour": 32400.0,
+      "products": [
+        {
+          "id": "MelvorBase:AirWizardBoots",
+          "name": "Air Wizard Boots",
+          "role": "primary",
+          "basis": "completed action",
+          "probability": 1,
+          "quantity": 1,
+          "itemsPerHour": 450.0,
+          "gpPerHour": 32400.0
+        }
+      ],
+      "sourcePointer": "/Objects/ArtisanRecipe/273",
+      "notes": [
+        "Fixed base reference; no equipment, bonuses, preservation or downtime."
+      ]
+    },
+    {
+      "id": "WaterWizardBottoms",
+      "gameId": "MelvorBase:WaterWizardBottoms",
+      "name": "Water Wizard Bottoms",
+      "requiredLevel": 30,
+      "availability": "demo",
+      "conditions": [
+        "Runecrafting level 30",
+        "Consumes Wool × 4 per completed action",
+        "Consumes WaterRune × 20 per completed action"
+      ],
+      "intervalSeconds": 10.0,
+      "intervalLabel": "10.0s base cycle",
+      "baseXp": 39,
+      "successChance": 1,
+      "xpPerHour": 14040.0,
+      "itemsPerHour": 360.0,
+      "gpPerHour": 38520.0,
+      "products": [
+        {
+          "id": "MelvorBase:WaterWizardBottoms",
+          "name": "Water Wizard Bottoms",
+          "role": "primary",
+          "basis": "completed action",
+          "probability": 1,
+          "quantity": 1,
+          "itemsPerHour": 360.0,
+          "gpPerHour": 38520.0
+        }
+      ],
+      "sourcePointer": "/Objects/ArtisanRecipe/274",
+      "notes": [
+        "Fixed base reference; no equipment, bonuses, preservation or downtime."
+      ]
+    },
+    {
+      "id": "EarthWizardRobes",
+      "gameId": "MelvorBase:EarthWizardRobes",
+      "name": "Earth Wizard Robes",
+      "requiredLevel": 33,
+      "availability": "demo",
+      "conditions": [
+        "Runecrafting level 33",
+        "Consumes Wool × 5 per completed action",
+        "Consumes EarthRune × 24 per completed action"
+      ],
+      "intervalSeconds": 12.0,
+      "intervalLabel": "12.0s base cycle",
+      "baseXp": 48,
+      "successChance": 1,
+      "xpPerHour": 14400.0,
+      "itemsPerHour": 300.0,
+      "gpPerHour": 44100.0,
+      "products": [
+        {
+          "id": "MelvorBase:EarthWizardRobes",
+          "name": "Earth Wizard Robes",
+          "role": "primary",
+          "basis": "completed action",
+          "probability": 1,
+          "quantity": 1,
+          "itemsPerHour": 300.0,
+          "gpPerHour": 44100.0
+        }
+      ],
+      "sourcePointer": "/Objects/ArtisanRecipe/275",
+      "notes": [
+        "Fixed base reference; no equipment, bonuses, preservation or downtime."
+      ]
+    },
+    {
+      "id": "FireWizardHat",
+      "gameId": "MelvorBase:FireWizardHat",
+      "name": "Fire Wizard Hat",
+      "requiredLevel": 25,
+      "availability": "demo",
+      "conditions": [
+        "Runecrafting level 25",
+        "Consumes Wool × 3 per completed action",
+        "Consumes FireRune × 16 per completed action"
+      ],
+      "intervalSeconds": 8.0,
+      "intervalLabel": "8.0s base cycle",
+      "baseXp": 30,
+      "successChance": 1,
+      "xpPerHour": 13500.0,
+      "itemsPerHour": 450.0,
+      "gpPerHour": 30150.0,
+      "products": [
+        {
+          "id": "MelvorBase:FireWizardHat",
+          "name": "Fire Wizard Hat",
+          "role": "primary",
+          "basis": "completed action",
+          "probability": 1,
+          "quantity": 1,
+          "itemsPerHour": 450.0,
+          "gpPerHour": 30150.0
+        }
+      ],
+      "sourcePointer": "/Objects/ArtisanRecipe/276",
+      "notes": [
+        "Fixed base reference; no equipment, bonuses, preservation or downtime."
+      ]
+    },
+    {
+      "id": "AirWizardBottoms",
+      "gameId": "MelvorBase:AirWizardBottoms",
+      "name": "Air Wizard Bottoms",
+      "requiredLevel": 30,
+      "availability": "demo",
+      "conditions": [
+        "Runecrafting level 30",
+        "Consumes Wool × 4 per completed action",
+        "Consumes AirRune × 20 per completed action"
+      ],
+      "intervalSeconds": 10.0,
+      "intervalLabel": "10.0s base cycle",
+      "baseXp": 39,
+      "successChance": 1,
+      "xpPerHour": 14040.0,
+      "itemsPerHour": 360.0,
+      "gpPerHour": 38520.0,
+      "products": [
+        {
+          "id": "MelvorBase:AirWizardBottoms",
+          "name": "Air Wizard Bottoms",
+          "role": "primary",
+          "basis": "completed action",
+          "probability": 1,
+          "quantity": 1,
+          "itemsPerHour": 360.0,
+          "gpPerHour": 38520.0
+        }
+      ],
+      "sourcePointer": "/Objects/ArtisanRecipe/277",
+      "notes": [
+        "Fixed base reference; no equipment, bonuses, preservation or downtime."
+      ]
+    },
+    {
+      "id": "WaterWizardRobes",
+      "gameId": "MelvorBase:WaterWizardRobes",
+      "name": "Water Wizard Robes",
+      "requiredLevel": 33,
+      "availability": "demo",
+      "conditions": [
+        "Runecrafting level 33",
+        "Consumes Wool × 5 per completed action",
+        "Consumes WaterRune × 24 per completed action"
+      ],
+      "intervalSeconds": 12.0,
+      "intervalLabel": "12.0s base cycle",
+      "baseXp": 48,
+      "successChance": 1,
+      "xpPerHour": 14400.0,
+      "itemsPerHour": 300.0,
+      "gpPerHour": 44100.0,
+      "products": [
+        {
+          "id": "MelvorBase:WaterWizardRobes",
+          "name": "Water Wizard Robe",
+          "role": "primary",
+          "basis": "completed action",
+          "probability": 1,
+          "quantity": 1,
+          "itemsPerHour": 300.0,
+          "gpPerHour": 44100.0
+        }
+      ],
+      "sourcePointer": "/Objects/ArtisanRecipe/278",
+      "notes": [
+        "Fixed base reference; no equipment, bonuses, preservation or downtime."
+      ]
+    },
+    {
+      "id": "EarthWizardHat",
+      "gameId": "MelvorBase:EarthWizardHat",
+      "name": "Earth Wizard Hat",
+      "requiredLevel": 25,
+      "availability": "demo",
+      "conditions": [
+        "Runecrafting level 25",
+        "Consumes Wool × 3 per completed action",
+        "Consumes EarthRune × 16 per completed action"
+      ],
+      "intervalSeconds": 8.0,
+      "intervalLabel": "8.0s base cycle",
+      "baseXp": 30,
+      "successChance": 1,
+      "xpPerHour": 13500.0,
+      "itemsPerHour": 450.0,
+      "gpPerHour": 30150.0,
+      "products": [
+        {
+          "id": "MelvorBase:EarthWizardHat",
+          "name": "Earth Wizard Hat",
+          "role": "primary",
+          "basis": "completed action",
+          "probability": 1,
+          "quantity": 1,
+          "itemsPerHour": 450.0,
+          "gpPerHour": 30150.0
+        }
+      ],
+      "sourcePointer": "/Objects/ArtisanRecipe/279",
+      "notes": [
+        "Fixed base reference; no equipment, bonuses, preservation or downtime."
+      ]
+    },
+    {
+      "id": "FireWizardBoots",
+      "gameId": "MelvorBase:FireWizardBoots",
+      "name": "Fire Wizard Boots",
+      "requiredLevel": 27,
+      "availability": "demo",
+      "conditions": [
+        "Runecrafting level 27",
+        "Consumes Wool × 3 per completed action",
+        "Consumes FireRune × 16 per completed action"
+      ],
+      "intervalSeconds": 8.0,
+      "intervalLabel": "8.0s base cycle",
+      "baseXp": 30,
+      "successChance": 1,
+      "xpPerHour": 13500.0,
+      "itemsPerHour": 450.0,
+      "gpPerHour": 32400.0,
+      "products": [
+        {
+          "id": "MelvorBase:FireWizardBoots",
+          "name": "Fire Wizard Boots",
+          "role": "primary",
+          "basis": "completed action",
+          "probability": 1,
+          "quantity": 1,
+          "itemsPerHour": 450.0,
+          "gpPerHour": 32400.0
+        }
+      ],
+      "sourcePointer": "/Objects/ArtisanRecipe/280",
+      "notes": [
+        "Fixed base reference; no equipment, bonuses, preservation or downtime."
+      ]
+    },
+    {
+      "id": "AirWizardRobes",
+      "gameId": "MelvorBase:AirWizardRobes",
+      "name": "Air Wizard Robes",
+      "requiredLevel": 33,
+      "availability": "demo",
+      "conditions": [
+        "Runecrafting level 33",
+        "Consumes Wool × 5 per completed action",
+        "Consumes AirRune × 24 per completed action"
+      ],
+      "intervalSeconds": 12.0,
+      "intervalLabel": "12.0s base cycle",
+      "baseXp": 48,
+      "successChance": 1,
+      "xpPerHour": 14400.0,
+      "itemsPerHour": 300.0,
+      "gpPerHour": 44100.0,
+      "products": [
+        {
+          "id": "MelvorBase:AirWizardRobes",
+          "name": "Air Wizard Robe",
+          "role": "primary",
+          "basis": "completed action",
+          "probability": 1,
+          "quantity": 1,
+          "itemsPerHour": 300.0,
+          "gpPerHour": 44100.0
+        }
+      ],
+      "sourcePointer": "/Objects/ArtisanRecipe/281",
+      "notes": [
+        "Fixed base reference; no equipment, bonuses, preservation or downtime."
+      ]
+    },
+    {
+      "id": "WaterWizardHat",
+      "gameId": "MelvorBase:WaterWizardHat",
+      "name": "Water Wizard Hat",
+      "requiredLevel": 25,
+      "availability": "demo",
+      "conditions": [
+        "Runecrafting level 25",
+        "Consumes Wool × 3 per completed action",
+        "Consumes WaterRune × 16 per completed action"
+      ],
+      "intervalSeconds": 8.0,
+      "intervalLabel": "8.0s base cycle",
+      "baseXp": 30,
+      "successChance": 1,
+      "xpPerHour": 13500.0,
+      "itemsPerHour": 450.0,
+      "gpPerHour": 30150.0,
+      "products": [
+        {
+          "id": "MelvorBase:WaterWizardHat",
+          "name": "Water Wizard Hat",
+          "role": "primary",
+          "basis": "completed action",
+          "probability": 1,
+          "quantity": 1,
+          "itemsPerHour": 450.0,
+          "gpPerHour": 30150.0
+        }
+      ],
+      "sourcePointer": "/Objects/ArtisanRecipe/282",
+      "notes": [
+        "Fixed base reference; no equipment, bonuses, preservation or downtime."
+      ]
+    },
+    {
+      "id": "EarthWizardBoots",
+      "gameId": "MelvorBase:EarthWizardBoots",
+      "name": "Earth Wizard Boots",
+      "requiredLevel": 27,
+      "availability": "demo",
+      "conditions": [
+        "Runecrafting level 27",
+        "Consumes Wool × 3 per completed action",
+        "Consumes EarthRune × 16 per completed action"
+      ],
+      "intervalSeconds": 8.0,
+      "intervalLabel": "8.0s base cycle",
+      "baseXp": 30,
+      "successChance": 1,
+      "xpPerHour": 13500.0,
+      "itemsPerHour": 450.0,
+      "gpPerHour": 32400.0,
+      "products": [
+        {
+          "id": "MelvorBase:EarthWizardBoots",
+          "name": "Earth Wizard Boots",
+          "role": "primary",
+          "basis": "completed action",
+          "probability": 1,
+          "quantity": 1,
+          "itemsPerHour": 450.0,
+          "gpPerHour": 32400.0
+        }
+      ],
+      "sourcePointer": "/Objects/ArtisanRecipe/283",
+      "notes": [
+        "Fixed base reference; no equipment, bonuses, preservation or downtime."
+      ]
+    },
+    {
+      "id": "FireWizardBottoms",
+      "gameId": "MelvorBase:FireWizardBottoms",
+      "name": "Fire Wizard Bottoms",
+      "requiredLevel": 30,
+      "availability": "demo",
+      "conditions": [
+        "Runecrafting level 30",
+        "Consumes Wool × 4 per completed action",
+        "Consumes FireRune × 20 per completed action"
+      ],
+      "intervalSeconds": 10.0,
+      "intervalLabel": "10.0s base cycle",
+      "baseXp": 39,
+      "successChance": 1,
+      "xpPerHour": 14040.0,
+      "itemsPerHour": 360.0,
+      "gpPerHour": 38520.0,
+      "products": [
+        {
+          "id": "MelvorBase:FireWizardBottoms",
+          "name": "Fire Wizard Bottoms",
+          "role": "primary",
+          "basis": "completed action",
+          "probability": 1,
+          "quantity": 1,
+          "itemsPerHour": 360.0,
+          "gpPerHour": 38520.0
+        }
+      ],
+      "sourcePointer": "/Objects/ArtisanRecipe/284",
+      "notes": [
+        "Fixed base reference; no equipment, bonuses, preservation or downtime."
+      ]
+    },
+    {
+      "id": "DustWizardHat",
+      "gameId": "MelvorBase:DustWizardHat",
+      "name": "Dust Wizard Hat",
+      "requiredLevel": 45,
+      "availability": "demo",
+      "conditions": [
+        "Runecrafting level 45",
+        "Consumes Silk × 2 per completed action",
+        "Consumes AirRune × 24 per completed action",
+        "Consumes EarthRune × 24 per completed action"
+      ],
+      "intervalSeconds": 12.0,
+      "intervalLabel": "12.0s base cycle",
+      "baseXp": 100,
+      "successChance": 1,
+      "xpPerHour": 30000.0,
+      "itemsPerHour": 300.0,
+      "gpPerHour": 50100.0,
+      "products": [
+        {
+          "id": "MelvorBase:DustWizardHat",
+          "name": "Dust Wizard Hat",
+          "role": "primary",
+          "basis": "completed action",
+          "probability": 1,
+          "quantity": 1,
+          "itemsPerHour": 300.0,
+          "gpPerHour": 50100.0
+        }
+      ],
+      "sourcePointer": "/Objects/ArtisanRecipe/285",
+      "notes": [
+        "Fixed base reference; no equipment, bonuses, preservation or downtime."
+      ]
+    },
+    {
+      "id": "SteamWizardBoots",
+      "gameId": "MelvorBase:SteamWizardBoots",
+      "name": "Steam Wizard Boots",
+      "requiredLevel": 45,
+      "availability": "demo",
+      "conditions": [
+        "Runecrafting level 45",
+        "Consumes Silk × 2 per completed action",
+        "Consumes WaterRune × 24 per completed action",
+        "Consumes FireRune × 24 per completed action"
+      ],
+      "intervalSeconds": 12.0,
+      "intervalLabel": "12.0s base cycle",
+      "baseXp": 100,
+      "successChance": 1,
+      "xpPerHour": 30000.0,
+      "itemsPerHour": 300.0,
+      "gpPerHour": 50100.0,
+      "products": [
+        {
+          "id": "MelvorBase:SteamWizardBoots",
+          "name": "Steam Wizard Boots",
+          "role": "primary",
+          "basis": "completed action",
+          "probability": 1,
+          "quantity": 1,
+          "itemsPerHour": 300.0,
+          "gpPerHour": 50100.0
+        }
+      ],
+      "sourcePointer": "/Objects/ArtisanRecipe/286",
+      "notes": [
+        "Fixed base reference; no equipment, bonuses, preservation or downtime."
+      ]
+    },
+    {
+      "id": "DustWizardBottoms",
+      "gameId": "MelvorBase:DustWizardBottoms",
+      "name": "Dust Wizard Bottoms",
+      "requiredLevel": 49,
+      "availability": "demo",
+      "conditions": [
+        "Runecrafting level 49",
+        "Consumes Silk × 3 per completed action",
+        "Consumes AirRune × 28 per completed action",
+        "Consumes EarthRune × 28 per completed action"
+      ],
+      "intervalSeconds": 14.0,
+      "intervalLabel": "14.0s base cycle",
+      "baseXp": 119,
+      "successChance": 1,
+      "xpPerHour": 30600.000000000004,
+      "itemsPerHour": 257.14285714285717,
+      "gpPerHour": 57085.71428571429,
+      "products": [
+        {
+          "id": "MelvorBase:DustWizardBottoms",
+          "name": "Dust Wizard Bottoms",
+          "role": "primary",
+          "basis": "completed action",
+          "probability": 1,
+          "quantity": 1,
+          "itemsPerHour": 257.14285714285717,
+          "gpPerHour": 57085.71428571429
+        }
+      ],
+      "sourcePointer": "/Objects/ArtisanRecipe/287",
+      "notes": [
+        "Fixed base reference; no equipment, bonuses, preservation or downtime."
+      ]
+    },
+    {
+      "id": "SteamWizardRobes",
+      "gameId": "MelvorBase:SteamWizardRobes",
+      "name": "Steam Wizard Robes",
+      "requiredLevel": 52,
+      "availability": "demo",
+      "conditions": [
+        "Runecrafting level 52",
+        "Consumes Silk × 4 per completed action",
+        "Consumes WaterRune × 32 per completed action",
+        "Consumes FireRune × 32 per completed action"
+      ],
+      "intervalSeconds": 16.0,
+      "intervalLabel": "16.0s base cycle",
+      "baseXp": 138,
+      "successChance": 1,
+      "xpPerHour": 31050.0,
+      "itemsPerHour": 225.0,
+      "gpPerHour": 67725.0,
+      "products": [
+        {
+          "id": "MelvorBase:SteamWizardRobes",
+          "name": "Steam Wizard Robe",
+          "role": "primary",
+          "basis": "completed action",
+          "probability": 1,
+          "quantity": 1,
+          "itemsPerHour": 225.0,
+          "gpPerHour": 67725.0
+        }
+      ],
+      "sourcePointer": "/Objects/ArtisanRecipe/288",
+      "notes": [
+        "Fixed base reference; no equipment, bonuses, preservation or downtime."
+      ]
+    },
+    {
+      "id": "SteamWizardHat",
+      "gameId": "MelvorBase:SteamWizardHat",
+      "name": "Steam Wizard Hat",
+      "requiredLevel": 47,
+      "availability": "demo",
+      "conditions": [
+        "Runecrafting level 47",
+        "Consumes Silk × 2 per completed action",
+        "Consumes WaterRune × 24 per completed action",
+        "Consumes FireRune × 24 per completed action"
+      ],
+      "intervalSeconds": 12.0,
+      "intervalLabel": "12.0s base cycle",
+      "baseXp": 100,
+      "successChance": 1,
+      "xpPerHour": 30000.0,
+      "itemsPerHour": 300.0,
+      "gpPerHour": 52500.0,
+      "products": [
+        {
+          "id": "MelvorBase:SteamWizardHat",
+          "name": "Steam Wizard Hat",
+          "role": "primary",
+          "basis": "completed action",
+          "probability": 1,
+          "quantity": 1,
+          "itemsPerHour": 300.0,
+          "gpPerHour": 52500.0
+        }
+      ],
+      "sourcePointer": "/Objects/ArtisanRecipe/289",
+      "notes": [
+        "Fixed base reference; no equipment, bonuses, preservation or downtime."
+      ]
+    },
+    {
+      "id": "DustWizardBoots",
+      "gameId": "MelvorBase:DustWizardBoots",
+      "name": "Dust Wizard Boots",
+      "requiredLevel": 47,
+      "availability": "demo",
+      "conditions": [
+        "Runecrafting level 47",
+        "Consumes Silk × 2 per completed action",
+        "Consumes AirRune × 24 per completed action",
+        "Consumes EarthRune × 24 per completed action"
+      ],
+      "intervalSeconds": 12.0,
+      "intervalLabel": "12.0s base cycle",
+      "baseXp": 100,
+      "successChance": 1,
+      "xpPerHour": 30000.0,
+      "itemsPerHour": 300.0,
+      "gpPerHour": 52500.0,
+      "products": [
+        {
+          "id": "MelvorBase:DustWizardBoots",
+          "name": "Dust Wizard Boots",
+          "role": "primary",
+          "basis": "completed action",
+          "probability": 1,
+          "quantity": 1,
+          "itemsPerHour": 300.0,
+          "gpPerHour": 52500.0
+        }
+      ],
+      "sourcePointer": "/Objects/ArtisanRecipe/290",
+      "notes": [
+        "Fixed base reference; no equipment, bonuses, preservation or downtime."
+      ]
+    },
+    {
+      "id": "SteamWizardBottoms",
+      "gameId": "MelvorBase:SteamWizardBottoms",
+      "name": "Steam Wizard Bottoms",
+      "requiredLevel": 49,
+      "availability": "demo",
+      "conditions": [
+        "Runecrafting level 49",
+        "Consumes Silk × 3 per completed action",
+        "Consumes WaterRune × 28 per completed action",
+        "Consumes FireRune × 28 per completed action"
+      ],
+      "intervalSeconds": 14.0,
+      "intervalLabel": "14.0s base cycle",
+      "baseXp": 119,
+      "successChance": 1,
+      "xpPerHour": 30600.000000000004,
+      "itemsPerHour": 257.14285714285717,
+      "gpPerHour": 57085.71428571429,
+      "products": [
+        {
+          "id": "MelvorBase:SteamWizardBottoms",
+          "name": "Steam Wizard Bottoms",
+          "role": "primary",
+          "basis": "completed action",
+          "probability": 1,
+          "quantity": 1,
+          "itemsPerHour": 257.14285714285717,
+          "gpPerHour": 57085.71428571429
+        }
+      ],
+      "sourcePointer": "/Objects/ArtisanRecipe/291",
+      "notes": [
+        "Fixed base reference; no equipment, bonuses, preservation or downtime."
+      ]
+    },
+    {
+      "id": "DustWizardRobes",
+      "gameId": "MelvorBase:DustWizardRobes",
+      "name": "Dust Wizard Robes",
+      "requiredLevel": 52,
+      "availability": "demo",
+      "conditions": [
+        "Runecrafting level 52",
+        "Consumes Silk × 4 per completed action",
+        "Consumes AirRune × 32 per completed action",
+        "Consumes EarthRune × 32 per completed action"
+      ],
+      "intervalSeconds": 16.0,
+      "intervalLabel": "16.0s base cycle",
+      "baseXp": 138,
+      "successChance": 1,
+      "xpPerHour": 31050.0,
+      "itemsPerHour": 225.0,
+      "gpPerHour": 67725.0,
+      "products": [
+        {
+          "id": "MelvorBase:DustWizardRobes",
+          "name": "Dust Wizard Robe",
+          "role": "primary",
+          "basis": "completed action",
+          "probability": 1,
+          "quantity": 1,
+          "itemsPerHour": 225.0,
+          "gpPerHour": 67725.0
+        }
+      ],
+      "sourcePointer": "/Objects/ArtisanRecipe/292",
+      "notes": [
+        "Fixed base reference; no equipment, bonuses, preservation or downtime."
+      ]
+    },
+    {
+      "id": "MudWizardHat",
+      "gameId": "MelvorBase:MudWizardHat",
+      "name": "Mud Wizard Hat",
+      "requiredLevel": null,
+      "availability": "locked",
+      "conditions": [
+        "Consumes DemoPlaceholderItem × 1 per completed action"
+      ],
+      "intervalSeconds": 70.0,
+      "intervalLabel": "70.0s base cycle",
+      "baseXp": 1,
+      "successChance": 1,
+      "xpPerHour": 51.42857142857143,
+      "itemsPerHour": 51.42857142857143,
+      "gpPerHour": 0.0,
+      "products": [
+        {
+          "id": "MelvorBase:DemoPlaceholderItem",
+          "name": "DemoPlaceholderItem",
+          "role": "primary",
+          "basis": "completed action",
+          "probability": 1,
+          "quantity": 1,
+          "itemsPerHour": 51.42857142857143,
+          "gpPerHour": 0.0
+        }
+      ],
+      "sourcePointer": "/Objects/ArtisanRecipe/293",
+      "notes": [
+        "Fixed base reference; no equipment, bonuses, preservation or downtime.",
+        "Locked demo placeholder definition; not a playable potion baseline."
+      ]
+    },
+    {
+      "id": "SmokeWizardBoots",
+      "gameId": "MelvorBase:SmokeWizardBoots",
+      "name": "Smoke Wizard Boots",
+      "requiredLevel": null,
+      "availability": "locked",
+      "conditions": [
+        "Consumes DemoPlaceholderItem × 1 per completed action"
+      ],
+      "intervalSeconds": 70.0,
+      "intervalLabel": "70.0s base cycle",
+      "baseXp": 1,
+      "successChance": 1,
+      "xpPerHour": 51.42857142857143,
+      "itemsPerHour": 51.42857142857143,
+      "gpPerHour": 0.0,
+      "products": [
+        {
+          "id": "MelvorBase:DemoPlaceholderItem",
+          "name": "DemoPlaceholderItem",
+          "role": "primary",
+          "basis": "completed action",
+          "probability": 1,
+          "quantity": 1,
+          "itemsPerHour": 51.42857142857143,
+          "gpPerHour": 0.0
+        }
+      ],
+      "sourcePointer": "/Objects/ArtisanRecipe/294",
+      "notes": [
+        "Fixed base reference; no equipment, bonuses, preservation or downtime.",
+        "Locked demo placeholder definition; not a playable potion baseline."
+      ]
+    },
+    {
+      "id": "MudWizardBottoms",
+      "gameId": "MelvorBase:MudWizardBottoms",
+      "name": "Mud Wizard Bottoms",
+      "requiredLevel": null,
+      "availability": "locked",
+      "conditions": [
+        "Consumes DemoPlaceholderItem × 1 per completed action"
+      ],
+      "intervalSeconds": 80.0,
+      "intervalLabel": "80.0s base cycle",
+      "baseXp": 1,
+      "successChance": 1,
+      "xpPerHour": 45.0,
+      "itemsPerHour": 45.0,
+      "gpPerHour": 0.0,
+      "products": [
+        {
+          "id": "MelvorBase:DemoPlaceholderItem",
+          "name": "DemoPlaceholderItem",
+          "role": "primary",
+          "basis": "completed action",
+          "probability": 1,
+          "quantity": 1,
+          "itemsPerHour": 45.0,
+          "gpPerHour": 0.0
+        }
+      ],
+      "sourcePointer": "/Objects/ArtisanRecipe/295",
+      "notes": [
+        "Fixed base reference; no equipment, bonuses, preservation or downtime.",
+        "Locked demo placeholder definition; not a playable potion baseline."
+      ]
+    },
+    {
+      "id": "SmokeWizardRobes",
+      "gameId": "MelvorBase:SmokeWizardRobes",
+      "name": "Smoke Wizard Robes",
+      "requiredLevel": null,
+      "availability": "locked",
+      "conditions": [
+        "Consumes DemoPlaceholderItem × 1 per completed action"
+      ],
+      "intervalSeconds": 90.0,
+      "intervalLabel": "90.0s base cycle",
+      "baseXp": 1,
+      "successChance": 1,
+      "xpPerHour": 40.0,
+      "itemsPerHour": 40.0,
+      "gpPerHour": 0.0,
+      "products": [
+        {
+          "id": "MelvorBase:DemoPlaceholderItem",
+          "name": "DemoPlaceholderItem",
+          "role": "primary",
+          "basis": "completed action",
+          "probability": 1,
+          "quantity": 1,
+          "itemsPerHour": 40.0,
+          "gpPerHour": 0.0
+        }
+      ],
+      "sourcePointer": "/Objects/ArtisanRecipe/296",
+      "notes": [
+        "Fixed base reference; no equipment, bonuses, preservation or downtime.",
+        "Locked demo placeholder definition; not a playable potion baseline."
+      ]
+    },
+    {
+      "id": "SmokeWizardHat",
+      "gameId": "MelvorBase:SmokeWizardHat",
+      "name": "Smoke Wizard Hat",
+      "requiredLevel": null,
+      "availability": "locked",
+      "conditions": [
+        "Consumes DemoPlaceholderItem × 1 per completed action"
+      ],
+      "intervalSeconds": 70.0,
+      "intervalLabel": "70.0s base cycle",
+      "baseXp": 1,
+      "successChance": 1,
+      "xpPerHour": 51.42857142857143,
+      "itemsPerHour": 51.42857142857143,
+      "gpPerHour": 0.0,
+      "products": [
+        {
+          "id": "MelvorBase:DemoPlaceholderItem",
+          "name": "DemoPlaceholderItem",
+          "role": "primary",
+          "basis": "completed action",
+          "probability": 1,
+          "quantity": 1,
+          "itemsPerHour": 51.42857142857143,
+          "gpPerHour": 0.0
+        }
+      ],
+      "sourcePointer": "/Objects/ArtisanRecipe/297",
+      "notes": [
+        "Fixed base reference; no equipment, bonuses, preservation or downtime.",
+        "Locked demo placeholder definition; not a playable potion baseline."
+      ]
+    },
+    {
+      "id": "MudWizardBoots",
+      "gameId": "MelvorBase:MudWizardBoots",
+      "name": "Mud Wizard Boots",
+      "requiredLevel": null,
+      "availability": "locked",
+      "conditions": [
+        "Consumes DemoPlaceholderItem × 1 per completed action"
+      ],
+      "intervalSeconds": 70.0,
+      "intervalLabel": "70.0s base cycle",
+      "baseXp": 1,
+      "successChance": 1,
+      "xpPerHour": 51.42857142857143,
+      "itemsPerHour": 51.42857142857143,
+      "gpPerHour": 0.0,
+      "products": [
+        {
+          "id": "MelvorBase:DemoPlaceholderItem",
+          "name": "DemoPlaceholderItem",
+          "role": "primary",
+          "basis": "completed action",
+          "probability": 1,
+          "quantity": 1,
+          "itemsPerHour": 51.42857142857143,
+          "gpPerHour": 0.0
+        }
+      ],
+      "sourcePointer": "/Objects/ArtisanRecipe/298",
+      "notes": [
+        "Fixed base reference; no equipment, bonuses, preservation or downtime.",
+        "Locked demo placeholder definition; not a playable potion baseline."
+      ]
+    },
+    {
+      "id": "SmokeWizardBottoms",
+      "gameId": "MelvorBase:SmokeWizardBottoms",
+      "name": "Smoke Wizard Bottoms",
+      "requiredLevel": null,
+      "availability": "locked",
+      "conditions": [
+        "Consumes DemoPlaceholderItem × 1 per completed action"
+      ],
+      "intervalSeconds": 80.0,
+      "intervalLabel": "80.0s base cycle",
+      "baseXp": 1,
+      "successChance": 1,
+      "xpPerHour": 45.0,
+      "itemsPerHour": 45.0,
+      "gpPerHour": 0.0,
+      "products": [
+        {
+          "id": "MelvorBase:DemoPlaceholderItem",
+          "name": "DemoPlaceholderItem",
+          "role": "primary",
+          "basis": "completed action",
+          "probability": 1,
+          "quantity": 1,
+          "itemsPerHour": 45.0,
+          "gpPerHour": 0.0
+        }
+      ],
+      "sourcePointer": "/Objects/ArtisanRecipe/299",
+      "notes": [
+        "Fixed base reference; no equipment, bonuses, preservation or downtime.",
+        "Locked demo placeholder definition; not a playable potion baseline."
+      ]
+    },
+    {
+      "id": "MudWizardRobes",
+      "gameId": "MelvorBase:MudWizardRobes",
+      "name": "Mud Wizard Robes",
+      "requiredLevel": null,
+      "availability": "locked",
+      "conditions": [
+        "Consumes DemoPlaceholderItem × 1 per completed action"
+      ],
+      "intervalSeconds": 90.0,
+      "intervalLabel": "90.0s base cycle",
+      "baseXp": 1,
+      "successChance": 1,
+      "xpPerHour": 40.0,
+      "itemsPerHour": 40.0,
+      "gpPerHour": 0.0,
+      "products": [
+        {
+          "id": "MelvorBase:DemoPlaceholderItem",
+          "name": "DemoPlaceholderItem",
+          "role": "primary",
+          "basis": "completed action",
+          "probability": 1,
+          "quantity": 1,
+          "itemsPerHour": 40.0,
+          "gpPerHour": 0.0
+        }
+      ],
+      "sourcePointer": "/Objects/ArtisanRecipe/300",
+      "notes": [
+        "Fixed base reference; no equipment, bonuses, preservation or downtime.",
+        "Locked demo placeholder definition; not a playable potion baseline."
+      ]
+    },
+    {
+      "id": "MistWizardHat",
+      "gameId": "MelvorBase:MistWizardHat",
+      "name": "Mist Wizard Hat",
+      "requiredLevel": null,
+      "availability": "locked",
+      "conditions": [
+        "Consumes DemoPlaceholderItem × 1 per completed action"
+      ],
+      "intervalSeconds": 80.0,
+      "intervalLabel": "80.0s base cycle",
+      "baseXp": 1,
+      "successChance": 1,
+      "xpPerHour": 45.0,
+      "itemsPerHour": 45.0,
+      "gpPerHour": 0.0,
+      "products": [
+        {
+          "id": "MelvorBase:DemoPlaceholderItem",
+          "name": "DemoPlaceholderItem",
+          "role": "primary",
+          "basis": "completed action",
+          "probability": 1,
+          "quantity": 1,
+          "itemsPerHour": 45.0,
+          "gpPerHour": 0.0
+        }
+      ],
+      "sourcePointer": "/Objects/ArtisanRecipe/301",
+      "notes": [
+        "Fixed base reference; no equipment, bonuses, preservation or downtime.",
+        "Locked demo placeholder definition; not a playable potion baseline."
+      ]
+    },
+    {
+      "id": "LavaWizardBoots",
+      "gameId": "MelvorBase:LavaWizardBoots",
+      "name": "Lava Wizard Boots",
+      "requiredLevel": null,
+      "availability": "locked",
+      "conditions": [
+        "Consumes DemoPlaceholderItem × 1 per completed action"
+      ],
+      "intervalSeconds": 80.0,
+      "intervalLabel": "80.0s base cycle",
+      "baseXp": 1,
+      "successChance": 1,
+      "xpPerHour": 45.0,
+      "itemsPerHour": 45.0,
+      "gpPerHour": 0.0,
+      "products": [
+        {
+          "id": "MelvorBase:DemoPlaceholderItem",
+          "name": "DemoPlaceholderItem",
+          "role": "primary",
+          "basis": "completed action",
+          "probability": 1,
+          "quantity": 1,
+          "itemsPerHour": 45.0,
+          "gpPerHour": 0.0
+        }
+      ],
+      "sourcePointer": "/Objects/ArtisanRecipe/302",
+      "notes": [
+        "Fixed base reference; no equipment, bonuses, preservation or downtime.",
+        "Locked demo placeholder definition; not a playable potion baseline."
+      ]
+    },
+    {
+      "id": "MistWizardBottoms",
+      "gameId": "MelvorBase:MistWizardBottoms",
+      "name": "Mist Wizard Bottoms",
+      "requiredLevel": null,
+      "availability": "locked",
+      "conditions": [
+        "Consumes DemoPlaceholderItem × 1 per completed action"
+      ],
+      "intervalSeconds": 90.0,
+      "intervalLabel": "90.0s base cycle",
+      "baseXp": 1,
+      "successChance": 1,
+      "xpPerHour": 40.0,
+      "itemsPerHour": 40.0,
+      "gpPerHour": 0.0,
+      "products": [
+        {
+          "id": "MelvorBase:DemoPlaceholderItem",
+          "name": "DemoPlaceholderItem",
+          "role": "primary",
+          "basis": "completed action",
+          "probability": 1,
+          "quantity": 1,
+          "itemsPerHour": 40.0,
+          "gpPerHour": 0.0
+        }
+      ],
+      "sourcePointer": "/Objects/ArtisanRecipe/303",
+      "notes": [
+        "Fixed base reference; no equipment, bonuses, preservation or downtime.",
+        "Locked demo placeholder definition; not a playable potion baseline."
+      ]
+    },
+    {
+      "id": "LavaWizardRobes",
+      "gameId": "MelvorBase:LavaWizardRobes",
+      "name": "Lava Wizard Robes",
+      "requiredLevel": null,
+      "availability": "locked",
+      "conditions": [
+        "Consumes DemoPlaceholderItem × 1 per completed action"
+      ],
+      "intervalSeconds": 100.0,
+      "intervalLabel": "100.0s base cycle",
+      "baseXp": 1,
+      "successChance": 1,
+      "xpPerHour": 36.0,
+      "itemsPerHour": 36.0,
+      "gpPerHour": 0.0,
+      "products": [
+        {
+          "id": "MelvorBase:DemoPlaceholderItem",
+          "name": "DemoPlaceholderItem",
+          "role": "primary",
+          "basis": "completed action",
+          "probability": 1,
+          "quantity": 1,
+          "itemsPerHour": 36.0,
+          "gpPerHour": 0.0
+        }
+      ],
+      "sourcePointer": "/Objects/ArtisanRecipe/304",
+      "notes": [
+        "Fixed base reference; no equipment, bonuses, preservation or downtime.",
+        "Locked demo placeholder definition; not a playable potion baseline."
+      ]
+    },
+    {
+      "id": "LavaWizardHat",
+      "gameId": "MelvorBase:LavaWizardHat",
+      "name": "Lava Wizard Hat",
+      "requiredLevel": null,
+      "availability": "locked",
+      "conditions": [
+        "Consumes DemoPlaceholderItem × 1 per completed action"
+      ],
+      "intervalSeconds": 80.0,
+      "intervalLabel": "80.0s base cycle",
+      "baseXp": 1,
+      "successChance": 1,
+      "xpPerHour": 45.0,
+      "itemsPerHour": 45.0,
+      "gpPerHour": 0.0,
+      "products": [
+        {
+          "id": "MelvorBase:DemoPlaceholderItem",
+          "name": "DemoPlaceholderItem",
+          "role": "primary",
+          "basis": "completed action",
+          "probability": 1,
+          "quantity": 1,
+          "itemsPerHour": 45.0,
+          "gpPerHour": 0.0
+        }
+      ],
+      "sourcePointer": "/Objects/ArtisanRecipe/305",
+      "notes": [
+        "Fixed base reference; no equipment, bonuses, preservation or downtime.",
+        "Locked demo placeholder definition; not a playable potion baseline."
+      ]
+    },
+    {
+      "id": "MistWizardBoots",
+      "gameId": "MelvorBase:MistWizardBoots",
+      "name": "Mist Wizard Boots",
+      "requiredLevel": null,
+      "availability": "locked",
+      "conditions": [
+        "Consumes DemoPlaceholderItem × 1 per completed action"
+      ],
+      "intervalSeconds": 80.0,
+      "intervalLabel": "80.0s base cycle",
+      "baseXp": 1,
+      "successChance": 1,
+      "xpPerHour": 45.0,
+      "itemsPerHour": 45.0,
+      "gpPerHour": 0.0,
+      "products": [
+        {
+          "id": "MelvorBase:DemoPlaceholderItem",
+          "name": "DemoPlaceholderItem",
+          "role": "primary",
+          "basis": "completed action",
+          "probability": 1,
+          "quantity": 1,
+          "itemsPerHour": 45.0,
+          "gpPerHour": 0.0
+        }
+      ],
+      "sourcePointer": "/Objects/ArtisanRecipe/306",
+      "notes": [
+        "Fixed base reference; no equipment, bonuses, preservation or downtime.",
+        "Locked demo placeholder definition; not a playable potion baseline."
+      ]
+    },
+    {
+      "id": "LavaWizardBottoms",
+      "gameId": "MelvorBase:LavaWizardBottoms",
+      "name": "Lava Wizard Bottoms",
+      "requiredLevel": null,
+      "availability": "locked",
+      "conditions": [
+        "Consumes DemoPlaceholderItem × 1 per completed action"
+      ],
+      "intervalSeconds": 90.0,
+      "intervalLabel": "90.0s base cycle",
+      "baseXp": 1,
+      "successChance": 1,
+      "xpPerHour": 40.0,
+      "itemsPerHour": 40.0,
+      "gpPerHour": 0.0,
+      "products": [
+        {
+          "id": "MelvorBase:DemoPlaceholderItem",
+          "name": "DemoPlaceholderItem",
+          "role": "primary",
+          "basis": "completed action",
+          "probability": 1,
+          "quantity": 1,
+          "itemsPerHour": 40.0,
+          "gpPerHour": 0.0
+        }
+      ],
+      "sourcePointer": "/Objects/ArtisanRecipe/307",
+      "notes": [
+        "Fixed base reference; no equipment, bonuses, preservation or downtime.",
+        "Locked demo placeholder definition; not a playable potion baseline."
+      ]
+    },
+    {
+      "id": "MistWizardRobes",
+      "gameId": "MelvorBase:MistWizardRobes",
+      "name": "Mist Wizard Robes",
+      "requiredLevel": null,
+      "availability": "locked",
+      "conditions": [
+        "Consumes DemoPlaceholderItem × 1 per completed action"
+      ],
+      "intervalSeconds": 100.0,
+      "intervalLabel": "100.0s base cycle",
+      "baseXp": 1,
+      "successChance": 1,
+      "xpPerHour": 36.0,
+      "itemsPerHour": 36.0,
+      "gpPerHour": 0.0,
+      "products": [
+        {
+          "id": "MelvorBase:DemoPlaceholderItem",
+          "name": "DemoPlaceholderItem",
+          "role": "primary",
+          "basis": "completed action",
+          "probability": 1,
+          "quantity": 1,
+          "itemsPerHour": 36.0,
+          "gpPerHour": 0.0
+        }
+      ],
+      "sourcePointer": "/Objects/ArtisanRecipe/308",
+      "notes": [
+        "Fixed base reference; no equipment, bonuses, preservation or downtime.",
+        "Locked demo placeholder definition; not a playable potion baseline."
+      ]
+    },
+    {
+      "id": "ElementalWizardHat",
+      "gameId": "MelvorBase:ElementalWizardHat",
+      "name": "Elemental Wizard Hat",
+      "requiredLevel": null,
+      "availability": "locked",
+      "conditions": [
+        "Consumes DemoPlaceholderItem × 1 per completed action"
+      ],
+      "intervalSeconds": 120.0,
+      "intervalLabel": "120.0s base cycle",
+      "baseXp": 1,
+      "successChance": 1,
+      "xpPerHour": 30.0,
+      "itemsPerHour": 30.0,
+      "gpPerHour": 0.0,
+      "products": [
+        {
+          "id": "MelvorBase:DemoPlaceholderItem",
+          "name": "DemoPlaceholderItem",
+          "role": "primary",
+          "basis": "completed action",
+          "probability": 1,
+          "quantity": 1,
+          "itemsPerHour": 30.0,
+          "gpPerHour": 0.0
+        }
+      ],
+      "sourcePointer": "/Objects/ArtisanRecipe/309",
+      "notes": [
+        "Fixed base reference; no equipment, bonuses, preservation or downtime.",
+        "Locked demo placeholder definition; not a playable potion baseline."
+      ]
+    },
+    {
+      "id": "ElementalWizardBoots",
+      "gameId": "MelvorBase:ElementalWizardBoots",
+      "name": "Elemental Wizard Boots",
+      "requiredLevel": null,
+      "availability": "locked",
+      "conditions": [
+        "Consumes DemoPlaceholderItem × 1 per completed action"
+      ],
+      "intervalSeconds": 120.0,
+      "intervalLabel": "120.0s base cycle",
+      "baseXp": 1,
+      "successChance": 1,
+      "xpPerHour": 30.0,
+      "itemsPerHour": 30.0,
+      "gpPerHour": 0.0,
+      "products": [
+        {
+          "id": "MelvorBase:DemoPlaceholderItem",
+          "name": "DemoPlaceholderItem",
+          "role": "primary",
+          "basis": "completed action",
+          "probability": 1,
+          "quantity": 1,
+          "itemsPerHour": 30.0,
+          "gpPerHour": 0.0
+        }
+      ],
+      "sourcePointer": "/Objects/ArtisanRecipe/310",
+      "notes": [
+        "Fixed base reference; no equipment, bonuses, preservation or downtime.",
+        "Locked demo placeholder definition; not a playable potion baseline."
+      ]
+    },
+    {
+      "id": "ElementalWizardBottoms",
+      "gameId": "MelvorBase:ElementalWizardBottoms",
+      "name": "Elemental Wizard Bottoms",
+      "requiredLevel": null,
+      "availability": "locked",
+      "conditions": [
+        "Consumes DemoPlaceholderItem × 1 per completed action"
+      ],
+      "intervalSeconds": 130.0,
+      "intervalLabel": "130.0s base cycle",
+      "baseXp": 1,
+      "successChance": 1,
+      "xpPerHour": 27.692307692307693,
+      "itemsPerHour": 27.692307692307693,
+      "gpPerHour": 0.0,
+      "products": [
+        {
+          "id": "MelvorBase:DemoPlaceholderItem",
+          "name": "DemoPlaceholderItem",
+          "role": "primary",
+          "basis": "completed action",
+          "probability": 1,
+          "quantity": 1,
+          "itemsPerHour": 27.692307692307693,
+          "gpPerHour": 0.0
+        }
+      ],
+      "sourcePointer": "/Objects/ArtisanRecipe/311",
+      "notes": [
+        "Fixed base reference; no equipment, bonuses, preservation or downtime.",
+        "Locked demo placeholder definition; not a playable potion baseline."
+      ]
+    },
+    {
+      "id": "ElementalWizardRobes",
+      "gameId": "MelvorBase:ElementalWizardRobes",
+      "name": "Elemental Wizard Robes",
+      "requiredLevel": null,
+      "availability": "locked",
+      "conditions": [
+        "Consumes DemoPlaceholderItem × 1 per completed action"
+      ],
+      "intervalSeconds": 140.0,
+      "intervalLabel": "140.0s base cycle",
+      "baseXp": 1,
+      "successChance": 1,
+      "xpPerHour": 25.714285714285715,
+      "itemsPerHour": 25.714285714285715,
+      "gpPerHour": 0.0,
+      "products": [
+        {
+          "id": "MelvorBase:DemoPlaceholderItem",
+          "name": "DemoPlaceholderItem",
+          "role": "primary",
+          "basis": "completed action",
+          "probability": 1,
+          "quantity": 1,
+          "itemsPerHour": 25.714285714285715,
+          "gpPerHour": 0.0
+        }
+      ],
+      "sourcePointer": "/Objects/ArtisanRecipe/312",
+      "notes": [
+        "Fixed base reference; no equipment, bonuses, preservation or downtime.",
+        "Locked demo placeholder definition; not a playable potion baseline."
+      ]
+    },
+    {
+      "id": "AstralRune",
+      "gameId": "MelvorBase:AstralRune",
+      "name": "Astral Rune",
+      "requiredLevel": null,
+      "availability": "locked",
+      "conditions": [
+        "Consumes DemoPlaceholderItem × 1 per completed action"
+      ],
+      "intervalSeconds": 10.0,
+      "intervalLabel": "10.0s base cycle",
+      "baseXp": 1,
+      "successChance": 1,
+      "xpPerHour": 360.0,
+      "itemsPerHour": 360.0,
+      "gpPerHour": 0.0,
+      "products": [
+        {
+          "id": "MelvorBase:DemoPlaceholderItem",
+          "name": "DemoPlaceholderItem",
+          "role": "primary",
+          "basis": "completed action",
+          "probability": 1,
+          "quantity": 1,
+          "itemsPerHour": 360.0,
+          "gpPerHour": 0.0
+        }
+      ],
+      "sourcePointer": "/Objects/ArtisanRecipe/655",
+      "notes": [
+        "Fixed base reference; no equipment, bonuses, preservation or downtime.",
+        "Locked demo placeholder definition; not a playable potion baseline."
+      ]
+    },
+    {
+      "id": "MeteoriteAirSceptre",
+      "gameId": "MelvorBase:MeteoriteAirSceptre",
+      "name": "Meteorite Air Sceptre",
+      "requiredLevel": null,
+      "availability": "locked",
+      "conditions": [
+        "Consumes DemoPlaceholderItem × 1 per completed action"
+      ],
+      "intervalSeconds": 120.0,
+      "intervalLabel": "120.0s base cycle",
+      "baseXp": 1,
+      "successChance": 1,
+      "xpPerHour": 30.0,
+      "itemsPerHour": 30.0,
+      "gpPerHour": 0.0,
+      "products": [
+        {
+          "id": "MelvorBase:DemoPlaceholderItem",
+          "name": "DemoPlaceholderItem",
+          "role": "primary",
+          "basis": "completed action",
+          "probability": 1,
+          "quantity": 1,
+          "itemsPerHour": 30.0,
+          "gpPerHour": 0.0
+        }
+      ],
+      "sourcePointer": "/Objects/ArtisanRecipe/656",
+      "notes": [
+        "Fixed base reference; no equipment, bonuses, preservation or downtime.",
+        "Locked demo placeholder definition; not a playable potion baseline."
+      ]
+    },
+    {
+      "id": "MeteoriteWaterSceptre",
+      "gameId": "MelvorBase:MeteoriteWaterSceptre",
+      "name": "Meteorite Water Sceptre",
+      "requiredLevel": null,
+      "availability": "locked",
+      "conditions": [
+        "Consumes DemoPlaceholderItem × 1 per completed action"
+      ],
+      "intervalSeconds": 120.0,
+      "intervalLabel": "120.0s base cycle",
+      "baseXp": 1,
+      "successChance": 1,
+      "xpPerHour": 30.0,
+      "itemsPerHour": 30.0,
+      "gpPerHour": 0.0,
+      "products": [
+        {
+          "id": "MelvorBase:DemoPlaceholderItem",
+          "name": "DemoPlaceholderItem",
+          "role": "primary",
+          "basis": "completed action",
+          "probability": 1,
+          "quantity": 1,
+          "itemsPerHour": 30.0,
+          "gpPerHour": 0.0
+        }
+      ],
+      "sourcePointer": "/Objects/ArtisanRecipe/657",
+      "notes": [
+        "Fixed base reference; no equipment, bonuses, preservation or downtime.",
+        "Locked demo placeholder definition; not a playable potion baseline."
+      ]
+    },
+    {
+      "id": "MeteoriteEarthSceptre",
+      "gameId": "MelvorBase:MeteoriteEarthSceptre",
+      "name": "Meteorite Earth Sceptre",
+      "requiredLevel": null,
+      "availability": "locked",
+      "conditions": [
+        "Consumes DemoPlaceholderItem × 1 per completed action"
+      ],
+      "intervalSeconds": 120.0,
+      "intervalLabel": "120.0s base cycle",
+      "baseXp": 1,
+      "successChance": 1,
+      "xpPerHour": 30.0,
+      "itemsPerHour": 30.0,
+      "gpPerHour": 0.0,
+      "products": [
+        {
+          "id": "MelvorBase:DemoPlaceholderItem",
+          "name": "DemoPlaceholderItem",
+          "role": "primary",
+          "basis": "completed action",
+          "probability": 1,
+          "quantity": 1,
+          "itemsPerHour": 30.0,
+          "gpPerHour": 0.0
+        }
+      ],
+      "sourcePointer": "/Objects/ArtisanRecipe/658",
+      "notes": [
+        "Fixed base reference; no equipment, bonuses, preservation or downtime.",
+        "Locked demo placeholder definition; not a playable potion baseline."
+      ]
+    },
+    {
+      "id": "MeteoriteFireSceptre",
+      "gameId": "MelvorBase:MeteoriteFireSceptre",
+      "name": "Meteorite Fire Sceptre",
+      "requiredLevel": null,
+      "availability": "locked",
+      "conditions": [
+        "Consumes DemoPlaceholderItem × 1 per completed action"
+      ],
+      "intervalSeconds": 120.0,
+      "intervalLabel": "120.0s base cycle",
+      "baseXp": 1,
+      "successChance": 1,
+      "xpPerHour": 30.0,
+      "itemsPerHour": 30.0,
+      "gpPerHour": 0.0,
+      "products": [
+        {
+          "id": "MelvorBase:DemoPlaceholderItem",
+          "name": "DemoPlaceholderItem",
+          "role": "primary",
+          "basis": "completed action",
+          "probability": 1,
+          "quantity": 1,
+          "itemsPerHour": 30.0,
+          "gpPerHour": 0.0
+        }
+      ],
+      "sourcePointer": "/Objects/ArtisanRecipe/659",
+      "notes": [
+        "Fixed base reference; no equipment, bonuses, preservation or downtime.",
+        "Locked demo placeholder definition; not a playable potion baseline."
+      ]
+    },
+    {
+      "id": "RefinedMeteoriteAirSceptre",
+      "gameId": "MelvorBase:RefinedMeteoriteAirSceptre",
+      "name": "Refined Meteorite Air Sceptre",
+      "requiredLevel": null,
+      "availability": "locked",
+      "conditions": [
+        "Consumes DemoPlaceholderItem × 1 per completed action"
+      ],
+      "intervalSeconds": 160.0,
+      "intervalLabel": "160.0s base cycle",
+      "baseXp": 1,
+      "successChance": 1,
+      "xpPerHour": 22.5,
+      "itemsPerHour": 22.5,
+      "gpPerHour": 0.0,
+      "products": [
+        {
+          "id": "MelvorBase:DemoPlaceholderItem",
+          "name": "DemoPlaceholderItem",
+          "role": "primary",
+          "basis": "completed action",
+          "probability": 1,
+          "quantity": 1,
+          "itemsPerHour": 22.5,
+          "gpPerHour": 0.0
+        }
+      ],
+      "sourcePointer": "/Objects/ArtisanRecipe/660",
+      "notes": [
+        "Fixed base reference; no equipment, bonuses, preservation or downtime.",
+        "Locked demo placeholder definition; not a playable potion baseline."
+      ]
+    },
+    {
+      "id": "RefinedMeteoriteWaterSceptre",
+      "gameId": "MelvorBase:RefinedMeteoriteWaterSceptre",
+      "name": "Refined Meteorite Water Sceptre",
+      "requiredLevel": null,
+      "availability": "locked",
+      "conditions": [
+        "Consumes DemoPlaceholderItem × 1 per completed action"
+      ],
+      "intervalSeconds": 160.0,
+      "intervalLabel": "160.0s base cycle",
+      "baseXp": 1,
+      "successChance": 1,
+      "xpPerHour": 22.5,
+      "itemsPerHour": 22.5,
+      "gpPerHour": 0.0,
+      "products": [
+        {
+          "id": "MelvorBase:DemoPlaceholderItem",
+          "name": "DemoPlaceholderItem",
+          "role": "primary",
+          "basis": "completed action",
+          "probability": 1,
+          "quantity": 1,
+          "itemsPerHour": 22.5,
+          "gpPerHour": 0.0
+        }
+      ],
+      "sourcePointer": "/Objects/ArtisanRecipe/661",
+      "notes": [
+        "Fixed base reference; no equipment, bonuses, preservation or downtime.",
+        "Locked demo placeholder definition; not a playable potion baseline."
+      ]
+    },
+    {
+      "id": "RefinedMeteoriteEarthSceptre",
+      "gameId": "MelvorBase:RefinedMeteoriteEarthSceptre",
+      "name": "Refined Meteorite Earth Sceptre",
+      "requiredLevel": null,
+      "availability": "locked",
+      "conditions": [
+        "Consumes DemoPlaceholderItem × 1 per completed action"
+      ],
+      "intervalSeconds": 160.0,
+      "intervalLabel": "160.0s base cycle",
+      "baseXp": 1,
+      "successChance": 1,
+      "xpPerHour": 22.5,
+      "itemsPerHour": 22.5,
+      "gpPerHour": 0.0,
+      "products": [
+        {
+          "id": "MelvorBase:DemoPlaceholderItem",
+          "name": "DemoPlaceholderItem",
+          "role": "primary",
+          "basis": "completed action",
+          "probability": 1,
+          "quantity": 1,
+          "itemsPerHour": 22.5,
+          "gpPerHour": 0.0
+        }
+      ],
+      "sourcePointer": "/Objects/ArtisanRecipe/662",
+      "notes": [
+        "Fixed base reference; no equipment, bonuses, preservation or downtime.",
+        "Locked demo placeholder definition; not a playable potion baseline."
+      ]
+    },
+    {
+      "id": "RefinedMeteoriteFireSceptre",
+      "gameId": "MelvorBase:RefinedMeteoriteFireSceptre",
+      "name": "Refined Meteorite Fire Sceptre",
+      "requiredLevel": null,
+      "availability": "locked",
+      "conditions": [
+        "Consumes DemoPlaceholderItem × 1 per completed action"
+      ],
+      "intervalSeconds": 160.0,
+      "intervalLabel": "160.0s base cycle",
+      "baseXp": 1,
+      "successChance": 1,
+      "xpPerHour": 22.5,
+      "itemsPerHour": 22.5,
+      "gpPerHour": 0.0,
+      "products": [
+        {
+          "id": "MelvorBase:DemoPlaceholderItem",
+          "name": "DemoPlaceholderItem",
+          "role": "primary",
+          "basis": "completed action",
+          "probability": 1,
+          "quantity": 1,
+          "itemsPerHour": 22.5,
+          "gpPerHour": 0.0
+        }
+      ],
+      "sourcePointer": "/Objects/ArtisanRecipe/663",
+      "notes": [
+        "Fixed base reference; no equipment, bonuses, preservation or downtime.",
+        "Locked demo placeholder definition; not a playable potion baseline."
+      ]
+    },
+    {
+      "id": "BasicMageshield",
+      "gameId": "MelvorBase:BasicMageshield",
+      "name": "Basic Mageshield",
+      "requiredLevel": null,
+      "availability": "locked",
+      "conditions": [
+        "Consumes DemoPlaceholderItem × 1 per completed action"
+      ],
+      "intervalSeconds": 80.0,
+      "intervalLabel": "80.0s base cycle",
+      "baseXp": 1,
+      "successChance": 1,
+      "xpPerHour": 45.0,
+      "itemsPerHour": 45.0,
+      "gpPerHour": 0.0,
+      "products": [
+        {
+          "id": "MelvorBase:DemoPlaceholderItem",
+          "name": "DemoPlaceholderItem",
+          "role": "primary",
+          "basis": "completed action",
+          "probability": 1,
+          "quantity": 1,
+          "itemsPerHour": 45.0,
+          "gpPerHour": 0.0
+        }
+      ],
+      "sourcePointer": "/Objects/ArtisanRecipe/668",
+      "notes": [
+        "Fixed base reference; no equipment, bonuses, preservation or downtime.",
+        "Locked demo placeholder definition; not a playable potion baseline."
+      ]
+    },
+    {
+      "id": "IntermediateMageshield",
+      "gameId": "MelvorBase:IntermediateMageshield",
+      "name": "Intermediate Mageshield",
+      "requiredLevel": null,
+      "availability": "locked",
+      "conditions": [
+        "Consumes DemoPlaceholderItem × 1 per completed action"
+      ],
+      "intervalSeconds": 90.0,
+      "intervalLabel": "90.0s base cycle",
+      "baseXp": 1,
+      "successChance": 1,
+      "xpPerHour": 40.0,
+      "itemsPerHour": 40.0,
+      "gpPerHour": 0.0,
+      "products": [
+        {
+          "id": "MelvorBase:DemoPlaceholderItem",
+          "name": "DemoPlaceholderItem",
+          "role": "primary",
+          "basis": "completed action",
+          "probability": 1,
+          "quantity": 1,
+          "itemsPerHour": 40.0,
+          "gpPerHour": 0.0
+        }
+      ],
+      "sourcePointer": "/Objects/ArtisanRecipe/669",
+      "notes": [
+        "Fixed base reference; no equipment, bonuses, preservation or downtime.",
+        "Locked demo placeholder definition; not a playable potion baseline."
+      ]
+    },
+    {
+      "id": "AdvancedMageshield",
+      "gameId": "MelvorBase:AdvancedMageshield",
+      "name": "Advanced Mageshield",
+      "requiredLevel": null,
+      "availability": "locked",
+      "conditions": [
+        "Consumes DemoPlaceholderItem × 1 per completed action"
+      ],
+      "intervalSeconds": 100.0,
+      "intervalLabel": "100.0s base cycle",
+      "baseXp": 1,
+      "successChance": 1,
+      "xpPerHour": 36.0,
+      "itemsPerHour": 36.0,
+      "gpPerHour": 0.0,
+      "products": [
+        {
+          "id": "MelvorBase:DemoPlaceholderItem",
+          "name": "DemoPlaceholderItem",
+          "role": "primary",
+          "basis": "completed action",
+          "probability": 1,
+          "quantity": 1,
+          "itemsPerHour": 36.0,
+          "gpPerHour": 0.0
+        }
+      ],
+      "sourcePointer": "/Objects/ArtisanRecipe/670",
+      "notes": [
+        "Fixed base reference; no equipment, bonuses, preservation or downtime.",
+        "Locked demo placeholder definition; not a playable potion baseline."
+      ]
+    },
+    {
+      "id": "NightreedCloak",
+      "gameId": "MelvorBase:NightreedCloak",
+      "name": "Nightreed Cloak",
+      "requiredLevel": null,
+      "availability": "locked",
+      "conditions": [
+        "Consumes DemoPlaceholderItem × 1 per completed action"
+      ],
+      "intervalSeconds": 80.0,
+      "intervalLabel": "80.0s base cycle",
+      "baseXp": 1,
+      "successChance": 1,
+      "xpPerHour": 45.0,
+      "itemsPerHour": 45.0,
+      "gpPerHour": 0.0,
+      "products": [
+        {
+          "id": "MelvorBase:DemoPlaceholderItem",
+          "name": "DemoPlaceholderItem",
+          "role": "primary",
+          "basis": "completed action",
+          "probability": 1,
+          "quantity": 1,
+          "itemsPerHour": 45.0,
+          "gpPerHour": 0.0
+        }
+      ],
+      "sourcePointer": "/Objects/ArtisanRecipe/671",
+      "notes": [
+        "Fixed base reference; no equipment, bonuses, preservation or downtime.",
+        "Locked demo placeholder definition; not a playable potion baseline."
+      ]
+    },
+    {
+      "id": "AstralCloak",
+      "gameId": "MelvorBase:AstralCloak",
+      "name": "Astral Cloak",
+      "requiredLevel": null,
+      "availability": "locked",
+      "conditions": [
+        "Consumes DemoPlaceholderItem × 1 per completed action"
+      ],
+      "intervalSeconds": 120.0,
+      "intervalLabel": "120.0s base cycle",
+      "baseXp": 1,
+      "successChance": 1,
+      "xpPerHour": 30.0,
+      "itemsPerHour": 30.0,
+      "gpPerHour": 0.0,
+      "products": [
+        {
+          "id": "MelvorBase:DemoPlaceholderItem",
+          "name": "DemoPlaceholderItem",
+          "role": "primary",
+          "basis": "completed action",
+          "probability": 1,
+          "quantity": 1,
+          "itemsPerHour": 30.0,
+          "gpPerHour": 0.0
+        }
+      ],
+      "sourcePointer": "/Objects/ArtisanRecipe/672",
+      "notes": [
+        "Fixed base reference; no equipment, bonuses, preservation or downtime.",
+        "Locked demo placeholder definition; not a playable potion baseline."
+      ]
+    },
+    {
+      "id": "MeteoriteRunegrafter",
+      "gameId": "MelvorBase:MeteoriteRunegrafter",
+      "name": "Meteorite Runegrafter",
+      "requiredLevel": null,
+      "availability": "locked",
+      "conditions": [
+        "Consumes DemoPlaceholderItem × 1 per completed action"
+      ],
+      "intervalSeconds": 20.0,
+      "intervalLabel": "20.0s base cycle",
+      "baseXp": 1,
+      "successChance": 1,
+      "xpPerHour": 180.0,
+      "itemsPerHour": 180.0,
+      "gpPerHour": 0.0,
+      "products": [
+        {
+          "id": "MelvorBase:DemoPlaceholderItem",
+          "name": "DemoPlaceholderItem",
+          "role": "primary",
+          "basis": "completed action",
+          "probability": 1,
+          "quantity": 1,
+          "itemsPerHour": 180.0,
+          "gpPerHour": 0.0
+        }
+      ],
+      "sourcePointer": "/Objects/ArtisanRecipe/673",
+      "notes": [
+        "Fixed base reference; no equipment, bonuses, preservation or downtime.",
+        "Locked demo placeholder definition; not a playable potion baseline."
+      ]
+    },
+    {
+      "id": "NightreedMitts",
+      "gameId": "MelvorBase:NightreedMitts",
+      "name": "Nightreed Mitts",
+      "requiredLevel": null,
+      "availability": "locked",
+      "conditions": [
+        "Consumes DemoPlaceholderItem × 1 per completed action"
+      ],
+      "intervalSeconds": 60.0,
+      "intervalLabel": "60.0s base cycle",
+      "baseXp": 1,
+      "successChance": 1,
+      "xpPerHour": 60.0,
+      "itemsPerHour": 60.0,
+      "gpPerHour": 0.0,
+      "products": [
+        {
+          "id": "MelvorBase:DemoPlaceholderItem",
+          "name": "DemoPlaceholderItem",
+          "role": "primary",
+          "basis": "completed action",
+          "probability": 1,
+          "quantity": 1,
+          "itemsPerHour": 60.0,
+          "gpPerHour": 0.0
+        }
+      ],
+      "sourcePointer": "/Objects/ArtisanRecipe/674",
+      "notes": [
+        "Fixed base reference; no equipment, bonuses, preservation or downtime.",
+        "Locked demo placeholder definition; not a playable potion baseline."
+      ]
+    },
+    {
+      "id": "BattlemageMitts",
+      "gameId": "MelvorBase:BattlemageMitts",
+      "name": "Battlemage Mitts",
+      "requiredLevel": null,
+      "availability": "locked",
+      "conditions": [
+        "Consumes DemoPlaceholderItem × 1 per completed action"
+      ],
+      "intervalSeconds": 80.0,
+      "intervalLabel": "80.0s base cycle",
+      "baseXp": 1,
+      "successChance": 1,
+      "xpPerHour": 45.0,
+      "itemsPerHour": 45.0,
+      "gpPerHour": 0.0,
+      "products": [
+        {
+          "id": "MelvorBase:DemoPlaceholderItem",
+          "name": "DemoPlaceholderItem",
+          "role": "primary",
+          "basis": "completed action",
+          "probability": 1,
+          "quantity": 1,
+          "itemsPerHour": 45.0,
+          "gpPerHour": 0.0
+        }
+      ],
+      "sourcePointer": "/Objects/ArtisanRecipe/675",
+      "notes": [
+        "Fixed base reference; no equipment, bonuses, preservation or downtime.",
+        "Locked demo placeholder definition; not a playable potion baseline."
+      ]
+    },
+    {
+      "id": "VolatileFireRune",
+      "gameId": "MelvorBase:VolatileFireRune",
+      "name": "Volatile Fire Rune",
+      "requiredLevel": 20,
+      "availability": "conditional",
+      "conditions": [
+        "Runecrafting level 20",
+        "Consumes FireRune × 1 per completed action",
+        "Consumes Sulfur × 5 per completed action"
+      ],
+      "intervalSeconds": 8.0,
+      "intervalLabel": "8.0s base cycle",
+      "baseXp": 33,
+      "successChance": 1,
+      "xpPerHour": 14850.0,
+      "itemsPerHour": 450.0,
+      "gpPerHour": 450.0,
+      "products": [
+        {
+          "id": "MelvorBase:VolatileFireRune",
+          "name": "Volatile Fire Rune",
+          "role": "primary",
+          "basis": "completed action",
+          "probability": 1,
+          "quantity": 1,
+          "itemsPerHour": 450.0,
+          "gpPerHour": 450.0
+        }
+      ],
+      "sourcePointer": "/Objects/ArtisanRecipe/702",
+      "notes": [
+        "Fixed base reference; no equipment, bonuses, preservation or downtime."
+      ]
+    }
+  ],
+  "notes": [
+    "Rates are fixed offline from independently verified base facts.",
+    "Ingredient consumption and gross sale value are shown; costs are not deducted."
+  ]
+}

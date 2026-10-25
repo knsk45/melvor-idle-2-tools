@@ -69,6 +69,16 @@ Examples with 1.5-second hits:
 
 There are 27 mining definitions: 14 ordinary demo, 11 demo-locked and two conditional (Stone Debris and Sulfur). Ordinary demo interval is 1,500 ms. Six ordinary ores have base Geode chance 0.0025 per hit.
 
+## Artisan production
+
+Smithing, Crafting, Fletching, Runecrafting and Beastcrafting use the same verified action path (`ArtisanActionComponent.ActionTimerFiredHandler`, `0x06011bab`). At baseline, one step is one base interval and a completed recipe requires `max(1, Steps)` steps. Output and XP are granted once on completion; ingredients are consumed once per completion. Therefore `cycleSeconds = max(1, Steps) × BaseIntervalMs / 1000`, then XP, output items and gross GP per hour are the corresponding completion rate times their per-recipe values. The fixed tables contain 206/161/66/120/143 definitions respectively, with 100/58/34/57/37 ordinary demo rows.
+
+Cooking uses one interval per attempt and a level-dependent success probability even without modifiers: `clamp((69 + requiredUnlockLevel) / (69 + Difficulty), 0, 1)` (`GetProficiency 0x0600b1cd`, `GetDifficulty 0x0600b1ce`, `GetSuccessChance 0x0600b1cf`). The table fixes this intrinsic dependency at each recipe's unlock level; failures consume ingredients and grant no XP or output. Shrimp is 3 seconds, 70% success at level 1, 4,200 XP/hour and 840 Shrimp/hour. Firemaking rolls each listed byproduct independently on every burn (`0x0600a4b0`); XP is per burn, and its base table counts all listed byproducts rather than pretending one is a primary product. Normal Log is 4 seconds: 5,400 XP/hour, 450 Ash/hour and 180 Charcoal/hour. Herblore has 152 demo-locked placeholder definitions; it is displayed only as locked placeholder data, not playable potion coverage.
+
+## Astrology
+
+Astrology study actions use a fixed 3-second interval (`ActionTimerFiredHandler 0x0600bb57`). The 12 constellation rows grant their base XP every study cycle and have no configured constellation or global events (`GetAllEvents 0x0600bbb9`), so base items/hour and GP/hour are zero. Secondary requirements are preserved as an OR group rather than flattened into an incorrect AND. The six constellations at or below the documented demo level cap are ordinary demo rows; the six higher-level definitions remain locked in the reference.
+
 ## Reproduction and verification
 
 `scripts/build_base_reference.py` regenerates `src/data/skills/{index,woodcutting,fishing,mining}.json` and location metadata. It verifies the embedded package SHA-256 before writing selected facts. It requires only Python's standard library and the read-only installed EXE; no assembly execution is involved.
