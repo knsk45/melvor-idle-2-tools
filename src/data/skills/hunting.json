@@ -1,0 +1,1688 @@
+{
+  "id": "hunting",
+  "gameVersion": "0.11.2-alpha.4",
+  "steamBuildId": "26074343",
+  "packageSha256": "2b43f26ce76d86178f56a72c8dced08a0ae545779786cccdcac868bdc3478474",
+  "checkedAt": "2026-10-25",
+  "method": "package-selected.json HuntingAnimal baseline",
+  "rows": [
+    {
+      "id": "WildChicken",
+      "gameId": "MelvorBase:WildChicken",
+      "name": "Wild Chicken",
+      "requiredLevel": 1,
+      "availability": "demo",
+      "conditions": [
+        "Base tracking/trapping interval",
+        "Base trap success chance"
+      ],
+      "intervalSeconds": 14.0,
+      "intervalLabel": "mean tracking + trap interval",
+      "baseXp": 80,
+      "successChance": 0.4,
+      "xpPerHour": null,
+      "itemsPerHour": 2571.4285714285716,
+      "gpPerHour": null,
+      "products": [
+        {
+          "id": "MelvorBase:RawChicken",
+          "name": "RawChicken",
+          "role": "primary",
+          "basis": "trap success baseline",
+          "probability": 0.4,
+          "quantity": 9,
+          "itemsPerHour": 925.7142857142857,
+          "gpPerHour": null
+        },
+        {
+          "id": "MelvorBase:Feathers",
+          "name": "Feathers",
+          "role": "primary",
+          "basis": "trap success baseline",
+          "probability": 0.4,
+          "quantity": 15,
+          "itemsPerHour": 1542.857142857143,
+          "gpPerHour": null
+        },
+        {
+          "id": "MelvorBase:Bone",
+          "name": "Bone",
+          "role": "primary",
+          "basis": "trap success baseline",
+          "probability": 0.4,
+          "quantity": 1,
+          "itemsPerHour": 102.85714285714286,
+          "gpPerHour": null
+        }
+      ],
+      "sourcePointer": "package-selected.json#/HuntingAnimal/WildChicken",
+      "notes": [
+        "Baseline excludes tool, bait, trapless, rare species and equipment modifiers.",
+        "XP/ч requires the game's journal/trapping event state; it is intentionally not estimated."
+      ]
+    },
+    {
+      "id": "WildCow",
+      "gameId": "MelvorBase:WildCow",
+      "name": "Wild Cow",
+      "requiredLevel": 5,
+      "availability": "demo",
+      "conditions": [
+        "Base tracking/trapping interval",
+        "Base trap success chance"
+      ],
+      "intervalSeconds": 16.0,
+      "intervalLabel": "mean tracking + trap interval",
+      "baseXp": 108,
+      "successChance": 0.4,
+      "xpPerHour": null,
+      "itemsPerHour": 1800.0,
+      "gpPerHour": null,
+      "products": [
+        {
+          "id": "MelvorBase:Cowhide",
+          "name": "Cowhide",
+          "role": "primary",
+          "basis": "trap success baseline",
+          "probability": 0.4,
+          "quantity": 6,
+          "itemsPerHour": 540.0000000000001,
+          "gpPerHour": null
+        },
+        {
+          "id": "MelvorBase:RawBeef",
+          "name": "RawBeef",
+          "role": "primary",
+          "basis": "trap success baseline",
+          "probability": 0.4,
+          "quantity": 13,
+          "itemsPerHour": 1170.0,
+          "gpPerHour": null
+        },
+        {
+          "id": "MelvorBase:Bone",
+          "name": "Bone",
+          "role": "primary",
+          "basis": "trap success baseline",
+          "probability": 0.4,
+          "quantity": 1,
+          "itemsPerHour": 90.0,
+          "gpPerHour": null
+        }
+      ],
+      "sourcePointer": "package-selected.json#/HuntingAnimal/WildCow",
+      "notes": [
+        "Baseline excludes tool, bait, trapless, rare species and equipment modifiers.",
+        "XP/ч requires the game's journal/trapping event state; it is intentionally not estimated."
+      ]
+    },
+    {
+      "id": "GreentailBird",
+      "gameId": "MelvorBase:GreentailBird",
+      "name": "Greentail Bird",
+      "requiredLevel": 10,
+      "availability": "demo",
+      "conditions": [
+        "Base tracking/trapping interval",
+        "Base trap success chance"
+      ],
+      "intervalSeconds": 17.0,
+      "intervalLabel": "mean tracking + trap interval",
+      "baseXp": 118,
+      "successChance": 0.4,
+      "xpPerHour": null,
+      "itemsPerHour": 1389.1764705882354,
+      "gpPerHour": null,
+      "products": [
+        {
+          "id": "MelvorBase:Feathers",
+          "name": "Feathers",
+          "role": "primary",
+          "basis": "trap success baseline",
+          "probability": 0.4,
+          "quantity": 16,
+          "itemsPerHour": 1355.2941176470588,
+          "gpPerHour": null
+        },
+        {
+          "id": "MelvorBase:PenrilHerbSeed",
+          "name": "PenrilHerbSeed",
+          "role": "primary",
+          "basis": "trap success baseline",
+          "probability": 0.08000000000000002,
+          "quantity": 1,
+          "itemsPerHour": 16.94117647058824,
+          "gpPerHour": null
+        },
+        {
+          "id": "MelvorBase:SourweedHerbSeed",
+          "name": "SourweedHerbSeed",
+          "role": "primary",
+          "basis": "trap success baseline",
+          "probability": 0.08000000000000002,
+          "quantity": 1,
+          "itemsPerHour": 16.94117647058824,
+          "gpPerHour": null
+        }
+      ],
+      "sourcePointer": "package-selected.json#/HuntingAnimal/GreentailBird",
+      "notes": [
+        "Baseline excludes tool, bait, trapless, rare species and equipment modifiers.",
+        "XP/ч requires the game's journal/trapping event state; it is intentionally not estimated."
+      ]
+    },
+    {
+      "id": "BushlandRabbit",
+      "gameId": "MelvorBase:BushlandRabbit",
+      "name": "Bushland Rabbit",
+      "requiredLevel": 15,
+      "availability": "demo",
+      "conditions": [
+        "Base tracking/trapping interval",
+        "Base trap success chance"
+      ],
+      "intervalSeconds": 19.0,
+      "intervalLabel": "mean tracking + trap interval",
+      "baseXp": 194,
+      "successChance": 0.4,
+      "xpPerHour": null,
+      "itemsPerHour": 644.2105263157895,
+      "gpPerHour": null,
+      "products": [
+        {
+          "id": "MelvorBase:RabbitFur",
+          "name": "RabbitFur",
+          "role": "primary",
+          "basis": "trap success baseline",
+          "probability": 0.4,
+          "quantity": 5,
+          "itemsPerHour": 378.94736842105266,
+          "gpPerHour": null
+        },
+        {
+          "id": "MelvorBase:RabbitMeat",
+          "name": "RabbitMeat",
+          "role": "primary",
+          "basis": "trap success baseline",
+          "probability": 0.4,
+          "quantity": 2,
+          "itemsPerHour": 151.57894736842104,
+          "gpPerHour": null
+        },
+        {
+          "id": "MelvorBase:RabbitFoot",
+          "name": "RabbitFoot",
+          "role": "primary",
+          "basis": "trap success baseline",
+          "probability": 0.1,
+          "quantity": 2,
+          "itemsPerHour": 37.89473684210526,
+          "gpPerHour": null
+        },
+        {
+          "id": "MelvorBase:Bone",
+          "name": "Bone",
+          "role": "primary",
+          "basis": "trap success baseline",
+          "probability": 0.4,
+          "quantity": 1,
+          "itemsPerHour": 75.78947368421052,
+          "gpPerHour": null
+        }
+      ],
+      "sourcePointer": "package-selected.json#/HuntingAnimal/BushlandRabbit",
+      "notes": [
+        "Baseline excludes tool, bait, trapless, rare species and equipment modifiers.",
+        "XP/ч requires the game's journal/trapping event state; it is intentionally not estimated."
+      ]
+    },
+    {
+      "id": "GreenButterfly",
+      "gameId": "MelvorBase:GreenButterfly",
+      "name": "Green Butterfly",
+      "requiredLevel": 20,
+      "availability": "demo",
+      "conditions": [
+        "Base tracking/trapping interval",
+        "Base trap success chance"
+      ],
+      "intervalSeconds": 17.5,
+      "intervalLabel": "mean tracking + trap interval",
+      "baseXp": 175,
+      "successChance": 0.4,
+      "xpPerHour": null,
+      "itemsPerHour": 82.28571428571429,
+      "gpPerHour": null,
+      "products": [
+        {
+          "id": "MelvorBase:GreenButterflyinaJar",
+          "name": "GreenButterflyinaJar",
+          "role": "primary",
+          "basis": "trap success baseline",
+          "probability": 0.4,
+          "quantity": 1,
+          "itemsPerHour": 82.28571428571429,
+          "gpPerHour": null
+        }
+      ],
+      "sourcePointer": "package-selected.json#/HuntingAnimal/GreenButterfly",
+      "notes": [
+        "Baseline excludes tool, bait, trapless, rare species and equipment modifiers.",
+        "XP/ч requires the game's journal/trapping event state; it is intentionally not estimated."
+      ]
+    },
+    {
+      "id": "ThornbackLizard",
+      "gameId": "MelvorBase:ThornbackLizard",
+      "name": "Thornback Lizard",
+      "requiredLevel": 23,
+      "availability": "demo",
+      "conditions": [
+        "Base tracking/trapping interval",
+        "Base trap success chance"
+      ],
+      "intervalSeconds": 17.0,
+      "intervalLabel": "mean tracking + trap interval",
+      "baseXp": 231,
+      "successChance": 0.4,
+      "xpPerHour": null,
+      "itemsPerHour": 1016.470588235294,
+      "gpPerHour": null,
+      "products": [
+        {
+          "id": "MelvorBase:ThornbackLizardSpike",
+          "name": "ThornbackLizardSpike",
+          "role": "primary",
+          "basis": "trap success baseline",
+          "probability": 0.4,
+          "quantity": 10,
+          "itemsPerHour": 847.0588235294117,
+          "gpPerHour": null
+        },
+        {
+          "id": "MelvorBase:Bone",
+          "name": "Bone",
+          "role": "primary",
+          "basis": "trap success baseline",
+          "probability": 0.4,
+          "quantity": 2,
+          "itemsPerHour": 169.41176470588235,
+          "gpPerHour": null
+        }
+      ],
+      "sourcePointer": "package-selected.json#/HuntingAnimal/ThornbackLizard",
+      "notes": [
+        "Baseline excludes tool, bait, trapless, rare species and equipment modifiers.",
+        "XP/ч requires the game's journal/trapping event state; it is intentionally not estimated."
+      ]
+    },
+    {
+      "id": "BluetailBird",
+      "gameId": "MelvorBase:BluetailBird",
+      "name": "Bluetail Bird",
+      "requiredLevel": 25,
+      "availability": "demo",
+      "conditions": [
+        "Base tracking/trapping interval",
+        "Base trap success chance"
+      ],
+      "intervalSeconds": 18.5,
+      "intervalLabel": "mean tracking + trap interval",
+      "baseXp": 211,
+      "successChance": 0.4,
+      "xpPerHour": null,
+      "itemsPerHour": 1805.8378378378382,
+      "gpPerHour": null,
+      "products": [
+        {
+          "id": "MelvorBase:Feathers",
+          "name": "Feathers",
+          "role": "primary",
+          "basis": "trap success baseline",
+          "probability": 0.4,
+          "quantity": 23,
+          "itemsPerHour": 1790.2702702702707,
+          "gpPerHour": null
+        },
+        {
+          "id": "MelvorBase:MantalymeHerbSeed",
+          "name": "MantalymeHerbSeed",
+          "role": "primary",
+          "basis": "trap success baseline",
+          "probability": 0.08000000000000002,
+          "quantity": 1,
+          "itemsPerHour": 15.56756756756757,
+          "gpPerHour": null
+        }
+      ],
+      "sourcePointer": "package-selected.json#/HuntingAnimal/BluetailBird",
+      "notes": [
+        "Baseline excludes tool, bait, trapless, rare species and equipment modifiers.",
+        "XP/ч requires the game's journal/trapping event state; it is intentionally not estimated."
+      ]
+    },
+    {
+      "id": "WildBoar",
+      "gameId": "MelvorBase:WildBoar",
+      "name": "Wild Boar",
+      "requiredLevel": 33,
+      "availability": "demo",
+      "conditions": [
+        "Base tracking/trapping interval",
+        "Base trap success chance"
+      ],
+      "intervalSeconds": 23.5,
+      "intervalLabel": "mean tracking + trap interval",
+      "baseXp": 395,
+      "successChance": 0.4,
+      "xpPerHour": null,
+      "itemsPerHour": 428.936170212766,
+      "gpPerHour": null,
+      "products": [
+        {
+          "id": "MelvorBase:RawMeat",
+          "name": "RawMeat",
+          "role": "primary",
+          "basis": "trap success baseline",
+          "probability": 0.4,
+          "quantity": 5,
+          "itemsPerHour": 306.3829787234043,
+          "gpPerHour": null
+        },
+        {
+          "id": "MelvorBase:Bone",
+          "name": "Bone",
+          "role": "primary",
+          "basis": "trap success baseline",
+          "probability": 0.4,
+          "quantity": 2,
+          "itemsPerHour": 122.55319148936171,
+          "gpPerHour": null
+        }
+      ],
+      "sourcePointer": "package-selected.json#/HuntingAnimal/WildBoar",
+      "notes": [
+        "Baseline excludes tool, bait, trapless, rare species and equipment modifiers.",
+        "XP/ч requires the game's journal/trapping event state; it is intentionally not estimated."
+      ]
+    },
+    {
+      "id": "ScampToad",
+      "gameId": "MelvorBase:ScampToad",
+      "name": "Scamp Toad",
+      "requiredLevel": 27,
+      "availability": "demo",
+      "conditions": [
+        "Base tracking/trapping interval",
+        "Base trap success chance"
+      ],
+      "intervalSeconds": 14.5,
+      "intervalLabel": "mean tracking + trap interval",
+      "baseXp": 162,
+      "successChance": 0.4,
+      "xpPerHour": null,
+      "itemsPerHour": 297.93103448275866,
+      "gpPerHour": null,
+      "products": [
+        {
+          "id": "MelvorBase:ScampToadskin",
+          "name": "ScampToadskin",
+          "role": "primary",
+          "basis": "trap success baseline",
+          "probability": 0.4,
+          "quantity": 3,
+          "itemsPerHour": 297.93103448275866,
+          "gpPerHour": null
+        }
+      ],
+      "sourcePointer": "package-selected.json#/HuntingAnimal/ScampToad",
+      "notes": [
+        "Baseline excludes tool, bait, trapless, rare species and equipment modifiers.",
+        "XP/ч requires the game's journal/trapping event state; it is intentionally not estimated."
+      ]
+    },
+    {
+      "id": "SwampSnake",
+      "gameId": "MelvorBase:SwampSnake",
+      "name": "Swamp Snake",
+      "requiredLevel": 36,
+      "availability": "demo",
+      "conditions": [
+        "Base tracking/trapping interval",
+        "Base trap success chance"
+      ],
+      "intervalSeconds": 21.0,
+      "intervalLabel": "mean tracking + trap interval",
+      "baseXp": 333,
+      "successChance": 0.4,
+      "xpPerHour": null,
+      "itemsPerHour": 754.2857142857143,
+      "gpPerHour": null,
+      "products": [
+        {
+          "id": "MelvorBase:SwampSnakeskin",
+          "name": "SwampSnakeskin",
+          "role": "primary",
+          "basis": "trap success baseline",
+          "probability": 0.4,
+          "quantity": 5,
+          "itemsPerHour": 342.85714285714283,
+          "gpPerHour": null
+        },
+        {
+          "id": "MelvorBase:SnakeFang",
+          "name": "SnakeFang",
+          "role": "primary",
+          "basis": "trap success baseline",
+          "probability": 0.2,
+          "quantity": 12,
+          "itemsPerHour": 411.4285714285715,
+          "gpPerHour": null
+        }
+      ],
+      "sourcePointer": "package-selected.json#/HuntingAnimal/SwampSnake",
+      "notes": [
+        "Baseline excludes tool, bait, trapless, rare species and equipment modifiers.",
+        "XP/ч requires the game's journal/trapping event state; it is intentionally not estimated."
+      ]
+    },
+    {
+      "id": "YellowtailBird",
+      "gameId": "MelvorBase:YellowtailBird",
+      "name": "Yellowtail Bird",
+      "requiredLevel": 40,
+      "availability": "demo",
+      "conditions": [
+        "Base tracking/trapping interval",
+        "Base trap success chance"
+      ],
+      "intervalSeconds": 22.5,
+      "intervalLabel": "mean tracking + trap interval",
+      "baseXp": 445,
+      "successChance": 0.4,
+      "xpPerHour": null,
+      "itemsPerHour": 2892.8,
+      "gpPerHour": null,
+      "products": [
+        {
+          "id": "MelvorBase:Feathers",
+          "name": "Feathers",
+          "role": "primary",
+          "basis": "trap success baseline",
+          "probability": 0.4,
+          "quantity": 45,
+          "itemsPerHour": 2880.0,
+          "gpPerHour": null
+        },
+        {
+          "id": "MelvorBase:NomelHerbSeed",
+          "name": "NomelHerbSeed",
+          "role": "primary",
+          "basis": "trap success baseline",
+          "probability": 0.08000000000000002,
+          "quantity": 1,
+          "itemsPerHour": 12.800000000000002,
+          "gpPerHour": null
+        }
+      ],
+      "sourcePointer": "package-selected.json#/HuntingAnimal/YellowtailBird",
+      "notes": [
+        "Baseline excludes tool, bait, trapless, rare species and equipment modifiers.",
+        "XP/ч requires the game's journal/trapping event state; it is intentionally not estimated."
+      ]
+    },
+    {
+      "id": "GreenToad",
+      "gameId": "MelvorBase:GreenToad",
+      "name": "Green Toad",
+      "requiredLevel": 45,
+      "availability": "demo",
+      "conditions": [
+        "Base tracking/trapping interval",
+        "Base trap success chance"
+      ],
+      "intervalSeconds": 24.5,
+      "intervalLabel": "mean tracking + trap interval",
+      "baseXp": 605,
+      "successChance": 0.4,
+      "xpPerHour": null,
+      "itemsPerHour": 587.7551020408164,
+      "gpPerHour": null,
+      "products": [
+        {
+          "id": "MelvorBase:GreenToadskin",
+          "name": "GreenToadskin",
+          "role": "primary",
+          "basis": "trap success baseline",
+          "probability": 0.4,
+          "quantity": 10,
+          "itemsPerHour": 587.7551020408164,
+          "gpPerHour": null
+        }
+      ],
+      "sourcePointer": "package-selected.json#/HuntingAnimal/GreenToad",
+      "notes": [
+        "Baseline excludes tool, bait, trapless, rare species and equipment modifiers.",
+        "XP/ч requires the game's journal/trapping event state; it is intentionally not estimated."
+      ]
+    },
+    {
+      "id": "SteppesRabbit",
+      "gameId": "MelvorBase:SteppesRabbit",
+      "name": "Steppes Rabbit",
+      "requiredLevel": 42,
+      "availability": "demo",
+      "conditions": [
+        "Base tracking/trapping interval",
+        "Base trap success chance"
+      ],
+      "intervalSeconds": 21.5,
+      "intervalLabel": "mean tracking + trap interval",
+      "baseXp": 453,
+      "successChance": 0.4,
+      "xpPerHour": null,
+      "itemsPerHour": 535.8139534883721,
+      "gpPerHour": null,
+      "products": [
+        {
+          "id": "MelvorBase:RabbitFur",
+          "name": "RabbitFur",
+          "role": "primary",
+          "basis": "trap success baseline",
+          "probability": 0.4,
+          "quantity": 4,
+          "itemsPerHour": 267.90697674418607,
+          "gpPerHour": null
+        },
+        {
+          "id": "MelvorBase:RabbitMeat",
+          "name": "RabbitMeat",
+          "role": "primary",
+          "basis": "trap success baseline",
+          "probability": 0.4,
+          "quantity": 2,
+          "itemsPerHour": 133.95348837209303,
+          "gpPerHour": null
+        },
+        {
+          "id": "MelvorBase:RabbitFoot",
+          "name": "RabbitFoot",
+          "role": "primary",
+          "basis": "trap success baseline",
+          "probability": 0.2,
+          "quantity": 2,
+          "itemsPerHour": 66.97674418604652,
+          "gpPerHour": null
+        },
+        {
+          "id": "MelvorBase:Bone",
+          "name": "Bone",
+          "role": "primary",
+          "basis": "trap success baseline",
+          "probability": 0.4,
+          "quantity": 1,
+          "itemsPerHour": 66.97674418604652,
+          "gpPerHour": null
+        }
+      ],
+      "sourcePointer": "package-selected.json#/HuntingAnimal/SteppesRabbit",
+      "notes": [
+        "Baseline excludes tool, bait, trapless, rare species and equipment modifiers.",
+        "XP/ч requires the game's journal/trapping event state; it is intentionally not estimated."
+      ]
+    },
+    {
+      "id": "WildElk",
+      "gameId": "MelvorBase:WildElk",
+      "name": "Wild Elk",
+      "requiredLevel": 47,
+      "availability": "demo",
+      "conditions": [
+        "Base tracking/trapping interval",
+        "Base trap success chance"
+      ],
+      "intervalSeconds": 19.5,
+      "intervalLabel": "mean tracking + trap interval",
+      "baseXp": 438,
+      "successChance": 0.4,
+      "xpPerHour": null,
+      "itemsPerHour": 1107.6923076923076,
+      "gpPerHour": null,
+      "products": [
+        {
+          "id": "MelvorBase:ElkAntler",
+          "name": "ElkAntler",
+          "role": "primary",
+          "basis": "trap success baseline",
+          "probability": 0.4,
+          "quantity": 9,
+          "itemsPerHour": 664.6153846153846,
+          "gpPerHour": null
+        },
+        {
+          "id": "MelvorBase:ElkHide",
+          "name": "ElkHide",
+          "role": "primary",
+          "basis": "trap success baseline",
+          "probability": 0.4,
+          "quantity": 4,
+          "itemsPerHour": 295.38461538461536,
+          "gpPerHour": null
+        },
+        {
+          "id": "MelvorBase:Bone",
+          "name": "Bone",
+          "role": "primary",
+          "basis": "trap success baseline",
+          "probability": 0.4,
+          "quantity": 2,
+          "itemsPerHour": 147.69230769230768,
+          "gpPerHour": null
+        }
+      ],
+      "sourcePointer": "package-selected.json#/HuntingAnimal/WildElk",
+      "notes": [
+        "Baseline excludes tool, bait, trapless, rare species and equipment modifiers.",
+        "XP/ч requires the game's journal/trapping event state; it is intentionally not estimated."
+      ]
+    },
+    {
+      "id": "WildWolf",
+      "gameId": "MelvorBase:WildWolf",
+      "name": "Wild Wolf",
+      "requiredLevel": 51,
+      "availability": "demo",
+      "conditions": [
+        "Base tracking/trapping interval",
+        "Base trap success chance"
+      ],
+      "intervalSeconds": 23.0,
+      "intervalLabel": "mean tracking + trap interval",
+      "baseXp": 610,
+      "successChance": 0.4,
+      "xpPerHour": null,
+      "itemsPerHour": 1565.217391304348,
+      "gpPerHour": null,
+      "products": [
+        {
+          "id": "MelvorBase:WolfFang",
+          "name": "WolfFang",
+          "role": "primary",
+          "basis": "trap success baseline",
+          "probability": 0.2,
+          "quantity": 18,
+          "itemsPerHour": 563.4782608695652,
+          "gpPerHour": null
+        },
+        {
+          "id": "MelvorBase:WolfFur",
+          "name": "WolfFur",
+          "role": "primary",
+          "basis": "trap success baseline",
+          "probability": 0.4,
+          "quantity": 13,
+          "itemsPerHour": 813.9130434782609,
+          "gpPerHour": null
+        },
+        {
+          "id": "MelvorBase:Bone",
+          "name": "Bone",
+          "role": "primary",
+          "basis": "trap success baseline",
+          "probability": 0.4,
+          "quantity": 3,
+          "itemsPerHour": 187.82608695652178,
+          "gpPerHour": null
+        }
+      ],
+      "sourcePointer": "package-selected.json#/HuntingAnimal/WildWolf",
+      "notes": [
+        "Baseline excludes tool, bait, trapless, rare species and equipment modifiers.",
+        "XP/ч requires the game's journal/trapping event state; it is intentionally not estimated."
+      ]
+    },
+    {
+      "id": "Harpy",
+      "gameId": "MelvorBase:Harpy",
+      "name": "Harpy",
+      "requiredLevel": 53,
+      "availability": "demo",
+      "conditions": [
+        "Base tracking/trapping interval",
+        "Base trap success chance"
+      ],
+      "intervalSeconds": 28.0,
+      "intervalLabel": "mean tracking + trap interval",
+      "baseXp": 798,
+      "successChance": 0.4,
+      "xpPerHour": null,
+      "itemsPerHour": 3044.5714285714294,
+      "gpPerHour": null,
+      "products": [
+        {
+          "id": "MelvorBase:HarpyFeather",
+          "name": "HarpyFeather",
+          "role": "primary",
+          "basis": "trap success baseline",
+          "probability": 0.4,
+          "quantity": 58,
+          "itemsPerHour": 2982.8571428571436,
+          "gpPerHour": null
+        },
+        {
+          "id": "MelvorBase:BigBone",
+          "name": "BigBone",
+          "role": "primary",
+          "basis": "trap success baseline",
+          "probability": 0.4,
+          "quantity": 1,
+          "itemsPerHour": 51.42857142857143,
+          "gpPerHour": null
+        },
+        {
+          "id": "MelvorBase:SporlyleHerbSeed",
+          "name": "SporlyleHerbSeed",
+          "role": "primary",
+          "basis": "trap success baseline",
+          "probability": 0.08000000000000002,
+          "quantity": 1,
+          "itemsPerHour": 10.285714285714288,
+          "gpPerHour": null
+        }
+      ],
+      "sourcePointer": "package-selected.json#/HuntingAnimal/Harpy",
+      "notes": [
+        "Baseline excludes tool, bait, trapless, rare species and equipment modifiers.",
+        "XP/ч requires the game's journal/trapping event state; it is intentionally not estimated."
+      ]
+    },
+    {
+      "id": "GiantSpider",
+      "gameId": "MelvorBase:GiantSpider",
+      "name": "Giant Spider",
+      "requiredLevel": 46,
+      "availability": "demo",
+      "conditions": [
+        "Base tracking/trapping interval",
+        "Base trap success chance"
+      ],
+      "intervalSeconds": 17.0,
+      "intervalLabel": "mean tracking + trap interval",
+      "baseXp": 295,
+      "successChance": 0.4,
+      "xpPerHour": null,
+      "itemsPerHour": 991.0588235294119,
+      "gpPerHour": null,
+      "products": [
+        {
+          "id": "MelvorBase:SpiderSilk",
+          "name": "SpiderSilk",
+          "role": "primary",
+          "basis": "trap success baseline",
+          "probability": 0.4,
+          "quantity": 6,
+          "itemsPerHour": 508.2352941176472,
+          "gpPerHour": null
+        },
+        {
+          "id": "MelvorBase:BroodlingEgg",
+          "name": "BroodlingEgg",
+          "role": "primary",
+          "basis": "trap success baseline",
+          "probability": 0.12,
+          "quantity": 19,
+          "itemsPerHour": 482.8235294117647,
+          "gpPerHour": null
+        }
+      ],
+      "sourcePointer": "package-selected.json#/HuntingAnimal/GiantSpider",
+      "notes": [
+        "Baseline excludes tool, bait, trapless, rare species and equipment modifiers.",
+        "XP/ч requires the game's journal/trapping event state; it is intentionally not estimated."
+      ]
+    },
+    {
+      "id": "SkullButterfly",
+      "gameId": "MelvorBase:SkullButterfly",
+      "name": "Skull Butterfly",
+      "requiredLevel": 55,
+      "availability": "demo",
+      "conditions": [
+        "Base tracking/trapping interval",
+        "Base trap success chance"
+      ],
+      "intervalSeconds": 23.0,
+      "intervalLabel": "mean tracking + trap interval",
+      "baseXp": 661,
+      "successChance": 0.4,
+      "xpPerHour": null,
+      "itemsPerHour": 62.608695652173914,
+      "gpPerHour": null,
+      "products": [
+        {
+          "id": "MelvorBase:SkullButterflyinaJar",
+          "name": "SkullButterflyinaJar",
+          "role": "primary",
+          "basis": "trap success baseline",
+          "probability": 0.4,
+          "quantity": 1,
+          "itemsPerHour": 62.608695652173914,
+          "gpPerHour": null
+        }
+      ],
+      "sourcePointer": "package-selected.json#/HuntingAnimal/SkullButterfly",
+      "notes": [
+        "Baseline excludes tool, bait, trapless, rare species and equipment modifiers.",
+        "XP/ч requires the game's journal/trapping event state; it is intentionally not estimated."
+      ]
+    },
+    {
+      "id": "BlacktailBird",
+      "gameId": "MelvorBase:BlacktailBird",
+      "name": "Blacktail Bird",
+      "requiredLevel": null,
+      "availability": "demo",
+      "conditions": [
+        "Base tracking/trapping interval",
+        "Base trap success chance"
+      ],
+      "intervalSeconds": 20.0,
+      "intervalLabel": "mean tracking + trap interval",
+      "baseXp": 1,
+      "successChance": 0.4,
+      "xpPerHour": null,
+      "itemsPerHour": 72.0,
+      "gpPerHour": null,
+      "products": [
+        {
+          "id": "MelvorBase:DemoPlaceholderItem",
+          "name": "DemoPlaceholderItem",
+          "role": "primary",
+          "basis": "trap success baseline",
+          "probability": 0.4,
+          "quantity": 1,
+          "itemsPerHour": 72.0,
+          "gpPerHour": null
+        }
+      ],
+      "sourcePointer": "package-selected.json#/HuntingAnimal/BlacktailBird",
+      "notes": [
+        "Baseline excludes tool, bait, trapless, rare species and equipment modifiers.",
+        "XP/ч requires the game's journal/trapping event state; it is intentionally not estimated."
+      ]
+    },
+    {
+      "id": "BlackFangSpider",
+      "gameId": "MelvorBase:BlackFangSpider",
+      "name": "Black Fang Spider",
+      "requiredLevel": null,
+      "availability": "demo",
+      "conditions": [
+        "Base tracking/trapping interval",
+        "Base trap success chance"
+      ],
+      "intervalSeconds": 20.0,
+      "intervalLabel": "mean tracking + trap interval",
+      "baseXp": 1,
+      "successChance": 0.4,
+      "xpPerHour": null,
+      "itemsPerHour": 72.0,
+      "gpPerHour": null,
+      "products": [
+        {
+          "id": "MelvorBase:DemoPlaceholderItem",
+          "name": "DemoPlaceholderItem",
+          "role": "primary",
+          "basis": "trap success baseline",
+          "probability": 0.4,
+          "quantity": 1,
+          "itemsPerHour": 72.0,
+          "gpPerHour": null
+        }
+      ],
+      "sourcePointer": "package-selected.json#/HuntingAnimal/BlackFangSpider",
+      "notes": [
+        "Baseline excludes tool, bait, trapless, rare species and equipment modifiers.",
+        "XP/ч requires the game's journal/trapping event state; it is intentionally not estimated."
+      ]
+    },
+    {
+      "id": "Vulture",
+      "gameId": "MelvorBase:Vulture",
+      "name": "Vulture",
+      "requiredLevel": null,
+      "availability": "demo",
+      "conditions": [
+        "Base tracking/trapping interval",
+        "Base trap success chance"
+      ],
+      "intervalSeconds": 20.0,
+      "intervalLabel": "mean tracking + trap interval",
+      "baseXp": 1,
+      "successChance": 0.4,
+      "xpPerHour": null,
+      "itemsPerHour": 72.0,
+      "gpPerHour": null,
+      "products": [
+        {
+          "id": "MelvorBase:DemoPlaceholderItem",
+          "name": "DemoPlaceholderItem",
+          "role": "primary",
+          "basis": "trap success baseline",
+          "probability": 0.4,
+          "quantity": 1,
+          "itemsPerHour": 72.0,
+          "gpPerHour": null
+        }
+      ],
+      "sourcePointer": "package-selected.json#/HuntingAnimal/Vulture",
+      "notes": [
+        "Baseline excludes tool, bait, trapless, rare species and equipment modifiers.",
+        "XP/ч requires the game's journal/trapping event state; it is intentionally not estimated."
+      ]
+    },
+    {
+      "id": "StripedHyena",
+      "gameId": "MelvorBase:StripedHyena",
+      "name": "Striped Hyena",
+      "requiredLevel": null,
+      "availability": "demo",
+      "conditions": [
+        "Base tracking/trapping interval",
+        "Base trap success chance"
+      ],
+      "intervalSeconds": 20.0,
+      "intervalLabel": "mean tracking + trap interval",
+      "baseXp": 1,
+      "successChance": 0.4,
+      "xpPerHour": null,
+      "itemsPerHour": 72.0,
+      "gpPerHour": null,
+      "products": [
+        {
+          "id": "MelvorBase:DemoPlaceholderItem",
+          "name": "DemoPlaceholderItem",
+          "role": "primary",
+          "basis": "trap success baseline",
+          "probability": 0.4,
+          "quantity": 1,
+          "itemsPerHour": 72.0,
+          "gpPerHour": null
+        }
+      ],
+      "sourcePointer": "package-selected.json#/HuntingAnimal/StripedHyena",
+      "notes": [
+        "Baseline excludes tool, bait, trapless, rare species and equipment modifiers.",
+        "XP/ч requires the game's journal/trapping event state; it is intentionally not estimated."
+      ]
+    },
+    {
+      "id": "Wildebeast",
+      "gameId": "MelvorBase:Wildebeast",
+      "name": "Wildebeast",
+      "requiredLevel": null,
+      "availability": "demo",
+      "conditions": [
+        "Base tracking/trapping interval",
+        "Base trap success chance"
+      ],
+      "intervalSeconds": 20.0,
+      "intervalLabel": "mean tracking + trap interval",
+      "baseXp": 1,
+      "successChance": 0.4,
+      "xpPerHour": null,
+      "itemsPerHour": 72.0,
+      "gpPerHour": null,
+      "products": [
+        {
+          "id": "MelvorBase:DemoPlaceholderItem",
+          "name": "DemoPlaceholderItem",
+          "role": "primary",
+          "basis": "trap success baseline",
+          "probability": 0.4,
+          "quantity": 1,
+          "itemsPerHour": 72.0,
+          "gpPerHour": null
+        }
+      ],
+      "sourcePointer": "package-selected.json#/HuntingAnimal/Wildebeast",
+      "notes": [
+        "Baseline excludes tool, bait, trapless, rare species and equipment modifiers.",
+        "XP/ч requires the game's journal/trapping event state; it is intentionally not estimated."
+      ]
+    },
+    {
+      "id": "WildCaribou",
+      "gameId": "MelvorBase:WildCaribou",
+      "name": "Wild Caribou",
+      "requiredLevel": null,
+      "availability": "demo",
+      "conditions": [
+        "Base tracking/trapping interval",
+        "Base trap success chance"
+      ],
+      "intervalSeconds": 20.0,
+      "intervalLabel": "mean tracking + trap interval",
+      "baseXp": 1,
+      "successChance": 0.4,
+      "xpPerHour": null,
+      "itemsPerHour": 72.0,
+      "gpPerHour": null,
+      "products": [
+        {
+          "id": "MelvorBase:DemoPlaceholderItem",
+          "name": "DemoPlaceholderItem",
+          "role": "primary",
+          "basis": "trap success baseline",
+          "probability": 0.4,
+          "quantity": 1,
+          "itemsPerHour": 72.0,
+          "gpPerHour": null
+        }
+      ],
+      "sourcePointer": "package-selected.json#/HuntingAnimal/WildCaribou",
+      "notes": [
+        "Baseline excludes tool, bait, trapless, rare species and equipment modifiers.",
+        "XP/ч requires the game's journal/trapping event state; it is intentionally not estimated."
+      ]
+    },
+    {
+      "id": "ScabjawBeast",
+      "gameId": "MelvorBase:ScabjawBeast",
+      "name": "Scabjaw Beast",
+      "requiredLevel": null,
+      "availability": "demo",
+      "conditions": [
+        "Base tracking/trapping interval",
+        "Base trap success chance"
+      ],
+      "intervalSeconds": 20.0,
+      "intervalLabel": "mean tracking + trap interval",
+      "baseXp": 1,
+      "successChance": 0.4,
+      "xpPerHour": null,
+      "itemsPerHour": 72.0,
+      "gpPerHour": null,
+      "products": [
+        {
+          "id": "MelvorBase:DemoPlaceholderItem",
+          "name": "DemoPlaceholderItem",
+          "role": "primary",
+          "basis": "trap success baseline",
+          "probability": 0.4,
+          "quantity": 1,
+          "itemsPerHour": 72.0,
+          "gpPerHour": null
+        }
+      ],
+      "sourcePointer": "package-selected.json#/HuntingAnimal/ScabjawBeast",
+      "notes": [
+        "Baseline excludes tool, bait, trapless, rare species and equipment modifiers.",
+        "XP/ч requires the game's journal/trapping event state; it is intentionally not estimated."
+      ]
+    },
+    {
+      "id": "GhostlyButterfly",
+      "gameId": "MelvorBase:GhostlyButterfly",
+      "name": "Ghostly Butterfly",
+      "requiredLevel": null,
+      "availability": "demo",
+      "conditions": [
+        "Base tracking/trapping interval",
+        "Base trap success chance"
+      ],
+      "intervalSeconds": 20.0,
+      "intervalLabel": "mean tracking + trap interval",
+      "baseXp": 1,
+      "successChance": 0.4,
+      "xpPerHour": null,
+      "itemsPerHour": 72.0,
+      "gpPerHour": null,
+      "products": [
+        {
+          "id": "MelvorBase:DemoPlaceholderItem",
+          "name": "DemoPlaceholderItem",
+          "role": "primary",
+          "basis": "trap success baseline",
+          "probability": 0.4,
+          "quantity": 1,
+          "itemsPerHour": 72.0,
+          "gpPerHour": null
+        }
+      ],
+      "sourcePointer": "package-selected.json#/HuntingAnimal/GhostlyButterfly",
+      "notes": [
+        "Baseline excludes tool, bait, trapless, rare species and equipment modifiers.",
+        "XP/ч requires the game's journal/trapping event state; it is intentionally not estimated."
+      ]
+    },
+    {
+      "id": "Phantom",
+      "gameId": "MelvorBase:Phantom",
+      "name": "Phantom",
+      "requiredLevel": null,
+      "availability": "demo",
+      "conditions": [
+        "Base tracking/trapping interval",
+        "Base trap success chance"
+      ],
+      "intervalSeconds": 20.0,
+      "intervalLabel": "mean tracking + trap interval",
+      "baseXp": 1,
+      "successChance": 0.4,
+      "xpPerHour": null,
+      "itemsPerHour": 72.0,
+      "gpPerHour": null,
+      "products": [
+        {
+          "id": "MelvorBase:DemoPlaceholderItem",
+          "name": "DemoPlaceholderItem",
+          "role": "primary",
+          "basis": "trap success baseline",
+          "probability": 0.4,
+          "quantity": 1,
+          "itemsPerHour": 72.0,
+          "gpPerHour": null
+        }
+      ],
+      "sourcePointer": "package-selected.json#/HuntingAnimal/Phantom",
+      "notes": [
+        "Baseline excludes tool, bait, trapless, rare species and equipment modifiers.",
+        "XP/ч requires the game's journal/trapping event state; it is intentionally not estimated."
+      ]
+    },
+    {
+      "id": "Spirit",
+      "gameId": "MelvorBase:Spirit",
+      "name": "Spirit",
+      "requiredLevel": null,
+      "availability": "demo",
+      "conditions": [
+        "Base tracking/trapping interval",
+        "Base trap success chance"
+      ],
+      "intervalSeconds": 20.0,
+      "intervalLabel": "mean tracking + trap interval",
+      "baseXp": 1,
+      "successChance": 0.4,
+      "xpPerHour": null,
+      "itemsPerHour": 72.0,
+      "gpPerHour": null,
+      "products": [
+        {
+          "id": "MelvorBase:DemoPlaceholderItem",
+          "name": "DemoPlaceholderItem",
+          "role": "primary",
+          "basis": "trap success baseline",
+          "probability": 0.4,
+          "quantity": 1,
+          "itemsPerHour": 72.0,
+          "gpPerHour": null
+        }
+      ],
+      "sourcePointer": "package-selected.json#/HuntingAnimal/Spirit",
+      "notes": [
+        "Baseline excludes tool, bait, trapless, rare species and equipment modifiers.",
+        "XP/ч requires the game's journal/trapping event state; it is intentionally not estimated."
+      ]
+    },
+    {
+      "id": "Spectre",
+      "gameId": "MelvorBase:Spectre",
+      "name": "Spectre",
+      "requiredLevel": null,
+      "availability": "demo",
+      "conditions": [
+        "Base tracking/trapping interval",
+        "Base trap success chance"
+      ],
+      "intervalSeconds": 20.0,
+      "intervalLabel": "mean tracking + trap interval",
+      "baseXp": 1,
+      "successChance": 0.4,
+      "xpPerHour": null,
+      "itemsPerHour": 72.0,
+      "gpPerHour": null,
+      "products": [
+        {
+          "id": "MelvorBase:DemoPlaceholderItem",
+          "name": "DemoPlaceholderItem",
+          "role": "primary",
+          "basis": "trap success baseline",
+          "probability": 0.4,
+          "quantity": 1,
+          "itemsPerHour": 72.0,
+          "gpPerHour": null
+        }
+      ],
+      "sourcePointer": "package-selected.json#/HuntingAnimal/Spectre",
+      "notes": [
+        "Baseline excludes tool, bait, trapless, rare species and equipment modifiers.",
+        "XP/ч requires the game's journal/trapping event state; it is intentionally not estimated."
+      ]
+    },
+    {
+      "id": "Raptor",
+      "gameId": "MelvorBase:Raptor",
+      "name": "Raptor",
+      "requiredLevel": null,
+      "availability": "demo",
+      "conditions": [
+        "Base tracking/trapping interval",
+        "Base trap success chance"
+      ],
+      "intervalSeconds": 20.0,
+      "intervalLabel": "mean tracking + trap interval",
+      "baseXp": 1,
+      "successChance": 0.4,
+      "xpPerHour": null,
+      "itemsPerHour": 72.0,
+      "gpPerHour": null,
+      "products": [
+        {
+          "id": "MelvorBase:DemoPlaceholderItem",
+          "name": "DemoPlaceholderItem",
+          "role": "primary",
+          "basis": "trap success baseline",
+          "probability": 0.4,
+          "quantity": 1,
+          "itemsPerHour": 72.0,
+          "gpPerHour": null
+        }
+      ],
+      "sourcePointer": "package-selected.json#/HuntingAnimal/Raptor",
+      "notes": [
+        "Baseline excludes tool, bait, trapless, rare species and equipment modifiers.",
+        "XP/ч requires the game's journal/trapping event state; it is intentionally not estimated."
+      ]
+    },
+    {
+      "id": "BloodHawk",
+      "gameId": "MelvorBase:BloodHawk",
+      "name": "Blood Hawk",
+      "requiredLevel": null,
+      "availability": "demo",
+      "conditions": [
+        "Base tracking/trapping interval",
+        "Base trap success chance"
+      ],
+      "intervalSeconds": 20.0,
+      "intervalLabel": "mean tracking + trap interval",
+      "baseXp": 1,
+      "successChance": 0.4,
+      "xpPerHour": null,
+      "itemsPerHour": 72.0,
+      "gpPerHour": null,
+      "products": [
+        {
+          "id": "MelvorBase:DemoPlaceholderItem",
+          "name": "DemoPlaceholderItem",
+          "role": "primary",
+          "basis": "trap success baseline",
+          "probability": 0.4,
+          "quantity": 1,
+          "itemsPerHour": 72.0,
+          "gpPerHour": null
+        }
+      ],
+      "sourcePointer": "package-selected.json#/HuntingAnimal/BloodHawk",
+      "notes": [
+        "Baseline excludes tool, bait, trapless, rare species and equipment modifiers.",
+        "XP/ч requires the game's journal/trapping event state; it is intentionally not estimated."
+      ]
+    },
+    {
+      "id": "GiantEagle",
+      "gameId": "MelvorBase:GiantEagle",
+      "name": "Giant Eagle",
+      "requiredLevel": null,
+      "availability": "demo",
+      "conditions": [
+        "Base tracking/trapping interval",
+        "Base trap success chance"
+      ],
+      "intervalSeconds": 20.0,
+      "intervalLabel": "mean tracking + trap interval",
+      "baseXp": 1,
+      "successChance": 0.4,
+      "xpPerHour": null,
+      "itemsPerHour": 72.0,
+      "gpPerHour": null,
+      "products": [
+        {
+          "id": "MelvorBase:DemoPlaceholderItem",
+          "name": "DemoPlaceholderItem",
+          "role": "primary",
+          "basis": "trap success baseline",
+          "probability": 0.4,
+          "quantity": 1,
+          "itemsPerHour": 72.0,
+          "gpPerHour": null
+        }
+      ],
+      "sourcePointer": "package-selected.json#/HuntingAnimal/GiantEagle",
+      "notes": [
+        "Baseline excludes tool, bait, trapless, rare species and equipment modifiers.",
+        "XP/ч requires the game's journal/trapping event state; it is intentionally not estimated."
+      ]
+    },
+    {
+      "id": "Griffin",
+      "gameId": "MelvorBase:Griffin",
+      "name": "Griffin",
+      "requiredLevel": null,
+      "availability": "demo",
+      "conditions": [
+        "Base tracking/trapping interval",
+        "Base trap success chance"
+      ],
+      "intervalSeconds": 20.0,
+      "intervalLabel": "mean tracking + trap interval",
+      "baseXp": 1,
+      "successChance": 0.4,
+      "xpPerHour": null,
+      "itemsPerHour": 72.0,
+      "gpPerHour": null,
+      "products": [
+        {
+          "id": "MelvorBase:DemoPlaceholderItem",
+          "name": "DemoPlaceholderItem",
+          "role": "primary",
+          "basis": "trap success baseline",
+          "probability": 0.4,
+          "quantity": 1,
+          "itemsPerHour": 72.0,
+          "gpPerHour": null
+        }
+      ],
+      "sourcePointer": "package-selected.json#/HuntingAnimal/Griffin",
+      "notes": [
+        "Baseline excludes tool, bait, trapless, rare species and equipment modifiers.",
+        "XP/ч requires the game's journal/trapping event state; it is intentionally not estimated."
+      ]
+    },
+    {
+      "id": "BelraTorag",
+      "gameId": "MelvorBase:BelraTorag",
+      "name": "Belra Torag",
+      "requiredLevel": null,
+      "availability": "demo",
+      "conditions": [
+        "Base tracking/trapping interval",
+        "Base trap success chance"
+      ],
+      "intervalSeconds": 20.0,
+      "intervalLabel": "mean tracking + trap interval",
+      "baseXp": 1,
+      "successChance": 0.4,
+      "xpPerHour": null,
+      "itemsPerHour": 72.0,
+      "gpPerHour": null,
+      "products": [
+        {
+          "id": "MelvorBase:DemoPlaceholderItem",
+          "name": "DemoPlaceholderItem",
+          "role": "primary",
+          "basis": "trap success baseline",
+          "probability": 0.4,
+          "quantity": 1,
+          "itemsPerHour": 72.0,
+          "gpPerHour": null
+        }
+      ],
+      "sourcePointer": "package-selected.json#/HuntingAnimal/BelraTorag",
+      "notes": [
+        "Baseline excludes tool, bait, trapless, rare species and equipment modifiers.",
+        "XP/ч requires the game's journal/trapping event state; it is intentionally not estimated."
+      ]
+    },
+    {
+      "id": "GarTorag",
+      "gameId": "MelvorBase:GarTorag",
+      "name": "Gar Torag",
+      "requiredLevel": null,
+      "availability": "demo",
+      "conditions": [
+        "Base tracking/trapping interval",
+        "Base trap success chance"
+      ],
+      "intervalSeconds": 20.0,
+      "intervalLabel": "mean tracking + trap interval",
+      "baseXp": 1,
+      "successChance": 0.4,
+      "xpPerHour": null,
+      "itemsPerHour": 72.0,
+      "gpPerHour": null,
+      "products": [
+        {
+          "id": "MelvorBase:DemoPlaceholderItem",
+          "name": "DemoPlaceholderItem",
+          "role": "primary",
+          "basis": "trap success baseline",
+          "probability": 0.4,
+          "quantity": 1,
+          "itemsPerHour": 72.0,
+          "gpPerHour": null
+        }
+      ],
+      "sourcePointer": "package-selected.json#/HuntingAnimal/GarTorag",
+      "notes": [
+        "Baseline excludes tool, bait, trapless, rare species and equipment modifiers.",
+        "XP/ч requires the game's journal/trapping event state; it is intentionally not estimated."
+      ]
+    },
+    {
+      "id": "FinTorag",
+      "gameId": "MelvorBase:FinTorag",
+      "name": "Fin Torag",
+      "requiredLevel": null,
+      "availability": "demo",
+      "conditions": [
+        "Base tracking/trapping interval",
+        "Base trap success chance"
+      ],
+      "intervalSeconds": 20.0,
+      "intervalLabel": "mean tracking + trap interval",
+      "baseXp": 1,
+      "successChance": 0.4,
+      "xpPerHour": null,
+      "itemsPerHour": 72.0,
+      "gpPerHour": null,
+      "products": [
+        {
+          "id": "MelvorBase:DemoPlaceholderItem",
+          "name": "DemoPlaceholderItem",
+          "role": "primary",
+          "basis": "trap success baseline",
+          "probability": 0.4,
+          "quantity": 1,
+          "itemsPerHour": 72.0,
+          "gpPerHour": null
+        }
+      ],
+      "sourcePointer": "package-selected.json#/HuntingAnimal/FinTorag",
+      "notes": [
+        "Baseline excludes tool, bait, trapless, rare species and equipment modifiers.",
+        "XP/ч requires the game's journal/trapping event state; it is intentionally not estimated."
+      ]
+    },
+    {
+      "id": "CulTorag",
+      "gameId": "MelvorBase:CulTorag",
+      "name": "Cul Torag",
+      "requiredLevel": null,
+      "availability": "demo",
+      "conditions": [
+        "Base tracking/trapping interval",
+        "Base trap success chance"
+      ],
+      "intervalSeconds": 20.0,
+      "intervalLabel": "mean tracking + trap interval",
+      "baseXp": 1,
+      "successChance": 0.4,
+      "xpPerHour": null,
+      "itemsPerHour": 72.0,
+      "gpPerHour": null,
+      "products": [
+        {
+          "id": "MelvorBase:DemoPlaceholderItem",
+          "name": "DemoPlaceholderItem",
+          "role": "primary",
+          "basis": "trap success baseline",
+          "probability": 0.4,
+          "quantity": 1,
+          "itemsPerHour": 72.0,
+          "gpPerHour": null
+        }
+      ],
+      "sourcePointer": "package-selected.json#/HuntingAnimal/CulTorag",
+      "notes": [
+        "Baseline excludes tool, bait, trapless, rare species and equipment modifiers.",
+        "XP/ч requires the game's journal/trapping event state; it is intentionally not estimated."
+      ]
+    },
+    {
+      "id": "CrescentButterfly",
+      "gameId": "MelvorBase:CrescentButterfly",
+      "name": "Crescent Butterfly",
+      "requiredLevel": null,
+      "availability": "demo",
+      "conditions": [
+        "Base tracking/trapping interval",
+        "Base trap success chance"
+      ],
+      "intervalSeconds": 20.0,
+      "intervalLabel": "mean tracking + trap interval",
+      "baseXp": 1,
+      "successChance": 0.4,
+      "xpPerHour": null,
+      "itemsPerHour": 72.0,
+      "gpPerHour": null,
+      "products": [
+        {
+          "id": "MelvorBase:DemoPlaceholderItem",
+          "name": "DemoPlaceholderItem",
+          "role": "primary",
+          "basis": "trap success baseline",
+          "probability": 0.4,
+          "quantity": 1,
+          "itemsPerHour": 72.0,
+          "gpPerHour": null
+        }
+      ],
+      "sourcePointer": "package-selected.json#/HuntingAnimal/CrescentButterfly",
+      "notes": [
+        "Baseline excludes tool, bait, trapless, rare species and equipment modifiers.",
+        "XP/ч requires the game's journal/trapping event state; it is intentionally not estimated."
+      ]
+    },
+    {
+      "id": "NightRaven",
+      "gameId": "MelvorBase:NightRaven",
+      "name": "Night Raven",
+      "requiredLevel": null,
+      "availability": "demo",
+      "conditions": [
+        "Base tracking/trapping interval",
+        "Base trap success chance"
+      ],
+      "intervalSeconds": 20.0,
+      "intervalLabel": "mean tracking + trap interval",
+      "baseXp": 1,
+      "successChance": 0.4,
+      "xpPerHour": null,
+      "itemsPerHour": 72.0,
+      "gpPerHour": null,
+      "products": [
+        {
+          "id": "MelvorBase:DemoPlaceholderItem",
+          "name": "DemoPlaceholderItem",
+          "role": "primary",
+          "basis": "trap success baseline",
+          "probability": 0.4,
+          "quantity": 1,
+          "itemsPerHour": 72.0,
+          "gpPerHour": null
+        }
+      ],
+      "sourcePointer": "package-selected.json#/HuntingAnimal/NightRaven",
+      "notes": [
+        "Baseline excludes tool, bait, trapless, rare species and equipment modifiers.",
+        "XP/ч requires the game's journal/trapping event state; it is intentionally not estimated."
+      ]
+    },
+    {
+      "id": "MoonscaleGecko",
+      "gameId": "MelvorBase:MoonscaleGecko",
+      "name": "Moonscale Gecko",
+      "requiredLevel": null,
+      "availability": "demo",
+      "conditions": [
+        "Base tracking/trapping interval",
+        "Base trap success chance"
+      ],
+      "intervalSeconds": 20.0,
+      "intervalLabel": "mean tracking + trap interval",
+      "baseXp": 1,
+      "successChance": 0.4,
+      "xpPerHour": null,
+      "itemsPerHour": 72.0,
+      "gpPerHour": null,
+      "products": [
+        {
+          "id": "MelvorBase:DemoPlaceholderItem",
+          "name": "DemoPlaceholderItem",
+          "role": "primary",
+          "basis": "trap success baseline",
+          "probability": 0.4,
+          "quantity": 1,
+          "itemsPerHour": 72.0,
+          "gpPerHour": null
+        }
+      ],
+      "sourcePointer": "package-selected.json#/HuntingAnimal/MoonscaleGecko",
+      "notes": [
+        "Baseline excludes tool, bait, trapless, rare species and equipment modifiers.",
+        "XP/ч requires the game's journal/trapping event state; it is intentionally not estimated."
+      ]
+    },
+    {
+      "id": "ShadowFox",
+      "gameId": "MelvorBase:ShadowFox",
+      "name": "Shadow Fox",
+      "requiredLevel": null,
+      "availability": "demo",
+      "conditions": [
+        "Base tracking/trapping interval",
+        "Base trap success chance"
+      ],
+      "intervalSeconds": 20.0,
+      "intervalLabel": "mean tracking + trap interval",
+      "baseXp": 1,
+      "successChance": 0.4,
+      "xpPerHour": null,
+      "itemsPerHour": 72.0,
+      "gpPerHour": null,
+      "products": [
+        {
+          "id": "MelvorBase:DemoPlaceholderItem",
+          "name": "DemoPlaceholderItem",
+          "role": "primary",
+          "basis": "trap success baseline",
+          "probability": 0.4,
+          "quantity": 1,
+          "itemsPerHour": 72.0,
+          "gpPerHour": null
+        }
+      ],
+      "sourcePointer": "package-selected.json#/HuntingAnimal/ShadowFox",
+      "notes": [
+        "Baseline excludes tool, bait, trapless, rare species and equipment modifiers.",
+        "XP/ч requires the game's journal/trapping event state; it is intentionally not estimated."
+      ]
+    }
+  ],
+  "notes": [
+    "Baseline mean tracking + trap interval with base trap success; modifiers excluded."
+  ]
+}
