@@ -837,6 +837,7 @@
       ]
     }
   ],
+  "scenario": "Healthy adult · full food · repaired enclosure · no bonuses",
   "notes": [
     "Healthy adult baseline. See Ranching table design for state formulas."
   ]

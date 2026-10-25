@@ -35,6 +35,7 @@ export interface SkillTable {
   method:string;
   rows:ActionRow[];
   notes:string[];
+  scenario?:string;
 }
 export type SortKey='xp'|'items'|'gold'|'level';
 export function selectRows(rows:ActionRow[],query:string,scope:'demo'|'all',sort:SortKey) {

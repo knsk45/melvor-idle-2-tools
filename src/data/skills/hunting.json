@@ -1682,6 +1682,7 @@
       ]
     }
   ],
+  "scenario": "Base tracking + trap interval · base trap success · no gear or bait bonuses",
   "notes": [
     "Baseline mean tracking + trap interval with base trap success; modifiers excluded."
   ]
