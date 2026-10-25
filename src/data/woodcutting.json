@@ -1,1 +1,429 @@
-[]
+[
+  {
+    "id": "normal-tree",
+    "name": {
+      "en": "Normal Tree",
+      "ru": "Обычное дерево"
+    },
+    "kind": "tree",
+    "requiredLevel": 1,
+    "health": 3,
+    "hitIntervalSeconds": 1,
+    "baseDamagePerHit": 1,
+    "intervalSeconds": 3,
+    "xpPerAction": 3,
+    "expectedQuantityPerAction": 1,
+    "sellPriceGp": 3,
+    "primaryItem": "Normal Log",
+    "channel": "demo",
+    "gameVersion": "0.11.2-alpha.4",
+    "steamBuildId": "26074343",
+    "verificationStatus": "verified",
+    "checkedAt": "2026-10-25",
+    "sourceRefs": [
+      "demo-observation-20261024",
+      "demo-package-20261025"
+    ],
+    "calculationProfile": "base-no-bonuses",
+    "rewardBasis": "full-cut",
+    "perHitRewardsExcluded": false,
+    "gameId": "MelvorBase:NormalTree",
+    "rawLevel": 1,
+    "sourceJsonPointer": "/Objects/WoodcuttingRecipe/0",
+    "sourcePackageSha256": "2b43f26ce76d86178f56a72c8dced08a0ae545779786cccdcac868bdc3478474",
+    "sideDrops": [
+      {
+        "itemId": "MelvorBase:BirdNest",
+        "name": "Bird Nest",
+        "basis": "hit",
+        "probability": 0.0025,
+        "quantity": 1,
+        "sellPriceGp": 28
+      }
+    ]
+  },
+  {
+    "id": "oak-tree",
+    "name": {
+      "en": "Oak Tree",
+      "ru": "Дуб"
+    },
+    "kind": "tree",
+    "requiredLevel": 10,
+    "health": 4,
+    "hitIntervalSeconds": 1,
+    "baseDamagePerHit": 1,
+    "intervalSeconds": 4,
+    "xpPerAction": 8,
+    "expectedQuantityPerAction": 1,
+    "sellPriceGp": 6,
+    "primaryItem": "Oak Log",
+    "channel": "demo",
+    "gameVersion": "0.11.2-alpha.4",
+    "steamBuildId": "26074343",
+    "verificationStatus": "verified",
+    "checkedAt": "2026-10-25",
+    "sourceRefs": [
+      "demo-observation-20261024",
+      "demo-package-20261025"
+    ],
+    "calculationProfile": "base-no-bonuses",
+    "rewardBasis": "full-cut",
+    "perHitRewardsExcluded": false,
+    "gameId": "MelvorBase:OakTree",
+    "rawLevel": 5,
+    "sourceJsonPointer": "/Objects/WoodcuttingRecipe/2",
+    "sourcePackageSha256": "2b43f26ce76d86178f56a72c8dced08a0ae545779786cccdcac868bdc3478474",
+    "sideDrops": [
+      {
+        "itemId": "MelvorBase:BirdNest",
+        "name": "Bird Nest",
+        "basis": "hit",
+        "probability": 0.0025,
+        "quantity": 1,
+        "sellPriceGp": 28
+      },
+      {
+        "itemId": "MelvorBase:OakTreeSeed",
+        "name": "Oak Tree Seed",
+        "basis": "cut",
+        "probability": 0.001,
+        "quantity": 1,
+        "sellPriceGp": 486
+      }
+    ]
+  },
+  {
+    "id": "willow-tree",
+    "name": {
+      "en": "Willow Tree",
+      "ru": "Ива"
+    },
+    "kind": "tree",
+    "requiredLevel": 25,
+    "health": 5,
+    "hitIntervalSeconds": 1,
+    "baseDamagePerHit": 1,
+    "intervalSeconds": 5,
+    "xpPerAction": 17,
+    "expectedQuantityPerAction": 1,
+    "sellPriceGp": 17,
+    "primaryItem": "Willow Log",
+    "channel": "demo",
+    "gameVersion": "0.11.2-alpha.4",
+    "steamBuildId": "26074343",
+    "verificationStatus": "verified",
+    "checkedAt": "2026-10-25",
+    "sourceRefs": [
+      "demo-observation-20261024",
+      "demo-package-20261025"
+    ],
+    "calculationProfile": "base-no-bonuses",
+    "rewardBasis": "full-cut",
+    "perHitRewardsExcluded": false,
+    "gameId": "MelvorBase:WillowTree",
+    "rawLevel": 25,
+    "sourceJsonPointer": "/Objects/WoodcuttingRecipe/4",
+    "sourcePackageSha256": "2b43f26ce76d86178f56a72c8dced08a0ae545779786cccdcac868bdc3478474",
+    "sideDrops": [
+      {
+        "itemId": "MelvorBase:BirdNest",
+        "name": "Bird Nest",
+        "basis": "hit",
+        "probability": 0.0025,
+        "quantity": 1,
+        "sellPriceGp": 28
+      },
+      {
+        "itemId": "MelvorBase:WillowTreeSeed",
+        "name": "Willow Tree Seed",
+        "basis": "cut",
+        "probability": 0.0009,
+        "quantity": 1,
+        "sellPriceGp": 984
+      }
+    ]
+  },
+  {
+    "id": "teak-tree",
+    "name": {
+      "en": "Teak Tree",
+      "ru": "Тиковое дерево"
+    },
+    "kind": "tree",
+    "requiredLevel": 35,
+    "health": 6,
+    "hitIntervalSeconds": 1,
+    "baseDamagePerHit": 1,
+    "intervalSeconds": 6,
+    "xpPerAction": 22,
+    "expectedQuantityPerAction": 1,
+    "sellPriceGp": 25,
+    "primaryItem": "Teak Log",
+    "channel": "demo",
+    "gameVersion": "0.11.2-alpha.4",
+    "steamBuildId": "26074343",
+    "verificationStatus": "verified",
+    "checkedAt": "2026-10-25",
+    "sourceRefs": [
+      "demo-observation-20261024",
+      "demo-package-20261025"
+    ],
+    "calculationProfile": "base-no-bonuses",
+    "rewardBasis": "full-cut",
+    "perHitRewardsExcluded": false,
+    "gameId": "MelvorBase:TeakTree",
+    "rawLevel": 35,
+    "sourceJsonPointer": "/Objects/WoodcuttingRecipe/5",
+    "sourcePackageSha256": "2b43f26ce76d86178f56a72c8dced08a0ae545779786cccdcac868bdc3478474",
+    "sideDrops": [
+      {
+        "itemId": "MelvorBase:BirdNest",
+        "name": "Bird Nest",
+        "basis": "hit",
+        "probability": 0.0025,
+        "quantity": 1,
+        "sellPriceGp": 28
+      },
+      {
+        "itemId": "MelvorBase:TeakTreeSeed",
+        "name": "Teak Tree Seed",
+        "basis": "cut",
+        "probability": 0.0009,
+        "quantity": 1,
+        "sellPriceGp": 1635
+      }
+    ]
+  },
+  {
+    "id": "maple-tree",
+    "name": {
+      "en": "Maple Tree",
+      "ru": "Клён"
+    },
+    "kind": "tree",
+    "requiredLevel": 45,
+    "health": 8,
+    "hitIntervalSeconds": 1,
+    "baseDamagePerHit": 1,
+    "intervalSeconds": 8,
+    "xpPerAction": 35,
+    "expectedQuantityPerAction": 1,
+    "sellPriceGp": 33,
+    "primaryItem": "Maple Log",
+    "channel": "demo",
+    "gameVersion": "0.11.2-alpha.4",
+    "steamBuildId": "26074343",
+    "verificationStatus": "verified",
+    "checkedAt": "2026-10-25",
+    "sourceRefs": [
+      "demo-observation-20261024",
+      "demo-package-20261025"
+    ],
+    "calculationProfile": "base-no-bonuses",
+    "rewardBasis": "full-cut",
+    "perHitRewardsExcluded": false,
+    "gameId": "MelvorBase:MapleTree",
+    "rawLevel": 45,
+    "sourceJsonPointer": "/Objects/WoodcuttingRecipe/6",
+    "sourcePackageSha256": "2b43f26ce76d86178f56a72c8dced08a0ae545779786cccdcac868bdc3478474",
+    "sideDrops": [
+      {
+        "itemId": "MelvorBase:BirdNest",
+        "name": "Bird Nest",
+        "basis": "hit",
+        "probability": 0.0025,
+        "quantity": 1,
+        "sellPriceGp": 28
+      },
+      {
+        "itemId": "MelvorBase:MapleTreeSeed",
+        "name": "Maple Tree Seed",
+        "basis": "cut",
+        "probability": 0.0009,
+        "quantity": 1,
+        "sellPriceGp": 1673
+      }
+    ]
+  },
+  {
+    "id": "mahogany-tree",
+    "name": {
+      "en": "Mahogany Tree",
+      "ru": "Красное дерево"
+    },
+    "kind": "tree",
+    "requiredLevel": 55,
+    "health": 10,
+    "hitIntervalSeconds": 1,
+    "baseDamagePerHit": 1,
+    "intervalSeconds": 10,
+    "xpPerAction": 51,
+    "expectedQuantityPerAction": 1,
+    "sellPriceGp": 46,
+    "primaryItem": "Mahogany Log",
+    "channel": "demo",
+    "gameVersion": "0.11.2-alpha.4",
+    "steamBuildId": "26074343",
+    "verificationStatus": "verified",
+    "checkedAt": "2026-10-25",
+    "sourceRefs": [
+      "demo-observation-20261024",
+      "demo-package-20261025"
+    ],
+    "calculationProfile": "base-no-bonuses",
+    "rewardBasis": "full-cut",
+    "perHitRewardsExcluded": false,
+    "gameId": "MelvorBase:MahoganyTree",
+    "rawLevel": 55,
+    "sourceJsonPointer": "/Objects/WoodcuttingRecipe/8",
+    "sourcePackageSha256": "2b43f26ce76d86178f56a72c8dced08a0ae545779786cccdcac868bdc3478474",
+    "sideDrops": [
+      {
+        "itemId": "MelvorBase:BirdNest",
+        "name": "Bird Nest",
+        "basis": "hit",
+        "probability": 0.0025,
+        "quantity": 1,
+        "sellPriceGp": 28
+      },
+      {
+        "itemId": "MelvorBase:MahoganyTreeSeed",
+        "name": "Mahogany Tree Seed",
+        "basis": "cut",
+        "probability": 0.0009,
+        "quantity": 1,
+        "sellPriceGp": 2701
+      }
+    ]
+  },
+  {
+    "id": "flax-bush",
+    "name": {
+      "en": "Flax Bush",
+      "ru": "Льняной куст"
+    },
+    "kind": "bush",
+    "requiredLevel": 5,
+    "health": 2,
+    "hitIntervalSeconds": 1,
+    "baseDamagePerHit": 1,
+    "intervalSeconds": 2,
+    "xpPerAction": 3,
+    "expectedQuantityPerAction": 1,
+    "sellPriceGp": 1,
+    "primaryItem": "Flax",
+    "channel": "demo",
+    "gameVersion": "0.11.2-alpha.4",
+    "steamBuildId": "26074343",
+    "verificationStatus": "verified",
+    "checkedAt": "2026-10-25",
+    "sourceRefs": [
+      "demo-observation-20261024",
+      "demo-package-20261025"
+    ],
+    "calculationProfile": "base-no-bonuses",
+    "rewardBasis": "full-cut",
+    "perHitRewardsExcluded": false,
+    "gameId": "MelvorBase:FlaxBush",
+    "rawLevel": 5,
+    "sourceJsonPointer": "/Objects/WoodcuttingRecipe/1",
+    "sourcePackageSha256": "2b43f26ce76d86178f56a72c8dced08a0ae545779786cccdcac868bdc3478474",
+    "sideDrops": [
+      {
+        "itemId": "MelvorBase:Stick",
+        "name": "Stick",
+        "basis": "hit",
+        "probability": 0.25,
+        "quantity": 1,
+        "sellPriceGp": 1
+      }
+    ]
+  },
+  {
+    "id": "ambervine-bush",
+    "name": {
+      "en": "Ambervine Bush",
+      "ru": "Куст Ambervine"
+    },
+    "kind": "bush",
+    "requiredLevel": 20,
+    "health": 2,
+    "hitIntervalSeconds": 1,
+    "baseDamagePerHit": 1,
+    "intervalSeconds": 2,
+    "xpPerAction": 4,
+    "expectedQuantityPerAction": 1,
+    "sellPriceGp": 3,
+    "primaryItem": "Ambervine Leaf",
+    "channel": "demo",
+    "gameVersion": "0.11.2-alpha.4",
+    "steamBuildId": "26074343",
+    "verificationStatus": "verified",
+    "checkedAt": "2026-10-25",
+    "sourceRefs": [
+      "demo-observation-20261024",
+      "demo-package-20261025"
+    ],
+    "calculationProfile": "base-no-bonuses",
+    "rewardBasis": "full-cut",
+    "perHitRewardsExcluded": false,
+    "gameId": "MelvorBase:AmbervineBush",
+    "rawLevel": 20,
+    "sourceJsonPointer": "/Objects/WoodcuttingRecipe/3",
+    "sourcePackageSha256": "2b43f26ce76d86178f56a72c8dced08a0ae545779786cccdcac868bdc3478474",
+    "sideDrops": [
+      {
+        "itemId": "MelvorBase:Stick",
+        "name": "Stick",
+        "basis": "hit",
+        "probability": 0.5,
+        "quantity": 1,
+        "sellPriceGp": 1
+      }
+    ]
+  },
+  {
+    "id": "spikemoss-shrub",
+    "name": {
+      "en": "Spikemoss Shrub",
+      "ru": "Куст Spikemoss"
+    },
+    "kind": "bush",
+    "requiredLevel": 50,
+    "health": 2,
+    "hitIntervalSeconds": 1,
+    "baseDamagePerHit": 1,
+    "intervalSeconds": 2,
+    "xpPerAction": 8,
+    "expectedQuantityPerAction": 1,
+    "sellPriceGp": 5,
+    "primaryItem": "Spikemoss Leaf",
+    "channel": "demo",
+    "gameVersion": "0.11.2-alpha.4",
+    "steamBuildId": "26074343",
+    "verificationStatus": "verified",
+    "checkedAt": "2026-10-25",
+    "sourceRefs": [
+      "demo-observation-20261024",
+      "demo-package-20261025"
+    ],
+    "calculationProfile": "base-no-bonuses",
+    "rewardBasis": "full-cut",
+    "perHitRewardsExcluded": false,
+    "gameId": "MelvorBase:SpikemossShrub",
+    "rawLevel": 50,
+    "sourceJsonPointer": "/Objects/WoodcuttingRecipe/7",
+    "sourcePackageSha256": "2b43f26ce76d86178f56a72c8dced08a0ae545779786cccdcac868bdc3478474",
+    "sideDrops": [
+      {
+        "itemId": "MelvorBase:Stick",
+        "name": "Stick",
+        "basis": "hit",
+        "probability": 0.75,
+        "quantity": 1,
+        "sellPriceGp": 1
+      }
+    ]
+  }
+]

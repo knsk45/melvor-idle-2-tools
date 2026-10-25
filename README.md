@@ -1,16 +1,20 @@
 # Melvor Idle 2 Tools
 
-Неофициальный открытый справочник и калькуляторы **Melvor Idle 2**. Первый экран — рубка дерева, интерфейс RU/EN. Собственного сервера и регистрации нет.
+Unofficial, open-source skill calculators for **Melvor Idle 2**. English is the default language; Russian is available using the language switch. No account or backend required.
 
-## Текущее состояние
+## Woodcutting demo dataset
 
-Подготовлен MVP: таблица с фильтрами и числовой сортировкой, выбор канала/build и уровня, ручной расчёт эффективных значений, целевое количество, сохранение настроек. Проверенная игровая база **пуста**. Ручной расчёт не является рекомендацией и не меняет базовые значения. Примеры существуют только в unit-тестах.
+**Six trees and three bushes** have been transcribed from the running demo **v0.11.2-alpha.4**, Steam build **26074343**, checked 24 October 2026. Each row includes an observation source and exact channel/build. See [primary observations](docs/DEMO_OBSERVATION_20261024.md).
 
-Официальные источники подтверждают демо; параметры деревьев пока не подтверждены. Данные Melvor Idle 1 не используются. Читайте [источники](docs/SOURCES.md) и [методику](docs/METHODOLOGY.md).
+The base table uses **one damage per hit, no bonuses**. Full-cut time = tree health × hit interval. Primary items and XP are awarded per completed cut, not one whole tree every hit. Example: Normal Tree takes3seconds per cut and yields1200logs/hour,3600XP/hour and3600grossGP/hour at baseline. Side drops are excluded.
 
-## Запуск
+The owner's observed buffs and a conditional comparison with the game's rolling rates are documented separately. Bonus stacking is not automatically inferred. Manual mode accepts effective **full-cut** values and never modifies the baseline. Quantities and nominal time estimates are long-run expectations, not guaranteed wall-clock timings for an accelerated session.
 
-Node.js 22+ (Vite требует минимум 22.12 в ветке 22), pnpm 11.
+The screen includes numeric sorting, search, level availability, exact channel/build isolation, quantity targets, RU/EN and versioned settings recovery. No first-game data is used.
+
+## Run locally
+
+Node.js22.12+ and pnpm11:
 
 ~~~sh
 pnpm install --frozen-lockfile
@@ -18,20 +22,28 @@ pnpm dev
 pnpm check
 ~~~
 
-Открыть http://127.0.0.1:5173/melvor-idle-2-tools/ . Проверка: lint, Vitest, TypeScript и production build. Установочный store находится внутри проекта. CI использует lockfile.
+Visit http://127.0.0.1:5173/melvor-idle-2-tools/ . Checks include ESLint, Vitest, TypeScript and the production build. The package store is configured inside the project.
 
-## Структура
+## Project structure
 
-- src/domain — формулы, валидация, настройки и тесты.
-- src/data — JSON деревьев и источников; null означает неизвестное.
-- src/components, src/i18n — компоненты и RU/EN.
-- docs — источники, методика, roadmap, исходный handoff.
-- .github — CI, ручной Pages workflow, формы Issues и шаблон PR.
+- src/data: numerical observations and sources.
+- src/domain: pure calculations, data validation, settings and tests.
+- src/components, src/i18n: UI components and English/Russian strings.
+- docs: provenance, methodology, roadmap and original handoff.
+- .github: CI, manual Pages publication, Issue and PR templates.
 
-Pages ещё **не опубликован**. Workflow запускается только вручную из main после отдельного поручения; настройки Pages необходимо проверить перед первым запуском. Целевой URL: https://knsk45.github.io/melvor-idle-2-tools/ .
+GitHub Pages is **not published**. The workflow is manual and main-only; first publication requires an explicit owner request. Intended URL: https://knsk45.github.io/melvor-idle-2-tools/ .
 
-Для первого набора нужны канал/build, названия деревьев и скриншоты уровня доступа, интервала, XP, средней добычи и цены, с указанием бонусов. Правила участия — [CONTRIBUTING](CONTRIBUTING.md).
+See [contributing](CONTRIBUTING.md), [methodology](docs/METHODOLOGY.md), [sources](docs/SOURCES.md), [roadmap](docs/ROADMAP.md) and [continuation](CONTINUE_HERE.md).
 
-Собственный код — MIT. Игровые ресурсы, сторонний код, тексты и изображения не включены. Неофициальный проект; права на игру принадлежат соответствующим правообладателям.
+MIT applies to original code. Game assets, binaries and source code are not bundled. Game trademarks remain with their respective owners. Local evidence screenshots are ignored by Git.
 
-[English](README.en.md) · [Продолжение работы](CONTINUE_HERE.md)
+[Русский](README.ru.md)
+
+## 25 October 2026 — static package data
+
+The previous UI baseline is now corroborated by the shipped package. Collected **664 items and 1120 recipe definitions** across ten types; see [extraction/provenance](docs/EXTRACTED_DATA.md) and [catalog](data/catalog/README.md). Definition presence does not establish demo availability. Of20woodcuttingdefinitions,onlythe9UI-corroboratedordinaryobjectsparticipateinrecommendations;6DemoLockedand5conditionalentriesremaincatalog-only.
+
+Woodcuttingsidedropsnowhaveverifiedbaseprobabilitiesandprices. ThetablekeepsprimaryGP/hseparatefromGP/hincludingdirectly-soldnests,seedsandsticks. Nestsarenotopenedforvaluation. Nobonusesareautomaticallyapplied. BaseBirdNestchanceis0.25%perhit,ratherthanthemodified0.27%observedintheUI.
+
+Thestaticextractoronlyreadsinstalledfilesandwritesintothechosenprojectoutput. Reproductionandbuildhashesareindocs/EXTRACTED_DATA.md. Englishremainsthedefault;Russianisswitchable. Pagesremainsunpublished.

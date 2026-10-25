@@ -1,0 +1,32 @@
+{
+  "source": {
+    "gameVersion": "0.11.2-alpha.4",
+    "steamBuildId": "26074343",
+    "channel": "demo",
+    "checkedAt": "2026-10-25",
+    "exeSha256": "c7249cff551d5420b7b1dd31f138cb55517e71105dc0c53e5952352c8e9bb3e4",
+    "packageSha256": "2b43f26ce76d86178f56a72c8dced08a0ae545779786cccdcac868bdc3478474",
+    "resource": "res://Data/Packages/MelvorDemo.json",
+    "absoluteFileOffset": 587290512,
+    "resourceBytes": 7411090,
+    "availabilityNote": "Shipped definitions only; presence does not establish playability. DemoLocked and display conditions must be enforced."
+  },
+  "items": 664,
+  "recipeCounts": {
+    "ArtisanRecipe": 704,
+    "CookingRecipe": 74,
+    "WoodcuttingRecipe": 20,
+    "MiningRecipe": 27,
+    "FishingRecipe": 23,
+    "FiremakingRecipe": 25,
+    "FarmingRecipe": 49,
+    "GrainMillRecipe": 6,
+    "ThievingRecipe": 40,
+    "HerbloreRecipe": 152
+  },
+  "woodcuttingAvailability": {
+    "demo-locked": 6,
+    "definition-without-demo-lock-or-display-condition": 9,
+    "conditional-display-requirements": 5
+  }
+}

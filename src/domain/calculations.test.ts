@@ -22,7 +22,7 @@ describe('Independent repeatable action model',()=>{
 });
 describe('Data validation',()=>{
  const refs=[{id:'fixture',url:'https://example.org/fixture'}];
- it('accepts the checked-in empty dataset',()=>expect(validateData(data,sources)).toEqual([]));
+ it('accepts the checked-in dataset',()=>expect(validateData(data as Tree[],sources)).toEqual([]));
  it('validates a synthetic record',()=>expect(validateData([fixture],refs)).toEqual([]));
  it('rejects duplicate IDs',()=>expect(validateData([fixture,fixture],refs)).not.toEqual([]));
  it('rejects unresolved sources',()=>expect(validateData([fixture],[])).not.toEqual([]));

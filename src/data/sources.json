@@ -12,5 +12,19 @@
     "title": "Official demo announcement, 19 October 2026",
     "checkedAt": "2026-10-24",
     "scope": "Demo availability and level cap; no numerical woodcutting data."
+  },
+  {
+    "id": "demo-observation-20261024",
+    "url": "https://github.com/knsk45/melvor-idle-2-tools/blob/main/docs/DEMO_OBSERVATION_20261024.md",
+    "title": "In-game observations: demo v0.11.2-alpha.4 / Steam 26074343",
+    "checkedAt": "2026-10-24",
+    "scope": "Unlock levels, health, 1.00s hit interval, base XP tooltips, full-cut primary rewards and item GP tooltips. Transcribed from running game; base rates derived with one damage per hit, no bonuses."
+  },
+  {
+    "id": "demo-package-20261025",
+    "url": "https://github.com/knsk45/melvor-idle-2-tools/blob/main/docs/EXTRACTED_DATA.md",
+    "title": "Shipped demo package + managed CIL, SHA-256 pinned (25 Oct 2026)",
+    "checkedAt": "2026-10-25",
+    "scope": "Static read-only PCK v4 JSON extraction, original IDs, requirements, base probabilities and item prices. CIL confirms reward order; no target code executed."
   }
 ]

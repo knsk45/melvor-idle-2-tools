@@ -1,0 +1,1306 @@
+{
+  "source": {
+    "gameVersion": "0.11.2-alpha.4",
+    "steamBuildId": "26074343",
+    "channel": "demo",
+    "checkedAt": "2026-10-25",
+    "exeSha256": "c7249cff551d5420b7b1dd31f138cb55517e71105dc0c53e5952352c8e9bb3e4",
+    "packageSha256": "2b43f26ce76d86178f56a72c8dced08a0ae545779786cccdcac868bdc3478474",
+    "resource": "res://Data/Packages/MelvorDemo.json",
+    "absoluteFileOffset": 587290512,
+    "resourceBytes": 7411090,
+    "availabilityNote": "Shipped definitions only; presence does not establish playability. DemoLocked and display conditions must be enforced."
+  },
+  "records": [
+    {
+      "sourceJsonPointer": "/Objects/WoodcuttingRecipe/0",
+      "id": "MelvorBase:NormalTree",
+      "name": "Normal Tree",
+      "category": "MelvorBase:Trees",
+      "rawLevel": 1,
+      "requirementLevels": [
+        1
+      ],
+      "baseExperience": 3,
+      "baseIntervalMilliseconds": 1000,
+      "baseMaxHealth": 3,
+      "product": {
+        "Item": "MelvorBase:NormalLog",
+        "Quantity": 1
+      },
+      "primaryItem": {
+        "id": "MelvorBase:NormalLog",
+        "name": {
+          "Singular": "Normal Log",
+          "Plural": "Normal Logs"
+        },
+        "sellsFor": {
+          "Currency": "MelvorBase:GoldPieces",
+          "Quantity": 3
+        },
+        "ignoreCompletion": false
+      },
+      "randomProductsPerHit": [
+        {
+          "Item": "MelvorBase:BirdNest",
+          "Quantity": 1,
+          "Chance": 0.0025
+        }
+      ],
+      "randomProductsPerCut": [],
+      "requirements": [
+        {
+          "Type": "MelvorBase:Level",
+          "Data": {
+            "Component": {
+              "Entity": "MelvorBase:Woodcutting",
+              "Component": "Experience"
+            },
+            "Level": 1,
+            "IsOr": false
+          }
+        }
+      ],
+      "displayRequirements": [],
+      "showInMilestones": true,
+      "availabilityClassification": "definition-without-demo-lock-or-display-condition",
+      "relatedItemFacts": [
+        {
+          "id": "MelvorBase:BirdNest",
+          "name": {
+            "Singular": "Bird Nest",
+            "Plural": "Bird Nests"
+          },
+          "sellsFor": {
+            "Currency": "MelvorBase:GoldPieces",
+            "Quantity": 28
+          },
+          "ignoreCompletion": false
+        }
+      ]
+    },
+    {
+      "sourceJsonPointer": "/Objects/WoodcuttingRecipe/1",
+      "id": "MelvorBase:FlaxBush",
+      "name": "Flax Bush",
+      "category": "MelvorBase:Bushes",
+      "rawLevel": 5,
+      "requirementLevels": [
+        5
+      ],
+      "baseExperience": 3,
+      "baseIntervalMilliseconds": 1000,
+      "baseMaxHealth": 2,
+      "product": {
+        "Item": "MelvorBase:Flax",
+        "Quantity": 1
+      },
+      "primaryItem": {
+        "id": "MelvorBase:Flax",
+        "name": {
+          "Singular": "Flax",
+          "Plural": "Flax"
+        },
+        "sellsFor": {
+          "Currency": "MelvorBase:GoldPieces",
+          "Quantity": 1
+        },
+        "ignoreCompletion": false
+      },
+      "randomProductsPerHit": [
+        {
+          "Item": "MelvorBase:Stick",
+          "Quantity": 1,
+          "Chance": 0.25
+        }
+      ],
+      "randomProductsPerCut": [],
+      "requirements": [
+        {
+          "Type": "MelvorBase:Level",
+          "Data": {
+            "Component": {
+              "Entity": "MelvorBase:Woodcutting",
+              "Component": "Experience"
+            },
+            "Level": 5,
+            "IsOr": false
+          }
+        }
+      ],
+      "displayRequirements": [],
+      "showInMilestones": true,
+      "availabilityClassification": "definition-without-demo-lock-or-display-condition",
+      "relatedItemFacts": [
+        {
+          "id": "MelvorBase:Stick",
+          "name": {
+            "Singular": "Stick",
+            "Plural": "Sticks"
+          },
+          "sellsFor": {
+            "Currency": "MelvorBase:GoldPieces",
+            "Quantity": 1
+          },
+          "ignoreCompletion": false
+        }
+      ]
+    },
+    {
+      "sourceJsonPointer": "/Objects/WoodcuttingRecipe/2",
+      "id": "MelvorBase:OakTree",
+      "name": "Oak Tree",
+      "category": "MelvorBase:Trees",
+      "rawLevel": 5,
+      "requirementLevels": [
+        10
+      ],
+      "baseExperience": 8,
+      "baseIntervalMilliseconds": 1000,
+      "baseMaxHealth": 4,
+      "product": {
+        "Item": "MelvorBase:OakLog",
+        "Quantity": 1
+      },
+      "primaryItem": {
+        "id": "MelvorBase:OakLog",
+        "name": {
+          "Singular": "Oak Log",
+          "Plural": "Oak Logs"
+        },
+        "sellsFor": {
+          "Currency": "MelvorBase:GoldPieces",
+          "Quantity": 6
+        },
+        "ignoreCompletion": false
+      },
+      "randomProductsPerHit": [
+        {
+          "Item": "MelvorBase:BirdNest",
+          "Quantity": 1,
+          "Chance": 0.0025
+        }
+      ],
+      "randomProductsPerCut": [
+        {
+          "Item": "MelvorBase:OakTreeSeed",
+          "Quantity": 1,
+          "Chance": 0.001
+        }
+      ],
+      "requirements": [
+        {
+          "Type": "MelvorBase:Level",
+          "Data": {
+            "Component": {
+              "Entity": "MelvorBase:Woodcutting",
+              "Component": "Experience"
+            },
+            "Level": 10,
+            "IsOr": false
+          }
+        }
+      ],
+      "displayRequirements": [],
+      "showInMilestones": true,
+      "availabilityClassification": "definition-without-demo-lock-or-display-condition",
+      "relatedItemFacts": [
+        {
+          "id": "MelvorBase:BirdNest",
+          "name": {
+            "Singular": "Bird Nest",
+            "Plural": "Bird Nests"
+          },
+          "sellsFor": {
+            "Currency": "MelvorBase:GoldPieces",
+            "Quantity": 28
+          },
+          "ignoreCompletion": false
+        },
+        {
+          "id": "MelvorBase:OakTreeSeed",
+          "name": {
+            "Singular": "Oak Tree Seed",
+            "Plural": "Oak Tree Seeds"
+          },
+          "sellsFor": {
+            "Currency": "MelvorBase:GoldPieces",
+            "Quantity": 486
+          },
+          "ignoreCompletion": false
+        }
+      ]
+    },
+    {
+      "sourceJsonPointer": "/Objects/WoodcuttingRecipe/3",
+      "id": "MelvorBase:AmbervineBush",
+      "name": "Ambervine Bush",
+      "category": "MelvorBase:Bushes",
+      "rawLevel": 20,
+      "requirementLevels": [
+        20
+      ],
+      "baseExperience": 4,
+      "baseIntervalMilliseconds": 1000,
+      "baseMaxHealth": 2,
+      "product": {
+        "Item": "MelvorBase:AmbervineLeaf",
+        "Quantity": 1
+      },
+      "primaryItem": {
+        "id": "MelvorBase:AmbervineLeaf",
+        "name": {
+          "Singular": "Ambervine Leaf",
+          "Plural": "Ambervine Leaves"
+        },
+        "sellsFor": {
+          "Currency": "MelvorBase:GoldPieces",
+          "Quantity": 3
+        },
+        "ignoreCompletion": false
+      },
+      "randomProductsPerHit": [
+        {
+          "Item": "MelvorBase:Stick",
+          "Quantity": 1,
+          "Chance": 0.5
+        }
+      ],
+      "randomProductsPerCut": [],
+      "requirements": [
+        {
+          "Type": "MelvorBase:Level",
+          "Data": {
+            "Component": {
+              "Entity": "MelvorBase:Woodcutting",
+              "Component": "Experience"
+            },
+            "Level": 20,
+            "IsOr": false
+          }
+        }
+      ],
+      "displayRequirements": [],
+      "showInMilestones": true,
+      "availabilityClassification": "definition-without-demo-lock-or-display-condition",
+      "relatedItemFacts": [
+        {
+          "id": "MelvorBase:Stick",
+          "name": {
+            "Singular": "Stick",
+            "Plural": "Sticks"
+          },
+          "sellsFor": {
+            "Currency": "MelvorBase:GoldPieces",
+            "Quantity": 1
+          },
+          "ignoreCompletion": false
+        }
+      ]
+    },
+    {
+      "sourceJsonPointer": "/Objects/WoodcuttingRecipe/4",
+      "id": "MelvorBase:WillowTree",
+      "name": "Willow Tree",
+      "category": "MelvorBase:Trees",
+      "rawLevel": 25,
+      "requirementLevels": [
+        25
+      ],
+      "baseExperience": 17,
+      "baseIntervalMilliseconds": 1000,
+      "baseMaxHealth": 5,
+      "product": {
+        "Item": "MelvorBase:WillowLog",
+        "Quantity": 1
+      },
+      "primaryItem": {
+        "id": "MelvorBase:WillowLog",
+        "name": {
+          "Singular": "Willow Log",
+          "Plural": "Willow Logs"
+        },
+        "sellsFor": {
+          "Currency": "MelvorBase:GoldPieces",
+          "Quantity": 17
+        },
+        "ignoreCompletion": false
+      },
+      "randomProductsPerHit": [
+        {
+          "Item": "MelvorBase:BirdNest",
+          "Quantity": 1,
+          "Chance": 0.0025
+        }
+      ],
+      "randomProductsPerCut": [
+        {
+          "Item": "MelvorBase:WillowTreeSeed",
+          "Quantity": 1,
+          "Chance": 0.0009
+        }
+      ],
+      "requirements": [
+        {
+          "Type": "MelvorBase:Level",
+          "Data": {
+            "Component": {
+              "Entity": "MelvorBase:Woodcutting",
+              "Component": "Experience"
+            },
+            "Level": 25,
+            "IsOr": false
+          }
+        }
+      ],
+      "displayRequirements": [],
+      "showInMilestones": true,
+      "availabilityClassification": "definition-without-demo-lock-or-display-condition",
+      "relatedItemFacts": [
+        {
+          "id": "MelvorBase:BirdNest",
+          "name": {
+            "Singular": "Bird Nest",
+            "Plural": "Bird Nests"
+          },
+          "sellsFor": {
+            "Currency": "MelvorBase:GoldPieces",
+            "Quantity": 28
+          },
+          "ignoreCompletion": false
+        },
+        {
+          "id": "MelvorBase:WillowTreeSeed",
+          "name": {
+            "Singular": "Willow Tree Seed",
+            "Plural": "Willow Tree Seeds"
+          },
+          "sellsFor": {
+            "Currency": "MelvorBase:GoldPieces",
+            "Quantity": 984
+          },
+          "ignoreCompletion": false
+        }
+      ]
+    },
+    {
+      "sourceJsonPointer": "/Objects/WoodcuttingRecipe/5",
+      "id": "MelvorBase:TeakTree",
+      "name": "Teak Tree",
+      "category": "MelvorBase:Trees",
+      "rawLevel": 35,
+      "requirementLevels": [
+        35
+      ],
+      "baseExperience": 22,
+      "baseIntervalMilliseconds": 1000,
+      "baseMaxHealth": 6,
+      "product": {
+        "Item": "MelvorBase:TeakLog",
+        "Quantity": 1
+      },
+      "primaryItem": {
+        "id": "MelvorBase:TeakLog",
+        "name": {
+          "Singular": "Teak Log",
+          "Plural": "Teak Logs"
+        },
+        "sellsFor": {
+          "Currency": "MelvorBase:GoldPieces",
+          "Quantity": 25
+        },
+        "ignoreCompletion": false
+      },
+      "randomProductsPerHit": [
+        {
+          "Item": "MelvorBase:BirdNest",
+          "Quantity": 1,
+          "Chance": 0.0025
+        }
+      ],
+      "randomProductsPerCut": [
+        {
+          "Item": "MelvorBase:TeakTreeSeed",
+          "Quantity": 1,
+          "Chance": 0.0009
+        }
+      ],
+      "requirements": [
+        {
+          "Type": "MelvorBase:Level",
+          "Data": {
+            "Component": {
+              "Entity": "MelvorBase:Woodcutting",
+              "Component": "Experience"
+            },
+            "Level": 35,
+            "IsOr": false
+          }
+        }
+      ],
+      "displayRequirements": [],
+      "showInMilestones": true,
+      "availabilityClassification": "definition-without-demo-lock-or-display-condition",
+      "relatedItemFacts": [
+        {
+          "id": "MelvorBase:BirdNest",
+          "name": {
+            "Singular": "Bird Nest",
+            "Plural": "Bird Nests"
+          },
+          "sellsFor": {
+            "Currency": "MelvorBase:GoldPieces",
+            "Quantity": 28
+          },
+          "ignoreCompletion": false
+        },
+        {
+          "id": "MelvorBase:TeakTreeSeed",
+          "name": {
+            "Singular": "Teak Tree Seed",
+            "Plural": "Teak Tree Seeds"
+          },
+          "sellsFor": {
+            "Currency": "MelvorBase:GoldPieces",
+            "Quantity": 1635
+          },
+          "ignoreCompletion": false
+        }
+      ]
+    },
+    {
+      "sourceJsonPointer": "/Objects/WoodcuttingRecipe/6",
+      "id": "MelvorBase:MapleTree",
+      "name": "Maple Tree",
+      "category": "MelvorBase:Trees",
+      "rawLevel": 45,
+      "requirementLevels": [
+        45
+      ],
+      "baseExperience": 35,
+      "baseIntervalMilliseconds": 1000,
+      "baseMaxHealth": 8,
+      "product": {
+        "Item": "MelvorBase:MapleLog",
+        "Quantity": 1
+      },
+      "primaryItem": {
+        "id": "MelvorBase:MapleLog",
+        "name": {
+          "Singular": "Maple Log",
+          "Plural": "Maple Logs"
+        },
+        "sellsFor": {
+          "Currency": "MelvorBase:GoldPieces",
+          "Quantity": 33
+        },
+        "ignoreCompletion": false
+      },
+      "randomProductsPerHit": [
+        {
+          "Item": "MelvorBase:BirdNest",
+          "Quantity": 1,
+          "Chance": 0.0025
+        }
+      ],
+      "randomProductsPerCut": [
+        {
+          "Item": "MelvorBase:MapleTreeSeed",
+          "Quantity": 1,
+          "Chance": 0.0009
+        }
+      ],
+      "requirements": [
+        {
+          "Type": "MelvorBase:Level",
+          "Data": {
+            "Component": {
+              "Entity": "MelvorBase:Woodcutting",
+              "Component": "Experience"
+            },
+            "Level": 45,
+            "IsOr": false
+          }
+        }
+      ],
+      "displayRequirements": [],
+      "showInMilestones": true,
+      "availabilityClassification": "definition-without-demo-lock-or-display-condition",
+      "relatedItemFacts": [
+        {
+          "id": "MelvorBase:BirdNest",
+          "name": {
+            "Singular": "Bird Nest",
+            "Plural": "Bird Nests"
+          },
+          "sellsFor": {
+            "Currency": "MelvorBase:GoldPieces",
+            "Quantity": 28
+          },
+          "ignoreCompletion": false
+        },
+        {
+          "id": "MelvorBase:MapleTreeSeed",
+          "name": {
+            "Singular": "Maple Tree Seed",
+            "Plural": "Maple Tree Seeds"
+          },
+          "sellsFor": {
+            "Currency": "MelvorBase:GoldPieces",
+            "Quantity": 1673
+          },
+          "ignoreCompletion": false
+        }
+      ]
+    },
+    {
+      "sourceJsonPointer": "/Objects/WoodcuttingRecipe/7",
+      "id": "MelvorBase:SpikemossShrub",
+      "name": "Spikemoss Shrub",
+      "category": "MelvorBase:Bushes",
+      "rawLevel": 50,
+      "requirementLevels": [
+        50
+      ],
+      "baseExperience": 8,
+      "baseIntervalMilliseconds": 1000,
+      "baseMaxHealth": 2,
+      "product": {
+        "Item": "MelvorBase:SpikemossLeaf",
+        "Quantity": 1
+      },
+      "primaryItem": {
+        "id": "MelvorBase:SpikemossLeaf",
+        "name": {
+          "Singular": "Spikemoss Leaf",
+          "Plural": "Spikemoss Leaves"
+        },
+        "sellsFor": {
+          "Currency": "MelvorBase:GoldPieces",
+          "Quantity": 5
+        },
+        "ignoreCompletion": false
+      },
+      "randomProductsPerHit": [
+        {
+          "Item": "MelvorBase:Stick",
+          "Quantity": 1,
+          "Chance": 0.75
+        }
+      ],
+      "randomProductsPerCut": [],
+      "requirements": [
+        {
+          "Type": "MelvorBase:Level",
+          "Data": {
+            "Component": {
+              "Entity": "MelvorBase:Woodcutting",
+              "Component": "Experience"
+            },
+            "Level": 50,
+            "IsOr": false
+          }
+        }
+      ],
+      "displayRequirements": [],
+      "showInMilestones": true,
+      "availabilityClassification": "definition-without-demo-lock-or-display-condition",
+      "relatedItemFacts": [
+        {
+          "id": "MelvorBase:Stick",
+          "name": {
+            "Singular": "Stick",
+            "Plural": "Sticks"
+          },
+          "sellsFor": {
+            "Currency": "MelvorBase:GoldPieces",
+            "Quantity": 1
+          },
+          "ignoreCompletion": false
+        }
+      ]
+    },
+    {
+      "sourceJsonPointer": "/Objects/WoodcuttingRecipe/8",
+      "id": "MelvorBase:MahoganyTree",
+      "name": "Mahogany Tree",
+      "category": "MelvorBase:Trees",
+      "rawLevel": 55,
+      "requirementLevels": [
+        55
+      ],
+      "baseExperience": 51,
+      "baseIntervalMilliseconds": 1000,
+      "baseMaxHealth": 10,
+      "product": {
+        "Item": "MelvorBase:MahoganyLog",
+        "Quantity": 1
+      },
+      "primaryItem": {
+        "id": "MelvorBase:MahoganyLog",
+        "name": {
+          "Singular": "Mahogany Log",
+          "Plural": "Mahogany Logs"
+        },
+        "sellsFor": {
+          "Currency": "MelvorBase:GoldPieces",
+          "Quantity": 46
+        },
+        "ignoreCompletion": false
+      },
+      "randomProductsPerHit": [
+        {
+          "Item": "MelvorBase:BirdNest",
+          "Quantity": 1,
+          "Chance": 0.0025
+        }
+      ],
+      "randomProductsPerCut": [
+        {
+          "Item": "MelvorBase:MahoganyTreeSeed",
+          "Quantity": 1,
+          "Chance": 0.0009
+        }
+      ],
+      "requirements": [
+        {
+          "Type": "MelvorBase:Level",
+          "Data": {
+            "Component": {
+              "Entity": "MelvorBase:Woodcutting",
+              "Component": "Experience"
+            },
+            "Level": 55,
+            "IsOr": false
+          }
+        }
+      ],
+      "displayRequirements": [],
+      "showInMilestones": true,
+      "availabilityClassification": "definition-without-demo-lock-or-display-condition",
+      "relatedItemFacts": [
+        {
+          "id": "MelvorBase:BirdNest",
+          "name": {
+            "Singular": "Bird Nest",
+            "Plural": "Bird Nests"
+          },
+          "sellsFor": {
+            "Currency": "MelvorBase:GoldPieces",
+            "Quantity": 28
+          },
+          "ignoreCompletion": false
+        },
+        {
+          "id": "MelvorBase:MahoganyTreeSeed",
+          "name": {
+            "Singular": "Mahogany Tree Seed",
+            "Plural": "Mahogany Tree Seeds"
+          },
+          "sellsFor": {
+            "Currency": "MelvorBase:GoldPieces",
+            "Quantity": 2701
+          },
+          "ignoreCompletion": false
+        }
+      ]
+    },
+    {
+      "sourceJsonPointer": "/Objects/WoodcuttingRecipe/9",
+      "id": "MelvorBase:YewTree",
+      "name": "Yew Tree",
+      "category": "MelvorBase:Trees",
+      "rawLevel": 60,
+      "requirementLevels": [],
+      "baseExperience": 1,
+      "baseIntervalMilliseconds": 10000,
+      "baseMaxHealth": 14,
+      "product": {
+        "Item": "MelvorBase:DemoPlaceholderItem",
+        "Quantity": 1
+      },
+      "primaryItem": {
+        "id": "MelvorBase:DemoPlaceholderItem",
+        "name": {
+          "Singular": "DemoPlaceholderItem",
+          "Plural": "DemoPlaceholderItem"
+        },
+        "sellsFor": {
+          "Currency": "MelvorBase:GoldPieces",
+          "Quantity": 0
+        },
+        "ignoreCompletion": true
+      },
+      "randomProductsPerHit": [],
+      "randomProductsPerCut": [],
+      "requirements": [
+        {
+          "Type": "MelvorBase:DemoLocked",
+          "Data": {
+            "Component": {
+              "Entity": "MelvorBase:CompletionLog",
+              "Component": "Completion"
+            },
+            "IsOr": false
+          }
+        }
+      ],
+      "displayRequirements": [],
+      "showInMilestones": false,
+      "availabilityClassification": "demo-locked",
+      "relatedItemFacts": []
+    },
+    {
+      "sourceJsonPointer": "/Objects/WoodcuttingRecipe/10",
+      "id": "MelvorBase:MagicTree",
+      "name": "Magic Tree",
+      "category": "MelvorBase:Trees",
+      "rawLevel": 75,
+      "requirementLevels": [],
+      "baseExperience": 1,
+      "baseIntervalMilliseconds": 10000,
+      "baseMaxHealth": 20,
+      "product": {
+        "Item": "MelvorBase:DemoPlaceholderItem",
+        "Quantity": 1
+      },
+      "primaryItem": {
+        "id": "MelvorBase:DemoPlaceholderItem",
+        "name": {
+          "Singular": "DemoPlaceholderItem",
+          "Plural": "DemoPlaceholderItem"
+        },
+        "sellsFor": {
+          "Currency": "MelvorBase:GoldPieces",
+          "Quantity": 0
+        },
+        "ignoreCompletion": true
+      },
+      "randomProductsPerHit": [],
+      "randomProductsPerCut": [],
+      "requirements": [
+        {
+          "Type": "MelvorBase:DemoLocked",
+          "Data": {
+            "Component": {
+              "Entity": "MelvorBase:CompletionLog",
+              "Component": "Completion"
+            },
+            "IsOr": false
+          }
+        }
+      ],
+      "displayRequirements": [],
+      "showInMilestones": false,
+      "availabilityClassification": "demo-locked",
+      "relatedItemFacts": []
+    },
+    {
+      "sourceJsonPointer": "/Objects/WoodcuttingRecipe/11",
+      "id": "MelvorBase:DuskleafBush",
+      "name": "Duskleaf Bush",
+      "category": "MelvorBase:Bushes",
+      "rawLevel": 80,
+      "requirementLevels": [],
+      "baseExperience": 1,
+      "baseIntervalMilliseconds": 10000,
+      "baseMaxHealth": 2,
+      "product": {
+        "Item": "MelvorBase:DemoPlaceholderItem",
+        "Quantity": 1
+      },
+      "primaryItem": {
+        "id": "MelvorBase:DemoPlaceholderItem",
+        "name": {
+          "Singular": "DemoPlaceholderItem",
+          "Plural": "DemoPlaceholderItem"
+        },
+        "sellsFor": {
+          "Currency": "MelvorBase:GoldPieces",
+          "Quantity": 0
+        },
+        "ignoreCompletion": true
+      },
+      "randomProductsPerHit": [],
+      "randomProductsPerCut": [],
+      "requirements": [
+        {
+          "Type": "MelvorBase:DemoLocked",
+          "Data": {
+            "Component": {
+              "Entity": "MelvorBase:CompletionLog",
+              "Component": "Completion"
+            },
+            "IsOr": false
+          }
+        }
+      ],
+      "displayRequirements": [],
+      "showInMilestones": false,
+      "availabilityClassification": "demo-locked",
+      "relatedItemFacts": []
+    },
+    {
+      "sourceJsonPointer": "/Objects/WoodcuttingRecipe/12",
+      "id": "MelvorBase:HardOakTree",
+      "name": "Hard Oak Tree",
+      "category": "MelvorBase:Trees",
+      "rawLevel": null,
+      "requirementLevels": [],
+      "baseExperience": 1,
+      "baseIntervalMilliseconds": 10000,
+      "baseMaxHealth": 22,
+      "product": {
+        "Item": "MelvorBase:DemoPlaceholderItem",
+        "Quantity": 1
+      },
+      "primaryItem": {
+        "id": "MelvorBase:DemoPlaceholderItem",
+        "name": {
+          "Singular": "DemoPlaceholderItem",
+          "Plural": "DemoPlaceholderItem"
+        },
+        "sellsFor": {
+          "Currency": "MelvorBase:GoldPieces",
+          "Quantity": 0
+        },
+        "ignoreCompletion": true
+      },
+      "randomProductsPerHit": [],
+      "randomProductsPerCut": [],
+      "requirements": [
+        {
+          "Type": "MelvorBase:DemoLocked",
+          "Data": {
+            "Component": {
+              "Entity": "MelvorBase:CompletionLog",
+              "Component": "Completion"
+            },
+            "IsOr": false
+          }
+        }
+      ],
+      "displayRequirements": [],
+      "showInMilestones": false,
+      "availabilityClassification": "demo-locked",
+      "relatedItemFacts": []
+    },
+    {
+      "sourceJsonPointer": "/Objects/WoodcuttingRecipe/13",
+      "id": "MelvorBase:RedwoodTree",
+      "name": "Redwood Tree",
+      "category": "MelvorBase:Trees",
+      "rawLevel": 90,
+      "requirementLevels": [],
+      "baseExperience": 1,
+      "baseIntervalMilliseconds": 10000,
+      "baseMaxHealth": 26,
+      "product": {
+        "Item": "MelvorBase:DemoPlaceholderItem",
+        "Quantity": 1
+      },
+      "primaryItem": {
+        "id": "MelvorBase:DemoPlaceholderItem",
+        "name": {
+          "Singular": "DemoPlaceholderItem",
+          "Plural": "DemoPlaceholderItem"
+        },
+        "sellsFor": {
+          "Currency": "MelvorBase:GoldPieces",
+          "Quantity": 0
+        },
+        "ignoreCompletion": true
+      },
+      "randomProductsPerHit": [],
+      "randomProductsPerCut": [],
+      "requirements": [
+        {
+          "Type": "MelvorBase:DemoLocked",
+          "Data": {
+            "Component": {
+              "Entity": "MelvorBase:CompletionLog",
+              "Component": "Completion"
+            },
+            "IsOr": false
+          }
+        }
+      ],
+      "displayRequirements": [],
+      "showInMilestones": false,
+      "availabilityClassification": "demo-locked",
+      "relatedItemFacts": []
+    },
+    {
+      "sourceJsonPointer": "/Objects/WoodcuttingRecipe/14",
+      "id": "MelvorBase:AshenTree",
+      "name": "Ashen Tree",
+      "category": "MelvorBase:Trees",
+      "rawLevel": null,
+      "requirementLevels": [],
+      "baseExperience": 1,
+      "baseIntervalMilliseconds": 10000,
+      "baseMaxHealth": 14,
+      "product": {
+        "Item": "MelvorBase:DemoPlaceholderItem",
+        "Quantity": 1
+      },
+      "primaryItem": {
+        "id": "MelvorBase:DemoPlaceholderItem",
+        "name": {
+          "Singular": "DemoPlaceholderItem",
+          "Plural": "DemoPlaceholderItem"
+        },
+        "sellsFor": {
+          "Currency": "MelvorBase:GoldPieces",
+          "Quantity": 0
+        },
+        "ignoreCompletion": true
+      },
+      "randomProductsPerHit": [],
+      "randomProductsPerCut": [],
+      "requirements": [
+        {
+          "Type": "MelvorBase:DemoLocked",
+          "Data": {
+            "Component": {
+              "Entity": "MelvorBase:CompletionLog",
+              "Component": "Completion"
+            },
+            "IsOr": false
+          }
+        }
+      ],
+      "displayRequirements": null,
+      "showInMilestones": false,
+      "availabilityClassification": "demo-locked",
+      "relatedItemFacts": []
+    },
+    {
+      "sourceJsonPointer": "/Objects/WoodcuttingRecipe/15",
+      "id": "MelvorBase:WoodDebris",
+      "name": "Wood Debris",
+      "category": "MelvorBase:Quests",
+      "rawLevel": null,
+      "requirementLevels": [
+        10
+      ],
+      "baseExperience": 50,
+      "baseIntervalMilliseconds": 1000,
+      "baseMaxHealth": 30,
+      "product": {
+        "Item": "MelvorBase:OakLog",
+        "Quantity": 10
+      },
+      "primaryItem": {
+        "id": "MelvorBase:OakLog",
+        "name": {
+          "Singular": "Oak Log",
+          "Plural": "Oak Logs"
+        },
+        "sellsFor": {
+          "Currency": "MelvorBase:GoldPieces",
+          "Quantity": 6
+        },
+        "ignoreCompletion": false
+      },
+      "randomProductsPerHit": [],
+      "randomProductsPerCut": [],
+      "requirements": [
+        {
+          "Type": "MelvorBase:Level",
+          "Data": {
+            "Component": {
+              "Entity": "MelvorBase:Woodcutting",
+              "Component": "Experience"
+            },
+            "Level": 10,
+            "IsOr": false
+          }
+        }
+      ],
+      "displayRequirements": [
+        {
+          "Type": "MelvorBase:QuestTaskGoalActive",
+          "Data": {
+            "IsOr": false,
+            "Component": {
+              "Entity": "MelvorBase:Quests",
+              "Component": "Quests"
+            },
+            "Quest": "MelvorBase:MQ3",
+            "Step": 0,
+            "Task": 0,
+            "GoalId": "0"
+          }
+        }
+      ],
+      "showInMilestones": false,
+      "availabilityClassification": "conditional-display-requirements",
+      "relatedItemFacts": []
+    },
+    {
+      "sourceJsonPointer": "/Objects/WoodcuttingRecipe/16",
+      "id": "MelvorBase:FortressWall1",
+      "name": "Fortress Wall",
+      "category": "MelvorBase:Quests",
+      "rawLevel": null,
+      "requirementLevels": [
+        25
+      ],
+      "baseExperience": 42,
+      "baseIntervalMilliseconds": 1000,
+      "baseMaxHealth": 50,
+      "product": {
+        "Item": "MelvorBase:WillowLog",
+        "Quantity": 20
+      },
+      "primaryItem": {
+        "id": "MelvorBase:WillowLog",
+        "name": {
+          "Singular": "Willow Log",
+          "Plural": "Willow Logs"
+        },
+        "sellsFor": {
+          "Currency": "MelvorBase:GoldPieces",
+          "Quantity": 17
+        },
+        "ignoreCompletion": false
+      },
+      "randomProductsPerHit": [],
+      "randomProductsPerCut": [],
+      "requirements": [
+        {
+          "Type": "MelvorBase:Level",
+          "Data": {
+            "Component": {
+              "Entity": "MelvorBase:Woodcutting",
+              "Component": "Experience"
+            },
+            "Level": 25,
+            "IsOr": false
+          }
+        }
+      ],
+      "displayRequirements": [
+        {
+          "Type": "MelvorBase:QuestStepActive",
+          "Data": {
+            "IsOr": false,
+            "Component": {
+              "Entity": "MelvorBase:Quests",
+              "Component": "Quests"
+            },
+            "Quest": "MelvorBase:MQ6",
+            "Step": 1,
+            "Task": 0,
+            "GoalIdIncomplete": null
+          }
+        }
+      ],
+      "showInMilestones": false,
+      "availabilityClassification": "conditional-display-requirements",
+      "relatedItemFacts": []
+    },
+    {
+      "sourceJsonPointer": "/Objects/WoodcuttingRecipe/17",
+      "id": "MelvorBase:FortressWall2",
+      "name": "Damaged Fortress Wall",
+      "category": "MelvorBase:Quests",
+      "rawLevel": null,
+      "requirementLevels": [
+        25
+      ],
+      "baseExperience": 42,
+      "baseIntervalMilliseconds": 1000,
+      "baseMaxHealth": 50,
+      "product": {
+        "Item": "MelvorBase:WillowLog",
+        "Quantity": 20
+      },
+      "primaryItem": {
+        "id": "MelvorBase:WillowLog",
+        "name": {
+          "Singular": "Willow Log",
+          "Plural": "Willow Logs"
+        },
+        "sellsFor": {
+          "Currency": "MelvorBase:GoldPieces",
+          "Quantity": 17
+        },
+        "ignoreCompletion": false
+      },
+      "randomProductsPerHit": [],
+      "randomProductsPerCut": [],
+      "requirements": [
+        {
+          "Type": "MelvorBase:Level",
+          "Data": {
+            "Component": {
+              "Entity": "MelvorBase:Woodcutting",
+              "Component": "Experience"
+            },
+            "Level": 25,
+            "IsOr": false
+          }
+        },
+        {
+          "Type": "MelvorBase:ToolbeltItemEquipped",
+          "Data": {
+            "Component": {
+              "Entity": "MelvorBase:Woodcutting",
+              "Component": "Toolbelt"
+            },
+            "IsOr": false,
+            "Item": "MelvorBase:ReinforcedWoodcuttersAxe",
+            "Quantity": 1
+          }
+        }
+      ],
+      "displayRequirements": [
+        {
+          "Type": "MelvorBase:QuestStepActive",
+          "Data": {
+            "IsOr": false,
+            "Component": {
+              "Entity": "MelvorBase:Quests",
+              "Component": "Quests"
+            },
+            "Quest": "MelvorBase:MQ6",
+            "Step": 1,
+            "Task": 2,
+            "GoalIdIncomplete": null
+          }
+        }
+      ],
+      "showInMilestones": false,
+      "availabilityClassification": "conditional-display-requirements",
+      "relatedItemFacts": []
+    },
+    {
+      "sourceJsonPointer": "/Objects/WoodcuttingRecipe/18",
+      "id": "MelvorBase:TreantRemains",
+      "name": "Treant Remains",
+      "category": "MelvorBase:Quests",
+      "rawLevel": null,
+      "requirementLevels": [
+        30
+      ],
+      "baseExperience": 50,
+      "baseIntervalMilliseconds": 1000,
+      "baseMaxHealth": 12,
+      "product": {
+        "Item": "MelvorBase:TreantRemains",
+        "Quantity": 1
+      },
+      "primaryItem": {
+        "id": "MelvorBase:TreantRemains",
+        "name": {
+          "Singular": "Treant Remains",
+          "Plural": "Treant Remains"
+        },
+        "sellsFor": {
+          "Currency": "MelvorBase:GoldPieces",
+          "Quantity": 1
+        },
+        "ignoreCompletion": false
+      },
+      "randomProductsPerHit": [],
+      "randomProductsPerCut": [],
+      "requirements": [
+        {
+          "Type": "MelvorBase:Level",
+          "Data": {
+            "Component": {
+              "Entity": "MelvorBase:Woodcutting",
+              "Component": "Experience"
+            },
+            "Level": 30,
+            "IsOr": false
+          }
+        }
+      ],
+      "displayRequirements": [
+        {
+          "Type": "MelvorBase:QuestStepActive",
+          "Data": {
+            "IsOr": false,
+            "Component": {
+              "Entity": "MelvorBase:Quests",
+              "Component": "Quests"
+            },
+            "Quest": "MelvorBase:MQ7",
+            "Step": 2,
+            "Task": null,
+            "GoalIdIncomplete": null
+          }
+        }
+      ],
+      "showInMilestones": false,
+      "availabilityClassification": "conditional-display-requirements",
+      "relatedItemFacts": []
+    },
+    {
+      "sourceJsonPointer": "/Objects/WoodcuttingRecipe/19",
+      "id": "MelvorBase:FortGate",
+      "name": "Fort Gate",
+      "category": "MelvorBase:Quests",
+      "rawLevel": null,
+      "requirementLevels": [
+        39
+      ],
+      "baseExperience": 59,
+      "baseIntervalMilliseconds": 1000,
+      "baseMaxHealth": 100,
+      "product": {
+        "Item": "MelvorBase:TeakLog",
+        "Quantity": 30
+      },
+      "primaryItem": {
+        "id": "MelvorBase:TeakLog",
+        "name": {
+          "Singular": "Teak Log",
+          "Plural": "Teak Logs"
+        },
+        "sellsFor": {
+          "Currency": "MelvorBase:GoldPieces",
+          "Quantity": 25
+        },
+        "ignoreCompletion": false
+      },
+      "randomProductsPerHit": [],
+      "randomProductsPerCut": [],
+      "requirements": [
+        {
+          "Type": "MelvorBase:Level",
+          "Data": {
+            "Component": {
+              "Entity": "MelvorBase:Woodcutting",
+              "Component": "Experience"
+            },
+            "Level": 39,
+            "IsOr": false
+          }
+        }
+      ],
+      "displayRequirements": [
+        {
+          "Type": "MelvorBase:QuestStepActive",
+          "Data": {
+            "IsOr": false,
+            "Component": {
+              "Entity": "MelvorBase:Quests",
+              "Component": "Quests"
+            },
+            "Quest": "MelvorBase:MQ8",
+            "Step": 1,
+            "Task": null,
+            "GoalIdIncomplete": null
+          }
+        }
+      ],
+      "showInMilestones": false,
+      "availabilityClassification": "conditional-display-requirements",
+      "relatedItemFacts": []
+    }
+  ]
+}

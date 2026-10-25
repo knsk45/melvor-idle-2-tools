@@ -1,5 +1,5 @@
 export interface Settings {schemaVersion:1;lang:'ru'|'en';mode:'base'|'manual';level:string;target:string;interval:string;xp:string;items:string;price:string;channel:string;version:string}
-export const defaults:Settings={schemaVersion:1,lang:'ru',mode:'base',level:'1',target:'100',interval:'',xp:'',items:'',price:'',channel:'demo',version:''};
+export const defaults:Settings={schemaVersion:1,lang:'en',mode:'base',level:'1',target:'100',interval:'',xp:'',items:'',price:'',channel:'demo',version:'0.11.2-alpha.4'};
 export const storageKey='melvor2.settings.v1';
 export function restore(raw:string|null):Settings {
  try {const v=JSON.parse(raw??'null');if(!v||v.schemaVersion!==1)return {...defaults};

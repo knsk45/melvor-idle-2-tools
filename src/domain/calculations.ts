@@ -1,5 +1,6 @@
 export interface Values { intervalSeconds:number|null; xpPerAction:number|null; expectedQuantityPerAction:number|null; sellPriceGp:number|null }
-export interface Tree extends Values { id:string; name:{en:string;ru:string|null}; requiredLevel:number; channel:string; gameVersion:string; verificationStatus:'verified'|'provisional'|'unknown'; checkedAt:string|null; sourceRefs:string[] }
+export interface SideDrop {itemId:string;name:string;basis:'hit'|'cut';probability:number;quantity:number;sellPriceGp:number|null}
+export interface Tree extends Values { id:string; name:{en:string;ru:string|null}; requiredLevel:number; channel:string; gameVersion:string; verificationStatus:'verified'|'provisional'|'unknown'; checkedAt:string|null; sourceRefs:string[]; health?:number; hitIntervalSeconds?:number; baseDamagePerHit?:number; primaryItem?:string; kind?:'tree'|'bush'; rewardBasis?:string;sideDrops?:SideDrop[] }
 export const finite = (x:unknown): x is number => typeof x==='number' && Number.isFinite(x);
 export function rates(v:Values) {
  if(!finite(v.intervalSeconds)||v.intervalSeconds<=0) return null;
@@ -24,8 +25,10 @@ export function validateData(trees:Tree[],sources:{id:string;url:string}[]) {
   if(!t.id||ids.has(t.id))errors.push('Duplicate or empty ID: '+t.id); ids.add(t.id);
   if(!t.name.en||!Number.isInteger(t.requiredLevel)||t.requiredLevel<1||!t.channel.trim()||!t.gameVersion.trim())errors.push('Invalid metadata: '+t.id);
   if(!['verified','provisional','unknown'].includes(t.verificationStatus))errors.push('Invalid status: '+t.id);
+  if(t.health!==undefined&&(!Number.isInteger(t.health)||t.health<=0||!finite(t.hitIntervalSeconds)||t.hitIntervalSeconds<=0||t.baseDamagePerHit!==1||t.intervalSeconds!==t.health*t.hitIntervalSeconds))errors.push('Invalid full-cut timing: '+t.id);
   if(t.intervalSeconds!==null&&(!finite(t.intervalSeconds)||t.intervalSeconds<=0))errors.push('Invalid interval: '+t.id);
   for(const n of [t.xpPerAction,t.expectedQuantityPerAction,t.sellPriceGp])if(n!==null&&(!finite(n)||n<0))errors.push('Invalid value: '+t.id);
+  for(const d of t.sideDrops??[])if(!['hit','cut'].includes(d.basis)||!finite(d.probability)||d.probability<0||d.probability>1||!finite(d.quantity)||d.quantity<0||d.sellPriceGp!==null&&(!finite(d.sellPriceGp)||d.sellPriceGp<0))errors.push('Invalid side drop: '+t.id);
   if(t.sourceRefs.some(r=>!refs.has(r)))errors.push('Missing source: '+t.id);
   if(t.verificationStatus==='verified'&&(!t.sourceRefs.length||!t.checkedAt||!/^\d{4}-\d{2}-\d{2}$/.test(t.checkedAt)||!Number.isFinite(Date.parse(t.checkedAt))))errors.push('Unproven verification: '+t.id);
  }

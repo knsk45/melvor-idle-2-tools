@@ -1,0 +1,6656 @@
+{
+  "source": {
+    "gameVersion": "0.11.2-alpha.4",
+    "steamBuildId": "26074343",
+    "channel": "demo",
+    "checkedAt": "2026-10-25",
+    "exeSha256": "c7249cff551d5420b7b1dd31f138cb55517e71105dc0c53e5952352c8e9bb3e4",
+    "packageSha256": "2b43f26ce76d86178f56a72c8dced08a0ae545779786cccdcac868bdc3478474",
+    "resource": "res://Data/Packages/MelvorDemo.json",
+    "absoluteFileOffset": 587290512,
+    "resourceBytes": 7411090,
+    "availabilityNote": "Shipped definitions only; presence does not establish playability. DemoLocked and display conditions must be enforced."
+  },
+  "records": [
+    {
+      "id": "MelvorBase:DefaultWeapon",
+      "name": "Fists",
+      "plural": "Fists",
+      "sellsFor": {
+        "Currency": "MelvorBase:GoldPieces",
+        "Quantity": 0
+      },
+      "ignoreCompletion": true
+    },
+    {
+      "id": "MelvorBase:NormalLog",
+      "name": "Normal Log",
+      "plural": "Normal Logs",
+      "sellsFor": {
+        "Currency": "MelvorBase:GoldPieces",
+        "Quantity": 3
+      },
+      "ignoreCompletion": false
+    },
+    {
+      "id": "MelvorBase:OakLog",
+      "name": "Oak Log",
+      "plural": "Oak Logs",
+      "sellsFor": {
+        "Currency": "MelvorBase:GoldPieces",
+        "Quantity": 6
+      },
+      "ignoreCompletion": false
+    },
+    {
+      "id": "MelvorBase:WillowLog",
+      "name": "Willow Log",
+      "plural": "Willow Logs",
+      "sellsFor": {
+        "Currency": "MelvorBase:GoldPieces",
+        "Quantity": 17
+      },
+      "ignoreCompletion": false
+    },
+    {
+      "id": "MelvorBase:TeakLog",
+      "name": "Teak Log",
+      "plural": "Teak Logs",
+      "sellsFor": {
+        "Currency": "MelvorBase:GoldPieces",
+        "Quantity": 25
+      },
+      "ignoreCompletion": false
+    },
+    {
+      "id": "MelvorBase:MapleLog",
+      "name": "Maple Log",
+      "plural": "Maple Logs",
+      "sellsFor": {
+        "Currency": "MelvorBase:GoldPieces",
+        "Quantity": 33
+      },
+      "ignoreCompletion": false
+    },
+    {
+      "id": "MelvorBase:MahoganyLog",
+      "name": "Mahogany Log",
+      "plural": "Mahogany Logs",
+      "sellsFor": {
+        "Currency": "MelvorBase:GoldPieces",
+        "Quantity": 46
+      },
+      "ignoreCompletion": false
+    },
+    {
+      "id": "MelvorBase:YewLog",
+      "name": "Yew Log",
+      "plural": "Yew Logs",
+      "sellsFor": {
+        "Currency": "MelvorBase:GoldPieces",
+        "Quantity": 73
+      },
+      "ignoreCompletion": false
+    },
+    {
+      "id": "MelvorBase:Flax",
+      "name": "Flax",
+      "plural": "Flax",
+      "sellsFor": {
+        "Currency": "MelvorBase:GoldPieces",
+        "Quantity": 1
+      },
+      "ignoreCompletion": false
+    },
+    {
+      "id": "MelvorBase:Stick",
+      "name": "Stick",
+      "plural": "Sticks",
+      "sellsFor": {
+        "Currency": "MelvorBase:GoldPieces",
+        "Quantity": 1
+      },
+      "ignoreCompletion": false
+    },
+    {
+      "id": "MelvorBase:AmbervineLeaf",
+      "name": "Ambervine Leaf",
+      "plural": "Ambervine Leaves",
+      "sellsFor": {
+        "Currency": "MelvorBase:GoldPieces",
+        "Quantity": 3
+      },
+      "ignoreCompletion": false
+    },
+    {
+      "id": "MelvorBase:SpikemossLeaf",
+      "name": "Spikemoss Leaf",
+      "plural": "Spikemoss Leaves",
+      "sellsFor": {
+        "Currency": "MelvorBase:GoldPieces",
+        "Quantity": 5
+      },
+      "ignoreCompletion": false
+    },
+    {
+      "id": "MelvorBase:RawShrimp",
+      "name": "Raw Shrimp",
+      "plural": "Raw Shrimp",
+      "sellsFor": {
+        "Currency": "MelvorBase:GoldPieces",
+        "Quantity": 5
+      },
+      "ignoreCompletion": false
+    },
+    {
+      "id": "MelvorBase:RawSardine",
+      "name": "Raw Sardine",
+      "plural": "Raw Sardines",
+      "sellsFor": {
+        "Currency": "MelvorBase:GoldPieces",
+        "Quantity": 13
+      },
+      "ignoreCompletion": false
+    },
+    {
+      "id": "MelvorBase:RawHerring",
+      "name": "Raw Herring",
+      "plural": "Raw Herring",
+      "sellsFor": {
+        "Currency": "MelvorBase:GoldPieces",
+        "Quantity": 15
+      },
+      "ignoreCompletion": false
+    },
+    {
+      "id": "MelvorBase:RawTrout",
+      "name": "Raw Trout",
+      "plural": "Raw Trout",
+      "sellsFor": {
+        "Currency": "MelvorBase:GoldPieces",
+        "Quantity": 42
+      },
+      "ignoreCompletion": false
+    },
+    {
+      "id": "MelvorBase:RawSalmon",
+      "name": "Raw Salmon",
+      "plural": "Raw Salmon",
+      "sellsFor": {
+        "Currency": "MelvorBase:GoldPieces",
+        "Quantity": 65
+      },
+      "ignoreCompletion": false
+    },
+    {
+      "id": "MelvorBase:RawLobster",
+      "name": "Raw Lobster",
+      "plural": "Raw Lobsters",
+      "sellsFor": {
+        "Currency": "MelvorBase:GoldPieces",
+        "Quantity": 80
+      },
+      "ignoreCompletion": false
+    },
+    {
+      "id": "MelvorBase:Stone",
+      "name": "Stone",
+      "plural": "Stone",
+      "sellsFor": {
+        "Currency": "MelvorBase:GoldPieces",
+        "Quantity": 2
+      },
+      "ignoreCompletion": false
+    },
+    {
+      "id": "MelvorBase:CopperOre",
+      "name": "Copper Ore",
+      "plural": "Copper Ore",
+      "sellsFor": {
+        "Currency": "MelvorBase:GoldPieces",
+        "Quantity": 3
+      },
+      "ignoreCompletion": false
+    },
+    {
+      "id": "MelvorBase:IronOre",
+      "name": "Iron Ore",
+      "plural": "Iron Ore",
+      "sellsFor": {
+        "Currency": "MelvorBase:GoldPieces",
+        "Quantity": 6
+      },
+      "ignoreCompletion": false
+    },
+    {
+      "id": "MelvorBase:SilverOre",
+      "name": "Silver Ore",
+      "plural": "Silver Ore",
+      "sellsFor": {
+        "Currency": "MelvorBase:GoldPieces",
+        "Quantity": 10
+      },
+      "ignoreCompletion": false
+    },
+    {
+      "id": "MelvorBase:GoldOre",
+      "name": "Gold Ore",
+      "plural": "Gold Ore",
+      "sellsFor": {
+        "Currency": "MelvorBase:GoldPieces",
+        "Quantity": 16
+      },
+      "ignoreCompletion": false
+    },
+    {
+      "id": "MelvorBase:MithrilOre",
+      "name": "Mithril Ore",
+      "plural": "Mithril Ore",
+      "sellsFor": {
+        "Currency": "MelvorBase:GoldPieces",
+        "Quantity": 18
+      },
+      "ignoreCompletion": false
+    },
+    {
+      "id": "MelvorBase:AdamantiteOre",
+      "name": "Adamantite Ore",
+      "plural": "Adamantite Ore",
+      "sellsFor": {
+        "Currency": "MelvorBase:GoldPieces",
+        "Quantity": 22
+      },
+      "ignoreCompletion": false
+    },
+    {
+      "id": "MelvorBase:RuniteOre",
+      "name": "Runite Ore",
+      "plural": "Runite Ore",
+      "sellsFor": {
+        "Currency": "MelvorBase:GoldPieces",
+        "Quantity": 30
+      },
+      "ignoreCompletion": false
+    },
+    {
+      "id": "MelvorBase:DawnsteelOre",
+      "name": "Dawnsteel Ore",
+      "plural": "Dawnsteel Ore",
+      "sellsFor": {
+        "Currency": "MelvorBase:GoldPieces",
+        "Quantity": 37
+      },
+      "ignoreCompletion": false
+    },
+    {
+      "id": "MelvorBase:DragoniteOre",
+      "name": "Dragonite Ore",
+      "plural": "Dragonite Ore",
+      "sellsFor": {
+        "Currency": "MelvorBase:GoldPieces",
+        "Quantity": 97
+      },
+      "ignoreCompletion": false
+    },
+    {
+      "id": "MelvorBase:Geode",
+      "name": "Geode",
+      "plural": "Geodes",
+      "sellsFor": {
+        "Currency": "MelvorBase:GoldPieces",
+        "Quantity": 28
+      },
+      "ignoreCompletion": false
+    },
+    {
+      "id": "MelvorBase:GeodeDust",
+      "name": "Geode Dust",
+      "plural": "Geode Dust",
+      "sellsFor": {
+        "Currency": "MelvorBase:GoldPieces",
+        "Quantity": 1
+      },
+      "ignoreCompletion": false
+    },
+    {
+      "id": "MelvorBase:CopperBar",
+      "name": "Copper Bar",
+      "plural": "Copper Bars",
+      "sellsFor": {
+        "Currency": "MelvorBase:GoldPieces",
+        "Quantity": 7
+      },
+      "ignoreCompletion": false
+    },
+    {
+      "id": "MelvorBase:IronBar",
+      "name": "Iron Bar",
+      "plural": "Iron Bars",
+      "sellsFor": {
+        "Currency": "MelvorBase:GoldPieces",
+        "Quantity": 12
+      },
+      "ignoreCompletion": false
+    },
+    {
+      "id": "MelvorBase:SteelBar",
+      "name": "Steel Bar",
+      "plural": "Steel Bars",
+      "sellsFor": {
+        "Currency": "MelvorBase:GoldPieces",
+        "Quantity": 29
+      },
+      "ignoreCompletion": false
+    },
+    {
+      "id": "MelvorBase:GoldBar",
+      "name": "Gold Bar",
+      "plural": "Gold Bars",
+      "sellsFor": {
+        "Currency": "MelvorBase:GoldPieces",
+        "Quantity": 42
+      },
+      "ignoreCompletion": false
+    },
+    {
+      "id": "MelvorBase:MithrilBar",
+      "name": "Mithril Bar",
+      "plural": "Mithril Bars",
+      "sellsFor": {
+        "Currency": "MelvorBase:GoldPieces",
+        "Quantity": 56
+      },
+      "ignoreCompletion": false
+    },
+    {
+      "id": "MelvorBase:AdamantiteBar",
+      "name": "Adamantite Bar",
+      "plural": "Adamantite Bars",
+      "sellsFor": {
+        "Currency": "MelvorBase:GoldPieces",
+        "Quantity": 76
+      },
+      "ignoreCompletion": false
+    },
+    {
+      "id": "MelvorBase:StoneArrowtips",
+      "name": "Stone Arrowtips",
+      "plural": "Stone Arrowtips",
+      "sellsFor": {
+        "Currency": "MelvorBase:GoldPieces",
+        "Quantity": 1
+      },
+      "ignoreCompletion": false
+    },
+    {
+      "id": "MelvorBase:StoneGloves",
+      "name": "Stone Gloves",
+      "plural": "Stone Gloves",
+      "sellsFor": {
+        "Currency": "MelvorBase:GoldPieces",
+        "Quantity": 19
+      },
+      "ignoreCompletion": false
+    },
+    {
+      "id": "MelvorBase:StoneHelmet",
+      "name": "Stone Helmet",
+      "plural": "Stone Helmets",
+      "sellsFor": {
+        "Currency": "MelvorBase:GoldPieces",
+        "Quantity": 19
+      },
+      "ignoreCompletion": false
+    },
+    {
+      "id": "MelvorBase:StoneBoots",
+      "name": "Stone Boots",
+      "plural": "Stone Boots",
+      "sellsFor": {
+        "Currency": "MelvorBase:GoldPieces",
+        "Quantity": 19
+      },
+      "ignoreCompletion": false
+    },
+    {
+      "id": "MelvorBase:StoneMallet",
+      "name": "Stone Mallet",
+      "plural": "Stone Mallets",
+      "sellsFor": {
+        "Currency": "MelvorBase:GoldPieces",
+        "Quantity": 27
+      },
+      "ignoreCompletion": false
+    },
+    {
+      "id": "MelvorBase:StonePlatelegs",
+      "name": "Stone Platelegs",
+      "plural": "Stone Platelegs",
+      "sellsFor": {
+        "Currency": "MelvorBase:GoldPieces",
+        "Quantity": 29
+      },
+      "ignoreCompletion": false
+    },
+    {
+      "id": "MelvorBase:StonePlatebody",
+      "name": "Stone Platebody",
+      "plural": "Stone Platebodies",
+      "sellsFor": {
+        "Currency": "MelvorBase:GoldPieces",
+        "Quantity": 41
+      },
+      "ignoreCompletion": false
+    },
+    {
+      "id": "MelvorBase:CopperDagger",
+      "name": "Copper Dagger",
+      "plural": "Copper Daggers",
+      "sellsFor": {
+        "Currency": "MelvorBase:GoldPieces",
+        "Quantity": 15
+      },
+      "ignoreCompletion": false
+    },
+    {
+      "id": "MelvorBase:CopperDefender",
+      "name": "Copper Defender",
+      "plural": "Copper Defenders",
+      "sellsFor": {
+        "Currency": "MelvorBase:GoldPieces",
+        "Quantity": 15
+      },
+      "ignoreCompletion": false
+    },
+    {
+      "id": "MelvorBase:CopperArrowtips",
+      "name": "Copper Arrowtips",
+      "plural": "Copper Arrowtips",
+      "sellsFor": {
+        "Currency": "MelvorBase:GoldPieces",
+        "Quantity": 1
+      },
+      "ignoreCompletion": false
+    },
+    {
+      "id": "MelvorBase:CopperJavelinHeads",
+      "name": "Copper Javelin Heads",
+      "plural": "Copper Javelin Heads",
+      "sellsFor": {
+        "Currency": "MelvorBase:GoldPieces",
+        "Quantity": 2
+      },
+      "ignoreCompletion": false
+    },
+    {
+      "id": "MelvorBase:CopperSword",
+      "name": "Copper Sword",
+      "plural": "Copper Swords",
+      "sellsFor": {
+        "Currency": "MelvorBase:GoldPieces",
+        "Quantity": 29
+      },
+      "ignoreCompletion": false
+    },
+    {
+      "id": "MelvorBase:CopperGloves",
+      "name": "Copper Gloves",
+      "plural": "Copper Gloves",
+      "sellsFor": {
+        "Currency": "MelvorBase:GoldPieces",
+        "Quantity": 29
+      },
+      "ignoreCompletion": false
+    },
+    {
+      "id": "MelvorBase:CopperScimitar",
+      "name": "Copper Scimitar",
+      "plural": "Copper Scimitars",
+      "sellsFor": {
+        "Currency": "MelvorBase:GoldPieces",
+        "Quantity": 29
+      },
+      "ignoreCompletion": false
+    },
+    {
+      "id": "MelvorBase:CopperHelmet",
+      "name": "Copper Helmet",
+      "plural": "Copper Helmets",
+      "sellsFor": {
+        "Currency": "MelvorBase:GoldPieces",
+        "Quantity": 31
+      },
+      "ignoreCompletion": false
+    },
+    {
+      "id": "MelvorBase:CopperBoots",
+      "name": "Copper Boots",
+      "plural": "Copper Boots",
+      "sellsFor": {
+        "Currency": "MelvorBase:GoldPieces",
+        "Quantity": 31
+      },
+      "ignoreCompletion": false
+    },
+    {
+      "id": "MelvorBase:CopperShield",
+      "name": "Copper Shield",
+      "plural": "Copper Shields",
+      "sellsFor": {
+        "Currency": "MelvorBase:GoldPieces",
+        "Quantity": 53
+      },
+      "ignoreCompletion": false
+    },
+    {
+      "id": "MelvorBase:Copper2HSword",
+      "name": "Copper 2H Sword",
+      "plural": "Copper 2H Swords",
+      "sellsFor": {
+        "Currency": "MelvorBase:GoldPieces",
+        "Quantity": 81
+      },
+      "ignoreCompletion": false
+    },
+    {
+      "id": "MelvorBase:CopperMallet",
+      "name": "Copper Mallet",
+      "plural": "Copper Mallets",
+      "sellsFor": {
+        "Currency": "MelvorBase:GoldPieces",
+        "Quantity": 81
+      },
+      "ignoreCompletion": false
+    },
+    {
+      "id": "MelvorBase:CopperPlatelegs",
+      "name": "Copper Platelegs",
+      "plural": "Copper Platelegs",
+      "sellsFor": {
+        "Currency": "MelvorBase:GoldPieces",
+        "Quantity": 83
+      },
+      "ignoreCompletion": false
+    },
+    {
+      "id": "MelvorBase:CopperPlatebody",
+      "name": "Copper Platebody",
+      "plural": "Copper Platebodies",
+      "sellsFor": {
+        "Currency": "MelvorBase:GoldPieces",
+        "Quantity": 127
+      },
+      "ignoreCompletion": false
+    },
+    {
+      "id": "MelvorBase:IronDagger",
+      "name": "Iron Dagger",
+      "plural": "Iron Daggers",
+      "sellsFor": {
+        "Currency": "MelvorBase:GoldPieces",
+        "Quantity": 23
+      },
+      "ignoreCompletion": false
+    },
+    {
+      "id": "MelvorBase:IronDefender",
+      "name": "Iron Defender",
+      "plural": "Iron Defenders",
+      "sellsFor": {
+        "Currency": "MelvorBase:GoldPieces",
+        "Quantity": 23
+      },
+      "ignoreCompletion": false
+    },
+    {
+      "id": "MelvorBase:IronArrowtips",
+      "name": "Iron Arrowtips",
+      "plural": "Iron Arrowtips",
+      "sellsFor": {
+        "Currency": "MelvorBase:GoldPieces",
+        "Quantity": 2
+      },
+      "ignoreCompletion": false
+    },
+    {
+      "id": "MelvorBase:IronJavelinHeads",
+      "name": "Iron Javelin Heads",
+      "plural": "Iron Javelin Heads",
+      "sellsFor": {
+        "Currency": "MelvorBase:GoldPieces",
+        "Quantity": 2
+      },
+      "ignoreCompletion": false
+    },
+    {
+      "id": "MelvorBase:IronSword",
+      "name": "Iron Sword",
+      "plural": "Iron Swords",
+      "sellsFor": {
+        "Currency": "MelvorBase:GoldPieces",
+        "Quantity": 48
+      },
+      "ignoreCompletion": false
+    },
+    {
+      "id": "MelvorBase:IronGloves",
+      "name": "Iron Gloves",
+      "plural": "Iron Gloves",
+      "sellsFor": {
+        "Currency": "MelvorBase:GoldPieces",
+        "Quantity": 48
+      },
+      "ignoreCompletion": false
+    },
+    {
+      "id": "MelvorBase:IronScimitar",
+      "name": "Iron Scimitar",
+      "plural": "Iron Scimitars",
+      "sellsFor": {
+        "Currency": "MelvorBase:GoldPieces",
+        "Quantity": 48
+      },
+      "ignoreCompletion": false
+    },
+    {
+      "id": "MelvorBase:IronHelmet",
+      "name": "Iron Helmet",
+      "plural": "Iron Helmets",
+      "sellsFor": {
+        "Currency": "MelvorBase:GoldPieces",
+        "Quantity": 52
+      },
+      "ignoreCompletion": false
+    },
+    {
+      "id": "MelvorBase:IronBoots",
+      "name": "Iron Boots",
+      "plural": "Iron Boots",
+      "sellsFor": {
+        "Currency": "MelvorBase:GoldPieces",
+        "Quantity": 52
+      },
+      "ignoreCompletion": false
+    },
+    {
+      "id": "MelvorBase:IronShield",
+      "name": "Iron Shield",
+      "plural": "Iron Shields",
+      "sellsFor": {
+        "Currency": "MelvorBase:GoldPieces",
+        "Quantity": 84
+      },
+      "ignoreCompletion": false
+    },
+    {
+      "id": "MelvorBase:Iron2HSword",
+      "name": "Iron 2H Sword",
+      "plural": "Iron 2H Swords",
+      "sellsFor": {
+        "Currency": "MelvorBase:GoldPieces",
+        "Quantity": 132
+      },
+      "ignoreCompletion": false
+    },
+    {
+      "id": "MelvorBase:IronMallet",
+      "name": "Iron Mallet",
+      "plural": "Iron Mallets",
+      "sellsFor": {
+        "Currency": "MelvorBase:GoldPieces",
+        "Quantity": 132
+      },
+      "ignoreCompletion": false
+    },
+    {
+      "id": "MelvorBase:IronCrossbowHead",
+      "name": "Iron Crossbow Head",
+      "plural": "Iron Crossbow Heads",
+      "sellsFor": {
+        "Currency": "MelvorBase:GoldPieces",
+        "Quantity": 58
+      },
+      "ignoreCompletion": false
+    },
+    {
+      "id": "MelvorBase:IronPlatelegs",
+      "name": "Iron Platelegs",
+      "plural": "Iron Platelegs",
+      "sellsFor": {
+        "Currency": "MelvorBase:GoldPieces",
+        "Quantity": 157
+      },
+      "ignoreCompletion": false
+    },
+    {
+      "id": "MelvorBase:IronPlatebody",
+      "name": "Iron Platebody",
+      "plural": "Iron Platebodies",
+      "sellsFor": {
+        "Currency": "MelvorBase:GoldPieces",
+        "Quantity": 177
+      },
+      "ignoreCompletion": false
+    },
+    {
+      "id": "MelvorBase:SteelDagger",
+      "name": "Steel Dagger",
+      "plural": "Steel Daggers",
+      "sellsFor": {
+        "Currency": "MelvorBase:GoldPieces",
+        "Quantity": 73
+      },
+      "ignoreCompletion": false
+    },
+    {
+      "id": "MelvorBase:SteelDefender",
+      "name": "Steel Defender",
+      "plural": "Steel Defenders",
+      "sellsFor": {
+        "Currency": "MelvorBase:GoldPieces",
+        "Quantity": 73
+      },
+      "ignoreCompletion": false
+    },
+    {
+      "id": "MelvorBase:SteelArrowtips",
+      "name": "Steel Arrowtips",
+      "plural": "Steel Arrowtips",
+      "sellsFor": {
+        "Currency": "MelvorBase:GoldPieces",
+        "Quantity": 3
+      },
+      "ignoreCompletion": false
+    },
+    {
+      "id": "MelvorBase:SteelJavelinHeads",
+      "name": "Steel Javelin Heads",
+      "plural": "Steel Javelin Heads",
+      "sellsFor": {
+        "Currency": "MelvorBase:GoldPieces",
+        "Quantity": 4
+      },
+      "ignoreCompletion": false
+    },
+    {
+      "id": "MelvorBase:SteelSword",
+      "name": "Steel Sword",
+      "plural": "Steel Swords",
+      "sellsFor": {
+        "Currency": "MelvorBase:GoldPieces",
+        "Quantity": 131
+      },
+      "ignoreCompletion": false
+    },
+    {
+      "id": "MelvorBase:SteelGloves",
+      "name": "Steel Gloves",
+      "plural": "Steel Gloves",
+      "sellsFor": {
+        "Currency": "MelvorBase:GoldPieces",
+        "Quantity": 131
+      },
+      "ignoreCompletion": false
+    },
+    {
+      "id": "MelvorBase:SteelScimitar",
+      "name": "Steel Scimitar",
+      "plural": "Steel Scimitars",
+      "sellsFor": {
+        "Currency": "MelvorBase:GoldPieces",
+        "Quantity": 131
+      },
+      "ignoreCompletion": false
+    },
+    {
+      "id": "MelvorBase:SteelHelmet",
+      "name": "Steel Helmet",
+      "plural": "Steel Helmets",
+      "sellsFor": {
+        "Currency": "MelvorBase:GoldPieces",
+        "Quantity": 131
+      },
+      "ignoreCompletion": false
+    },
+    {
+      "id": "MelvorBase:SteelBoots",
+      "name": "Steel Boots",
+      "plural": "Steel Boots",
+      "sellsFor": {
+        "Currency": "MelvorBase:GoldPieces",
+        "Quantity": 131
+      },
+      "ignoreCompletion": false
+    },
+    {
+      "id": "MelvorBase:SteelShield",
+      "name": "Steel Shield",
+      "plural": "Steel Shields",
+      "sellsFor": {
+        "Currency": "MelvorBase:GoldPieces",
+        "Quantity": 195
+      },
+      "ignoreCompletion": false
+    },
+    {
+      "id": "MelvorBase:Steel2HSword",
+      "name": "Steel 2H Sword",
+      "plural": "Steel 2H Swords",
+      "sellsFor": {
+        "Currency": "MelvorBase:GoldPieces",
+        "Quantity": 265
+      },
+      "ignoreCompletion": false
+    },
+    {
+      "id": "MelvorBase:SteelMallet",
+      "name": "Steel Mallet",
+      "plural": "Steel Mallets",
+      "sellsFor": {
+        "Currency": "MelvorBase:GoldPieces",
+        "Quantity": 265
+      },
+      "ignoreCompletion": false
+    },
+    {
+      "id": "MelvorBase:SteelCrossbowHead",
+      "name": "Steel Crossbow Head",
+      "plural": "Steel Crossbow Heads",
+      "sellsFor": {
+        "Currency": "MelvorBase:GoldPieces",
+        "Quantity": 104
+      },
+      "ignoreCompletion": false
+    },
+    {
+      "id": "MelvorBase:SteelPlatelegs",
+      "name": "Steel Platelegs",
+      "plural": "Steel Platelegs",
+      "sellsFor": {
+        "Currency": "MelvorBase:GoldPieces",
+        "Quantity": 265
+      },
+      "ignoreCompletion": false
+    },
+    {
+      "id": "MelvorBase:SteelPlatebody",
+      "name": "Steel Platebody",
+      "plural": "Steel Platebodies",
+      "sellsFor": {
+        "Currency": "MelvorBase:GoldPieces",
+        "Quantity": 325
+      },
+      "ignoreCompletion": false
+    },
+    {
+      "id": "MelvorBase:MithrilDagger",
+      "name": "Mithril Dagger",
+      "plural": "Mithril Daggers",
+      "sellsFor": {
+        "Currency": "MelvorBase:GoldPieces",
+        "Quantity": 94
+      },
+      "ignoreCompletion": false
+    },
+    {
+      "id": "MelvorBase:MithrilDefender",
+      "name": "Mithril Defender",
+      "plural": "Mithril Defenders",
+      "sellsFor": {
+        "Currency": "MelvorBase:GoldPieces",
+        "Quantity": 94
+      },
+      "ignoreCompletion": false
+    },
+    {
+      "id": "MelvorBase:MithrilArrowtips",
+      "name": "Mithril Arrowtips",
+      "plural": "Mithril Arrowtips",
+      "sellsFor": {
+        "Currency": "MelvorBase:GoldPieces",
+        "Quantity": 5
+      },
+      "ignoreCompletion": false
+    },
+    {
+      "id": "MelvorBase:MithrilJavelinHeads",
+      "name": "Mithril Javelin Heads",
+      "plural": "Mithril Javelin Heads",
+      "sellsFor": {
+        "Currency": "MelvorBase:GoldPieces",
+        "Quantity": 7
+      },
+      "ignoreCompletion": false
+    },
+    {
+      "id": "MelvorBase:MithrilSword",
+      "name": "Mithril Sword",
+      "plural": "Mithril Swords",
+      "sellsFor": {
+        "Currency": "MelvorBase:GoldPieces",
+        "Quantity": 161
+      },
+      "ignoreCompletion": false
+    },
+    {
+      "id": "MelvorBase:MithrilGloves",
+      "name": "Mithril Gloves",
+      "plural": "Mithril Gloves",
+      "sellsFor": {
+        "Currency": "MelvorBase:GoldPieces",
+        "Quantity": 161
+      },
+      "ignoreCompletion": false
+    },
+    {
+      "id": "MelvorBase:MithrilScimitar",
+      "name": "Mithril Scimitar",
+      "plural": "Mithril Scimitars",
+      "sellsFor": {
+        "Currency": "MelvorBase:GoldPieces",
+        "Quantity": 161
+      },
+      "ignoreCompletion": false
+    },
+    {
+      "id": "MelvorBase:MithrilHelmet",
+      "name": "Mithril Helmet",
+      "plural": "Mithril Helmets",
+      "sellsFor": {
+        "Currency": "MelvorBase:GoldPieces",
+        "Quantity": 161
+      },
+      "ignoreCompletion": false
+    },
+    {
+      "id": "MelvorBase:MithrilBoots",
+      "name": "Mithril Boots",
+      "plural": "Mithril Boots",
+      "sellsFor": {
+        "Currency": "MelvorBase:GoldPieces",
+        "Quantity": 161
+      },
+      "ignoreCompletion": false
+    },
+    {
+      "id": "MelvorBase:MithrilShield",
+      "name": "Mithril Shield",
+      "plural": "Mithril Shields",
+      "sellsFor": {
+        "Currency": "MelvorBase:GoldPieces",
+        "Quantity": 236
+      },
+      "ignoreCompletion": false
+    },
+    {
+      "id": "MelvorBase:Mithril2HSword",
+      "name": "Mithril 2H Sword",
+      "plural": "Mithril 2H Swords",
+      "sellsFor": {
+        "Currency": "MelvorBase:GoldPieces",
+        "Quantity": 318
+      },
+      "ignoreCompletion": false
+    },
+    {
+      "id": "MelvorBase:MithrilMallet",
+      "name": "Mithril Mallet",
+      "plural": "Mithril Mallets",
+      "sellsFor": {
+        "Currency": "MelvorBase:GoldPieces",
+        "Quantity": 318
+      },
+      "ignoreCompletion": false
+    },
+    {
+      "id": "MelvorBase:MithrilCrossbowHead",
+      "name": "Mithril Crossbow Head",
+      "plural": "Mithril Crossbow Heads",
+      "sellsFor": {
+        "Currency": "MelvorBase:GoldPieces",
+        "Quantity": 194
+      },
+      "ignoreCompletion": false
+    },
+    {
+      "id": "MelvorBase:MithrilPlatelegs",
+      "name": "Mithril Platelegs",
+      "plural": "Mithril Platelegs",
+      "sellsFor": {
+        "Currency": "MelvorBase:GoldPieces",
+        "Quantity": 318
+      },
+      "ignoreCompletion": false
+    },
+    {
+      "id": "MelvorBase:MithrilPlatebody",
+      "name": "Mithril Platebody",
+      "plural": "Mithril Platebodies",
+      "sellsFor": {
+        "Currency": "MelvorBase:GoldPieces",
+        "Quantity": 407
+      },
+      "ignoreCompletion": false
+    },
+    {
+      "id": "MelvorBase:AdamantDagger",
+      "name": "Adamant Dagger",
+      "plural": "Adamant Daggers",
+      "sellsFor": {
+        "Currency": "MelvorBase:GoldPieces",
+        "Quantity": 178
+      },
+      "ignoreCompletion": false
+    },
+    {
+      "id": "MelvorBase:AdamantDefender",
+      "name": "Adamant Defender",
+      "plural": "Adamant Defenders",
+      "sellsFor": {
+        "Currency": "MelvorBase:GoldPieces",
+        "Quantity": 178
+      },
+      "ignoreCompletion": false
+    },
+    {
+      "id": "MelvorBase:AdamantArrowtips",
+      "name": "Adamant Arrowtips",
+      "plural": "Adamant Arrowtips",
+      "sellsFor": {
+        "Currency": "MelvorBase:GoldPieces",
+        "Quantity": 6
+      },
+      "ignoreCompletion": false
+    },
+    {
+      "id": "MelvorBase:AdamantJavelinHeads",
+      "name": "Adamant Javelin Heads",
+      "plural": "Adamant Javelin Heads",
+      "sellsFor": {
+        "Currency": "MelvorBase:GoldPieces",
+        "Quantity": 9
+      },
+      "ignoreCompletion": false
+    },
+    {
+      "id": "MelvorBase:AdamantSword",
+      "name": "Adamant Sword",
+      "plural": "Adamant Swords",
+      "sellsFor": {
+        "Currency": "MelvorBase:GoldPieces",
+        "Quantity": 307
+      },
+      "ignoreCompletion": false
+    },
+    {
+      "id": "MelvorBase:AdamantGloves",
+      "name": "Adamant Gloves",
+      "plural": "Adamant Gloves",
+      "sellsFor": {
+        "Currency": "MelvorBase:GoldPieces",
+        "Quantity": 307
+      },
+      "ignoreCompletion": false
+    },
+    {
+      "id": "MelvorBase:AdamantScimitar",
+      "name": "Adamant Scimitar",
+      "plural": "Adamant Scimitars",
+      "sellsFor": {
+        "Currency": "MelvorBase:GoldPieces",
+        "Quantity": 307
+      },
+      "ignoreCompletion": false
+    },
+    {
+      "id": "MelvorBase:AdamantHelmet",
+      "name": "Adamant Helmet",
+      "plural": "Adamant Helmets",
+      "sellsFor": {
+        "Currency": "MelvorBase:GoldPieces",
+        "Quantity": 307
+      },
+      "ignoreCompletion": false
+    },
+    {
+      "id": "MelvorBase:AdamantBoots",
+      "name": "Adamant Boots",
+      "plural": "Adamant Boots",
+      "sellsFor": {
+        "Currency": "MelvorBase:GoldPieces",
+        "Quantity": 307
+      },
+      "ignoreCompletion": false
+    },
+    {
+      "id": "MelvorBase:AdamantShield",
+      "name": "Adamant Shield",
+      "plural": "Adamant Shields",
+      "sellsFor": {
+        "Currency": "MelvorBase:GoldPieces",
+        "Quantity": 450
+      },
+      "ignoreCompletion": false
+    },
+    {
+      "id": "MelvorBase:Adamant2HSword",
+      "name": "Adamant 2H Sword",
+      "plural": "Adamant 2H Swords",
+      "sellsFor": {
+        "Currency": "MelvorBase:GoldPieces",
+        "Quantity": 607
+      },
+      "ignoreCompletion": false
+    },
+    {
+      "id": "MelvorBase:AdamantMallet",
+      "name": "Adamant Mallet",
+      "plural": "Adamant Mallets",
+      "sellsFor": {
+        "Currency": "MelvorBase:GoldPieces",
+        "Quantity": 607
+      },
+      "ignoreCompletion": false
+    },
+    {
+      "id": "MelvorBase:AdamantCrossbowHead",
+      "name": "Adamant Crossbow Head",
+      "plural": "Adamant Crossbow Heads",
+      "sellsFor": {
+        "Currency": "MelvorBase:GoldPieces",
+        "Quantity": 235
+      },
+      "ignoreCompletion": false
+    },
+    {
+      "id": "MelvorBase:AdamantPlatelegs",
+      "name": "Adamant Platelegs",
+      "plural": "Adamant Platelegs",
+      "sellsFor": {
+        "Currency": "MelvorBase:GoldPieces",
+        "Quantity": 607
+      },
+      "ignoreCompletion": false
+    },
+    {
+      "id": "MelvorBase:AdamantPlatebody",
+      "name": "Adamant Platebody",
+      "plural": "Adamant Platebodies",
+      "sellsFor": {
+        "Currency": "MelvorBase:GoldPieces",
+        "Quantity": 776
+      },
+      "ignoreCompletion": false
+    },
+    {
+      "id": "MelvorBase:Topaz",
+      "name": "Topaz",
+      "plural": "Topaz",
+      "sellsFor": {
+        "Currency": "MelvorBase:GoldPieces",
+        "Quantity": 29
+      },
+      "ignoreCompletion": false
+    },
+    {
+      "id": "MelvorBase:Sapphire",
+      "name": "Sapphire",
+      "plural": "Sapphires",
+      "sellsFor": {
+        "Currency": "MelvorBase:GoldPieces",
+        "Quantity": 54
+      },
+      "ignoreCompletion": false
+    },
+    {
+      "id": "MelvorBase:Ruby",
+      "name": "Ruby",
+      "plural": "Rubies",
+      "sellsFor": {
+        "Currency": "MelvorBase:GoldPieces",
+        "Quantity": 64
+      },
+      "ignoreCompletion": false
+    },
+    {
+      "id": "MelvorBase:SilverBar",
+      "name": "Silver Bar",
+      "plural": "Silver Bars",
+      "sellsFor": {
+        "Currency": "MelvorBase:GoldPieces",
+        "Quantity": 24
+      },
+      "ignoreCompletion": false
+    },
+    {
+      "id": "MelvorBase:OakTreeSeed",
+      "name": "Oak Tree Seed",
+      "plural": "Oak Tree Seeds",
+      "sellsFor": {
+        "Currency": "MelvorBase:GoldPieces",
+        "Quantity": 486
+      },
+      "ignoreCompletion": false
+    },
+    {
+      "id": "MelvorBase:WillowTreeSeed",
+      "name": "Willow Tree Seed",
+      "plural": "Willow Tree Seeds",
+      "sellsFor": {
+        "Currency": "MelvorBase:GoldPieces",
+        "Quantity": 984
+      },
+      "ignoreCompletion": false
+    },
+    {
+      "id": "MelvorBase:TeakTreeSeed",
+      "name": "Teak Tree Seed",
+      "plural": "Teak Tree Seeds",
+      "sellsFor": {
+        "Currency": "MelvorBase:GoldPieces",
+        "Quantity": 1635
+      },
+      "ignoreCompletion": false
+    },
+    {
+      "id": "MelvorBase:MapleTreeSeed",
+      "name": "Maple Tree Seed",
+      "plural": "Maple Tree Seeds",
+      "sellsFor": {
+        "Currency": "MelvorBase:GoldPieces",
+        "Quantity": 1673
+      },
+      "ignoreCompletion": false
+    },
+    {
+      "id": "MelvorBase:MahoganyTreeSeed",
+      "name": "Mahogany Tree Seed",
+      "plural": "Mahogany Tree Seeds",
+      "sellsFor": {
+        "Currency": "MelvorBase:GoldPieces",
+        "Quantity": 2701
+      },
+      "ignoreCompletion": false
+    },
+    {
+      "id": "MelvorBase:NormalBow",
+      "name": "Normal Bow",
+      "plural": "Normal Bows",
+      "sellsFor": {
+        "Currency": "MelvorBase:GoldPieces",
+        "Quantity": 12
+      },
+      "ignoreCompletion": false
+    },
+    {
+      "id": "MelvorBase:OakBow",
+      "name": "Oak Bow",
+      "plural": "Oak Bows",
+      "sellsFor": {
+        "Currency": "MelvorBase:GoldPieces",
+        "Quantity": 48
+      },
+      "ignoreCompletion": false
+    },
+    {
+      "id": "MelvorBase:WillowBow",
+      "name": "Willow Bow",
+      "plural": "Willow Bows",
+      "sellsFor": {
+        "Currency": "MelvorBase:GoldPieces",
+        "Quantity": 85
+      },
+      "ignoreCompletion": false
+    },
+    {
+      "id": "MelvorBase:MapleBow",
+      "name": "Maple Bow",
+      "plural": "Maple Bows",
+      "sellsFor": {
+        "Currency": "MelvorBase:GoldPieces",
+        "Quantity": 145
+      },
+      "ignoreCompletion": false
+    },
+    {
+      "id": "MelvorBase:YewBow",
+      "name": "Yew Bow",
+      "plural": "Yew Bows",
+      "sellsFor": {
+        "Currency": "MelvorBase:GoldPieces",
+        "Quantity": 225
+      },
+      "ignoreCompletion": false
+    },
+    {
+      "id": "MelvorBase:StoneArrows",
+      "name": "Stone Arrows",
+      "plural": "Stone Arrows",
+      "sellsFor": {
+        "Currency": "MelvorBase:GoldPieces",
+        "Quantity": 3
+      },
+      "ignoreCompletion": false
+    },
+    {
+      "id": "MelvorBase:CopperArrows",
+      "name": "Copper Arrows",
+      "plural": "Copper Arrows",
+      "sellsFor": {
+        "Currency": "MelvorBase:GoldPieces",
+        "Quantity": 3
+      },
+      "ignoreCompletion": false
+    },
+    {
+      "id": "MelvorBase:IronArrows",
+      "name": "Iron Arrows",
+      "plural": "Iron Arrows",
+      "sellsFor": {
+        "Currency": "MelvorBase:GoldPieces",
+        "Quantity": 5
+      },
+      "ignoreCompletion": false
+    },
+    {
+      "id": "MelvorBase:SteelArrows",
+      "name": "Steel Arrows",
+      "plural": "Steel Arrows",
+      "sellsFor": {
+        "Currency": "MelvorBase:GoldPieces",
+        "Quantity": 7
+      },
+      "ignoreCompletion": false
+    },
+    {
+      "id": "MelvorBase:MithrilArrows",
+      "name": "Mithril Arrows",
+      "plural": "Mithril Arrows",
+      "sellsFor": {
+        "Currency": "MelvorBase:GoldPieces",
+        "Quantity": 11
+      },
+      "ignoreCompletion": false
+    },
+    {
+      "id": "MelvorBase:AdamantArrows",
+      "name": "Adamant Arrows",
+      "plural": "Adamant Arrows",
+      "sellsFor": {
+        "Currency": "MelvorBase:GoldPieces",
+        "Quantity": 10
+      },
+      "ignoreCompletion": false
+    },
+    {
+      "id": "MelvorBase:HeadlessArrows",
+      "name": "Headless Arrows",
+      "plural": "Headless Arrows",
+      "sellsFor": {
+        "Currency": "MelvorBase:GoldPieces",
+        "Quantity": 1
+      },
+      "ignoreCompletion": false
+    },
+    {
+      "id": "MelvorBase:Feathers",
+      "name": "Feathers",
+      "plural": "Feathers",
+      "sellsFor": {
+        "Currency": "MelvorBase:GoldPieces",
+        "Quantity": 4
+      },
+      "ignoreCompletion": false
+    },
+    {
+      "id": "MelvorBase:Bowstring",
+      "name": "Bowstring",
+      "plural": "Bowstrings",
+      "sellsFor": {
+        "Currency": "MelvorBase:GoldPieces",
+        "Quantity": 3
+      },
+      "ignoreCompletion": false
+    },
+    {
+      "id": "MelvorBase:Leather",
+      "name": "Leather",
+      "plural": "Leather",
+      "sellsFor": {
+        "Currency": "MelvorBase:GoldPieces",
+        "Quantity": 3
+      },
+      "ignoreCompletion": false
+    },
+    {
+      "id": "MelvorBase:GreenDragonhide",
+      "name": "Green Dragonhide",
+      "plural": "Green Dragonhides",
+      "sellsFor": {
+        "Currency": "MelvorBase:GoldPieces",
+        "Quantity": 45
+      },
+      "ignoreCompletion": false
+    },
+    {
+      "id": "MelvorBase:GreenDragonhideLeather",
+      "name": "Green Dragonhide Leather",
+      "plural": "Green Dragonhide Leather",
+      "sellsFor": {
+        "Currency": "MelvorBase:GoldPieces",
+        "Quantity": 44
+      },
+      "ignoreCompletion": false
+    },
+    {
+      "id": "MelvorBase:LeatherBoots",
+      "name": "Leather Boots",
+      "plural": "Leather Boots",
+      "sellsFor": {
+        "Currency": "MelvorBase:GoldPieces",
+        "Quantity": 6
+      },
+      "ignoreCompletion": false
+    },
+    {
+      "id": "MelvorBase:LeatherCowl",
+      "name": "Leather Cowl",
+      "plural": "Leather Cowls",
+      "sellsFor": {
+        "Currency": "MelvorBase:GoldPieces",
+        "Quantity": 10
+      },
+      "ignoreCompletion": false
+    },
+    {
+      "id": "MelvorBase:LeatherVambraces",
+      "name": "Leather Vambraces",
+      "plural": "Leather Vambraces",
+      "sellsFor": {
+        "Currency": "MelvorBase:GoldPieces",
+        "Quantity": 5
+      },
+      "ignoreCompletion": false
+    },
+    {
+      "id": "MelvorBase:LeatherChaps",
+      "name": "Leather Chaps",
+      "plural": "Leather Chaps",
+      "sellsFor": {
+        "Currency": "MelvorBase:GoldPieces",
+        "Quantity": 20
+      },
+      "ignoreCompletion": false
+    },
+    {
+      "id": "MelvorBase:GoldTopazRing",
+      "name": "Gold Topaz Ring",
+      "plural": "Gold Topaz Rings",
+      "sellsFor": {
+        "Currency": "MelvorBase:GoldPieces",
+        "Quantity": 141
+      },
+      "ignoreCompletion": false
+    },
+    {
+      "id": "MelvorBase:RuneEssence",
+      "name": "Rune Essence",
+      "plural": "Rune Essence",
+      "sellsFor": {
+        "Currency": "MelvorBase:GoldPieces",
+        "Quantity": 1
+      },
+      "ignoreCompletion": false
+    },
+    {
+      "id": "MelvorBase:AirRune",
+      "name": "Air Rune",
+      "plural": "Air Runes",
+      "sellsFor": {
+        "Currency": "MelvorBase:GoldPieces",
+        "Quantity": 1
+      },
+      "ignoreCompletion": false
+    },
+    {
+      "id": "MelvorBase:MindRune",
+      "name": "Mind Rune",
+      "plural": "Mind Runes",
+      "sellsFor": {
+        "Currency": "MelvorBase:GoldPieces",
+        "Quantity": 1
+      },
+      "ignoreCompletion": false
+    },
+    {
+      "id": "MelvorBase:WaterRune",
+      "name": "Water Rune",
+      "plural": "Water Runes",
+      "sellsFor": {
+        "Currency": "MelvorBase:GoldPieces",
+        "Quantity": 1
+      },
+      "ignoreCompletion": false
+    },
+    {
+      "id": "MelvorBase:EarthRune",
+      "name": "Earth Rune",
+      "plural": "Earth Runes",
+      "sellsFor": {
+        "Currency": "MelvorBase:GoldPieces",
+        "Quantity": 1
+      },
+      "ignoreCompletion": false
+    },
+    {
+      "id": "MelvorBase:FireRune",
+      "name": "Fire Rune",
+      "plural": "Fire Runes",
+      "sellsFor": {
+        "Currency": "MelvorBase:GoldPieces",
+        "Quantity": 2
+      },
+      "ignoreCompletion": false
+    },
+    {
+      "id": "MelvorBase:BodyRune",
+      "name": "Body Rune",
+      "plural": "Body Runes",
+      "sellsFor": {
+        "Currency": "MelvorBase:GoldPieces",
+        "Quantity": 3
+      },
+      "ignoreCompletion": false
+    },
+    {
+      "id": "MelvorBase:ChaosRune",
+      "name": "Chaos Rune",
+      "plural": "Chaos Runes",
+      "sellsFor": {
+        "Currency": "MelvorBase:GoldPieces",
+        "Quantity": 2
+      },
+      "ignoreCompletion": false
+    },
+    {
+      "id": "MelvorBase:DeathRune",
+      "name": "Death Rune",
+      "plural": "Death Runes",
+      "sellsFor": {
+        "Currency": "MelvorBase:GoldPieces",
+        "Quantity": 2
+      },
+      "ignoreCompletion": false
+    },
+    {
+      "id": "MelvorBase:AirBattlestaff",
+      "name": "Air Battlestaff",
+      "plural": "Air Battlestaves",
+      "sellsFor": {
+        "Currency": "MelvorBase:GoldPieces",
+        "Quantity": 292
+      },
+      "ignoreCompletion": false
+    },
+    {
+      "id": "MelvorBase:WaterBattlestaff",
+      "name": "Water Battlestaff",
+      "plural": "Water Battlestaves",
+      "sellsFor": {
+        "Currency": "MelvorBase:GoldPieces",
+        "Quantity": 304
+      },
+      "ignoreCompletion": false
+    },
+    {
+      "id": "MelvorBase:EarthBattlestaff",
+      "name": "Earth Battlestaff",
+      "plural": "Earth Battlestaves",
+      "sellsFor": {
+        "Currency": "MelvorBase:GoldPieces",
+        "Quantity": 317
+      },
+      "ignoreCompletion": false
+    },
+    {
+      "id": "MelvorBase:FireBattlestaff",
+      "name": "Fire Battlestaff",
+      "plural": "Fire Battlestaves",
+      "sellsFor": {
+        "Currency": "MelvorBase:GoldPieces",
+        "Quantity": 349
+      },
+      "ignoreCompletion": false
+    },
+    {
+      "id": "MelvorBase:Seaweed",
+      "name": "Seaweed",
+      "plural": "Seaweed",
+      "sellsFor": {
+        "Currency": "MelvorBase:GoldPieces",
+        "Quantity": 2
+      },
+      "ignoreCompletion": false
+    },
+    {
+      "id": "MelvorBase:Rope",
+      "name": "Rope",
+      "plural": "Ropes",
+      "sellsFor": {
+        "Currency": "MelvorBase:GoldPieces",
+        "Quantity": 5
+      },
+      "ignoreCompletion": false
+    },
+    {
+      "id": "MelvorBase:Junk",
+      "name": "Junk",
+      "plural": "Junk",
+      "sellsFor": {
+        "Currency": "MelvorBase:GoldPieces",
+        "Quantity": 5
+      },
+      "ignoreCompletion": false
+    },
+    {
+      "id": "MelvorBase:Mithril2HThrowHammer",
+      "name": "Mithril 2H Throw Hammer",
+      "plural": "Mithril 2H Throw Hammers",
+      "sellsFor": {
+        "Currency": "MelvorBase:GoldPieces",
+        "Quantity": 27
+      },
+      "ignoreCompletion": false
+    },
+    {
+      "id": "MelvorBase:Adamant2HThrowHammer",
+      "name": "Adamant 2H Throw Hammer",
+      "plural": "Adamant 2H Throw Hammers",
+      "sellsFor": {
+        "Currency": "MelvorBase:GoldPieces",
+        "Quantity": 50
+      },
+      "ignoreCompletion": false
+    },
+    {
+      "id": "MelvorBase:HeadlessBolts",
+      "name": "Headless Bolts",
+      "plural": "Headless Bolts",
+      "sellsFor": {
+        "Currency": "MelvorBase:GoldPieces",
+        "Quantity": 3
+      },
+      "ignoreCompletion": false
+    },
+    {
+      "id": "MelvorBase:ElkAntler",
+      "name": "Elk Antler",
+      "plural": "Elk Antlers",
+      "sellsFor": {
+        "Currency": "MelvorBase:GoldPieces",
+        "Quantity": 48
+      },
+      "ignoreCompletion": false
+    },
+    {
+      "id": "MelvorBase:Bread",
+      "name": "Bread",
+      "plural": "Bread",
+      "sellsFor": {
+        "Currency": "MelvorBase:GoldPieces",
+        "Quantity": 5
+      },
+      "ignoreCompletion": false
+    },
+    {
+      "id": "MelvorBase:RawBeef",
+      "name": "Raw Beef",
+      "plural": "Raw Beef",
+      "sellsFor": {
+        "Currency": "MelvorBase:GoldPieces",
+        "Quantity": 1
+      },
+      "ignoreCompletion": false
+    },
+    {
+      "id": "MelvorBase:Beef",
+      "name": "Beef",
+      "plural": "Beef",
+      "sellsFor": {
+        "Currency": "MelvorBase:GoldPieces",
+        "Quantity": 10
+      },
+      "ignoreCompletion": false
+    },
+    {
+      "id": "MelvorBase:RawMeat",
+      "name": "Raw Meat",
+      "plural": "Raw Meat",
+      "sellsFor": {
+        "Currency": "MelvorBase:GoldPieces",
+        "Quantity": 1
+      },
+      "ignoreCompletion": false
+    },
+    {
+      "id": "MelvorBase:RawChicken",
+      "name": "Raw Chicken",
+      "plural": "Raw Chickens",
+      "sellsFor": {
+        "Currency": "MelvorBase:GoldPieces",
+        "Quantity": 2
+      },
+      "ignoreCompletion": false
+    },
+    {
+      "id": "MelvorBase:Chicken",
+      "name": "Chicken",
+      "plural": "Chickens",
+      "sellsFor": {
+        "Currency": "MelvorBase:GoldPieces",
+        "Quantity": 20
+      },
+      "ignoreCompletion": false
+    },
+    {
+      "id": "MelvorBase:Cheese",
+      "name": "Cheese",
+      "plural": "Cheese",
+      "sellsFor": {
+        "Currency": "MelvorBase:GoldPieces",
+        "Quantity": 4
+      },
+      "ignoreCompletion": false
+    },
+    {
+      "id": "MelvorBase:TopazBolts",
+      "name": "Topaz Bolts",
+      "plural": "Topaz Bolts",
+      "sellsFor": {
+        "Currency": "MelvorBase:GoldPieces",
+        "Quantity": 21
+      },
+      "ignoreCompletion": false
+    },
+    {
+      "id": "MelvorBase:SapphireBolts",
+      "name": "Sapphire Bolts",
+      "plural": "Sapphire Bolts",
+      "sellsFor": {
+        "Currency": "MelvorBase:GoldPieces",
+        "Quantity": 20
+      },
+      "ignoreCompletion": false
+    },
+    {
+      "id": "MelvorBase:RubyBolts",
+      "name": "Ruby Bolts",
+      "plural": "Ruby Bolts",
+      "sellsFor": {
+        "Currency": "MelvorBase:GoldPieces",
+        "Quantity": 22
+      },
+      "ignoreCompletion": false
+    },
+    {
+      "id": "MelvorBase:RawPerch",
+      "name": "Raw Perch",
+      "plural": "Raw Perch",
+      "sellsFor": {
+        "Currency": "MelvorBase:GoldPieces",
+        "Quantity": 26
+      },
+      "ignoreCompletion": false
+    },
+    {
+      "id": "MelvorBase:RawMackerel",
+      "name": "Raw Mackerel",
+      "plural": "Raw Mackerel",
+      "sellsFor": {
+        "Currency": "MelvorBase:GoldPieces",
+        "Quantity": 16
+      },
+      "ignoreCompletion": false
+    },
+    {
+      "id": "MelvorBase:RawPike",
+      "name": "Raw Pike",
+      "plural": "Raw Pike",
+      "sellsFor": {
+        "Currency": "MelvorBase:GoldPieces",
+        "Quantity": 65
+      },
+      "ignoreCompletion": false
+    },
+    {
+      "id": "MelvorBase:RawGlowfin",
+      "name": "Raw Glowfin",
+      "plural": "Raw Glowfins",
+      "sellsFor": {
+        "Currency": "MelvorBase:GoldPieces",
+        "Quantity": 28
+      },
+      "ignoreCompletion": false
+    },
+    {
+      "id": "MelvorBase:RawSeaBream",
+      "name": "Raw Sea Bream",
+      "plural": "Raw Sea Bream",
+      "sellsFor": {
+        "Currency": "MelvorBase:GoldPieces",
+        "Quantity": 84
+      },
+      "ignoreCompletion": false
+    },
+    {
+      "id": "MelvorBase:OakBoomerang",
+      "name": "Oak Boomerang",
+      "plural": "Oak Boomerangs",
+      "sellsFor": {
+        "Currency": "MelvorBase:GoldPieces",
+        "Quantity": 10
+      },
+      "ignoreCompletion": false
+    },
+    {
+      "id": "MelvorBase:WillowBoomerang",
+      "name": "Willow Boomerang",
+      "plural": "Willow Boomerangs",
+      "sellsFor": {
+        "Currency": "MelvorBase:GoldPieces",
+        "Quantity": 13
+      },
+      "ignoreCompletion": false
+    },
+    {
+      "id": "MelvorBase:MapleBoomerang",
+      "name": "Maple Boomerang",
+      "plural": "Maple Boomerangs",
+      "sellsFor": {
+        "Currency": "MelvorBase:GoldPieces",
+        "Quantity": 18
+      },
+      "ignoreCompletion": false
+    },
+    {
+      "id": "MelvorBase:IronCrossbow",
+      "name": "Iron Crossbow",
+      "plural": "Iron Crossbows",
+      "sellsFor": {
+        "Currency": "MelvorBase:GoldPieces",
+        "Quantity": 124
+      },
+      "ignoreCompletion": false
+    },
+    {
+      "id": "MelvorBase:SteelCrossbow",
+      "name": "Steel Crossbow",
+      "plural": "Steel Crossbows",
+      "sellsFor": {
+        "Currency": "MelvorBase:GoldPieces",
+        "Quantity": 231
+      },
+      "ignoreCompletion": false
+    },
+    {
+      "id": "MelvorBase:MithrilCrossbow",
+      "name": "Mithril Crossbow",
+      "plural": "Mithril Crossbows",
+      "sellsFor": {
+        "Currency": "MelvorBase:GoldPieces",
+        "Quantity": 388
+      },
+      "ignoreCompletion": false
+    },
+    {
+      "id": "MelvorBase:AdamantCrossbow",
+      "name": "Adamant Crossbow",
+      "plural": "Adamant Crossbows",
+      "sellsFor": {
+        "Currency": "MelvorBase:GoldPieces",
+        "Quantity": 440
+      },
+      "ignoreCompletion": false
+    },
+    {
+      "id": "MelvorBase:Steel2HCrossbow",
+      "name": "Steel 2H Crossbow",
+      "plural": "Steel 2H Crossbows",
+      "sellsFor": {
+        "Currency": "MelvorBase:GoldPieces",
+        "Quantity": 577
+      },
+      "ignoreCompletion": false
+    },
+    {
+      "id": "MelvorBase:Mithril2HCrossbow",
+      "name": "Mithril 2H Crossbow",
+      "plural": "Mithril 2H Crossbows",
+      "sellsFor": {
+        "Currency": "MelvorBase:GoldPieces",
+        "Quantity": 656
+      },
+      "ignoreCompletion": false
+    },
+    {
+      "id": "MelvorBase:Adamant2HCrossbow",
+      "name": "Adamant 2H Crossbow",
+      "plural": "Adamant 2H Crossbows",
+      "sellsFor": {
+        "Currency": "MelvorBase:GoldPieces",
+        "Quantity": 1228
+      },
+      "ignoreCompletion": false
+    },
+    {
+      "id": "MelvorBase:DecayRune",
+      "name": "Decay Rune",
+      "plural": "Decay Runes",
+      "sellsFor": {
+        "Currency": "MelvorBase:GoldPieces",
+        "Quantity": 5
+      },
+      "ignoreCompletion": false
+    },
+    {
+      "id": "MelvorBase:AirWand",
+      "name": "Air Wand",
+      "plural": "Air Wands",
+      "sellsFor": {
+        "Currency": "MelvorBase:GoldPieces",
+        "Quantity": 45
+      },
+      "ignoreCompletion": false
+    },
+    {
+      "id": "MelvorBase:AirStaff",
+      "name": "Air Staff",
+      "plural": "Air Staves",
+      "sellsFor": {
+        "Currency": "MelvorBase:GoldPieces",
+        "Quantity": 164
+      },
+      "ignoreCompletion": false
+    },
+    {
+      "id": "MelvorBase:WaterWand",
+      "name": "Water Wand",
+      "plural": "Water Wands",
+      "sellsFor": {
+        "Currency": "MelvorBase:GoldPieces",
+        "Quantity": 62
+      },
+      "ignoreCompletion": false
+    },
+    {
+      "id": "MelvorBase:WaterStaff",
+      "name": "Water Staff",
+      "plural": "Water Staves",
+      "sellsFor": {
+        "Currency": "MelvorBase:GoldPieces",
+        "Quantity": 176
+      },
+      "ignoreCompletion": false
+    },
+    {
+      "id": "MelvorBase:EarthWand",
+      "name": "Earth Wand",
+      "plural": "Earth Wands",
+      "sellsFor": {
+        "Currency": "MelvorBase:GoldPieces",
+        "Quantity": 98
+      },
+      "ignoreCompletion": false
+    },
+    {
+      "id": "MelvorBase:EarthStaff",
+      "name": "Earth Staff",
+      "plural": "Earth Staves",
+      "sellsFor": {
+        "Currency": "MelvorBase:GoldPieces",
+        "Quantity": 189
+      },
+      "ignoreCompletion": false
+    },
+    {
+      "id": "MelvorBase:FireWand",
+      "name": "Fire Wand",
+      "plural": "Fire Wands",
+      "sellsFor": {
+        "Currency": "MelvorBase:GoldPieces",
+        "Quantity": 186
+      },
+      "ignoreCompletion": false
+    },
+    {
+      "id": "MelvorBase:FireStaff",
+      "name": "Fire Staff",
+      "plural": "Fire Staves",
+      "sellsFor": {
+        "Currency": "MelvorBase:GoldPieces",
+        "Quantity": 202
+      },
+      "ignoreCompletion": false
+    },
+    {
+      "id": "MelvorBase:AirWizardHat",
+      "name": "Air Wizard Hat",
+      "plural": "Air Wizard Hats",
+      "sellsFor": {
+        "Currency": "MelvorBase:GoldPieces",
+        "Quantity": 67
+      },
+      "ignoreCompletion": false
+    },
+    {
+      "id": "MelvorBase:AirWizardBoots",
+      "name": "Air Wizard Boots",
+      "plural": "Air Wizard Boots",
+      "sellsFor": {
+        "Currency": "MelvorBase:GoldPieces",
+        "Quantity": 72
+      },
+      "ignoreCompletion": false
+    },
+    {
+      "id": "MelvorBase:AirWizardBottoms",
+      "name": "Air Wizard Bottoms",
+      "plural": "Air Wizard Bottoms",
+      "sellsFor": {
+        "Currency": "MelvorBase:GoldPieces",
+        "Quantity": 107
+      },
+      "ignoreCompletion": false
+    },
+    {
+      "id": "MelvorBase:AirWizardRobes",
+      "name": "Air Wizard Robe",
+      "plural": "Air Wizard Robes",
+      "sellsFor": {
+        "Currency": "MelvorBase:GoldPieces",
+        "Quantity": 147
+      },
+      "ignoreCompletion": false
+    },
+    {
+      "id": "MelvorBase:WaterWizardHat",
+      "name": "Water Wizard Hat",
+      "plural": "Water Wizard Hats",
+      "sellsFor": {
+        "Currency": "MelvorBase:GoldPieces",
+        "Quantity": 67
+      },
+      "ignoreCompletion": false
+    },
+    {
+      "id": "MelvorBase:WaterWizardBoots",
+      "name": "Water Wizard Boots",
+      "plural": "Water Wizard Boots",
+      "sellsFor": {
+        "Currency": "MelvorBase:GoldPieces",
+        "Quantity": 72
+      },
+      "ignoreCompletion": false
+    },
+    {
+      "id": "MelvorBase:WaterWizardBottoms",
+      "name": "Water Wizard Bottoms",
+      "plural": "Water Wizard Bottoms",
+      "sellsFor": {
+        "Currency": "MelvorBase:GoldPieces",
+        "Quantity": 107
+      },
+      "ignoreCompletion": false
+    },
+    {
+      "id": "MelvorBase:WaterWizardRobes",
+      "name": "Water Wizard Robe",
+      "plural": "Water Wizard Robes",
+      "sellsFor": {
+        "Currency": "MelvorBase:GoldPieces",
+        "Quantity": 147
+      },
+      "ignoreCompletion": false
+    },
+    {
+      "id": "MelvorBase:EarthWizardHat",
+      "name": "Earth Wizard Hat",
+      "plural": "Earth Wizard Hats",
+      "sellsFor": {
+        "Currency": "MelvorBase:GoldPieces",
+        "Quantity": 67
+      },
+      "ignoreCompletion": false
+    },
+    {
+      "id": "MelvorBase:EarthWizardBoots",
+      "name": "Earth Wizard Boots",
+      "plural": "Earth Wizard Boots",
+      "sellsFor": {
+        "Currency": "MelvorBase:GoldPieces",
+        "Quantity": 72
+      },
+      "ignoreCompletion": false
+    },
+    {
+      "id": "MelvorBase:EarthWizardBottoms",
+      "name": "Earth Wizard Bottoms",
+      "plural": "Earth Wizard Bottoms",
+      "sellsFor": {
+        "Currency": "MelvorBase:GoldPieces",
+        "Quantity": 107
+      },
+      "ignoreCompletion": false
+    },
+    {
+      "id": "MelvorBase:EarthWizardRobes",
+      "name": "Earth Wizard Robes",
+      "plural": "Earth Wizard Robes",
+      "sellsFor": {
+        "Currency": "MelvorBase:GoldPieces",
+        "Quantity": 147
+      },
+      "ignoreCompletion": false
+    },
+    {
+      "id": "MelvorBase:FireWizardHat",
+      "name": "Fire Wizard Hat",
+      "plural": "Fire Wizard Hats",
+      "sellsFor": {
+        "Currency": "MelvorBase:GoldPieces",
+        "Quantity": 67
+      },
+      "ignoreCompletion": false
+    },
+    {
+      "id": "MelvorBase:FireWizardBoots",
+      "name": "Fire Wizard Boots",
+      "plural": "Fire Wizard Boots",
+      "sellsFor": {
+        "Currency": "MelvorBase:GoldPieces",
+        "Quantity": 72
+      },
+      "ignoreCompletion": false
+    },
+    {
+      "id": "MelvorBase:FireWizardBottoms",
+      "name": "Fire Wizard Bottoms",
+      "plural": "Fire Wizard Bottoms",
+      "sellsFor": {
+        "Currency": "MelvorBase:GoldPieces",
+        "Quantity": 107
+      },
+      "ignoreCompletion": false
+    },
+    {
+      "id": "MelvorBase:FireWizardRobes",
+      "name": "Fire Wizard Robes",
+      "plural": "Fire Wizard Robes",
+      "sellsFor": {
+        "Currency": "MelvorBase:GoldPieces",
+        "Quantity": 147
+      },
+      "ignoreCompletion": false
+    },
+    {
+      "id": "MelvorBase:StoneSword",
+      "name": "Stone Sword",
+      "plural": "Stone Swords",
+      "sellsFor": {
+        "Currency": "MelvorBase:GoldPieces",
+        "Quantity": 11
+      },
+      "ignoreCompletion": false
+    },
+    {
+      "id": "MelvorBase:StoneSpearHead",
+      "name": "Stone Spear Head",
+      "plural": "Stone Spear Heads",
+      "sellsFor": {
+        "Currency": "MelvorBase:GoldPieces",
+        "Quantity": 16
+      },
+      "ignoreCompletion": false
+    },
+    {
+      "id": "MelvorBase:SteelSpearHead",
+      "name": "Steel Spear Head",
+      "plural": "Steel Spear Heads",
+      "sellsFor": {
+        "Currency": "MelvorBase:GoldPieces",
+        "Quantity": 89
+      },
+      "ignoreCompletion": false
+    },
+    {
+      "id": "MelvorBase:MithrilSpearHead",
+      "name": "Mithril Spear Head",
+      "plural": "Mithril Spear Heads",
+      "sellsFor": {
+        "Currency": "MelvorBase:GoldPieces",
+        "Quantity": 167
+      },
+      "ignoreCompletion": false
+    },
+    {
+      "id": "MelvorBase:AdamantSpearHead",
+      "name": "Adamant Spear Head",
+      "plural": "Adamant Spear Heads",
+      "sellsFor": {
+        "Currency": "MelvorBase:GoldPieces",
+        "Quantity": 202
+      },
+      "ignoreCompletion": false
+    },
+    {
+      "id": "MelvorBase:ArrowShaft",
+      "name": "Arrow Shaft",
+      "plural": "Arrow Shafts",
+      "sellsFor": {
+        "Currency": "MelvorBase:GoldPieces",
+        "Quantity": 0
+      },
+      "ignoreCompletion": false
+    },
+    {
+      "id": "MelvorBase:CopperJavelin",
+      "name": "Copper Javelin",
+      "plural": "Copper Javelins",
+      "sellsFor": {
+        "Currency": "MelvorBase:GoldPieces",
+        "Quantity": 5
+      },
+      "ignoreCompletion": false
+    },
+    {
+      "id": "MelvorBase:IronJavelin",
+      "name": "Iron Javelin",
+      "plural": "Iron Javelins",
+      "sellsFor": {
+        "Currency": "MelvorBase:GoldPieces",
+        "Quantity": 8
+      },
+      "ignoreCompletion": false
+    },
+    {
+      "id": "MelvorBase:SteelJavelin",
+      "name": "Steel Javelin",
+      "plural": "Steel Javelins",
+      "sellsFor": {
+        "Currency": "MelvorBase:GoldPieces",
+        "Quantity": 12
+      },
+      "ignoreCompletion": false
+    },
+    {
+      "id": "MelvorBase:MithrilJavelin",
+      "name": "Mithril Javelin",
+      "plural": "Mithril Javelins",
+      "sellsFor": {
+        "Currency": "MelvorBase:GoldPieces",
+        "Quantity": 19
+      },
+      "ignoreCompletion": false
+    },
+    {
+      "id": "MelvorBase:AdamantJavelin",
+      "name": "Adamant Javelin",
+      "plural": "Adamant Javelins",
+      "sellsFor": {
+        "Currency": "MelvorBase:GoldPieces",
+        "Quantity": 17
+      },
+      "ignoreCompletion": false
+    },
+    {
+      "id": "MelvorBase:LeatherShield",
+      "name": "Leather Shield",
+      "plural": "Leather Shields",
+      "sellsFor": {
+        "Currency": "MelvorBase:GoldPieces",
+        "Quantity": 12
+      },
+      "ignoreCompletion": false
+    },
+    {
+      "id": "MelvorBase:LeatherBody",
+      "name": "Leather Body",
+      "plural": "Leather Bodies",
+      "sellsFor": {
+        "Currency": "MelvorBase:GoldPieces",
+        "Quantity": 26
+      },
+      "ignoreCompletion": false
+    },
+    {
+      "id": "MelvorBase:HardLeatherVambraces",
+      "name": "Hard Leather Vambraces",
+      "plural": "Hard Leather Vambraces",
+      "sellsFor": {
+        "Currency": "MelvorBase:GoldPieces",
+        "Quantity": 38
+      },
+      "ignoreCompletion": false
+    },
+    {
+      "id": "MelvorBase:HardLeatherBoots",
+      "name": "Hard Leather Boots",
+      "plural": "Hard Leather Boots",
+      "sellsFor": {
+        "Currency": "MelvorBase:GoldPieces",
+        "Quantity": 38
+      },
+      "ignoreCompletion": false
+    },
+    {
+      "id": "MelvorBase:HardLeatherCowl",
+      "name": "Hard Leather Cowl",
+      "plural": "Hard Leather Cowls",
+      "sellsFor": {
+        "Currency": "MelvorBase:GoldPieces",
+        "Quantity": 50
+      },
+      "ignoreCompletion": false
+    },
+    {
+      "id": "MelvorBase:HardLeatherShield",
+      "name": "Hard Leather Shield",
+      "plural": "Hard Leather Shields",
+      "sellsFor": {
+        "Currency": "MelvorBase:GoldPieces",
+        "Quantity": 50
+      },
+      "ignoreCompletion": false
+    },
+    {
+      "id": "MelvorBase:HardLeatherChaps",
+      "name": "Hard Leather Chaps",
+      "plural": "Hard Leather Chaps",
+      "sellsFor": {
+        "Currency": "MelvorBase:GoldPieces",
+        "Quantity": 61
+      },
+      "ignoreCompletion": false
+    },
+    {
+      "id": "MelvorBase:HardLeatherBody",
+      "name": "Hard Leather Body",
+      "plural": "Hard Leather Bodies",
+      "sellsFor": {
+        "Currency": "MelvorBase:GoldPieces",
+        "Quantity": 72
+      },
+      "ignoreCompletion": false
+    },
+    {
+      "id": "MelvorBase:StuddedLeatherVambraces",
+      "name": "Studded Leather Vambraces",
+      "plural": "Studded Leather Vambraces",
+      "sellsFor": {
+        "Currency": "MelvorBase:GoldPieces",
+        "Quantity": 69
+      },
+      "ignoreCompletion": false
+    },
+    {
+      "id": "MelvorBase:StuddedLeatherBoots",
+      "name": "Studded Leather Boots",
+      "plural": "Studded Leather Boots",
+      "sellsFor": {
+        "Currency": "MelvorBase:GoldPieces",
+        "Quantity": 69
+      },
+      "ignoreCompletion": false
+    },
+    {
+      "id": "MelvorBase:StuddedLeatherCowl",
+      "name": "Studded Leather Cowl",
+      "plural": "Studded Leather Cowls",
+      "sellsFor": {
+        "Currency": "MelvorBase:GoldPieces",
+        "Quantity": 106
+      },
+      "ignoreCompletion": false
+    },
+    {
+      "id": "MelvorBase:StuddedLeatherShield",
+      "name": "Studded Leather Shield",
+      "plural": "Studded Leather Shields",
+      "sellsFor": {
+        "Currency": "MelvorBase:GoldPieces",
+        "Quantity": 106
+      },
+      "ignoreCompletion": false
+    },
+    {
+      "id": "MelvorBase:StuddedLeatherChaps",
+      "name": "Studded Leather Chaps",
+      "plural": "Studded Leather Chaps",
+      "sellsFor": {
+        "Currency": "MelvorBase:GoldPieces",
+        "Quantity": 143
+      },
+      "ignoreCompletion": false
+    },
+    {
+      "id": "MelvorBase:StuddedLeatherBody",
+      "name": "Studded Leather Body",
+      "plural": "Studded Leather Bodies",
+      "sellsFor": {
+        "Currency": "MelvorBase:GoldPieces",
+        "Quantity": 180
+      },
+      "ignoreCompletion": false
+    },
+    {
+      "id": "MelvorBase:ChainmailVambraces",
+      "name": "Chainmail Vambraces",
+      "plural": "Chainmail Vambraces",
+      "sellsFor": {
+        "Currency": "MelvorBase:GoldPieces",
+        "Quantity": 101
+      },
+      "ignoreCompletion": false
+    },
+    {
+      "id": "MelvorBase:ChainmailBoots",
+      "name": "Chainmail Boots",
+      "plural": "Chainmail Boots",
+      "sellsFor": {
+        "Currency": "MelvorBase:GoldPieces",
+        "Quantity": 101
+      },
+      "ignoreCompletion": false
+    },
+    {
+      "id": "MelvorBase:ChainmailCowl",
+      "name": "Chainmail Cowl",
+      "plural": "Chainmail Cowls",
+      "sellsFor": {
+        "Currency": "MelvorBase:GoldPieces",
+        "Quantity": 142
+      },
+      "ignoreCompletion": false
+    },
+    {
+      "id": "MelvorBase:ChainmailShield",
+      "name": "Chainmail Shield",
+      "plural": "Chainmail Shields",
+      "sellsFor": {
+        "Currency": "MelvorBase:GoldPieces",
+        "Quantity": 142
+      },
+      "ignoreCompletion": false
+    },
+    {
+      "id": "MelvorBase:ChainmailChaps",
+      "name": "Chainmail Chaps",
+      "plural": "Chainmail Chaps",
+      "sellsFor": {
+        "Currency": "MelvorBase:GoldPieces",
+        "Quantity": 184
+      },
+      "ignoreCompletion": false
+    },
+    {
+      "id": "MelvorBase:ChainmailBody",
+      "name": "Chainmail Body",
+      "plural": "Chainmail Bodies",
+      "sellsFor": {
+        "Currency": "MelvorBase:GoldPieces",
+        "Quantity": 225
+      },
+      "ignoreCompletion": false
+    },
+    {
+      "id": "MelvorBase:GreenDragonhideCowl",
+      "name": "Green Dragonhide Cowl",
+      "plural": "Green Dragonhide Cowls",
+      "sellsFor": {
+        "Currency": "MelvorBase:GoldPieces",
+        "Quantity": 250
+      },
+      "ignoreCompletion": false
+    },
+    {
+      "id": "MelvorBase:SilverTopazRing",
+      "name": "Silver Topaz Ring",
+      "plural": "Silver Topaz Rings",
+      "sellsFor": {
+        "Currency": "MelvorBase:GoldPieces",
+        "Quantity": 97
+      },
+      "ignoreCompletion": false
+    },
+    {
+      "id": "MelvorBase:SilverSapphireRing",
+      "name": "Silver Sapphire Ring",
+      "plural": "Silver Sapphire Rings",
+      "sellsFor": {
+        "Currency": "MelvorBase:GoldPieces",
+        "Quantity": 125
+      },
+      "ignoreCompletion": false
+    },
+    {
+      "id": "MelvorBase:SilverRubyRing",
+      "name": "Silver Ruby Ring",
+      "plural": "Silver Ruby Rings",
+      "sellsFor": {
+        "Currency": "MelvorBase:GoldPieces",
+        "Quantity": 149
+      },
+      "ignoreCompletion": false
+    },
+    {
+      "id": "MelvorBase:GoldSapphireRing",
+      "name": "Gold Sapphire Ring",
+      "plural": "Gold Sapphire Rings",
+      "sellsFor": {
+        "Currency": "MelvorBase:GoldPieces",
+        "Quantity": 138
+      },
+      "ignoreCompletion": false
+    },
+    {
+      "id": "MelvorBase:SilverTopazAmulet",
+      "name": "Silver Topaz Amulet",
+      "plural": "Silver Topaz Amulets",
+      "sellsFor": {
+        "Currency": "MelvorBase:GoldPieces",
+        "Quantity": 123
+      },
+      "ignoreCompletion": false
+    },
+    {
+      "id": "MelvorBase:SilverSapphireAmulet",
+      "name": "Silver Sapphire Amulet",
+      "plural": "Silver Sapphire Amulets",
+      "sellsFor": {
+        "Currency": "MelvorBase:GoldPieces",
+        "Quantity": 154
+      },
+      "ignoreCompletion": false
+    },
+    {
+      "id": "MelvorBase:SilverRubyAmulet",
+      "name": "Silver Ruby Amulet",
+      "plural": "Silver Ruby Amulets",
+      "sellsFor": {
+        "Currency": "MelvorBase:GoldPieces",
+        "Quantity": 178
+      },
+      "ignoreCompletion": false
+    },
+    {
+      "id": "MelvorBase:GoldTopazAmulet",
+      "name": "Gold Topaz Amulet",
+      "plural": "Gold Topaz Amulets",
+      "sellsFor": {
+        "Currency": "MelvorBase:GoldPieces",
+        "Quantity": 181
+      },
+      "ignoreCompletion": false
+    },
+    {
+      "id": "MelvorBase:GoldSapphireAmulet",
+      "name": "Gold Sapphire Amulet",
+      "plural": "Gold Sapphire Amulets",
+      "sellsFor": {
+        "Currency": "MelvorBase:GoldPieces",
+        "Quantity": 173
+      },
+      "ignoreCompletion": false
+    },
+    {
+      "id": "MelvorBase:HarpyFeather",
+      "name": "Harpy Feather",
+      "plural": "Harpy Feathers",
+      "sellsFor": {
+        "Currency": "MelvorBase:GoldPieces",
+        "Quantity": 13
+      },
+      "ignoreCompletion": false
+    },
+    {
+      "id": "MelvorBase:Coal",
+      "name": "Coal",
+      "plural": "Coal",
+      "sellsFor": {
+        "Currency": "MelvorBase:GoldPieces",
+        "Quantity": 5
+      },
+      "ignoreCompletion": false
+    },
+    {
+      "id": "MelvorBase:UncutTopaz",
+      "name": "Uncut Topaz",
+      "plural": "Uncut Topaz",
+      "sellsFor": {
+        "Currency": "MelvorBase:GoldPieces",
+        "Quantity": 20
+      },
+      "ignoreCompletion": false
+    },
+    {
+      "id": "MelvorBase:UncutSapphire",
+      "name": "Uncut Sapphire",
+      "plural": "Uncut Sapphires",
+      "sellsFor": {
+        "Currency": "MelvorBase:GoldPieces",
+        "Quantity": 36
+      },
+      "ignoreCompletion": false
+    },
+    {
+      "id": "MelvorBase:UncutRuby",
+      "name": "Uncut Ruby",
+      "plural": "Uncut Rubies",
+      "sellsFor": {
+        "Currency": "MelvorBase:GoldPieces",
+        "Quantity": 60
+      },
+      "ignoreCompletion": false
+    },
+    {
+      "id": "MelvorBase:UncutEmerald",
+      "name": "Uncut Emerald",
+      "plural": "Uncut Emeralds",
+      "sellsFor": {
+        "Currency": "MelvorBase:GoldPieces",
+        "Quantity": 90
+      },
+      "ignoreCompletion": false
+    },
+    {
+      "id": "MelvorBase:UncutDiamond",
+      "name": "Uncut Diamond",
+      "plural": "Uncut Diamonds",
+      "sellsFor": {
+        "Currency": "MelvorBase:GoldPieces",
+        "Quantity": 254
+      },
+      "ignoreCompletion": false
+    },
+    {
+      "id": "MelvorBase:UncutJadestone",
+      "name": "Uncut Jadestone",
+      "plural": "Uncut Jadestones",
+      "sellsFor": {
+        "Currency": "MelvorBase:GoldPieces",
+        "Quantity": 449
+      },
+      "ignoreCompletion": false
+    },
+    {
+      "id": "MelvorBase:Clay",
+      "name": "Clay",
+      "plural": "Clay",
+      "sellsFor": {
+        "Currency": "MelvorBase:GoldPieces",
+        "Quantity": 1
+      },
+      "ignoreCompletion": false
+    },
+    {
+      "id": "MelvorBase:BucketofWater",
+      "name": "Bucket of Water",
+      "plural": "Buckets of Water",
+      "sellsFor": {
+        "Currency": "MelvorBase:GoldPieces",
+        "Quantity": 1
+      },
+      "ignoreCompletion": false
+    },
+    {
+      "id": "MelvorBase:BucketofSand",
+      "name": "Bucket of Sand",
+      "plural": "Buckets of Sand",
+      "sellsFor": {
+        "Currency": "MelvorBase:GoldPieces",
+        "Quantity": 1
+      },
+      "ignoreCompletion": false
+    },
+    {
+      "id": "MelvorBase:MoltenGlass",
+      "name": "Molten Glass",
+      "plural": "Molten Glass",
+      "sellsFor": {
+        "Currency": "MelvorBase:GoldPieces",
+        "Quantity": 2
+      },
+      "ignoreCompletion": false
+    },
+    {
+      "id": "MelvorBase:EmptyVial",
+      "name": "Pack of Vials",
+      "plural": "Pack of Vials",
+      "sellsFor": {
+        "Currency": "MelvorBase:GoldPieces",
+        "Quantity": 1
+      },
+      "ignoreCompletion": false
+    },
+    {
+      "id": "MelvorBase:UnpoweredOrb",
+      "name": "Unpowered Orb",
+      "plural": "Unpowered Orbs",
+      "sellsFor": {
+        "Currency": "MelvorBase:GoldPieces",
+        "Quantity": 9
+      },
+      "ignoreCompletion": false
+    },
+    {
+      "id": "MelvorBase:EmptyLantern",
+      "name": "Empty Lantern",
+      "plural": "Empty Lanterns",
+      "sellsFor": {
+        "Currency": "MelvorBase:GoldPieces",
+        "Quantity": 6
+      },
+      "ignoreCompletion": false
+    },
+    {
+      "id": "MelvorBase:Charcoal",
+      "name": "Charcoal",
+      "plural": "Charcoal",
+      "sellsFor": {
+        "Currency": "MelvorBase:GoldPieces",
+        "Quantity": 3
+      },
+      "ignoreCompletion": false
+    },
+    {
+      "id": "MelvorBase:Ash",
+      "name": "Ash",
+      "plural": "Ash",
+      "sellsFor": {
+        "Currency": "MelvorBase:GoldPieces",
+        "Quantity": 3
+      },
+      "ignoreCompletion": false
+    },
+    {
+      "id": "MelvorBase:Soot",
+      "name": "Soot",
+      "plural": "Soot",
+      "sellsFor": {
+        "Currency": "MelvorBase:GoldPieces",
+        "Quantity": 3
+      },
+      "ignoreCompletion": false
+    },
+    {
+      "id": "MelvorBase:Iron2HCrossbow",
+      "name": "Iron 2H Crossbow",
+      "plural": "Iron 2H Crossbows",
+      "sellsFor": {
+        "Currency": "MelvorBase:GoldPieces",
+        "Quantity": 327
+      },
+      "ignoreCompletion": false
+    },
+    {
+      "id": "MelvorBase:SteelSpear",
+      "name": "Steel Spear",
+      "plural": "Steel Spears",
+      "sellsFor": {
+        "Currency": "MelvorBase:GoldPieces",
+        "Quantity": 206
+      },
+      "ignoreCompletion": false
+    },
+    {
+      "id": "MelvorBase:MithrilSpear",
+      "name": "Mithril Spear",
+      "plural": "Mithril Spears",
+      "sellsFor": {
+        "Currency": "MelvorBase:GoldPieces",
+        "Quantity": 248
+      },
+      "ignoreCompletion": false
+    },
+    {
+      "id": "MelvorBase:AdamantSpear",
+      "name": "Adamant Spear",
+      "plural": "Adamant Spears",
+      "sellsFor": {
+        "Currency": "MelvorBase:GoldPieces",
+        "Quantity": 421
+      },
+      "ignoreCompletion": false
+    },
+    {
+      "id": "MelvorBase:PearlClam",
+      "name": "Pearl Clam",
+      "plural": "Pearl Clams",
+      "sellsFor": {
+        "Currency": "MelvorBase:GoldPieces",
+        "Quantity": 817
+      },
+      "ignoreCompletion": false
+    },
+    {
+      "id": "MelvorBase:SeashellNecklace",
+      "name": "Seashell Necklace",
+      "plural": "Seashell Necklaces",
+      "sellsFor": {
+        "Currency": "MelvorBase:GoldPieces",
+        "Quantity": 8750
+      },
+      "ignoreCompletion": false
+    },
+    {
+      "id": "MelvorBase:RustyAncientDagger",
+      "name": "Rusty Ancient Dagger",
+      "plural": "Rusty Ancient Daggers",
+      "sellsFor": {
+        "Currency": "MelvorBase:GoldPieces",
+        "Quantity": 3267
+      },
+      "ignoreCompletion": false
+    },
+    {
+      "id": "MelvorBase:ShrapnelRepellentGloves",
+      "name": "Shrapnel Repellent Gloves",
+      "plural": "Shrapnel Repellent Gloves",
+      "sellsFor": {
+        "Currency": "MelvorBase:GoldPieces",
+        "Quantity": 2500
+      },
+      "ignoreCompletion": false
+    },
+    {
+      "id": "MelvorBase:SteadfastNet",
+      "name": "Steadfast Net",
+      "plural": "Steadfast Nets",
+      "sellsFor": {
+        "Currency": "MelvorBase:GoldPieces",
+        "Quantity": 1114
+      },
+      "ignoreCompletion": false
+    },
+    {
+      "id": "MelvorBase:SeaweedClump",
+      "name": "Seaweed Clump",
+      "plural": "Seaweed Clumps",
+      "sellsFor": {
+        "Currency": "MelvorBase:GoldPieces",
+        "Quantity": 200
+      },
+      "ignoreCompletion": false
+    },
+    {
+      "id": "MelvorBase:AirBattlewand",
+      "name": "Air Battlewand",
+      "plural": "Air Battlewands",
+      "sellsFor": {
+        "Currency": "MelvorBase:GoldPieces",
+        "Quantity": 241
+      },
+      "ignoreCompletion": false
+    },
+    {
+      "id": "MelvorBase:WaterBattlewand",
+      "name": "Water Battlewand",
+      "plural": "Water Battlewands",
+      "sellsFor": {
+        "Currency": "MelvorBase:GoldPieces",
+        "Quantity": 254
+      },
+      "ignoreCompletion": false
+    },
+    {
+      "id": "MelvorBase:EarthBattlewand",
+      "name": "Earth Battlewand",
+      "plural": "Earth Battlewands",
+      "sellsFor": {
+        "Currency": "MelvorBase:GoldPieces",
+        "Quantity": 267
+      },
+      "ignoreCompletion": false
+    },
+    {
+      "id": "MelvorBase:FireBattlewand",
+      "name": "Fire Battlewand",
+      "plural": "Fire Battlewands",
+      "sellsFor": {
+        "Currency": "MelvorBase:GoldPieces",
+        "Quantity": 185
+      },
+      "ignoreCompletion": false
+    },
+    {
+      "id": "MelvorBase:MysticAirWand",
+      "name": "Mystic Air Wand",
+      "plural": "Mystic Air Wands",
+      "sellsFor": {
+        "Currency": "MelvorBase:GoldPieces",
+        "Quantity": 414
+      },
+      "ignoreCompletion": false
+    },
+    {
+      "id": "MelvorBase:MysticEarthWand",
+      "name": "Mystic Earth Wand",
+      "plural": "Mystic Earth Wands",
+      "sellsFor": {
+        "Currency": "MelvorBase:GoldPieces",
+        "Quantity": 477
+      },
+      "ignoreCompletion": false
+    },
+    {
+      "id": "MelvorBase:MysticWaterStaff",
+      "name": "Mystic Water Staff",
+      "plural": "Mystic Water Staves",
+      "sellsFor": {
+        "Currency": "MelvorBase:GoldPieces",
+        "Quantity": 734
+      },
+      "ignoreCompletion": false
+    },
+    {
+      "id": "MelvorBase:BasicWizardHat",
+      "name": "Basic Wizard Hat",
+      "plural": "Basic Wizard Hats",
+      "sellsFor": {
+        "Currency": "MelvorBase:GoldPieces",
+        "Quantity": 16
+      },
+      "ignoreCompletion": false
+    },
+    {
+      "id": "MelvorBase:BasicWizardBoots",
+      "name": "Basic Wizard Boots",
+      "plural": "Basic Wizard Boots",
+      "sellsFor": {
+        "Currency": "MelvorBase:GoldPieces",
+        "Quantity": 19
+      },
+      "ignoreCompletion": false
+    },
+    {
+      "id": "MelvorBase:BasicWizardBottoms",
+      "name": "Basic Wizard Bottoms",
+      "plural": "Basic Wizard Bottoms",
+      "sellsFor": {
+        "Currency": "MelvorBase:GoldPieces",
+        "Quantity": 28
+      },
+      "ignoreCompletion": false
+    },
+    {
+      "id": "MelvorBase:BasicWizardRobes",
+      "name": "Basic Wizard Robe",
+      "plural": "Basic Wizard Robes",
+      "sellsFor": {
+        "Currency": "MelvorBase:GoldPieces",
+        "Quantity": 40
+      },
+      "ignoreCompletion": false
+    },
+    {
+      "id": "MelvorBase:AdeptWizardHat",
+      "name": "Adept Wizard Hat",
+      "plural": "Adept Wizard Hats",
+      "sellsFor": {
+        "Currency": "MelvorBase:GoldPieces",
+        "Quantity": 59
+      },
+      "ignoreCompletion": false
+    },
+    {
+      "id": "MelvorBase:AdeptWizardBoots",
+      "name": "Adept Wizard Boots",
+      "plural": "Adept Wizard Boots",
+      "sellsFor": {
+        "Currency": "MelvorBase:GoldPieces",
+        "Quantity": 74
+      },
+      "ignoreCompletion": false
+    },
+    {
+      "id": "MelvorBase:AdeptWizardBottoms",
+      "name": "Adept Wizard Bottoms",
+      "plural": "Adept Wizard Bottoms",
+      "sellsFor": {
+        "Currency": "MelvorBase:GoldPieces",
+        "Quantity": 105
+      },
+      "ignoreCompletion": false
+    },
+    {
+      "id": "MelvorBase:AdeptWizardRobes",
+      "name": "Adept Wizard Robe",
+      "plural": "Adept Wizard Robes",
+      "sellsFor": {
+        "Currency": "MelvorBase:GoldPieces",
+        "Quantity": 142
+      },
+      "ignoreCompletion": false
+    },
+    {
+      "id": "MelvorBase:DustWizardHat",
+      "name": "Dust Wizard Hat",
+      "plural": "Dust Wizard Hats",
+      "sellsFor": {
+        "Currency": "MelvorBase:GoldPieces",
+        "Quantity": 167
+      },
+      "ignoreCompletion": false
+    },
+    {
+      "id": "MelvorBase:SteamWizardBoots",
+      "name": "Steam Wizard Boots",
+      "plural": "Steam Wizard Boots",
+      "sellsFor": {
+        "Currency": "MelvorBase:GoldPieces",
+        "Quantity": 167
+      },
+      "ignoreCompletion": false
+    },
+    {
+      "id": "MelvorBase:DustWizardBottoms",
+      "name": "Dust Wizard Bottoms",
+      "plural": "Dust Wizard Bottoms",
+      "sellsFor": {
+        "Currency": "MelvorBase:GoldPieces",
+        "Quantity": 222
+      },
+      "ignoreCompletion": false
+    },
+    {
+      "id": "MelvorBase:SteamWizardRobes",
+      "name": "Steam Wizard Robe",
+      "plural": "Steam Wizard Robes",
+      "sellsFor": {
+        "Currency": "MelvorBase:GoldPieces",
+        "Quantity": 301
+      },
+      "ignoreCompletion": false
+    },
+    {
+      "id": "MelvorBase:SteamWizardHat",
+      "name": "Steam Wizard Hat",
+      "plural": "Steam Wizard Hats",
+      "sellsFor": {
+        "Currency": "MelvorBase:GoldPieces",
+        "Quantity": 175
+      },
+      "ignoreCompletion": false
+    },
+    {
+      "id": "MelvorBase:DustWizardBoots",
+      "name": "Dust Wizard Boots",
+      "plural": "Dust Wizard Boots",
+      "sellsFor": {
+        "Currency": "MelvorBase:GoldPieces",
+        "Quantity": 175
+      },
+      "ignoreCompletion": false
+    },
+    {
+      "id": "MelvorBase:SteamWizardBottoms",
+      "name": "Steam Wizard Bottoms",
+      "plural": "Steam Wizard Bottoms",
+      "sellsFor": {
+        "Currency": "MelvorBase:GoldPieces",
+        "Quantity": 222
+      },
+      "ignoreCompletion": false
+    },
+    {
+      "id": "MelvorBase:DustWizardRobes",
+      "name": "Dust Wizard Robe",
+      "plural": "Dust Wizard Robes",
+      "sellsFor": {
+        "Currency": "MelvorBase:GoldPieces",
+        "Quantity": 301
+      },
+      "ignoreCompletion": false
+    },
+    {
+      "id": "MelvorBase:BirdNest",
+      "name": "Bird Nest",
+      "plural": "Bird Nests",
+      "sellsFor": {
+        "Currency": "MelvorBase:GoldPieces",
+        "Quantity": 28
+      },
+      "ignoreCompletion": false
+    },
+    {
+      "id": "MelvorBase:EmptyBirdNest",
+      "name": "Empty Bird Nest",
+      "plural": "Empty Bird Nests",
+      "sellsFor": {
+        "Currency": "MelvorBase:GoldPieces",
+        "Quantity": 28
+      },
+      "ignoreCompletion": false
+    },
+    {
+      "id": "MelvorBase:EagleNest",
+      "name": "Eagle Nest",
+      "plural": "Eagle Nests",
+      "sellsFor": {
+        "Currency": "MelvorBase:GoldPieces",
+        "Quantity": 537
+      },
+      "ignoreCompletion": false
+    },
+    {
+      "id": "MelvorBase:EmptyEagleNest",
+      "name": "Empty Eagle Nest",
+      "plural": "Empty Eagle Nests",
+      "sellsFor": {
+        "Currency": "MelvorBase:GoldPieces",
+        "Quantity": 537
+      },
+      "ignoreCompletion": false
+    },
+    {
+      "id": "MelvorBase:LemonChest",
+      "name": "Lemon Chest",
+      "plural": "Lemon Chests",
+      "sellsFor": {
+        "Currency": "MelvorBase:GoldPieces",
+        "Quantity": 1123
+      },
+      "ignoreCompletion": false
+    },
+    {
+      "id": "MelvorBase:Potato",
+      "name": "Potato",
+      "plural": "Potatoes",
+      "sellsFor": {
+        "Currency": "MelvorBase:GoldPieces",
+        "Quantity": 2
+      },
+      "ignoreCompletion": false
+    },
+    {
+      "id": "MelvorBase:Onion",
+      "name": "Onion",
+      "plural": "Onions",
+      "sellsFor": {
+        "Currency": "MelvorBase:GoldPieces",
+        "Quantity": 3
+      },
+      "ignoreCompletion": false
+    },
+    {
+      "id": "MelvorBase:Lettuce",
+      "name": "Lettuce",
+      "plural": "Lettuce",
+      "sellsFor": {
+        "Currency": "MelvorBase:GoldPieces",
+        "Quantity": 4
+      },
+      "ignoreCompletion": false
+    },
+    {
+      "id": "MelvorBase:Strawberry",
+      "name": "Strawberry",
+      "plural": "Strawberries",
+      "sellsFor": {
+        "Currency": "MelvorBase:GoldPieces",
+        "Quantity": 6
+      },
+      "ignoreCompletion": false
+    },
+    {
+      "id": "MelvorBase:Garlic",
+      "name": "Garlic",
+      "plural": "Garlic",
+      "sellsFor": {
+        "Currency": "MelvorBase:GoldPieces",
+        "Quantity": 6
+      },
+      "ignoreCompletion": false
+    },
+    {
+      "id": "MelvorBase:Corn",
+      "name": "Corn",
+      "plural": "Corn",
+      "sellsFor": {
+        "Currency": "MelvorBase:GoldPieces",
+        "Quantity": 8
+      },
+      "ignoreCompletion": false
+    },
+    {
+      "id": "MelvorBase:Watermelon",
+      "name": "Watermelon",
+      "plural": "Watermelons",
+      "sellsFor": {
+        "Currency": "MelvorBase:GoldPieces",
+        "Quantity": 18
+      },
+      "ignoreCompletion": false
+    },
+    {
+      "id": "MelvorBase:SnapeGrass",
+      "name": "Snape Grass",
+      "plural": "Snape Grass",
+      "sellsFor": {
+        "Currency": "MelvorBase:GoldPieces",
+        "Quantity": 11
+      },
+      "ignoreCompletion": false
+    },
+    {
+      "id": "MelvorBase:Pumpkin",
+      "name": "Pumpkin",
+      "plural": "Pumpkins",
+      "sellsFor": {
+        "Currency": "MelvorBase:GoldPieces",
+        "Quantity": 57
+      },
+      "ignoreCompletion": false
+    },
+    {
+      "id": "MelvorBase:PenrilHerb",
+      "name": "Penril Herb",
+      "plural": "Penril Herbs",
+      "sellsFor": {
+        "Currency": "MelvorBase:GoldPieces",
+        "Quantity": 5
+      },
+      "ignoreCompletion": false
+    },
+    {
+      "id": "MelvorBase:SourweedHerb",
+      "name": "Sourweed Herb",
+      "plural": "Sourweed Herbs",
+      "sellsFor": {
+        "Currency": "MelvorBase:GoldPieces",
+        "Quantity": 7
+      },
+      "ignoreCompletion": false
+    },
+    {
+      "id": "MelvorBase:MantalymeHerb",
+      "name": "Mantalyme Herb",
+      "plural": "Mantalyme Herbs",
+      "sellsFor": {
+        "Currency": "MelvorBase:GoldPieces",
+        "Quantity": 9
+      },
+      "ignoreCompletion": false
+    },
+    {
+      "id": "MelvorBase:NomelHerb",
+      "name": "Nomel Herb",
+      "plural": "Nomel Herbs",
+      "sellsFor": {
+        "Currency": "MelvorBase:GoldPieces",
+        "Quantity": 9
+      },
+      "ignoreCompletion": false
+    },
+    {
+      "id": "MelvorBase:OxilymeHerb",
+      "name": "Oxilyme Herb",
+      "plural": "Oxilyme Herbs",
+      "sellsFor": {
+        "Currency": "MelvorBase:GoldPieces",
+        "Quantity": 8
+      },
+      "ignoreCompletion": false
+    },
+    {
+      "id": "MelvorBase:Banana",
+      "name": "Banana",
+      "plural": "Bananas",
+      "sellsFor": {
+        "Currency": "MelvorBase:GoldPieces",
+        "Quantity": 23
+      },
+      "ignoreCompletion": false
+    },
+    {
+      "id": "MelvorBase:Apple",
+      "name": "Apple",
+      "plural": "Apples",
+      "sellsFor": {
+        "Currency": "MelvorBase:GoldPieces",
+        "Quantity": 14
+      },
+      "ignoreCompletion": false
+    },
+    {
+      "id": "MelvorBase:PotatoSeed",
+      "name": "Potato Seed",
+      "plural": "Potato Seeds",
+      "sellsFor": {
+        "Currency": "MelvorBase:GoldPieces",
+        "Quantity": 1
+      },
+      "ignoreCompletion": false
+    },
+    {
+      "id": "MelvorBase:OnionSeed",
+      "name": "Onion Seed",
+      "plural": "Onion Seeds",
+      "sellsFor": {
+        "Currency": "MelvorBase:GoldPieces",
+        "Quantity": 2
+      },
+      "ignoreCompletion": false
+    },
+    {
+      "id": "MelvorBase:LettuceSeed",
+      "name": "Lettuce Seed",
+      "plural": "Lettuce Seeds",
+      "sellsFor": {
+        "Currency": "MelvorBase:GoldPieces",
+        "Quantity": 5
+      },
+      "ignoreCompletion": false
+    },
+    {
+      "id": "MelvorBase:StrawberrySeed",
+      "name": "Strawberry Seed",
+      "plural": "Strawberry Seeds",
+      "sellsFor": {
+        "Currency": "MelvorBase:GoldPieces",
+        "Quantity": 11
+      },
+      "ignoreCompletion": false
+    },
+    {
+      "id": "MelvorBase:WheatSeed",
+      "name": "Wheat Seed",
+      "plural": "Wheat Seeds",
+      "sellsFor": {
+        "Currency": "MelvorBase:GoldPieces",
+        "Quantity": 15
+      },
+      "ignoreCompletion": false
+    },
+    {
+      "id": "MelvorBase:SugarcaneStalk",
+      "name": "Sugarcane Stalk",
+      "plural": "Sugarcane Stalks",
+      "sellsFor": {
+        "Currency": "MelvorBase:GoldPieces",
+        "Quantity": 15
+      },
+      "ignoreCompletion": false
+    },
+    {
+      "id": "MelvorBase:GarlicSeed",
+      "name": "Garlic Seed",
+      "plural": "Garlic Seeds",
+      "sellsFor": {
+        "Currency": "MelvorBase:GoldPieces",
+        "Quantity": 6
+      },
+      "ignoreCompletion": false
+    },
+    {
+      "id": "MelvorBase:CornSeed",
+      "name": "Corn Seed",
+      "plural": "Corn Seeds",
+      "sellsFor": {
+        "Currency": "MelvorBase:GoldPieces",
+        "Quantity": 16
+      },
+      "ignoreCompletion": false
+    },
+    {
+      "id": "MelvorBase:WatermelonSeed",
+      "name": "Watermelon Seed",
+      "plural": "Watermelon Seeds",
+      "sellsFor": {
+        "Currency": "MelvorBase:GoldPieces",
+        "Quantity": 29
+      },
+      "ignoreCompletion": false
+    },
+    {
+      "id": "MelvorBase:SnapeGrassSeed",
+      "name": "Snape Grass Seed",
+      "plural": "Snape Grass Seeds",
+      "sellsFor": {
+        "Currency": "MelvorBase:GoldPieces",
+        "Quantity": 36
+      },
+      "ignoreCompletion": false
+    },
+    {
+      "id": "MelvorBase:TomatoSeed",
+      "name": "Tomato Seed",
+      "plural": "Tomato Seeds",
+      "sellsFor": {
+        "Currency": "MelvorBase:GoldPieces",
+        "Quantity": 81
+      },
+      "ignoreCompletion": false
+    },
+    {
+      "id": "MelvorBase:CarrotSeed",
+      "name": "Carrot Seed",
+      "plural": "Carrot Seeds",
+      "sellsFor": {
+        "Currency": "MelvorBase:GoldPieces",
+        "Quantity": 113
+      },
+      "ignoreCompletion": false
+    },
+    {
+      "id": "MelvorBase:PumpkinSeed",
+      "name": "Pumpkin Seed",
+      "plural": "Pumpkin Seeds",
+      "sellsFor": {
+        "Currency": "MelvorBase:GoldPieces",
+        "Quantity": 170
+      },
+      "ignoreCompletion": false
+    },
+    {
+      "id": "MelvorBase:BlackGrapeSeed",
+      "name": "Black Grape Seed",
+      "plural": "Black Grape Seeds",
+      "sellsFor": {
+        "Currency": "MelvorBase:GoldPieces",
+        "Quantity": 406
+      },
+      "ignoreCompletion": false
+    },
+    {
+      "id": "MelvorBase:CabbageSeed",
+      "name": "Cabbage Seed",
+      "plural": "Cabbage Seeds",
+      "sellsFor": {
+        "Currency": "MelvorBase:GoldPieces",
+        "Quantity": 134
+      },
+      "ignoreCompletion": false
+    },
+    {
+      "id": "MelvorBase:CauliflowerSeed",
+      "name": "Cauliflower Seed",
+      "plural": "Cauliflower Seeds",
+      "sellsFor": {
+        "Currency": "MelvorBase:GoldPieces",
+        "Quantity": 741
+      },
+      "ignoreCompletion": false
+    },
+    {
+      "id": "MelvorBase:PenrilHerbSeed",
+      "name": "Penril Herb Seed",
+      "plural": "Penril Herb Seeds",
+      "sellsFor": {
+        "Currency": "MelvorBase:GoldPieces",
+        "Quantity": 10
+      },
+      "ignoreCompletion": false
+    },
+    {
+      "id": "MelvorBase:SourweedHerbSeed",
+      "name": "Sourweed Herb Seed",
+      "plural": "Sourweed Herb Seeds",
+      "sellsFor": {
+        "Currency": "MelvorBase:GoldPieces",
+        "Quantity": 11
+      },
+      "ignoreCompletion": false
+    },
+    {
+      "id": "MelvorBase:MantalymeHerbSeed",
+      "name": "Mantalyme Herb Seed",
+      "plural": "Mantalyme Herb Seeds",
+      "sellsFor": {
+        "Currency": "MelvorBase:GoldPieces",
+        "Quantity": 32
+      },
+      "ignoreCompletion": false
+    },
+    {
+      "id": "MelvorBase:NomelHerbSeed",
+      "name": "Nomel Herb Seed",
+      "plural": "Nomel Herb Seeds",
+      "sellsFor": {
+        "Currency": "MelvorBase:GoldPieces",
+        "Quantity": 65
+      },
+      "ignoreCompletion": false
+    },
+    {
+      "id": "MelvorBase:OxilymeHerbSeed",
+      "name": "Oxilyme Herb Seed",
+      "plural": "Oxilyme Herb Seeds",
+      "sellsFor": {
+        "Currency": "MelvorBase:GoldPieces",
+        "Quantity": 74
+      },
+      "ignoreCompletion": false
+    },
+    {
+      "id": "MelvorBase:SporlyleHerbSeed",
+      "name": "Sporlyle Herb Seed",
+      "plural": "Sporlyle Herb Seeds",
+      "sellsFor": {
+        "Currency": "MelvorBase:GoldPieces",
+        "Quantity": 113
+      },
+      "ignoreCompletion": false
+    },
+    {
+      "id": "MelvorBase:LarxHerbSeed",
+      "name": "Larx Herb Seed",
+      "plural": "Larx Herb Seeds",
+      "sellsFor": {
+        "Currency": "MelvorBase:GoldPieces",
+        "Quantity": 223
+      },
+      "ignoreCompletion": false
+    },
+    {
+      "id": "MelvorBase:BananaTreeSeed",
+      "name": "Banana Tree Seed",
+      "plural": "Banana Tree Seeds",
+      "sellsFor": {
+        "Currency": "MelvorBase:GoldPieces",
+        "Quantity": 162
+      },
+      "ignoreCompletion": false
+    },
+    {
+      "id": "MelvorBase:AppleTreeSeed",
+      "name": "Apple Tree Seed",
+      "plural": "Apple Tree Seeds",
+      "sellsFor": {
+        "Currency": "MelvorBase:GoldPieces",
+        "Quantity": 270
+      },
+      "ignoreCompletion": false
+    },
+    {
+      "id": "MelvorBase:CherryTreeSeed",
+      "name": "Cherry Tree Seed",
+      "plural": "Cherry Tree Seeds",
+      "sellsFor": {
+        "Currency": "MelvorBase:GoldPieces",
+        "Quantity": 405
+      },
+      "ignoreCompletion": false
+    },
+    {
+      "id": "MelvorBase:SunflowerSeed",
+      "name": "Sunflower Seed",
+      "plural": "Sunflower Seeds",
+      "sellsFor": {
+        "Currency": "MelvorBase:GoldPieces",
+        "Quantity": 1609
+      },
+      "ignoreCompletion": false
+    },
+    {
+      "id": "MelvorBase:MarigoldSeed",
+      "name": "Marigold Seed",
+      "plural": "Marigold Seeds",
+      "sellsFor": {
+        "Currency": "MelvorBase:GoldPieces",
+        "Quantity": 3217
+      },
+      "ignoreCompletion": false
+    },
+    {
+      "id": "MelvorBase:NasturtiumSeed",
+      "name": "Nasturtium Seed",
+      "plural": "Nasturtium Seeds",
+      "sellsFor": {
+        "Currency": "MelvorBase:GoldPieces",
+        "Quantity": 6434
+      },
+      "ignoreCompletion": false
+    },
+    {
+      "id": "MelvorBase:RosemarySeed",
+      "name": "Rosemary Seed",
+      "plural": "Rosemary Seeds",
+      "sellsFor": {
+        "Currency": "MelvorBase:GoldPieces",
+        "Quantity": 16084
+      },
+      "ignoreCompletion": false
+    },
+    {
+      "id": "MelvorBase:WhiteLilySeed",
+      "name": "White Lily Seed",
+      "plural": "White Lily Seeds",
+      "sellsFor": {
+        "Currency": "MelvorBase:GoldPieces",
+        "Quantity": 170369
+      },
+      "ignoreCompletion": false
+    },
+    {
+      "id": "MelvorBase:ChamomileSeed",
+      "name": "Chamomile Seed",
+      "plural": "Chamomile Seeds",
+      "sellsFor": {
+        "Currency": "MelvorBase:GoldPieces",
+        "Quantity": 397527
+      },
+      "ignoreCompletion": false
+    },
+    {
+      "id": "MelvorBase:Wine",
+      "name": "Wine",
+      "plural": "Wine",
+      "sellsFor": {
+        "Currency": "MelvorBase:GoldPieces",
+        "Quantity": 20
+      },
+      "ignoreCompletion": false
+    },
+    {
+      "id": "MelvorBase:Compost",
+      "name": "Compost",
+      "plural": "Compost",
+      "sellsFor": {
+        "Currency": "MelvorBase:GoldPieces",
+        "Quantity": 1
+      },
+      "ignoreCompletion": false
+    },
+    {
+      "id": "MelvorBase:SuperCompost",
+      "name": "Super Compost",
+      "plural": "Super Compost",
+      "sellsFor": {
+        "Currency": "MelvorBase:GoldPieces",
+        "Quantity": 1
+      },
+      "ignoreCompletion": false
+    },
+    {
+      "id": "MelvorBase:Fertiliser",
+      "name": "Fertiliser",
+      "plural": "Fertiliser",
+      "sellsFor": {
+        "Currency": "MelvorBase:GoldPieces",
+        "Quantity": 1
+      },
+      "ignoreCompletion": false
+    },
+    {
+      "id": "MelvorBase:Shrimp",
+      "name": "Shrimp",
+      "plural": "Shrimp",
+      "sellsFor": {
+        "Currency": "MelvorBase:GoldPieces",
+        "Quantity": 8
+      },
+      "ignoreCompletion": false
+    },
+    {
+      "id": "MelvorBase:Sardine",
+      "name": "Sardine",
+      "plural": "Sardines",
+      "sellsFor": {
+        "Currency": "MelvorBase:GoldPieces",
+        "Quantity": 22
+      },
+      "ignoreCompletion": false
+    },
+    {
+      "id": "MelvorBase:Herring",
+      "name": "Herring",
+      "plural": "Herring",
+      "sellsFor": {
+        "Currency": "MelvorBase:GoldPieces",
+        "Quantity": 28
+      },
+      "ignoreCompletion": false
+    },
+    {
+      "id": "MelvorBase:Trout",
+      "name": "Trout",
+      "plural": "Trout",
+      "sellsFor": {
+        "Currency": "MelvorBase:GoldPieces",
+        "Quantity": 66
+      },
+      "ignoreCompletion": false
+    },
+    {
+      "id": "MelvorBase:Salmon",
+      "name": "Salmon",
+      "plural": "Salmon",
+      "sellsFor": {
+        "Currency": "MelvorBase:GoldPieces",
+        "Quantity": 103
+      },
+      "ignoreCompletion": false
+    },
+    {
+      "id": "MelvorBase:Lobster",
+      "name": "Lobster",
+      "plural": "Lobsters",
+      "sellsFor": {
+        "Currency": "MelvorBase:GoldPieces",
+        "Quantity": 113
+      },
+      "ignoreCompletion": false
+    },
+    {
+      "id": "MelvorBase:Perch",
+      "name": "Perch",
+      "plural": "Perch",
+      "sellsFor": {
+        "Currency": "MelvorBase:GoldPieces",
+        "Quantity": 48
+      },
+      "ignoreCompletion": false
+    },
+    {
+      "id": "MelvorBase:Mackerel",
+      "name": "Mackerel",
+      "plural": "Mackerel",
+      "sellsFor": {
+        "Currency": "MelvorBase:GoldPieces",
+        "Quantity": 34
+      },
+      "ignoreCompletion": false
+    },
+    {
+      "id": "MelvorBase:Pike",
+      "name": "Pike",
+      "plural": "Pike",
+      "sellsFor": {
+        "Currency": "MelvorBase:GoldPieces",
+        "Quantity": 99
+      },
+      "ignoreCompletion": false
+    },
+    {
+      "id": "MelvorBase:Glowfin",
+      "name": "Glowfin",
+      "plural": "Glowfins",
+      "sellsFor": {
+        "Currency": "MelvorBase:GoldPieces",
+        "Quantity": 54
+      },
+      "ignoreCompletion": false
+    },
+    {
+      "id": "MelvorBase:SeaBream",
+      "name": "Sea Bream",
+      "plural": "Sea Bream",
+      "sellsFor": {
+        "Currency": "MelvorBase:GoldPieces",
+        "Quantity": 126
+      },
+      "ignoreCompletion": false
+    },
+    {
+      "id": "MelvorBase:BasicBait",
+      "name": "Basic Bait",
+      "plural": "Basic Bait",
+      "sellsFor": {
+        "Currency": "MelvorBase:GoldPieces",
+        "Quantity": 1
+      },
+      "ignoreCompletion": false
+    },
+    {
+      "id": "MelvorBase:MackerelBait",
+      "name": "Mackerel Bait",
+      "plural": "Mackerel Bait",
+      "sellsFor": {
+        "Currency": "MelvorBase:GoldPieces",
+        "Quantity": 1
+      },
+      "ignoreCompletion": false
+    },
+    {
+      "id": "MelvorBase:GlowfinBait",
+      "name": "Glowfin Bait",
+      "plural": "Glowfin Bait",
+      "sellsFor": {
+        "Currency": "MelvorBase:GoldPieces",
+        "Quantity": 1
+      },
+      "ignoreCompletion": false
+    },
+    {
+      "id": "MelvorBase:GiantFishBait",
+      "name": "Giant Fish Bait",
+      "plural": "Giant Fish Bait",
+      "sellsFor": {
+        "Currency": "MelvorBase:GoldPieces",
+        "Quantity": 19
+      },
+      "ignoreCompletion": false
+    },
+    {
+      "id": "MelvorBase:Grain",
+      "name": "Grain",
+      "plural": "Grain",
+      "sellsFor": {
+        "Currency": "MelvorBase:GoldPieces",
+        "Quantity": 1
+      },
+      "ignoreCompletion": false
+    },
+    {
+      "id": "MelvorBase:Bone",
+      "name": "Bone",
+      "plural": "Bones",
+      "sellsFor": {
+        "Currency": "MelvorBase:GoldPieces",
+        "Quantity": 2
+      },
+      "ignoreCompletion": false
+    },
+    {
+      "id": "MelvorBase:Silk",
+      "name": "Silk",
+      "plural": "Silk",
+      "sellsFor": {
+        "Currency": "MelvorBase:GoldPieces",
+        "Quantity": 2
+      },
+      "ignoreCompletion": false
+    },
+    {
+      "id": "MelvorBase:Cowhide",
+      "name": "Cowhide",
+      "plural": "Cowhide",
+      "sellsFor": {
+        "Currency": "MelvorBase:GoldPieces",
+        "Quantity": 8
+      },
+      "ignoreCompletion": false
+    },
+    {
+      "id": "MelvorBase:Wool",
+      "name": "Wool",
+      "plural": "Wool",
+      "sellsFor": {
+        "Currency": "MelvorBase:GoldPieces",
+        "Quantity": 3
+      },
+      "ignoreCompletion": false
+    },
+    {
+      "id": "MelvorBase:Honey",
+      "name": "Honey",
+      "plural": "Honey",
+      "sellsFor": {
+        "Currency": "MelvorBase:GoldPieces",
+        "Quantity": 1
+      },
+      "ignoreCompletion": false
+    },
+    {
+      "id": "MelvorBase:Beeswax",
+      "name": "Beeswax",
+      "plural": "Beeswax",
+      "sellsFor": {
+        "Currency": "MelvorBase:GoldPieces",
+        "Quantity": 1
+      },
+      "ignoreCompletion": false
+    },
+    {
+      "id": "MelvorBase:Sunflower",
+      "name": "Sunflower",
+      "plural": "Sunflowers",
+      "sellsFor": {
+        "Currency": "MelvorBase:GoldPieces",
+        "Quantity": 1
+      },
+      "ignoreCompletion": false
+    },
+    {
+      "id": "MelvorBase:MarigoldFlower",
+      "name": "Marigold Flower",
+      "plural": "Marigold Flowers",
+      "sellsFor": {
+        "Currency": "MelvorBase:GoldPieces",
+        "Quantity": 1
+      },
+      "ignoreCompletion": false
+    },
+    {
+      "id": "MelvorBase:RosemaryFlower",
+      "name": "Rosemary Flower",
+      "plural": "Rosemary Flowers",
+      "sellsFor": {
+        "Currency": "MelvorBase:GoldPieces",
+        "Quantity": 1
+      },
+      "ignoreCompletion": false
+    },
+    {
+      "id": "MelvorBase:WolfFang",
+      "name": "Wolf Fang",
+      "plural": "Wolf Fangs",
+      "sellsFor": {
+        "Currency": "MelvorBase:GoldPieces",
+        "Quantity": 3
+      },
+      "ignoreCompletion": false
+    },
+    {
+      "id": "MelvorBase:WolfFur",
+      "name": "Wolf Fur",
+      "plural": "Wolf Fur",
+      "sellsFor": {
+        "Currency": "MelvorBase:GoldPieces",
+        "Quantity": 41
+      },
+      "ignoreCompletion": false
+    },
+    {
+      "id": "MelvorBase:SmallGreenDragonscale",
+      "name": "Small Green Dragonscale",
+      "plural": "Small Green Dragonscales",
+      "sellsFor": {
+        "Currency": "MelvorBase:GoldPieces",
+        "Quantity": 1
+      },
+      "ignoreCompletion": false
+    },
+    {
+      "id": "MelvorBase:Wheat",
+      "name": "Wheat",
+      "plural": "Wheat",
+      "sellsFor": {
+        "Currency": "MelvorBase:GoldPieces",
+        "Quantity": 1
+      },
+      "ignoreCompletion": false
+    },
+    {
+      "id": "MelvorBase:Sugarcane",
+      "name": "Sugarcane",
+      "plural": "Sugarcane",
+      "sellsFor": {
+        "Currency": "MelvorBase:GoldPieces",
+        "Quantity": 1
+      },
+      "ignoreCompletion": false
+    },
+    {
+      "id": "MelvorBase:Sugar",
+      "name": "Sugar",
+      "plural": "Sugar",
+      "sellsFor": {
+        "Currency": "MelvorBase:GoldPieces",
+        "Quantity": 1
+      },
+      "ignoreCompletion": false
+    },
+    {
+      "id": "MelvorBase:Flour",
+      "name": "Flour",
+      "plural": "Flour",
+      "sellsFor": {
+        "Currency": "MelvorBase:GoldPieces",
+        "Quantity": 1
+      },
+      "ignoreCompletion": false
+    },
+    {
+      "id": "MelvorBase:Egg",
+      "name": "Egg",
+      "plural": "Eggs",
+      "sellsFor": {
+        "Currency": "MelvorBase:GoldPieces",
+        "Quantity": 1
+      },
+      "ignoreCompletion": false
+    },
+    {
+      "id": "MelvorBase:Milk",
+      "name": "Milk",
+      "plural": "Milk",
+      "sellsFor": {
+        "Currency": "MelvorBase:GoldPieces",
+        "Quantity": 1
+      },
+      "ignoreCompletion": false
+    },
+    {
+      "id": "MelvorBase:SweetDough",
+      "name": "Sweet Dough",
+      "plural": "Sweet Doughs",
+      "sellsFor": {
+        "Currency": "MelvorBase:GoldPieces",
+        "Quantity": 23
+      },
+      "ignoreCompletion": false
+    },
+    {
+      "id": "MelvorBase:BeefSandwich",
+      "name": "Beef Sandwich",
+      "plural": "Beef Sandwiches",
+      "sellsFor": {
+        "Currency": "MelvorBase:GoldPieces",
+        "Quantity": 104
+      },
+      "ignoreCompletion": false
+    },
+    {
+      "id": "MelvorBase:ApplePie",
+      "name": "Apple Pie",
+      "plural": "Apple Pies",
+      "sellsFor": {
+        "Currency": "MelvorBase:GoldPieces",
+        "Quantity": 143
+      },
+      "ignoreCompletion": false
+    },
+    {
+      "id": "MelvorBase:CakeBase",
+      "name": "Cake Base",
+      "plural": "Cake Bases",
+      "sellsFor": {
+        "Currency": "MelvorBase:GoldPieces",
+        "Quantity": 27
+      },
+      "ignoreCompletion": false
+    },
+    {
+      "id": "MelvorBase:SoupBase",
+      "name": "Soup Base",
+      "plural": "Soup Bases",
+      "sellsFor": {
+        "Currency": "MelvorBase:GoldPieces",
+        "Quantity": 35
+      },
+      "ignoreCompletion": false
+    },
+    {
+      "id": "MelvorBase:SushiBase",
+      "name": "Sushi Base",
+      "plural": "Sushi Base",
+      "sellsFor": {
+        "Currency": "MelvorBase:GoldPieces",
+        "Quantity": 22
+      },
+      "ignoreCompletion": false
+    },
+    {
+      "id": "MelvorBase:ChickenSandwich",
+      "name": "Chicken Sandwich",
+      "plural": "Chicken Sandwiches",
+      "sellsFor": {
+        "Currency": "MelvorBase:GoldPieces",
+        "Quantity": 168
+      },
+      "ignoreCompletion": false
+    },
+    {
+      "id": "MelvorBase:LobsterSandwich",
+      "name": "Lobster Sandwich",
+      "plural": "Lobster Sandwiches",
+      "sellsFor": {
+        "Currency": "MelvorBase:GoldPieces",
+        "Quantity": 160
+      },
+      "ignoreCompletion": false
+    },
+    {
+      "id": "MelvorBase:BananaPancake",
+      "name": "Banana Pancake",
+      "plural": "Banana Pancakes",
+      "sellsFor": {
+        "Currency": "MelvorBase:GoldPieces",
+        "Quantity": 161
+      },
+      "ignoreCompletion": false
+    },
+    {
+      "id": "MelvorBase:ApplePancake",
+      "name": "Apple Pancake",
+      "plural": "Apple Pancakes",
+      "sellsFor": {
+        "Currency": "MelvorBase:GoldPieces",
+        "Quantity": 109
+      },
+      "ignoreCompletion": false
+    },
+    {
+      "id": "MelvorBase:StrawberryCake",
+      "name": "Strawberry Cake",
+      "plural": "Strawberry Cakes",
+      "sellsFor": {
+        "Currency": "MelvorBase:GoldPieces",
+        "Quantity": 338
+      },
+      "ignoreCompletion": false
+    },
+    {
+      "id": "MelvorBase:BasicDough",
+      "name": "Basic Dough",
+      "plural": "Basic Doughs",
+      "sellsFor": {
+        "Currency": "MelvorBase:GoldPieces",
+        "Quantity": 2
+      },
+      "ignoreCompletion": false
+    },
+    {
+      "id": "MelvorBase:TroutSushi",
+      "name": "Trout Sushi",
+      "plural": "Trout Sushi",
+      "sellsFor": {
+        "Currency": "MelvorBase:GoldPieces",
+        "Quantity": 34
+      },
+      "ignoreCompletion": false
+    },
+    {
+      "id": "MelvorBase:SalmonSushi",
+      "name": "Salmon Sushi",
+      "plural": "Salmon Sushi",
+      "sellsFor": {
+        "Currency": "MelvorBase:GoldPieces",
+        "Quantity": 60
+      },
+      "ignoreCompletion": false
+    },
+    {
+      "id": "MelvorBase:SeedBait",
+      "name": "Seed Bait",
+      "plural": "Seed Bait",
+      "sellsFor": {
+        "Currency": "MelvorBase:GoldPieces",
+        "Quantity": 1
+      },
+      "ignoreCompletion": false
+    },
+    {
+      "id": "MelvorBase:VegeBait",
+      "name": "Vege Bait",
+      "plural": "Vege Bait",
+      "sellsFor": {
+        "Currency": "MelvorBase:GoldPieces",
+        "Quantity": 2
+      },
+      "ignoreCompletion": false
+    },
+    {
+      "id": "MelvorBase:HoneyBarkBait",
+      "name": "Honey Bark Bait",
+      "plural": "Honey Bark Bait",
+      "sellsFor": {
+        "Currency": "MelvorBase:GoldPieces",
+        "Quantity": 3
+      },
+      "ignoreCompletion": false
+    },
+    {
+      "id": "MelvorBase:MeatBait",
+      "name": "Meat Bait",
+      "plural": "Meat Bait",
+      "sellsFor": {
+        "Currency": "MelvorBase:GoldPieces",
+        "Quantity": 5
+      },
+      "ignoreCompletion": false
+    },
+    {
+      "id": "MelvorBase:BigBone",
+      "name": "Big Bone",
+      "plural": "Big Bones",
+      "sellsFor": {
+        "Currency": "MelvorBase:GoldPieces",
+        "Quantity": 8
+      },
+      "ignoreCompletion": false
+    },
+    {
+      "id": "MelvorBase:RabbitMeat",
+      "name": "Rabbit Meat",
+      "plural": "Rabbit Meats",
+      "sellsFor": {
+        "Currency": "MelvorBase:GoldPieces",
+        "Quantity": 128
+      },
+      "ignoreCompletion": false
+    },
+    {
+      "id": "MelvorBase:BasicSnare",
+      "name": "Basic Snare",
+      "plural": "Basic Snares",
+      "sellsFor": {
+        "Currency": "MelvorBase:GoldPieces",
+        "Quantity": 5
+      },
+      "ignoreCompletion": false
+    },
+    {
+      "id": "MelvorBase:ReinforcedSnare",
+      "name": "Reinforced Snare",
+      "plural": "Reinforced Snares",
+      "sellsFor": {
+        "Currency": "MelvorBase:GoldPieces",
+        "Quantity": 59
+      },
+      "ignoreCompletion": false
+    },
+    {
+      "id": "MelvorBase:BasicSmallBirdCatcher",
+      "name": "Basic Small Bird Catcher",
+      "plural": "Basic Small Bird Catchers",
+      "sellsFor": {
+        "Currency": "MelvorBase:GoldPieces",
+        "Quantity": 6
+      },
+      "ignoreCompletion": false
+    },
+    {
+      "id": "MelvorBase:ReinforcedSmallBirdCatcher",
+      "name": "Reinforced Small Bird Catcher",
+      "plural": "Reinforced Small Bird Catchers",
+      "sellsFor": {
+        "Currency": "MelvorBase:GoldPieces",
+        "Quantity": 50
+      },
+      "ignoreCompletion": false
+    },
+    {
+      "id": "MelvorBase:RabbitFur",
+      "name": "Rabbit Fur",
+      "plural": "Rabbit Fur",
+      "sellsFor": {
+        "Currency": "MelvorBase:GoldPieces",
+        "Quantity": 39
+      },
+      "ignoreCompletion": false
+    },
+    {
+      "id": "MelvorBase:RabbitFoot",
+      "name": "Rabbit Foot",
+      "plural": "Rabbit Foot",
+      "sellsFor": {
+        "Currency": "MelvorBase:GoldPieces",
+        "Quantity": 509
+      },
+      "ignoreCompletion": false
+    },
+    {
+      "id": "MelvorBase:ThornbackLizardSpike",
+      "name": "Thornback Lizard Spike",
+      "plural": "Thornback Lizard Spike",
+      "sellsFor": {
+        "Currency": "MelvorBase:GoldPieces",
+        "Quantity": 24
+      },
+      "ignoreCompletion": false
+    },
+    {
+      "id": "MelvorBase:GreenButterflyinaJar",
+      "name": "Green Butterfly in a Jar",
+      "plural": "Green Butterfly in a Jar",
+      "sellsFor": {
+        "Currency": "MelvorBase:GoldPieces",
+        "Quantity": 207
+      },
+      "ignoreCompletion": false
+    },
+    {
+      "id": "MelvorBase:ScampToadskin",
+      "name": "Scamp Toadskin",
+      "plural": "Scamp Toadskin",
+      "sellsFor": {
+        "Currency": "MelvorBase:GoldPieces",
+        "Quantity": 72
+      },
+      "ignoreCompletion": false
+    },
+    {
+      "id": "MelvorBase:SwampSnakeskin",
+      "name": "Swamp Snakeskin",
+      "plural": "Swamp Snakeskin",
+      "sellsFor": {
+        "Currency": "MelvorBase:GoldPieces",
+        "Quantity": 71
+      },
+      "ignoreCompletion": false
+    },
+    {
+      "id": "MelvorBase:SnakeFang",
+      "name": "Snake Fang",
+      "plural": "Snake Fang",
+      "sellsFor": {
+        "Currency": "MelvorBase:GoldPieces",
+        "Quantity": 60
+      },
+      "ignoreCompletion": false
+    },
+    {
+      "id": "MelvorBase:GreenToadskin",
+      "name": "Green Toadskin",
+      "plural": "Green Toadskin",
+      "sellsFor": {
+        "Currency": "MelvorBase:GoldPieces",
+        "Quantity": 57
+      },
+      "ignoreCompletion": false
+    },
+    {
+      "id": "MelvorBase:SkullButterflyinaJar",
+      "name": "Skull Butterfly in a Jar",
+      "plural": "Skull Butterfly in a Jar",
+      "sellsFor": {
+        "Currency": "MelvorBase:GoldPieces",
+        "Quantity": 604
+      },
+      "ignoreCompletion": false
+    },
+    {
+      "id": "MelvorBase:SpiderSilk",
+      "name": "Spider Silk",
+      "plural": "Spider Silk",
+      "sellsFor": {
+        "Currency": "MelvorBase:GoldPieces",
+        "Quantity": 44
+      },
+      "ignoreCompletion": false
+    },
+    {
+      "id": "MelvorBase:BroodlingEgg",
+      "name": "Broodling Egg",
+      "plural": "Broodling Egg",
+      "sellsFor": {
+        "Currency": "MelvorBase:GoldPieces",
+        "Quantity": 4
+      },
+      "ignoreCompletion": false
+    },
+    {
+      "id": "MelvorBase:WildebeastHorn",
+      "name": "Wildebeast Horn",
+      "plural": "Wildebeast Horn",
+      "sellsFor": {
+        "Currency": "MelvorBase:GoldPieces",
+        "Quantity": 71
+      },
+      "ignoreCompletion": false
+    },
+    {
+      "id": "MelvorBase:MagicDust",
+      "name": "Magic Dust",
+      "plural": "Magic Dust",
+      "sellsFor": {
+        "Currency": "MelvorBase:GoldPieces",
+        "Quantity": 44
+      },
+      "ignoreCompletion": false
+    },
+    {
+      "id": "MelvorBase:String",
+      "name": "String",
+      "plural": "String",
+      "sellsFor": {
+        "Currency": "MelvorBase:GoldPieces",
+        "Quantity": 1
+      },
+      "ignoreCompletion": false
+    },
+    {
+      "id": "MelvorBase:ReinforcedString",
+      "name": "Reinforced String",
+      "plural": "Reinforced String",
+      "sellsFor": {
+        "Currency": "MelvorBase:GoldPieces",
+        "Quantity": 6
+      },
+      "ignoreCompletion": false
+    },
+    {
+      "id": "MelvorBase:BasicNet",
+      "name": "Basic Net",
+      "plural": "Basic Net",
+      "sellsFor": {
+        "Currency": "MelvorBase:GoldPieces",
+        "Quantity": 14
+      },
+      "ignoreCompletion": false
+    },
+    {
+      "id": "MelvorBase:ReinforcedNet",
+      "name": "Reinforced Net",
+      "plural": "Reinforced Net",
+      "sellsFor": {
+        "Currency": "MelvorBase:GoldPieces",
+        "Quantity": 45
+      },
+      "ignoreCompletion": false
+    },
+    {
+      "id": "MelvorBase:BasicPitfallTrap",
+      "name": "Basic Pitfall Trap",
+      "plural": "Basic Pitfall Trap",
+      "sellsFor": {
+        "Currency": "MelvorBase:GoldPieces",
+        "Quantity": 45
+      },
+      "ignoreCompletion": false
+    },
+    {
+      "id": "MelvorBase:GlassJar",
+      "name": "Glass Jar",
+      "plural": "Glass Jar",
+      "sellsFor": {
+        "Currency": "MelvorBase:GoldPieces",
+        "Quantity": 7
+      },
+      "ignoreCompletion": false
+    },
+    {
+      "id": "MelvorBase:BasicButterflyKit",
+      "name": "Basic Butterfly Kit",
+      "plural": "Basic Butterfly Kits",
+      "sellsFor": {
+        "Currency": "MelvorBase:GoldPieces",
+        "Quantity": 16
+      },
+      "ignoreCompletion": false
+    },
+    {
+      "id": "MelvorBase:ReinforcedButterflyKit",
+      "name": "Reinforced Butterfly Kit",
+      "plural": "Reinforced Butterfly Kits",
+      "sellsFor": {
+        "Currency": "MelvorBase:GoldPieces",
+        "Quantity": 66
+      },
+      "ignoreCompletion": false
+    },
+    {
+      "id": "MelvorBase:TrackersBandI",
+      "name": "Trackers Band I",
+      "plural": "Trackers Band I",
+      "sellsFor": {
+        "Currency": "MelvorBase:GoldPieces",
+        "Quantity": 274
+      },
+      "ignoreCompletion": false
+    },
+    {
+      "id": "MelvorBase:TrackersBandII",
+      "name": "Trackers Band II",
+      "plural": "Trackers Band II",
+      "sellsFor": {
+        "Currency": "MelvorBase:GoldPieces",
+        "Quantity": 526
+      },
+      "ignoreCompletion": false
+    },
+    {
+      "id": "MelvorBase:TrackersBandIII",
+      "name": "Trackers Band III",
+      "plural": "Trackers Band III",
+      "sellsFor": {
+        "Currency": "MelvorBase:GoldPieces",
+        "Quantity": 602
+      },
+      "ignoreCompletion": false
+    },
+    {
+      "id": "MelvorBase:SnakeskinTrappingSatchel",
+      "name": "Snakeskin Trapping Satchel",
+      "plural": "Snakeskin Trapping Satchel",
+      "sellsFor": {
+        "Currency": "MelvorBase:GoldPieces",
+        "Quantity": 187
+      },
+      "ignoreCompletion": false
+    },
+    {
+      "id": "MelvorBase:SpiderSilkTrappingSatchel",
+      "name": "Spider Silk Trapping Satchel",
+      "plural": "Spider Silk Trapping Satchel",
+      "sellsFor": {
+        "Currency": "MelvorBase:GoldPieces",
+        "Quantity": 271
+      },
+      "ignoreCompletion": false
+    },
+    {
+      "id": "MelvorBase:BeastslayerHelmetI",
+      "name": "Beastslayer Helmet I",
+      "plural": "Beastslayer Helmet I",
+      "sellsFor": {
+        "Currency": "MelvorBase:GoldPieces",
+        "Quantity": 683
+      },
+      "ignoreCompletion": false
+    },
+    {
+      "id": "MelvorBase:SnakeskinCape",
+      "name": "Snakeskin Cape",
+      "plural": "Snakeskin Cape",
+      "sellsFor": {
+        "Currency": "MelvorBase:GoldPieces",
+        "Quantity": 389
+      },
+      "ignoreCompletion": false
+    },
+    {
+      "id": "MelvorBase:GreenToadskinShield",
+      "name": "Green Toadskin Shield",
+      "plural": "Green Toadskin Shield",
+      "sellsFor": {
+        "Currency": "MelvorBase:GoldPieces",
+        "Quantity": 276
+      },
+      "ignoreCompletion": false
+    },
+    {
+      "id": "MelvorBase:ElkAntlerHelmet",
+      "name": "Elk Antler Helmet",
+      "plural": "Elk Antler Helmet",
+      "sellsFor": {
+        "Currency": "MelvorBase:GoldPieces",
+        "Quantity": 296
+      },
+      "ignoreCompletion": false
+    },
+    {
+      "id": "MelvorBase:RabbitFootNecklace",
+      "name": "Rabbit Foot Necklace",
+      "plural": "Rabbit Foot Necklace",
+      "sellsFor": {
+        "Currency": "MelvorBase:GoldPieces",
+        "Quantity": 589
+      },
+      "ignoreCompletion": false
+    },
+    {
+      "id": "MelvorBase:SnakeFangRing",
+      "name": "Snake Fang Ring",
+      "plural": "Snake Fang Ring",
+      "sellsFor": {
+        "Currency": "MelvorBase:GoldPieces",
+        "Quantity": 276
+      },
+      "ignoreCompletion": false
+    },
+    {
+      "id": "MelvorBase:ToadskinAmulet",
+      "name": "Toadskin Amulet",
+      "plural": "Toadskin Amulet",
+      "sellsFor": {
+        "Currency": "MelvorBase:GoldPieces",
+        "Quantity": 431
+      },
+      "ignoreCompletion": false
+    },
+    {
+      "id": "MelvorBase:WolfFangAmulet",
+      "name": "Wolf Fang Amulet",
+      "plural": "Wolf Fang Amulet",
+      "sellsFor": {
+        "Currency": "MelvorBase:GoldPieces",
+        "Quantity": 401
+      },
+      "ignoreCompletion": false
+    },
+    {
+      "id": "MelvorBase:BoneArrow",
+      "name": "Bone Arrow",
+      "plural": "Bone Arrows",
+      "sellsFor": {
+        "Currency": "MelvorBase:GoldPieces",
+        "Quantity": 32
+      },
+      "ignoreCompletion": false
+    },
+    {
+      "id": "MelvorBase:BoneBolts",
+      "name": "Bone Bolts",
+      "plural": "Bone Bolts",
+      "sellsFor": {
+        "Currency": "MelvorBase:GoldPieces",
+        "Quantity": 52
+      },
+      "ignoreCompletion": false
+    },
+    {
+      "id": "MelvorBase:BoneCasing",
+      "name": "Bone Casing",
+      "plural": "Bone Casing",
+      "sellsFor": {
+        "Currency": "MelvorBase:GoldPieces",
+        "Quantity": 0
+      },
+      "ignoreCompletion": false
+    },
+    {
+      "id": "MelvorBase:RabbitOvenMitts",
+      "name": "Rabbit Oven Mitts",
+      "plural": "Rabbit Oven Mitts",
+      "sellsFor": {
+        "Currency": "MelvorBase:GoldPieces",
+        "Quantity": 1
+      },
+      "ignoreCompletion": false
+    },
+    {
+      "id": "MelvorBase:ThornbackSpikedNails",
+      "name": "Thornback Spiked Nails",
+      "plural": "Thornback Spiked Nails",
+      "sellsFor": {
+        "Currency": "MelvorBase:GoldPieces",
+        "Quantity": 1
+      },
+      "ignoreCompletion": false
+    },
+    {
+      "id": "MelvorBase:SnakeskinCoinbag",
+      "name": "Snakeskin Coinbag",
+      "plural": "Snakeskin Coinbag",
+      "sellsFor": {
+        "Currency": "MelvorBase:GoldPieces",
+        "Quantity": 1
+      },
+      "ignoreCompletion": false
+    },
+    {
+      "id": "MelvorBase:ElkAntlerChisel",
+      "name": "Elk Antler Chisel",
+      "plural": "Elk Antler Chisel",
+      "sellsFor": {
+        "Currency": "MelvorBase:GoldPieces",
+        "Quantity": 1
+      },
+      "ignoreCompletion": false
+    },
+    {
+      "id": "MelvorBase:ElkAntlerCarver",
+      "name": "Elk Antler Carver",
+      "plural": "Elk Antler Carver",
+      "sellsFor": {
+        "Currency": "MelvorBase:GoldPieces",
+        "Quantity": 1
+      },
+      "ignoreCompletion": false
+    },
+    {
+      "id": "MelvorBase:WolfFangKnife",
+      "name": "Wolf Fang Knife",
+      "plural": "Wolf Fang Knife",
+      "sellsFor": {
+        "Currency": "MelvorBase:GoldPieces",
+        "Quantity": 3
+      },
+      "ignoreCompletion": false
+    },
+    {
+      "id": "MelvorBase:SmallDragonBone",
+      "name": "Small Dragon Bone",
+      "plural": "Small Dragon Bone",
+      "sellsFor": {
+        "Currency": "MelvorBase:GoldPieces",
+        "Quantity": 105
+      },
+      "ignoreCompletion": false
+    },
+    {
+      "id": "MelvorBase:ElkHide",
+      "name": "Elk Hide",
+      "plural": "Elk Hide",
+      "sellsFor": {
+        "Currency": "MelvorBase:GoldPieces",
+        "Quantity": 48
+      },
+      "ignoreCompletion": false
+    },
+    {
+      "id": "MelvorBase:ElkLeather",
+      "name": "Elk Leather",
+      "plural": "Elk Leather",
+      "sellsFor": {
+        "Currency": "MelvorBase:GoldPieces",
+        "Quantity": 141
+      },
+      "ignoreCompletion": false
+    },
+    {
+      "id": "MelvorBase:ElkLeatherVambraces",
+      "name": "Elk Leather Vambraces",
+      "plural": "Elk Leather Vambraces",
+      "sellsFor": {
+        "Currency": "MelvorBase:GoldPieces",
+        "Quantity": 162
+      },
+      "ignoreCompletion": false
+    },
+    {
+      "id": "MelvorBase:ElkLeatherChaps",
+      "name": "Elk Leather Chaps",
+      "plural": "Elk Leather Chaps",
+      "sellsFor": {
+        "Currency": "MelvorBase:GoldPieces",
+        "Quantity": 346
+      },
+      "ignoreCompletion": false
+    },
+    {
+      "id": "MelvorBase:FurCamoHat",
+      "name": "Fur Camo Hat",
+      "plural": "Fur Camo Hat",
+      "sellsFor": {
+        "Currency": "MelvorBase:GoldPieces",
+        "Quantity": 48
+      },
+      "ignoreCompletion": false
+    },
+    {
+      "id": "MelvorBase:FurCamoLegs",
+      "name": "Fur Camo Legs",
+      "plural": "Fur Camo Legs",
+      "sellsFor": {
+        "Currency": "MelvorBase:GoldPieces",
+        "Quantity": 71
+      },
+      "ignoreCompletion": false
+    },
+    {
+      "id": "MelvorBase:FurCamoBody",
+      "name": "Fur Camo Body",
+      "plural": "Fur Camo Body",
+      "sellsFor": {
+        "Currency": "MelvorBase:GoldPieces",
+        "Quantity": 111
+      },
+      "ignoreCompletion": false
+    },
+    {
+      "id": "MelvorBase:ThornbackCamoHat",
+      "name": "Thornback Camo Hat",
+      "plural": "Thornback Camo Hat",
+      "sellsFor": {
+        "Currency": "MelvorBase:GoldPieces",
+        "Quantity": 268
+      },
+      "ignoreCompletion": false
+    },
+    {
+      "id": "MelvorBase:ThornbackCamoLegs",
+      "name": "Thornback Camo Legs",
+      "plural": "Thornback Camo Legs",
+      "sellsFor": {
+        "Currency": "MelvorBase:GoldPieces",
+        "Quantity": 416
+      },
+      "ignoreCompletion": false
+    },
+    {
+      "id": "MelvorBase:ThornbackCamoBody",
+      "name": "Thornback Camo Body",
+      "plural": "Thornback Camo Body",
+      "sellsFor": {
+        "Currency": "MelvorBase:GoldPieces",
+        "Quantity": 618
+      },
+      "ignoreCompletion": false
+    },
+    {
+      "id": "MelvorBase:FurTrappingSatchel",
+      "name": "Fur Trapping Satchel",
+      "plural": "Fur Trapping Satchel",
+      "sellsFor": {
+        "Currency": "MelvorBase:GoldPieces",
+        "Quantity": 73
+      },
+      "ignoreCompletion": false
+    },
+    {
+      "id": "MelvorBase:SmallSurveyFindings",
+      "name": "Small Survey Findings",
+      "plural": "Small Survey Findings",
+      "sellsFor": {
+        "Currency": "MelvorBase:GoldPieces",
+        "Quantity": 1
+      },
+      "ignoreCompletion": false
+    },
+    {
+      "id": "MelvorBase:MediumSurveyFindings",
+      "name": "Medium Survey Findings",
+      "plural": "Medium Survey Findings",
+      "sellsFor": {
+        "Currency": "MelvorBase:GoldPieces",
+        "Quantity": 1
+      },
+      "ignoreCompletion": false
+    },
+    {
+      "id": "MelvorBase:ScabjawBeastHorn",
+      "name": "Scabjaw Beast Horn",
+      "plural": "Scabjaw Beast Horn",
+      "sellsFor": {
+        "Currency": "MelvorBase:GoldPieces",
+        "Quantity": 173
+      },
+      "ignoreCompletion": false
+    },
+    {
+      "id": "MelvorBase:GoldenEggCollectable",
+      "name": "Golden Egg (c)",
+      "plural": "Golden Egg (c)",
+      "sellsFor": {
+        "Currency": "MelvorBase:GoldPieces",
+        "Quantity": 1
+      },
+      "ignoreCompletion": false
+    },
+    {
+      "id": "MelvorBase:ChoccyMilkCollectable",
+      "name": "Choccy Milk (c)",
+      "plural": "Choccy Milk (c)",
+      "sellsFor": {
+        "Currency": "MelvorBase:GoldPieces",
+        "Quantity": 1
+      },
+      "ignoreCompletion": false
+    },
+    {
+      "id": "MelvorBase:EmeraldGreentailFeatherCollectable",
+      "name": "Emerald Greentail Feather (c)",
+      "plural": "Emerald Greentail Feather (c)",
+      "sellsFor": {
+        "Currency": "MelvorBase:GoldPieces",
+        "Quantity": 1
+      },
+      "ignoreCompletion": false
+    },
+    {
+      "id": "MelvorBase:ObsidianLizardSpikeCollectable",
+      "name": "Obsidian Lizard Spike (c)",
+      "plural": "Obsidian Lizard Spike (c)",
+      "sellsFor": {
+        "Currency": "MelvorBase:GoldPieces",
+        "Quantity": 1
+      },
+      "ignoreCompletion": false
+    },
+    {
+      "id": "MelvorBase:EmeraldButterflyWingCollectable",
+      "name": "Emerald Butterfly Wing (c)",
+      "plural": "Emerald Butterfly Wing (c)",
+      "sellsFor": {
+        "Currency": "MelvorBase:GoldPieces",
+        "Quantity": 1
+      },
+      "ignoreCompletion": false
+    },
+    {
+      "id": "MelvorBase:SapphireBluetailFeatherCollectable",
+      "name": "Sapphire Bluetail Feather (c)",
+      "plural": "Sapphire Bluetail Feather (c)",
+      "sellsFor": {
+        "Currency": "MelvorBase:GoldPieces",
+        "Quantity": 1
+      },
+      "ignoreCompletion": false
+    },
+    {
+      "id": "MelvorBase:IronBoarTuskCollectable",
+      "name": "Iron Boar Tusk (c)",
+      "plural": "Iron Boar Tusk (c)",
+      "sellsFor": {
+        "Currency": "MelvorBase:GoldPieces",
+        "Quantity": 1
+      },
+      "ignoreCompletion": false
+    },
+    {
+      "id": "MelvorBase:TopazYellowtailFeatherCollectable",
+      "name": "Topaz Yellowtail Feather (c)",
+      "plural": "Topaz Yellowtail Feather (c)",
+      "sellsFor": {
+        "Currency": "MelvorBase:GoldPieces",
+        "Quantity": 1
+      },
+      "ignoreCompletion": false
+    },
+    {
+      "id": "MelvorBase:EmberfangCollectable",
+      "name": "Emberfang (c)",
+      "plural": "Emberfang (c)",
+      "sellsFor": {
+        "Currency": "MelvorBase:GoldPieces",
+        "Quantity": 1
+      },
+      "ignoreCompletion": false
+    },
+    {
+      "id": "MelvorBase:StarhornAntlerCollectable",
+      "name": "Starhorn Antler (c)",
+      "plural": "Starhorn Antler (c)",
+      "sellsFor": {
+        "Currency": "MelvorBase:GoldPieces",
+        "Quantity": 1
+      },
+      "ignoreCompletion": false
+    },
+    {
+      "id": "MelvorBase:SteppeAlphaTrophyCollectable",
+      "name": "Steppe Alpha Trophy (c)",
+      "plural": "Steppe Alpha Trophy (c)",
+      "sellsFor": {
+        "Currency": "MelvorBase:GoldPieces",
+        "Quantity": 1
+      },
+      "ignoreCompletion": false
+    },
+    {
+      "id": "MelvorBase:DireAlphaWolfTrophyCollectable",
+      "name": "Dire Alpha Wolf Trophy (c)",
+      "plural": "Dire Alpha Wolf Trophy (c)",
+      "sellsFor": {
+        "Currency": "MelvorBase:GoldPieces",
+        "Quantity": 1
+      },
+      "ignoreCompletion": false
+    },
+    {
+      "id": "MelvorBase:FeathersFlaxBasket",
+      "name": "Feathers Flax Basket",
+      "plural": "Feathers Flax Basket",
+      "sellsFor": {
+        "Currency": "MelvorBase:GoldPieces",
+        "Quantity": 130
+      },
+      "ignoreCompletion": false
+    },
+    {
+      "id": "MelvorBase:GreenDragonscaleShield",
+      "name": "Green Dragonscale Shield",
+      "plural": "Green Dragonscale Shield",
+      "sellsFor": {
+        "Currency": "MelvorBase:GoldPieces",
+        "Quantity": 630
+      },
+      "ignoreCompletion": false
+    },
+    {
+      "id": "MelvorBase:HarpyBow",
+      "name": "Harpy Bow",
+      "plural": "Harpy Bow",
+      "sellsFor": {
+        "Currency": "MelvorBase:GoldPieces",
+        "Quantity": 1108
+      },
+      "ignoreCompletion": false
+    },
+    {
+      "id": "MelvorBase:Lemon",
+      "name": "Lemon",
+      "plural": "Lemon",
+      "sellsFor": {
+        "Currency": "MelvorBase:GoldPieces",
+        "Quantity": 1
+      },
+      "ignoreCompletion": false
+    },
+    {
+      "id": "MelvorBase:Lockpick",
+      "name": "Lockpick",
+      "plural": "Lockpick",
+      "sellsFor": {
+        "Currency": "MelvorBase:GoldPieces",
+        "Quantity": 1
+      },
+      "ignoreCompletion": false
+    },
+    {
+      "id": "MelvorBase:Balaclava",
+      "name": "Balaclava",
+      "plural": "Balaclava",
+      "sellsFor": {
+        "Currency": "MelvorBase:GoldPieces",
+        "Quantity": 1203
+      },
+      "ignoreCompletion": false
+    },
+    {
+      "id": "MelvorBase:ThugArmband",
+      "name": "Thug Armband",
+      "plural": "Thug Armbands",
+      "sellsFor": {
+        "Currency": "MelvorBase:GoldPieces",
+        "Quantity": 16600
+      },
+      "ignoreCompletion": false
+    },
+    {
+      "id": "MelvorBase:ThugChiefRing",
+      "name": "Thug Chief Ring",
+      "plural": "Thug Chief Ring",
+      "sellsFor": {
+        "Currency": "MelvorBase:GoldPieces",
+        "Quantity": 1037
+      },
+      "ignoreCompletion": false
+    },
+    {
+      "id": "MelvorBase:ThugChestKeyHalfA",
+      "name": "Thug Chest Key Half (a)",
+      "plural": "Thug Chest Key Half (a)",
+      "sellsFor": {
+        "Currency": "MelvorBase:GoldPieces",
+        "Quantity": 2765
+      },
+      "ignoreCompletion": false
+    },
+    {
+      "id": "MelvorBase:ThugChestKeyHalfB",
+      "name": "Thug Chest Key Half (b)",
+      "plural": "Thug Chest Key Half (b)",
+      "sellsFor": {
+        "Currency": "MelvorBase:GoldPieces",
+        "Quantity": 13487
+      },
+      "ignoreCompletion": false
+    },
+    {
+      "id": "MelvorBase:ThugChestKey",
+      "name": "Thug Chest Key",
+      "plural": "Thug Chest Key",
+      "sellsFor": {
+        "Currency": "MelvorBase:GoldPieces",
+        "Quantity": 37188
+      },
+      "ignoreCompletion": false
+    },
+    {
+      "id": "MelvorBase:CraftmansMonocle",
+      "name": "Craftmans Monocle",
+      "plural": "Craftmans Monocle",
+      "sellsFor": {
+        "Currency": "MelvorBase:GoldPieces",
+        "Quantity": 5870
+      },
+      "ignoreCompletion": false
+    },
+    {
+      "id": "MelvorBase:FishermansRaincoat",
+      "name": "Fisherman's Raincoat",
+      "plural": "Fisherman's Raincoat",
+      "sellsFor": {
+        "Currency": "MelvorBase:GoldPieces",
+        "Quantity": 3986
+      },
+      "ignoreCompletion": false
+    },
+    {
+      "id": "MelvorBase:ChefsHat",
+      "name": "Chef's Hat",
+      "plural": "Chef's Hat",
+      "sellsFor": {
+        "Currency": "MelvorBase:GoldPieces",
+        "Quantity": 1342
+      },
+      "ignoreCompletion": false
+    },
+    {
+      "id": "MelvorBase:StrawHat",
+      "name": "Straw Hat",
+      "plural": "Straw Hat",
+      "sellsFor": {
+        "Currency": "MelvorBase:GoldPieces",
+        "Quantity": 1612
+      },
+      "ignoreCompletion": false
+    },
+    {
+      "id": "MelvorBase:RanchersChestKeyHalfA",
+      "name": "Ranchers Chest Key Half (a)",
+      "plural": "Ranchers Chest Key Half (a)",
+      "sellsFor": {
+        "Currency": "MelvorBase:GoldPieces",
+        "Quantity": 15037
+      },
+      "ignoreCompletion": false
+    },
+    {
+      "id": "MelvorBase:RanchersChestKeyHalfB",
+      "name": "Ranchers Chest Key Half (b)",
+      "plural": "Ranchers Chest Key Half (b)",
+      "sellsFor": {
+        "Currency": "MelvorBase:GoldPieces",
+        "Quantity": 54388
+      },
+      "ignoreCompletion": false
+    },
+    {
+      "id": "MelvorBase:RanchersChestKey",
+      "name": "Ranchers Chest Key",
+      "plural": "Ranchers Chest Key",
+      "sellsFor": {
+        "Currency": "MelvorBase:GoldPieces",
+        "Quantity": 111593
+      },
+      "ignoreCompletion": false
+    },
+    {
+      "id": "MelvorBase:RanchersBelt",
+      "name": "Ranchers Belt",
+      "plural": "Ranchers Belt",
+      "sellsFor": {
+        "Currency": "MelvorBase:GoldPieces",
+        "Quantity": 15490
+      },
+      "ignoreCompletion": false
+    },
+    {
+      "id": "MelvorBase:RunecraftersTiara",
+      "name": "Runecrafters Tiara",
+      "plural": "Runecrafters Tiara",
+      "sellsFor": {
+        "Currency": "MelvorBase:GoldPieces",
+        "Quantity": 21485
+      },
+      "ignoreCompletion": false
+    },
+    {
+      "id": "MelvorBase:MystifyWand",
+      "name": "Mystify Wand",
+      "plural": "Mystify Wand",
+      "sellsFor": {
+        "Currency": "MelvorBase:GoldPieces",
+        "Quantity": 22111
+      },
+      "ignoreCompletion": false
+    },
+    {
+      "id": "MelvorBase:ExperimenterBook",
+      "name": "Experimenter Book",
+      "plural": "Experimenter Book",
+      "sellsFor": {
+        "Currency": "MelvorBase:GoldPieces",
+        "Quantity": 24340
+      },
+      "ignoreCompletion": false
+    },
+    {
+      "id": "MelvorBase:CursedCirclet",
+      "name": "Cursed Circlet",
+      "plural": "Cursed Circlet",
+      "sellsFor": {
+        "Currency": "MelvorBase:GoldPieces",
+        "Quantity": 9736
+      },
+      "ignoreCompletion": false
+    },
+    {
+      "id": "MelvorBase:ForbiddenGrimoire",
+      "name": "Forbidden Grimoire",
+      "plural": "Forbidden Grimoire",
+      "sellsFor": {
+        "Currency": "MelvorBase:GoldPieces",
+        "Quantity": 38944
+      },
+      "ignoreCompletion": false
+    },
+    {
+      "id": "MelvorBase:BanditGloves",
+      "name": "Bandit Gloves",
+      "plural": "Bandit Gloves",
+      "sellsFor": {
+        "Currency": "MelvorBase:GoldPieces",
+        "Quantity": 5877
+      },
+      "ignoreCompletion": false
+    },
+    {
+      "id": "MelvorBase:FletchersVambrace",
+      "name": "Fletchers Vambrace",
+      "plural": "Fletchers Vambrace",
+      "sellsFor": {
+        "Currency": "MelvorBase:GoldPieces",
+        "Quantity": 4775
+      },
+      "ignoreCompletion": false
+    },
+    {
+      "id": "MelvorBase:WoodcuttersGloves",
+      "name": "Woodcutters Gloves",
+      "plural": "Woodcutters Gloves",
+      "sellsFor": {
+        "Currency": "MelvorBase:GoldPieces",
+        "Quantity": 2896
+      },
+      "ignoreCompletion": false
+    },
+    {
+      "id": "MelvorBase:BushyAxe",
+      "name": "Bushy Axe",
+      "plural": "Bushy Axes",
+      "sellsFor": {
+        "Currency": "MelvorBase:GoldPieces",
+        "Quantity": 57902
+      },
+      "ignoreCompletion": false
+    },
+    {
+      "id": "MelvorBase:BlacksmithsTongs",
+      "name": "Blacksmiths Tongs",
+      "plural": "Blacksmiths Tongs",
+      "sellsFor": {
+        "Currency": "MelvorBase:GoldPieces",
+        "Quantity": 13267
+      },
+      "ignoreCompletion": false
+    },
+    {
+      "id": "MelvorBase:SilverKeyForbiddenLibrary",
+      "name": "Silver Key (Forbidden Library)",
+      "plural": "Silver Key (Forbidden Library)",
+      "sellsFor": {
+        "Currency": "MelvorBase:GoldPieces",
+        "Quantity": 588
+      },
+      "ignoreCompletion": false
+    },
+    {
+      "id": "MelvorBase:AttunedEssence",
+      "name": "Attuned Essence",
+      "plural": "Attuned Essence",
+      "sellsFor": {
+        "Currency": "MelvorBase:GoldPieces",
+        "Quantity": 1
+      },
+      "ignoreCompletion": false
+    },
+    {
+      "id": "MelvorBase:ToxicRazorsScimitar",
+      "name": "Toxic Razors Scimitar",
+      "plural": "Toxic Razors Scimitar",
+      "sellsFor": {
+        "Currency": "MelvorBase:GoldPieces",
+        "Quantity": 1332
+      },
+      "ignoreCompletion": false
+    },
+    {
+      "id": "MelvorBase:StaggeringLashGreatsword",
+      "name": "Staggering Lash Greatsword",
+      "plural": "Staggering Lash Greatsword",
+      "sellsFor": {
+        "Currency": "MelvorBase:GoldPieces",
+        "Quantity": 5915
+      },
+      "ignoreCompletion": false
+    },
+    {
+      "id": "MelvorBase:MithrilHelmetU",
+      "name": "Mithril Helmet (u)",
+      "plural": "Mithril Helmet (u)",
+      "sellsFor": {
+        "Currency": "MelvorBase:GoldPieces",
+        "Quantity": 977
+      },
+      "ignoreCompletion": false
+    },
+    {
+      "id": "MelvorBase:MithrilPlatebodyU",
+      "name": "Mithril Platebody (u)",
+      "plural": "Mithril Platebody (u)",
+      "sellsFor": {
+        "Currency": "MelvorBase:GoldPieces",
+        "Quantity": 977
+      },
+      "ignoreCompletion": false
+    },
+    {
+      "id": "MelvorBase:MithrilPlatelegsU",
+      "name": "Mithril Platelegs (u)",
+      "plural": "Mithril Platelegs (u)",
+      "sellsFor": {
+        "Currency": "MelvorBase:GoldPieces",
+        "Quantity": 977
+      },
+      "ignoreCompletion": false
+    },
+    {
+      "id": "MelvorBase:MithrilBootsU",
+      "name": "Mithril Boots (u)",
+      "plural": "Mithril Boots (u)",
+      "sellsFor": {
+        "Currency": "MelvorBase:GoldPieces",
+        "Quantity": 977
+      },
+      "ignoreCompletion": false
+    },
+    {
+      "id": "MelvorBase:AdamantHelmetU",
+      "name": "Adamant Helmet (u)",
+      "plural": "Adamant Helmet (u)",
+      "sellsFor": {
+        "Currency": "MelvorBase:GoldPieces",
+        "Quantity": 3125
+      },
+      "ignoreCompletion": false
+    },
+    {
+      "id": "MelvorBase:SpiritStagHelmet",
+      "name": "Spirit Stag Helmet",
+      "plural": "Spirit Stag Helmet",
+      "sellsFor": {
+        "Currency": "MelvorBase:GoldPieces",
+        "Quantity": 3776
+      },
+      "ignoreCompletion": false
+    },
+    {
+      "id": "MelvorBase:AdamantPlatebodyU",
+      "name": "Adamant Platebody (u)",
+      "plural": "Adamant Platebody (u)",
+      "sellsFor": {
+        "Currency": "MelvorBase:GoldPieces",
+        "Quantity": 3125
+      },
+      "ignoreCompletion": false
+    },
+    {
+      "id": "MelvorBase:AdamantPlatelegsU",
+      "name": "Adamant Platelegs (u)",
+      "plural": "Adamant Platelegs (u)",
+      "sellsFor": {
+        "Currency": "MelvorBase:GoldPieces",
+        "Quantity": 3125
+      },
+      "ignoreCompletion": false
+    },
+    {
+      "id": "MelvorBase:AdamantBootsU",
+      "name": "Adamant Boots (u)",
+      "plural": "Adamant Boots (u)",
+      "sellsFor": {
+        "Currency": "MelvorBase:GoldPieces",
+        "Quantity": 3125
+      },
+      "ignoreCompletion": false
+    },
+    {
+      "id": "MelvorBase:ToxicPowderWand",
+      "name": "Toxic Powder Wand",
+      "plural": "Toxic Powder Wand",
+      "sellsFor": {
+        "Currency": "MelvorBase:GoldPieces",
+        "Quantity": 1770
+      },
+      "ignoreCompletion": false
+    },
+    {
+      "id": "MelvorBase:EnsnaringBoots",
+      "name": "Ensnaring Boots",
+      "plural": "Ensnaring Boots",
+      "sellsFor": {
+        "Currency": "MelvorBase:GoldPieces",
+        "Quantity": 707
+      },
+      "ignoreCompletion": false
+    },
+    {
+      "id": "MelvorBase:ToxicWeaverHat",
+      "name": "Toxic Weaver Hat",
+      "plural": "Toxic Weaver Hat",
+      "sellsFor": {
+        "Currency": "MelvorBase:GoldPieces",
+        "Quantity": 644
+      },
+      "ignoreCompletion": false
+    },
+    {
+      "id": "MelvorBase:ToxicStrikesBow",
+      "name": "Toxic Strikes Bow",
+      "plural": "Toxic Strikes Bow",
+      "sellsFor": {
+        "Currency": "MelvorBase:GoldPieces",
+        "Quantity": 4818
+      },
+      "ignoreCompletion": false
+    },
+    {
+      "id": "MelvorBase:Infectious2HCrossbow",
+      "name": "Infectious 2H Crossbow",
+      "plural": "Infectious 2H Crossbow",
+      "sellsFor": {
+        "Currency": "MelvorBase:GoldPieces",
+        "Quantity": 2467
+      },
+      "ignoreCompletion": false
+    },
+    {
+      "id": "MelvorBase:StingerArrow",
+      "name": "Stinger Arrow",
+      "plural": "Stinger Arrow",
+      "sellsFor": {
+        "Currency": "MelvorBase:GoldPieces",
+        "Quantity": 5
+      },
+      "ignoreCompletion": false
+    },
+    {
+      "id": "MelvorBase:SpiderSilkVambraces",
+      "name": "Spider Silk Vambraces",
+      "plural": "Spider Silk Vambraces",
+      "sellsFor": {
+        "Currency": "MelvorBase:GoldPieces",
+        "Quantity": 4250
+      },
+      "ignoreCompletion": false
+    },
+    {
+      "id": "MelvorBase:SpiderSilkBoots",
+      "name": "Spider Silk Boots",
+      "plural": "Spider Silk Boots",
+      "sellsFor": {
+        "Currency": "MelvorBase:GoldPieces",
+        "Quantity": 3433
+      },
+      "ignoreCompletion": false
+    },
+    {
+      "id": "MelvorBase:HarpyBoots",
+      "name": "Harpy Boots",
+      "plural": "Harpy Boots",
+      "sellsFor": {
+        "Currency": "MelvorBase:GoldPieces",
+        "Quantity": 2534
+      },
+      "ignoreCompletion": false
+    },
+    {
+      "id": "MelvorBase:VenomQueenBody",
+      "name": "Venom Queen Body",
+      "plural": "Venom Queen Body",
+      "sellsFor": {
+        "Currency": "MelvorBase:GoldPieces",
+        "Quantity": 4818
+      },
+      "ignoreCompletion": false
+    },
+    {
+      "id": "MelvorBase:AmuletOfMelee",
+      "name": "Amulet of Melee",
+      "plural": "Amulet of Melee",
+      "sellsFor": {
+        "Currency": "MelvorBase:GoldPieces",
+        "Quantity": 769
+      },
+      "ignoreCompletion": false
+    },
+    {
+      "id": "MelvorBase:EliteAmuletOfMelee",
+      "name": "Elite Amulet of Melee",
+      "plural": "Elite Amulet of Melee",
+      "sellsFor": {
+        "Currency": "MelvorBase:GoldPieces",
+        "Quantity": 140000
+      },
+      "ignoreCompletion": false
+    },
+    {
+      "id": "MelvorBase:AmuletOfRanged",
+      "name": "Amulet of Ranged",
+      "plural": "Amulet of Ranged",
+      "sellsFor": {
+        "Currency": "MelvorBase:GoldPieces",
+        "Quantity": 656
+      },
+      "ignoreCompletion": false
+    },
+    {
+      "id": "MelvorBase:EliteAmuletOfRanged",
+      "name": "Elite Amulet of Ranged",
+      "plural": "Elite Amulet of Ranged",
+      "sellsFor": {
+        "Currency": "MelvorBase:GoldPieces",
+        "Quantity": 140000
+      },
+      "ignoreCompletion": false
+    },
+    {
+      "id": "MelvorBase:AmuletOfMagic",
+      "name": "Amulet of Magic",
+      "plural": "Amulet of Magic",
+      "sellsFor": {
+        "Currency": "MelvorBase:GoldPieces",
+        "Quantity": 695
+      },
+      "ignoreCompletion": false
+    },
+    {
+      "id": "MelvorBase:EliteAmuletOfMagic",
+      "name": "Elite Amulet of Magic",
+      "plural": "Elite Amulet of Magic",
+      "sellsFor": {
+        "Currency": "MelvorBase:GoldPieces",
+        "Quantity": 140000
+      },
+      "ignoreCompletion": false
+    },
+    {
+      "id": "MelvorBase:PestilenceRing",
+      "name": "Pestilence Ring",
+      "plural": "Pestilence Ring",
+      "sellsFor": {
+        "Currency": "MelvorBase:GoldPieces",
+        "Quantity": 2409
+      },
+      "ignoreCompletion": false
+    },
+    {
+      "id": "MelvorBase:NecromancerAcolyteRing",
+      "name": "Necromancer Acolyte Ring",
+      "plural": "Necromancer Acolyte Ring",
+      "sellsFor": {
+        "Currency": "MelvorBase:GoldPieces",
+        "Quantity": 1660
+      },
+      "ignoreCompletion": false
+    },
+    {
+      "id": "MelvorBase:HobgolbinChiefCape",
+      "name": "Hobgolbin Chief Cape",
+      "plural": "Hobgolbin Chief Capes",
+      "sellsFor": {
+        "Currency": "MelvorBase:GoldPieces",
+        "Quantity": 753
+      },
+      "ignoreCompletion": false
+    },
+    {
+      "id": "MelvorBase:PumpkinHead",
+      "name": "Pumpkin Head",
+      "plural": "Pumpkin Head",
+      "sellsFor": {
+        "Currency": "MelvorBase:GoldPieces",
+        "Quantity": 1970
+      },
+      "ignoreCompletion": false
+    },
+    {
+      "id": "MelvorBase:FarmersScythe",
+      "name": "Farmer's Scythe",
+      "plural": "Farmer's Scythe",
+      "sellsFor": {
+        "Currency": "MelvorBase:GoldPieces",
+        "Quantity": 1029
+      },
+      "ignoreCompletion": false
+    },
+    {
+      "id": "MelvorBase:BasicWizardMitts",
+      "name": "Basic Wizard Mitts",
+      "plural": "Basic Wizard Mitts",
+      "sellsFor": {
+        "Currency": "MelvorBase:GoldPieces",
+        "Quantity": 1676
+      },
+      "ignoreCompletion": false
+    },
+    {
+      "id": "MelvorBase:RoyalBeeRing",
+      "name": "Royal Bee Ring",
+      "plural": "Royal Bee Ring",
+      "sellsFor": {
+        "Currency": "MelvorBase:GoldPieces",
+        "Quantity": 8500
+      },
+      "ignoreCompletion": false
+    },
+    {
+      "id": "MelvorBase:PlagueheartAmulet",
+      "name": "Plagueheart Amulet",
+      "plural": "Plagueheart Amulet",
+      "sellsFor": {
+        "Currency": "MelvorBase:GoldPieces",
+        "Quantity": 9668
+      },
+      "ignoreCompletion": false
+    },
+    {
+      "id": "MelvorBase:WilloWispLantern",
+      "name": "Will o Wisp Lantern",
+      "plural": "Will o Wisp Lantern",
+      "sellsFor": {
+        "Currency": "MelvorBase:GoldPieces",
+        "Quantity": 2606
+      },
+      "ignoreCompletion": false
+    },
+    {
+      "id": "MelvorBase:BleedAvoidanceRing",
+      "name": "Bleed Avoidance Ring",
+      "plural": "Bleed Avoidance Ring",
+      "sellsFor": {
+        "Currency": "MelvorBase:GoldPieces",
+        "Quantity": 2224
+      },
+      "ignoreCompletion": false
+    },
+    {
+      "id": "MelvorBase:DireWolfCloak",
+      "name": "Dire Wolf Cloak",
+      "plural": "Dire Wolf Cloak",
+      "sellsFor": {
+        "Currency": "MelvorBase:GoldPieces",
+        "Quantity": 4135
+      },
+      "ignoreCompletion": false
+    },
+    {
+      "id": "MelvorBase:BugDust",
+      "name": "Bug Dust",
+      "plural": "Bug Dusts",
+      "sellsFor": {
+        "Currency": "MelvorBase:GoldPieces",
+        "Quantity": 1
+      },
+      "ignoreCompletion": false
+    },
+    {
+      "id": "MelvorBase:MantisDefender",
+      "name": "Mantis Defender",
+      "plural": "Mantis Defenders",
+      "sellsFor": {
+        "Currency": "MelvorBase:GoldPieces",
+        "Quantity": 1168
+      },
+      "ignoreCompletion": false
+    },
+    {
+      "id": "MelvorBase:BlessedLog",
+      "name": "Blessed Log",
+      "plural": "Blessed Logs",
+      "sellsFor": {
+        "Currency": "MelvorBase:GoldPieces",
+        "Quantity": 60
+      },
+      "ignoreCompletion": false
+    },
+    {
+      "id": "MelvorBase:BlessedOakLog",
+      "name": "Blessed Oak Log",
+      "plural": "Blessed Oak Logs",
+      "sellsFor": {
+        "Currency": "MelvorBase:GoldPieces",
+        "Quantity": 120
+      },
+      "ignoreCompletion": false
+    },
+    {
+      "id": "MelvorBase:BlessedWillowLog",
+      "name": "Blessed Willow Log",
+      "plural": "Blessed Willow Logs",
+      "sellsFor": {
+        "Currency": "MelvorBase:GoldPieces",
+        "Quantity": 240
+      },
+      "ignoreCompletion": false
+    },
+    {
+      "id": "MelvorBase:Slime",
+      "name": "Slime",
+      "plural": "Slime",
+      "sellsFor": {
+        "Currency": "MelvorBase:GoldPieces",
+        "Quantity": 1
+      },
+      "ignoreCompletion": false
+    },
+    {
+      "id": "MelvorBase:RainbowSlime",
+      "name": "Rainbow Slime",
+      "plural": "Rainbow Slime",
+      "sellsFor": {
+        "Currency": "MelvorBase:GoldPieces",
+        "Quantity": 483
+      },
+      "ignoreCompletion": false
+    },
+    {
+      "id": "MelvorBase:Stinger",
+      "name": "Stinger",
+      "plural": "Stingers",
+      "sellsFor": {
+        "Currency": "MelvorBase:GoldPieces",
+        "Quantity": 41
+      },
+      "ignoreCompletion": false
+    },
+    {
+      "id": "MelvorBase:RoyalHoney",
+      "name": "Royal Honey",
+      "plural": "Royal Honey",
+      "sellsFor": {
+        "Currency": "MelvorBase:GoldPieces",
+        "Quantity": 354
+      },
+      "ignoreCompletion": false
+    },
+    {
+      "id": "MelvorBase:PoisonousStem",
+      "name": "Poisonous Stem",
+      "plural": "Poisonous Stems",
+      "sellsFor": {
+        "Currency": "MelvorBase:GoldPieces",
+        "Quantity": 4
+      },
+      "ignoreCompletion": false
+    },
+    {
+      "id": "MelvorBase:TreantNecklace",
+      "name": "Treant Necklace",
+      "plural": "Treant Necklaces",
+      "sellsFor": {
+        "Currency": "MelvorBase:GoldPieces",
+        "Quantity": 2405
+      },
+      "ignoreCompletion": false
+    },
+    {
+      "id": "MelvorBase:PlaguewingHeart",
+      "name": "Plaguewing Heart",
+      "plural": "Plaguewing Hearts",
+      "sellsFor": {
+        "Currency": "MelvorBase:GoldPieces",
+        "Quantity": 164
+      },
+      "ignoreCompletion": false
+    },
+    {
+      "id": "MelvorBase:BlackstonePowder",
+      "name": "Blackstone Powder",
+      "plural": "Blackstone Powder",
+      "sellsFor": {
+        "Currency": "MelvorBase:GoldPieces",
+        "Quantity": 3
+      },
+      "ignoreCompletion": false
+    },
+    {
+      "id": "MelvorBase:SteelLantern",
+      "name": "Steel Lantern",
+      "plural": "Steel Lantern",
+      "sellsFor": {
+        "Currency": "MelvorBase:GoldPieces",
+        "Quantity": 5
+      },
+      "ignoreCompletion": false
+    },
+    {
+      "id": "MelvorBase:SteelLanternLit",
+      "name": "Steel Lantern (Lit)",
+      "plural": "Steel Lanterns (Lit)",
+      "sellsFor": {
+        "Currency": "MelvorBase:GoldPieces",
+        "Quantity": 1
+      },
+      "ignoreCompletion": false
+    },
+    {
+      "id": "MelvorBase:MithrilLantern",
+      "name": "Mithril Lantern",
+      "plural": "Mithril Lanterns",
+      "sellsFor": {
+        "Currency": "MelvorBase:GoldPieces",
+        "Quantity": 5
+      },
+      "ignoreCompletion": false
+    },
+    {
+      "id": "MelvorBase:MithrilLanternLit",
+      "name": "Mithril Lantern (Lit)",
+      "plural": "Mithril Lanterns (Lit)",
+      "sellsFor": {
+        "Currency": "MelvorBase:GoldPieces",
+        "Quantity": 1
+      },
+      "ignoreCompletion": false
+    },
+    {
+      "id": "MelvorBase:AdamantLantern",
+      "name": "Adamant Lantern",
+      "plural": "Adamant Lantern",
+      "sellsFor": {
+        "Currency": "MelvorBase:GoldPieces",
+        "Quantity": 7
+      },
+      "ignoreCompletion": false
+    },
+    {
+      "id": "MelvorBase:AdamantLanternLit",
+      "name": "Adamant Lantern (Lit)",
+      "plural": "Adamant Lanterns (Lit)",
+      "sellsFor": {
+        "Currency": "MelvorBase:GoldPieces",
+        "Quantity": 1
+      },
+      "ignoreCompletion": false
+    },
+    {
+      "id": "MelvorBase:GlowstoneRing",
+      "name": "Glowstone Ring",
+      "plural": "Glowstone Rings",
+      "sellsFor": {
+        "Currency": "MelvorBase:GoldPieces",
+        "Quantity": 34000
+      },
+      "ignoreCompletion": false
+    },
+    {
+      "id": "MelvorBase:HobgolbinChest",
+      "name": "Hobgolbin Chest",
+      "plural": "Hobgolbin Chests",
+      "sellsFor": {
+        "Currency": "MelvorBase:GoldPieces",
+        "Quantity": 400
+      },
+      "ignoreCompletion": false
+    },
+    {
+      "id": "MelvorBase:HarvestFarmChest",
+      "name": "Harvest Farm Chest",
+      "plural": "Harvest Farm Chests",
+      "sellsFor": {
+        "Currency": "MelvorBase:GoldPieces",
+        "Quantity": 400
+      },
+      "ignoreCompletion": false
+    },
+    {
+      "id": "MelvorBase:VenomChest",
+      "name": "Venom Chest",
+      "plural": "Venom Chests",
+      "sellsFor": {
+        "Currency": "MelvorBase:GoldPieces",
+        "Quantity": 1000
+      },
+      "ignoreCompletion": false
+    },
+    {
+      "id": "MelvorBase:RainbowStaff",
+      "name": "Rainbow Staff",
+      "plural": "Rainbow Staff",
+      "sellsFor": {
+        "Currency": "MelvorBase:GoldPieces",
+        "Quantity": 1189
+      },
+      "ignoreCompletion": false
+    },
+    {
+      "id": "MelvorBase:WaterWizardHatU",
+      "name": "Water Wizard Hat (u)",
+      "plural": "Water Wizard Hat (u)",
+      "sellsFor": {
+        "Currency": "MelvorBase:GoldPieces",
+        "Quantity": 594
+      },
+      "ignoreCompletion": false
+    },
+    {
+      "id": "MelvorBase:WaterWizardRobesU",
+      "name": "Water Wizard Robes (u)",
+      "plural": "Water Wizard Robes (u)",
+      "sellsFor": {
+        "Currency": "MelvorBase:GoldPieces",
+        "Quantity": 594
+      },
+      "ignoreCompletion": false
+    },
+    {
+      "id": "MelvorBase:WaterWizardBottomsU",
+      "name": "Water Wizard Bottoms (u)",
+      "plural": "Water Wizard Bottoms (u)",
+      "sellsFor": {
+        "Currency": "MelvorBase:GoldPieces",
+        "Quantity": 594
+      },
+      "ignoreCompletion": false
+    },
+    {
+      "id": "MelvorBase:WaterWizardBootsU",
+      "name": "Water Wizard Boots (u)",
+      "plural": "Water Wizard Boots (u)",
+      "sellsFor": {
+        "Currency": "MelvorBase:GoldPieces",
+        "Quantity": 594
+      },
+      "ignoreCompletion": false
+    },
+    {
+      "id": "MelvorBase:EarthWizardHatU",
+      "name": "Earth Wizard Hat (u)",
+      "plural": "Earth Wizard Hat (u)",
+      "sellsFor": {
+        "Currency": "MelvorBase:GoldPieces",
+        "Quantity": 877
+      },
+      "ignoreCompletion": false
+    },
+    {
+      "id": "MelvorBase:EarthWizardRobesU",
+      "name": "Earth Wizard Robes (u)",
+      "plural": "Earth Wizard Robes (u)",
+      "sellsFor": {
+        "Currency": "MelvorBase:GoldPieces",
+        "Quantity": 877
+      },
+      "ignoreCompletion": false
+    },
+    {
+      "id": "MelvorBase:EarthWizardBottomsU",
+      "name": "Earth Wizard Bottoms (u)",
+      "plural": "Earth Wizard Bottoms (u)",
+      "sellsFor": {
+        "Currency": "MelvorBase:GoldPieces",
+        "Quantity": 877
+      },
+      "ignoreCompletion": false
+    },
+    {
+      "id": "MelvorBase:EarthWizardBootsU",
+      "name": "Earth Wizard Boots (u)",
+      "plural": "Earth Wizard Boots (u)",
+      "sellsFor": {
+        "Currency": "MelvorBase:GoldPieces",
+        "Quantity": 877
+      },
+      "ignoreCompletion": false
+    },
+    {
+      "id": "MelvorBase:FireWizardHatU",
+      "name": "Fire Wizard Hat (u)",
+      "plural": "Fire Wizard Hat (u)",
+      "sellsFor": {
+        "Currency": "MelvorBase:GoldPieces",
+        "Quantity": 1216
+      },
+      "ignoreCompletion": false
+    },
+    {
+      "id": "MelvorBase:FireWizardRobesU",
+      "name": "Fire Wizard Robes (u)",
+      "plural": "Fire Wizard Robes (u)",
+      "sellsFor": {
+        "Currency": "MelvorBase:GoldPieces",
+        "Quantity": 1216
+      },
+      "ignoreCompletion": false
+    },
+    {
+      "id": "MelvorBase:FireWizardBottomsU",
+      "name": "Fire Wizard Bottoms (u)",
+      "plural": "Fire Wizard Bottoms (u)",
+      "sellsFor": {
+        "Currency": "MelvorBase:GoldPieces",
+        "Quantity": 1216
+      },
+      "ignoreCompletion": false
+    },
+    {
+      "id": "MelvorBase:FireWizardBootsU",
+      "name": "Fire Wizard Boots (u)",
+      "plural": "Fire Wizard Boots (u)",
+      "sellsFor": {
+        "Currency": "MelvorBase:GoldPieces",
+        "Quantity": 1216
+      },
+      "ignoreCompletion": false
+    },
+    {
+      "id": "MelvorBase:DustWizardHatU",
+      "name": "Dust Wizard Hat (u)",
+      "plural": "Dust Wizard Hat (u)",
+      "sellsFor": {
+        "Currency": "MelvorBase:GoldPieces",
+        "Quantity": 5514
+      },
+      "ignoreCompletion": false
+    },
+    {
+      "id": "MelvorBase:DustWizardRobesU",
+      "name": "Dust Wizard Robes (u)",
+      "plural": "Dust Wizard Robes (u)",
+      "sellsFor": {
+        "Currency": "MelvorBase:GoldPieces",
+        "Quantity": 5514
+      },
+      "ignoreCompletion": false
+    },
+    {
+      "id": "MelvorBase:DustWizardBottomsU",
+      "name": "Dust Wizard Bottoms (u)",
+      "plural": "Dust Wizard Bottoms (u)",
+      "sellsFor": {
+        "Currency": "MelvorBase:GoldPieces",
+        "Quantity": 5514
+      },
+      "ignoreCompletion": false
+    },
+    {
+      "id": "MelvorBase:DustWizardBootsU",
+      "name": "Dust Wizard Boots (u)",
+      "plural": "Dust Wizard Boots (u)",
+      "sellsFor": {
+        "Currency": "MelvorBase:GoldPieces",
+        "Quantity": 5514
+      },
+      "ignoreCompletion": false
+    },
+    {
+      "id": "MelvorBase:SteamWizardHatU",
+      "name": "Steam Wizard Hat (u)",
+      "plural": "Steam Wizard Hat (u)",
+      "sellsFor": {
+        "Currency": "MelvorBase:GoldPieces",
+        "Quantity": 1544
+      },
+      "ignoreCompletion": false
+    },
+    {
+      "id": "MelvorBase:SteamWizardRobesU",
+      "name": "Steam Wizard Robes (u)",
+      "plural": "Steam Wizard Robes (u)",
+      "sellsFor": {
+        "Currency": "MelvorBase:GoldPieces",
+        "Quantity": 1544
+      },
+      "ignoreCompletion": false
+    },
+    {
+      "id": "MelvorBase:SteamWizardBottomsU",
+      "name": "Steam Wizard Bottoms (u)",
+      "plural": "Steam Wizard Bottoms (u)",
+      "sellsFor": {
+        "Currency": "MelvorBase:GoldPieces",
+        "Quantity": 1544
+      },
+      "ignoreCompletion": false
+    },
+    {
+      "id": "MelvorBase:SteamWizardBootsU",
+      "name": "Steam Wizard Boots (u)",
+      "plural": "Steam Wizard Boots (u)",
+      "sellsFor": {
+        "Currency": "MelvorBase:GoldPieces",
+        "Quantity": 1544
+      },
+      "ignoreCompletion": false
+    },
+    {
+      "id": "MelvorBase:ChainmailBootsU",
+      "name": "Chainmail Boots (u)",
+      "plural": "Chainmail Boots (u)",
+      "sellsFor": {
+        "Currency": "MelvorBase:GoldPieces",
+        "Quantity": 928
+      },
+      "ignoreCompletion": false
+    },
+    {
+      "id": "MelvorBase:ChainmailCowlU",
+      "name": "Chainmail Cowl (u)",
+      "plural": "Chainmail Cowl (u)",
+      "sellsFor": {
+        "Currency": "MelvorBase:GoldPieces",
+        "Quantity": 928
+      },
+      "ignoreCompletion": false
+    },
+    {
+      "id": "MelvorBase:ChainmailChapsU",
+      "name": "Chainmail Chaps (u)",
+      "plural": "Chainmail Chaps (u)",
+      "sellsFor": {
+        "Currency": "MelvorBase:GoldPieces",
+        "Quantity": 928
+      },
+      "ignoreCompletion": false
+    },
+    {
+      "id": "MelvorBase:ChainmailBodyU",
+      "name": "Chainmail Body (u)",
+      "plural": "Chainmail Body (u)",
+      "sellsFor": {
+        "Currency": "MelvorBase:GoldPieces",
+        "Quantity": 928
+      },
+      "ignoreCompletion": false
+    },
+    {
+      "id": "MelvorBase:ElkLeatherChapsU",
+      "name": "Elk Leather Chaps (u)",
+      "plural": "Elk Leather Chaps (u)",
+      "sellsFor": {
+        "Currency": "MelvorBase:GoldPieces",
+        "Quantity": 2969
+      },
+      "ignoreCompletion": false
+    },
+    {
+      "id": "MelvorBase:AirWizardHatU",
+      "name": "Air Wizard Hat (u)",
+      "plural": "Air Wizard Hat (u)",
+      "sellsFor": {
+        "Currency": "MelvorBase:GoldPieces",
+        "Quantity": 464
+      },
+      "ignoreCompletion": false
+    },
+    {
+      "id": "MelvorBase:AirWizardRobesU",
+      "name": "Air Wizard Robes (u)",
+      "plural": "Air Wizard Robes (u)",
+      "sellsFor": {
+        "Currency": "MelvorBase:GoldPieces",
+        "Quantity": 464
+      },
+      "ignoreCompletion": false
+    },
+    {
+      "id": "MelvorBase:AirWizardBottomsU",
+      "name": "Air Wizard Bottoms (u)",
+      "plural": "Air Wizard Bottoms (u)",
+      "sellsFor": {
+        "Currency": "MelvorBase:GoldPieces",
+        "Quantity": 464
+      },
+      "ignoreCompletion": false
+    },
+    {
+      "id": "MelvorBase:AirWizardBootsU",
+      "name": "Air Wizard Boots (u)",
+      "plural": "Air Wizard Boots (u)",
+      "sellsFor": {
+        "Currency": "MelvorBase:GoldPieces",
+        "Quantity": 464
+      },
+      "ignoreCompletion": false
+    },
+    {
+      "id": "MelvorBase:BoneScythe",
+      "name": "Bone Scythe",
+      "plural": "Bone Scythes",
+      "sellsFor": {
+        "Currency": "MelvorBase:GoldPieces",
+        "Quantity": 1992
+      },
+      "ignoreCompletion": false
+    },
+    {
+      "id": "MelvorBase:LostSiblingsWandCollectable",
+      "name": "Lost Sibling's Wand (c)",
+      "plural": "Lost Sibling's Wand (c)",
+      "sellsFor": {
+        "Currency": "MelvorBase:GoldPieces",
+        "Quantity": 78759
+      },
+      "ignoreCompletion": false
+    },
+    {
+      "id": "MelvorBase:CrushedBone",
+      "name": "Crushed Bone",
+      "plural": "Crushed Bones",
+      "sellsFor": {
+        "Currency": "MelvorBase:GoldPieces",
+        "Quantity": 2
+      },
+      "ignoreCompletion": false
+    },
+    {
+      "id": "MelvorBase:WyvernHorn",
+      "name": "Wyvern Horn",
+      "plural": "Wyvern Horns",
+      "sellsFor": {
+        "Currency": "MelvorBase:GoldPieces",
+        "Quantity": 4
+      },
+      "ignoreCompletion": false
+    },
+    {
+      "id": "MelvorBase:NormalScarecrow",
+      "name": "Normal Scarecrow",
+      "plural": "Normal Scarecrows",
+      "sellsFor": {
+        "Currency": "MelvorBase:GoldPieces",
+        "Quantity": 1
+      },
+      "ignoreCompletion": false
+    },
+    {
+      "id": "MelvorBase:WillowScarecrow",
+      "name": "Willow Scarecrow",
+      "plural": "Willow Scarecrows",
+      "sellsFor": {
+        "Currency": "MelvorBase:GoldPieces",
+        "Quantity": 1
+      },
+      "ignoreCompletion": false
+    },
+    {
+      "id": "MelvorBase:MapleScarecrow",
+      "name": "Maple Scarecrow",
+      "plural": "Maple Scarecrows",
+      "sellsFor": {
+        "Currency": "MelvorBase:GoldPieces",
+        "Quantity": 1
+      },
+      "ignoreCompletion": false
+    },
+    {
+      "id": "MelvorBase:BasicSlayerGauntlet",
+      "name": "Basic Slayer Gauntlet",
+      "plural": "Basic Slayer Gauntlets",
+      "sellsFor": {
+        "Currency": "MelvorBase:GoldPieces",
+        "Quantity": 1
+      },
+      "ignoreCompletion": false
+    },
+    {
+      "id": "MelvorBase:SlayerChallengeContract",
+      "name": "Slayer Challenge Contract",
+      "plural": "Slayer Challenge Contracts",
+      "sellsFor": {
+        "Currency": "MelvorBase:GoldPieces",
+        "Quantity": 0
+      },
+      "ignoreCompletion": false
+    },
+    {
+      "id": "MelvorBase:CarefulExtractorGloves",
+      "name": "Careful Extractor Gloves",
+      "plural": "Careful Extractor Gloves",
+      "sellsFor": {
+        "Currency": "MelvorBase:GoldPieces",
+        "Quantity": 5877
+      },
+      "ignoreCompletion": false
+    },
+    {
+      "id": "MelvorBase:TreesproutBoots",
+      "name": "Treesprout Boots",
+      "plural": "Treesprout Boots",
+      "sellsFor": {
+        "Currency": "MelvorBase:GoldPieces",
+        "Quantity": 11390
+      },
+      "ignoreCompletion": false
+    },
+    {
+      "id": "MelvorBase:BurningEmbersGloves",
+      "name": "Burning Embers Gloves",
+      "plural": "Burning Embers Gloves",
+      "sellsFor": {
+        "Currency": "MelvorBase:GoldPieces",
+        "Quantity": 13336
+      },
+      "ignoreCompletion": false
+    },
+    {
+      "id": "MelvorBase:AcolyteRuneBook",
+      "name": "Acolyte Runebook",
+      "plural": "Acolyte Runebooks",
+      "sellsFor": {
+        "Currency": "MelvorBase:GoldPieces",
+        "Quantity": 3818
+      },
+      "ignoreCompletion": false
+    },
+    {
+      "id": "MelvorBase:SharpFletchingSpike",
+      "name": "Sharp Fletching Spike",
+      "plural": "Sharp Fletching Spikes",
+      "sellsFor": {
+        "Currency": "MelvorBase:GoldPieces",
+        "Quantity": 14101
+      },
+      "ignoreCompletion": false
+    },
+    {
+      "id": "MelvorBase:DragonfangStitchKit",
+      "name": "Dragonfang Stitch Kit",
+      "plural": "Dragonfang Stitch Kit",
+      "sellsFor": {
+        "Currency": "MelvorBase:GoldPieces",
+        "Quantity": 10258
+      },
+      "ignoreCompletion": false
+    },
+    {
+      "id": "MelvorBase:WeaverGloves",
+      "name": "Weaver Gloves",
+      "plural": "Weaver Gloves",
+      "sellsFor": {
+        "Currency": "MelvorBase:GoldPieces",
+        "Quantity": 16019
+      },
+      "ignoreCompletion": false
+    },
+    {
+      "id": "MelvorBase:HobforgeGloves",
+      "name": "Hobforge Gloves",
+      "plural": "Hobforge Gloves",
+      "sellsFor": {
+        "Currency": "MelvorBase:GoldPieces",
+        "Quantity": 1574
+      },
+      "ignoreCompletion": false
+    },
+    {
+      "id": "MelvorBase:GoldNugget",
+      "name": "Gold Nugget",
+      "plural": "Gold Nuggets",
+      "sellsFor": {
+        "Currency": "MelvorBase:GoldPieces",
+        "Quantity": 1
+      },
+      "ignoreCompletion": false
+    },
+    {
+      "id": "MelvorBase:StonersPickaxeDamaged",
+      "name": "Stoner's Pickaxe (Damaged)",
+      "plural": "Stoner's Pickaxe (Damaged)",
+      "sellsFor": {
+        "Currency": "MelvorBase:GoldPieces",
+        "Quantity": 1
+      },
+      "ignoreCompletion": false
+    },
+    {
+      "id": "MelvorBase:EssenceImbuedPickaxeDamaged",
+      "name": "Essence Imbued Pickaxe (Damaged)",
+      "plural": "Essence Imbued Pickaxe (Damaged)",
+      "sellsFor": {
+        "Currency": "MelvorBase:GoldPieces",
+        "Quantity": 1
+      },
+      "ignoreCompletion": false
+    },
+    {
+      "id": "MelvorBase:InfernalPickaxeDamaged",
+      "name": "Infernal Pickaxe (Damaged)",
+      "plural": "Infernal Pickaxe (Damaged)",
+      "sellsFor": {
+        "Currency": "MelvorBase:GoldPieces",
+        "Quantity": 1
+      },
+      "ignoreCompletion": false
+    },
+    {
+      "id": "MelvorBase:MapToAshenLands",
+      "name": "Map to Ashen Lands",
+      "plural": "Maps to Ashen Lands",
+      "sellsFor": {
+        "Currency": "MelvorBase:GoldPieces",
+        "Quantity": 618
+      },
+      "ignoreCompletion": false
+    },
+    {
+      "id": "MelvorBase:GiantHoneycomb",
+      "name": "Giant Honeycomb",
+      "plural": "Giant Honeycomb",
+      "sellsFor": {
+        "Currency": "MelvorBase:GoldPieces",
+        "Quantity": 61
+      },
+      "ignoreCompletion": false
+    },
+    {
+      "id": "MelvorBase:PoisonPod",
+      "name": "Poison Pod",
+      "plural": "Poison Pod",
+      "sellsFor": {
+        "Currency": "MelvorBase:GoldPieces",
+        "Quantity": 16
+      },
+      "ignoreCompletion": false
+    },
+    {
+      "id": "MelvorBase:BaitBox",
+      "name": "Bait Box",
+      "plural": "Bait Box",
+      "sellsFor": {
+        "Currency": "MelvorBase:GoldPieces",
+        "Quantity": 1
+      },
+      "ignoreCompletion": false
+    },
+    {
+      "id": "MelvorBase:RainbowSlimeCoat",
+      "name": "Rainbow Slime Coat",
+      "plural": "Rainbow Slime Coat",
+      "sellsFor": {
+        "Currency": "MelvorBase:GoldPieces",
+        "Quantity": 6879
+      },
+      "ignoreCompletion": false
+    },
+    {
+      "id": "MelvorBase:ThornbackShaftCutter",
+      "name": "Thornback Shaft Cutter",
+      "plural": "Thornback Shaft Cutter",
+      "sellsFor": {
+        "Currency": "MelvorBase:GoldPieces",
+        "Quantity": 227
+      },
+      "ignoreCompletion": false
+    },
+    {
+      "id": "MelvorBase:ToadskinTrapGloves",
+      "name": "Toadskin Trap Gloves",
+      "plural": "Toadskin Trap Gloves",
+      "sellsFor": {
+        "Currency": "MelvorBase:GoldPieces",
+        "Quantity": 203
+      },
+      "ignoreCompletion": false
+    },
+    {
+      "id": "MelvorBase:SnakeskinFarmGloves",
+      "name": "Snakeskin Farm Gloves",
+      "plural": "Snakeskin Farm Gloves",
+      "sellsFor": {
+        "Currency": "MelvorBase:GoldPieces",
+        "Quantity": 507
+      },
+      "ignoreCompletion": false
+    },
+    {
+      "id": "MelvorBase:SnakeskinMageShield",
+      "name": "Snakeskin Mage Shield",
+      "plural": "Snakeskin Mage Shield",
+      "sellsFor": {
+        "Currency": "MelvorBase:GoldPieces",
+        "Quantity": 271
+      },
+      "ignoreCompletion": false
+    },
+    {
+      "id": "MelvorBase:TreantRemains",
+      "name": "Treant Remains",
+      "plural": "Treant Remains",
+      "sellsFor": {
+        "Currency": "MelvorBase:GoldPieces",
+        "Quantity": 1
+      },
+      "ignoreCompletion": false
+    },
+    {
+      "id": "MelvorBase:Sulfur",
+      "name": "Sulfur",
+      "plural": "Sulfur",
+      "sellsFor": {
+        "Currency": "MelvorBase:GoldPieces",
+        "Quantity": 1
+      },
+      "ignoreCompletion": false
+    },
+    {
+      "id": "MelvorBase:ClimbingHook",
+      "name": "Climbing Hook",
+      "plural": "Climbing Hooks",
+      "sellsFor": {
+        "Currency": "MelvorBase:GoldPieces",
+        "Quantity": 1
+      },
+      "ignoreCompletion": false
+    },
+    {
+      "id": "MelvorBase:SteelRockAnchor",
+      "name": "Steel Rock Anchor",
+      "plural": "Steel Rock Anchors",
+      "sellsFor": {
+        "Currency": "MelvorBase:GoldPieces",
+        "Quantity": 1
+      },
+      "ignoreCompletion": false
+    },
+    {
+      "id": "MelvorBase:ReinforcedWoodcuttersAxe",
+      "name": "Reinforced Woodcutter's Axe",
+      "plural": "Reinforced Woodcutter's Axes",
+      "sellsFor": {
+        "Currency": "MelvorBase:GoldPieces",
+        "Quantity": 1
+      },
+      "ignoreCompletion": false
+    },
+    {
+      "id": "MelvorBase:ClimbingGloves",
+      "name": "Climbing Gloves",
+      "plural": "Climbing Gloves",
+      "sellsFor": {
+        "Currency": "MelvorBase:GoldPieces",
+        "Quantity": 1
+      },
+      "ignoreCompletion": false
+    },
+    {
+      "id": "MelvorBase:ClimbingBoots",
+      "name": "Climbing Boots",
+      "plural": "Climbing Boots",
+      "sellsFor": {
+        "Currency": "MelvorBase:GoldPieces",
+        "Quantity": 1
+      },
+      "ignoreCompletion": false
+    },
+    {
+      "id": "MelvorBase:ClimbingRope",
+      "name": "Climbing Rope",
+      "plural": "Climbing Ropes",
+      "sellsFor": {
+        "Currency": "MelvorBase:GoldPieces",
+        "Quantity": 1
+      },
+      "ignoreCompletion": false
+    },
+    {
+      "id": "MelvorBase:ClimbingHarness",
+      "name": "Climbing Harness",
+      "plural": "Climbing Harnesses",
+      "sellsFor": {
+        "Currency": "MelvorBase:GoldPieces",
+        "Quantity": 1
+      },
+      "ignoreCompletion": false
+    },
+    {
+      "id": "MelvorBase:SulfurProtectionGloves",
+      "name": "Sulfur Protection Gloves",
+      "plural": "Sulfur Protection Gloves",
+      "sellsFor": {
+        "Currency": "MelvorBase:GoldPieces",
+        "Quantity": 1
+      },
+      "ignoreCompletion": false
+    },
+    {
+      "id": "MelvorBase:CanyonSupport",
+      "name": "Canyon Support",
+      "plural": "Canyon Support",
+      "sellsFor": {
+        "Currency": "MelvorBase:GoldPieces",
+        "Quantity": 1
+      },
+      "ignoreCompletion": false
+    },
+    {
+      "id": "MelvorBase:MagicCowhide",
+      "name": "Magic Cowhide",
+      "plural": "Magic Cowhides",
+      "sellsFor": {
+        "Currency": "MelvorBase:GoldPieces",
+        "Quantity": 1
+      },
+      "ignoreCompletion": false
+    },
+    {
+      "id": "MelvorBase:VolatileFireRune",
+      "name": "Volatile Fire Rune",
+      "plural": "Volatile Fire Runes",
+      "sellsFor": {
+        "Currency": "MelvorBase:GoldPieces",
+        "Quantity": 1
+      },
+      "ignoreCompletion": false
+    },
+    {
+      "id": "MelvorBase:ToxicResin",
+      "name": "Toxic Resin",
+      "plural": "Toxic Resin",
+      "sellsFor": {
+        "Currency": "MelvorBase:GoldPieces",
+        "Quantity": 1
+      },
+      "ignoreCompletion": false
+    },
+    {
+      "id": "MelvorBase:TaintedTreantCutting",
+      "name": "Tainted Treant Cutting",
+      "plural": "Tainted Treant Cuttings",
+      "sellsFor": {
+        "Currency": "MelvorBase:GoldPieces",
+        "Quantity": 18
+      },
+      "ignoreCompletion": false
+    },
+    {
+      "id": "MelvorBase:BruiserBelt",
+      "name": "Bruiser Belt",
+      "plural": "Bruiser Belts",
+      "sellsFor": {
+        "Currency": "MelvorBase:GoldPieces",
+        "Quantity": 2000
+      },
+      "ignoreCompletion": false
+    },
+    {
+      "id": "MelvorBase:DemoPlaceholderItem",
+      "name": "DemoPlaceholderItem",
+      "plural": "DemoPlaceholderItem",
+      "sellsFor": {
+        "Currency": "MelvorBase:GoldPieces",
+        "Quantity": 0
+      },
+      "ignoreCompletion": true
+    }
+  ]
+}
