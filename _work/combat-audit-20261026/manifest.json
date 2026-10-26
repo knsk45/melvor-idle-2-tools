@@ -1,0 +1,27 @@
+{
+  "checkedAt": "2026-10-26",
+  "auditMode": "read-only static",
+  "game": {
+    "path": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Melvor Idle 2 Demo",
+    "version": "0.11.2-alpha.4",
+    "channel": "Steam demo",
+    "steamBuild": "26074343",
+    "versionEvidence": "hash-pinned static package evidence; not re-derived from a live process"
+  },
+  "artifacts": [
+    {"kind":"exe","path":"Melvor2.exe","sha256":"C7249CFF551D5420B7B1DD31F138CB55517E71105DC0C53E5952352C8E9BB3E4","confidence":"observed"},
+    {"kind":"managed-dll","path":"data_GamesByMalcs.Melvor2_windows_x86_64/GamesByMalcs.Melvor2.dll","sha256":"7352A8B5FD7275A19908059398BABCC643CE7E30A428E2633B936F9F191C0AF5","confidence":"observed"},
+    {"kind":"package-or-pck","path":null,"sha256":"2B43F26CE76D86178F56A72C8DCED08A0AE545779786CCCDCAC868BDC3478474","confidence":"derived","note":"Selected package evidence hash; no standalone .pck file was found in the installation inventory."}
+  ],
+  "files": [
+    {"name":"README.md","bytes":4202,"sha256":"699C7AA567CB3BD22B2C7CA2ACCC2EC2E0FD728E9594EDF025EA0A3704E6E47E"},
+    {"name":"manifest.json","bytes":null,"sha256":null,"note":"Self-hash is reported in the transfer report because a manifest cannot contain a stable hash of its own final bytes."},
+    {"name":"combat-facts.json","bytes":3935,"sha256":"AE765ECC6D571C20C56CEAAC71826D6C64C80CEE572BE16DE2ED0131422883FF"},
+    {"name":"methods.json","bytes":2151,"sha256":"F112D45BC27509AC2C4B3CAC8471851F589077EC1C30287F59D646CB80C2F22C"},
+    {"name":"blockers.md","bytes":1256,"sha256":"D8ADB5AC9FC6BD37BF7E0A108D399759FBD602138DA39DF4D2AC8BABA551119F"},
+    {"name":"raw-output/rea-managed-summary.json","bytes":509,"sha256":"7DAE049107A3D8385A09096B34DBFE0F13163E60A9A85B16109D27352216856F"},
+    {"name":"raw-output/static-source-ledger.txt","bytes":568,"sha256":"7DD87E80A16291A81E2E58596D579C523ABFE3DCD74870BE1168A21BFE199F4E"}
+  ],
+  "sourceAndLimits": {"source":"REA static inspection plus same-build sanitized static package evidence","limitations":["No runtime or live-state evidence.","REA managed metadata exceeded 64 MiB representation limit.","No standalone installed PCK was found."},
+  "transfer": {"method":"GitHub branch","repository":"https://github.com/knsk45/melvor-idle-2-tools","branch":"audit/combat-evidence-20261026","mainModified":false,"sourceCodeModified":false,"gameFilesTransferred":false,"secretsTransferred":false}
+}

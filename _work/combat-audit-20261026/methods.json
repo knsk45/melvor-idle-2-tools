@@ -1,0 +1,17 @@
+{
+  "checkedAt":"2026-10-26",
+  "artifactSha256":"7352a8b5fd7275a19908059398babcc643ce7e30a428e2633b936f9f191c0af5",
+  "methods":[
+    {"token":"0x600c806","name":"CombatActionComponent.PlayerDiedHandler","purpose":"player death event handler","source":"_work/other-skills-20261025/combat-methods.txt"},
+    {"token":"0x600c807","name":"CombatActionComponent.EnemyDiedHandler","purpose":"enemy death/kill completion event handler","source":"_work/other-skills-20261025/combat-methods.txt"},
+    {"token":"0x600ce26","name":"OffensiveStatsContainer.UpdateHitChance","purpose":"updates hit chance value","source":"_work/other-skills-20261025/combat-methods.txt"},
+    {"token":"0x600ce35","name":"OffensiveStatsContainer.UpdateHitChanceEmpty","purpose":"empty/default hit chance update path","source":"_work/other-skills-20261025/combat-methods.txt"},
+    {"token":"0x600ce1f","name":"OffensiveStatsContainer.UpdateAllAttacksDamage","purpose":"updates attack damage aggregation","source":"_work/other-skills-20261025/combat-methods.txt"},
+    {"token":"0x600ce0f","name":"OffensiveStatsContainer.AttackIntervalValueChangedHandler","purpose":"responds to attack interval changes","source":"_work/other-skills-20261025/combat-methods.txt"},
+    {"token":"0x6010845","name":"CombatExperienceComponent.EnemyKilledHandler","purpose":"combat XP handling on enemy kill","source":"_work/other-skills-20261025/combat-xp-methods.txt"},
+    {"token":"0x6010846","name":"CombatExperienceComponent.PlayerAttackedHandler","purpose":"combat XP handling on player attack","source":"_work/other-skills-20261025/combat-xp-methods.txt"},
+    {"token":"0x601087a","name":"CombatExperienceStats.ComputeFromContext","purpose":"builds XP context from enemy/stance stats","source":"_work/other-skills-20261025/combat-xp-methods.txt"},
+    {"token":"0x601087b","name":"CombatExperienceStats.GetExperienceGain","purpose":"computes experience gain from stored context","source":"_work/other-skills-20261025/combat-xp-methods.txt"}
+  ],
+  "confidence":"method names/tokens are build-local and bound to the DLL hash; formulas were not treated as recovered without body evidence."
+}
