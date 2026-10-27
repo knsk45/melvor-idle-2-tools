@@ -12,7 +12,7 @@ Selected numerical facts originate from `res://Data/Packages/MelvorDemo.json`, e
 
 Managed methods were decoded statically using dnfile 0.18.0 and dncil 1.0.2, without loading the assembly into the CLR, executing it or changing the installation. REA managed inspection hit its 64 MiB representation limit; this is an independent static fallback, not a claim of successful REA decompilation. Tokens below are valid only for the identified DLL. Full private evidence remains outside Git under `_work/rea-20261025`, `_work/fishing-20261025` and `_work/mining-20261025`. Game code and complete packages are not bundled.
 
-Only Woodcutting, Fishing and Mining have verified reference tables. The other 22 navigation sections remain pending. All shipped definitions can be inspected, but locked/conditional entries are labelled and excluded from the default demo list. Requirements describe progression prerequisites, not the current player's state.
+Sixteen navigation sections now have fixed reference tables. The remaining nine sections are pending or scenario-dependent. All shipped definitions can be inspected, but locked/conditional entries are labelled and excluded from the default demo list. Requirements describe progression prerequisites, not the current player's state. See `REMAINING_SKILLS_STATUS.md` for the coverage boundary.
 
 ## Common rates
 

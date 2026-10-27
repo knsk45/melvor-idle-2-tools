@@ -22,8 +22,10 @@ Open a skill and order actions by **XP/hour, primary items/hour or gross GP/hour
 | Herblore | 0 | 152 (locked placeholders) |
 | Farming | 26 | 49 |
 | Thieving | 20 | 40 |
+| Hunting | 41 | 41 |
+| Ranching | 20 | 20 |
 
-Navigation includes all **25 skills** from the shipped package. Sixteen sections now have fixed tables; the remaining sections are pending verification, with no fabricated rates. Locked and conditional definitions are labelled and excluded by default. Recipe definitions do not prove playability.
+Navigation includes all **25 skills** from the shipped package. Sixteen sections now have fixed tables; nine sections remain pending or scenario-dependent, with no fabricated rates. Locked and conditional definitions are labelled and excluded by default. Recipe definitions do not prove playability. See the [remaining-skill status](docs/REMAINING_SKILLS_STATUS.md).
 
 Source: demo **v0.11.2-alpha.4**, Steam build **26074343**, checked 25 October 2026. Mining includes built-in prospecting progress; fishing includes junk, weighted fish and sequential special rolls. See [verified formulas](docs/BASE_SKILL_FORMULAS.md) and [extraction provenance](docs/EXTRACTED_DATA.md). Gold includes direct sale of listed drops, without opening containers or deducting costs; it is revenue, not profit. Item throughput counts primary products only.
 
@@ -39,7 +41,9 @@ pnpm check
 
 Open http://127.0.0.1:5173/melvor-idle-2-tools/ . Checks run ESLint, Vitest, TypeScript and the production build. The package store is inside the project.
 
-`src/data/skills` contains fixed tables; `src/domain` only handles selection, ordering and language preferences. `data/catalog` contains selected extracted facts. `scripts/build_base_reference.py` regenerates tables from those facts and the hash-pinned installed package. See [methodology](docs/METHODOLOGY.md).
+`src/data/skills` contains fixed tables; `src/domain` handles selection, ordering, language preferences and separately tested combat base formulas. `data/catalog` contains selected extracted facts. `scripts/build_base_reference.py` regenerates tables from those facts and the hash-pinned installed package. See [methodology](docs/METHODOLOGY.md).
+
+Attack includes a separate fixed **Golbin worked example**: Stone Sword/Stab, Attack and Strength level 1, verified hit chance, damage distribution and per-kill rewards. It models outgoing attacks only; hourly rates and survival are not claimed. This example is additional to the 16 tables above. See [verified combat base](docs/COMBAT_VERIFIED_BASE.md).
 
 Modifiers belong in a [separate future article](docs/MODIFIERS_ARTICLE_PLAN.md). See [roadmap](docs/ROADMAP.md), [contributing](CONTRIBUTING.md) and [continuation](CONTINUE_HERE.md).
 

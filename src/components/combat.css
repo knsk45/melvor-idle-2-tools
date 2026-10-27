@@ -1,0 +1,12 @@
+.combat-example>p,.combat-example>h2,.combat-example>details{margin:20px 22px}
+.combat-example>p{font-size:13px;line-height:1.75;color:#b4c7b0}
+.combat-example>h2{font-size:18px;font-weight:550}
+.combat-example>details{max-width:none;min-width:0}
+.combat-example summary{white-space:normal}
+.combat-example details table th,.combat-example details table td{min-width:0}
+.combat-metrics{display:grid;grid-template-columns:repeat(auto-fit,minmax(190px,1fr));gap:18px;margin:22px}
+.combat-metrics>div{border:1px solid #344a37;border-radius:8px;padding:14px;min-width:0}
+.combat-metrics dt{font-size:11px;line-height:1.6;color:#9fb59b}
+.combat-metrics dd{margin:8px 0 0;font-size:22px;color:#d6e9b9;font-variant-numeric:tabular-nums}
+.combat-digest{overflow-wrap:anywhere}
+@media(max-width:700px){.combat-metrics{grid-template-columns:1fr 1fr;gap:10px;margin:16px}.combat-metrics>div{padding:10px}.combat-metrics dd{font-size:19px}.combat-example>p,.combat-example>h2,.combat-example>details{margin:16px}}

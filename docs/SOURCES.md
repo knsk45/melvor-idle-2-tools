@@ -1,6 +1,6 @@
 # Current source status — 25 October 2026
 
-Current coverage and verified mechanics are documented in [BASE_SKILL_FORMULAS.md](BASE_SKILL_FORMULAS.md). Three skill tables are ready; all 25 navigation sections are present, with 22 pending. The product is a fixed reference; historical mentions of manual mode, targets and future calculator work below are superseded.
+Current coverage and verified mechanics are documented in [BASE_SKILL_FORMULAS.md](BASE_SKILL_FORMULAS.md). Sixteen skill tables or explicit placeholders are present; all 25 navigation sections are present, with nine pending or scenario-dependent. The product is a fixed reference; historical mentions of manual mode, targets and future calculator work below are superseded. See [remaining skill status](REMAINING_SKILLS_STATUS.md).
 
 ## Historical observations and earlier extraction
 

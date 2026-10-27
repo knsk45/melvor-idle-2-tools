@@ -1,0 +1,974 @@
+{
+  "checkedAt": "2026-10-27",
+  "gameVersion": "0.11.2-alpha.4",
+  "channel": "Steam demo",
+  "steamBuildId": "26074343",
+  "packageSha256": "2b43f26ce76d86178f56a72c8dced08a0ae545779786cccdcac868bdc3478474",
+  "dllSha256": "7352a8b5fd7275a19908059398babcc643ce7e30a428e2633b936f9f191c0af5",
+  "method": "scripts/extract_combat_facts.py",
+  "enemies": [
+    {
+      "id": "MelvorBase:Golbin",
+      "name": "Golbin",
+      "sourcePointer": "/Objects/Enemy/0",
+      "levels": [
+        {
+          "Key": "MelvorBase:Hitpoints",
+          "Value": 2
+        },
+        {
+          "Key": "MelvorBase:Attack",
+          "Value": 2
+        },
+        {
+          "Key": "MelvorBase:Strength",
+          "Value": 1
+        },
+        {
+          "Key": "MelvorBase:Defence",
+          "Value": 1
+        },
+        {
+          "Key": "MelvorBase:Ranged",
+          "Value": 1
+        },
+        {
+          "Key": "MelvorBase:Magic",
+          "Value": 1
+        }
+      ],
+      "stats": {
+        "Stats": [
+          {
+            "Stat": "MelvorBase:AttackInterval",
+            "Value": 2400
+          },
+          {
+            "Stat": "MelvorBase:StabAttackBonus",
+            "Value": 11
+          },
+          {
+            "Stat": "MelvorBase:StabDefenceBonus",
+            "Value": 4
+          },
+          {
+            "Stat": "MelvorBase:SlashDefenceBonus",
+            "Value": 6
+          },
+          {
+            "Stat": "MelvorBase:CrushDefenceBonus",
+            "Value": -3
+          },
+          {
+            "Stat": "MelvorBase:BlockDefenceBonus",
+            "Value": -6
+          },
+          {
+            "Stat": "MelvorBase:AccurateDefenceBonus",
+            "Value": -1
+          },
+          {
+            "Stat": "MelvorBase:PowerfulDefenceBonus",
+            "Value": 10
+          },
+          {
+            "Stat": "MelvorBase:LongRangeDefenceBonus",
+            "Value": 7
+          },
+          {
+            "Stat": "MelvorBase:OffensiveDefenceBonus",
+            "Value": -5
+          },
+          {
+            "Stat": "MelvorBase:DefensiveDefenceBonus",
+            "Value": -11
+          },
+          {
+            "Stat": "MelvorBase:MeleeStrengthBonus",
+            "Value": -50
+          }
+        ],
+        "PowerRatings": [
+          {
+            "DamageType": "MelvorBase:Normal",
+            "Value": 63
+          }
+        ],
+        "ProtectionRatings": [
+          {
+            "DamageType": "MelvorBase:Normal",
+            "Value": 1
+          }
+        ]
+      },
+      "damageType": "MelvorBase:Normal",
+      "element": "MelvorBase:Neutral",
+      "stances": [
+        {
+          "Stance": "MelvorBase:Stab",
+          "Weight": 1
+        }
+      ],
+      "drops": {
+        "FixedItems": [
+          {
+            "Item": "MelvorBase:Bone",
+            "MinQuantity": 1,
+            "MaxQuantity": 1
+          }
+        ],
+        "ItemTables": [
+          {
+            "Chance": 1,
+            "Table": [
+              {
+                "Item": "MelvorBase:Stone",
+                "MinQuantity": 1,
+                "MaxQuantity": 1,
+                "Weight": 15
+              },
+              {
+                "Item": "MelvorBase:Shrimp",
+                "MinQuantity": 1,
+                "MaxQuantity": 1,
+                "Weight": 5
+              },
+              {
+                "Item": "MelvorBase:StoneHelmet",
+                "MinQuantity": 1,
+                "MaxQuantity": 1,
+                "Weight": 2
+              },
+              {
+                "Item": "MelvorBase:StoneSword",
+                "MinQuantity": 1,
+                "MaxQuantity": 1,
+                "Weight": 1
+              }
+            ]
+          }
+        ],
+        "FixedCurrencies": [
+          {
+            "Currency": "MelvorBase:GoldPieces",
+            "MinQuantity": 10,
+            "MaxQuantity": 40
+          }
+        ]
+      },
+      "attacks": [],
+      "passives": [],
+      "requirements": [],
+      "displayRequirements": null,
+      "pauseOnSpawn": false
+    },
+    {
+      "id": "MelvorBase:GolbinScout",
+      "name": "Golbin Scout",
+      "sourcePointer": "/Objects/Enemy/1",
+      "levels": [
+        {
+          "Key": "MelvorBase:Hitpoints",
+          "Value": 2
+        },
+        {
+          "Key": "MelvorBase:Attack",
+          "Value": 1
+        },
+        {
+          "Key": "MelvorBase:Strength",
+          "Value": 1
+        },
+        {
+          "Key": "MelvorBase:Defence",
+          "Value": 2
+        },
+        {
+          "Key": "MelvorBase:Ranged",
+          "Value": 3
+        },
+        {
+          "Key": "MelvorBase:Magic",
+          "Value": 1
+        }
+      ],
+      "stats": {
+        "Stats": [
+          {
+            "Stat": "MelvorBase:AttackInterval",
+            "Value": 2600
+          },
+          {
+            "Stat": "MelvorBase:StabDefenceBonus",
+            "Value": -1
+          },
+          {
+            "Stat": "MelvorBase:SlashDefenceBonus",
+            "Value": -8
+          },
+          {
+            "Stat": "MelvorBase:CrushDefenceBonus",
+            "Value": -1
+          },
+          {
+            "Stat": "MelvorBase:BlockDefenceBonus",
+            "Value": -5
+          },
+          {
+            "Stat": "MelvorBase:AccurateAttackBonus",
+            "Value": 25
+          },
+          {
+            "Stat": "MelvorBase:AccurateDefenceBonus",
+            "Value": 7
+          },
+          {
+            "Stat": "MelvorBase:PowerfulDefenceBonus",
+            "Value": 1
+          },
+          {
+            "Stat": "MelvorBase:LongRangeDefenceBonus",
+            "Value": 14
+          },
+          {
+            "Stat": "MelvorBase:OffensiveDefenceBonus",
+            "Value": 25
+          },
+          {
+            "Stat": "MelvorBase:DefensiveDefenceBonus",
+            "Value": 21
+          },
+          {
+            "Stat": "MelvorBase:RangedStrengthBonus",
+            "Value": -45
+          }
+        ],
+        "PowerRatings": [
+          {
+            "DamageType": "MelvorBase:Normal",
+            "Value": 83
+          }
+        ],
+        "ProtectionRatings": [
+          {
+            "DamageType": "MelvorBase:Normal",
+            "Value": 1
+          }
+        ]
+      },
+      "damageType": "MelvorBase:Normal",
+      "element": "MelvorBase:Neutral",
+      "stances": [
+        {
+          "Stance": "MelvorBase:Accurate",
+          "Weight": 1
+        }
+      ],
+      "drops": {
+        "FixedItems": [
+          {
+            "Item": "MelvorBase:Bone",
+            "MinQuantity": 1,
+            "MaxQuantity": 1
+          }
+        ],
+        "ItemTables": [
+          {
+            "Chance": 0.5,
+            "Table": [
+              {
+                "Item": "MelvorBase:StoneArrows",
+                "MinQuantity": 1,
+                "MaxQuantity": 3,
+                "Weight": 7
+              },
+              {
+                "Item": "MelvorBase:Stick",
+                "MinQuantity": 1,
+                "MaxQuantity": 3,
+                "Weight": 5
+              },
+              {
+                "Item": "MelvorBase:HeadlessArrows",
+                "MinQuantity": 3,
+                "MaxQuantity": 5,
+                "Weight": 3
+              },
+              {
+                "Item": "MelvorBase:NormalBow",
+                "MinQuantity": 1,
+                "MaxQuantity": 1,
+                "Weight": 1
+              }
+            ]
+          }
+        ],
+        "FixedCurrencies": [
+          {
+            "Currency": "MelvorBase:GoldPieces",
+            "MinQuantity": 10,
+            "MaxQuantity": 40
+          }
+        ]
+      },
+      "attacks": [],
+      "passives": [],
+      "requirements": [],
+      "displayRequirements": null,
+      "pauseOnSpawn": false
+    },
+    {
+      "id": "MelvorBase:MindGolbin",
+      "name": "Mind Golbin",
+      "sourcePointer": "/Objects/Enemy/2",
+      "levels": [
+        {
+          "Key": "MelvorBase:Hitpoints",
+          "Value": 2
+        },
+        {
+          "Key": "MelvorBase:Attack",
+          "Value": 1
+        },
+        {
+          "Key": "MelvorBase:Strength",
+          "Value": 1
+        },
+        {
+          "Key": "MelvorBase:Defence",
+          "Value": 3
+        },
+        {
+          "Key": "MelvorBase:Ranged",
+          "Value": 1
+        },
+        {
+          "Key": "MelvorBase:Magic",
+          "Value": 4
+        }
+      ],
+      "stats": {
+        "Stats": [
+          {
+            "Stat": "MelvorBase:AttackInterval",
+            "Value": 2800
+          },
+          {
+            "Stat": "MelvorBase:StabDefenceBonus",
+            "Value": 18
+          },
+          {
+            "Stat": "MelvorBase:SlashDefenceBonus",
+            "Value": 15
+          },
+          {
+            "Stat": "MelvorBase:CrushDefenceBonus",
+            "Value": 18
+          },
+          {
+            "Stat": "MelvorBase:BlockDefenceBonus",
+            "Value": 22
+          },
+          {
+            "Stat": "MelvorBase:AccurateDefenceBonus",
+            "Value": -6
+          },
+          {
+            "Stat": "MelvorBase:PowerfulDefenceBonus",
+            "Value": -3
+          },
+          {
+            "Stat": "MelvorBase:LongRangeDefenceBonus",
+            "Value": -6
+          },
+          {
+            "Stat": "MelvorBase:OffensiveAttackBonus",
+            "Value": 16
+          },
+          {
+            "Stat": "MelvorBase:OffensiveDefenceBonus",
+            "Value": 14
+          },
+          {
+            "Stat": "MelvorBase:DefensiveDefenceBonus",
+            "Value": 18
+          },
+          {
+            "Stat": "MelvorBase:SpellMaxHit",
+            "Value": 12
+          }
+        ],
+        "PowerRatings": [
+          {
+            "DamageType": "MelvorBase:Normal",
+            "Value": 104
+          }
+        ],
+        "ProtectionRatings": [
+          {
+            "DamageType": "MelvorBase:Normal",
+            "Value": 2
+          }
+        ]
+      },
+      "damageType": "MelvorBase:Normal",
+      "element": "MelvorBase:Earth",
+      "stances": [
+        {
+          "Stance": "MelvorBase:Offensive",
+          "Weight": 1
+        }
+      ],
+      "drops": {
+        "FixedItems": [
+          {
+            "Item": "MelvorBase:Bone",
+            "MinQuantity": 1,
+            "MaxQuantity": 1
+          }
+        ],
+        "ItemTables": [
+          {
+            "Chance": 0.69,
+            "Table": [
+              {
+                "Item": "MelvorBase:AirRune",
+                "MinQuantity": 1,
+                "MaxQuantity": 6,
+                "Weight": 10
+              },
+              {
+                "Item": "MelvorBase:MindRune",
+                "MinQuantity": 1,
+                "MaxQuantity": 6,
+                "Weight": 7
+              },
+              {
+                "Item": "MelvorBase:UnpoweredOrb",
+                "MinQuantity": 1,
+                "MaxQuantity": 1,
+                "Weight": 3
+              },
+              {
+                "Item": "MelvorBase:BasicWizardHat",
+                "MinQuantity": 1,
+                "MaxQuantity": 1,
+                "Weight": 1
+              }
+            ]
+          }
+        ],
+        "FixedCurrencies": [
+          {
+            "Currency": "MelvorBase:GoldPieces",
+            "MinQuantity": 10,
+            "MaxQuantity": 40
+          }
+        ]
+      },
+      "attacks": [],
+      "passives": [],
+      "requirements": [],
+      "displayRequirements": null,
+      "pauseOnSpawn": false
+    },
+    {
+      "id": "MelvorBase:GolbinAmbusher",
+      "name": "Golbin Ambusher",
+      "sourcePointer": "/Objects/Enemy/3",
+      "levels": [
+        {
+          "Key": "MelvorBase:Hitpoints",
+          "Value": 4
+        },
+        {
+          "Key": "MelvorBase:Attack",
+          "Value": 6
+        },
+        {
+          "Key": "MelvorBase:Strength",
+          "Value": 5
+        },
+        {
+          "Key": "MelvorBase:Defence",
+          "Value": 5
+        },
+        {
+          "Key": "MelvorBase:Ranged",
+          "Value": 1
+        },
+        {
+          "Key": "MelvorBase:Magic",
+          "Value": 1
+        }
+      ],
+      "stats": {
+        "Stats": [
+          {
+            "Stat": "MelvorBase:AttackInterval",
+            "Value": 2100
+          },
+          {
+            "Stat": "MelvorBase:StabAttackBonus",
+            "Value": 17
+          },
+          {
+            "Stat": "MelvorBase:StabDefenceBonus",
+            "Value": 19
+          },
+          {
+            "Stat": "MelvorBase:SlashDefenceBonus",
+            "Value": 23
+          },
+          {
+            "Stat": "MelvorBase:CrushDefenceBonus",
+            "Value": 5
+          },
+          {
+            "Stat": "MelvorBase:AccurateDefenceBonus",
+            "Value": 10
+          },
+          {
+            "Stat": "MelvorBase:PowerfulDefenceBonus",
+            "Value": 29
+          },
+          {
+            "Stat": "MelvorBase:LongRangeDefenceBonus",
+            "Value": 24
+          },
+          {
+            "Stat": "MelvorBase:OffensiveDefenceBonus",
+            "Value": 8
+          },
+          {
+            "Stat": "MelvorBase:DefensiveDefenceBonus",
+            "Value": -4
+          },
+          {
+            "Stat": "MelvorBase:MeleeStrengthBonus",
+            "Value": -35
+          }
+        ],
+        "PowerRatings": [
+          {
+            "DamageType": "MelvorBase:Normal",
+            "Value": 164
+          }
+        ],
+        "ProtectionRatings": [
+          {
+            "DamageType": "MelvorBase:Normal",
+            "Value": 3
+          }
+        ]
+      },
+      "damageType": "MelvorBase:Normal",
+      "element": "MelvorBase:Neutral",
+      "stances": [
+        {
+          "Stance": "MelvorBase:Stab",
+          "Weight": 1
+        }
+      ],
+      "drops": {
+        "FixedItems": [
+          {
+            "Item": "MelvorBase:Bone",
+            "MinQuantity": 1,
+            "MaxQuantity": 1
+          }
+        ],
+        "ItemTables": [
+          {
+            "Chance": 0.5,
+            "Table": [
+              {
+                "Item": "MelvorBase:CopperDagger",
+                "MinQuantity": 1,
+                "MaxQuantity": 1,
+                "Weight": 12
+              },
+              {
+                "Item": "MelvorBase:IronDagger",
+                "MinQuantity": 1,
+                "MaxQuantity": 1,
+                "Weight": 4
+              },
+              {
+                "Item": "MelvorBase:Rope",
+                "MinQuantity": 3,
+                "MaxQuantity": 5,
+                "Weight": 3
+              },
+              {
+                "Item": "MelvorBase:SilverTopazRing",
+                "MinQuantity": 1,
+                "MaxQuantity": 1,
+                "Weight": 1
+              }
+            ]
+          }
+        ],
+        "FixedCurrencies": [
+          {
+            "Currency": "MelvorBase:GoldPieces",
+            "MinQuantity": 13,
+            "MaxQuantity": 50
+          }
+        ]
+      },
+      "attacks": [],
+      "passives": [],
+      "requirements": [],
+      "displayRequirements": null,
+      "pauseOnSpawn": false
+    },
+    {
+      "id": "MelvorBase:Hobgolbin",
+      "name": "Hobgolbin",
+      "sourcePointer": "/Objects/Enemy/4",
+      "levels": [
+        {
+          "Key": "MelvorBase:Hitpoints",
+          "Value": 7
+        },
+        {
+          "Key": "MelvorBase:Attack",
+          "Value": 12
+        },
+        {
+          "Key": "MelvorBase:Strength",
+          "Value": 16
+        },
+        {
+          "Key": "MelvorBase:Defence",
+          "Value": 12
+        },
+        {
+          "Key": "MelvorBase:Ranged",
+          "Value": 1
+        },
+        {
+          "Key": "MelvorBase:Magic",
+          "Value": 1
+        }
+      ],
+      "stats": {
+        "Stats": [
+          {
+            "Stat": "MelvorBase:AttackInterval",
+            "Value": 3100
+          },
+          {
+            "Stat": "MelvorBase:StabDefenceBonus",
+            "Value": 56
+          },
+          {
+            "Stat": "MelvorBase:SlashDefenceBonus",
+            "Value": 15
+          },
+          {
+            "Stat": "MelvorBase:CrushAttackBonus",
+            "Value": 29
+          },
+          {
+            "Stat": "MelvorBase:CrushDefenceBonus",
+            "Value": 48
+          },
+          {
+            "Stat": "MelvorBase:BlockDefenceBonus",
+            "Value": 73
+          },
+          {
+            "Stat": "MelvorBase:AccurateDefenceBonus",
+            "Value": 15
+          },
+          {
+            "Stat": "MelvorBase:PowerfulDefenceBonus",
+            "Value": 48
+          },
+          {
+            "Stat": "MelvorBase:LongRangeDefenceBonus",
+            "Value": 31
+          },
+          {
+            "Stat": "MelvorBase:OffensiveDefenceBonus",
+            "Value": 7
+          },
+          {
+            "Stat": "MelvorBase:DefensiveDefenceBonus",
+            "Value": 33
+          },
+          {
+            "Stat": "MelvorBase:MeleeStrengthBonus",
+            "Value": -23
+          }
+        ],
+        "PowerRatings": [
+          {
+            "DamageType": "MelvorBase:Normal",
+            "Value": 367
+          }
+        ],
+        "ProtectionRatings": [
+          {
+            "DamageType": "MelvorBase:Normal",
+            "Value": 23
+          }
+        ]
+      },
+      "damageType": "MelvorBase:Normal",
+      "element": "MelvorBase:Neutral",
+      "stances": [
+        {
+          "Stance": "MelvorBase:Crush",
+          "Weight": 1
+        }
+      ],
+      "drops": {
+        "FixedItems": [
+          {
+            "Item": "MelvorBase:BigBone",
+            "MinQuantity": 1,
+            "MaxQuantity": 1
+          }
+        ],
+        "ItemTables": [
+          {
+            "Chance": 0.5,
+            "Table": [
+              {
+                "Item": "MelvorBase:CopperMallet",
+                "MinQuantity": 1,
+                "MaxQuantity": 1,
+                "Weight": 10
+              },
+              {
+                "Item": "MelvorBase:Beef",
+                "MinQuantity": 1,
+                "MaxQuantity": 5,
+                "Weight": 6
+              },
+              {
+                "Item": "MelvorBase:IronMallet",
+                "MinQuantity": 1,
+                "MaxQuantity": 1,
+                "Weight": 3
+              },
+              {
+                "Item": "MelvorBase:IronBoots",
+                "MinQuantity": 1,
+                "MaxQuantity": 1,
+                "Weight": 2
+              },
+              {
+                "Item": "MelvorBase:PenrilHerbSeed",
+                "MinQuantity": 2,
+                "MaxQuantity": 2,
+                "Weight": 1
+              }
+            ]
+          }
+        ],
+        "FixedCurrencies": [
+          {
+            "Currency": "MelvorBase:GoldPieces",
+            "MinQuantity": 17,
+            "MaxQuantity": 65
+          }
+        ]
+      },
+      "attacks": [],
+      "passives": [],
+      "requirements": [],
+      "displayRequirements": null,
+      "pauseOnSpawn": false
+    }
+  ],
+  "equipment": [
+    {
+      "id": "MelvorBase:StoneSword",
+      "name": "Stone Sword",
+      "sourcePointer": "/Objects/Item/218",
+      "equipment": {
+        "Type": "MelvorBase:Weapon",
+        "OccupiesSlots": null,
+        "Requirements": [
+          {
+            "Type": "MelvorBase:Level",
+            "Data": {
+              "Component": {
+                "Entity": "MelvorBase:Attack",
+                "Component": "Experience"
+              },
+              "Level": 1,
+              "IsOr": false
+            }
+          }
+        ],
+        "Stats": {
+          "Stats": [
+            {
+              "Stat": "MelvorBase:AttackInterval",
+              "Value": 2700
+            },
+            {
+              "Stat": "MelvorBase:StabAttackBonus",
+              "Value": 13
+            },
+            {
+              "Stat": "MelvorBase:SlashAttackBonus",
+              "Value": 20
+            },
+            {
+              "Stat": "MelvorBase:BlockAttackBonus",
+              "Value": 25
+            },
+            {
+              "Stat": "MelvorBase:MeleeStrengthBonus",
+              "Value": 12
+            }
+          ],
+          "PowerRatings": [
+            {
+              "DamageType": "MelvorBase:Normal",
+              "Value": 56
+            }
+          ],
+          "ProtectionRatings": []
+        },
+        "Bonuses": null,
+        "CanEquipQuantity": false,
+        "Attacks": null,
+        "AmmoType": null,
+        "ConsumesOn": null
+      },
+      "weapon": {
+        "Type": "MelvorBase:Sword",
+        "DamageType": "MelvorBase:Normal",
+        "Elements": [
+          "MelvorBase:Neutral"
+        ],
+        "RequiredAmmoType": null
+      }
+    }
+  ],
+  "stances": [
+    {
+      "sourcePointer": "/Objects/AttackStance/0",
+      "id": "MelvorBase:Stab",
+      "combatStyle": "MelvorBase:Melee",
+      "accuracyStat": "MelvorBase:StabAttackBonus",
+      "evasionStat": "MelvorBase:StabDefenceBonus",
+      "experienceGain": [
+        {
+          "Component": {
+            "Entity": "MelvorBase:Hitpoints",
+            "Component": "Experience"
+          },
+          "ExperiencePerDamage": 0.133
+        },
+        {
+          "Component": {
+            "Entity": "MelvorBase:Attack",
+            "Component": "Experience"
+          },
+          "ExperiencePerDamage": 0.4
+        }
+      ]
+    }
+  ],
+  "scenario": {
+    "available": false,
+    "xpPerHour": null,
+    "killsPerHour": null,
+    "gpPerHour": null,
+    "reason": "Sustainable hourly rates require full combat-loop timing and survival; a separate outgoing-only Golbin example is available."
+  },
+  "scope": "Selected source facts, not a playable or universal hourly baseline.",
+  "area": {
+    "id": "MelvorBase:GolbinForest",
+    "sourcePointer": "/Objects/CombatArea/0",
+    "Difficulty": "MelvorBase:Easy",
+    "DisplayRequirements": [],
+    "Enemies": [
+      "MelvorBase:Golbin",
+      "MelvorBase:GolbinScout",
+      "MelvorBase:MindGolbin",
+      "MelvorBase:GolbinAmbusher",
+      "MelvorBase:Hobgolbin"
+    ]
+  },
+  "normalAttack": {
+    "sourcePointer": "/Objects/Attack/0",
+    "Id": "Normal",
+    "DamageType": null,
+    "Hits": [
+      {
+        "Count": 1,
+        "Damage": [
+          {
+            "Character": "Attacker",
+            "Formula": {
+              "Type": "MelvorBase:NormalDamage",
+              "Data": {
+                "Percent": 1
+              }
+            }
+          }
+        ],
+        "Interval": 1
+      }
+    ],
+    "IsAvoidable": true,
+    "PreHitEffects": [],
+    "OnHitEffects": []
+  },
+  "rewardItems": [
+    {
+      "id": "MelvorBase:Stone",
+      "name": "Stone",
+      "sourcePointer": "/Objects/Item/18",
+      "sellsFor": {
+        "Currency": "MelvorBase:GoldPieces",
+        "Quantity": 2
+      }
+    },
+    {
+      "id": "MelvorBase:StoneHelmet",
+      "name": "Stone Helmet",
+      "sourcePointer": "/Objects/Item/38",
+      "sellsFor": {
+        "Currency": "MelvorBase:GoldPieces",
+        "Quantity": 19
+      }
+    },
+    {
+      "id": "MelvorBase:StoneSword",
+      "name": "Stone Sword",
+      "sourcePointer": "/Objects/Item/218",
+      "sellsFor": {
+        "Currency": "MelvorBase:GoldPieces",
+        "Quantity": 11
+      }
+    },
+    {
+      "id": "MelvorBase:Shrimp",
+      "name": "Shrimp",
+      "sourcePointer": "/Objects/Item/367",
+      "sellsFor": {
+        "Currency": "MelvorBase:GoldPieces",
+        "Quantity": 8
+      }
+    },
+    {
+      "id": "MelvorBase:Bone",
+      "name": "Bone",
+      "sourcePointer": "/Objects/Item/383",
+      "sellsFor": {
+        "Currency": "MelvorBase:GoldPieces",
+        "Quantity": 2
+      }
+    }
+  ]
+}

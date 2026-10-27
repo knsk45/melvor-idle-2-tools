@@ -1,0 +1,197 @@
+{
+  "id": "golbin-stone-sword-stab",
+  "gameVersion": "0.11.2-alpha.4",
+  "channel": "Steam demo",
+  "steamBuildId": "26074343",
+  "checkedAt": "2026-10-27",
+  "packageSha256": "2b43f26ce76d86178f56a72c8dced08a0ae545779786cccdcac868bdc3478474",
+  "dllSha256": "7352a8b5fd7275a19908059398babcc643ce7e30a428e2633b936f9f191c0af5",
+  "method": "docs/COMBAT_VERIFIED_BASE.md#golbin-worked-example",
+  "sourcePointer": "/Objects/Enemy/0",
+  "weaponSourcePointer": "/Objects/Item/218",
+  "player": {
+    "attackLevel": 1,
+    "strengthLevel": 1,
+    "weapon": "Stone Sword",
+    "stance": "Stab",
+    "otherEquipment": [],
+    "modifiersApplied": false
+  },
+  "enemy": {
+    "id": "MelvorBase:Golbin",
+    "name": "Golbin",
+    "hitpoints": 20,
+    "defenceLevel": 1,
+    "evasionRating": 680,
+    "armour": 0,
+    "ward": 0,
+    "protectionRating": 1
+  },
+  "offense": {
+    "accuracyRating": 770,
+    "hitChance": 0.5584415584415584,
+    "rawMinHit": 1,
+    "rawMaxHit": 26,
+    "powerRating": 56,
+    "resistance": 0.017543859649122806,
+    "attackIntervalMs": 2700,
+    "damageOutcomes": [
+      {
+        "damage": 1,
+        "probability": 0.07692307692307693
+      },
+      {
+        "damage": 2,
+        "probability": 0.038461538461538464
+      },
+      {
+        "damage": 3,
+        "probability": 0.038461538461538464
+      },
+      {
+        "damage": 4,
+        "probability": 0.038461538461538464
+      },
+      {
+        "damage": 5,
+        "probability": 0.038461538461538464
+      },
+      {
+        "damage": 6,
+        "probability": 0.038461538461538464
+      },
+      {
+        "damage": 7,
+        "probability": 0.038461538461538464
+      },
+      {
+        "damage": 8,
+        "probability": 0.038461538461538464
+      },
+      {
+        "damage": 9,
+        "probability": 0.038461538461538464
+      },
+      {
+        "damage": 10,
+        "probability": 0.038461538461538464
+      },
+      {
+        "damage": 11,
+        "probability": 0.038461538461538464
+      },
+      {
+        "damage": 12,
+        "probability": 0.038461538461538464
+      },
+      {
+        "damage": 13,
+        "probability": 0.038461538461538464
+      },
+      {
+        "damage": 14,
+        "probability": 0.038461538461538464
+      },
+      {
+        "damage": 15,
+        "probability": 0.038461538461538464
+      },
+      {
+        "damage": 16,
+        "probability": 0.038461538461538464
+      },
+      {
+        "damage": 17,
+        "probability": 0.038461538461538464
+      },
+      {
+        "damage": 18,
+        "probability": 0.038461538461538464
+      },
+      {
+        "damage": 19,
+        "probability": 0.038461538461538464
+      },
+      {
+        "damage": 20,
+        "probability": 0.038461538461538464
+      },
+      {
+        "damage": 21,
+        "probability": 0.038461538461538464
+      },
+      {
+        "damage": 22,
+        "probability": 0.038461538461538464
+      },
+      {
+        "damage": 23,
+        "probability": 0.038461538461538464
+      },
+      {
+        "damage": 24,
+        "probability": 0.038461538461538464
+      },
+      {
+        "damage": 25,
+        "probability": 0.038461538461538464
+      }
+    ],
+    "expectedAttacks": 3.9074688029733413
+  },
+  "perKill": {
+    "attackXp": 8.0,
+    "hitpointsXp": 2.66,
+    "directGold": 25.0,
+    "items": [
+      {
+        "id": "MelvorBase:Bone",
+        "name": "Bone",
+        "probability": 1.0,
+        "quantity": 1.0,
+        "expectedQuantity": 1.0,
+        "salePrice": 2
+      },
+      {
+        "id": "MelvorBase:Stone",
+        "name": "Stone",
+        "probability": 0.6521739130434783,
+        "quantity": 1.0,
+        "expectedQuantity": 0.6521739130434783,
+        "salePrice": 2
+      },
+      {
+        "id": "MelvorBase:Shrimp",
+        "name": "Shrimp",
+        "probability": 0.21739130434782608,
+        "quantity": 1.0,
+        "expectedQuantity": 0.21739130434782608,
+        "salePrice": 8
+      },
+      {
+        "id": "MelvorBase:StoneHelmet",
+        "name": "Stone Helmet",
+        "probability": 0.08695652173913043,
+        "quantity": 1.0,
+        "expectedQuantity": 0.08695652173913043,
+        "salePrice": 19
+      },
+      {
+        "id": "MelvorBase:StoneSword",
+        "name": "Stone Sword",
+        "probability": 0.043478260869565216,
+        "quantity": 1.0,
+        "expectedQuantity": 0.043478260869565216,
+        "salePrice": 11
+      }
+    ],
+    "grossGold": 32.17391304347826
+  },
+  "baseSpawnIntervalMs": 3000,
+  "hourly": {
+    "xp": null,
+    "kills": null,
+    "gold": null
+  },
+  "scope": "Outgoing-only example. Enemy attacks, survival, healing and full combat-loop timing are excluded. Rewards are per completed kill, assuming sufficient inventory capacity."
+}

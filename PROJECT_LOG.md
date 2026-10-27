@@ -1,5 +1,25 @@
 # Журнал проекта
 
+## 27.10.2026 — публикация для просмотра владельцем
+
+По явному поручению владельца подготовлены commit/pushmain и штатный Pages deploy текущего Golbin example вместе с проверенными source facts/формулами/генераторами/тестами и документацией. pnpm check повторён непосредственно перед отправкой:36tests/lint/tsc/build. Старые незакоммиченные рабочие правки сохранены; локальный AGENTS.md CT111 не включается. Бинарники, credentials и ignored_work не публикуются. Точный SHA, Actions result и live asset verification сохраняются после отправки в родительский Реестр перехода и ignored_work/publication-golbin-20261027.json. URL просмотра https://knsk45.github.io/melvor-idle-2-tools/#attack .
+
+## 27.10.2026 — Golbin как законченный per-kill пример
+
+Добавлен отдельный UI Attack/Golbin с фиксированными Stone Sword/Stab и Attack/Strength1. На Laptop-Alia независимо восстановлены CIL evasion/resistance/NormalDamage minimum+maximum+HasMinimum, actual HP damage clamping, crit baseline, per-kill loot execution и default spawn3000ms. Evidence остаётся ignored `_work/combat-direct-20261027/`. Full target code не исполнялся.
+
+Расширен catalog выбранными reward prices/Normal attack/area; добавлены reproducible `scripts/build_golbin_reference.py` (rational recurrence), `src/data/combat/golbin.json`, domain expectedAttacksToDefeat,5regression tests, компонент/стили и EN/RU. UI отличает пример◇ от16rate tables. Outgoing benchmark:55.8442%hit,3.907468803attempts/20HP; per completed kill8AttackXP,2.66HPXP,25directGP/32.173913grossGP. Overkill не добавляетXP, final damage не uniform1–25: mass on1 вдвое больше. Hourly остаётсяnull; retaliation/survival/healing/progression/full-loop timing не моделируются. Никакой win-probability/training recommendation не заявлено.
+
+Проверки: полный pnpm check (pinned11.25.0 через npm exec) —36tests,ESLint,tsc,Vitebuild passed. Generator повторён, SHA2563979a4cb3b392e66aa470d423b64dffb528607c0a4680dabba1f6c18ddadb71b совпал; Python syntax/JSON/diffcheck прошли. Браузер: desktop1440, EN/RU, damage disclosure; mobile390x844, bodyWidth390, internal drop-table scroll739/360 и source hashes wrap. Игровые файлы/production/сохранения не менялись, push/deploy нет. Devserver только loopback5173; временный отдельный Chromium использован для проверки. Следующее — full-loop модель для hourly либо расширение per-kill references по отдельному поручению.
+
+## 27.10.2026 — combat base напрямую с Laptop-Alia
+
+По запросу владельца продолжена разработка с прямым SSH-доступом. Установленный EXE прочитан на ноутбуке, package SHA проверен; DLL SHA и Steam appmanifest build26074343 совпали с pinned demo0.11.2-alpha.4. В полном пакете есть 155 Enemy records: прежнее отсутствие enemy/weapon относилось только к неполным переданным выборкам. Добавлены авторский `scripts/extract_combat_facts.py` и выбранные source facts `data/catalog/combat-base.json` (пять Golbin Forest enemies, Stone Sword и Stab, pointers/requirements/drops).
+
+Независимый dnfile/dncil-reader на ноутбуке прочитал восемь адресных CIL bodies без CLR/runtime; приватная evidence `_work/combat-direct-20261027/method-bodies.json`. В `src/domain/combat.ts` добавлены base accuracy/hit chance/max hit/interval/HP functions; `combat-base.test.ts` содержит source fixtures и branch/invalid-input checks. Токены/формулы/границы описаны в `docs/COMBAT_VERIFIED_BASE.md`, обновлены README и coverage/design docs. Game binaries не переносились, игровых файлов/сохранений/служб не меняли.
+
+Полный `pnpm check` через pinned pnpm11.25.0 прошёл: lint, 31 тест, TypeScript, Vite build; предупреждение large bundle сохраняется. Python syntax/catalog JSON и git diff --check проверены. Hourly Attack остаётся pending: надо проверить evasion, damage distribution/overkill, drop-roll execution, spawn timing/ticks и survival. Доступ к исходникам больше не blocker. Commit/push/deploy не выполнялись; предыдущие незакоммиченные изменения сохранены.
+
 ## 24.10.2026 — создание и подготовка
 
 Запрос: подготовить отдельную папку, создать melvor-idle-2-tools в GitHub, прочитать handoff и подготовить проект.
@@ -92,3 +112,32 @@ REA-backed static CIL review added Thieving: 40 definitions, 20 ordinary demo ro
 ## 25.10.2026 — Ranching baseline in UI
 
 Подключён Ranching как 15-я проверенная таблица. UI использует общий поиск, scope Demo/All и сортировки XP/ч, предметы/ч, золото/ч и уровень. В baseline отображаются 20 животных и базовые продукты на час при happiness 1.0; XP/ч и золото/ч оставлены неизвестными до декодирования state-dependent XP и цен. `pnpm check` прошёл, commit `de93682` опубликован в `main`.
+
+
+## 26.10.2026 — перенос рабочей папки
+
+По поручению пользователя весь каталог `/home/codex/projects/workspace/melvor-idle-2-tools` перемещён в `/home/codex/projects/melvor-idle-2-tools` через rename без копирования и удаления содержимого. Сохранены `.git`, скрытые и игнорируемые файлы, исходное незакоммиченное изменение AGENTS.md. Ветка main, HEAD 7525be4 (feat: add combat rate model). Старого каталога нет. Продолжать работу из нового пути; родительские инструкции — `/home/codex/projects/AGENTS.md`. Общий контекст и реестр перехода остаются в `/home/codex/projects/workspace/00_Контекст/`. Commit/push и публикация не выполнялись. Изменён только контекст переноса; код не менялся. Проверены сохранение inode каталога и доступ к Git из новой папки.
+
+## 26.10.2026 — синхронизация покрытия и проверка
+
+По поручению владельца выполнены все пять пунктов актуализации разработки. README/README.ru, ROADMAP и BASE_SKILL_FORMULAS приведены к фактическому состоянию: 16 таблиц из 25, девять pending/scenario-dependent. Добавлен `docs/REMAINING_SKILLS_STATUS.md`: Agility не имеет доступных course/location/obstacle definitions; восемь боевых навыков требуют target/style/player-state inputs. Combat formulas остаются протестированной моделью, без искусственных target rows.
+
+Hunting и Ranching зафиксированы как опубликованные state-dependent baselines с ограничениями, а не как универсальные rates. План `docs/MODIFIERS_ARTICLE_PLAN.md` расширен evidence contract и структурой будущей статьи; числовые модификаторы и stacking не добавлялись.
+
+Проверка выполнена через `npm exec --yes pnpm@11.25.0 -- check`: lockfile policy, ESLint, 28 тестов Vitest, TypeScript и Vite production build прошли успешно. Для запуска восстановлено право выполнения только у существующего игнорируемого `node_modules` бинарника esbuild; исходные файлы и lockfile не менялись. Pages, серверы, игровые файлы и credentials не затрагивались. Следующее: отдельная проверка источников для Agility/combat либо продолжение статьи о модификаторах.
+
+## 26.10.2026 — аудит combat источников
+
+По поручению владельца выполнен адресный read-only аудит перед реализацией Attack. В рабочем checkout нет сохранённого combat package/catalog с target definitions, weapon stats, styles, hit chance, XP timing или loot; имеются только `src/data/skills/index.json` и протестированная доменная модель `src/domain/combat.ts`. Existing item/recipe catalogs не считаются доказательством боевой playability. Attack и остальные боевые навыки оставлены pending, target rows и rates не выдумывались.
+
+Обновлены `docs/COMBAT_TABLE_DESIGN.md` и `docs/SOURCES.md` с результатом аудита и минимальным контрактом следующего источника: package SHA, channel/build, method provenance и дата. Pages, серверы, игровые файлы и внешние отправки не затрагивались.
+
+## 26.10.2026 — импорт combat evidence из GitHub
+
+По поручению владельца найден и прочитан GitHub branch `audit/combat-evidence-20261026`. Sanitized evidence импортирован в ignored `_work/combat-audit-20261026/`: README, manifest, combat-facts, methods, blockers, REA summary и static source ledger. Локальная проверка подтвердила отсутствие EXE/DLL/PCK, сохранений, credentials и ключей; JSON-файлы разобраны успешно после исправления только локальной копии manifest.
+
+В опубликованном manifest отсутствовала закрывающая `]` у `sourceAndLimits.limitations`; upstream GitHub не изменялся. Audit подтверждает CombatArea/style/Attack definitions и method tokens, но не enemy stats, weapon/equipment stats, player baseline и loot; Attack rates не добавлялись. Pages, main, серверы и внешние отправки не затрагивались.
+
+## 26.10.2026 — импорт targeted combat evidence
+
+Найдена и прочитана ветка `audit/combat-targeted-20261026`. В ignored `_work/combat-audit-20261026-targeted/` импортированы 10 файлов: README, manifest, enemy/weapon/player/formula/XP/loot/Attack scenario facts и methods. Все JSON локально разобраны успешно; `git diff --check` проходит. Targeted результат не закрыл blocker: REA снова ограничен 64 MiB, enemy/weapon/player/reward chain не даёт полного совместимого числового Attack scenario. Код, main, игра, серверы и внешние отправки не затрагивались.

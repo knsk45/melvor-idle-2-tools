@@ -6,6 +6,7 @@ Source: [extraction and provenance](../../docs/EXTRACTED_DATA.md).
 - recipes.json: 1120 recipes across 10 types, with requirements and availability markers.
 - woodcutting.json: 20 definitions, including 6 DemoLocked and 5 conditional entries.
 - manifest.json: source hashes, build identity and counts.
+- combat-base.json: selected Golbin Forest enemy, Stone Sword and Stab facts, extracted directly on 27 October 2026. These are source definitions, not an hourly combat scenario. See [verified combat base](../../docs/COMBAT_VERIFIED_BASE.md).
 
 These are shipped definitions, not a list of playable content. Only nine Woodcutting objects currently feed the reviewed baseline UI. Other calculators remain future work. Preserve original JSON pointers and requirements when implementing them.
 

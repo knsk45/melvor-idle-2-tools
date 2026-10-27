@@ -19,11 +19,13 @@ import runecrafting from './data/skills/runecrafting.json';
 import smithing from './data/skills/smithing.json';
 import ranching from './data/skills/ranching.json';
 import hunting from './data/skills/hunting.json';
+import {GolbinReference} from './components/GolbinReference';
+import {combatMessages} from './i18n/combat';
 const tables:Record<string,SkillTable>={woodcutting:woodcutting as SkillTable,fishing:fishing as SkillTable,mining:mining as SkillTable,astrology:astrology as SkillTable,beastcrafting:beastcrafting as SkillTable,cooking:cooking as SkillTable,crafting:crafting as SkillTable,farming:farming as SkillTable,firemaking:firemaking as SkillTable,fletching:fletching as SkillTable,herblore:herblore as SkillTable,runecrafting:runecrafting as SkillTable,smithing:smithing as SkillTable,thieving:thieving as SkillTable,ranching:ranching as SkillTable,hunting:hunting as SkillTable};
 const knownSkills=new Set(index.skills.map(s=>s.id));
 const fromHash=()=>{const id=window.location.hash.slice(1);return knownSkills.has(id)?id:'woodcutting';};
 const skillRu:Record<string,string>={woodcutting:'Рубка дерева',fishing:'Рыбалка',mining:'Добыча руды',cooking:'Кулинария',crafting:'Ремесло',farming:'Земледелие',firemaking:'Разведение огня',fletching:'Изготовление стрел',herblore:'Травничество',hunting:'Охота',runecrafting:'Изготовление рун',smithing:'Кузнечное дело',thieving:'Воровство',ranching:'Животноводство',astrology:'Астрология',agility:'Ловкость',beastcrafting:'Beastcrafting',attack:'Атака',strength:'Сила',defence:'Защита',hitpoints:'Здоровье',ranged:'Дальний бой',magic:'Магия',prayer:'Молитва',slayer:'Slayer'};
-const ordered=[...index.skills].sort((a,b)=>(a.status==='ready'?0:1)-(b.status==='ready'?0:1)||a.name.localeCompare(b.name));
+const ordered=[...index.skills].sort((a,b)=>(a.status==='ready'?0:a.id==='attack'?1:2)-(b.status==='ready'?0:b.id==='attack'?1:2)||a.name.localeCompare(b.name));
 export function App(){
   const [settings,setSettings]=useState<Settings>(()=>{try{return restore(localStorage.getItem(storageKey));}catch{return {...defaults};}});
   const [skill,setSkill]=useState(fromHash);
@@ -42,11 +44,11 @@ export function App(){
   return <>
     <header><a className="brand" href="#woodcutting"><span className="brand-icon" aria-hidden="true">M₂</span><span>MELVOR IDLE 2 <small>BASE REFERENCE</small></span></a><nav aria-label="Language"><button className="language" onClick={()=>setSettings(s=>({...s,lang:s.lang==='en'?'ru':'en'}))}>{settings.lang==='en'?'RU':'EN'}</button><a href="https://github.com/knsk45/melvor-idle-2-tools">GitHub ↗</a></nav></header>
     <div className="app-layout">
-      <aside><p className="eyebrow">{t.skills} / {index.skills.length}</p><nav aria-label={t.skills}>{ordered.map(s=><a key={s.id} href={'#'+s.id} aria-current={s.id===skill?'page':undefined}><span>{settings.lang==='ru'?skillRu[s.id]??s.name:s.name}</span><small>{s.status==='ready'?'●':'○'}</small></a>)}</nav></aside>
+      <aside><p className="eyebrow">{t.skills} / {index.skills.length}</p><nav aria-label={t.skills}>{ordered.map(s=><a key={s.id} href={'#'+s.id} aria-current={s.id===skill?'page':undefined}><span>{settings.lang==='ru'?skillRu[s.id]??s.name:s.name}</span><small>{s.status==='ready'?'●':s.id==='attack'?'◇':'○'}</small></a>)}</nav></aside>
       <main>
-        <div className="mobile-skill"><label>{t.skillLabel}<select value={skill} onChange={e=>{window.location.hash=e.target.value;}}>{ordered.map(s=><option value={s.id} key={s.id}>{settings.lang==='ru'?skillRu[s.id]??s.name:s.name}{s.status==='ready'?'':' · '+t.planned}</option>)}</select></label></div>
-        <section className="page-heading"><p className="coverage-notice">{t.notice}</p><p className="eyebrow">{t.title}</p><h1>{name}</h1><p>{t.description}</p><div className="source-badge"><span aria-hidden="true"/> {t.build}</div></section>
-        {table?<section className="workspace" aria-label={name}>
+        <div className="mobile-skill"><label>{t.skillLabel}<select value={skill} onChange={e=>{window.location.hash=e.target.value;}}>{ordered.map(s=><option value={s.id} key={s.id}>{settings.lang==='ru'?skillRu[s.id]??s.name:s.name}{s.status==='ready'?'':' · '+(s.id==='attack'?combatMessages[settings.lang].example:t.planned)}</option>)}</select></label></div>
+        <section className="page-heading"><p className="coverage-notice">{t.notice}</p><p className="eyebrow">{t.title}</p><h1>{name}</h1><p>{skill==='attack'?combatMessages[settings.lang].description:t.description}</p><div className="source-badge"><span aria-hidden="true"/> {t.build}</div></section>
+        {skill==='attack'?<GolbinReference lang={settings.lang}/>:table?<section className="workspace" aria-label={name}>
           <div className="workspace-heading"><strong>{t.baseline}</strong><span>{rows.length} / {table.rows.length} {settings.lang==='en'?'actions':'действий'}</span></div>
           {table.scenario&&<p className="scenario-banner"><span aria-hidden="true">◇</span>{table.scenario}</p>}
           <div className="toolbar"><label>{t.search}<input type="search" value={search} onChange={e=>setSearch(e.target.value)}/></label><label>{t.sort}<select value={sort} onChange={e=>setSort(e.target.value as SortKey)}><option value="xp">{t.xp}</option><option value="items">{t.items}</option><option value="gold">{t.gold}</option><option value="level">{t.level}</option></select></label><label>{t.scope}<select value={scope} onChange={e=>setScope(e.target.value as 'demo'|'all')}><option value="demo">{t.demo}</option><option value="all">{t.all}</option></select></label></div>
