@@ -1,5 +1,7 @@
 # Verified combat base facts
 
+Product update, 2026-10-27: combat calculations are on hold at the owner's request. The Golbin worked-example implementation below is retained as historical evidence but disconnected from the interface. Use the [monster database](MONSTER_DATABASE.md) for the current product.
+
 Checked directly on Laptop-Alia on 2026-10-27, Steam demo `0.11.2-alpha.4`, build `26074343`.
 
 - Package SHA-256: `2b43f26ce76d86178f56a72c8dced08a0ae545779786cccdcac868bdc3478474`.

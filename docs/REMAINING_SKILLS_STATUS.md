@@ -1,5 +1,7 @@
 # Remaining skill coverage
 
+Owner decision, 2026-10-27: combat skill calculations are postponed. The Golbin example described below is historical and no longer routed in the UI. The current priority is the [monster database](MONSTER_DATABASE.md), containing all 155 Enemy definitions from the pinned build. It does not add another skill-rate table.
+
 This document defines what is and is not covered by the fixed base reference. It prevents a shipped definition, a catalog entry, or a stateful baseline from being mistaken for a universal rate.
 
 ## Current coverage

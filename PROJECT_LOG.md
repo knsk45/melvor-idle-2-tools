@@ -1,5 +1,13 @@
 # Журнал проекта
 
+## 27.10.2026 — полный справочник монстров вместо боевых расчётов
+
+После просмотра Golbin владелец отложил боевые навыки и поручил полную базу монстров. App больше не открывает GolbinReference; combat sections помечены отложенными. Исходники сохранены для истории. Добавлен отдельный lazy-loaded `#monsters`, он же default/home route: все155Enemy pinned demo, search/drop/location,style/location/explicitlock filters,sortname/baseHP,24карточки с paginationдо155, раскрываемые stats/locations/loot/abilities/source. EN/RU, базовые значения без персонажа.
+
+Новый read-only scripts/extract_monsters.py прочитал embedded JSON на Laptop-Alia, проверив packageSHA. scripts/import_monsters.py сгенерировал src/data/monsters.json.155uniqueIDs,155местами,55CombatArea+12Dungeon,43явно содержатmonsters;109Attack и30CombatPassive definitions.97locked/2conditional/56noexplicitlock, без утверждений оplayability. Dungeon membership не потерян. HPlevel×10 имеет CIL-anchor, raw bonuses/lootgroups/currency/requirements сохранены; нет изображений/бинарников/сюжета. Методика docs/MONSTER_DATABASE.md. Новые domain/filter/sourceintegritytests7; предыдущие таблицы сохранены.
+
+Первый полныйcheck43tests/lint/tsc/build прошёл. Браузер: поискGolbin6результатов, карточкаGolbin20HP/2.4s,5drop rows иDungeonHobgolbinCamp;RU;mobile390documentWidth390;Showmoreдо155;Attackpaused/oldexampleabsent;Woodcutting9rowsсохранены. Передпубликацией выполняется итоговыйcheck. Livecommit/runreceiptпослеdeploy в родительскомреестре и ignored_work/publication-monsters-20261027.json. Игровыефайлы/сохранения/productionслужбы не менялись.
+
 ## 27.10.2026 — публикация для просмотра владельцем
 
 По явному поручению владельца подготовлены commit/pushmain и штатный Pages deploy текущего Golbin example вместе с проверенными source facts/формулами/генераторами/тестами и документацией. pnpm check повторён непосредственно перед отправкой:36tests/lint/tsc/build. Старые незакоммиченные рабочие правки сохранены; локальный AGENTS.md CT111 не включается. Бинарники, credentials и ignored_work не публикуются. Точный SHA, Actions result и live asset verification сохраняются после отправки в родительский Реестр перехода и ignored_work/publication-golbin-20261027.json. URL просмотра https://knsk45.github.io/melvor-idle-2-tools/#attack .

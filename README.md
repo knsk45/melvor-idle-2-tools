@@ -2,6 +2,8 @@
 
 An unofficial **base skill reference** for Melvor Idle 2. English is the default; Russian is available with the language switch.
 
+The home page is now a **monster database** with all 155 Enemy definitions shipped in the verified demo build: search by monster, location or drop; filter by style, location and explicit source lock; inspect base characteristics, loot, attacks and passives. Coverage is complete for this build's Enemy registry, not the future full game or proven demo playability. See [monster sources and methodology](docs/MONSTER_DATABASE.md).
+
 Open a skill and order actions by **XP/hour, primary items/hour or gross GP/hour**. These are fixed, precomputed expectations using unmodified game parameters. There is no character calculator, level input, quantity target or modifier configuration.
 
 ## Coverage
@@ -43,7 +45,7 @@ Open http://127.0.0.1:5173/melvor-idle-2-tools/ . Checks run ESLint, Vitest, Typ
 
 `src/data/skills` contains fixed tables; `src/domain` handles selection, ordering, language preferences and separately tested combat base formulas. `data/catalog` contains selected extracted facts. `scripts/build_base_reference.py` regenerates tables from those facts and the hash-pinned installed package. See [methodology](docs/METHODOLOGY.md).
 
-Attack includes a separate fixed **Golbin worked example**: Stone Sword/Stab, Attack and Strength level 1, verified hit chance, damage distribution and per-kill rewards. It models outgoing attacks only; hourly rates and survival are not claimed. This example is additional to the 16 tables above. See [verified combat base](docs/COMBAT_VERIFIED_BASE.md).
+Combat skill calculations are on hold at the owner's request. The Golbin worked example is no longer exposed in the interface; its source and tests are retained for possible future work. The monster database has no character calculator, hit-chance predictions or combat XP/hour rankings.
 
 Modifiers belong in a [separate future article](docs/MODIFIERS_ARTICLE_PLAN.md). See [roadmap](docs/ROADMAP.md), [contributing](CONTRIBUTING.md) and [continuation](CONTINUE_HERE.md).
 

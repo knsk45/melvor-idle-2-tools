@@ -2,6 +2,9 @@
 
 ## Current
 
+- Complete source-bound monster database for the pinned demo: 155 records, locations, base characteristics, drops, declared attacks/passives and explicit lock boundaries. Default route `#monsters`.
+- Combat skill calculations are on hold by owner decision (2026-10-27). The former Golbin example is disconnected from the UI. Work next on monster-reference usability/coverage, not a player calculator.
+
 - English default and Russian switch.
 - Fixed reference tables for 16 sections: Woodcutting, Fishing, Mining, Astrology, Smithing, Crafting, Fletching, Runecrafting, Beastcrafting, Cooking, Firemaking, Herblore placeholders, Farming, Thieving, Hunting and Ranching.
 - Ordering by base XP/hour, primary items/hour and gross GP/hour; search and explicit content scope.

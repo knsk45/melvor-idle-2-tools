@@ -1,3 +1,13 @@
+## 27.10.2026 — боевые навыки отложены; приоритет — база монстров
+
+Владелец оценил страницу Golbin как сложную и зависящую от прокачки. По его решению боевые расчёты отложены. Не развивать player/combat/hourly model без нового запроса. GolbinReference отключён от App, старые исходники/данные/тесты сохранены. Восемь боевых разделов показывают статус отложено и ссылку на базу.
+
+Главная страница теперь `#monsters`: полный Enemy registry pinned demo0.11.2-alpha.4/build26074343 —155записей. `src/data/monsters.json` получен read-only из embedded package Laptop-Alia, SHA проверен.55CombatArea+12Dungeon,43содержат прямые enemy references; у всех155есть связи с местами.109referencedAttack и30referencedCombatPassive definitions.97enemyDemoLocked,2conditional,56безявногоenemylock — последние не объявляются playable; area gates/effects сохранены отдельно.
+
+Генерация: scripts/extract_monsters.py (на Laptop-Alia черезSSH, stdoutJSON) → scripts/import_monsters.py (CT111, generated src/data/monsters.json). Реестр отдаёт уровни, baseHP, raw bonuses, power/protection, stances,element/damage type, loot groups/ranges, currency, attacks/passives, pointers/source/build/date. Изображения/бинарники/тексты сюжета не копируются. Full означает полноту155Enemyэтойсборки, а не будущейигры/доступности. Методика docs/MONSTER_DATABASE.md.
+
+UI: lazy-loaded MonsterDatabase, EN/RU; компактные сворачиваемые карточки, searchmonster/location/drop,style/location/lockfilters,sortname/HP,24строки сShowmoreдо155. Ручных параметров персонажа и combat efficiency нет. Проверки и итог публикации фиксируются в PROJECT_LOG, родительскомреестре и ignored_work/publication-monsters-20261027.json. Следующее — отзыв по базе/улучшение читаемости, не расчёт боя.
+
 ## 27.10.2026 — публикация Golbin по поручению владельца
 
 Владелец поручил опубликовать текущий пример для просмотра и дальнейших правок. Публикуется код Golbin, выбранные numerical facts, генераторы, тесты и актуализация документации. Игнорируемые `_work` evidence/бинарники не включаются. Локальная адаптация `AGENTS.md` для CT111 остаётся незакоммиченной. Перед push выполнен pnpm check; состояние Actions/Pages и точный commit после отправки фиксируются в родительском реестре перехода и ignored `_work/publication-golbin-20261027.json`. Страница просмотра: https://knsk45.github.io/melvor-idle-2-tools/#attack . Пример outgoing-only, survival и hourly не заявлены.
