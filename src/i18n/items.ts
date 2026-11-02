@@ -1,0 +1,28 @@
+export const itemMessages = {
+  en: {
+    title: 'Items', description: 'Look up an item’s base information, where it comes from and how likely each source is to give it.',
+    coverage: 'All 664 item records in this demo build. Sources are joined from the monster database and the fixed skill tables; an item without a listed source may still be obtainable in ways not yet verified (shops, chests, quests, dungeon rewards, Thieving, Astrology).',
+    search: 'Search items, IDs or sources', source: 'Obtained from', sort: 'Order by', all: 'All', monster: 'Monster drops', none: 'No verified source',
+    name: 'Name', value: 'Sale value', sourceCount: 'Number of sources', count: 'items', reset: 'Reset filters', empty: 'No matching items', more: 'Show more', loading: 'Loading item database…',
+    basics: 'Base information', id: 'ID', plural: 'Plural', sellsFor: 'Sells for', completion: 'Counts for completion', yes: 'Yes', no: 'No',
+    sources: 'Sources', sourceName: 'Source', kind: 'Type', chance: 'Base probability', quantity: 'Quantity', rate: 'Items / hour', status: 'Content',
+    monsterKind: 'Monster', fixed: 'Fixed', table: 'Table', perKill: 'per kill', perAction: 'per action', level: 'Lv.',
+    noSources: 'No source verified for this build yet. This is not proof that the item cannot be obtained.',
+    sourceNote: 'Monster probabilities are per kill and include the drop-table chance; each numbered table is a separate roll. Skill probabilities and items/hour come from the fixed base tables (no modifiers, nominal game time). Locked or conditional sources are marked and are not claims of playability.',
+    locked: 'Locked in demo', conditional: 'Has requirements', unconfirmed: 'No explicit enemy lock', demo: 'Demo action',
+    database: 'Database', sourceRecord: 'Source',
+  },
+  ru: {
+    title: 'Предметы', description: 'Базовые сведения о предмете, откуда он берётся и с какой вероятностью.',
+    coverage: 'Все 664 записи предметов этой демо-сборки. Источники собраны из базы монстров и фиксированных таблиц навыков; у предмета без источника могут быть ещё не проверенные способы получения (магазины, сундуки, задания, награды подземелий, Воровство, Астрология).',
+    search: 'Поиск предмета, ID или источника', source: 'Источник', sort: 'Порядок', all: 'Все', monster: 'Добыча монстров', none: 'Без проверенного источника',
+    name: 'Имя', value: 'Цена продажи', sourceCount: 'Число источников', count: 'предметов', reset: 'Сбросить фильтры', empty: 'Предметы не найдены', more: 'Показать ещё', loading: 'Загрузка базы предметов…',
+    basics: 'Базовые сведения', id: 'ID', plural: 'Мн. число', sellsFor: 'Цена продажи', completion: 'Учитывается в коллекции', yes: 'Да', no: 'Нет',
+    sources: 'Источники', sourceName: 'Источник', kind: 'Тип', chance: 'Базовая вероятность', quantity: 'Количество', rate: 'Предметов / час', status: 'Содержимое',
+    monsterKind: 'Монстр', fixed: 'Постоянный', table: 'Таблица', perKill: 'за убийство', perAction: 'за действие', level: 'Ур.',
+    noSources: 'Для этой сборки источник пока не проверен. Это не доказывает, что предмет нельзя получить.',
+    sourceNote: 'Вероятности монстров — за одно убийство с учётом шанса таблицы; каждая пронумерованная таблица — отдельный бросок. Вероятности навыков и предметы в час взяты из фиксированных базовых таблиц (без модификаторов, номинальное игровое время). Заблокированные и условные источники помечены и не означают доступность в игре.',
+    locked: 'Заблокировано в демо', conditional: 'Есть требования', unconfirmed: 'Без явной блокировки монстра', demo: 'Действие демо',
+    database: 'База данных', sourceRecord: 'Источник',
+  },
+} as const;
