@@ -1,0 +1,6 @@
+.item-tools{grid-template-columns:repeat(2,minmax(0,1fr))}
+.item-card .monster-hp{white-space:nowrap}
+.item-card td small,.item-card tbody th small{display:block;font-size:10px;color:#93aa8d;margin-top:2px}
+.item-card tbody th a{color:#d6e9b9}
+.item-card .monster-stats dd{overflow-wrap:anywhere}
+.item-database>.monster-note:last-child{overflow-wrap:anywhere}
