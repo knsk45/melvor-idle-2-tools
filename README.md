@@ -47,6 +47,8 @@ Open http://127.0.0.1:5173/melvor-idle-2-tools/ . Checks run ESLint, Vitest, Typ
 
 Combat skill calculations are on hold at the owner's request. The Golbin worked example is no longer exposed in the interface; its source and tests are retained for possible future work. The monster database has no character calculator, hit-chance predictions or combat XP/hour rankings.
 
+The [item database](docs/ITEM_DATABASE.md) (`#items`) lists all 664 item records with base information, sources (monster drops and skill-table products) and each source's base probability. It introduces no new game data; items without a verified source are labelled, not declared unobtainable.
+
 Modifiers belong in a [separate future article](docs/MODIFIERS_ARTICLE_PLAN.md). See [roadmap](docs/ROADMAP.md), [contributing](CONTRIBUTING.md) and [continuation](CONTINUE_HERE.md).
 
 Published site: https://knsk45.github.io/melvor-idle-2-tools/ . Pushes to main run checks before updating GitHub Pages; publication was authorized on 25 October 2026. MIT covers original code. Game binaries, assets and source code are not bundled.
