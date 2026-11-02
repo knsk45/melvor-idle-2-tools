@@ -66,3 +66,25 @@ export function selectItems(rows: ItemRecord[], filters: ItemFilters): ItemRecor
       return a.name.localeCompare(b.name, 'en');
     });
 }
+
+const sorts: ItemFilters['sort'][] = ['name', 'value', 'sources'];
+/** Reads `#items?q=…&source=…&sort=…` (or `?q=…` before the hash). Unknown values fall back to defaults. */
+export function itemFiltersFromUrl(hash: string, search: string, skills: string[]): ItemFilters {
+  const query = hash.includes('?') ? hash.slice(hash.indexOf('?') + 1) : '';
+  const params = new URLSearchParams(query || search);
+  const source = params.get('source') ?? '';
+  const sort = params.get('sort') as ItemFilters['sort'] | null;
+  return {
+    search: params.get('q') ?? '',
+    source: ['monster', 'none', ...skills].includes(source) ? source : '',
+    sort: sort && sorts.includes(sort) ? sort : defaultItemFilters.sort,
+  };
+}
+export function itemFiltersToHash(filters: ItemFilters): string {
+  const params = new URLSearchParams();
+  if (filters.search) params.set('q', filters.search);
+  if (filters.source) params.set('source', filters.source);
+  if (filters.sort !== defaultItemFilters.sort) params.set('sort', filters.sort);
+  const query = params.toString();
+  return '#items' + (query ? '?' + query : '');
+}

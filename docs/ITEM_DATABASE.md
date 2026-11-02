@@ -10,6 +10,17 @@ Route: `#items`. Build: demo v0.11.2-alpha.4, Steam build 26074343, package SHA-
   - products of the fixed skill tables in `src/data/skills`: per-action probability, mean quantity, items/hour and calculation basis, as documented in [BASE_SKILL_FORMULAS.md](BASE_SKILL_FORMULAS.md).
 - Filters by source (monster drops, one skill, or no verified source), search by item name, ID or source name, and sorting by name, sale value or number of sources.
 
+## Linking to a query
+
+The current search, source filter and order are kept in the address, so a result can be bookmarked or shared:
+
+- `#items?q=raw%20shrimp` — search (item name, ID or source name)
+- `#items?source=fishing` — `monster`, `none` (no verified source) or a skill ID such as `mining`
+- `#items?sort=value` — `name` (default), `value` or `sources`
+- Parameters combine: `#items?q=log&source=woodcutting&sort=value`. A plain `?q=bone` without a hash also opens the item database.
+
+Unknown `source` / `sort` values fall back to the defaults. Typing updates the address in place (no extra history entries).
+
 The join happens at runtime in `src/domain/itemCatalog.ts` (pure logic in `src/domain/items.ts`), so item sources cannot drift from the monster database or the skill tables.
 
 ## Limits

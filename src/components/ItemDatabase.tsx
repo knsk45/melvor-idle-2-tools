@@ -1,6 +1,6 @@
-import { useState } from 'react';
+import { useEffect, useState } from 'react';
 import { itemCatalog } from '../domain/itemCatalog';
-import { defaultItemFilters, selectItems, type ItemFilters, type ItemRecord, type ItemSource } from '../domain/items';
+import { defaultItemFilters, itemFiltersFromUrl, itemFiltersToHash, selectItems, type ItemFilters, type ItemRecord, type ItemSource } from '../domain/items';
 import { shortId } from '../domain/monsters';
 import { itemMessages } from '../i18n/items';
 import './monsters.css';
@@ -65,7 +65,18 @@ function ItemCard({ item: i, lang, skillNames }: { item: ItemRecord; lang: Lang;
 
 export default function ItemDatabase({ lang, skillNames }: { lang: Lang; skillNames: Record<string, string> }) {
   const t = itemMessages[lang];
-  const [filters, setFilters] = useState<ItemFilters>(defaultItemFilters);
+  const fromUrl = () => itemFiltersFromUrl(window.location.hash, window.location.search, itemCatalog.skills);
+  const [filters, setFilters] = useState<ItemFilters>(fromUrl);
+  // Keep the address shareable without adding a history entry per keystroke; replaceState fires no hashchange.
+  useEffect(() => {
+    const hash = itemFiltersToHash(filters);
+    if (window.location.hash !== hash || window.location.search) window.history.replaceState(null, '', window.location.pathname + hash);
+  }, [filters]);
+  useEffect(() => {
+    const handle = () => { if (window.location.hash.startsWith('#items')) { setFilters(fromUrl()); setLimit(24); } };
+    window.addEventListener('hashchange', handle);
+    return () => window.removeEventListener('hashchange', handle);
+  }, []);
   const [limit, setLimit] = useState(24);
   const update = <K extends keyof ItemFilters>(key: K, value: ItemFilters[K]) => { setFilters(s => ({ ...s, [key]: value })); setLimit(24); };
   const rows = selectItems(itemCatalog.rows, filters);

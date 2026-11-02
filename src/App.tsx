@@ -27,7 +27,8 @@ const databases=new Set(['monsters','items']);
 const combatSkills=new Set(['attack','strength','defence','hitpoints','ranged','magic','prayer','slayer']);
 const tables:Record<string,SkillTable>={woodcutting:woodcutting as SkillTable,fishing:fishing as SkillTable,mining:mining as SkillTable,astrology:astrology as SkillTable,beastcrafting:beastcrafting as SkillTable,cooking:cooking as SkillTable,crafting:crafting as SkillTable,farming:farming as SkillTable,firemaking:firemaking as SkillTable,fletching:fletching as SkillTable,herblore:herblore as SkillTable,runecrafting:runecrafting as SkillTable,smithing:smithing as SkillTable,thieving:thieving as SkillTable,ranching:ranching as SkillTable,hunting:hunting as SkillTable};
 const knownSkills=new Set([...databases,...index.skills.map(s=>s.id)]);
-const fromHash=()=>{const id=window.location.hash.slice(1);return knownSkills.has(id)?id:'monsters';};
+// The hash may carry a query (#items?q=…); a bare ?q=… without a hash opens the item database.
+const fromHash=()=>{const id=window.location.hash.slice(1).split('?')[0];if(!id&&new URLSearchParams(window.location.search).has('q'))return 'items';return knownSkills.has(id)?id:'monsters';};
 const skillRu:Record<string,string>={woodcutting:'Рубка дерева',fishing:'Рыбалка',mining:'Добыча руды',cooking:'Кулинария',crafting:'Ремесло',farming:'Земледелие',firemaking:'Разведение огня',fletching:'Изготовление стрел',herblore:'Травничество',hunting:'Охота',runecrafting:'Изготовление рун',smithing:'Кузнечное дело',thieving:'Воровство',ranching:'Животноводство',astrology:'Астрология',agility:'Ловкость',beastcrafting:'Beastcrafting',attack:'Атака',strength:'Сила',defence:'Защита',hitpoints:'Здоровье',ranged:'Дальний бой',magic:'Магия',prayer:'Молитва',slayer:'Slayer'};
 const ordered=[...index.skills].sort((a,b)=>(a.status==='ready'?0:1)-(b.status==='ready'?0:1)||a.name.localeCompare(b.name));
 export function App(){

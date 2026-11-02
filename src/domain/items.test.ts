@@ -1,5 +1,5 @@
 import { describe, expect, it } from 'vitest';
-import { buildItemCatalog, defaultItemFilters, selectItems, type ItemRecord } from './items';
+import { buildItemCatalog, defaultItemFilters, itemFiltersFromUrl, itemFiltersToHash, selectItems, type ItemRecord } from './items';
 import type { MonsterCatalog } from './monsters';
 import type { SkillTable } from './reference';
 import { itemCatalog } from './itemCatalog';
@@ -68,5 +68,30 @@ describe('Item browsing', () => {
     ];
     expect(selectItems(rows, { ...defaultItemFilters, sort: 'value' }).map(i => i.id)).toEqual(['dear', 'cheap', 'unknown']);
     expect(itemCatalog.rows.map(i => i.id)).toEqual(original);
+  });
+});
+
+describe('Item query in the page URL', () => {
+  const skills = ['fishing', 'mining'];
+  it('reads search, source and order from the hash query', () => {
+    expect(itemFiltersFromUrl('#items?q=raw%20shrimp&source=fishing&sort=value', '', skills))
+      .toEqual({ search: 'raw shrimp', source: 'fishing', sort: 'value' });
+    expect(itemFiltersFromUrl('#items?q=stone+sword', '', skills).search).toBe('stone sword');
+  });
+  it('also accepts an ordinary ?q= query before the hash', () => {
+    expect(itemFiltersFromUrl('#items', '?q=bone&source=monster', skills)).toEqual({ ...defaultItemFilters, search: 'bone', source: 'monster' });
+    expect(itemFiltersFromUrl('#items?q=stone', '?q=bone', skills).search).toBe('stone');
+  });
+  it('ignores unknown sources and orders instead of producing an empty or broken list', () => {
+    expect(itemFiltersFromUrl('#items?source=cheating&sort=random', '', skills)).toEqual(defaultItemFilters);
+    expect(itemFiltersFromUrl('#items?source=none', '', skills).source).toBe('none');
+    expect(itemFiltersFromUrl('#items', '', skills)).toEqual(defaultItemFilters);
+  });
+  it('writes only non-default filters back to a shareable hash that reads back identically', () => {
+    expect(itemFiltersToHash(defaultItemFilters)).toBe('#items');
+    const filters = { search: 'raw shrimp & co', source: 'fishing', sort: 'value' as const };
+    const hash = itemFiltersToHash(filters);
+    expect(hash).toBe('#items?q=raw+shrimp+%26+co&source=fishing&sort=value');
+    expect(itemFiltersFromUrl(hash, '', skills)).toEqual(filters);
   });
 });
